@@ -83,7 +83,7 @@ pygmentize :: Pandoc -> Compiler Pandoc
 pygmentize = unsafeCompiler . walkM highlight where
   highlight (CodeBlock opts code) = RawBlock (Format "html") <$> case opts of
     (_, lang:_, _) -> withLanguage lang code
-    _ -> pure $ "<div class =\"highlight\"><pre>" ++ code ++ "</pre></div>"
+    _ -> pure $ "<div class =\"highlight\"><pre>" ++ escapeHtml code ++ "</pre></div>"
   highlight x = pure x
 
   -- Apply language-specific syntax highlighting
