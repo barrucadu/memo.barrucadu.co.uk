@@ -1,0 +1,8 @@
+flags: {}
+packages:
+- '.'
+extra-deps: []
+resolver: lts-8.3
+nix:
+  enable: true
+  packages: [zlib]

@@ -1,0 +1,9 @@
+<ol>
+  $for(memos)$
+    <li>
+      <a href="$url$">$title$</a>
+      &mdash; <time datetime="$isodate$">$ppdate$</time>
+      &mdash; <span class="tags">$tags$</span>
+    </li>
+  $endfor$
+</ol>
