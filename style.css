@@ -101,6 +101,14 @@ dt {
     font-style: italic;
 }
 
+cite {
+    font-style: italic;
+}
+
+cite:before {
+    content: "— ";
+}
+
 /* ***** Syntax Highlighting ***** */
 .highlight {
   white-space: pre;
