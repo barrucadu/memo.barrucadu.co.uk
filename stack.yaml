@@ -4,5 +4,6 @@ packages:
 extra-deps: []
 resolver: lts-8.3
 nix:
+  pure: false
   enable: true
   packages: [zlib]
