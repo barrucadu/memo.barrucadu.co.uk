@@ -58,7 +58,7 @@ footer {
 
 p code, li code, dd code {
     color: #343642;
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 pre {
