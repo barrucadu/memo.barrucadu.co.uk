@@ -152,7 +152,13 @@ irc
 
 yukibot
   ~ As barrucadu in ~/projects/yukibot:<br/>
-    `tmux new-session -syukibot "stack exec yukibot live-configuration.toml"`
+    ```
+    $ tmux new-session -syukibot
+    $ nix-shell shell.nix --indirect --add-root .gcroots/gc
+    $ cat `which ghc`
+    $ # export the NIX_GHC_LIBDIR variable the previous command gives you
+    $ yukibot live-configuration.toml
+    ```
 
 #### Miscellaneous ####
 
