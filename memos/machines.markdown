@@ -7,8 +7,8 @@ date: 2017-03-01
 Naming convention
 -----------------
 
-*Beings* (elder gods, outer gods, people, etc) in the Cthulhu Mythos for physical machines; *places*
-in the Cthulhu Mythos for virtual machines (even though there's only one of those currently).
+*Beings* (elder gods, outer gods, people, etc) in the Cthulhu Mythos for local machines; *places* in
+the Cthulhu Mythos for remote machines (even though there's only one of those currently).
 
 
 Physical machines
