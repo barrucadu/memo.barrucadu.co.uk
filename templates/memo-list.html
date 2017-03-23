@@ -1,6 +1,7 @@
 <ol>
   $for(memos)$
     <li>
+      $if(project)$<span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
       <a href="$url$">$title$</a>
       &mdash; <time datetime="$isodate$">$ppdate$</time>
       &mdash; <span class="tags">$tags$</span>

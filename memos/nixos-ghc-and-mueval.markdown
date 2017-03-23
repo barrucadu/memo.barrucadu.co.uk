@@ -1,6 +1,6 @@
 ---
 title: NixOS, GHCi, and Mueval
-tags: howto, tech
+tags: howto, programming, tech
 date: 2017-03-17
 ---
 

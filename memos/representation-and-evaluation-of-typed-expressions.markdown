@@ -1,6 +1,7 @@
 ---
 title: Representation & Evaluation of Typed Expressions
-tags: tech
+tags: programming, research
+project: spec
 date: 2017-03-23
 ---
 

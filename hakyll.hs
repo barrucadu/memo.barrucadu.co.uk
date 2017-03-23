@@ -2,7 +2,9 @@
 
 module Main where
 
+import Control.Monad (mplus)
 import Data.Char (toLower)
+import Data.Maybe (fromMaybe)
 import Data.Monoid ((<>))
 import Hakyll
 import System.Process (readProcess)
@@ -26,7 +28,7 @@ main = hakyllWith defaultConfiguration $ do
     compile compressCssCompiler
 
   -- Tags
-  tags <- buildTags "memos/*" (fromCapture "tag/*.html")
+  tags <- buildTagsWithProject "memos/*" (fromCapture "tag/*.html")
   tagsRules tags $ \tag ->
     memoList True tags ("Tagged '" ++ tag ++ "'")
 
@@ -88,6 +90,13 @@ pygmentize = unsafeCompiler . walkM highlight where
 
   -- Apply language-specific syntax highlighting
   withLanguage lang = readProcess "pygmentize" ["-l", map toLower lang,  "-f", "html"]
+
+-- | Build tags by merging the "tags" and "project" fields.
+buildTagsWithProject :: MonadMetadata m => Pattern -> (String -> Identifier) -> m Tags
+buildTagsWithProject = buildTagsWith $ \identifier -> do
+  metadata <- getMetadata identifier
+  let fieldValue fld = fromMaybe [] $ (lookupStringList fld metadata) `mplus` (map trim . splitAll "," <$> lookupString fld metadata)
+  pure $ fieldValue "tags" ++ fieldValue "project"
 
 -- | Remove some portion of the route
 dropPat :: String -> Routes

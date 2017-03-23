@@ -77,6 +77,22 @@ a:hover, a:active {
     color: #05b2c2;
 }
 
+.project {
+    color: #ff9e54;
+    font-weight: bold;
+}
+
+.project a:before { content: "["; }
+.project a:after  { content: "]"; }
+
+.project a, .project a:link, .project a:visited {
+    color: #ff9e54;
+}
+
+.project a:hover, .project a:active {
+    color: #c205b2;
+}
+
 hr {
     border: 0;
     width: 100%;
