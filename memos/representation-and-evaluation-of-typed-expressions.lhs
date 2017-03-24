@@ -27,13 +27,19 @@ Here are two representative problems:
 
 Let's get started...
 
+> {-# LANGUAGE KindSignatures #-}
+> {-# LANGUAGE ScopedTypeVariables #-}
+>
 > import Data.Dynamic (Dynamic, dynApply, dynTypeRep)
 > import Data.Function (on)
 > import Data.List (groupBy, nub, sortOn)
 > import Data.Maybe (mapMaybe, maybeToList)
 > import Data.Ord (Down(..))
-> import Data.Typeable (TypeRep, funResultTy)
+> import Data.Proxy (Proxy(..))
+> import Data.Typeable (Typeable, TypeRep, funResultTy, splitTyConApp, typeOf, typeRep)
 > import Data.Void (Void, absurd)
+> import GHC.Exts (Any)
+> import Unsafe.Coerce (unsafeCoerce)
 
 
 Mark 1: A Simple Typed Expression Type
@@ -71,7 +77,7 @@ want to implement that.
 >   show (Named1 ty s) = "(" ++ s ++ " :: " ++ show ty ++ ")"
 >   show (Bound1 ty i) = "(" ++ show i ++ " :: " ++ show ty ++ ")"
 >   show (Let1 _ b e) = "let <" ++ show b ++ "> in <" ++ show e ++ ">"
->   show (Ap1 _ f e)  = "(" ++ show f ++ ") (" ++ show e ++ ")"
+>   show (Ap1  _ f e) = "(" ++ show f ++ ") (" ++ show e ++ ")"
 >
 > -- | Get the type of an expression.
 > typeOf1 :: Exp1 -> TypeRep
@@ -270,7 +276,7 @@ is to add another type parameter.
 >   | Var2 TypeRep (Var2 h)
 >   -- ^ One constructor for holes, named, and bound variables.
 >   | Let2 TypeRep (Exp2 h) (Exp2 h)
->   | Ap2 TypeRep (Exp2 h) (Exp2 h)
+>   | Ap2  TypeRep (Exp2 h) (Exp2 h)
 >
 > instance Show (Exp2 h) where
 >   show (Lit2 _) = "lit"
@@ -287,7 +293,7 @@ is to add another type parameter.
 >   -- ^ Let-bound variables.
 >
 > instance Show (Var2 h) where
->   show (Hole2 _) = "_"
+>   show (Hole2  _) = "_"
 >   show (Named2 s) = s
 >   show (Bound2 i) = show i
 
@@ -306,14 +312,14 @@ Let's introduce two type synonyms to talk about these:
 > type Term2 = Exp2 Void
 >
 > -- | Convert a Schema into a Term if there are no holes.
-> toTerm :: Schema2 -> Maybe Term2
-> toTerm (Lit2 dyn) = Just (Lit2 dyn)
-> toTerm (Var2 ty v) = case v of
+> toTerm2 :: Schema2 -> Maybe Term2
+> toTerm2 (Lit2 dyn) = Just (Lit2 dyn)
+> toTerm2 (Var2 ty v) = case v of
 >   Hole2  _ -> Nothing
 >   Named2 s -> Just (Var2 ty (Named2 s))
 >   Bound2 i -> Just (Var2 ty (Bound2 i))
-> toTerm (Let2 ty b e) = Let2 ty <$> toTerm b <*> toTerm e
-> toTerm (Ap2  ty f e) = Ap2  ty <$> toTerm f <*> toTerm e
+> toTerm2 (Let2 ty b e) = Let2 ty <$> toTerm2 b <*> toTerm2 e
+> toTerm2 (Ap2  ty f e) = Ap2  ty <$> toTerm2 f <*> toTerm2 e
 
 **Evaluation & Hole Removal**: now we can evaluate _terms_ after removing holes from
 _schemas_. Statically-checked guarantees that we're dealing with all of our holes properly, nice!
@@ -340,7 +346,7 @@ _schemas_. Statically-checked guarantees that we're dealing with all of our hole
 > -- | From a schema that may have holes, generate a list of terms with named variables
 > -- substituted instead.
 > terms2 :: (TypeRep -> Char) -> Schema2 -> [Term2]
-> terms2 nf = mapMaybe toTerm . sortOn (Down . length . names2) . go where
+> terms2 nf = mapMaybe toTerm2 . sortOn (Down . length . names2) . go where
 >   go e0 = case hs e0 of
 >     [] -> [e0]
 >     (chosen:_) -> concatMap go
@@ -443,3 +449,342 @@ The rest of the code hasn't changed much, but is included for completeness:
 >     (e', env'', i'') <- go env' i' e
 >     Just (Ap2 ty f' e', env'', i'')
 >   go env i e = Just (e, env, i)
+
+
+Aside: The Implementation of Data.Dynamic
+-----------------------------------------
+
+In the Mark 3 evaluator, we're going to need a function of type `Monad m => m Dynamic -> Dynamic`,
+which "pushes" the `m` inside the `Dynamic`, and of type `Monad m => Dynamic -> Maybe (m Dynamic)`.
+Unfortunately, Data.Dynamic doesn't provide a way to do this, for good reason: it's impossible in
+general! There's no way to know what the type of the dynamic value inside the monad is, so there's
+no way to do this safely.
+
+Fortunately, implementing a Data.Dynamic-lite is pretty simple.
+
+> -- | A dynamic value is a pair of its type and 'Any'. Any is a magical type which is guaranteed to
+> -- | work with 'unsafeCoerce'.
+> data BDynamic = BDynamic { bdynTypeRep :: TypeRep, bdynAny :: Any }
+>
+> instance Show BDynamic where
+>   show = show . bdynTypeRep
+
+(`BDynamic` for "barrucadu's dynamic")
+
+We need to be able to construct and deconstruct dynamic values, these operations do use
+`unsafeCoerce`, but are safe:
+
+> -- | Convert an arbitrary value into a dynamic one.
+> toBDynamic :: Typeable a => a -> BDynamic
+> toBDynamic a = BDynamic (typeOf a) (unsafeCoerce a)
+>
+> -- | Convert a dynamic value into an ordinary value, if the types match.
+> fromBDynamic :: Typeable a => BDynamic -> Maybe a
+> fromBDynamic (BDynamic ty v) = case unsafeCoerce v of
+>   -- this is a bit mind-bending, but the 'typeOf r' here is the type of the 'a', as 'unsafeCoerce
+>   -- v :: a' (regardless of whether it actually is an 'a' value or not). The same result could be
+>   -- achieved using ScopedTypeVariables and 'typeRep'.
+>   r | ty == typeOf r -> Just r
+>     | otherwise      -> Nothing
+
+The final operation needed for the Marks 1 and 2 implementation is function application:
+
+> -- | Dynamically-typed function application.
+> bdynApply :: BDynamic -> BDynamic -> Maybe BDynamic
+> bdynApply (BDynamic ty1 f) (BDynamic ty2 x) = case funResultTy ty1 ty2 of
+>   Just ty3 -> Just (BDynamic ty3 ((unsafeCoerce f) x))
+>   Nothing  -> Nothing
+
+Now we can construct our strange monad-shuffling operations:
+
+> -- | "Push" a functor inside a dynamic value, given the type of the resultant value.
+> --
+> -- This is unsafe because if the type is incorrect and the value is later used as that type, good
+> -- luck.
+> unsafeWrapFunctor :: Functor f => TypeRep -> f BDynamic -> BDynamic
+> unsafeWrapFunctor ty fdyn = BDynamic ty (unsafeCoerce $ fmap bdynAny fdyn)
+>
+> -- | "Extract" a functor from a dynamic value.
+> unwrapFunctor :: forall f. (Functor f, Typeable f) => BDynamic -> Maybe (f BDynamic)
+> unwrapFunctor (BDynamic ty v) = case splitTyConApp ty of
+>     (tyCon, tyArgs)
+>       | tyCon == ftyCon && not (null tyArgs) && init tyArgs == ftyArgs
+>         -> Just $ BDynamic (last tyArgs) <$> unsafeCoerce v
+>     _ -> Nothing
+>   where
+>     (ftyCon, ftyArgs) = splitTyConApp (typeRep (Proxy :: Proxy f))
+
+It's almost a shame that Data.Dynamic doesn't expose enough to implement this. It has gone for a
+safe but limited API. A common Haskell "design" pattern is to have safe public APIs and unsafe but
+publically-exposed "internal" APIs, but base doesn't seem to follow that.
+
+
+Mark 3: Monadic Expressions
+---------------------------
+
+This expression representation is pretty nice, but it's rather cumbersome to express monadic
+operations for a couple of reasons:
+
+1. Everything is monomorphic, so there would need to be a separate `lit` for `>>=` at every desired
+   type.
+
+2. Due to function application having a `Maybe` result, even at a single type writing
+   `ap2 (lit2 ((>>=) :: Type)) e1 >>= \f -> ap2 f e2` is not nice.
+
+3. The original need for this expression representation was for generating Haskell terms, and
+   generating lambda terms is tricky; it would be nice to be able to bind holes directly.
+
+This calls for a third representation of expressions. For reasons that will become apparent when
+looking at the evaluator, we'll specalise this to only working in one monad, and track the monad
+type as another parameter of `Exp`:
+
+> data Exp3 (m :: * -> *) (h :: *)
+>   = Lit3 BDynamic
+>   | Var3 TypeRep (Var3 h)
+>   | Bind3 TypeRep (Exp3 m h) (Exp3 m h)
+>   | Let3  TypeRep (Exp3 m h) (Exp3 m h)
+>   | Ap3   TypeRep (Exp3 m h) (Exp3 m h)
+>
+> instance Show (Exp3 m h) where
+>   show (Lit3 _) = "lit"
+>   show (Var3 ty v) = "(" ++ show v ++ " :: " ++ show ty ++ ")"
+>   show (Bind3 _ b e) = "bind <" ++ show b ++ "> in <" ++ show e ++ ">"
+>   show (Let3  _ b e) = "let <" ++ show b ++ "> in <" ++ show e ++ ">"
+>   show (Ap3   _ f e) = "(" ++ show f ++ ") (" ++ show e ++ ")"
+
+**Construction**: bind is going to be treated just as a let with
+special evaluation rules. This means that de Bruijn indices will be
+able to refer to a bind or a let. Rather than have two separate
+counters for those, we'll just put everything in the same namespace
+(index-space?).
+
+> -- | Bind a collection of holes, if type-correct.
+> let3 :: [Int] -> Schema3 m -> Schema3 m -> Maybe (Schema3 m)
+> let3 is b e0 = Let3 (typeOf3 e0) b <$> letOrBind3 is (typeOf3 b) e0
+>
+> -- | Monadically bind a collection of holes, if type-correct.
+> --
+> -- This has the same indexing behaviour as 'let3'.
+> bind3 :: forall m. Typeable m => [Int] -> Schema3 m -> Schema3 m -> Maybe (Schema3 m)
+> bind3 is b e0 = case (splitTyConApp (typeOf3 b), splitTyConApp (typeOf3 e0)) of
+>     ((btyCon, btyArgs), (etyCon, etyArgs))
+>       | btyCon == mtyCon && btyCon == etyCon && not (null btyArgs) && not (null etyArgs) && mtyArgs == init btyArgs && init btyArgs == init etyArgs
+>         -> Bind3 (typeOf3 e0) b <$> letOrBind3 is (last btyArgs) e0
+>     _ -> Nothing
+>   where
+>     (mtyCon, mtyArgs) = splitTyConApp (typeRep (Proxy :: Proxy m))
+>
+> -- | A helper for 'bind3' and 'let3': bind holes to the top of the expression.
+> letOrBind3 :: [Int] -> TypeRep -> Exp3 m h -> Maybe (Exp3 m h)
+> letOrBind3 is boundTy e0 = fst <$> go 0 0 e0 where
+>   go n i (Var3 ty (Hole3 h))
+>     | i `elem` is = if boundTy == ty then Just (Var3 ty (Bound3 n), i + 1) else Nothing
+>     | otherwise   = Just (Var3 ty (Hole3 h), i + 1)
+>   go n i (Bind3 ty b e) = do -- a new case for Bind3, the same as the case for Let3
+>     (b', i')  <- go n     i  b
+>     (e', i'') <- go (n+1) i' e
+>     Just (Bind3 ty b' e', i'')
+>   go n i (Let3 ty b e) = do
+>     (b', i')  <- go n     i  b
+>     (e', i'') <- go (n+1) i' e
+>     Just (Let3 ty b' e', i'')
+>   go n i (Ap3 ty f e) = do
+>     (f', i')  <- go n i  f
+>     (e', i'') <- go n i' e
+>     Just (Ap3 ty f' e', i'')
+>   go _ i e = Just (e, i)
+
+We could make `letOrBind3` also work for `name3` by carrying around a third state token and letting
+the `Var3` case apply an arbitrary function.
+
+**Evaluation**: the new bind case, unfortunately, complicates things somewhat here. It's *much* more
+awkward to deal with errors during evaluation, but fortunately the only errors that can actually
+arise are unbound named variables: the smart constructors ensure expressions are well-typed and have
+valid de Bruijn indices. This means we can just check the named variables for validity up front and
+then use `error` once we're sure there actually are no errors.
+
+> -- | Evaluate a term
+> eval3 :: forall m. (Monad m, Typeable m) => [(String, BDynamic)] -> Term3 m -> Maybe BDynamic
+> eval3 globals e0
+>     | all check (names3 e0) = Just (go [] e0)
+>     | otherwise = Nothing
+>   where
+>     go locals (Bind3 ty b e) = case (unwrapFunctor :: BDynamic -> Maybe (m BDynamic)) (go locals b) of
+>       Just mdyn -> unsafeWrapFunctor ty $ mdyn >>= \dyn -> case unwrapFunctor (go (dyn:locals) e) of
+>         Just dyn -> dyn
+>         Nothing -> error "type error I can't deal with here!" -- this is unreachable
+>       Nothing -> error "type error I can't deal with here!" -- this is unreachable
+>     go locals (Let3 _ b e) = go (go locals b : locals) e
+>     go locals v@(Var3 _ _) = case env locals v of
+>       Just dyn -> dyn
+>       Nothing -> error "environment error I can't deal with here!" -- this is unreachable
+>     go locals (Ap3 _ f e) = case go locals f `bdynApply` go locals e of
+>       Just dyn -> dyn
+>       Nothing -> error "type error I can't deal with here!" -- this is unreachable
+>     go _ (Lit3 dyn) = dyn
+>
+>     env locals (Var3 _ (Bound3 n))
+>       | length locals > n = Just (locals !! n)
+>       | otherwise = Nothing
+>     env _ (Var3 ty (Named3 s)) = case lookup s globals of
+>       Just dyn | bdynTypeRep dyn == ty -> Just dyn
+>       _ -> Nothing
+>     env _ (Var3 _ (Hole3 v)) = absurd v
+>
+>     check (s, ty) = case lookup s globals of
+>       Just dyn -> bdynTypeRep dyn == ty
+>       Nothing  -> False
+
+Now it becomes apparent why the monad type parameter is needed in the expression type, the evaluator
+uses `>>=`, and so it needs to know which monad to bind it as. An alternative would be to use a type
+like this, but this still restricts you to using a single monad and so doesn't gain anything:
+
+```haskell
+eval3alt :: (Monad m, Typeable m) => proxy m -> [(String, BDynamic)] -> Term3 -> Maybe BDynamic
+```
+
+Here's a little example showing that side-effects do work (when I first did this, they didn't, so
+it's not quite trivial to get right):
+
+```
+λ> r <- newIORef (5::Int)
+λ> let intHole = hole3 $ T.typeOf (5::Int)
+λ> let plusLit = lit3 . toBDynamic $ ((+) :: Int -> Int -> Int)
+λ> let plusTwo = fromJust $ (fromJust $ plusLit `ap3` intHole) `ap3` intHole
+λ> let pureInt = lit3 . toBDynamic $ (pure :: Int -> IO Int)
+λ> let plusTwoIO = fromJust $ pureInt `ap3` plusTwo
+λ> let intAndTimes = (lit3 . toBDynamic $ (modifyIORef r (*7) >> pure (7::Int))) :: Exp3 IO h
+λ> let eval = fromJust $ (fromBDynamic :: BDynamic -> Maybe (IO Int)) =<< eval3 [] =<< toTerm3 =<< bind3 [0,1] intAndTimes plusTwoIO
+λ> eval
+14
+λ> readIORef r
+7
+λ> eval
+14
+λ> readIORef r
+49
+```
+
+Again, the rest of the code hasn't changed much, but is included for
+completeness.
+
+> data Var3 h
+>   = Hole3  h
+>   | Named3 String
+>   | Bound3 Int
+>
+> instance Show (Var3 h) where
+>   show (Hole3  _) = "_"
+>   show (Named3 s) = s
+>   show (Bound3 i) = show i
+>
+> -- | A schema is an expression which may contain holes.
+> type Schema3 m = Exp3 m ()
+>
+> -- | A term is an expression with no holes.
+> type Term3 m = Exp3 m Void
+>
+> -- | Convert a Schema into a Term if there are no holes.
+> toTerm3 :: Schema3 m -> Maybe (Term3 m)
+> toTerm3 (Lit3 dyn) = Just (Lit3 dyn)
+> toTerm3 (Var3 ty v) = case v of
+>   Hole3  _ -> Nothing
+>   Named3 s -> Just (Var3 ty (Named3 s))
+>   Bound3 i -> Just (Var3 ty (Bound3 i))
+> toTerm3 (Bind3 ty b e) = Bind3 ty <$> toTerm3 b <*> toTerm3 e
+> toTerm3 (Let3  ty b e) = Let3  ty <$> toTerm3 b <*> toTerm3 e
+> toTerm3 (Ap3   ty f e) = Ap3   ty <$> toTerm3 f <*> toTerm3 e
+>
+> -- | Get the type of an expression.
+> typeOf3 :: Exp3 m h -> TypeRep
+> typeOf3 (Lit3  dyn)    = bdynTypeRep dyn
+> typeOf3 (Var3  ty _)   = ty
+> typeOf3 (Bind3 ty _ _) = ty
+> typeOf3 (Let3  ty _ _) = ty
+> typeOf3 (Ap3   ty _ _) = ty
+>
+> -- | Get all the holes in an expression, identified by position.
+> holes3 :: Schema3 m -> [(Int, TypeRep)]
+> holes3 = fst . go 0 where
+>   go i (Var3 ty (Hole3 _)) = ([(i, ty)], i + 1) -- tag is ignored
+>   go i (Let3 _ b e) =
+>     let (bhs, i')  = go i  b
+>         (ehs, i'') = go i' e
+>     in (bhs ++ ehs, i'')
+>   go i (Ap3 _ f e) =
+>     let (fhs, i')  = go i  f
+>         (ehs, i'') = go i' e
+>     in (fhs ++ ehs, i'')
+>   go i _ = ([], i)
+>
+> -- | Get all the named variables in an expression.
+> names3 :: Exp3 m h -> [(String, TypeRep)]
+> names3 = nub . go where
+>   go (Var3 ty (Named3 s)) = [(s, ty)]
+>   go (Let3 _ b e) = go b ++ go e
+>   go (Ap3 _ f e) = go f ++ go e
+>   go _ = []
+>
+> -- | Construct a literal value.
+> lit3 :: BDynamic -> Exp3 m h
+> lit3 = Lit3
+>
+> -- | Construct a typed hole.
+> hole3 :: TypeRep -> Schema3 m
+> hole3 ty = Var3 ty (Hole3 ())
+>
+> -- | Perform a function application, if type-correct.
+> ap3 :: Exp3 m h -> Exp3 m h -> Maybe (Exp3 m h)
+> ap3 f e = (\ty -> Ap3 ty f e) <$> typeOf3 f `funResultTy` typeOf3 e
+>
+> -- | Give names to holes, if type-correct.
+> name3 :: [(Int, String)] -> Schema3 m -> Maybe (Schema3 m)
+> name3 is e0 = (\(e,_,_) -> e) <$> go [] 0 e0 where
+>   go env i n@(Var3 ty (Named3 s)) = case lookup s env of
+>     Just sty
+>       | ty == sty -> Just (n, env, i)
+>       | otherwise -> Nothing
+>     Nothing -> Just (n, env, i)
+>   go env i (Var3 ty (Hole3 h)) = case lookup i is of
+>     Just s -> case lookup s env of
+>       Just sty
+>         | ty == sty -> Just (Var3 ty (Named3 s), env, i + 1)
+>         | otherwise -> Nothing
+>       Nothing -> Just (Var3 ty (Named3 s), (s,ty):env, i + 1)
+>     Nothing -> Just (Var3 ty (Hole3 h), env, i + 1)
+>   go env i (Bind3 ty b e) = do -- a new case for Bind3, the same as the case for Let3
+>     (b', env',  i')  <- go env  i  b
+>     (e', env'', i'') <- go env' i' e
+>     Just (Bind3 ty b' e', env'', i'')
+>   go env i (Let3 ty b e) = do
+>     (b', env',  i')  <- go env  i  b
+>     (e', env'', i'') <- go env' i' e
+>     Just (Let3 ty b' e', env'', i'')
+>   go env i (Ap3 ty f e) = do
+>     (f', env',  i')  <- go env  i  f
+>     (e', env'', i'') <- go env' i' e
+>     Just (Ap3 ty f' e', env'', i'')
+>   go env i e = Just (e, env, i)
+>
+> -- | From a schema that may have holes, generate a list of terms with named variables
+> -- substituted instead.
+> terms3 :: (TypeRep -> Char) -> Schema3 m -> [Term3 m]
+> terms3 nf = mapMaybe toTerm3 . sortOn (Down . length . names3) . go where
+>   go e0 = case hs e0 of
+>     [] -> [e0]
+>     (chosen:_) -> concatMap go
+>       [ e | ps <- partitions chosen
+>           , let (((_,tyc):_):_) = ps
+>           , let vname i = if i == 0 then [nf tyc] else nf tyc : show i
+>           , let naming = concat $ zipWith (\i vs -> [(v, vname i) | (v,_) <- vs]) [0..] ps
+>           , e <- maybeToList (name3 naming e0)
+>       ]
+>
+>   -- holes grouped by type
+>   hs = groupBy ((==) `on` snd) . sortOn snd . holes3
+>
+>   -- all partitions of a list
+>   partitions (x:xs) =
+>     [[x]:p | p <- partitions xs] ++
+>     [(x:ys):yss | (ys:yss) <- partitions xs]
+>   partitions [] = [[]]
