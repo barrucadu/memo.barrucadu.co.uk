@@ -36,6 +36,7 @@ import Data.Dynamic (Dynamic, dynApply, dynTypeRep)
 import Data.Function (on)
 import Data.List (groupBy, nub, sortOn)
 import Data.Maybe (mapMaybe, maybeToList)
+import Data.Ord (Down(..))
 import Data.Typeable (TypeRep, funResultTy)
 import Data.Void (Void, absurd)
 ```
@@ -80,12 +81,12 @@ instance Show Exp1 where
 
 -- | Get the type of an expression.
 typeOf1 :: Exp1 -> TypeRep
-typeOf1 (Lit1 dyn) = dynTypeRep dyn
-typeOf1 (Hole1 ty) = ty
+typeOf1 (Lit1   dyn)  = dynTypeRep dyn
+typeOf1 (Hole1  ty)   = ty
 typeOf1 (Named1 ty _) = ty
 typeOf1 (Bound1 ty _) = ty
 typeOf1 (Let1 ty _ _) = ty
-typeOf1 (Ap1 ty _ _)  = ty
+typeOf1 (Ap1  ty _ _) = ty
 
 -- | Get all the holes in an expression, identified by position.
 holes1 :: Exp1 -> [(Int, TypeRep)]
@@ -125,6 +126,10 @@ lit1 = Lit1
 hole1 :: TypeRep -> Exp1
 hole1 = Hole1
 
+-- | Perform a function application, if type-correct.
+ap1 :: Exp1 -> Exp1 -> Maybe Exp1
+ap1 f e = (\ty -> Ap1 ty f e) <$> typeOf1 f `funResultTy` typeOf1 e
+
 -- | Bind a collection of holes, if type-correct.
 --
 -- The binding is applied "atomically", in that you don't need to worry about holes disappearing and
@@ -150,6 +155,12 @@ let1 is b e0 = Let1 (typeOf1 e0) b . fst <$> go 0 0 e0 where
 -- This has the same indexing behaviour as 'let1'.
 name1 :: [(Int, String)] -> Exp1 -> Maybe Exp1
 name1 is e0 = (\(e,_,_) -> e) <$> go [] 0 e0 where
+  go env i n@(Named1 ty s) = case lookup s env of
+    -- if a name gets re-used it had better be at the same type!
+    Just sty
+      | ty == sty -> Just (n, env, i)
+      | otherwise -> Nothing
+    Nothing -> Just (n, env, i)
   go env i (Hole1 ty) = case lookup i is of
     Just s -> case lookup s env of
       Just sty
@@ -166,10 +177,6 @@ name1 is e0 = (\(e,_,_) -> e) <$> go [] 0 e0 where
     (e', env'', i'') <- go env' i' e
     Just (Ap1 ty f' e', env'', i'')
   go env i e = Just (e, env, i)
-
--- | Perform a function application, if type-correct.
-ap1 :: Exp1 -> Exp1 -> Maybe Exp1
-ap1 f e = (\ty -> Ap1 ty f e) <$> typeOf1 f `funResultTy` typeOf1 e
 ```
 
 **Evaluation**: now we have everything in place to evaluate expressions with no unbound
@@ -180,8 +187,8 @@ environment has everything we need) we can get out a value.
 -- | Evaluate an expression if it has no holes.
 eval1 :: [(String, Dynamic)] -> Exp1 -> Maybe Dynamic
 eval1 globals = go [] where
-  -- the local environment is a list of maybe values, with each new scope prepending a value; this
-  -- means that the de Bruijn indices correspond with list indices
+  -- the local environment is a list of values, with each new scope prepending a value; this means
+  -- that the de Bruijn indices correspond with list indices
   go locals (Let1 _ b e) = (\dyn -> go (dyn:locals) e) =<< go locals b
   go locals (Bound1 _ n) = Just (locals !! n)
   -- named variables come from the global environment
@@ -226,7 +233,7 @@ constrained.
 -- This takes a function to assign a letter to each type, subsequent variables of the same type have
 -- digits appended.
 terms1 :: (TypeRep -> Char) -> Exp1 -> [Exp1]
-terms1 nf = reverse . sortOn (length . names1) . go where
+terms1 nf = sortOn (Down . length . names1) . go where
   go e0 = case hs e0 of
     [] -> [e0]
     (chosen:_) -> concatMap go
@@ -267,31 +274,38 @@ Pretty sweet!
 ### Mark 2: More Type Safety
 
 What we have now is pretty good, but it leaves a little to be desired: it would be nice to be able
-to statically forbid passing expressions with holes to `eval`. As always in Haskell, the solution is
-simple: add another type parameter.
-
-The code is mostly the same, look for the in-line comments pointing out the differences.
+to statically forbid passing expressions with holes to `eval`. As always in Haskell, the solution
+is to add another type parameter.
 
 ```haskell
 data Exp2 h
   = Lit2 Dynamic
-  | Hole2 TypeRep h
-  -- ^ All holes get tagged with an `h` value.
-  | Bound2 TypeRep (Either String Int)
-  -- ^ While we're at it, we'll collapse the `Named` and `Bound` constructors into one.
+  | Var2 TypeRep (Var2 h)
+  -- ^ One constructor for holes, named, and bound variables.
   | Let2 TypeRep (Exp2 h) (Exp2 h)
   | Ap2 TypeRep (Exp2 h) (Exp2 h)
 
 instance Show (Exp2 h) where
   show (Lit2 _) = "lit"
-  show (Hole2 ty _) = "(_ :: " ++ show ty ++ ")"
-  show (Bound2 ty (Left  s)) = "(" ++ s ++ " :: " ++ show ty ++ ")"
-  show (Bound2 ty (Right i)) = "(" ++ show i ++ " :: " ++ show ty ++ ")"
+  show (Var2 ty v) = "(" ++ show v ++ " :: " ++ show ty ++ ")"
   show (Let2 _ b e) = "let <" ++ show b ++ "> in <" ++ show e ++ ">"
   show (Ap2 _ f e)  = "(" ++ show f ++ ") (" ++ show e ++ ")"
+
+data Var2 h
+  = Hole2 h
+  -- ^ Holes get a typed tag.
+  | Named2 String
+  -- ^ Environment variables.
+  | Bound2 Int
+  -- ^ Let-bound variables.
+
+instance Show (Var2 h) where
+  show (Hole2 _) = "_"
+  show (Named2 s) = s
+  show (Bound2 i) = show i
 ```
 
-**Schemas and Terms**: What does this hole tag buy us? Well, actually, it lets us very simply forbid
+**Schemas and Terms**: what does this hole tag buy us? Well, actually, it lets us very simply forbid
 the presence of holes! Constructing an `h` value is required to construct a hole, so if we set it to
 `Void`, then no holes can be made at all! If the tag is some inhabited type, then an expression may
 contain holes (but may not).
@@ -309,95 +323,15 @@ type Term2 = Exp2 Void
 -- | Convert a Schema into a Term if there are no holes.
 toTerm :: Schema2 -> Maybe Term2
 toTerm (Lit2 dyn) = Just (Lit2 dyn)
-toTerm (Hole2 _ _) = Nothing
-toTerm (Bound2 ty v) = Just (Bound2 ty v)
+toTerm (Var2 ty v) = case v of
+  Hole2  _ -> Nothing
+  Named2 s -> Just (Var2 ty (Named2 s))
+  Bound2 i -> Just (Var2 ty (Bound2 i))
 toTerm (Let2 ty b e) = Let2 ty <$> toTerm b <*> toTerm e
-toTerm (Ap2 ty f e) = Ap2 ty <$> toTerm f <*> toTerm e
+toTerm (Ap2  ty f e) = Ap2  ty <$> toTerm f <*> toTerm e
 ```
 
-The rest of the code hasn't changed much:
-
-```haskell
--- | Get the type of an expression.
-typeOf2 :: Exp2 h -> TypeRep
-typeOf2 (Lit2 dyn) = dynTypeRep dyn
-typeOf2 (Hole2 ty _) = ty
-typeOf2 (Bound2 ty _) = ty
-typeOf2 (Let2 ty _ _) = ty
-typeOf2 (Ap2 ty _ _)  = ty
-
--- | Get all the holes in a schema, identified by position.
-holes2 :: Schema2 -> [(Int, TypeRep)]
-holes2 = fst . go 0 where
-  go i (Hole2 ty _) = ([(i, ty)], i + 1) -- tag is ignored
-  go i (Let2 _ b e) =
-    let (bhs, i')  = go i  b
-        (ehs, i'') = go i' e
-    in (bhs ++ ehs, i'')
-  go i (Ap2 _ f e) =
-    let (fhs, i')  = go i  f
-        (ehs, i'') = go i' e
-    in (fhs ++ ehs, i'')
-  go i _ = ([], i)
-
--- | Get all the named variables in an expression.
-names2 :: Exp2 h -> [(String, TypeRep)]
-names2 = nub . go where
-  go (Bound2 ty (Left s)) = [(s, ty)]
-  go (Let2 _ b e) = go b ++ go e
-  go (Ap2 _ f e) = go f ++ go e
-  go _ = []
-
--- | Construct a literal value.
-lit2 :: Dynamic -> Exp2 h
-lit2 = Lit2
-
--- | Construct a typed hole.
-hole2 :: TypeRep -> Schema2
-hole2 ty = Hole2 ty () -- holes get tagged with unit
-
--- | Bind a collection of holes, if type-correct.
-let2 :: [Int] -> Schema2 -> Schema2 -> Maybe Schema2
-let2 is b e0 = Let2 (typeOf2 e0) b . fst <$> go 0 0 e0 where
-  go n i (Hole2 ty h)
-    | i `elem` is = if typeOf2 b == ty then Just (Bound2 ty (Right n), i + 1) else Nothing -- tag is ignored
-    | otherwise   = Just (Hole2 ty h, i + 1) -- tag is preserved
-  go n i (Let2 ty b e) = do
-    (b', i')  <- go n     i  b
-    (e', i'') <- go (n+1) i' e
-    Just (Let2 ty b' e', i'')
-  go n i (Ap2 ty f e) = do
-    (f', i')  <- go n i  f
-    (e', i'') <- go n i' e
-    Just (Ap2 ty f' e', i'')
-  go _ i e = Just (e, i)
-
--- | Give names to holes, if type-correct.
-name2 :: [(Int, String)] -> Schema2 -> Maybe Schema2
-name2 is e0 = (\(e,_,_) -> e) <$> go [] 0 e0 where
-  go env i (Hole2 ty h) = case lookup i is of
-    Just s -> case lookup s env of
-      Just sty
-        | ty == sty -> Just (Bound2 ty (Left s), env, i + 1) -- tag is ignored
-        | otherwise -> Nothing
-      Nothing -> Just (Bound2 ty (Left s), (s,ty):env, i + 1) -- tag is ignored
-    Nothing -> Just (Hole2 ty h, env, i + 1) -- tag is preserved
-  go env i (Let2 ty b e) = do
-    (b', env',  i')  <- go env  i  b
-    (e', env'', i'') <- go env' i' e
-    Just (Let2 ty b' e', env'', i'')
-  go env i (Ap2 ty f e) = do
-    (f', env',  i')  <- go env  i  f
-    (e', env'', i'') <- go env' i' e
-    Just (Ap2 ty f' e', env'', i'')
-  go env i e = Just (e, env, i)
-
--- | Perform a function application, if type-correct.
-ap2 :: Exp2 h -> Exp2 h -> Maybe (Exp2 h)
-ap2 f e = (\ty -> Ap2 ty f e) <$> typeOf2 f `funResultTy` typeOf2 e
-```
-
-**Evaluation & Hole Removal**: Now we can evaluate _terms_ after removing holes from
+**Evaluation & Hole Removal**: now we can evaluate _terms_ after removing holes from
 _schemas_. Statically-checked guarantees that we're dealing with all of our holes properly, nice!
 
 ```haskell
@@ -405,22 +339,25 @@ _schemas_. Statically-checked guarantees that we're dealing with all of our hole
 eval2 :: [(String, Dynamic)] -> Term2 -> Maybe Dynamic
 eval2 globals = go [] where
   go locals (Let2 _ b e) = (\dyn -> go (dyn:locals) e) =<< go locals b
-  go locals (Bound2 _ (Right n)) = Just (locals !! n)
-  go _ (Bound2 ty (Left s)) = case lookup s globals of
-    Just dyn | dynTypeRep dyn == ty -> Just dyn
-    _ -> Nothing
+  go locals v@(Var2 _ _) = env locals v
   go locals (Ap2 _ f e) = do
     dynf <- go locals f
     dyne <- go locals e
     dynf `dynApply` dyne
   go _ (Lit2 dyn) = Just dyn
-  -- this code is actually unreachable now
-  go _ (Hole2 _ v) = absurd v
+
+  env locals (Var2 _ (Bound2 n))
+    | length locals > n = Just (locals !! n)
+    | otherwise = Nothing
+  env _ (Var2 ty (Named2 s)) = case lookup s globals of
+    Just dyn | dynTypeRep dyn == ty -> Just dyn
+    _ -> Nothing
+  env _ (Var2 _ (Hole2 v)) = absurd v -- this is actually unreachable now
 
 -- | From a schema that may have holes, generate a list of terms with named variables
 -- substituted instead.
 terms2 :: (TypeRep -> Char) -> Schema2 -> [Term2]
-terms2 nf = mapMaybe toTerm . reverse . sortOn (length . names2) . go where
+terms2 nf = mapMaybe toTerm . sortOn (Down . length . names2) . go where
   go e0 = case hs e0 of
     [] -> [e0]
     (chosen:_) -> concatMap go
@@ -439,4 +376,90 @@ terms2 nf = mapMaybe toTerm . reverse . sortOn (length . names2) . go where
     [[x]:p | p <- partitions xs] ++
     [(x:ys):yss | (ys:yss) <- partitions xs]
   partitions [] = [[]]
+```
+
+The rest of the code hasn't changed much, but is included for completeness:
+
+```haskell
+-- | Get the type of an expression.
+typeOf2 :: Exp2 h -> TypeRep
+typeOf2 (Lit2 dyn)    = dynTypeRep dyn
+typeOf2 (Var2 ty _)   = ty
+typeOf2 (Let2 ty _ _) = ty
+typeOf2 (Ap2  ty _ _) = ty
+
+-- | Get all the holes in an expression, identified by position.
+holes2 :: Schema2 -> [(Int, TypeRep)]
+holes2 = fst . go 0 where
+  go i (Var2 ty (Hole2 _)) = ([(i, ty)], i + 1) -- tag is ignored
+  go i (Let2 _ b e) =
+    let (bhs, i')  = go i  b
+        (ehs, i'') = go i' e
+    in (bhs ++ ehs, i'')
+  go i (Ap2 _ f e) =
+    let (fhs, i')  = go i  f
+        (ehs, i'') = go i' e
+    in (fhs ++ ehs, i'')
+  go i _ = ([], i)
+
+-- | Get all the named variables in an expression.
+names2 :: Exp2 h -> [(String, TypeRep)]
+names2 = nub . go where
+  go (Var2 ty (Named2 s)) = [(s, ty)]
+  go (Let2 _ b e) = go b ++ go e
+  go (Ap2 _ f e) = go f ++ go e
+  go _ = []
+
+-- | Construct a literal value.
+lit2 :: Dynamic -> Exp2 h
+lit2 = Lit2
+
+-- | Construct a typed hole.
+hole2 :: TypeRep -> Schema2
+hole2 ty = Var2 ty (Hole2 ()) -- holes get tagged with unit
+
+-- | Perform a function application, if type-correct.
+ap2 :: Exp2 h -> Exp2 h -> Maybe (Exp2 h)
+ap2 f e = (\ty -> Ap2 ty f e) <$> typeOf2 f `funResultTy` typeOf2 e
+
+-- | Bind a collection of holes, if type-correct.
+let2 :: [Int] -> Schema2 -> Schema2 -> Maybe Schema2
+let2 is b e0 = Let2 (typeOf2 e0) b . fst <$> go 0 0 e0 where
+  go n i (Var2 ty (Hole2 h))
+    | i `elem` is = if typeOf2 b == ty then Just (Var2 ty (Bound2 n), i + 1) else Nothing -- tag is ignored
+    | otherwise   = Just (Var2 ty (Hole2 h), i + 1) -- tag is preserved
+  go n i (Let2 ty b e) = do
+    (b', i')  <- go n     i  b
+    (e', i'') <- go (n+1) i' e
+    Just (Let2 ty b' e', i'')
+  go n i (Ap2 ty f e) = do
+    (f', i')  <- go n i  f
+    (e', i'') <- go n i' e
+    Just (Ap2 ty f' e', i'')
+  go _ i e = Just (e, i)
+
+-- | Give names to holes, if type-correct.
+name2 :: [(Int, String)] -> Schema2 -> Maybe Schema2
+name2 is e0 = (\(e,_,_) -> e) <$> go [] 0 e0 where
+  go env i n@(Var2 ty (Named2 s)) = case lookup s env of
+    Just sty
+      | ty == sty -> Just (n, env, i)
+      | otherwise -> Nothing
+    Nothing -> Just (n, env, i)
+  go env i (Var2 ty (Hole2 h)) = case lookup i is of
+    Just s -> case lookup s env of
+      Just sty
+        | ty == sty -> Just (Var2 ty (Named2 s), env, i + 1) -- tag is ignored
+        | otherwise -> Nothing
+      Nothing -> Just (Var2 ty (Named2 s), (s,ty):env, i + 1) -- tag is ignored
+    Nothing -> Just (Var2 ty (Hole2 h), env, i + 1) -- tag is preserved
+  go env i (Let2 ty b e) = do
+    (b', env',  i')  <- go env  i  b
+    (e', env'', i'') <- go env' i' e
+    Just (Let2 ty b' e', env'', i'')
+  go env i (Ap2 ty f e) = do
+    (f', env',  i')  <- go env  i  f
+    (e', env'', i'') <- go env' i' e
+    Just (Ap2 ty f' e', env'', i'')
+  go env i e = Just (e, env, i)
 ```
