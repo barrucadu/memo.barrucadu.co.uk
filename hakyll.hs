@@ -88,8 +88,13 @@ pygmentize = unsafeCompiler . walkM highlight where
     _ -> pure $ "<div class =\"highlight\"><pre>" ++ escapeHtml code ++ "</pre></div>"
   highlight x = pure x
 
-  -- Apply language-specific syntax highlighting
-  withLanguage lang = readProcess "pygmentize" ["-l", map toLower lang,  "-f", "html"]
+  -- Apply language-specific syntax highlighting. For some reason
+  -- Haskell source in .lhs files is reported as "sourcecode". There
+  -- may be other edge cases, but as I never want to highlight
+  -- anything other than Haskell that is fine.
+  withLanguage lang = let lang' = map toLower lang in if lang' == "sourcecode" then go "haskell" else go lang'
+    where
+      go highlightLang = readProcess "pygmentize" ["-l", highlightLang,  "-f", "html"]
 
 -- | Build tags by merging the "tags" and "project" fields.
 buildTagsWithProject :: MonadMetadata m => Pattern -> (String -> Identifier) -> m Tags
