@@ -788,3 +788,122 @@ completeness.
 >     [[x]:p | p <- partitions xs] ++
 >     [(x:ys):yss | (ys:yss) <- partitions xs]
 >   partitions [] = [[]]
+
+
+Aside: Limited Polymorphism
+---------------------------
+
+The representation so far is good, and lets us express everything we want, but it's still not very
+friendly to use in one common case: polymorphic monadic functions.
+
+There are many monadic operations of the type `Monad m => m a -> m ()`: the actual type of the first
+argument is ignored. At the moment, dealing with such terms requires either specialising that `a` to
+each concrete type used, or using something like `void` and specialising *that*.
+
+Implementing full-blown Haskell polymorphism would be a pain, but this is a small and irritating
+enough case that it's worth dealing with.
+
+Presenting (trumpets please), the "ignore" type:
+
+> -- | A special type for enabling basic polymorphism.
+> --
+> -- A function parameter of type @m Ignore@ unifies with values of any type @m a@, where @fmap
+> -- (const Ignore)@ is applied to the parameter automatically. This avoids the need to clutter
+> -- expressions with calls to 'void', or some other such function.
+> data Ignore = Ignore deriving (Bounded, Enum, Eq, Ord, Read, Show)
+
+`Ignore` is going to give us our limited polymorphism, by changing the typing rules for `ap3` and
+evaluation rules for `Ap3` slightly.
+
+**Application**: function application is as normal, with the exception that if the formal parameter
+has type `m Ignore` and the actual parameter has type `m a`, for any `a`, then the application also
+succeeds:
+
+> -- | Perform a function application, if type-correct.
+> --
+> -- There is a special case, see the comment of the 'Ignore' type.
+> ap3ig :: forall m h. (Applicative m, Typeable m) => Exp3 m h -> Exp3 m h -> Maybe (Exp3 m h)
+> ap3ig f e = case (splitTyConApp (typeOf3 f), splitTyConApp (typeOf3 e)) of
+>     ((_, [fargTy,fresTy]), (etyCon, etyArgs))
+>       -- check if the formal parameter is of type @m Ignore@ and the actual parameter is of type @m a@
+>       | fargTy == ignoreTy && etyCon == mtyCon && not (null etyArgs) && mtyArgs == init etyArgs -> Just (Ap3 fresTy f e)
+>       -- otherwise try normal function application
+>       | otherwise -> (\ty -> Ap3 ty f e) <$> typeOf3 f `funResultTy` typeOf3 e
+>     _ -> Nothing
+>   where
+>     ignoreTy = typeOf (pure Ignore :: m Ignore)
+>     (mtyCon, mtyArgs) = splitTyConApp (typeRep (Proxy :: Proxy m))
+
+**Evaluation**: evaluation of applications has an analogous case. When applying a function, the type
+of the formal parametr is checked and, if it's `m Ignore`, the argument gets `fmap (const Ignore)`
+applied:
+
+> -- | Evaluate a term
+> eval3ig :: forall m. (Monad m, Typeable m) => [(String, BDynamic)] -> Term3 m -> Maybe BDynamic
+> eval3ig globals e0
+>     | all check (names3 e0) = Just (go [] e0)
+>     | otherwise = Nothing
+>   where
+>     go locals (Bind3 ty b e) = case (unwrapFunctor :: BDynamic -> Maybe (m BDynamic)) (go locals b) of
+>       Just mdyn -> unsafeWrapFunctor ty $ mdyn >>= \dyn -> case unwrapFunctor (go (dyn:locals) e) of
+>         Just dyn -> dyn
+>         Nothing -> error "type error I can't deal with here!"
+>       Nothing -> error "type error I can't deal with here!"
+>     go locals (Let3 _ b e) = go (go locals b : locals) e
+>     go locals v@(Var3 _ _) = case env locals v of
+>       Just dyn -> dyn
+>       Nothing -> error "environment error I can't deal with here!"
+>     go locals (Ap3 _ f e) =
+>       let f' = go locals f
+>           e' = go locals e
+>       in case f' `bdynApply` (if hasIgnoreArg f' then ignore e' else e') of
+>         Just dyn -> dyn
+>         Nothing -> error "type error I can't deal with here!"
+>     go _ (Lit3 dyn) = dyn
+>
+>     env locals (Var3 _ (Bound3 n))
+>       | length locals > n = Just (locals !! n)
+>       | otherwise = Nothing
+>     env _ (Var3 ty (Named3 s)) = case lookup s globals of
+>       Just dyn | bdynTypeRep dyn == ty -> Just dyn
+>       _ -> Nothing
+>     env _ (Var3 _ (Hole3 v)) = absurd v
+>
+>     hasIgnoreArg fdyn =
+>       let (_, [fargTy,_]) = splitTyConApp (bdynTypeRep fdyn)
+>       in fargTy == ignoreTy
+>
+>     ignore dyn = case (unwrapFunctor :: BDynamic -> Maybe (m BDynamic)) dyn of
+>       Just ma -> unsafeToBDynamic ignoreTy (const Ignore <$> ma)
+>       Nothing -> error "non-monadic value I can't deal with here!" -- this is unreachable
+>
+>     ignoreTy = typeOf (pure Ignore :: m Ignore)
+>
+>     check (s, ty) = case lookup s globals of
+>       Just dyn -> bdynTypeRep dyn == ty
+>       Nothing  -> False
+
+The final piece of the puzzle is this:
+
+> -- | Convert an arbitrary value into a dynamic value, given its type.
+> --
+> -- This is unsafe because if the type is incorrect and the value is later used as that type, good
+> -- luck.
+> unsafeToBDynamic :: TypeRep -> a -> BDynamic
+> unsafeToBDynamic ty = BDynamic ty . unsafeCoerce
+
+And a demo:
+
+```
+λ> r <- newIORef (5::Int)
+λ> let double = lit3 $ toBDynamic ((\x -> x >> x >> pure ()) :: IO Ignore -> IO ()) :: Exp3 IO h
+λ> let addOne = lit3 $ toBDynamic (modifyIORef r (+1)) :: Exp3 IO h
+λ> let addTwo = fromJust $ double `ap3ig` addOne
+λ> let eval = fromJust $ (fromBDynamic :: BDynamic -> Maybe (IO ())) =<< eval3ig [] =<< toTerm3 addTwo
+λ> eval
+λ> readIORef r
+7
+λ> eval
+λ> readIORef r
+9
+```
