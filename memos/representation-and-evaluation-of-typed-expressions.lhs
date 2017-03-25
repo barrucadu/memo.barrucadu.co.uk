@@ -57,7 +57,7 @@ want to implement that.
 > -- | A type for expressions. This would not be exported by actual library code, to prevent the user
 > -- from mucking around with the types.
 > data Exp1
->   = Lit1 Dynamic
+>   = Lit1 String Dynamic
 >   -- ^ Literal values are just dynamically-wrapped Haskell values.
 >   | Hole1 TypeRep
 >   -- ^ "Holes" are free variables, identified by their position in the tree.
@@ -72,7 +72,7 @@ want to implement that.
 >   -- ^ The parameter is assumed to be of the correct type for the function.
 >
 > instance Show Exp1 where
->   show (Lit1 _) = "lit"
+>   show (Lit1 s _) = s
 >   show (Hole1 ty) = "(_ :: " ++ show ty ++ ")"
 >   show (Named1 ty s) = "(" ++ s ++ " :: " ++ show ty ++ ")"
 >   show (Bound1 ty i) = "(" ++ show i ++ " :: " ++ show ty ++ ")"
@@ -81,7 +81,7 @@ want to implement that.
 >
 > -- | Get the type of an expression.
 > typeOf1 :: Exp1 -> TypeRep
-> typeOf1 (Lit1   dyn)  = dynTypeRep dyn
+> typeOf1 (Lit1 _ dyn)  = dynTypeRep dyn
 > typeOf1 (Hole1  ty)   = ty
 > typeOf1 (Named1 ty _) = ty
 > typeOf1 (Bound1 ty _) = ty
@@ -117,7 +117,7 @@ it makes it easier to generate terms programmatically, as you simply try all pos
 the ones which succeed.
 
 > -- | Construct a literal value.
-> lit1 :: Dynamic -> Exp1
+> lit1 :: String -> Dynamic -> Exp1
 > lit1 = Lit1
 >
 > -- | Construct a typed hole.
@@ -196,7 +196,7 @@ environment has everything we need) we can get out a value.
 >     dynf <- go locals f
 >     dyne <- go locals e
 >     dynf `dynApply` dyne
->   go _ (Lit1 dyn) = Just dyn
+>   go _ (Lit1 _ dyn) = Just dyn
 >   go _ (Hole1 _)  = Nothing
 
 **Removing Holes**: we still have one more problem, it would be nice for holes to be given names
@@ -252,13 +252,13 @@ Here's an example from ghci:
 ```
 λ> let intHole  = hole1 $ T.typeOf (5::Int)
 λ> let boolHole = hole1 $ T.typeOf True
-λ> let ibf      = lit1 (D.toDyn ((\_ _ _ a -> a) :: Int -> Bool -> Bool -> Int -> Int))
+λ> let ibf      = lit1 "f" (D.toDyn ((\_ _ _ a -> a) :: Int -> Bool -> Bool -> Int -> Int))
 λ> let ibfExp   = fromJust $ do { x <- ibf `ap1` intHole; y <- x `ap1` boolHole; z <- y `ap1` boolHole; z `ap1` intHole }
 λ> mapM_ print $ terms1 (head.show) ibfExp
-((((lit) ((I :: Int))) ((B :: Bool))) ((B1 :: Bool))) ((I1 :: Int))
-((((lit) ((I :: Int))) ((B :: Bool))) ((B1 :: Bool))) ((I :: Int))
-((((lit) ((I :: Int))) ((B :: Bool))) ((B :: Bool))) ((I1 :: Int))
-((((lit) ((I :: Int))) ((B :: Bool))) ((B :: Bool))) ((I :: Int))
+((((f) ((I :: Int))) ((B :: Bool))) ((B1 :: Bool))) ((I1 :: Int))
+((((f) ((I :: Int))) ((B :: Bool))) ((B1 :: Bool))) ((I :: Int))
+((((f) ((I :: Int))) ((B :: Bool))) ((B :: Bool))) ((I1 :: Int))
+((((f) ((I :: Int))) ((B :: Bool))) ((B :: Bool))) ((I :: Int))
 ```
 
 Pretty sweet!
@@ -272,14 +272,14 @@ to statically forbid passing expressions with holes to `eval`. As always in Hask
 is to add another type parameter.
 
 > data Exp2 h
->   = Lit2 Dynamic
+>   = Lit2 String Dynamic
 >   | Var2 TypeRep (Var2 h)
 >   -- ^ One constructor for holes, named, and bound variables.
 >   | Let2 TypeRep (Exp2 h) (Exp2 h)
 >   | Ap2  TypeRep (Exp2 h) (Exp2 h)
 >
 > instance Show (Exp2 h) where
->   show (Lit2 _) = "lit"
+>   show (Lit2 s _) = s
 >   show (Var2 ty v) = "(" ++ show v ++ " :: " ++ show ty ++ ")"
 >   show (Let2 _ b e) = "let <" ++ show b ++ "> in <" ++ show e ++ ">"
 >   show (Ap2 _ f e)  = "(" ++ show f ++ ") (" ++ show e ++ ")"
@@ -313,7 +313,7 @@ Let's introduce two type synonyms to talk about these:
 >
 > -- | Convert a Schema into a Term if there are no holes.
 > toTerm2 :: Schema2 -> Maybe Term2
-> toTerm2 (Lit2 dyn) = Just (Lit2 dyn)
+> toTerm2 (Lit2 s dyn) = Just (Lit2 s dyn)
 > toTerm2 (Var2 ty v) = case v of
 >   Hole2  _ -> Nothing
 >   Named2 s -> Just (Var2 ty (Named2 s))
@@ -333,7 +333,7 @@ _schemas_. Statically-checked guarantees that we're dealing with all of our hole
 >     dynf <- go locals f
 >     dyne <- go locals e
 >     dynf `dynApply` dyne
->   go _ (Lit2 dyn) = Just dyn
+>   go _ (Lit2 _ dyn) = Just dyn
 >
 >   env locals (Var2 _ (Bound2 n))
 >     | length locals > n = Just (locals !! n)
@@ -370,7 +370,7 @@ The rest of the code hasn't changed much, but is included for completeness:
 
 > -- | Get the type of an expression.
 > typeOf2 :: Exp2 h -> TypeRep
-> typeOf2 (Lit2 dyn)    = dynTypeRep dyn
+> typeOf2 (Lit2 _ dyn)  = dynTypeRep dyn
 > typeOf2 (Var2 ty _)   = ty
 > typeOf2 (Let2 ty _ _) = ty
 > typeOf2 (Ap2  ty _ _) = ty
@@ -398,7 +398,7 @@ The rest of the code hasn't changed much, but is included for completeness:
 >   go _ = []
 >
 > -- | Construct a literal value.
-> lit2 :: Dynamic -> Exp2 h
+> lit2 :: String -> Dynamic -> Exp2 h
 > lit2 = Lit2
 >
 > -- | Construct a typed hole.
@@ -539,14 +539,14 @@ looking at the evaluator, we'll specalise this to only working in one monad, and
 type as another parameter of `Exp`:
 
 > data Exp3 (m :: * -> *) (h :: *)
->   = Lit3 BDynamic
+>   = Lit3 String BDynamic
 >   | Var3 TypeRep (Var3 h)
 >   | Bind3 TypeRep (Exp3 m h) (Exp3 m h)
 >   | Let3  TypeRep (Exp3 m h) (Exp3 m h)
 >   | Ap3   TypeRep (Exp3 m h) (Exp3 m h)
 >
 > instance Show (Exp3 m h) where
->   show (Lit3 _) = "lit"
+>   show (Lit3 s _) = s
 >   show (Var3 ty v) = "(" ++ show v ++ " :: " ++ show ty ++ ")"
 >   show (Bind3 _ b e) = "bind <" ++ show b ++ "> in <" ++ show e ++ ">"
 >   show (Let3  _ b e) = "let <" ++ show b ++ "> in <" ++ show e ++ ">"
@@ -621,7 +621,7 @@ then use `error` once we're sure there actually are no errors.
 >     go locals (Ap3 _ f e) = case go locals f `bdynApply` go locals e of
 >       Just dyn -> dyn
 >       Nothing -> error "type error I can't deal with here!" -- this is unreachable
->     go _ (Lit3 dyn) = dyn
+>     go _ (Lit3 _ dyn) = dyn
 >
 >     env locals (Var3 _ (Bound3 n))
 >       | length locals > n = Just (locals !! n)
@@ -649,11 +649,11 @@ it's not quite trivial to get right):
 ```
 λ> r <- newIORef (5::Int)
 λ> let intHole = hole3 $ T.typeOf (5::Int)
-λ> let plusLit = lit3 . toBDynamic $ ((+) :: Int -> Int -> Int)
+λ> let plusLit = lit3 "+" . toBDynamic $ ((+) :: Int -> Int -> Int)
 λ> let plusTwo = fromJust $ (fromJust $ plusLit `ap3` intHole) `ap3` intHole
-λ> let pureInt = lit3 . toBDynamic $ (pure :: Int -> IO Int)
+λ> let pureInt = lit3 "pure" . toBDynamic $ (pure :: Int -> IO Int)
 λ> let plusTwoIO = fromJust $ pureInt `ap3` plusTwo
-λ> let intAndTimes = (lit3 . toBDynamic $ (modifyIORef r (*7) >> pure (7::Int))) :: Exp3 IO h
+λ> let intAndTimes = (lit3 "*2" . toBDynamic $ (modifyIORef r (*7) >> pure (7::Int))) :: Exp3 IO h
 λ> let eval = fromJust $ (fromBDynamic :: BDynamic -> Maybe (IO Int)) =<< eval3 [] =<< toTerm3 =<< bind3 [0,1] intAndTimes plusTwoIO
 λ> eval
 14
@@ -686,7 +686,7 @@ completeness.
 >
 > -- | Convert a Schema into a Term if there are no holes.
 > toTerm3 :: Schema3 m -> Maybe (Term3 m)
-> toTerm3 (Lit3 dyn) = Just (Lit3 dyn)
+> toTerm3 (Lit3 s dyn) = Just (Lit3 s dyn)
 > toTerm3 (Var3 ty v) = case v of
 >   Hole3  _ -> Nothing
 >   Named3 s -> Just (Var3 ty (Named3 s))
@@ -697,7 +697,7 @@ completeness.
 >
 > -- | Get the type of an expression.
 > typeOf3 :: Exp3 m h -> TypeRep
-> typeOf3 (Lit3  dyn)    = bdynTypeRep dyn
+> typeOf3 (Lit3  _ dyn)  = bdynTypeRep dyn
 > typeOf3 (Var3  ty _)   = ty
 > typeOf3 (Bind3 ty _ _) = ty
 > typeOf3 (Let3  ty _ _) = ty
@@ -726,7 +726,7 @@ completeness.
 >   go _ = []
 >
 > -- | Construct a literal value.
-> lit3 :: BDynamic -> Exp3 m h
+> lit3 :: String -> BDynamic -> Exp3 m h
 > lit3 = Lit3
 >
 > -- | Construct a typed hole.
@@ -859,7 +859,7 @@ applied:
 >       in case f' `bdynApply` (if hasIgnoreArg f' then ignore e' else e') of
 >         Just dyn -> dyn
 >         Nothing -> error "type error I can't deal with here!"
->     go _ (Lit3 dyn) = dyn
+>     go _ (Lit3 _ dyn) = dyn
 >
 >     env locals (Var3 _ (Bound3 n))
 >       | length locals > n = Just (locals !! n)
