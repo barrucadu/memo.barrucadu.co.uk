@@ -126,7 +126,7 @@ schemas. The ones which return a `Just` are good and shall be kept.
 
 Here's a small demo:
 
-```haskell
+```
 demo1 :: Generator1 IO
 demo1 = create1
   [ hole $ typeRep (Proxy :: Proxy Int)
@@ -307,7 +307,7 @@ The `schemas` and `create` code are basically the same:
 
 Our demo now looks much better:
 
-```haskell
+```
 demo2 :: Generator2 IO ()
 demo2 = create2 $ map (\e -> (e, ()))
   [ hole $ typeRep (Proxy :: Proxy Int)

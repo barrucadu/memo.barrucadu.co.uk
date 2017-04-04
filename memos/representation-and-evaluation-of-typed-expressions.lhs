@@ -204,13 +204,13 @@ automatically, and not just individual holes, but groups of holes too.
 
 For example, if we have an expression like so:
 
-```haskell
+```
 f (_ :: Int) (_ :: Bool) (_ :: Bool) (_ :: Int)
 ```
 
 It would be nice to be able to generate these expressions automatically:
 
-```haskell
+```
 f (w :: Int) (x :: Bool) (y :: Bool) (z :: Int)
 f (w :: Int) (x :: Bool) (y :: Bool) (w :: Int)
 f (w :: Int) (x :: Bool) (x :: Bool) (z :: Int)
@@ -639,7 +639,7 @@ Now it becomes apparent why the monad type parameter is needed in the expression
 uses `>>=`, and so it needs to know which monad to bind it as. An alternative would be to use a type
 like this, but this still restricts you to using a single monad and so doesn't gain anything:
 
-```haskell
+```
 eval3alt :: (Monad m, Typeable m) => proxy m -> [(String, BDynamic)] -> Term3 -> Maybe BDynamic
 ```
 

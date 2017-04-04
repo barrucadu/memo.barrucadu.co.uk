@@ -12,7 +12,7 @@ later compare schemas.
 The problem is: given two terms (from different schemas) and their results, how do we compare them?
 For instance, consider we have two terms:
 
-```haskell
+```
 term1 = f (x :: Int) (y :: Int)  (z :: Bool)
 term2 = g (x :: Int) (y :: Bool) (z :: Bool)
 ```
@@ -25,7 +25,7 @@ We can simplify the problem a little by not changing the number of unique variab
 only restricting ourselves to identifying (or not) variables across terms. Here are some possible
 projections of those terms:
 
-```haskell
+```
 f x1 y1 z1 =?= g x1 y2 z2
 f x1 y1 z1 =?= g x2 z1 z2
 f x1 y1 z1 =?= g x2 y2 z1
@@ -34,6 +34,9 @@ and so on
 ```
 
 So we want to produce a *set* of all such type-correct projections.
+
+This memo is a literate Haskell file (though confusingly I mix source with examples, which are NOT
+syntax-highlighted), and we'll need this:
 
 > {-# LANGUAGE LambdaCase #-}
 
@@ -68,7 +71,7 @@ need anything other than variable names and types, so let's just go for that:
 
 Our challenge is to find two functions:
 
-```haskell
+```
 projections :: Term -> Term -> [[(These Name Name, Type)]]
 renaming    :: (Type -> Name) -> [(These Name Name, Type)] -> ([(Name, Name)], [(Name, Name)])
 ```
