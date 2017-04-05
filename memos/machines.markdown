@@ -1,7 +1,7 @@
 ---
 title: Machines
 tags: howto, possessions, tech
-date: 2017-03-01
+date: 2017-04-05
 ---
 
 Naming convention
@@ -152,13 +152,7 @@ irc
 
 yukibot
   ~ As barrucadu in ~/projects/yukibot:<br/>
-    ```
-    $ tmux new-session -syukibot
-    $ nix-shell shell.nix --indirect --add-root .gcroots/gc
-    $ cat `which ghc`
-    $ # export the NIX_GHC_LIBDIR variable the previous command gives you
-    $ yukibot live-configuration.toml
-    ```
+    `./run-yukibot`
 
 #### Miscellaneous ####
 
