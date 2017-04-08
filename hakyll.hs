@@ -4,7 +4,7 @@ module Main where
 
 import Control.Monad (mplus)
 import Data.Char (toLower)
-import Data.Maybe (fromMaybe)
+import Data.Maybe (fromMaybe, isJust)
 import Data.Monoid ((<>))
 import Hakyll
 import System.Process (readProcess)
@@ -28,7 +28,7 @@ main = hakyllWith defaultConfiguration $ do
     compile compressCssCompiler
 
   -- Tags
-  tags <- buildTagsWithProject "memos/*" (fromCapture "tag/*.html")
+  tags <- buildTagsWithExtra "memos/*" (fromCapture "tag/*.html")
   tagsRules tags $ \tag ->
     memoList True tags ("Tagged '" ++ tag ++ "'")
 
@@ -96,12 +96,14 @@ pygmentize = unsafeCompiler . walkM highlight where
     where
       go highlightLang = readProcess "pygmentize" ["-l", highlightLang,  "-f", "html"]
 
--- | Build tags by merging the "tags" and "project" fields.
-buildTagsWithProject :: MonadMetadata m => Pattern -> (String -> Identifier) -> m Tags
-buildTagsWithProject = buildTagsWith $ \identifier -> do
+-- | Build tags by merging the "tags" and "project" fields and adding
+-- the "important" tag if that field is present.
+buildTagsWithExtra :: MonadMetadata m => Pattern -> (String -> Identifier) -> m Tags
+buildTagsWithExtra = buildTagsWith $ \identifier -> do
   metadata <- getMetadata identifier
-  let fieldValue fld = fromMaybe [] $ (lookupStringList fld metadata) `mplus` (map trim . splitAll "," <$> lookupString fld metadata)
-  pure $ fieldValue "tags" ++ fieldValue "project"
+  let fieldValue fld = fromMaybe [] $ lookupStringList fld metadata `mplus` (map trim . splitAll "," <$> lookupString fld metadata)
+  let hasField   fld = isJust (lookupString fld metadata)
+  pure $ ["important" | hasField "important"] ++ fieldValue "project" ++ fieldValue "tags"
 
 -- | Remove some portion of the route
 dropPat :: String -> Routes

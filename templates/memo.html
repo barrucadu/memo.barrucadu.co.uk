@@ -1,6 +1,10 @@
 <article>
   <header>
-    <h1>$if(project)$<span class="project"><a href="/tag/$project$.html">$project$</a></span> $endif$$title$</h1>
+    <h1>
+      $if(important)$<span class="important"><a href="/tag/important.html">!</a></span>$endif$
+      $if(project)$<span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
+      $title$
+    </h1>
     <div>
       <time datetime="$isodate$">$ppdate$</time>
       &mdash; <span class="tags">$tags$</span>

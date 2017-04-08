@@ -2,6 +2,7 @@
 title: Memos vs. Blog Posts
 tags: meta, writing
 date: 2017-03-01
+important: true
 ---
 
 The major differences between memos and blog posts are two: *audience* and *intent*:

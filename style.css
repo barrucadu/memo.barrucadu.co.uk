@@ -93,6 +93,22 @@ a:hover, a:active {
     color: #c205b2;
 }
 
+.important {
+    color: #fb0c06;
+    font-weight: bold;
+}
+
+.important a:before { content: "("; }
+.important a:after  { content: ")"; }
+
+.important a, .important a:link, .important a:visited {
+    color: #fb0c06;
+}
+
+.important a:hover, .important a:active {
+    color: #ffa50b;
+}
+
 hr {
     border: 0;
     width: 100%;
