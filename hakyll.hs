@@ -9,6 +9,7 @@ import Data.Monoid ((<>))
 import Hakyll
 import System.Process (readProcess)
 import Text.Pandoc.Definition (Pandoc, Block(..), Format(..))
+import Text.Pandoc.Options (WriterOptions(..))
 import Text.Pandoc.Walk (walkM)
 
 main :: IO ()
@@ -74,10 +75,14 @@ memoCtx tags = mconcat
 -- | The Pandoc compiler, but using pygments/pygmentize for syntax
 -- highlighting.
 pandocWithPygments :: Compiler (Item String)
-pandocWithPygments = pandocCompilerWithTransformM
-                       defaultHakyllReaderOptions
-                       defaultHakyllWriterOptions
-                       pygmentize
+pandocWithPygments = pandocCompilerWithTransformM ropts wopts pygmentize where
+  ropts = defaultHakyllReaderOptions
+  wopts = defaultHakyllWriterOptions
+    { writerTableOfContents = True
+    , writerTOCDepth = 5
+    , writerSectionDivs = True
+    , writerTemplate = Just "$if(toc)$<div id=\"contents\">$toc$</div>$endif$$body$"
+    }
 
 -- | Apply pygments/pygmentize syntax highlighting to a Pandoc
 -- document.

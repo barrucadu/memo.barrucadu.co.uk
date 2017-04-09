@@ -109,6 +109,28 @@ a:hover, a:active {
     color: #ffa50b;
 }
 
+#contents {
+    float:left;
+    border: 1px solid #ddd;
+    margin: 0 2em 0 1em;
+    padding: 1em;
+}
+
+#contents h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#contents ul {
+    margin-left: 1.5em;
+    padding-left: 0;
+}
+
+#contents > ul {
+    list-style-position: inside;
+    margin: 0;
+}
+
 hr {
     border: 0;
     width: 100%;
