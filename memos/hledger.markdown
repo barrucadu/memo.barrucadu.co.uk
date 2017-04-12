@@ -1,7 +1,7 @@
 ---
 title: hledger
 tags: finance, howto
-date: 2017-04-01
+date: 2017-04-12
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I
@@ -19,6 +19,24 @@ do so has evolved, this memo documents the current process.
 - Not so great for getting insights like "wow, I spent a lot on takeaways last month": I can get
   that data fairly easily, but there isn't really an unconscious awareness of it like there is with
   (eg) food spending in general.
+
+
+Journal Files
+-------------
+
+My journal files are shared with [syncthing](https://syncthing.net/), so I can add transactions from
+any machine, and are written in a combination of [org](http://orgmode.org/)
+and [m4](https://memo.barrucadu.co.uk/m4-is-good.html). Org makes it simple and convenient to add
+new transactions with `org-capture`, and m4 reduces boilerplate as most of my transactions fall into
+one of a few types.
+
+I have a few files:
+
+- "macros.m4" contains all my macros, and is included into the current journal.
+- "current.journal.org" is the journal for the current year, structured as an org datetree.
+- "$YEAR.journal" is the journal for the named year, with all macros expanded.
+- "future.journal" is the journal for the next year, which only includes big things I am certain of,
+  like rent payments for a signed contract.
 
 
 Accounts
@@ -53,9 +71,6 @@ are "virtual" accounts (in *italic*), which I use to get better insights into th
 
 Transactions
 ------------
-
-Most of my transactions fall into one of a few types, so I make heavy use
-of [m4](https://memo.barrucadu.co.uk/m4-is-good.html) macros to simplify the ledger.
 
 Most transactions are of the form:
 
@@ -171,26 +186,16 @@ Start/End of X Procedure
 
 1. Zero all accounts by transferring everything into *equity:closing*
 2. Rename the current journal file from "current.journal" to "$YEAR.journal"
-    - The ".m4" file can be kept if desired, but is now unimportant
-3. If there is a "future.journal.m4" rename that to "current.journal.m4" else make a new file
-    - If there is a "future.journal" use that and m4 it up
+    - The ".org" file can be kept if desired, but is now unimportant
+3. Take the "future.journal", rename to "current.journal.org", and m4 it up.
 4. Add forecasting transactions for the new year
 5. Initialise all accounts on the first of January by transferring from *equity:opening*
 
 If starting a new journal file, this is the template:
 
 ```
-; -*- mode: ledger -*-
-divert(-1)
 include(`macros.m4')
-define(`standard_budget', `budget:food  £250
-    budget:fun  £25
-    budget:google apps  £2.75
-    budget:household  £25
-    budget:linode  £20
-    unallocated  -£322.75')
-changequote(`[', `]')
-divert(0)dnl
+
 alias main   = assets:santander:main
 alias esaver = assets:santander:esaver
 alias isa    = assets:santander:isa
@@ -198,22 +203,20 @@ alias budget      = main:budget
 alias saved       = main:saved
 alias unallocated = main:unallocated
 
-* Journal for $YEAR
-
+* $YEAR
 Y$YEAR
-
-** January
-** February
-** March
-** April
-** May
-** June
-** July
-** August
-** September
-** October
-** November
-** December
+** $YEAR-01 January
+** $YEAR-02 February
+** $YEAR-03 March
+** $YEAR-04 April
+** $YEAR-05 May
+** $YEAR-06 June
+** $YEAR-07 July
+** $YEAR-08 August
+** $YEAR-09 September
+** $YEAR-10 October
+** $YEAR-11 November
+** $YEAR-12 December
 ```
 
 Here is an example *equity:opening* transaction:
