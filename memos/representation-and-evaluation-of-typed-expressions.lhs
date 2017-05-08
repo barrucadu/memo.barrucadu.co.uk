@@ -1,7 +1,7 @@
 ---
 title: Representation & Evaluation of Typed Expressions
 tags: programming, research
-project: spec
+project: coco
 date: 2017-03-23
 ---
 
@@ -10,8 +10,8 @@ round hole."
 
 [bound]: https://hackage.haskell.org/package/bound
 
-This is a simplified version of a problem I've been having in [spec][]. The current handling of
-variables in spec is very poor, the programmer has to specify exactly which variables may be
+This is a simplified version of a problem I've been having in [CoCo][]. The current handling of
+variables in CoCo is very poor, the programmer has to specify exactly which variables may be
 introduced, binds and lets cause shadowing, and no care is taken to avoid generating alpha
 equivalent terms.
 
@@ -23,7 +23,7 @@ Here are two representative problems:
 2. If you have the variables `x` and `y` of the same type, these equivalent terms will be generated:
    `f x` and `f y`
 
-[spec]: https://github.com/barrucadu/spec
+[CoCo]: https://github.com/barrucadu/coco
 
 Let's get started...
 
@@ -111,7 +111,7 @@ want to implement that.
 >   go _ = []
 
 **Smart constructors**: we only want to be able to produce type-correct expressions, for two
-reasons: the evaluator in [spec][] is more complex and does a lot of unsafe coercion, and being able
+reasons: the evaluator in [CoCo][] is more complex and does a lot of unsafe coercion, and being able
 to just call `error` when the types don't work out is nicer than needing to actually handle it; and
 it makes it easier to generate terms programmatically, as you simply try all possibilities and keep
 the ones which succeed.
@@ -552,11 +552,9 @@ type as another parameter of `Exp`:
 >   show (Let3  _ b e) = "let <" ++ show b ++ "> in <" ++ show e ++ ">"
 >   show (Ap3   _ f e) = "(" ++ show f ++ ") (" ++ show e ++ ")"
 
-**Construction**: bind is going to be treated just as a let with
-special evaluation rules. This means that de Bruijn indices will be
-able to refer to a bind or a let. Rather than have two separate
-counters for those, we'll just put everything in the same namespace
-(index-space?).
+**Construction**: bind is going to be treated just as a let with special evaluation rules. This
+means that de Bruijn indices will be able to refer to a bind or a let. Rather than have two separate
+counters for those, we'll just put everything in the same namespace (index-space?).
 
 > -- | Bind a collection of holes, if type-correct.
 > let3 :: [Int] -> Schema3 m -> Schema3 m -> Maybe (Schema3 m)

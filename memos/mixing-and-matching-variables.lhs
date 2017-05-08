@@ -1,7 +1,7 @@
 ---
 title: Mixing and Matching Variables
 tags: programming, research
-project: spec
+project: coco
 date: 2017-04-04
 ---
 

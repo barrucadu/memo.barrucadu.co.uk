@@ -1,7 +1,7 @@
 ---
 title: Generating Typed Expressions
 tags: programming, research
-project: spec
+project: coco
 date: 2017-03-27
 ---
 
