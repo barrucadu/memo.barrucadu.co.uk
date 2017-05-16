@@ -110,9 +110,9 @@ a:hover, a:active {
 }
 
 #contents {
-    float:left;
+    float: right;
     border: 1px solid #ddd;
-    margin: 0 2em 0 1em;
+    margin: 0 1em;
     padding: 1em;
 }
 
