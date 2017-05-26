@@ -7,6 +7,7 @@ import Data.Char (toLower)
 import Data.Maybe (fromMaybe, isJust)
 import Data.Monoid ((<>))
 import Hakyll
+import Hakyll.Contrib.Hyphenation (hyphenateHtml, english_GB)
 import System.Process (readProcess)
 import Text.Pandoc.Definition (Pandoc, Block(..), Format(..))
 import Text.Pandoc.Options (WriterOptions(..))
@@ -39,6 +40,7 @@ main = hakyllWith defaultConfiguration $ do
       setExtension ".html" `composeRoutes`
       dropPat      "memos/"
     compile $ pandocWithPygments
+      >>= hyphenateHtml english_GB
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx tags)
       >>= loadAndApplyTemplate "templates/return.html"  defaultContext
@@ -59,6 +61,7 @@ memoList ret tags title pat = do
               defaultContext
 
     makeItem ""
+      >>= hyphenateHtml english_GB
       >>= loadAndApplyTemplate "templates/memo-list.html" ctx
       >>= (if ret then loadAndApplyTemplate "templates/return.html" ctx else pure)
       >>= loadAndApplyTemplate "templates/wrapper.html"   ctx

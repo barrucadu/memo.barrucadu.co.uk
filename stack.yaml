@@ -1,7 +1,9 @@
 flags: {}
 packages:
 - '.'
-extra-deps: []
+extra-deps:
+- hakyll-contrib-hyphenation-0.1.0.3
+- hyphenation-0.4.2.1
 resolver: lts-8.3
 nix:
   pure: false

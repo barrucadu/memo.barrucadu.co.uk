@@ -1,12 +1,10 @@
 <article>
   <header>
-    <h1>
-      $if(important)$<span class="important"><a href="/tag/important.html">!</a></span>$endif$
-      $if(project)$<span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
-      $title$
-    </h1>
+    <h1>$title$</h1>
     <div>
+      $if(important)$<span class="important"><a href="/tag/important.html">!</a></span> &mdash;$endif$
       <time datetime="$isodate$">$ppdate$</time>
+      $if(project)$&mdash; <span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
       &mdash; <span class="tags">$tags$</span>
     </div>
   </header>

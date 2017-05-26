@@ -1,29 +1,23 @@
 body {
-    font-family: DejaVu Sans Mono, monospace;
-    font-size: 16px;
+    font-family: Merriweather, Cambria, Georgia, Times, serif;
     color: #3b3b3b;
-    line-height: 1.5em;
-    padding: 2em 5em;
-    margin: 0;
-    position: relative;
-}
-
-#wrapper {
-    max-width: 60em;
-    min-height: 100%;
-    margin: 0 auto 0 auto;
-    padding: 30px 0 8px 0;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 h1, h2, h3, h4 {
+    font-family: Lato, sans-serif;
     color: #333333;
+    margin-top: 2em;
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 2rem;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
 }
 
 h2 {
@@ -33,13 +27,6 @@ h2 {
 h3, h4 {
     font-size: 1em;
 }
-
-h2:before { content: "## " }
-h2:after  { content: " ##" }
-h3:before { content: "### " }
-h3:after  { content: " ###" }
-h4:before { content: "#### " }
-h4:after  { content: " ####" }
 
 header, footer {
     margin: 0;
@@ -56,16 +43,23 @@ footer {
     margin-top: 2em;
 }
 
-p code, li code, dd code {
-    color: #343642;
-    text-decoration: underline;
+p {
+    line-height: 1.35;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+pre, code {
+    background: #fffafa;
+    font-family: Inconsolata, monospace;
+    font-size: 0.8rem;
 }
 
 pre {
-  font-size: 0.8em;
-  line-height: 18px;
-  padding: 10px;
-  margin: 0;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #dccdcc;
+    font-size: 0.7rem;
 }
 
 a, a:link, a:visited {
@@ -141,7 +135,6 @@ hr {
 
 blockquote {
     font-size: 0.95em;
-    line-height: 1.25em;
     border-left: 1px solid #777;
     padding-left: 1em;
     margin-left: 1.5em;
@@ -159,13 +152,19 @@ cite:before {
     content: "— ";
 }
 
+/* Scale body text size depending on browser width */
+@media all {html {font-size: 21px}}
+@media all and (max-width:1000px){html {font-size: 21px !important}}
+@media all and (max-width:960px) {html {font-size: 20px !important}}
+@media all and (max-width:920px) {html {font-size: 19px !important}}
+@media all and (max-width:880px) {html {font-size: 18px !important}}
+@media all and (max-width:840px) {html {font-size: 17px !important}}
+
 /* ***** Syntax Highlighting ***** */
 .highlight {
   white-space: pre;
   overflow: auto;
   word-wrap: normal; /* horizontal scrolling */
-  background: #fffafa;
-  border: 1px solid #dccdcc;
 }
 
 /* trac style */
@@ -228,3 +227,69 @@ cite:before {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+/* ***** Webfonts ***** */
+
+/* Headings */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(/fonts/raleway-light.woff2) format('woff2'), url(https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(/fonts/lato-regular.woff) format('woff'), url(https://themes.googleusercontent.com/static/fonts/lato/v7/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+
+/* Body */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), local('Merriweather-Regular'), url(/fonts/merriweather-regular.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(/fonts/merriweather-bold.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nnNuWYKPzoeKl5tYj8yhly0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Merriweather Italic'), local('Merriweather-Italic'), url(/fonts/merriweather-italic.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/So5lHxHT37p2SS4-t60SlBMBlNeli-0RcAdOFWWLdxQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(/fonts/merriweather-bolditalic.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIEcqRxak6Wc5LUVz-l064SE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Merriweather Black';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Black'), local('Merriweather-Black'), url(/fonts/merriweather-black.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6ntDLwwZd-mS_8JqJ_KGXwxs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* Code */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(/fonts/inconsolata.woff2) format ('woff2'), url(https://fonts.gstatic.com/s/inconsolata/v11/BjAYBlHtW3CJxDcjzrnZCCYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+}
