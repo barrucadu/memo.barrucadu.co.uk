@@ -1,7 +1,7 @@
 ---
 title: hledger
 tags: finance, howto
-date: 2017-04-12
+date: 2017-06-02
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I
@@ -242,7 +242,7 @@ Here is an example *equity:opening* transaction:
       and mark it.
         - If there are transactions missing from the journal, add and mark them.
         - If there are transactions missing from the bank statement, the bank is being slow;
-          reconcile at the end of the month just started.
+          add posting dates and reconcile as they come in.
         - If the bank balance is below the **assets:santander:main** balance, even discarding
           uncleared transactions, (a) figure out what happened and (b) if impossible, add a
           transaction to *expenses:adjustment*
