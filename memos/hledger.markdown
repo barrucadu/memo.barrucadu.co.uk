@@ -1,7 +1,7 @@
 ---
 title: hledger
 tags: finance, howto
-date: 2017-06-02
+date: 2017-07-17
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I
@@ -249,10 +249,11 @@ Here is an example *equity:opening* transaction:
     - Count the balance in my wallet and mark all **assets:hand** transactions.
         - If the wallet balance is below the **assets:hand** balance, add a transaction to
           *expenses:adjustment*
-2. Zero all budget accounts by transferring into *budget:anything*.
-3. If there was a budget overspend, zero by transferring from *unallocated*.
-4. Delete the pessimistic budget-spending transaction of the month just started.
-5. Comment all transactions in the month just started other than the budget set-up.
+2. Zero the budget by adding transactions to the month just started:
+    - Transfer budget accounts into *budget:anything*
+    - If there was a budget overspend, zero by transferring from *unallocated*
+3. Delete the pessimistic budget-spending transaction of the month just started.
+4. Comment all transactions in the month just started other than the budget set-up.
     - Uncomment these as they happen. From now, the balance reported for the current month is the
       current actual balance.
 
@@ -262,7 +263,7 @@ Here are example end-of-month transactions:
 03/31 * Wallet adjustment
     cash_spend(adjustment, £14.98)
 
-03/31 ! Remaining budget
+04/01 ! Remaining budget
     budget:domains  -£0.74
     budget:food  £24.70
     budget:fun  £112
@@ -270,7 +271,7 @@ Here are example end-of-month transactions:
     budget:linode  -£2.01
     budget:anything
 
-03/31 ! Budget overspend
+04/01 ! Budget overspend
     budget:anything  £124.83
     unallocated
 ```
