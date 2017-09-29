@@ -1,7 +1,7 @@
 ---
 title: hledger
 tags: finance, howto
-date: 2017-07-17
+date: 2017-09-29
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I
@@ -25,16 +25,13 @@ Journal Files
 -------------
 
 My journal files are shared with [syncthing](https://syncthing.net/), so I can add transactions from
-any machine, and are written in a combination of [org](http://orgmode.org/)
-and [m4](https://memo.barrucadu.co.uk/m4-is-good.html). Org makes it simple and convenient to add
-new transactions with `org-capture`, and m4 reduces boilerplate as most of my transactions fall into
-one of a few types.
+any machine.
 
 I have a few files:
 
-- "macros.m4" contains all my macros, and is included into the current journal.
-- "current.journal.org" is the journal for the current year, structured as an org datetree.
-- "$YEAR.journal" is the journal for the named year, with all macros expanded.
+- "current.journal" is the journal for the current year, structured as an org datetree (even though
+  it's not an org file).
+- "$YEAR.journal" is the journal for the named year.
 - "future.journal" is the journal for the next year, which only includes big things I am certain of,
   like rent payments for a signed contract.
 
@@ -46,19 +43,23 @@ I have a number of accounts, some few of which are actual accounts (in **bold**)
 are "virtual" accounts (in *italic*), which I use to get better insights into the flow of my money.
 
 - assets: money I have
-    - **hand:** money in my wallet
-    - owed: money people owe me (one subaccount per person)
+    - cash: easily-accessible money
+        - **hand:** money in my wallet
+        - **paypal:** money in my paypal account
+        - santander: money in my Santander accounts
+            - **esaver:** money in my esaver account (one subaccount per earmaked purpose)
+                - (eg) *rainyday:* saved for a non-specific future "rainy day"
+            - **current:** money in my current account (including overdraft)
+                - *accum:* see the Budgeting section.
+                - *month:* see the Budgeting section.
+                - *saved:* money put aside for a specific transaction, such as rent.
+                - *unallocated:* money in my current account not allocated for anything in
+                  particular.
+    - investments: money in the hands of an investment broker
+        - cavendish: money with Cavendish Online
+            - **s&s:** my stocks&shares ISA.
+    - reimbursements: money people owe me (one subaccount per person)
         - (eg) *nathan:* money Nathan owes me
-    - santander: money in my Santander accounts
-        - **esaver:** money in my esaver account (one subaccount per earmaked purpose)
-            - (eg) *rainyday:* saved for a non-specific future "rainy day"
-        - **main:** money in my current account (including overdraft)
-            - *budget:* money earmarked for a specific short-term expense, such as food (see the
-              Budgeting section)
-            - *saved:* money earmarked for a specific long-term expense, such as rent (slowly being
-              moved into the esaver account)
-            - *unallocated:* money in my current account neither budgeted nor saved for specific
-              purposes
 - equity: used in the start and end of year procedures
 - expenses: used to track expenses of different sorts (one subaccount per use)
     - (eg) *books:* money spent on books
@@ -72,56 +73,38 @@ are "virtual" accounts (in *italic*), which I use to get better insights into th
 Transactions
 ------------
 
-Most transactions are of the form:
+Transactions are of the form:
 
 ```
-$MONTH/$DAY $DESCRIPTION
-    $MACRO($ARGS...)
+$MONTH/$DAY $PAYEE
+    $POSTINGS...
 ```
 
 Transactions purely between virtual accounts get a `!` between the date and the
 description. Transactions reconciled at the end of the month get a `*`.
 
-The macros:
-
-- `bank_spend(account, amount)`: transaction from *unallocated* to *expenses:`$ACCOUNT`*
-- `bank_save(account, amount)`: transaction from *saved:`$ACCOUNT`* to *esaver:`$ACCOUNT`*
-- `budget_spend(account, amount)`: transaction from *budget:`$ACCOUNT`* to *expenses:$ACCOUNT*
-- `saved_spend(account, amount)`: transaction from *saved:`$ACCOUNT`* to *expenses:`$ACCOUNT`*
-- `income_from(account, amount)`: transaction from *income:`$ACCOUNT`* to *unallocated*
-- `income_from_to(account1, account2, amount)`: transaction from *income:`$ACCOUNT1`* to
-  `$ACCOUNT2`
-- `cash_spend(account, amount)`: transaction from **assets:hand** to *expenses:`$ACCOUNT`*
-- `cash_withdraw(amount)`: transaction from *unallocated* to **assets:hand**
-- `cash_budget_spend(account, amount)`: transaction from *budget:`$ACCOUNT`* to
-  *expenses:`$ACCOUNT`*, via **assets:hand**
-- `foreign_spend(account, foreign_amount, domestic_amount[, transaction fee])`: transaction from
-  *unallocated* to *expenses:`$ACCOUNT`* in foreign currency, with an optional transaction fee
-- `foreign_budget_spend(account, foreign_amount, domestic_amount[, transaction fee])`: transaction
-  from *budget:`$ACCOUNT`* to *expenses:`$ACCOUNT`* in foreign currency, with an optional
-  transaction fee
-
 
 Budgeting
 ---------
 
-The budget virtual accounts are the most important, as they give me a constant awareness of how much
-I have spent on a particular class of thing. I don't often exceed my budget, because when I go to
-spend some budgeted money there's now a little voice in the back of my mind which asks "can you
-actually afford this?".
+The "accum" and "month" virtual accounts are the most important, as they give me a constant
+awareness of how much I have spent on a particular class of thing. I don't often exceed my budget,
+because when I go to spend some budgeted money there's now a little voice in the back of my mind
+which asks "can you actually afford this?".
 
-There are five budget accounts which get topped up every month:
+There are five "month" accounts which get set to a fixed value at the start of each month:
 
 - *food:* everything edible; groceries, takeaways, snacks, restaurants, etc
-- *fun:* entertainment; games, swing dance, etc
 - *google apps:* archhurd.org's google apps account
 - *household:* a general hodgepodge of things which I need but don't really fall into a sensible
   collection; toiletries, laundry, kitchen equipment, etc
 - *servers:* fairly self explanatory.
 
-And one special account (see the end of month procedure):
+And there are two "accum" accounts which get a fixed amount transferred to them at the start of each
+month (accumulating unspent money):
 
-- *anything:* can be used for anything which calls into the above categories, but would cause an overspend
+- *fun:* entertainment; games, swing dance, etc
+- *other:* anything not covered by another category
 
 
 Forecasting
@@ -133,7 +116,7 @@ maybe until the middle of the next year, if we're near the end of this one), I a
 - For every income (eg, internship payment) I am *certain* of
 - For every expense (eg, rent) I am *reasonably confident* of
 - Spending the entire budget
-- Handling any expected movement between accounts (eg, current account to esaver)
+- Handling any expected movement between accounts (eg, current account to ISA)
 
 This gives me a reasonably accurate, perhaps slightly pessimistic, forecast of my finances. The
 confidence threshold for including expenses is lower than for including income, which is
@@ -146,33 +129,44 @@ tuition, will be more or less frequent than others:
 
 ```
 10/01 Budget & Saving
-    standard_budget
-    saved:tuition  £1350
+    accum:fun           £25
+    accum:other         £75
+    month:food        £200
+    month:google apps   £2.75
+    month:household    £25
+    month:servers      £39.50
+    saved:invest      £400
     unallocated
 
-10/01 eSaver monthly
-    bank_save(special, £200)
+10/01 Linode
+    expenses:servers  $20 @@ £18
+    expenses:servers          £1.25
+    month:servers
 
-10/01 Clear budget
-    budget_spend(food, £250)
-    budget_spend(fun, £25)
-    budget_spend(household, £25)
-
-10/01 Servers
-    foreign_budget_spend(servers, $20, £18, £1.25)
-    foreign_budget_spend(servers, $15, £13, £1.25)
+10/01 OVH
+    expenses:servers  EUR 20.39 @@ £18.05
+    expenses:servers                £1.25
+    month:servers
 
 10/02 Arch Hurd Google Apps
-    budget_spend([google apps], £2.75)
+    expenses:google apps  £2.75
+    month:google apps
 
 10/06 Dad money
-    income_from(dad, £650)
+    unallocated  £650
+    income:dad
 
 10/07 Holgate rent
-    saved_spend(rent, £1045)
+    expenses:rent  £1045
+    saved:rent
+
+10/24 Dentist
+    expenses:other  £18.80
+    unallocated
 
 10/31 Tuition
-    saved_spend(tuition, £1350)
+    expenses:tuition  £1398
+    saved:tuition
 ```
 
 Most months are the same, so adding these sets of transactions for every month remaining in the year
@@ -184,24 +178,20 @@ Start/End of X Procedure
 
 ### Year
 
-1. Zero all accounts by transferring everything into *equity:closing*
+1. Zero all accounts by transferring everything into equity.
 2. Rename the current journal file from "current.journal" to "$YEAR.journal"
-    - The ".org" file can be kept if desired, but is now unimportant
-3. Take the "future.journal", rename to "current.journal.org", and m4 it up.
+3. Take the "future.journal" and rename to "current.journal".
 4. Add forecasting transactions for the new year
-5. Initialise all accounts on the first of January by transferring from *equity:opening*
+5. Initialise all accounts on the first of January by transferring from equity.
 
 If starting a new journal file, this is the template:
 
 ```
-include(`macros.m4')
-
-alias main   = assets:santander:main
-alias esaver = assets:santander:esaver
-alias isa    = assets:santander:isa
-alias budget      = main:budget
-alias saved       = main:saved
-alias unallocated = main:unallocated
+alias current = assets:cash:santander:current
+alias budget  = current:month
+alias saved   = current:saved
+alias accum   = current:accum
+alias unallocated = current:unallocated
 
 * $YEAR
 Y$YEAR
@@ -219,20 +209,23 @@ Y$YEAR
 ** $YEAR-12 December
 ```
 
-Here is an example *equity:opening* transaction:
+Here are example equity transactions:
 
 ```
-01/01 ! Start-of-year
-    assets:hand  £77.81
-    assets:owed:nathan  £9.98
-    saved:rainyday  £74.90
-    saved:rent  £1800
-    saved:tuition  £2060
-    unallocated  £904.92
-    liabilities:overdraft  -£2000
-    liabilities:slc  -£28510.01
-    liabilities:teasoc  -£1
-    equity:opening
+01/01 ! Start-of-year (assets)
+    assets:cash:hand                £77.81
+    assets:reimbursements:nathan     £9.98
+    saved:rainyday                  £74.90
+    saved:rent                    £1800
+    saved:tuition                 £2060
+    unallocated                    £904.92
+    equity:carried forward
+
+01/01 ! Start-of-year (liabilities)
+    liabilities:overdraft   -£2000
+    liabilities:slc        -£28510.01
+    liabilities:teasoc         -£1
+    equity:liabilities
 ```
 
 ### Month
@@ -243,15 +236,15 @@ Here is an example *equity:opening* transaction:
         - If there are transactions missing from the journal, add and mark them.
         - If there are transactions missing from the bank statement, the bank is being slow;
           add posting dates and reconcile as they come in.
-        - If the bank balance is below the **assets:santander:main** balance, even discarding
-          uncleared transactions, (a) figure out what happened and (b) if impossible, add a
-          transaction to *expenses:adjustment*
-    - Count the balance in my wallet and mark all **assets:hand** transactions.
-        - If the wallet balance is below the **assets:hand** balance, add a transaction to
+        - If the bank balance is below the **assets:cash:santander:current** balance, even
+          discarding uncleared transactions, (a) figure out what happened and (b) if impossible, add
+          a transaction to *expenses:adjustment*
+    - Count the balance in my wallet and mark all **assets:cash:hand** transactions.
+        - If the wallet balance is below the **assets:cash:hand** balance, add a transaction to
           *expenses:adjustment*
-2. Zero the budget by adding transactions to the month just started:
-    - Transfer budget accounts into *budget:anything*
-    - If there was a budget overspend, zero by transferring from *unallocated*
+2. Zero the monthly budget by adding transactions to the month just started:
+    - Transfer "month" accounts into *unallocated*
+    - If there was an overspend, zero by transferring from *unallocated*
 3. Delete the pessimistic budget-spending transaction of the month just started.
 4. Comment all transactions in the month just started other than the budget set-up.
     - Uncomment these as they happen. From now, the balance reported for the current month is the
@@ -261,18 +254,18 @@ Here are example end-of-month transactions:
 
 ```
 03/31 * Wallet adjustment
-    cash_spend(adjustment, £14.98)
+    expenses:adjustment  £14.98
+    assets:cash:hand
 
 04/01 ! Remaining budget
-    budget:domains  -£0.74
-    budget:food  £24.70
-    budget:fun  £112
-    budget:household  -£9.12
-    budget:linode  -£2.01
-    budget:anything
+    month:food        £24.70
+    month:fun        £112
+    month:household   -£9.12
+    month:servers     -£2.01
+    month:anything
 
 04/01 ! Budget overspend
-    budget:anything  £124.83
+    month:anything  £125.57
     unallocated
 ```
 
