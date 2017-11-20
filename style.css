@@ -24,8 +24,13 @@ h2 {
     font-size: 1.2em;
 }
 
-h3, h4 {
+h3 {
     font-size: 1em;
+}
+
+h4 {
+    margin: 0;
+    font-size: 0.8em;
 }
 
 header, footer {
