@@ -110,6 +110,8 @@ program verification.
 - [Cheng Huang](http://research.microsoft.com/en-us/um/people/chengh)
 - [Colin Runciman](https://www-users.cs.york.ac.uk/colin)
 - [Cormac Flanagan](https://users.soe.ucsc.edu/~cormac)
+- [George Necula](https://people.eecs.berkeley.edu/~necula/)
+- [Jacob Burnim](https://www.burn.im/)
 - [Jeroen Ketema](http://www.ketema.eu)
 - John Erickson
 - Katherine E. Coons
@@ -124,6 +126,7 @@ program verification.
 - Rashmi Mudduluru
 - [Santosh Nagarakatte](https://www.cs.rutgers.edu/~santosh.nagarakatte)
 - [Shuo Chen](https://www.microsoft.com/en-us/research/people/shuochen)
+- [Tayfun Elmas](https://sites.google.com/site/tayfunelmas/)
 - [Wolfram Schulte](https://www.microsoft.com/en-us/research/people/schulte)
 - [Zvonimir Rakamaric](http://www.zvonimir.info)
 
@@ -164,6 +167,10 @@ program verification.
 - **Bounded Partial-order Reduction** ([pdf](http://www.cs.utexas.edu/users/mckinley/papers/bpor-oopsla-2013.pdf))<br>
     Katherine E. Coons, Madan Musuvathi, and Kathryn S. McKinley.<br>
     In *International Conference on Object Oriented Programming Systems, Languages & Applications* (OOPSLA). 2013.
+
+- **CONCURRIT: A Domain Specific Language for Reproducing Concurrency Bugs** ([pdf](https://people.eecs.berkeley.edu/~ksen/papers/concurrit.pdf))<br>
+    Tayfun Elmas, Jacob Burnim, George Necula, Koushik Sen.<br>
+    In *Conference on Programming Language Design and Implementation* (PLDI). 2013.
 
 - **Concurrency Testing Using Schedule Bounding: an Empirical Study** ([pdf](http://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2014/PPoPP.pdf))<br>
     Paul Thomson, Alastair F. Donaldson, and Adam Betts.<br>
