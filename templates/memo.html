@@ -6,6 +6,15 @@
       <time datetime="$isodate$">$ppdate$</time>
       $if(project)$&mdash; <span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
       &mdash; <span class="tags">$tags$</span>
+
+      $if(deprecated)$
+      <div class="deprecated">
+        This memo is deprecated
+        $if(replacement)$
+        <br><a href="/$replacement$.html">[replacement]</a>
+        $endif$
+      </div>
+      $endif$
     </div>
   </header>
 

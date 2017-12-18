@@ -33,6 +33,10 @@ h4 {
     font-size: 0.8em;
 }
 
+header {
+    position: relative;
+}
+
 header, footer {
     margin: 0;
     padding: 1em 0 1em 0;
@@ -93,18 +97,41 @@ a:hover, a:active {
 }
 
 .important {
-    color: #fb0c06;
     font-weight: bold;
 }
 
 .important a:before { content: "("; }
 .important a:after  { content: ")"; }
 
-.important a, .important a:link, .important a:visited {
+.important, .important a, .important a:link, .important a:visited {
     color: #fb0c06;
 }
 
 .important a:hover, .important a:active {
+    color: #ffa50b;
+}
+
+li.deprecated {
+    text-decoration: line-through;
+}
+
+div.deprecated {
+    position: absolute;
+    top: 2em;
+    right: 1em;
+    padding: 0.4em 0.8em;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+div.deprecated a, div.deprecated a:link, div.deprecated a:visited {
+    color: #fb0c06;
+}
+
+div.deprecated a:hover, div.deprecated a:active {
     color: #ffa50b;
 }
 

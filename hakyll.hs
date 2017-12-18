@@ -111,7 +111,11 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
   metadata <- getMetadata identifier
   let fieldValue fld = fromMaybe [] $ lookupStringList fld metadata `mplus` (map trim . splitAll "," <$> lookupString fld metadata)
   let hasField   fld = isJust (lookupString fld metadata)
-  pure $ ["important" | hasField "important"] ++ fieldValue "project" ++ fieldValue "tags"
+  pure $
+    ["important"  | hasField "important"]  ++
+    ["deprecated" | hasField "deprecated"] ++
+    fieldValue "project" ++
+    fieldValue "tags"
 
 -- | Remove some portion of the route
 dropPat :: String -> Routes

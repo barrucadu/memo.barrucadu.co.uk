@@ -1,6 +1,6 @@
 <ol>
   $for(memos)$
-    <li>
+    <li $if(deprecated)$class="deprecated"$endif$>
       $if(important)$<span class="important"><a href="/tag/important.html">!</a></span>$endif$
       $if(project)$<span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
       <a href="$url$">$title$</a>
