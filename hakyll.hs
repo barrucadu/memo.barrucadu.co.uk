@@ -84,7 +84,7 @@ pandocWithPygments = pandocCompilerWithTransformM ropts wopts pygmentize where
     { writerTableOfContents = True
     , writerTOCDepth = 5
     , writerSectionDivs = True
-    , writerTemplate = Just "$if(toc)$<div onclick=\"toggle_contents()\" id=\"contents\">$toc$</div>$endif$$body$"
+    , writerTemplate = Just "$if(toc)$<div id=\"contents\">$toc$</div>$endif$$body$"
     }
 
 -- | Apply pygments/pygmentize syntax highlighting to a Pandoc

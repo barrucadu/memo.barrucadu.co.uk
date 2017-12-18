@@ -38,7 +38,7 @@ header, footer {
     padding: 1em 0 1em 0;
 }
 
-header {
+header, #contents {
     border-bottom: 1px solid #ccc;
     margin-bottom: 2em;
 }
@@ -109,10 +109,8 @@ a:hover, a:active {
 }
 
 #contents {
-    float: right;
-    border: 1px solid #ddd;
-    margin: 0 1em;
-    padding: 1em;
+    margin-top: -1em;
+    padding: 0 1em 1em 1em;
 }
 
 #contents h2 {
