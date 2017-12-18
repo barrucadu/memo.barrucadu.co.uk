@@ -116,6 +116,7 @@ program verification.
 - John Erickson
 - Katherine E. Coons
 - [Kathryn S. McKinley](http://www.cs.utexas.edu/users/mckinley)
+- Mahmoud Abdelrasoul
 - [Markus Kusano](https://markus-kusano.github.io)
 - [Matt McCutchen](http://web.mit.edu/rmccutch/www)
 - [Michael Emmi](http://michael-emmi.github.io)
@@ -196,6 +197,10 @@ program verification.
     Pantazis Deligiannis, Matt McCutchen, Paul Thomson, Shuo Chen, Alastair F. Donaldson, John Erickson, Cheng Huang, Akash Lal, Rashmi Mudduluru, Shaz Qadeer, and Wolfram Schulte.<br>
     In *Conference on File and Storage Technologies* (FAST). 2016.
 
+- **Promoting Secondary Orders of Event Pairs in Randomized Scheduling using a Randomized Stride** ([pdf](http://www4.ncsu.edu/~maabdelf/randomizedstride/paper.pdf))<br>
+    Mahmoud Abdelrasoul.<br>
+    In *Conference on Automated Software Engineering* (ASE). 2017.
+
 #### My papers
 
 - **Déjà Fu: A Concurrency Testing Library for Haskell** ([pdf](https://www.barrucadu.co.uk/publications/dejafu-hs15.pdf))<br>
@@ -204,6 +209,7 @@ program verification.
 
 #### Venues
 
+- Conference on Automated Software Engineering (ASE)
 - Conference on File and Storage Technologies (FAST)
 - Conference on Programming Language Design and Implementation (PLDI)
 - International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
