@@ -3,19 +3,19 @@
 
 module Main where
 
-import Data.List (sortBy)
-import Data.Ord (Down(..), comparing)
-import Control.Monad (mplus)
-import Data.Char (toLower)
-import Data.Maybe (fromMaybe, isJust)
-import Data.Monoid ((<>))
-import Data.Time.Format (defaultTimeLocale)
-import Hakyll
-import Hakyll.Contrib.Hyphenation (hyphenateHtml, english_GB)
-import System.Process (readProcess)
-import Text.Pandoc.Definition (Pandoc, Block(..), Format(..))
-import Text.Pandoc.Options (WriterOptions(..))
-import Text.Pandoc.Walk (walkM)
+import           Control.Monad              (mplus)
+import           Data.Char                  (toLower)
+import           Data.List                  (sortBy)
+import           Data.Maybe                 (fromMaybe, isJust)
+import           Data.Monoid                ((<>))
+import           Data.Ord                   (Down(..), comparing)
+import           Data.Time.Format           (defaultTimeLocale)
+import           Hakyll
+import           Hakyll.Contrib.Hyphenation (english_GB, hyphenateHtml)
+import           System.Process             (readProcess)
+import           Text.Pandoc.Definition     (Block(..), Format(..), Pandoc)
+import           Text.Pandoc.Options        (WriterOptions(..))
+import           Text.Pandoc.Walk           (walkM)
 
 main :: IO ()
 main = hakyllWith defaultConfiguration $ do
