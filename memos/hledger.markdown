@@ -2,8 +2,7 @@
 title: hledger
 tags: finance, howto
 date: 2017-09-29
-deprecated: true
-replacement: personal-finance
+deprecated_by: personal-finance
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I

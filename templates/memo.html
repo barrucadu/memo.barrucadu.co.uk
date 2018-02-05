@@ -7,12 +7,10 @@
       $if(project)$&mdash; <span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
       &mdash; <span class="tags">$tags$</span>
 
-      $if(deprecated)$
+      $if(deprecated_by)$
       <div class="deprecated">
         This memo is deprecated
-        $if(replacement)$
-        <br><a href="/$replacement$.html">[replacement]</a>
-        $endif$
+        <br><a href="/$deprecated_by$.html">[replacement]</a>
       </div>
       $endif$
     </div>

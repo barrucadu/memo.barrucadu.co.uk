@@ -112,8 +112,8 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
   let fieldValue fld = fromMaybe [] $ lookupStringList fld metadata `mplus` (map trim . splitAll "," <$> lookupString fld metadata)
   let hasField   fld = isJust (lookupString fld metadata)
   pure $
-    ["important"  | hasField "important"]  ++
-    ["deprecated" | hasField "deprecated"] ++
+    ["important"  | hasField "important"] ++
+    ["deprecated" | hasField "deprecated_by"] ++
     fieldValue "project" ++
     fieldValue "tags"
 
