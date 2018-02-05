@@ -1,11 +1,15 @@
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE TupleSections #-}
 
 module Main where
 
+import Data.List (sortBy)
+import Data.Ord (Down(..), comparing)
 import Control.Monad (mplus)
 import Data.Char (toLower)
 import Data.Maybe (fromMaybe, isJust)
 import Data.Monoid ((<>))
+import Data.Time.Format (defaultTimeLocale)
 import Hakyll
 import Hakyll.Contrib.Hyphenation (hyphenateHtml, english_GB)
 import System.Process (readProcess)
@@ -55,7 +59,7 @@ memoList :: Bool -> Tags -> String -> Pattern -> Rules ()
 memoList ret tags title pat = do
   route idRoute
   compile $ do
-    entries <- recentFirst =<< loadAll pat
+    entries <- sortMemos =<< loadAll pat
     let ctx = constField "title" title <>
               listField "memos" (memoCtx tags) (return entries) <>
               defaultContext
@@ -120,3 +124,20 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
 -- | Remove some portion of the route
 dropPat :: String -> Routes
 dropPat pat = gsubRoute pat (const "")
+
+-- | Sort memos by date (descending), with deprecated memos at the
+-- bottom and important memos at the top.  Deprecated important memos
+-- also go to the bottom.
+sortMemos :: MonadMetadata m => [Item a] -> m [Item a]
+sortMemos = sortByA info where
+  sortByA f xs =
+    fmap (map fst . sortBy (comparing snd)) $
+    traverse (\x -> (x,) <$> f x) xs
+
+  info item = do
+    let identifier = itemIdentifier item
+    metadata <- getMetadata identifier
+    let isDeprecated = isJust (lookupString "deprecated_by" metadata)
+    let isImportant  = isJust (lookupString "important" metadata)
+    date <- getItemUTC defaultTimeLocale identifier
+    pure (isDeprecated, Down isImportant, Down date)
