@@ -1,28 +1,50 @@
 body {
     font-family: 'Gentium Book Basic', Cambria, Georgia, Times, serif;
     color: #3b3b3b;
-    padding: 0 64px;
-    margin: 1em auto;
+    background-color: #E7E4D5;
+    margin: 16px auto 0 auto;
     max-width: 42rem;
+}
+
+.box {
+    margin: 0 auto 16px auto;
+    padding: 1rem 2rem;
+    max-width: 1000px;
+}
+
+article, section {
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    text-align: center;
+}
+
+nav {
+    font-size: 2em;
+}
+
+nav a, nav a:link, nav a:visited {
+    color: #474747;
+}
+
+nav a:hover, nav a:active {
+    color: #703E3B;
 }
 
 a, a:link, a:visited {
     text-decoration: none;
-    color: #549eff;
+    color: #C84648;
 }
 
 a:hover, a:active {
-    color: #05b2c2;
+    color: #703E3B;
 }
 
 /* ***** Info box ***** */
 
 .infobox {
     font-size: 0.7rem;
-    padding: 10px;
-    margin: 0 0 1rem 0;
-    border: 1px solid #dccdcc;
-    background-color: #fffafa;
 }
 
 .infobox.deprecated {
@@ -45,20 +67,13 @@ a:hover, a:active {
 .infobox td {
     vertical-align: top;
     padding-left: 1em;
+    text-align: left;
 }
 
 h1 {
     margin: 0;
     padding: 0;
     font-size: 1rem;
-}
-
-h1 a, h1 a:link, h1 a:visited {
-    color: #ff9e54;
-}
-
-h1 a:hover, h1 a:active {
-    color: #c205b2;
 }
 
 .important {
@@ -99,12 +114,6 @@ h3 {
 h4 {
     margin: 0;
     font-size: 0.8em;
-}
-
-footer {
-    border-top: 1px solid #ccc;
-    margin-top: 2em;
-    padding: 1em 0 0 0;
 }
 
 p {
@@ -151,7 +160,7 @@ hr {
     border: 0;
     width: 100%;
     color: #777;
-    background-color: #dddddd;
+    background-color: #D3C8B4;
     height: 1px;
 }
 
@@ -164,7 +173,7 @@ blockquote {
     font-style: italic;
 }
 
-#body dt {
+article dt {
     font-style: italic;
 }
 
