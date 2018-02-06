@@ -1,0 +1,21 @@
+<h1>
+  $if(important)$
+    <span class="important"><a href="/tag/important.html">!</a></span>
+  $endif$
+  <a href="$url$">$title$</a>
+</h1>
+
+<dl>
+  <dt>Date</dt>
+  <dd><time datetime="$isodate$">$ppdate$</time></dd>
+  $if(project)$
+    <dt>Project<dt>
+    <dd><a href="/tag/$project$.html">$project$</a></dd>
+  $endif$
+  <dt>Tags</dt>
+  <dd>$tags$</dd>
+  $if(deprecated_by)$
+    <dt>Deprecated By<dt>
+    <dd><a href="/$deprecated_by$.html">$deprecated_by$</a></dd>
+  $endif$
+</dl>

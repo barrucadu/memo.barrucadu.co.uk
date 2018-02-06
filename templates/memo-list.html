@@ -1,11 +1,5 @@
-<ol>
-  $for(memos)$
-    <li $if(deprecated_by)$class="deprecated"$endif$>
-      $if(important)$<span class="important"><a href="/tag/important.html">!</a></span>$endif$
-      $if(project)$<span class="project"><a href="/tag/$project$.html">$project$</a></span>$endif$
-      <a href="$url$">$title$</a>
-      &mdash; <time datetime="$isodate$">$ppdate$</time>
-      &mdash; <span class="tags">$tags$</span>
-    </li>
-  $endfor$
-</ol>
+$for(memos)$
+  <section class="infobox $if(deprecated_by)$deprecated$endif$">
+    $partial("templates/infobox.html")$
+  </section>
+$endfor$
