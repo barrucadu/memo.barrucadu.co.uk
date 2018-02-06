@@ -1,5 +1,5 @@
 body {
-    font-family: Merriweather, Cambria, Georgia, Times, serif;
+    font-family: 'Gentium Book Basic', Cambria, Georgia, Times, serif;
     color: #3b3b3b;
     padding: 0 64px;
     margin: 1em auto;
@@ -39,7 +39,7 @@ a:hover, a:active {
     font-weight: bold;
     text-align: right;
     vertical-align: top;
-    width: 10em;
+    width: 7em;
 }
 
 .infobox td {
@@ -84,7 +84,6 @@ h1 a:hover, h1 a:active {
 /* ***** Articles ***** */
 
 h2, h3, h4 {
-    font-family: Lato, sans-serif;
     color: #333333;
     margin-top: 2em;
 }
@@ -116,7 +115,7 @@ p {
 
 pre, code {
     background: #fffafa;
-    font-family: Inconsolata, monospace;
+    font-family: 'Fira Mono', Inconsolata, monospace;
     font-size: 0.8rem;
 }
 
@@ -157,10 +156,12 @@ hr {
 }
 
 blockquote {
-    font-size: 0.95em;
-    border-left: 1px solid #777;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 1.8em;
     padding-left: 1em;
-    margin-left: 1.5em;
+    border-left: 4px solid #707070;
+    font-style: italic;
 }
 
 #body dt {
@@ -173,6 +174,12 @@ cite {
 
 cite:before {
     content: "— ";
+}
+
+.figure {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* Scale body text size depending on browser width */
@@ -253,66 +260,22 @@ cite:before {
 
 /* ***** Webfonts ***** */
 
-/* Headings */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(/fonts/raleway-light.woff2) format('woff2'), url(https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+@font-face{
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gentium Book Basic'), local('GentiumBookBasic'), url('/fonts/gentiumbookbasic.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Fira Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fira Mono Regular'), local('FiraMono-Regular'), url('/fonts/firamono.woff2') format('woff2');
 }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(/fonts/lato-regular.woff) format('woff'), url(https://themes.googleusercontent.com/static/fonts/lato/v7/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
-}
-
-/* Body */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Merriweather'), local('Merriweather-Regular'), url(/fonts/merriweather-regular.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(/fonts/merriweather-bold.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nnNuWYKPzoeKl5tYj8yhly0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Merriweather Italic'), local('Merriweather-Italic'), url(/fonts/merriweather-italic.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/So5lHxHT37p2SS4-t60SlBMBlNeli-0RcAdOFWWLdxQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(/fonts/merriweather-bolditalic.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIEcqRxak6Wc5LUVz-l064SE.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-@font-face {
-  font-family: 'Merriweather Black';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Merriweather Black'), local('Merriweather-Black'), url(/fonts/merriweather-black.woff2) format('woff2'), url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6ntDLwwZd-mS_8JqJ_KGXwxs.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-/* Code */
 @font-face {
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
-  src: local('Inconsolata'), url(/fonts/inconsolata.woff2) format ('woff2'), url(https://fonts.gstatic.com/s/inconsolata/v11/BjAYBlHtW3CJxDcjzrnZCCYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  src: local('Inconsolata'), url('/fonts/inconsolata.woff2') format ('woff2');
 }
