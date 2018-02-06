@@ -51,6 +51,13 @@ main = hakyllWith defaultConfiguration $ do
       >>= loadAndApplyTemplate "templates/wrapper.html" defaultContext
       >>= relativizeUrls
 
+  -- Create feed
+  create ["atom.xml"] $ do
+    route     idRoute
+    compile $ loadAllSnapshots "memos/*" "content"
+      >>= fmap (take 10) . recentFirst
+      >>= renderAtom feedCfg feedCtx
+
   -- Render index page
   create ["index.html"] $
     memoList False tags "Memos" "memos/*"
@@ -71,6 +78,8 @@ memoList ret tags title pat = do
       >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
       >>= relativizeUrls
 
+-------------------------------------------------------------------------------
+
 memoCtx :: Tags -> Context String
 memoCtx tags = mconcat
   [ dateField "isodate" "%Y-%m-%d"
@@ -78,6 +87,23 @@ memoCtx tags = mconcat
   , tagsField "tags"    tags
   , defaultContext
   ]
+
+feedCfg :: FeedConfiguration
+feedCfg = FeedConfiguration
+  { feedTitle       = "barrucadu :: All Posts"
+  , feedDescription = "Personal blog of barrucadu"
+  , feedAuthorName  = "Michael Walker"
+  , feedAuthorEmail = "mike@barrucadu.co.uk"
+  , feedRoot        = "http://barrucadu.co.uk"
+  }
+
+feedCtx :: Context String
+feedCtx = mconcat
+  [ bodyField "description"
+  , defaultContext
+  ]
+
+-------------------------------------------------------------------------------
 
 -- | The Pandoc compiler, but using pygments/pygmentize for syntax
 -- highlighting.
