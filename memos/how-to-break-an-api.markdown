@@ -1,6 +1,6 @@
 ---
 title: How to Break an API
-tags: research, esec, fse
+tags: esec, fse, paper summary, research
 date: 2017-11-30
 audience: Computer science people.
 epistemic status: This is a summary of a published research paper, with some of my own opinions sprinkled throughout.

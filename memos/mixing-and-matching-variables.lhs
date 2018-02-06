@@ -1,6 +1,6 @@
 ---
 title: Mixing and Matching Variables
-tags: coco, programming, research
+tags: coco, haskell, programming, research
 date: 2017-04-04
 audience: Haskell programmers.
 epistemic_status: I wrote this memo to work out how to implement CoCo.  So this all works and is, mostly, still implemented like this.

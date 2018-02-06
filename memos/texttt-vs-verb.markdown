@@ -1,7 +1,7 @@
 ---
 title: \texttt{foo} vs \verb#foo#
 date: 2017-05-31
-tags: writing
+tags: latex, writing
 audience: Not you.
 epistemic_status: Totally unsubstantiated opinions.
 ---

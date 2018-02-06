@@ -1,6 +1,6 @@
 ---
 title: Personal Finance
-tags: finance, howto
+tags: finance, hledger, howto
 date: 2018-01-07
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.

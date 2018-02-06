@@ -1,6 +1,6 @@
 ---
 title: hledger
-tags: finance, howto
+tags: finance, hledger, howto
 date: 2017-09-29
 deprecated_by: personal-finance
 audience: Mostly me, & possibly personal finance nerds.

@@ -1,6 +1,6 @@
 ---
 title: M4 is Good
-tags: tech
+tags: m4, programing
 date: 2017-03-31
 audience: Not you.
 epistemic_status: Totally unsubstantiated opinions.

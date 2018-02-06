@@ -1,6 +1,6 @@
 ---
 title: Generating Typed Expressions
-tags: coco, programming, research
+tags: coco, code generation, haskell, programming, research
 date: 2017-03-27
 audience: Haskell programmers.
 epistemic_status: I wrote this memo to work out how to implement CoCo.  So this all works and is, mostly, still implemented like this.

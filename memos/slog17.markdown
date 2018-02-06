@@ -1,7 +1,7 @@
 ---
 title: Notes for Summer 2017
 date: 2017-06-30
-tags: slog
+tags: life
 audience: Not you.
 ---
 

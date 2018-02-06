@@ -1,6 +1,6 @@
 ---
 title: Implementing Polymorphism
-tags: coco, programming, research
+tags: coco, haskell, programming, research, type checking
 date: 2017-05-09
 audience: Haskell programmers.
 epistemic_status: I wrote this memo to work out how to implement CoCo.  So this all works and is, mostly, still implemented like this.
