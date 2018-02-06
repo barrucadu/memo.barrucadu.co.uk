@@ -252,8 +252,8 @@ I like to have separate accounts for each sort of money we have, and for each pe
 also like to have itemised transactions, so it is clear where the money is going. You don't need to
 go into that level of detail, but something beyond what YUSU Finance provides is very convenient.
 
-The [complete journal is available](/memo-files/societea-journal.txt), along with
-a [report that hledger generates](/memo-files/societea-report.txt).
+The [complete journal is available](/running-a-yusu-society/societea-journal.txt), along with
+a [report that hledger generates](/running-a-yusu-society/societea-report.txt).
 
 
 Press and Publicity
