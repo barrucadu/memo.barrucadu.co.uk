@@ -2,6 +2,9 @@
 title: Personal Finance
 tags: finance, howto
 date: 2018-01-07
+audience: Mostly me, & possibly personal finance nerds.
+epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
+notice: You may get something out of this if you're rethinking how you manage your finances.
 ---
 
 I manage my money using [plain-text accounting][] (specifically,

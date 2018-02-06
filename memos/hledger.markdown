@@ -3,6 +3,9 @@ title: hledger
 tags: finance, howto
 date: 2017-09-29
 deprecated_by: personal-finance
+audience: Mostly me, & possibly personal finance nerds.
+epistemic_status: Documents how I used to do things, doesn't attempt to speak more generally than that.
+notice: You may get something out of this if you're rethinking how you manage your finances.
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I

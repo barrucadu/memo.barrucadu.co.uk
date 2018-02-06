@@ -5,17 +5,41 @@
   <a href="$url$">$title$</a>
 </h1>
 
-<dl>
-  <dt>Date</dt>
-  <dd><time datetime="$isodate$">$ppdate$</time></dd>
+<table>
+  <tr>
+    <th>Date</th>
+    <td><time datetime="$isodate$">$ppdate$</time></td>
+  </tr>
   $if(project)$
-    <dt>Project<dt>
-    <dd><a href="/tag/$project$.html">$project$</a></dd>
+    <tr>
+      <th>Project</th>
+      <td><a href="/tag/$project$.html">$project$</a></td>
+    </tr>
   $endif$
-  <dt>Tags</dt>
-  <dd>$tags$</dd>
+  <tr>
+    <th>Tags</th>
+    <td>$tags$</td>
+  </tr>
   $if(deprecated_by)$
-    <dt>Deprecated By<dt>
-    <dd><a href="/$deprecated_by$.html">$deprecated_by$</a></dd>
+    <tr>
+      <th>Deprecated By</th>
+      <td><a href="/$deprecated_by$.html">$deprecated_by$</a></td>
+    </tr>
   $endif$
-</dl>
+  <tr>
+    <th>Target Audience</th>
+    <td>$audience$</td>
+  </tr>
+  $if(epistemic_status)$
+    <tr>
+      <th>Epistemic Status</th>
+      <td>$epistemic_status$</td>
+    </tr>
+  $endif$
+  $if(notice)$
+    <tr>
+      <th>Attention Conservation Notice</th>
+      <td>$notice$</td>
+    </tr>
+  $endif$
+</table>

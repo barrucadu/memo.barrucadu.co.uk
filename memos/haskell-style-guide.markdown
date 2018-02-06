@@ -2,6 +2,8 @@
 title: Haskell Style Guide
 tags: programming
 date: 2017-05-16
+audience: Haskell programmers.
+epistemic_status: Totally unsubstantiated opinions.
 ---
 
 File layout

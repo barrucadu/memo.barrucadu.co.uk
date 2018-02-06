@@ -2,6 +2,7 @@
 title: Notes for Summer 2017
 date: 2017-06-30
 tags: slog
+audience: Not you.
 ---
 
 Salvaged from the whiteboards before they were cleaned.

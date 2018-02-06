@@ -2,6 +2,8 @@
 title: NixOS, GHCi, and Mueval
 tags: howto, programming, tech
 date: 2017-03-17
+audience: The intersection of NixOS and Haskell users.
+epistemic_status: Was accurate and true at one point, but NixOS does like to change how things are done...
 ---
 
 

@@ -3,6 +3,8 @@ title: A Multithreaded Runtime for Deja Fu
 tags: programming, research
 project: dejafu
 date: 2017-10-03
+audience: People interested in the dejafu internals.
+epistemic_status: This isn't actually the implementation dejafu uses now, but it's close enough (and simple enough) to help understanding.
 ---
 
 The dejafu situation currently looks something like this:

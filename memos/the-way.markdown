@@ -2,6 +2,8 @@
 title: The Way
 tags: life
 date: 2017-03-06
+audience: Not you.
+epistemic_status: Totally unsubstantiated opinions.
 ---
 
 On Attitude

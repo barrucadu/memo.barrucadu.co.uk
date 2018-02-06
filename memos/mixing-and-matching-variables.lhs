@@ -3,6 +3,8 @@ title: Mixing and Matching Variables
 tags: programming, research
 project: coco
 date: 2017-04-04
+audience: Haskell programmers.
+epistemic_status: I wrote this memo to work out how to implement CoCo.  So this all works and is, mostly, still implemented like this.
 ---
 
 Thanks to the two prior memos in this series, we can generate *schemas* and produce a set of *terms*

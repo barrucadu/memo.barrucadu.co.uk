@@ -29,22 +29,22 @@ a:hover, a:active {
     opacity: 0.5;
 }
 
-.infobox dl {
-    margin: 0.5em 0 0 0;
-    padding: 0;
+.infobox table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+    border: none;
 }
 
-.infobox dt {
-    float: left;
-    clear: left;
-    width: 8em;
-    text-align: right;
+.infobox th {
     font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+    width: 10em;
 }
 
-.infobox dd {
-    margin: 0 0 0 9em;
-    padding: 0 0 0.5em 0;
+.infobox td {
+    vertical-align: top;
+    padding-left: 1em;
 }
 
 h1 {
