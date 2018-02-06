@@ -134,8 +134,8 @@ pygmentize = unsafeCompiler . walkM highlight where
     where
       go highlightLang = readProcess "pygmentize" ["-l", highlightLang,  "-f", "html"]
 
--- | Build tags by merging the "tags" and "project" fields and adding
--- the "important" tag if that field is present.
+-- | Add "important" and "deprecated" tags if those fields are
+-- present.
 buildTagsWithExtra :: MonadMetadata m => Pattern -> (String -> Identifier) -> m Tags
 buildTagsWithExtra = buildTagsWith $ \identifier -> do
   metadata <- getMetadata identifier
@@ -144,7 +144,6 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
   pure $
     ["important"  | hasField "important"] ++
     ["deprecated" | hasField "deprecated_by"] ++
-    fieldValue "project" ++
     fieldValue "tags"
 
 -- | Remove some portion of the route

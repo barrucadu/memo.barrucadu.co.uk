@@ -1,7 +1,6 @@
 ---
 title: Representation & Evaluation of Typed Expressions
-tags: programming, research
-project: coco
+tags: coco, programming, research
 date: 2017-03-23
 audience: Haskell programmers.
 epistemic_status: I wrote this memo to work out how to implement CoCo.  So this all works and is, mostly, still implemented like this.
