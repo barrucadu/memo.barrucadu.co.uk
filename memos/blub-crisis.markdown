@@ -43,4 +43,4 @@ is to become proficient---actually proficient---in a different language, and onc
 way of thinking.
 
 [avg]: http://paulgraham.com/avg.html
-[goblog]: https://www.barrucadu.co.uk/posts/etc/2016-08-25-three-months-of-go.html
+[goblog]: /three-months-of-go.html
