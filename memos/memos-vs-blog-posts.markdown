@@ -2,8 +2,8 @@
 title: Memos vs. Blog Posts
 tags: meta, writing
 date: 2017-03-01
-important: true
 audience: Everyone
+deprecated_by: read-me-first
 ---
 
 The major differences between memos and blog posts are two: *audience* and *intent*:
