@@ -195,6 +195,10 @@ cite:before {
     text-align: center;
 }
 
+.footnotes {
+    font-size: 0.7rem;
+}
+
 /* Scale body text size depending on browser width */
 @media all {html {font-size: 21px}}
 @media all and (max-width:1000px){html {font-size: 21px !important}}
