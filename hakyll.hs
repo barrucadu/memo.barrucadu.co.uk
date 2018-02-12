@@ -90,11 +90,11 @@ memoCtx tags = mconcat
 
 feedCfg :: FeedConfiguration
 feedCfg = FeedConfiguration
-  { feedTitle       = "barrucadu :: All Posts"
-  , feedDescription = "Personal blog of barrucadu"
+  { feedTitle       = "barrucadu's memos"
+  , feedDescription = ""
   , feedAuthorName  = "Michael Walker"
   , feedAuthorEmail = "mike@barrucadu.co.uk"
-  , feedRoot        = "http://barrucadu.co.uk"
+  , feedRoot        = "https://memo.barrucadu.co.uk"
   }
 
 feedCtx :: Context String
