@@ -7,7 +7,7 @@ body {
 }
 
 .box {
-    margin: 0 auto 16px auto;
+    margin: 0 auto;
     padding: 1rem 2rem;
     max-width: 1000px;
 }
