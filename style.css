@@ -1,7 +1,7 @@
 body {
     font-family: 'Gentium Book Basic', Cambria, Georgia, Times, serif;
     color: #3b3b3b;
-    background-color: #E7E4D5;
+    background: linear-gradient(to bottom, #EEE 0%, #FFF 10%, #FFF 90%, #EEE 100%);
     margin: 16px auto 0 auto;
     max-width: 42rem;
 }
@@ -10,10 +10,6 @@ body {
     margin: 0 auto;
     padding: 1rem 2rem;
     max-width: 1000px;
-}
-
-article, section {
-    background-color: #f4f4f4;
 }
 
 header, footer {
