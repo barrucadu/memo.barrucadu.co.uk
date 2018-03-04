@@ -1,7 +1,7 @@
 ---
 title: Interesting Research
 tags: research
-date: 2017-11-20
+date: 2018-03-04
 audience: Computer science people.
 ---
 
@@ -57,39 +57,6 @@ Sources
 Topics
 ------
 
-### Swarm testing
-
-Rather than hand-tune a configuration for a complex testing tool (eg, Csmith), generate a diverse
-set of random configurations and try them, possibly in parallel. In principle, this will lead to a
-better exploration of the space than just one configuration.
-
-#### People
-
-- **[Alex Groce](http://www.cs.cmu.edu/~agroce)**[^bold]
-- Arpit Christi
-- Chaoqiang Zhang
-- [Eric Eide](http://www.cs.utah.edu/~eeide)
-- [John Regehr](http://www.cs.utah.edu/~regehr)
-- [Mohammad Amin Alipour](http://alipourm.github.io)
-- [Rahul Gopinath](https://rahul.gopinath.org)
-- [Yang Chen](http://www.cs.utah.edu/~chenyang)
-
-#### Papers
-
-- **Swarm Testing** ([pdf](http://www.cs.cmu.edu/~agroce/issta12.pdf))<br>
-    Alex Groce, Chaoqiang Zhang, Eric Eide, Yang Chen, and John Regehr.<br>
-    In *International Symposium on Software Testing and Analysis* (ISSTA). 2012.
-
-- **Generating Focused Random Tests Using Directed Swarm Testing** ([pdf](http://www.cs.cmu.edu/~agroce/issta16.pdf))<br>
-    Mohammad Amin Alipour, Alex Groce, Rahul Gopinath, and Arpit Christi.<br>
-    In *International Symposium on Software Testing and Analysis* (ISSTA). 2016.
-
-#### Venues
-
-- International Symposium on Software Testing and Analysis (ISSTA)
-
-[^bold]: **Bold people** are those who, at the time of writing, I considered to be key figures in the field to keep an eye on.
-
 ### Systematic concurrency testing (SCT)
 
 Deterministic testing for concurrent programs, by controlling the scheduling decisions made to
@@ -98,7 +65,7 @@ program verification.
 
 #### People
 
-- **[Alastair F. Donaldson](http://multicore.doc.ic.ac.uk/people/ally-donaldson/)**
+- **[Alastair F. Donaldson](http://multicore.doc.ic.ac.uk/people/ally-donaldson/)**[^bold]
 - **[Chao Wang](http://www-bcf.usc.edu/~wang626)**
 - **[Jeff Huang](https://parasol.tamu.edu/~jeff/)**
 - **[Koushik Sen](https://people.eecs.berkeley.edu/~ksen)**
@@ -131,6 +98,8 @@ program verification.
 - [Tayfun Elmas](https://sites.google.com/site/tayfunelmas/)
 - [Wolfram Schulte](https://www.microsoft.com/en-us/research/people/schulte)
 - [Zvonimir Rakamaric](http://www.zvonimir.info)
+
+[^bold]: **Bold people** are those who, at the time of writing, I considered to be key figures in the field to keep an eye on.
 
 #### Papers
 
@@ -220,7 +189,7 @@ program verification.
 - Symposium on Principles of Programming Languages (POPL)
 - Transactions on Parallel Computing (TOPC)
 
-### Test Generation
+### Test case generation
 
 Test cases are hard to write by hand, so rather than do that, have a tool attempt to discover
 interesting ones. By reading the output, a programmer can (a) add good tests to the testsuite; and
@@ -228,20 +197,28 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 
 #### People
 
+- **[Alex Groce](http://www.cs.cmu.edu/~agroce)**
 - **[Koen Claessen](http://www.cse.chalmers.se/~koen/)**
 - **[Nicholas Smallbone](http://www.cse.chalmers.se/~nicsma/)**
 - **[Rudy Braquehais](https://matela.com.br/)**
-- [Aws Albarghouthi](http://pages.cs.wisc.edu/~aws/)
-- [Calvin Smith](http://pages.cs.wisc.edu/~cjsmith/)
-- [Colin Runciman](https://www-users.cs.york.ac.uk/colin/)
 - Gabriel Ferns
 - Javier Paris
+- Maximilian Algehed
+- Arpit Christi
+- [Aws Albarghouthi](http://pages.cs.wisc.edu/~aws/)
+- [Calvin Smith](http://pages.cs.wisc.edu/~cjsmith/)
+- Chaoqiang Zhang
+- [Colin Runciman](https://www-users.cs.york.ac.uk/colin/)
+- [Eric Eide](http://www.cs.utah.edu/~eeide)
 - [John Derrick](http://staffwww.dcs.shef.ac.uk/people/J.Derrick/)
 - [John Hughes](http://www.cse.chalmers.se/~rjmh/)
+- [John Regehr](http://www.cs.utah.edu/~regehr)
 - [Kirill Bogdanov](http://staffwww.dcs.shef.ac.uk/people/K.Bogdanov/)
-- Maximilian Algehed
 - [Moa Johansson](http://www.cse.chalmers.se/~jomoa/)
+- [Mohammad Amin Alipour](http://alipourm.github.io)
 - [Neil Walkinshaw](http://www2.le.ac.uk/departments/informatics/people/neil-walkinshaw)
+- [Rahul Gopinath](https://rahul.gopinath.org)
+- [Yang Chen](http://www.cs.utah.edu/~chenyang)
 
 #### Papers
 
@@ -253,9 +230,17 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
     Koen Claessen, Nicholas Smallbone, John Hughes.<br>
     In *Conference on Tests and Proofs* (TAP). 2010.
 
+- **Swarm Testing** ([pdf](http://www.cs.cmu.edu/~agroce/issta12.pdf))<br>
+    Alex Groce, Chaoqiang Zhang, Eric Eide, Yang Chen, and John Regehr.<br>
+    In *International Symposium on Software Testing and Analysis* (ISSTA). 2012.
+
 - **FitSpec: refining property sets for functional testing** ([pdf](https://matela.com.br/papers/fitspec.pdf))<br>
     Rudy Braquehais and Colin Runciman.<br>
     In *Symposium on Haskell* (Haskell). 2016.
+
+- **Generating Focused Random Tests Using Directed Swarm Testing** ([pdf](http://www.cs.cmu.edu/~agroce/issta16.pdf))<br>
+    Mohammad Amin Alipour, Alex Groce, Rahul Gopinath, and Arpit Christi.<br>
+    In *International Symposium on Software Testing and Analysis* (ISSTA). 2016.
 
 - **Quick Specifications for the Busy Programmer** ([pdf](http://www.cse.chalmers.se/~jomoa/papers/quickspec2016.pdf))<br>
     Nicholas Smallbone, Moa Johansson, Koen Claessen, Maximilian Algehed.<br>
@@ -274,5 +259,6 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 - Haskell Symposium (Haskell)
 - International Conference on Testing Software and Systems (ICTSS)
 - International Conference on Tests and Proofs (TAP)
+- International Symposium on Software Testing and Analysis (ISSTA)
 - Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
 - Journal of Functional Programming (JFP)
