@@ -213,6 +213,8 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 - [John Derrick](http://staffwww.dcs.shef.ac.uk/people/J.Derrick/)
 - [John Hughes](http://www.cse.chalmers.se/~rjmh/)
 - [John Regehr](http://www.cs.utah.edu/~regehr)
+- Josie Holmes
+- Kevin Kellar
 - [Kirill Bogdanov](http://staffwww.dcs.shef.ac.uk/people/K.Bogdanov/)
 - [Moa Johansson](http://www.cse.chalmers.se/~jomoa/)
 - [Mohammad Amin Alipour](http://alipourm.github.io)
@@ -249,6 +251,10 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 - **Discovering Relational Specifications** ([pdf](http://pages.cs.wisc.edu/~aws/papers/fse17.pdf))<br>
     Calvin Smith, Gabriel Ferns, and Aws Albarghouthi.<br>
     In *Foundations of Software Engineering* (FSE). 2017
+
+- **One Test to Rule Them All** ([pdf](https://www.cefns.nau.edu/~adg326/issta17.pdf))<br>
+    Alex Groce, Josie Holmes, and Kevin Kellar.<br>
+    In *International Symposium on Software Tetsing and Analysis* (ISSTA). 2017.
 
 - **Speculate: Discovering Conditional Equations and Inequalities about Black-Box Functions by Reasoning from Test Results** ([pdf](https://matela.com.br/papers/speculate.pdf))<br>
     Rudy Braquehais and Colin Runciman.<br>
