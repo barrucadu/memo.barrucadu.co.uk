@@ -129,6 +129,7 @@ pre, code {
 }
 
 pre {
+    overflow: auto;
     padding: 10px;
     margin: 0;
     border: 1px solid #dccdcc;
@@ -206,7 +207,6 @@ cite:before {
 /* ***** Syntax Highlighting ***** */
 .highlight {
   white-space: pre;
-  overflow: auto;
   word-wrap: normal; /* horizontal scrolling */
 }
 
