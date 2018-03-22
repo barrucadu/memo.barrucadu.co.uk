@@ -1,7 +1,7 @@
 ---
 title: Interesting Research
 tags: research
-date: 2018-03-04
+date: 2018-03-22
 audience: Computer science people.
 ---
 
@@ -33,6 +33,7 @@ Sources
     - [Haskell Implementors Workshop](https://wiki.haskell.org/HaskellImplementorsWorkshop) (HIW)
     - [Haskell Symposium / Symposium on Haskell](https://www.haskell.org/haskell-symposium) (Haskell)
 - [International Conference on Runtime Verification](http://runtime-verification.org) (RV)
+- [International Conference on Software Engineering](http://www.icse-conferences.org) (ICSE)
 - [International Conference on Testing Software and Systems](https://sites.google.com/site/ictssmain/home) (ICTSS)
 - International Conference on Tests and Proofs (TAP)
 - [International Symposium on Distributed Computing](http://www.disc-conference.org/wp) (DISC)
@@ -213,8 +214,6 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 - [John Derrick](http://staffwww.dcs.shef.ac.uk/people/J.Derrick/)
 - [John Hughes](http://www.cse.chalmers.se/~rjmh/)
 - [John Regehr](http://www.cs.utah.edu/~regehr)
-- Josie Holmes
-- Kevin Kellar
 - [Kirill Bogdanov](http://staffwww.dcs.shef.ac.uk/people/K.Bogdanov/)
 - [Moa Johansson](http://www.cse.chalmers.se/~jomoa/)
 - [Mohammad Amin Alipour](http://alipourm.github.io)
@@ -252,10 +251,6 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
     Calvin Smith, Gabriel Ferns, and Aws Albarghouthi.<br>
     In *Foundations of Software Engineering* (FSE). 2017
 
-- **One Test to Rule Them All** ([pdf](https://www.cefns.nau.edu/~adg326/issta17.pdf))<br>
-    Alex Groce, Josie Holmes, and Kevin Kellar.<br>
-    In *International Symposium on Software Tetsing and Analysis* (ISSTA). 2017.
-
 - **Speculate: Discovering Conditional Equations and Inequalities about Black-Box Functions by Reasoning from Test Results** ([pdf](https://matela.com.br/papers/speculate.pdf))<br>
     Rudy Braquehais and Colin Runciman.<br>
     In *Symposium on Haskell* (Haskell). 2017.
@@ -268,3 +263,32 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 - International Symposium on Software Testing and Analysis (ISSTA)
 - Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
 - Journal of Functional Programming (JFP)
+
+### Test case reduction
+
+Once we have produced (either hand-written by a programmer or generated with a tool) a test case
+which exhibits some fault, we want to throw away all the incidental complexity, and find the
+simplest test case which exhibits the same bug.
+
+This overlaps heavily with **test case generation**, but differs in motivation.
+
+#### People
+
+- **[Alex Groce](http://www.cs.cmu.edu/~agroce)**
+- Josie Holmes
+- Kevin Kellar
+
+#### Papers
+
+- **Practical Semantic Test Simplification** ([pdf](https://zhang-sai.github.io/pdf/zhang-icse13-nier.pdf))<br>
+    Sai Zhang.<br>
+    In *International Conference on Software Engineering* (ICSE). 2013.
+
+- **One Test to Rule Them All** ([pdf](https://www.cefns.nau.edu/~adg326/issta17.pdf))<br>
+    Alex Groce, Josie Holmes, and Kevin Kellar.<br>
+    In *International Symposium on Software Tetsing and Analysis* (ISSTA). 2017.
+
+#### Venues
+
+- International Conference on Software Engineering (ICSE)
+- International Symposium on Software Testing and Analysis (ISSTA)
