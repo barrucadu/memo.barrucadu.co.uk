@@ -196,6 +196,20 @@ cite:before {
     font-size: 0.7rem;
 }
 
+article table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+article table td, article table th {
+    border-right: 1px solid #999;
+    padding: 0.3em;
+}
+
+article tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
 /* Scale body text size depending on browser width */
 @media all {html {font-size: 21px}}
 @media all and (max-width:1000px){html {font-size: 21px !important}}

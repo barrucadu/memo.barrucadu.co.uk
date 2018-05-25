@@ -1,46 +1,43 @@
 ---
 title: Boardgames
 tags: possessions
-date: 2017-03-03
-audience: Not you.
+date: 2018-05-25
+audience: People who know me and like boardgames.
 ---
 
-Games I Own
------------
+Game                                  1    2    3    4    5    6    7    8    9    10
+-----------------------------------  ---  ---  ---  ---  ---  ---  ---  ---  ---  ----
+Arkham Horror                         1    2    3    4    5    6    7    8
+--- *The Black Goat of the Woods*     1    2    3    4    5    6    7    8
+--- *The King in Yellow*              1    2    3    4    5    6    7    8
+Betrayal at House on the Hill                   3    4    5
+--- *Widow's Walk*                              3    4    5
+Carcassonne                                2    3    4    5
+--- *Bridges, Castles, and Bazaars*        2    3    4    5    6
+Chess                                      2
+Cthulhu Fluxx                              2    3    4    5    6
+Cthulhu Gloom                              2    3    4    5
+Cthulhu Tales                              2    3    4    5
+Dominion                                   2    3    4
+Eldritch Horror                       1    2    3    4    5    6    7    8
+--- *Mountains of Madness*            1    2    3    4    5    6    7    8
+--- *Signs of Carcosa*                1    2    3    4    5    6    7    8
+Fluxx: The Board Game                      2    3    4
+Go                                         2
+Hanabi                                     2    3    4    5
+Love Letter                                2    3    4
+Mansions of Madness                        2    3    4    5
+--- *Call of the Wild*                     2    3    4    5
+Monty Python Fluxx                         2    3    4    5    6
+New Bedford                           1    2    3    4
+The Resistance                                            5    6    7    8    9    10
+The Settlers of Catan                           3    4
+Takenoko                                   2    3    4
+Tanto Cuore                                2    3    4
+Tao Long                                   2
+Ticket to Ride: Europe                     2    3    4    5
 
-- Arkham Horror ([BGG](https://boardgamegeek.com/boardgame/15987/arkham-horror))
-    - The Black Goat of the Woods ([BGG](https://boardgamegeek.com/boardgameexpansion/37008/arkham-horror-black-goat-woods-expansion))
-    - The King in Yellow ([BGG](https://boardgamegeek.com/boardgameexpansion/25945/arkham-horror-king-yellow-expansion))
-- Betrayal at House on the Hill ([BGG](https://boardgamegeek.com/boardgame/10547/betrayal-house-hill))
-    - Widow's Walk ([BGG](https://boardgamegeek.com/boardgameexpansion/198452/betrayal-house-hill-widows-walk))
-- Carcassonne ([BGG](https://boardgamegeek.com/boardgame/822/carcassonne))
-    - Bridges, Castles, and Bazaars ([BGG](https://boardgamegeek.com/boardgameexpansion/66646/carcassonne-bridges-castles-and-bazaars))
-- Chess
-- Cthulhu Fluxx ([BGG](https://boardgamegeek.com/boardgame/122159/cthulhu-fluxx))
-- Cthulhu Gloom ([BGG](https://boardgamegeek.com/boardgame/95234/cthulhu-gloom))
-- Dominion ([BGG](https://boardgamegeek.com/boardgame/36218/dominion))
-- Eldritch Horror ([BGG](https://boardgamegeek.com/boardgame/146021/eldritch-horror))
-    - Mountains of Madness ([BGG](https://boardgamegeek.com/boardgameexpansion/164167/eldritch-horror-mountains-madness))
-- Fluxx: The Board Game ([BGG](https://boardgamegeek.com/boardgame/140796/fluxx-board-game))
-- Go
-- Hanabi ([BGG](https://boardgamegeek.com/boardgame/98778/hanabi))
-- Love Letter (Kanai Factory Edition) (*BGG doesn't have this edition*)
-- Mansions of Madness ([BGG](https://boardgamegeek.com/boardgame/83330/mansions-madness))
-    - Call of the Wild ([BGG](https://boardgamegeek.com/boardgameexpansion/131751/mansions-madness-call-wild))
-- Monty Python Fluxx ([BGG](https://boardgamegeek.com/boardgame/36345/monty-python-fluxx))
-- New Bedford ([BGG](https://boardgamegeek.com/boardgame/157413/new-bedford))
-- The Resistance ([BGG](https://boardgamegeek.com/boardgame/41114/resistance))
-- The Settlers of Catan ([BGG](https://boardgamegeek.com/boardgame/13/catan))
-- Takenoko ([BGG](https://boardgamegeek.com/boardgame/70919/takenoko))
-- Tanto Cuore ([BGG](https://boardgamegeek.com/boardgame/65282/tanto-cuore))
-- Ticket to Ride: Europe ([BGG](https://boardgamegeek.com/boardgame/14996/ticket-ride-europe))
+**Notes:**
 
-Games I Want
-------------
-
-- Agricola ([BGG](https://boardgamegeek.com/boardgame/31260/agricola))
-- Power Grid ([BGG](https://boardgamegeek.com/boardgame/2651/power-grid))
-- Race for the Galaxy ([BGG](https://boardgamegeek.com/boardgame/28143/race-galaxy))
-- Tsuro ([BGG](https://boardgamegeek.com/boardgame/16992/tsuro))
-
-*+ expansions and later editions of all the games I own*
+- I have mixed the *Widow's Walk* pieces into the Betrayal at House on
+  the Hill base game.
