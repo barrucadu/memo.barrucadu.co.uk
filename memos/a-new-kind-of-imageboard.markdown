@@ -1,7 +1,7 @@
 ---
 title: A New Kind of Imageboard
 tags: culture, tech
-date: 2018-05-22
+date: 2018-05-28
 audience: Imageboard dwellers & cyber-anthropologists.
 epistemic_status: Totally unsubstantiated opinions, but I've been immersed in this culture for a while.
 notice: This is part feature list / part response to Clay Shirky's "A Group Is Its Own Worst Enemy" essay.  Will I ever implement this and test these ideas out?  Who knows!
@@ -247,6 +247,32 @@ can create their own (public) board.
 
 Perhaps mail should be accessible at all times, so the curfew is not a
 barrier to these more private discussions.
+
+### A few more thoughts
+
+If we take the private group mail to its logical extreme, then the
+point of the public posting space is to be, more or less, a lobby in
+which the whole group gets together, and to act as a place for new
+members to arrive; discussion in this lobby will be fairly superficial
+and friendly, with more serious discussion happening in cultivated
+groups.  This gives rise to an interesting question:
+
+*Are multiple boards, or even multiple threads, necessary at all?*
+
+I suspect not.  In which case, we need to be careful with the growing
+number of posts in the single "thread" (and in each mail group).  I
+think an expiry mechanic would work nicely here: posts can either
+expire at a fixed time (such as the end of a session), or when the
+thread contains a given number of posts.
+
+I think this would be a very interesting community!
+
+- A single public thread, only open for a few hours a day at fixed
+  times;
+- With a mail system, accessible even when the lobby is closed;
+- Where posts gradually expire as time goes on.
+
+This feels more like a chatroom than an imageboard!
 
 ## Open problems
 
