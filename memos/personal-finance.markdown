@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-01-07
+date: 2018-05-28
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
 notice: You may get something out of this if you're rethinking how you manage your finances.
@@ -192,7 +192,7 @@ exactly specify the overall price.  Trading fees go to
 A broker may have subaccounts:
 
 ```
-2018-08-01 Fidelity
+2018-08-01 Cavendish
     assets:investments:cavendish:s&s  31.19 MCOUA @@ £50
     assets:investments:cavendish:s&s  65.15 MCMEA @@ £100
     assets:investments:cavendish:s&s   7.15 MHMIA @@ £50
@@ -211,16 +211,50 @@ A broker may charge a management fee by selling some of the assets:
 Although it is best to keep some cash in the account, if possible, to
 avoid the assets from being whittled away.
 
-### Expenses
+### Withdrawing Cash
 
-There are two main types of expenses: expenses from my current
-account, and cash expenses.  The former are straightforward:
+Cash that can be withdrawn lives in `current:float`.  This is because
+it's useful to have cash on hand without necessarily having decided up
+front what it's for, but it's also good to bound the amount of
+unallocated money I have.
+
+```
+2018-05-24 Withdraw
+    assets:cash:hand  £20
+    current:float
+```
+
+Cash can also be withdrawn in a foreign currency, which will have an
+exchange rate and may impose an additional fee:
+
+```
+2018-05-11 Withdraw
+    assets:cash:hand  10000 JPY @@ £70.41
+    expenses:fees:currency  £1.99
+    current:float
+```
+
+### Expenses (bank account)
+
+There are two main types of expenses: expenses from my bank account,
+and cash expenses.  The former are straightforward:
 
 ```
 2018-01-01 Subway
     expenses:food  £5.99
     month:food
 ```
+
+Foreign currency expenses are recorded like so:
+
+```
+2018-01-01 Linode
+    expenses:web  $20 @@ £15.31
+    expenses:fees:currency  £1.25
+    saved:web
+```
+
+### Expenses (cash)
 
 Cash expenses require an adjustment to the appropriate budget
 category, transferring money back to the float to represent that that
@@ -237,6 +271,21 @@ money has been allocated and spent:
 
 This could be done in one transaction, but I think it's clearer with
 two.
+
+Foreign currency cash transactions require picking an appropriate
+exchange rate when removing the money from the budget category:
+
+```
+2018-05-08 FamilyMart
+    expenses:food  548 JPY
+    assets:cash:hand
+2018-05-08 Cash budget spend
+    month:food  -548 JPY @@ £4.60
+    current:float
+```
+
+The exchange rate is kind of arbitrary, but something reasonably close
+to the then-current exchange rate should be used.
 
 ### Reimbursements
 
