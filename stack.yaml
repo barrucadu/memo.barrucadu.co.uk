@@ -8,4 +8,4 @@ resolver: lts-8.3
 nix:
   pure: false
   enable: true
-  packages: [gmp, python3Packages.pygments, zlib]
+  packages: [gmp, graphviz, python3Packages.pygments, zlib]

@@ -5,13 +5,15 @@ module Main where
 
 import           Control.Monad              (mplus)
 import           Data.Char                  (toLower)
-import           Data.List                  (sortBy)
+import           Data.List                  (isPrefixOf, sortBy)
 import           Data.Maybe                 (fromMaybe, isJust)
 import           Data.Monoid                ((<>))
 import           Data.Ord                   (Down(..), comparing)
 import           Data.Time.Format           (defaultTimeLocale)
 import           Hakyll
 import           Hakyll.Contrib.Hyphenation (english_GB, hyphenateHtml)
+import           System.IO                  (hClose, hPutStrLn)
+import           System.IO.Temp             (withSystemTempFile)
 import           System.Process             (readProcess)
 import           Text.Pandoc.Definition     (Block(..), Format(..), Pandoc)
 import           Text.Pandoc.Options        (WriterOptions(..))
@@ -126,12 +128,16 @@ pygmentize = unsafeCompiler . walkM highlight where
     _ -> pure $ "<div class =\"highlight\"><pre>" ++ escapeHtml code ++ "</pre></div>"
   highlight x = pure x
 
-  -- Apply language-specific syntax highlighting. For some reason
-  -- Haskell source in .lhs files is reported as "sourcecode". There
-  -- may be other edge cases, but as I never want to highlight
-  -- anything other than Haskell that is fine.
-  withLanguage lang = let lang' = map toLower lang in if lang' == "sourcecode" then go "haskell" else go lang'
+  withLanguage lang
+      -- For some reason Haskell source in .lhs files is reported as
+      -- "sourcecode". There may be other edge cases, but as I never
+      -- want to highlight anything other than Haskell that is fine.
+      | lang' == "sourcecode" = go "haskell"
+      | otherwise = go lang'
     where
+      lang' = map toLower lang
+
+      go "graphviz" = graphvizToHtml
       go highlightLang = readProcess "pygmentize" ["-l", highlightLang,  "-f", "html"]
 
 -- | Add "important" and "deprecated" tags if those fields are
@@ -166,3 +172,18 @@ sortMemos = sortByA info where
     let isImportant  = isJust (lookupString "important" metadata)
     date <- getItemUTC defaultTimeLocale identifier
     pure (isDeprecated, Down isImportant, Down date)
+
+-- | Render graphviz code.
+graphvizToHtml :: String -> IO String
+graphvizToHtml src = withSystemTempFile "memo-graphviz-" $ \tmpFile hFile -> do
+  hPutStrLn hFile src
+  hClose hFile
+  dropUntil "<svg" <$> readProcess "dot" ["-Tsvg", tmpFile] ""
+
+-- | Drop elements from a list until a prefix is found.
+dropUntil :: Eq a => [a] -> [a] -> [a]
+dropUntil prefix = go where
+  go [] = []
+  go xs
+    | prefix `isPrefixOf` xs = xs
+    | otherwise = go (tail xs)
