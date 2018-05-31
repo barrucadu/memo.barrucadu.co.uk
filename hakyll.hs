@@ -137,7 +137,8 @@ pygmentize = unsafeCompiler . walkM highlight where
     where
       lang' = map toLower lang
 
-      go "graphviz" = graphvizToHtml
+      go "graphviz" = graphvizToHtml "dot"
+      go ('g':'r':'a':'p':'h':'v':'i':'z':':':tool) = graphvizToHtml tool
       go highlightLang = readProcess "pygmentize" ["-l", highlightLang,  "-f", "html"]
 
 -- | Add "important" and "deprecated" tags if those fields are
@@ -174,11 +175,11 @@ sortMemos = sortByA info where
     pure (isDeprecated, Down isImportant, Down date)
 
 -- | Render graphviz code.
-graphvizToHtml :: String -> IO String
-graphvizToHtml src = withSystemTempFile "memo-graphviz-" $ \tmpFile hFile -> do
+graphvizToHtml :: String -> String -> IO String
+graphvizToHtml cmd src = withSystemTempFile "memo-graphviz-" $ \tmpFile hFile -> do
   hPutStrLn hFile src
   hClose hFile
-  dropUntil "<svg" <$> readProcess "dot" ["-Tsvg", tmpFile] ""
+  dropUntil "<svg" <$> readProcess cmd ["-Tsvg", tmpFile] ""
 
 -- | Drop elements from a list until a prefix is found.
 dropUntil :: Eq a => [a] -> [a] -> [a]
