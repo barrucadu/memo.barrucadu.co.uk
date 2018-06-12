@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-05-28
+date: 2018-06-12
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
 notice: You may get something out of this if you're rethinking how you manage your finances.
@@ -31,7 +31,6 @@ Why track my finances at all?
 - Makes me more conscious of my spending.
 - Lets me see how my spending has changed over time.
 - Lets me plan for the future with some degree of confidence.
-- Way less cumbersome than the spreadsheet I used to use.
 
 This memo is concerned with my mechanism for implementing this
 approach.  It could serve as a starting point for your financial
@@ -42,53 +41,71 @@ allocate your income to them requires introspection.
 [plain-text accounting]: http://plaintextaccounting.org/
 [ynab]: https://www.youneedabudget.com/method/
 
-## Journal files
+## Data Files
 
-My journal files are shared with [syncthing][], so I can add
-transactions from any machine.  In practice I tend to just do it from
-a tmux session I always have open on my VPS (which also has my IRC
-client open).
+My hledger data files (the "journal files") are shared with
+[syncthing][], so I can add transactions from any machine.
 
-- `current.journal` is the main file.
-- `$YEAR.journal` is the journal for the given year.
+I have one journal for each calendar year:
+
+- `current.journal`, the journal for the current year.
+- `$YEAR.journal`, is the journal for a previous year.
+
+I also have two files which all my journals include:
+
+- `commodities`, a list of all commodities (currencies,
+  cryptocurrencies, funds) I deal with.
+- `prices`, end-of-day exchange rates for all of my commodities.
 
 [syncthing]: https://syncthing.net/
 
-## Accounts
+## Chart of Accounts
 
 Accounts are broken up into five broad categories:
 
-- `assets`: money I have or am owed
-- `equity`: used to start off the ledger for the year
-- `expenses`: money I have spent
-- `income`: money I have received
-- `liabilities`: money I owe
+- `assets`: money I have or am owed.
+- `equity`: used to start off the ledger for the year.
+- `expenses`: money I have spent.
+- `income`: money I have received.
+- `liabilities`: money I owe.
 
 Then `assets` is further subdivided into:
 
-- `cash`: easily liquidated assets
-- `investments`: brokerage accounts
-- `reimbursements`: money I am owed
+- `cash`: easily liquidated assets.
+- `investments`: brokerage accounts.
+- `pension`: employer-managed pension funds.
+- `receivable`: money I am owed.
 
-Here are all the regular accounts:
+The set of accounts I use is fairly stable: sometimes I'll add one, or
+one will cease to be useful, but that's a rare event.  Here are all
+the regular accounts, which are mostly self-explanatory:
 
 - `assets`
     - `cash`
-        - `hand`
         - `paypal`
+        - `petty`
+            - `hand`<br><em>Physical cash, in my wallet</em>
+                - `budgeted`<br><em>&hellip; which was withdrawn from my bank account</em>
+                - `unbudgeted`<br><em>&hellip; which was a gift</em>
+            - `home`<br><em>Physical cash, not in my wallet</em>
         - `santander`
             - `current`
-                - `float`
-                - `month`
+                - `float`<br><em>Cash which can be withdrawn</em>
+                - `month`<br><em>Living expenses, with money added at the start of the month</em>
                     - `food`
                     - `fun`
                     - `other`
-                - `saved`
+                - `saved`<br><em>Savings, with money added when I am paid at the end of the month</em>
+                    - `clothing`
+                    - `gift`
                     - `health`
                     - `household`
+                    - `insurance`
                     - `invest`
                     - `monthly`
+                    - `phone`
                     - `rent`
+                    - `tech`
                     - `travel`
                     - `utilities`
                     - `web`
@@ -96,24 +113,69 @@ Here are all the regular accounts:
         - `cavendish`
             - `s&s`
         - `coinbase`
-    - `reimbursements`
-        - `deposit`
+    - `pension`
+        - `civilservice`
+    - `receivable`
+        - `deposit`<br><em>The deposit on my flat</em>
 - `equity`
 - `expenses`
+    - `books`
+    - `clothing`
     - `fees`
+        - `cavendish`<br><em>My investment broker</em>
+        - `currency`
+        - `customs`
+    - `food`
+    - `fun`
+    - `gift`
+    - `health`
+    - `household`
+    - `insurance`
+    - `music`
+    - `other`
+    - `phone`
+    - `rent`
     - `tax`
+        - `council`
+        - `income`
+        - `ni`<br><em>National Insurance</em>
+    - `tech`
+    - `travel`
+    - `utilities`
+        - `electricity`
+        - `internet`
+        - `water`
+    - `web`
 - `income`
+    - `donation`
     - `interest`
+    - `job`
 - `liabilities`
     - `loan`
-        - `slc`
+        - `slc`<br><em>My student loan</em>
+    - `overdraft`
+        - `santander`
+            - `current`<br><em>My bank account overdraft</em>
+    - `payable`<br><em>Subaccounts for people I owe money to</em>
 
-Inside my current account, `assets:cash:santander:current`, money is
-subdivided by use, following [YNAB rule 1][ynab]:
+An account name is the path to it through the tree, separated by
+colons.  For example, `assets:cash`, or
+`expenses:utilities:electricity`.  Because typing these account names
+would be pretty tedious, I use some aliases in my journal file:
 
-- `float`: cash to be withdrawn (topped up when allocated to a budget category)
-- `month`: budget for regular living expenses
-- `saved`: budget for everything else
+```
+alias hand    = assets:cash:petty:hand
+alias current = assets:cash:santander:current
+alias month   = current:month
+alias saved   = current:saved
+```
+
+Many of these accounts do not correspond to any real-world bank or
+brokerage account, they are used to track the flow of money in more
+detail than if I just recorded which bank accounts things came from or
+went to.
+
+Money (and other commodities) is only stored in leaf accounts.
 
 ## Transactions
 
@@ -121,8 +183,8 @@ A transaction has a date, a payee, and a list of postings:
 
 ```
 2018-01-01 Payee
-    account1  £amount1
-    account2  £amount2
+    account1                                            £amount1
+    account2                                            £amount2
     ...
 ```
 
@@ -138,16 +200,16 @@ any balance changes to a real-world account.  For example, setting up
 my monthly budget:
 
 ```
-2018-01-01 ! Budget
-    month:food  £250
-    month:fun    £25
-    month:other  £25
-    saved:monthly
+2018-06-01 ! Budget
+    month:food                                           £250.00
+    month:fun                                             £50.00
+    month:other                                           £25.00
+    saved:monthly                                       -£325.00
 ```
 
 I use `*` as normal, although I usually only consider cash
-transactions "cleared" when I check that the cash in my wallet matches
-what hledger thinks it should be.
+transactions "cleared" after I check that the cash in my wallet
+matches what hledger thinks it should be.
 
 ### Income
 
@@ -156,23 +218,35 @@ and is split across `saved:*`, `expenses:tax:*`, and `liabilities:*`.
 All amounts are included.
 
 ```
-2018-05-30 Company Name
-    saved:household       £50
-    saved:monthly        £400
-    saved:rent          £1300
-    saved:web             £50
-    expenses:tax:income  £250
-    expenses:tax:ni      £200
-    liabilities:slc       £75
-    income:company     -£2325
+2018-05-31 * Cabinet Office
+    saved:clothing                                        £50.00
+    saved:gift                                            £50.00
+    saved:health                                          £50.00
+    saved:household                                       £50.00
+    saved:insurance                                       £16.00
+    saved:invest                                         £150.00
+    saved:monthly                                        £400.00
+    saved:phone                                           £20.00
+    saved:rent                                          £1700.00
+    saved:tech                                            £20.00
+    saved:travel                                          £30.00
+    saved:utilities                                      £100.00
+    saved:web                                             £80.00
+    liabilities:loan:slc                                 £237.00
+    expenses:tax:income                                  £601.20
+    expenses:tax:ni                                      £385.39
+    assets:pension:civilservice                          £227.08
+    income:job                                         -£4166.67
+    assets:pension:civilservice                          £920.83
+    income:job                                          -£920.83
 ```
 
 Income may not necessarily be taxed:
 
 ```
-2017-10-01 Santander
-    saved:monthly  £4.26
-    income:interest:santander
+2018-06-02 * Interest
+    saved:monthly                                          £4.00
+    income:interest
 ```
 
 ### Investments
@@ -183,29 +257,30 @@ exactly specify the overall price.  Trading fees go to
 `expenses:fees:$broker`.
 
 ```
-2017-12-18 Coinbase
-    assets:investments:coinbase  0.25 LTC @@ £60.17
-    expenses:fees:coinbase  £2.50
-    saved:invest          -£62.67
+2017-12-18 * Coinbase
+    assets:investments:coinbase                             0.25 LTC @@ £60.17
+    expenses:fees:coinbase                                 £2.50
+    saved:invest                                         -£62.67
 ```
 
-A broker may have subaccounts:
+Transferring the cash to the investment account and then investing it
+may be two separate steps:
 
 ```
-2018-08-01 Cavendish
-    assets:investments:cavendish:s&s  31.19 MCOUA @@ £50
-    assets:investments:cavendish:s&s  65.15 MCMEA @@ £100
-    assets:investments:cavendish:s&s   7.15 MHMIA @@ £50
-    assets:investments:cavendish:s&s   2.56 VADEA @@ £800
-    saved:invest  -£1000
+2018-06-01 * Cavendish
+    assets:investments:cavendish:s&s                     £100.00
+    saved:invest
+2018-06-01 * Cavendish
+    assets:investments:cavendish:s&s                        0.47 VANEA @@ £100.00
+    assets:investments:cavendish:s&s
 ```
 
 A broker may charge a management fee by selling some of the assets:
 
 ```
 2018-01-03 Cavendish
-    assets:investments:cavendish:s&s  -0.02 MCMEA @@ £0.03
-    expenses:fees:cavendish  £0.03
+    assets:investments:cavendish:s&s                       -0.02 MCMEA @@ £0.03
+    expenses:fees:cavendish                                £0.03
 ```
 
 Although it is best to keep some cash in the account, if possible, to
@@ -220,7 +295,7 @@ unallocated money I have.
 
 ```
 2018-05-24 Withdraw
-    assets:cash:hand  £20
+    hand:budgeted                                            £20
     current:float
 ```
 
@@ -229,10 +304,12 @@ exchange rate and may impose an additional fee:
 
 ```
 2018-05-11 Withdraw
-    assets:cash:hand  10000 JPY @@ £70.41
-    expenses:fees:currency  £1.99
+    hand:budgeted                                          10000 JPY @@ £70.41
+    expenses:fees:currency                                 £1.99
     current:float
 ```
+
+"£" is the only commodity I give a symbolic name.
 
 ### Expenses (bank account)
 
@@ -241,7 +318,7 @@ and cash expenses.  The former are straightforward:
 
 ```
 2018-01-01 Subway
-    expenses:food  £5.99
+    expenses:food                                          £5.99
     month:food
 ```
 
@@ -249,8 +326,8 @@ Foreign currency expenses are recorded like so:
 
 ```
 2018-01-01 Linode
-    expenses:web  $20 @@ £15.31
-    expenses:fees:currency  £1.25
+    expenses:web                                              20 USD @@ £15.31
+    expenses:fees:currency                                 £1.25
     saved:web
 ```
 
@@ -261,26 +338,27 @@ category, transferring money back to the float to represent that that
 money has been allocated and spent:
 
 ```
-2018-01-06 Morrisons
-    expenses:food  £2.43
-    assets:cash:hand
-2018-01-06 Cash budget spend
-    month:food  -£2.43
+2018-01-06 * Morrisons
+    expenses:food                                          £2.43
+    hand:budgeted
+2018-01-06 ! Cash budget spend
+    month:food                                            -£2.43
     current:float
 ```
 
 This could be done in one transaction, but I think it's clearer with
-two.
+two.  If I'm using cash I was gifted, the expense comes from
+`hand:unbudgeted` and there's no transaction updating `current:float`.
 
 Foreign currency cash transactions require picking an appropriate
 exchange rate when removing the money from the budget category:
 
 ```
-2018-05-08 FamilyMart
-    expenses:food  548 JPY
-    assets:cash:hand
-2018-05-08 Cash budget spend
-    month:food  -548 JPY @@ £4.60
+2018-05-08 * FamilyMart
+    expenses:food                                            548 JPY
+    hand:budgeted
+2018-05-08 ! Cash budget spend
+    month:food                                              -548 JPY @@ £4.60
     current:float
 ```
 
@@ -294,9 +372,9 @@ Income comes from some reimbursement account and is put in some
 savings account:
 
 ```
-2018-01-04 Pusher
-    saved:deposit  £186
-    assets:reimbursements:pusher
+2018-01-04 * Pusher
+    saved:deposit                                           £186
+    assets:receivable:pusher
 ```
 
 As with income, the reimbursement could be split over multiple savings
@@ -320,45 +398,61 @@ basis.
 Firstly, my monthly expenses:
 
 ```
-~ monthly
-    month:food        £250
-    month:fun          £25
-    month:other        £25
-    saved:monthly    -£300
-    expenses:servers   £40
-    saved:web         -£40
+~ every 1st day of month
+    month:food                                           £250.00
+    month:fun                                             £50.00
+    month:other                                           £25.00
+    saved:monthly
+~ every 1st day of month
+    expenses:web                                          £40.00
+    saved:web
 
-~ monthly from 2018-03
-    expenses:rent        £1200
-    expenses:tax:council  £100
-    saved:rent          -£1300
-    expenses:utilities    £185
-    saved:utilities      -£185
+~ every 1st day of month from 2018-03
+    expenses:utilities                                    £75.00
+    saved:utilities
+~ every 15th day of month from 2018-03
+    expenses:rent                                       £1300.00
+    expenses:tax:council                                  £82.00
+    saved:rent
+~ every 16th day of month from 2018-03
+    expenses:insurance                                    £15.00
+    saved:insurance
 ```
 
-This is based on experience, with some speculation.
-
-It's in two chunks because I'll be moving out of my current place and
-renting a new flat some time in March.
+This is based on experience.  It's in two chunks because I moved to
+London in March.
 
 Now, my monthly income:
 
 ```
-~ monthly from 2018-06
-    saved:invest     £350
-    saved:monthly    £350
-    saved:travel      £50
-    saved:rent      £1500
-    saved:utilities  £200
-    saved:web         £50
-    income:job     -£2500
+~ every 30th day of month from 2018-04
+    saved:clothing                                        £13.00
+    saved:gift                                            £20.00
+    saved:health                                           £7.00
+    saved:household                                       £15.00
+    saved:insurance                                       £15.00
+    saved:invest                                         £116.00
+    saved:monthly                                        £380.46
+    saved:phone                                           £13.00
+    saved:rent                                          £1700.00
+    saved:tech                                            £13.00
+    saved:travel                                          £25.00
+    saved:utilities                                      £100.00
+    saved:web                                             £60.00
+    expenses:tax:income                                  £848.20
+    expenses:tax:ni                                      £382.61
+    liabilities:loan:slc                                 £100.00
+    assets:pension:civilservice                          £219.51
+    income:job                                         -£4027.78
+    assets:pension:civilservice                          £890.14
+    income:job                                          -£890.14
 ```
 
-This is based entirely on speculation, so it will almost certainly
-change.
+This is based on my pay in April.  The month-to-month allocation of
+cash to `saved:...` categories will vary a little.
 
-Notice how I'm only spending £300 of `saved:monthly` a month, but I'm
-adding £350 to it.  I do this with all the savings accounts, gradually
+Notice how I'm only spending £325 of `saved:monthly` a month, but I'm
+adding £380 to it.  I do this with all the savings accounts, gradually
 building up a buffer so I will not be living paycheck to paycheck.
 
 ### Forecasting
@@ -371,16 +465,16 @@ However, expected future events can be added to the forecast too:
 
 ```
 ; Dentist
-~ 2018-03-08
-    expenses:other  £18.80
+~ 2018-03-20
+    expenses:health                                       £20.60
     saved:health
 ```
 
 It is essential that none of my savings accounts dip below zero, and
 ideally their balance should be increasing every month, due to saving
-extra.  When I have enough of a buffer, I will probably remove this
-extra allocation (just maintaining the current balance) and put the
-extra money to some other use.
+extra.  When I have enough of a buffer, I will remove this extra
+allocation (just maintaining the current balance) and put the extra
+money to some other use.
 
 In my mind, it doesn't really make sense to talk about budgeting and
 forecasting as separate entities.  A budget only makes sense if it
@@ -419,11 +513,11 @@ month-just-ended:
 I also set up the budget for the month-just-started:
 
 ```
-2018-01-01 ! Budget
-    month:food  £250
-    month:fun    £25
-    month:other  £25
-    saved:monthly
+2018-06-01 ! Budget
+    month:food                                           £250.00
+    month:fun                                             £50.00
+    month:other                                           £25.00
+    saved:monthly                                       -£325.00
 ```
 
 This is just the regular monthly budget, but with a date.
@@ -445,31 +539,33 @@ balances:
 
 ```
 2018-01-01 ! Start of year
-    assets:cash:hand  £242.70
+    hand:budgeted                                        £242.70
     ;
-    current:float    £100
-    saved:deposit    £950
-    saved:monthly    £324.66
-    saved:household  £100
-    saved:rent      £1038
-    saved:travel     £100
-    saved:web        £200
+    current:float                                         £77.30
+    saved:gift                                             £5.00
+    saved:household                                      £100.00
+    saved:invest                                           £5.00
+    saved:monthly                                        £342.36
+    saved:moving                                         £950.00
+    saved:rent                                          £1038.00
+    saved:travel                                         £100.00
+    saved:web                                            £195.00
     ;
-    assets:investments:cavendish:s&s   2.54  VADEA @@ £800
-    assets:investments:cavendish:s&s  65     MCMEA @@ £99.77
-    assets:investments:cavendish:s&s  31.19  MCOUA @@  £50
-    assets:investments:cavendish:s&s   7.15  MHMIA @@  £50
-    assets:investments:coinbase        0.004 BTC   @@  £51.91
-    assets:investments:coinbase        0.1   ETH   @@  £62.04
-    assets:investments:coinbase        0.25  LTC   @@  £60.17
-    assets:investments:coinbase       10     EUR   @@   £9.11
+    assets:investments:cavendish:s&s                        2.54 VADEA @@ £800.00
+    assets:investments:cavendish:s&s                       65.00 MCMEA @@  £99.77
+    assets:investments:cavendish:s&s                       31.19 MCOUA @@  £50.00
+    assets:investments:cavendish:s&s                        7.15 MHMIA @@  £50.00
+    assets:investments:coinbase                            0.004 BTC   @@  £51.91
+    assets:investments:coinbase                             0.10 ETH   @@  £62.04
+    assets:investments:coinbase                             0.25 LTC   @@  £60.17
+    assets:investments:coinbase                            10.00 EUR   @@   £9.11
     ;
-    assets:reimbursements:deposit     £300
-    assets:reimbursements:pusher      £186
-    assets:reimbursements:university  £188.38
+    assets:receivable:deposit                            £300.00
+    assets:receivable:pusher                             £186.00
+    assets:receivable:university                         £188.38
     ;
-    liabilities:loan:overdraft   -£2000
-    liabilities:loan:slc        -£28592.25
+    liabilities:overdraft:santander:current            -£2000.00
+    liabilities:loan:slc                              -£28592.25
     ;
     equity
 ```
@@ -477,6 +573,10 @@ balances:
 This is the template for a new journal file:
 
 ```
+include commodities
+include prices
+
+alias hand    = assets:cash:petty:hand
 alias current = assets:cash:santander:current
 alias month   = current:month
 alias saved   = current:saved
@@ -524,19 +624,19 @@ transaction if I need to:
 
 ```
 2017-03-01 * Balance adjustment
-    expenses:adjustment  £8.51
+    expenses:adjustment                                    £8.51
     saved:monthly
 
 2017-03-31 * Wallet adjustment
-    expenses:adjustment  £14.98
-    assets:cash:hand
+    expenses:adjustment                                   £14.98
+    hand:budgeted
 
 2017-04-30 * Balance adjustment
-    saved:monthly  £1.25
+    saved:monthly                                          £1.25
     income:adjustment
 ```
 
 I made 11 transactions to `expenses:adjustment` and 1 from
 `income:adjustment` in 2017.  As the year went on, the frequency (and
-magnitude) of these adjustments dropped.  Hopefully I won't need any
-in 2018.
+magnitude) of these adjustments dropped.  So far in 2018 (as of June),
+I have only needed 2.  Hopefully in 2019 I won't need any.
