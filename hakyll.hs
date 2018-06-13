@@ -15,7 +15,8 @@ import           Hakyll.Contrib.Hyphenation (english_GB, hyphenateHtml)
 import           System.IO                  (hClose, hPutStrLn)
 import           System.IO.Temp             (withSystemTempFile)
 import           System.Process             (readProcess)
-import           Text.Pandoc.Definition     (Block(..), Format(..), Pandoc)
+import           Text.Pandoc.Definition     (Block(..), Format(..), Inline(..), Pandoc)
+import           Text.Pandoc.Generic        (queryWith)
 import           Text.Pandoc.Options        (WriterOptions(..))
 import           Text.Pandoc.Walk           (walkM)
 
@@ -45,13 +46,15 @@ main = hakyllWith defaultConfiguration $ do
     route $
       setExtension ".html" `composeRoutes`
       dropPat      "memos/"
-    compile $ pandocWithPygments
-      >>= hyphenateHtml english_GB
-      >>= saveSnapshot "content"
-      >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx tags)
-      >>= loadAndApplyTemplate "templates/return.html"  defaultContext
-      >>= loadAndApplyTemplate "templates/wrapper.html" defaultContext
-      >>= relativizeUrls
+    compile $ do
+      toc <- extractTOC
+      pandocWithPygments
+        >>= hyphenateHtml english_GB
+        >>= saveSnapshot "content"
+        >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx toc tags)
+        >>= loadAndApplyTemplate "templates/return.html"  defaultContext
+        >>= loadAndApplyTemplate "templates/wrapper.html" defaultContext
+        >>= relativizeUrls
 
   -- Create feed
   create ["atom.xml"] $ do
@@ -62,7 +65,7 @@ main = hakyllWith defaultConfiguration $ do
 
   -- Render index page
   create ["index.html"] $
-    memoList False tags "Memos" "memos/*"
+    memoList False tags "All Memos" "memos/*"
 
 memoList :: Bool -> Tags -> String -> Pattern -> Rules ()
 memoList ret tags title pat = do
@@ -70,7 +73,7 @@ memoList ret tags title pat = do
   compile $ do
     entries <- sortMemos =<< loadAll pat
     let ctx = constField "title" title <>
-              listField "memos" (memoCtx tags) (return entries) <>
+              listField "memos" (memoCtx [] tags) (return entries) <>
               defaultContext
 
     makeItem ""
@@ -82,9 +85,11 @@ memoList ret tags title pat = do
 
 -------------------------------------------------------------------------------
 
-memoCtx :: Tags -> Context String
-memoCtx tags = mconcat
-  [ dateField "isodate" "%Y-%m-%d"
+memoCtx :: [(String, String)] -> Tags -> Context String
+memoCtx toc tags = mconcat
+  [ listField "toc" (field "anchor" (\(Item _ (a,_)) -> pure a) <> field "text" (\(Item _ (_,t)) -> pure t) <> missingField) (pure (map (Item "") toc))
+  , boolField "has_toc" (const (not (null toc)))
+  , dateField "isodate" "%Y-%m-%d"
   , dateField "ppdate"  "%B %e, %Y"
   , tagsField "tags"    tags
   , defaultContext
@@ -113,10 +118,7 @@ pandocWithPygments :: Compiler (Item String)
 pandocWithPygments = pandocCompilerWithTransformM ropts wopts pygmentize where
   ropts = defaultHakyllReaderOptions
   wopts = defaultHakyllWriterOptions
-    { writerTableOfContents = True
-    , writerTOCDepth = 5
-    , writerSectionDivs = True
-    , writerTemplate = Just "$if(toc)$<div id=\"contents\">$toc$</div>$endif$$body$"
+    { writerSectionDivs = True
     }
 
 -- | Apply pygments/pygmentize syntax highlighting to a Pandoc
@@ -140,6 +142,20 @@ pygmentize = unsafeCompiler . walkM highlight where
       go "graphviz" = graphvizToHtml "dot"
       go ('g':'r':'a':'p':'h':'v':'i':'z':':':tool) = graphvizToHtml tool
       go highlightLang = readProcess "pygmentize" ["-l", highlightLang,  "-f", "html"]
+
+-- | Extract 2nd-level headings.
+extractTOC :: Compiler [(String, String)]
+extractTOC = do
+    body <- getResourceBody
+    doc <- itemBody <$> readPandoc body
+    pure $ queryWith extractH doc
+  where
+    extractH (Header 2 (htmlid, _, _) inlines) = [(htmlid, queryWith extractT inlines)]
+    extractH _ = []
+
+    extractT (Str s) = s
+    extractT Space = " "
+    extractT _ = ""
 
 -- | Add "important" and "deprecated" tags if those fields are
 -- present.
