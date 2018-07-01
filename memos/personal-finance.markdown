@@ -334,6 +334,16 @@ Foreign currency expenses are recorded like so:
     saved:web
 ```
 
+Sometimes I'll add a transaction note, which comes after a vertical
+bar:
+
+```
+2018/06/04 * Steam | Cultist Simulator
+    expenses:fun                                       £13.49
+    month:other
+
+```
+
 ### Expenses (cash)
 
 Cash expenses require an adjustment to the appropriate budget
