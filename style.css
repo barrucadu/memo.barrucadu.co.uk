@@ -11,7 +11,7 @@ body {
     font-size: 160%;
 }
 
-header, footer, div, nav, h1, h2, h3, ol, ul {
+header, footer, div, nav, h1, h2, h3, h4, ol, ul {
     border: none;
     margin: 0;
     padding: 0;
@@ -171,8 +171,8 @@ article tbody tr:nth-child(odd) {
     background: #eee;
 }
 
-section {
-    padding: 1em;
+section, .section {
+    margin-top: 1em;
 }
 
 .attributes th, .attributes td {
