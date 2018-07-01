@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-06-12
+date: 2018-07-01
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
 notice: You may get something out of this if you're rethinking how you manage your finances.
@@ -91,11 +91,12 @@ the regular accounts, which are mostly self-explanatory:
         - `santander`
             - `current`
                 - `float`<br><em>Cash which can be withdrawn</em>
-                - `month`<br><em>Living expenses, with money added at the start of the month</em>
+                - `goal`<br><em>Subaccounts for specific future expenses, like renewing my passport; money added when I am paid</em>
+                - `month`<br><em>Living expenses; money added at the start of the month</em>
                     - `food`
                     - `fun`
                     - `other`
-                - `saved`<br><em>Savings, with money added when I am paid at the end of the month</em>
+                - `saved`<br><em>Savings; money added when I am paid</em>
                     - `clothing`
                     - `gift`
                     - `health`
@@ -168,6 +169,7 @@ alias hand    = assets:cash:petty:hand
 alias current = assets:cash:santander:current
 alias month   = current:month
 alias saved   = current:saved
+alias goal    = current:goal
 ```
 
 Many of these accounts do not correspond to any real-world bank or
@@ -218,23 +220,24 @@ and is split across `saved:*`, `expenses:tax:*`, and `liabilities:*`.
 All amounts are included.
 
 ```
-2018-05-31 * Cabinet Office
-    saved:clothing                                        £50.00
-    saved:gift                                            £50.00
-    saved:health                                          £50.00
-    saved:household                                       £50.00
-    saved:insurance                                       £16.00
-    saved:invest                                         £150.00
-    saved:monthly                                        £400.00
-    saved:phone                                           £20.00
+2018-06-29 * Cabinet Office
+    goal:tax                                              £50.00
+    saved:clothing                                        £13.00
+    saved:gift                                            £20.00
+    saved:health                                           £7.00
+    saved:household                                       £15.00
+    saved:insurance                                       £11.49
+    saved:invest                                         £116.00
+    saved:monthly                                        £385.71
+    saved:phone                                           £13.00
     saved:rent                                          £1700.00
-    saved:tech                                            £20.00
-    saved:travel                                          £30.00
+    saved:tech                                            £13.00
+    saved:travel                                          £25.00
     saved:utilities                                      £100.00
-    saved:web                                             £80.00
-    liabilities:loan:slc                                 £237.00
-    expenses:tax:income                                  £601.20
+    saved:web                                             £60.00
+    expenses:tax:income                                  £788.00
     expenses:tax:ni                                      £385.39
+    liabilities:loan:slc                                 £237.00
     assets:pension:civilservice                          £227.08
     income:job                                         -£4166.67
     assets:pension:civilservice                          £920.83
