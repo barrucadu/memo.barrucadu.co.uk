@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-07-01
+date: 2018-07-10
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
 notice: You may get something out of this if you're rethinking how you manage your finances.
@@ -96,6 +96,7 @@ the regular accounts, which are mostly self-explanatory:
                     - `food`
                     - `fun`
                     - `other`
+                - `pending`<br><em>Money put aside for transactions which take a while to clear</em>
                 - `saved`<br><em>Savings; money added when I am paid</em>
                     - `clothing`
                     - `gift`
@@ -343,6 +344,37 @@ bar:
     month:other
 
 ```
+
+Sometimes transactions take a long time to clear.  For example, if you
+buy something out of stock on Amazon, they'll charge you when it
+ships.  This could even be months later.  For such transactions, I
+want to remove the money from the relevant budget category
+immediately, but not from my assets until the charge actually occurs.
+The solution is a temporary account:
+
+```
+2018-06-09 ! Amazon | 203-1811543-7064312
+    current:pending                                       £14.99
+    month:fun
+```
+
+Later, when the money is taken from my bank account, I can add the
+transaction to `expenses`:
+
+```
+2018-07-31 Amazon | 203-1811543-7064312
+    expenses:books                                        £14.99
+    current:pending
+```
+
+If this is a transaction with a note, the same note goes on both to
+tie them together.
+
+I prefer this approach to [posting dates][], as with posting dates the
+ledger does not balance between the two dates.  By simply using an
+additional account, balance is maintained.
+
+[posting dates]: http://hledger.org/manual.html#posting-dates
 
 ### Expenses (cash)
 
