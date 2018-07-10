@@ -110,7 +110,9 @@ the regular accounts, which are mostly self-explanatory:
                     - `tech`
                     - `travel`
                     - `utilities`
-                    - `web`
+        - `starling`
+            - `float`<br><em>Cash which can be withdrawn</em>
+            - `web`<br><em>Savings for AWS, domain names, and web hosting (all charged in foreign currencies)</em>
     - `investments`
         - `cavendish`
             - `s&s`
@@ -179,6 +181,34 @@ detail than if I just recorded which bank accounts things came from or
 went to.
 
 Money (and other commodities) is only stored in leaf accounts.
+
+## Financial Institutions
+
+I have two bank accounts and two investment accounts.
+
+For bank accounts I use:
+
+- **Santander**, my main bank account.  My pay goes here, almost all
+  of my expenses come out of here.
+
+- **Starling**, my backup account.  I keep a small amount of money in
+  here to withdraw for if my Santander debit card is not working
+  (Santander is Visa, Starling is Mastercard).  I also use it for
+  paying for AWS, domain names, and web servers, as Starling doesn't
+  charge currency conversion fees.
+
+For investment accounts I use:
+
+- **Cavendish Online**, who are as far as I can tell just a front-end
+  to services provided by Fidelity (who do not themselves offer
+  accounts directly), and who provide a reasonable selection of funds
+  for my stocks & shares ISA.
+
+- **Coinbase**, who offer a few different cryptocurrencies.  I have
+  very little in crypto, because it's so volatile.
+
+Most of the time I am dealing with Santander, only rarely do I need to
+touch the others.
 
 ## Transactions
 
