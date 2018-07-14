@@ -75,7 +75,7 @@ Purpose
   ~ Portable machine
 
 Operating System
-  ~ macOS Sierra 10.12.3
+  ~ macOS High Sierra
 
 Configuration
   ~ System-wide configuration is fairly vanilla.
