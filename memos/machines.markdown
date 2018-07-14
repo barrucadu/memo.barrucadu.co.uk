@@ -121,7 +121,3 @@ irc
 yukibot
   ~ As barrucadu in ~/projects/yukibot:<br/>
     `./run-yukibot`
-
-#### Miscellaneous ####
-
-- The git hooks for gitolite assume some programs exist in `$PATH`.
