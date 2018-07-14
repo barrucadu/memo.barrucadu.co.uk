@@ -51,6 +51,10 @@ Operating System
 Configuration
   ~ nixfiles/nyarlathotep.nix
 
+Alerting
+  ~ Uses mirrored hard drives for redundancy. Sends a text message and
+  email when one drive fails.
+
 Issues
   ~ Sometimes fails to boot, have yet to reproduce this when a monitor is plugged in.
 
