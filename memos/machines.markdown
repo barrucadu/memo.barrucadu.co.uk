@@ -1,7 +1,7 @@
 ---
 title: Machines
 tags: howto, possessions, tech
-date: 2017-04-05
+date: 2018-07-14
 audience: Not you.
 ---
 
@@ -142,10 +142,6 @@ Issues
   ~ None
 
 #### Post-boot set-up ####
-
-godoc
-  ~ As git:<br/>
-    `tmux new-session -sgodoc -d "$GOPATH/bin/godoc -goroot $GOPATH -http :6060"`
 
 irc
   ~ As barrucadu:<br/>
