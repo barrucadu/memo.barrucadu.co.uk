@@ -8,9 +8,12 @@ audience: Not you.
 Naming convention
 -----------------
 
-*Beings* (elder gods, outer gods, people, etc) in the Cthulhu Mythos for local machines; *places* in
-the Cthulhu Mythos for remote machines (even though there's only one of those currently).
+**Machines for my use:** *Beings* (elder gods, outer gods, people,
+etc) in the Cthulhu Mythos for local machines; *places* in the Cthulhu
+Mythos for remote machines (even though there's only one of those
+currently).
 
+**Machines for more general use:** Something descriptive.
 
 Physical machines
 -----------------
@@ -121,3 +124,31 @@ irc
 yukibot
   ~ As barrucadu in ~/projects/yukibot:<br/>
     `./run-yukibot`
+
+General use machines
+--------------------
+
+### lainon.life ###
+
+Host
+  ~ OVH (Kimsufi)
+
+Purpose
+  ~ Lainchan radio
+  ~ Storing lainchan backups
+
+Operating System
+  ~ NixOS
+
+Configuration
+  ~ nixfiles/lainonlife.nix
+
+Issues
+  ~ Radio services need to start in a specific order,
+  `~/restart-all.sh` can fix them if they don't start properly
+
+#### Post-boot set-up ####
+
+rtorrent
+  ~ As barrucadu:<br/>
+    `tmux new-session -srtorrent -d rtorrent`
