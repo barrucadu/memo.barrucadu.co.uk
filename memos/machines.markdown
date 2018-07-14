@@ -85,9 +85,6 @@ Issues
 
 #### Post-boot set-up ####
 
-khd:
-  ~ `tmux new-session -skhd -d khd`
-
 syncthing:
   ~ `tmux new-session -ssyncthing -d ~/syncthing/syncthing`
 
