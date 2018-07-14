@@ -88,28 +88,6 @@ Issues
 syncthing:
   ~ `tmux new-session -ssyncthing -d ~/syncthing/syncthing`
 
-### yig ###
-
-> It seems that Yig, the snake-god of the central plains tribes—presumably the primal source of the
-> more southerly Quetzalcoatl or Kukulcan—was an odd, half-anthropomorphic devil of highly arbitrary
-> and capricious nature. He was not wholly evil, and was usually quite well-disposed toward those
-> who gave proper respect to him and his children, the serpents; but in the autumn he became
-> abnormally ravenous, and had to be driven away by means of suitable rites.
-
-Purpose
-  ~ Portable machine
-
-Operating System
-  ~ NixOS
-
-Configuration
-  ~ nixfiles/yig.nix
-
-Issues
-  ~ None
-
-There isn't really any reason to use this over carter.
-
 Virtual machines
 ----------------
 
