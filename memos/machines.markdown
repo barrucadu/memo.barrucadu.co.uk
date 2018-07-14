@@ -32,9 +32,6 @@ Operating System
 Configuration
   ~ nixfiles/azathoth.nix
 
-Issues
-  ~ Wifi is more flakey than carter, in both Windows and Linux; may be worth investing in a new NIC.
-
 ### nyarlathotep ###
 
 > It is understood in the land of dream that the Other Gods have many agents moving among men; and
@@ -52,7 +49,6 @@ Configuration
   ~ nixfiles/nyarlathotep.nix
 
 Issues
-  ~ Same wifi issue (and card) as azathoth.
   ~ Sometimes fails to boot, have yet to reproduce this when a monitor is plugged in.
 
 #### Post-boot set-up ####
