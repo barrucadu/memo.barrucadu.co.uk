@@ -1,12 +1,12 @@
 ---
 title: List of Granfalloons
-date: 2017-08-25
+date: 2018-07-14
 tags: bokononism, life
 audience: Not you.
 ---
 
 A *granfalloon* is a false *karass*: a collection of people with no
-cosmic significant to the grouping whatsoever.  As Bokonon invites us
+cosmic significance to the grouping whatsoever.  As Bokonon invites us
 to sing along with him:
 
 > If you wish to study a *granfalloon*<br>
@@ -15,6 +15,7 @@ to sing along with him:
 Here is an incomplete list of *granfalloons* I have been a part of:
 
 - **Corporate**
+    - The Civil Service
     - CoreFiling
     - Overleaf
     - Pusher
