@@ -1,0 +1,33 @@
+header {
+    border-bottom: 1px solid #bfc1c3;
+    padding-bottom: 15px;
+}
+
+nav ol {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+nav li {
+    line-height: 1.3;
+    list-style-type: none;
+}
+
+nav li::before {
+    content: "— ";
+    padding-right: 6px;
+}
+
+.attributes th, .attributes td {
+    vertical-align: top;
+}
+
+.attributes th {
+    padding-right: 16px;
+    text-align: right;
+    width: 200px;
+}
+
+.deprecated {
+    opacity: 0.5;
+}

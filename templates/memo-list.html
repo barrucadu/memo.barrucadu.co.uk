@@ -1,46 +1,11 @@
-<main>
-  <div>
-    <header>
-      <h1>$title$</h1>
-    </header>
-  </div>
+<section>
+  <h1>$title$</h1>
 
   $for(memos)$
-    <section class="$if(important)$important$endif$ $if(deprecated_by)$deprecated$endif$">
-      <h2><a href="$url$">$title$</a></h2>
+  <section class="$if(important)$important$endif$ $if(deprecated_by)$deprecated$endif$">
+    <h2><a href="$url$">$title$</a></h2>
 
-      <table class="attributes">
-        <tr>
-          <th>Date</th>
-          <td><time datetime="$isodate$">$ppdate$</time></td>
-        </tr>
-        <tr>
-          <th>Tags</th>
-          <td>$tags$</td>
-        </tr>
-        $if(deprecated_by)$
-        <tr>
-          <th>Deprecated By</th>
-          <td><a href="/$deprecated_by$.html">$deprecated_by$</a></td>
-        </tr>
-        $endif$
-        <tr>
-          <th>Target Audience</th>
-          <td>$audience$</td>
-        </tr>
-        $if(epistemic_status)$
-        <tr>
-          <th>Epistemic Status</th>
-          <td>$epistemic_status$</td>
-        </tr>
-        $endif$
-        $if(notice)$
-        <tr>
-          <th>Attention Conservation Notice</th>
-          <td>$notice$</td>
-        </tr>
-        $endif$
-      </table>
-    </section>
+    $partial("templates/metadata.html")$
+  </section>
   $endfor$
-</main>
+</section>

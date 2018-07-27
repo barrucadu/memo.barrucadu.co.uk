@@ -1,7 +1,10 @@
 flags: {}
 packages:
 - '.'
-resolver: lts-8.3
+extra-deps:
+- pandoc-sidenote-0.19.0.0
+- monad-gen-0.3.0.1
+resolver: lts-12.2
 nix:
   pure: false
   enable: true

@@ -1,50 +1,19 @@
-<main>
-  <div class="grid-row">
-    <div>
-      <header>
-        <h1>$title$</h1>
+<header>
+  <h1>$title$</h1>
 
-        <nav>
-          $if(has_toc)$
-            <h2>Contents</h2>
+  $partial("templates/metadata.html")$
 
-            <ol>
-              $for(toc)$
-                <li><a href="#$anchor$">$text$</a></li>
-              $endfor$
-            </ol>
-          $endif$
-        </nav>
-      </header>
-    </div>
+  $if(has_toc)$
+  <nav>
+    <ol>
+      $for(toc)$
+      <li><a href="#$anchor$">$text$</a></li>
+      $endfor$
+    </ol>
+  </nav>
+  $endif$
+</header>
 
-    <div class="column-two-thirds">
-      <article class="box">
-        $body$
-      </article>
-    </div>
-
-    <div class="column-one-third">
-      <table>
-        <tr><th>Date</th></tr>
-        <tr><td><time datetime="$isodate$">$ppdate$</time></td></tr>
-        <tr><th>Tags</th></tr>
-        <tr><td>$tags$</td></tr>
-        $if(deprecated_by)$
-          <tr><th>Deprecated By</th></tr>
-          <tr><td><a href="/$deprecated_by$.html">$deprecated_by$</a></td></tr>
-        $endif$
-        <tr><th>Target Audience</th></tr>
-        <tr><td>$audience$</td></tr>
-        $if(epistemic_status)$
-          <tr><th>Epistemic Status</th></tr>
-          <tr><td>$epistemic_status$</td></tr>
-        $endif$
-        $if(notice)$
-          <tr><th>Attention Conservation Notice</th></tr>
-          <tr><td>$notice$</td></tr>
-        $endif$
-      </table>
-    </div>
-  </div>
-</main>
+<section>
+  $body$
+</section>

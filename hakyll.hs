@@ -17,7 +17,7 @@ import           System.Process         (readProcess)
 import           Text.Pandoc.Definition (Block(..), Format(..), Inline(..),
                                          Pandoc)
 import           Text.Pandoc.Generic    (queryWith)
-import           Text.Pandoc.Options    (WriterOptions(..))
+import           Text.Pandoc.SideNote   (usingSideNotes)
 import           Text.Pandoc.Walk       (walkM)
 
 main :: IO ()
@@ -31,10 +31,19 @@ main = hakyllWith defaultConfiguration $ do
     route $ dropPat "static/"
     compile copyFileCompiler
 
-  -- Minify CSS
-  match "style.css" $ do
-    route idRoute
+  -- Compile css files
+  match "css/*" $ do
+    route $ dropPat "css/"
     compile compressCssCompiler
+
+  -- tufte-css files
+  match "tufte-css/tufte.css" $ do
+    route $ dropPat "tufte-css/"
+    compile compressCssCompiler
+
+  match "tufte-css/et-book/**" $ do
+    route $ dropPat "tufte-css/"
+    compile copyFileCompiler
 
   -- Tags
   tags <- buildTagsWithExtra "memos/*" (fromCapture "tag/*.html")
@@ -48,7 +57,7 @@ main = hakyllWith defaultConfiguration $ do
       dropPat      "memos/"
     compile $ do
       toc <- extractTOC
-      pandocWithPygments
+      myPandoc
         >>= saveSnapshot "content"
         >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx toc tags)
         >>= loadAndApplyTemplate "templates/return.html"  defaultContext
@@ -110,14 +119,13 @@ feedCtx = mconcat
 
 -------------------------------------------------------------------------------
 
--- | The Pandoc compiler, but using pygments/pygmentize for syntax
--- highlighting.
-pandocWithPygments :: Compiler (Item String)
-pandocWithPygments = pandocCompilerWithTransformM ropts wopts pygmentize where
+-- | * Use pygments/pygmentize for syntax highlighting
+--   * Render footnotes as sidenotes
+myPandoc :: Compiler (Item String)
+myPandoc = pandocCompilerWithTransformM ropts wopts pandoc where
+  pandoc = fmap usingSideNotes . pygmentize
   ropts = defaultHakyllReaderOptions
   wopts = defaultHakyllWriterOptions
-    { writerSectionDivs = True
-    }
 
 -- | Apply pygments/pygmentize syntax highlighting to a Pandoc
 -- document.
@@ -125,7 +133,7 @@ pygmentize :: Pandoc -> Compiler Pandoc
 pygmentize = unsafeCompiler . walkM highlight where
   highlight (CodeBlock opts code) = RawBlock (Format "html") <$> case opts of
     (_, lang:_, _) -> withLanguage lang code
-    _ -> pure $ "<div class =\"highlight\"><pre>" ++ escapeHtml code ++ "</pre></div>"
+    _ -> pure $ "<pre class=\"code\">" ++ escapeHtml code ++ "</pre>"
   highlight x = pure x
 
   withLanguage lang
@@ -137,9 +145,11 @@ pygmentize = unsafeCompiler . walkM highlight where
     where
       lang' = map toLower lang
 
-      go "graphviz" = graphvizToHtml "dot"
-      go ('g':'r':'a':'p':'h':'v':'i':'z':':':tool) = graphvizToHtml tool
-      go highlightLang = readProcess "pygmentize" ["-l", highlightLang,  "-f", "html"]
+      go "graphviz" code = graphvizToHtml "dot" code
+      go ('g':'r':'a':'p':'h':'v':'i':'z':':':tool) code = graphvizToHtml tool code
+      go highlightLang code = do
+        html <- readProcess "pygmentize" ["-l", highlightLang,  "-f", "html", "-O", "nowrap"] code
+        pure $ "<pre class=\"code\">" ++ html ++ "</pre>"
 
 -- | Extract 2nd-level headings.
 extractTOC :: Compiler [(String, String)]
@@ -193,7 +203,8 @@ graphvizToHtml :: String -> String -> IO String
 graphvizToHtml cmd src = withSystemTempFile "memo-graphviz-" $ \tmpFile hFile -> do
   hPutStrLn hFile src
   hClose hFile
-  dropUntil "<svg" <$> readProcess cmd ["-Tsvg", tmpFile] ""
+  html <- dropUntil "<svg" <$> readProcess cmd ["-Tsvg", tmpFile] ""
+  pure $ "<figure>" ++ html ++ "</figure>"
 
 -- | Drop elements from a list until a prefix is found.
 dropUntil :: Eq a => [a] -> [a] -> [a]
