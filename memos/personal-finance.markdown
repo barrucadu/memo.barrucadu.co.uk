@@ -693,6 +693,7 @@ alias hand    = assets:cash:petty:hand
 alias current = assets:cash:santander:current
 alias month   = current:month
 alias saved   = current:saved
+alias goal    = current:goal
 
 * Forecast
 * Starting balances
