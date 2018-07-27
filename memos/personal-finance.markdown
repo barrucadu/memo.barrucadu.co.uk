@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-07-10
+date: 2018-07-27
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
 notice: You may get something out of this if you're rethinking how you manage your finances.
@@ -96,7 +96,7 @@ the regular accounts, which are mostly self-explanatory:
                     - `food`
                     - `fun`
                     - `other`
-                - `pending`<br><em>Money put aside for transactions which take a while to clear</em>
+                - `pending`<br><em>Money put aside for transactions which have not cleared yet</em>
                 - `saved`<br><em>Savings; money added when I am paid</em>
                     - `clothing`
                     - `gift`
@@ -155,6 +155,8 @@ the regular accounts, which are mostly self-explanatory:
     - `interest`
     - `job`
 - `liabilities`
+    - `creditcard`
+        - `amex`<br><em>My American Express credit card</em>
     - `loan`
         - `slc`<br><em>My student loan</em>
     - `overdraft`
@@ -184,7 +186,7 @@ Money (and other commodities) is only stored in leaf accounts.
 
 ## Financial Institutions
 
-I have two bank accounts and two investment accounts.
+I have two bank accounts, two investment accounts, and a credit card.
 
 For bank accounts I use:
 
@@ -193,9 +195,9 @@ For bank accounts I use:
 
 - **Starling**, my backup account.  I keep a small amount of money in
   here to withdraw for if my Santander debit card is not working
-  (Santander is Visa, Starling is Mastercard).  I also use it for
-  paying for AWS, domain names, and web servers, as Starling doesn't
-  charge currency conversion fees.
+  (Santander is Visa, Starling is Mastercard).  I also use it for all
+  my foreign currency transactions, as Starling doesn't charge
+  currency conversion fees.
 
 For investment accounts I use:
 
@@ -207,8 +209,12 @@ For investment accounts I use:
 - **Coinbase**, who offer a few different cryptocurrencies.  I have
   very little in crypto, because it's so volatile.
 
-Most of the time I am dealing with Santander, only rarely do I need to
-touch the others.
+For a credit card I use an **American Express** cashback card.  There
+is a small annual fee (£25), but I predict (based on my typical
+spending patterns) that the cashback will more than cover that.
+
+Most of the time I am dealing with American Express and Santander,
+only rarely do I need to touch the others.
 
 ## Transactions
 
@@ -347,8 +353,9 @@ exchange rate and may impose an additional fee:
 
 ### Expenses (bank account)
 
-There are two main types of expenses: expenses from my bank account,
-and cash expenses.  The former are straightforward:
+There are three types of expenses: expenses from my bank account,
+expenses on my credit card, and cash expenses.  The former are
+straightforward:
 
 ```
 2018-01-01 Subway
@@ -439,6 +446,37 @@ exchange rate when removing the money from the budget category:
 
 The exchange rate is kind of arbitrary, but something reasonably close
 to the then-current exchange rate should be used.
+
+### Expenses (credit card)
+
+I model expenses on my credit card much like cash expenses.
+
+When I pay for something on my credit card I add a transaction from
+`liabilities` to track the debt and remove the money from the budget
+category:
+
+```
+2018-07-27 * Morrisons
+    expenses:food                                          £3.50
+    liabilities:creditcard:amex
+2018-07-27 ! Credit budget spend
+    current:pending                                        £3.50
+    month:food
+```
+
+I pay off my credit card in full every month automatically via direct
+debit:
+
+```
+2018-08-02 * American Express
+    liabilities:creditcard:amex                           £17.45 = £0
+    current:pending
+```
+
+I like to use balance assertions (the `= £0` bit) for a little extra
+error checking when I know exactly how much an account should have in
+it.  After the direct debit comes out there should be no balance
+remaining on the card.
 
 ### Reimbursements
 
