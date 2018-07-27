@@ -9,6 +9,6 @@ cabal-version:       >=1.10
 
 executable hakyll
   main-is:             hakyll.hs
-  build-depends:       base >=4.7 && <5, hakyll, hakyll-contrib-hyphenation, pandoc, pandoc-types, process, temporary, time
+  build-depends:       base >=4.7 && <5, hakyll, pandoc, pandoc-types, process, temporary, time
   default-language:    Haskell2010
   ghc-options:         -Wall

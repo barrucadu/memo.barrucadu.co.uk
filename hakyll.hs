@@ -3,22 +3,22 @@
 
 module Main where
 
-import           Control.Monad              (mplus)
-import           Data.Char                  (toLower)
-import           Data.List                  (isPrefixOf, sortBy)
-import           Data.Maybe                 (fromMaybe, isJust)
-import           Data.Monoid                ((<>))
-import           Data.Ord                   (Down(..), comparing)
-import           Data.Time.Format           (defaultTimeLocale)
+import           Control.Monad          (mplus)
+import           Data.Char              (toLower)
+import           Data.List              (isPrefixOf, sortBy)
+import           Data.Maybe             (fromMaybe, isJust)
+import           Data.Monoid            ((<>))
+import           Data.Ord               (Down(..), comparing)
+import           Data.Time.Format       (defaultTimeLocale)
 import           Hakyll
-import           Hakyll.Contrib.Hyphenation (english_GB, hyphenateHtml)
-import           System.IO                  (hClose, hPutStrLn)
-import           System.IO.Temp             (withSystemTempFile)
-import           System.Process             (readProcess)
-import           Text.Pandoc.Definition     (Block(..), Format(..), Inline(..), Pandoc)
-import           Text.Pandoc.Generic        (queryWith)
-import           Text.Pandoc.Options        (WriterOptions(..))
-import           Text.Pandoc.Walk           (walkM)
+import           System.IO              (hClose, hPutStrLn)
+import           System.IO.Temp         (withSystemTempFile)
+import           System.Process         (readProcess)
+import           Text.Pandoc.Definition (Block(..), Format(..), Inline(..),
+                                         Pandoc)
+import           Text.Pandoc.Generic    (queryWith)
+import           Text.Pandoc.Options    (WriterOptions(..))
+import           Text.Pandoc.Walk       (walkM)
 
 main :: IO ()
 main = hakyllWith defaultConfiguration $ do
@@ -49,7 +49,6 @@ main = hakyllWith defaultConfiguration $ do
     compile $ do
       toc <- extractTOC
       pandocWithPygments
-        >>= hyphenateHtml english_GB
         >>= saveSnapshot "content"
         >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx toc tags)
         >>= loadAndApplyTemplate "templates/return.html"  defaultContext
@@ -77,7 +76,6 @@ memoList ret tags title pat = do
               defaultContext
 
     makeItem ""
-      >>= hyphenateHtml english_GB
       >>= loadAndApplyTemplate "templates/memo-list.html" ctx
       >>= (if ret then loadAndApplyTemplate "templates/return.html" ctx else pure)
       >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
