@@ -603,27 +603,29 @@ time.
 In addition to simply recording transactions, there is some
 bookkeeping I do occasionally, to keep my records easy to process.
 
+### Once every so often
+
+Every so often (once or twice a week) I check my various financial
+statements and reconcile transactions in the journal:
+
+1. For every transaction in the statement, find the corresponding
+   journal transaction and mark it.
+    - If there are transactions missing from the journal, add and mark
+      them.
+    - If there are transactions missing from the statement, the
+      institution is being slow; reconcile as they come in over the
+      next few days.
+    - If all transactions have cleared but the balance is not what is
+      expected, either figure out what happened or add transactions to
+      adjust (see "balance correction").
+2. Check the balance in my wallet and mark all `hand` transactions.
+    - If the wallet balance is below the `hand` balance, add a
+      transaction to adjust (see "balance correction").
+
 ### End of Month
 
 At the end of a month I reconcile the transactions of the
-month-just-ended:
-
-1. For every transaction in the online bank statement, find the
-   corresponding journal transaction and mark it.
-    - If there are transactions missing from the journal, add and mark
-      them.
-    - If there are transactions missing from the bank statement, the
-      bank is being slow; reconcile as they come in over the next few
-      days.
-    - If the bank balance is below the `current` balance, even
-      discarding uncleared transactions, either figure out what
-      happened or add a transaction to `expenses:adjustment` (see
-      "balance correction").
-2. Check the balance in my wallet and mark all `hand` transactions.
-    - If the wallet balance is below the `hand` balance, add a
-      transaction to `expenses:adjustment` (see "balance correction").
-
-I also set up the budget for the month-just-started:
+month-just-ended and set up the budget for the month-just-started:
 
 ```
 2018-06-01 ! Budget
@@ -638,16 +640,15 @@ This is just the regular monthly budget, but with a date.
 ### End of Year
 
 1. Reconcile, as at the end of any other month.
-2. Add any necessary balance correction (see "balance correction").
-3. Rename the current journal file from "current.journal" to
+2. Rename the current journal file from "current.journal" to
    "$YEAR.journal".
-4. Identify financial goals for the upcoming year.
-5. Create a new "current.journal" for the upcoming year with budget
+3. Identify financial goals for the upcoming year.
+4. Create a new "current.journal" for the upcoming year with budget
    and forecast transactions.
-6. Initialise all accounts on the first of January by transferring from equity.
+5. Initialise all accounts on the first of January by transferring from equity.
 
-The budget created in (5) will depend on the goals identified in (4).
-Here's an example of a (6) transaction setting up the starting
+The budget created in (4) will depend on the goals identified in (3).
+Here's an example of a (5) transaction setting up the starting
 balances:
 
 ```
