@@ -96,6 +96,7 @@ the regular accounts, which are mostly self-explanatory:
                     - `food`
                     - `fun`
                     - `other`
+                - `overdraft`<br><em>My available overdraft</em>
                 - `pending`<br><em>Money put aside for transactions which have not cleared yet</em>
                 - `saved`<br><em>Savings; money added when I am paid</em>
                     - `clothing`
