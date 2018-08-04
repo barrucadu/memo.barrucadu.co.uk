@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-07-27
+date: 2018-08-05
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
 notice: You may get something out of this if you're rethinking how you manage your finances.
@@ -441,12 +441,13 @@ exchange rate when removing the money from the budget category:
     expenses:food                                            548 JPY
     hand:budgeted
 2018-05-08 ! Cash budget spend
-    month:food                                              -548 JPY @@ £4.60
+    month:food                                            -£4.60 ; -548 JPY
     current:float
 ```
 
-The exchange rate is kind of arbitrary, but something reasonably close
-to the then-current exchange rate should be used.
+Ah `@@` posting isn't used, because the bank is operating in GBP.  The
+exchange rate is kind of arbitrary, but something reasonably close to
+the then-current exchange rate should be used.
 
 ### Expenses (credit card)
 
