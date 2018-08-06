@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-08-05
+date: 2018-08-06
 audience: Mostly me, & possibly personal finance nerds.
 epistemic_status: Documents my way of doing things, doesn't attempt to speak more generally than that.
 notice: You may get something out of this if you're rethinking how you manage your finances.
@@ -116,8 +116,8 @@ the regular accounts, which are mostly self-explanatory:
             - `web`<br><em>Savings for AWS, domain names, and web hosting (all charged in foreign currencies)</em>
     - `investments`
         - `cavendish`
-            - `s&s`
         - `coinbase`
+        - `fundingcircle`
     - `pension`
         - `civilservice`
     - `receivable`
@@ -209,6 +209,8 @@ For investment accounts I use:
 
 - **Coinbase**, who offer a few different cryptocurrencies.  I have
   very little in crypto, because it's so volatile.
+
+- **Funding Circle**, who provide my innovative finance ISA.
 
 For a credit card I use an **American Express** cashback card.  There
 is a small annual fee (£25), but I predict (based on my typical
@@ -309,18 +311,18 @@ may be two separate steps:
 
 ```
 2018-06-01 * Cavendish
-    assets:investments:cavendish:s&s                     £100.00
+    assets:investments:cavendish                         £100.00
     saved:invest
 2018-06-01 * Cavendish
-    assets:investments:cavendish:s&s                        0.47 VANEA @@ £100.00
-    assets:investments:cavendish:s&s
+    assets:investments:cavendish                            0.47 VANEA @@ £100.00
+    assets:investments:cavendish
 ```
 
 A broker may charge a management fee by selling some of the assets:
 
 ```
 2018-01-03 Cavendish
-    assets:investments:cavendish:s&s                       -0.02 MCMEA @@ £0.03
+    assets:investments:cavendish                           -0.02 MCMEA @@ £0.03
     expenses:fees:cavendish                                £0.03
 ```
 
@@ -667,10 +669,10 @@ balances:
     saved:travel                                         £100.00
     saved:web                                            £195.00
     ;
-    assets:investments:cavendish:s&s                        2.54 VADEA @@ £800.00
-    assets:investments:cavendish:s&s                       65.00 MCMEA @@  £99.77
-    assets:investments:cavendish:s&s                       31.19 MCOUA @@  £50.00
-    assets:investments:cavendish:s&s                        7.15 MHMIA @@  £50.00
+    assets:investments:cavendish                            2.54 VADEA @@ £800.00
+    assets:investments:cavendish                           65.00 MCMEA @@  £99.77
+    assets:investments:cavendish                           31.19 MCOUA @@  £50.00
+    assets:investments:cavendish                            7.15 MHMIA @@  £50.00
     assets:investments:coinbase                            0.004 BTC   @@  £51.91
     assets:investments:coinbase                             0.10 ETH   @@  £62.04
     assets:investments:coinbase                             0.25 LTC   @@  £60.17
