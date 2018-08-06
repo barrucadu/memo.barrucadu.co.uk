@@ -97,7 +97,7 @@ the regular accounts, which are mostly self-explanatory:
                     - `fun`
                     - `other`
                 - `overdraft`<br><em>My available overdraft</em>
-                - `pending`<br><em>Money put aside for transactions which have not cleared yet</em>
+                - `pending`<br><em>Subaccounts for money put aside for transactions which have not cleared yet</em>
                 - `saved`<br><em>Savings; money added when I am paid</em>
                     - `clothing`
                     - `gift`
@@ -394,7 +394,7 @@ The solution is a temporary account:
 
 ```
 2018-06-09 ! Amazon | 203-1811543-7064312
-    current:pending                                       £14.99
+    current:pending:santander                             £14.99
     month:fun
 ```
 
@@ -404,7 +404,7 @@ transaction to `expenses`:
 ```
 2018-07-31 Amazon | 203-1811543-7064312
     expenses:books                                        £14.99
-    current:pending
+    current:pending:santander
 ```
 
 If this is a transaction with a note, the same note goes on both to
@@ -426,7 +426,7 @@ money has been allocated and spent:
 2018-01-06 * Morrisons
     expenses:food                                          £2.43
     hand:budgeted
-2018-01-06 ! Cash budget spend
+2018-01-06 ! Budget spend
     month:food                                            -£2.43
     current:float
 ```
@@ -442,7 +442,7 @@ exchange rate when removing the money from the budget category:
 2018-05-08 * FamilyMart
     expenses:food                                            548 JPY
     hand:budgeted
-2018-05-08 ! Cash budget spend
+2018-05-08 ! Budget spend
     month:food                                            -£4.60 ; -548 JPY
     current:float
 ```
@@ -463,8 +463,8 @@ category:
 2018-07-27 * Morrisons
     expenses:food                                          £3.50
     liabilities:creditcard:amex
-2018-07-27 ! Credit budget spend
-    current:pending                                        £3.50
+2018-07-27 ! Budget spend
+    current:pending:amex                                   £3.50
     month:food
 ```
 
