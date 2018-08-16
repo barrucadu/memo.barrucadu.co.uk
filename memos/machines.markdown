@@ -1,7 +1,7 @@
 ---
 title: Machines
 tags: howto, possessions, tech
-date: 2018-07-14
+date: 2018-08-17
 audience: Not you.
 ---
 
@@ -57,16 +57,6 @@ Alerting
 
 Issues
   ~ Sometimes fails to boot, have yet to reproduce this when a monitor is plugged in.
-
-#### Post-boot set-up ####
-
-rtorrent
-  ~ As barrucadu:<br/>
-    `tmux new-session -srtorrent -d rtorrent`
-
-bookdb
-  ~ As barrucadu in /srv/http/bookdb:<br/>
-    `tmux new-session -sbookdb -d "./bookdb run bookdb.conf"`
 
 ### carter ###
 
@@ -150,9 +140,3 @@ Configuration
 Issues
   ~ Radio services need to start in a specific order,
   `~/restart-all.sh` can fix them if they don't start properly
-
-#### Post-boot set-up ####
-
-rtorrent
-  ~ As barrucadu:<br/>
-    `tmux new-session -srtorrent -d rtorrent`
