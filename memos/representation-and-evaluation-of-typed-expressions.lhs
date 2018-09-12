@@ -3,7 +3,6 @@ title: Representation & Evaluation of Typed Expressions
 tags: coco, programming, research
 date: 2017-03-23
 audience: Haskell programmers.
-epistemic_status: I wrote this memo to work out how to implement CoCo.  So this all works and is, mostly, still implemented like this.
 ---
 
 Or, "I tried really hard to use the [bound][] library but just couldn't get that square peg in this

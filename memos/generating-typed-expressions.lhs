@@ -3,7 +3,6 @@ title: Generating Typed Expressions
 tags: coco, code generation, haskell, programming, research
 date: 2017-03-27
 audience: Haskell programmers.
-epistemic_status: I wrote this memo to work out how to implement CoCo.  So this all works and is, mostly, still implemented like this.
 ---
 
 *[Representation & Evaluation of Typed Expressions](https://memo.barrucadu.co.uk/representation-and-evaluation-of-typed-expressions.html):

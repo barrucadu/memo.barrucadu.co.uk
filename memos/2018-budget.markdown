@@ -3,7 +3,6 @@ title: I Need A Budget
 tags: finance, hledger, howto
 date: 2017-12-16
 audience: Personal finance nerds.
-epistemic_status: Reflection on how I've done things for the past year, with planning for the future.
 notice: You may get something out of this if you're rethinking how you manage your finances.
 ---
 

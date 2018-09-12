@@ -3,7 +3,6 @@ title: Imageboards
 tags: culture, tech
 date: 2017-03-09
 audience: Imageboard dwellers & cyber-anthropologists.
-epistemic_status: Totally unsubstantiated opinions, but I've been immersed in this culture for a while.
 ---
 
 

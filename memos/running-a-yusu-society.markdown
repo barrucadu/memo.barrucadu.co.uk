@@ -3,7 +3,6 @@ title: Running a YUSU Society
 tags: howto, university
 date: 2017-03-09
 audience: University of York people.
-epistemic_status: These are all my opinions about running a society based on doing it for several years.  YUSU likes to change things, so any (or all) of this may no longer be valid.
 ---
 
 I have been around a bit:

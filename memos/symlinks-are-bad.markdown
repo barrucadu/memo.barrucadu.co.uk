@@ -3,7 +3,6 @@ title: Symlinks are Bad
 tags: tech
 date: 2017-03-13
 audience: Not you.
-epistemic_status: Totally unsubstantiated opinions.
 ---
 
 So you're about to run `ln -s fileName linkName` are you? Wait!

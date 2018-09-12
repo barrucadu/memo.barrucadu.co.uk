@@ -3,7 +3,6 @@ title: A New Kind of Imageboard
 tags: culture, tech
 date: 2018-05-28
 audience: Imageboard dwellers & cyber-anthropologists.
-epistemic_status: Totally unsubstantiated opinions, but I've been immersed in this culture for a while.
 notice: This is part feature list / part response to Clay Shirky's "A Group Is Its Own Worst Enemy" essay.  Will I ever implement this and test these ideas out?  Who knows!
 ---
 

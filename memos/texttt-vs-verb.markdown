@@ -3,7 +3,6 @@ title: \texttt{foo} vs \verb#foo#
 date: 2017-05-31
 tags: latex, writing
 audience: Not you.
-epistemic_status: Totally unsubstantiated opinions.
 ---
 
 The LaTeX commands `\texttt` and `\verb` are very similar, but not the same:

@@ -17,10 +17,8 @@ article is weirdly specific and not applicable at all," bear in mind:
 3. Sometimes I'll go back and update a memo.
 
 Each memo has a **Target Audience** which you should check before
-reading.  Some have an **Epistemic Status**, which summarises how
-objectively true the content is.  Some have an **Attention
-Conservation Notice**, to give a very brief summary of what you can
-expect.
+reading.  Some have an **Attention Conservation Notice**, to give a
+very brief summary of what you can expect.
 
 ---
 

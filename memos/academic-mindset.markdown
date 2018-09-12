@@ -3,7 +3,6 @@ title: The Academic Mindset and Me
 tags: life, research
 date: 2017-12-06
 audience: Computer science postgrads who are a little fed up.
-epistemic_status: A rant.
 notice: I was coming out of a bad place when I wrote this.
 ---
 

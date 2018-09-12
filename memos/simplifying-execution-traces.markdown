@@ -3,7 +3,6 @@ title: Simplifying Execution Traces
 tags: concurrency, dejafu, haskell, programming, research
 date: 2018-03-08
 audience: People interested in the dejafu internals.
-epistemic_status: This is describing the current state of a wip branch, which may yet be changed.
 ---
 
 It's well known that randomly generated test failures are a poor
