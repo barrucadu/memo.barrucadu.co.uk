@@ -6,7 +6,7 @@ module Main where
 import           Control.Monad          (mplus)
 import           Data.Char              (toLower)
 import           Data.List              (isPrefixOf, sortBy)
-import           Data.Maybe             (fromMaybe, isJust)
+import           Data.Maybe             (catMaybes, fromMaybe, isJust)
 import           Data.Monoid            ((<>))
 import           Data.Ord               (Down(..), comparing)
 import           Data.Time.Format       (defaultTimeLocale)
@@ -181,14 +181,13 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
 dropPat :: String -> Routes
 dropPat pat = gsubRoute pat (const "")
 
--- | Sort memos by date (descending), with deprecated memos at the
--- bottom and important memos at the top.  Deprecated important memos
--- also go to the bottom.
+-- | Sort memos by date (descending), with important memos at the top,
+-- and removing deprecated memos.
 sortMemos :: MonadMetadata m => [Item a] -> m [Item a]
 sortMemos = sortByA info where
   sortByA f xs =
-    fmap (map fst . sortBy (comparing snd)) $
-    traverse (\x -> (x,) <$> f x) xs
+    fmap (map fst . sortBy (comparing snd) . catMaybes) $
+    traverse (\x -> fmap (x,) <$> f x) xs
 
   info item = do
     let identifier = itemIdentifier item
@@ -196,7 +195,7 @@ sortMemos = sortByA info where
     let isDeprecated = isJust (lookupString "deprecated_by" metadata)
     let isImportant  = isJust (lookupString "important" metadata)
     date <- getItemUTC defaultTimeLocale identifier
-    pure (isDeprecated, Down isImportant, Down date)
+    pure (if isDeprecated then Nothing else Just (Down isImportant, Down date))
 
 -- | Render graphviz code.
 graphvizToHtml :: String -> String -> IO String
