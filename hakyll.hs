@@ -46,9 +46,13 @@ main = hakyllWith defaultConfiguration $ do
     compile copyFileCompiler
 
   -- Tags
-  tags <- buildTagsWithExtra "memos/*" (fromCapture "tag/*.html")
+  let mkTags = buildTagsWithExtra "memos/*" . fromCapture
+  tags <- mkTags "tag/*.html"
   tagsRules tags $ \tag ->
-    memoList True tags ("Tagged '" ++ tag ++ "'")
+    memoList (Just tag) tags
+  feedTags <- mkTags "tag/*.xml"
+  tagsRules feedTags $ \tag ->
+    memoFeed (Just tag)
 
   -- Render memos
   match "memos/*" $ do
@@ -64,31 +68,37 @@ main = hakyllWith defaultConfiguration $ do
         >>= loadAndApplyTemplate "templates/wrapper.html" defaultContext
         >>= relativizeUrls
 
-  -- Create feed
-  create ["atom.xml"] $ do
-    route     idRoute
-    compile $ loadAllSnapshots "memos/*" "content"
-      >>= fmap (take 10) . recentFirst
-      >>= renderAtom feedCfg feedCtx
-
   -- Render index page
   create ["index.html"] $
-    memoList False tags "All Memos" "memos/*"
+    memoList Nothing tags "memos/*"
+  create ["atom.xml"] $
+    memoFeed Nothing "memos/*"
 
-memoList :: Bool -> Tags -> String -> Pattern -> Rules ()
-memoList ret tags title pat = do
-  route idRoute
-  compile $ do
-    entries <- sortMemos =<< loadAll pat
-    let ctx = constField "title" title <>
-              listField "memos" (memoCtx [] tags) (return entries) <>
-              defaultContext
+memoList :: Maybe String -> Tags -> Pattern -> Rules ()
+memoList tag tags pat = do
+    route idRoute
+    compile $ do
+      entries <- sortMemos =<< loadAll pat
+      let ctx = constField "title" title <>
+                listField "memos" (memoCtx [] tags) (return entries) <>
+                defaultContext
 
-    makeItem ""
-      >>= loadAndApplyTemplate "templates/memo-list.html" ctx
-      >>= (if ret then loadAndApplyTemplate "templates/return.html" ctx else pure)
-      >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
-      >>= relativizeUrls
+      makeItem ""
+        >>= loadAndApplyTemplate "templates/memo-list.html" ctx
+        >>= (if isJust tag then loadAndApplyTemplate "templates/return.html" ctx else pure)
+        >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
+        >>= relativizeUrls
+  where
+    title = "barrucadu's memos" ++ maybe "" (" - tagged " ++) tag
+
+memoFeed :: Maybe String -> Pattern -> Rules ()
+memoFeed tag pat = do
+    route idRoute
+    compile $ loadAllSnapshots pat "content"
+      >>= fmap (take 10) . recentFirst
+      >>= renderAtom (feedCfg title) feedCtx
+  where
+    title = "barrucadu's memos" ++ maybe "" (" - tagged " ++) tag
 
 -------------------------------------------------------------------------------
 
@@ -102,9 +112,9 @@ memoCtx toc tags = mconcat
   , defaultContext
   ]
 
-feedCfg :: FeedConfiguration
-feedCfg = FeedConfiguration
-  { feedTitle       = "barrucadu's memos"
+feedCfg :: String -> FeedConfiguration
+feedCfg title = FeedConfiguration
+  { feedTitle       = title
   , feedDescription = ""
   , feedAuthorName  = "Michael Walker"
   , feedAuthorEmail = "mike@barrucadu.co.uk"
@@ -176,6 +186,10 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
     ["important"  | hasField "important"] ++
     ["deprecated" | hasField "deprecated_by"] ++
     fieldValue "tags"
+
+-- | Replace the extension in a URL
+chext :: String -> String -> Routes
+chext old new = gsubRoute ('.':old) (const ('.':new))
 
 -- | Remove some portion of the route
 dropPat :: String -> Routes
