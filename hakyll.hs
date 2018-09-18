@@ -14,8 +14,7 @@ import           Hakyll
 import           System.IO              (hClose, hPutStrLn)
 import           System.IO.Temp         (withSystemTempFile)
 import           System.Process         (readProcess)
-import           Text.Pandoc.Definition (Block(..), Format(..), Inline(..),
-                                         Pandoc)
+import           Text.Pandoc.Definition (Block(..), Format(..), Inline(..))
 import           Text.Pandoc.Generic    (queryWith)
 import           Text.Pandoc.SideNote   (usingSideNotes)
 import           Text.Pandoc.Walk       (walkM)
@@ -164,13 +163,14 @@ myPandoc = pandocCompilerWithTransformM ropts wopts pandoc where
 
   transformCode lang code = process codeProcessors where
     process ((prefix, def, f):rest) = case stripPrefix prefix lang of
-      Just [] -> f def code
-      Just ":" -> f def code
-      Just (':':arg) -> f arg code
+      Just suff -> f (getArg def suff) code
       Nothing -> process rest
     process [] = do
       html <- readProcess "pygmentize" ["-l", lang,  "-f", "html", "-O", "nowrap"] code
       pure $ "<pre class=\"code\">" ++ html ++ "</pre>"
+
+    getArg _ (':':arg) = arg
+    getArg def _ = def
 
 
 -------------------------------------------------------------------------------
