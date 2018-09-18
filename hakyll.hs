@@ -5,7 +5,7 @@ module Main where
 
 import           Control.Monad          (mplus)
 import           Data.Char              (toLower)
-import           Data.List              (isPrefixOf, sortBy)
+import           Data.List              (isPrefixOf, sortBy, stripPrefix)
 import           Data.Maybe             (catMaybes, fromMaybe, isJust)
 import           Data.Monoid            ((<>))
 import           Data.Ord               (Down(..), comparing)
@@ -131,35 +131,40 @@ feedCtx = mconcat
 
 -- | * Use pygments/pygmentize for syntax highlighting
 --   * Render footnotes as sidenotes
+--   * Process special-cased code blocks (see 'codeProcessors')
 myPandoc :: Compiler (Item String)
 myPandoc = pandocCompilerWithTransformM ropts wopts pandoc where
-  pandoc = fmap usingSideNotes . pygmentize
+  pandoc = fmap usingSideNotes . unsafeCompiler . walkM render
   ropts = defaultHakyllReaderOptions
   wopts = defaultHakyllWriterOptions
 
--- | Apply pygments/pygmentize syntax highlighting to a Pandoc
--- document.
-pygmentize :: Pandoc -> Compiler Pandoc
-pygmentize = unsafeCompiler . walkM highlight where
-  highlight (CodeBlock opts code) = RawBlock (Format "html") <$> case opts of
-    (_, lang:_, _) -> withLanguage lang code
-    _ -> pure $ "<pre class=\"code\">" ++ escapeHtml code ++ "</pre>"
-  highlight x = pure x
-
-  withLanguage lang
+  render (CodeBlock opts code) = RawBlock (Format "html") <$> case opts of
+    (_, lang:_, _) ->
       -- For some reason Haskell source in .lhs files is reported as
       -- "sourcecode". There may be other edge cases, but as I never
       -- want to highlight anything other than Haskell that is fine.
-      | lang' == "sourcecode" = go "haskell"
-      | otherwise = go lang'
-    where
-      lang' = map toLower lang
+      let lang' = map toLower lang
+      in if lang' == "sourcecode"
+         then transformCode "haskell" code
+         else transformCode lang' code
+    _ -> pure $ "<pre class=\"code\">" ++ escapeHtml code ++ "</pre>"
+  render x = pure x
 
-      go "graphviz" code = graphvizToHtml "dot" code
-      go ('g':'r':'a':'p':'h':'v':'i':'z':':':tool) code = graphvizToHtml tool code
-      go highlightLang code = do
-        html <- readProcess "pygmentize" ["-l", highlightLang,  "-f", "html", "-O", "nowrap"] code
-        pure $ "<pre class=\"code\">" ++ html ++ "</pre>"
+  transformCode lang code = process codeProcessors where
+    process ((prefix, def, f):rest) = case stripPrefix prefix lang of
+      Just [] -> f def code
+      Just ":" -> f def code
+      Just (':':arg) -> f arg code
+      Nothing -> process rest
+    process [] = do
+      html <- readProcess "pygmentize" ["-l", lang,  "-f", "html", "-O", "nowrap"] code
+      pure $ "<pre class=\"code\">" ++ html ++ "</pre>"
+
+-- | Special-cased code blocks, in the format @[(langauge, default
+-- arg, processor func)]@.  Called on code blocks where the langauge
+-- matches, argument is given in the format \"language:argument\".
+codeProcessors :: [(String, String, String -> String -> IO String)]
+codeProcessors = [("graphviz", "dot", graphvizToHtml)]
 
 -- | Extract 2nd-level headings.
 extractTOC :: Compiler [(String, String)]
