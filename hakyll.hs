@@ -59,14 +59,7 @@ main = hakyllWith defaultConfiguration $ do
     route $
       setExtension ".html" `composeRoutes`
       dropPat      "memos/"
-    compile $ do
-      toc <- extractTOC
-      myPandoc
-        >>= saveSnapshot "content"
-        >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx toc tags)
-        >>= loadAndApplyTemplate "templates/return.html"  defaultContext
-        >>= loadAndApplyTemplate "templates/wrapper.html" defaultContext
-        >>= relativizeUrls
+    compile (memoCompiler tags)
 
   -- Render index page
   create ["index.html"] $
@@ -74,6 +67,22 @@ main = hakyllWith defaultConfiguration $ do
   create ["atom.xml"] $
     memoFeed Nothing "memos/*"
 
+
+-------------------------------------------------------------------------------
+-- * Rendering memos
+
+-- | Render a single memo
+memoCompiler :: Tags -> Compiler (Item String)
+memoCompiler tags = do
+  toc <- extractTOC
+  myPandoc
+    >>= saveSnapshot "content"
+    >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx toc tags)
+    >>= loadAndApplyTemplate "templates/return.html"  defaultContext
+    >>= loadAndApplyTemplate "templates/wrapper.html" defaultContext
+    >>= relativizeUrls
+
+-- | Render a memo listing page
 memoList :: Maybe String -> Tags -> Pattern -> Rules ()
 memoList tag tags pat = do
     route idRoute
@@ -91,17 +100,6 @@ memoList tag tags pat = do
   where
     title = "barrucadu's memos" ++ maybe "" (" - tagged " ++) tag
 
-memoFeed :: Maybe String -> Pattern -> Rules ()
-memoFeed tag pat = do
-    route idRoute
-    compile $ loadAllSnapshots pat "content"
-      >>= fmap (take 10) . recentFirst
-      >>= renderAtom (feedCfg title) feedCtx
-  where
-    title = "barrucadu's memos" ++ maybe "" (" - tagged " ++) tag
-
--------------------------------------------------------------------------------
-
 memoCtx :: [(String, String)] -> Tags -> Context String
 memoCtx toc tags = mconcat
   [ listField "toc" (field "anchor" (\(Item _ (a,_)) -> pure a) <> field "text" (\(Item _ (_,t)) -> pure t) <> missingField) (pure (map (Item "") toc))
@@ -111,6 +109,20 @@ memoCtx toc tags = mconcat
   , tagsField "tags"    tags
   , defaultContext
   ]
+
+
+-------------------------------------------------------------------------------
+-- * Rendering feeds
+
+-- | Render a memo atom feed
+memoFeed :: Maybe String -> Pattern -> Rules ()
+memoFeed tag pat = do
+    route idRoute
+    compile $ loadAllSnapshots pat "content"
+      >>= fmap (take 10) . recentFirst
+      >>= renderAtom (feedCfg title) feedCtx
+  where
+    title = "barrucadu's memos" ++ maybe "" (" - tagged " ++) tag
 
 feedCfg :: String -> FeedConfiguration
 feedCfg title = FeedConfiguration
@@ -160,11 +172,27 @@ myPandoc = pandocCompilerWithTransformM ropts wopts pandoc where
       html <- readProcess "pygmentize" ["-l", lang,  "-f", "html", "-O", "nowrap"] code
       pure $ "<pre class=\"code\">" ++ html ++ "</pre>"
 
+
+-------------------------------------------------------------------------------
+-- * Code processors
+
 -- | Special-cased code blocks, in the format @[(langauge, default
 -- arg, processor func)]@.  Called on code blocks where the langauge
 -- matches, argument is given in the format \"language:argument\".
 codeProcessors :: [(String, String, String -> String -> IO String)]
 codeProcessors = [("graphviz", "dot", graphvizToHtml)]
+
+-- | Render graphviz code.
+graphvizToHtml :: String -> String -> IO String
+graphvizToHtml cmd src = withSystemTempFile "memo-graphviz-" $ \tmpFile hFile -> do
+  hPutStrLn hFile src
+  hClose hFile
+  html <- dropUntil "<svg" <$> readProcess cmd ["-Tsvg", tmpFile] ""
+  pure $ "<figure>" ++ html ++ "</figure>"
+
+
+-------------------------------------------------------------------------------
+-- * Memo utilities
 
 -- | Extract 2nd-level headings.
 extractTOC :: Compiler [(String, String)]
@@ -192,14 +220,6 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
     ["deprecated" | hasField "deprecated_by"] ++
     fieldValue "tags"
 
--- | Replace the extension in a URL
-chext :: String -> String -> Routes
-chext old new = gsubRoute ('.':old) (const ('.':new))
-
--- | Remove some portion of the route
-dropPat :: String -> Routes
-dropPat pat = gsubRoute pat (const "")
-
 -- | Sort memos by date (descending), with important memos at the top,
 -- and removing deprecated memos.
 sortMemos :: MonadMetadata m => [Item a] -> m [Item a]
@@ -216,13 +236,13 @@ sortMemos = sortByA info where
     date <- getItemUTC defaultTimeLocale identifier
     pure (if isDeprecated then Nothing else Just (Down isImportant, Down date))
 
--- | Render graphviz code.
-graphvizToHtml :: String -> String -> IO String
-graphvizToHtml cmd src = withSystemTempFile "memo-graphviz-" $ \tmpFile hFile -> do
-  hPutStrLn hFile src
-  hClose hFile
-  html <- dropUntil "<svg" <$> readProcess cmd ["-Tsvg", tmpFile] ""
-  pure $ "<figure>" ++ html ++ "</figure>"
+
+-------------------------------------------------------------------------------
+-- * General utilities
+
+-- | Remove some portion of the route
+dropPat :: String -> Routes
+dropPat pat = gsubRoute pat (const "")
 
 -- | Drop elements from a list until a prefix is found.
 dropUntil :: Eq a => [a] -> [a] -> [a]
