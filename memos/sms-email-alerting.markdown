@@ -2,7 +2,7 @@
 title: SMS and Email Alerting for Hardware Failure
 tags: aws, programming
 date: 2018-07-14
-audience: Programmers & hobby sysadmins.
+audience: General
 notice: This is a fairly straightforward application of Amazon SNS.
 ---
 

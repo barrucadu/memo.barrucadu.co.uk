@@ -2,7 +2,7 @@
 title: Blub Crisis
 date: 2017-04-17
 tags: programming
-audience: Not you
+audience: Narrow
 ---
 
 > As long as our hypothetical Blub programmer is looking down the power continuum, he knows he's

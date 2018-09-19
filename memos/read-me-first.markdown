@@ -1,24 +1,25 @@
 ---
 title: Read Me First
 tags: meta
-date: 2018-02-06
-audience: Everyone
+date: 2018-09-19
+audience: General
 important: true
 ---
 
 Welcome to my collection of memos!
 
 It's not exactly like a normal blog, so before complaining "wow, this
-article is weirdly specific and not applicable at all," bear in mind:
+article is weirdly specific and not applicable at all," check the
+**Target Audience** field:
 
-1. Many memos are written with *me* as the target audience!
-2. The narrower the target audience, the less polished the memo is
-   likely to be.
-3. Sometimes I'll go back and update a memo.
+1. *General* memos are written for everyone
+2. *Narrow* memos are generally me working something out or
+   documenting something for myself, but which others may find
+   interesting
+3. *Personal* memos are written for me
 
-Each memo has a **Target Audience** which you should check before
-reading.  Some have an **Attention Conservation Notice**, to give a
-very brief summary of what you can expect.
+Some memos have an **Attention Conservation Notice**, to give a very
+brief summary of what you can expect.
 
 ---
 

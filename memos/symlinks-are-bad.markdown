@@ -2,7 +2,7 @@
 title: Symlinks are Bad
 tags: tech
 date: 2017-03-13
-audience: Not you.
+audience: Narrow
 ---
 
 So you're about to run `ln -s fileName linkName` are you? Wait!

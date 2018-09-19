@@ -2,7 +2,7 @@
 title: Haskell Style Guide
 tags: haskell, programming
 date: 2017-05-16
-audience: Haskell programmers.
+audience: Narrow
 ---
 
 File layout

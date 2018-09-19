@@ -2,7 +2,7 @@
 title: Three Months of Go (from a Haskeller's perspective)
 tags: haskell, go, programming
 date: 2016-08-25
-audience: Haskell programmers & Go programmers.
+audience: General
 notice: This is mostly just an opinionated rant.
 ---
 

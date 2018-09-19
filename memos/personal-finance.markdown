@@ -2,7 +2,7 @@
 title: Personal Finance
 tags: finance, hledger, howto
 date: 2018-08-06
-audience: Mostly me, & possibly personal finance nerds.
+audience: Narrow
 notice: You may get something out of this if you're rethinking how you manage your finances.
 ---
 

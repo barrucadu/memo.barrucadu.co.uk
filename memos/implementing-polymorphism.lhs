@@ -2,7 +2,7 @@
 title: Implementing Polymorphism
 tags: coco, haskell, programming, research, type checking
 date: 2017-05-09
-audience: Haskell programmers.
+audience: Narrow
 ---
 
 Polymorphism is great, it means that we don't need to repeat the same conceptually-polymorphic

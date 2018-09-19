@@ -2,7 +2,7 @@
 title: Why I dislike mocking
 tags: programming
 date: 2018-05-09
-audience: Programmers.
+audience: Narrow
 ---
 
 Mocking is a technique in writing tests where some component external

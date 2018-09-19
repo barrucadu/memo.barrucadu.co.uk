@@ -2,7 +2,7 @@
 title: Boardgames
 tags: possessions
 date: 2018-05-25
-audience: People who know me and like boardgames.
+audience: Personal
 ---
 
 Game                                  1    2    3    4    5    6    7    8    9    10

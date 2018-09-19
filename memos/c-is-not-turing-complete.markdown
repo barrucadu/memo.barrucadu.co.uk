@@ -2,7 +2,7 @@
 title: C is not Turing-complete
 tags: c, programming, semantics
 date: 2017-02-01
-audience: C programmers & language lawyers.
+audience: General
 notice: Because of how pointers are defined in the C standard, an isolated C program is equivalent in computational power to a pushdown automata.
 ---
 

@@ -2,7 +2,7 @@
 title: Using Hedgehog to Test Déjà Fu
 tags: concurrency, dejafu, haskell, hedgehog, programming, property-based testing
 date: 2018-02-11
-audience: People interested in dejafu or in property-based testing.
+audience: General
 notice: There is a fairly long preamble before I get to the Hedgehog stuff, which you can jump to directly if you don't really care about how the Déjà Fu side of this works.
 ---
 

@@ -2,7 +2,7 @@
 title: Shoan and the Garden Path
 tags: koan
 date: 2017-04-15
-audience: Not you.
+audience: Personal
 ---
 
 > Rikiu was watching his son Shoan as he swept and watered the garden path.  "Not clean enough,"

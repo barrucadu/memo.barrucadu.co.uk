@@ -2,7 +2,7 @@
 title: Machines
 tags: howto, possessions, tech
 date: 2018-08-17
-audience: Not you.
+audience: Personal
 ---
 
 Naming convention

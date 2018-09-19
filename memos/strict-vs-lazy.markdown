@@ -2,7 +2,7 @@
 title: Strict-by-default vs Lazy-by-default
 tags: haskell, programming
 date: 2016-02-12
-audience: Haskell programmers.
+audience: General
 notice: In every discussion of Haskell, the issue of strict vs lazy evaluation comes up.  I think laziness is the better default.
 ---
 

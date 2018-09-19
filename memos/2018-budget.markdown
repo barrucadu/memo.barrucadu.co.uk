@@ -2,7 +2,7 @@
 title: I Need A Budget
 tags: finance, hledger, howto
 date: 2017-12-16
-audience: Personal finance nerds.
+audience: General
 notice: You may get something out of this if you're rethinking how you manage your finances.
 ---
 

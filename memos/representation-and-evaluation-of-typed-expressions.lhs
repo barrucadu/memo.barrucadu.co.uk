@@ -2,7 +2,7 @@
 title: Representation & Evaluation of Typed Expressions
 tags: coco, programming, research
 date: 2017-03-23
-audience: Haskell programmers.
+audience: Narrow
 ---
 
 Or, "I tried really hard to use the [bound][] library but just couldn't get that square peg in this

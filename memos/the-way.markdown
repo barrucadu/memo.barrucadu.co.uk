@@ -2,7 +2,7 @@
 title: The Way
 tags: life
 date: 2017-03-06
-audience: Not you.
+audience: Personal
 ---
 
 On Attitude

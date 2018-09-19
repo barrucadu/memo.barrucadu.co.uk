@@ -2,7 +2,7 @@
 title: 100 Prisoners
 tags: concurrency, dejafu, haskell, programming
 date: 2017-11-01
-audience: Mostly me.
+audience: Narrow
 notice: There's a more polished version of this in my thesis, go read that instead.
 ---
 

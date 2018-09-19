@@ -2,7 +2,7 @@
 title: Running a YUSU Society
 tags: howto, university
 date: 2017-03-09
-audience: University of York people.
+audience: Narrow
 ---
 
 I have been around a bit:

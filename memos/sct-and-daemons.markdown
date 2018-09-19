@@ -2,7 +2,7 @@
 title: Systematic Concurrency Testing and Daemon Threads
 tags: concurrency, programming, research
 date: 2016-05-13
-audience: Mostly me, & possibly concurrency testing nerds.
+audience: Narrow
 notice: There's a subtlety in partial-order techniques when daemon threads are involved which has caught me out a couple of times.
 ---
 

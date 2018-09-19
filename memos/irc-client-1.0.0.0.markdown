@@ -2,7 +2,7 @@
 title: irc-client-1.0.0.0
 tags: haskell, irc-client, programming, release notes
 date: 2017-09-22
-audience: Haskell programmers.
+audience: General
 notice: irc-client is a Haskell library for writing, you guessed it, IRC clients.
 ---
 

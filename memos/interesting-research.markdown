@@ -2,7 +2,7 @@
 title: Interesting Research
 tags: research
 date: 2018-03-22
-audience: Computer science people.
+audience: Narrow
 ---
 
 Sources

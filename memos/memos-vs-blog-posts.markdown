@@ -2,7 +2,7 @@
 title: Memos vs. Blog Posts
 tags: meta, writing
 date: 2017-03-01
-audience: Everyone
+audience: General
 deprecated_by: read-me-first
 ---
 

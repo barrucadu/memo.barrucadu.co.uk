@@ -2,7 +2,7 @@
 title: List of Granfalloons
 date: 2018-07-14
 tags: bokononism, life
-audience: Not you.
+audience: Personal
 ---
 
 A *granfalloon* is a false *karass*: a collection of people with no

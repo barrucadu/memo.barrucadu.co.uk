@@ -3,7 +3,7 @@ title: hledger
 tags: finance, hledger, howto
 date: 2017-09-29
 deprecated_by: personal-finance
-audience: Mostly me, & possibly personal finance nerds.
+audience: Narrow
 notice: You may get something out of this if you're rethinking how you manage your finances.
 ---
 

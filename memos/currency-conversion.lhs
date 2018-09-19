@@ -2,7 +2,7 @@
 title: Currency Conversion
 tags: finance, haskell, programming
 date: 2018-05-31
-audience: The intersection of Haskell programmers, personal finance nerds, and graph nerds.
+audience: Narrow
 ---
 
 I've recently returned to my [hledger

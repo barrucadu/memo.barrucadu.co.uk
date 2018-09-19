@@ -2,7 +2,7 @@
 title: Mixing and Matching Variables
 tags: coco, haskell, programming, research
 date: 2017-04-04
-audience: Haskell programmers.
+audience: Narrow
 ---
 
 Thanks to the two prior memos in this series, we can generate *schemas* and produce a set of *terms*

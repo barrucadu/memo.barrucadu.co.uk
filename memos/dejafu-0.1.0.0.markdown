@@ -2,7 +2,7 @@
 title: dejafu-0.1.0.0
 tags: dejafu, haskell, programming, release notes
 date: 2015-08-27
-audience: Haskell programmers.
+audience: General
 notice: dejafu is a Haskell library for testing concurrent programs.
 ---
 

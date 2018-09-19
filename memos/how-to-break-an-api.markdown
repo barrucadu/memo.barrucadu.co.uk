@@ -2,7 +2,7 @@
 title: How to Break an API
 tags: esec, fse, paper summary, research
 date: 2017-11-30
-audience: Computer science people.
+audience: General
 ---
 
 By [Christopher Bogart][a1], [Christian Kästner][a2], [James Herbsleb][a3], and [Ferdian Thung][a4].<br>
