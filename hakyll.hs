@@ -84,20 +84,17 @@ memoCompiler tags = do
 -- | Render a memo listing page
 memoList :: Maybe String -> Tags -> Pattern -> Rules ()
 memoList tag tags pat = do
-    route idRoute
-    compile $ do
-      entries <- sortMemos =<< loadAll pat
-      let ctx = constField "title" title <>
-                listField "memos" (memoCtx [] tags) (return entries) <>
-                defaultContext
-
-      makeItem ""
-        >>= loadAndApplyTemplate "templates/memo-list.html" ctx
-        >>= (if isJust tag then loadAndApplyTemplate "templates/return.html" ctx else pure)
-        >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
-        >>= relativizeUrls
-  where
-    title = "barrucadu's memos" ++ maybe "" (" - tagged " ++) tag
+  route idRoute
+  compile $ do
+    entries <- sortMemos =<< loadAll pat
+    let ctx = constField "title" (titleFor tag) <>
+              listField "memos" (memoCtx [] tags) (return entries) <>
+              defaultContext
+    makeItem ""
+      >>= loadAndApplyTemplate "templates/memo-list.html" ctx
+      >>= (if isJust tag then loadAndApplyTemplate "templates/return.html" ctx else pure)
+      >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
+      >>= relativizeUrls
 
 memoCtx :: [(String, String)] -> Tags -> Context String
 memoCtx toc tags = mconcat
@@ -116,12 +113,10 @@ memoCtx toc tags = mconcat
 -- | Render a memo atom feed
 memoFeed :: Maybe String -> Pattern -> Rules ()
 memoFeed tag pat = do
-    route idRoute
-    compile $ loadAllSnapshots pat "content"
-      >>= fmap (take 10) . recentFirst
-      >>= renderAtom (feedCfg title) feedCtx
-  where
-    title = "barrucadu's memos" ++ maybe "" (" - tagged " ++) tag
+  route idRoute
+  compile $ loadAllSnapshots pat "content"
+    >>= fmap (take 10) . recentFirst
+    >>= renderAtom (feedCfg (titleFor tag)) feedCtx
 
 feedCfg :: String -> FeedConfiguration
 feedCfg title = FeedConfiguration
@@ -235,6 +230,11 @@ sortMemos = sortByA info where
     let isImportant  = isJust (lookupString "important" metadata)
     date <- getItemUTC defaultTimeLocale identifier
     pure (if isDeprecated then Nothing else Just (Down isImportant, Down date))
+
+-- | Title for a memo listing or feed, with optional tag.
+titleFor :: Maybe String -> String
+titleFor (Just tag) = "barrucadu's memos - tagged '" ++ tag ++ "'"
+titleFor Nothing    = "barrucadu's memos"
 
 
 -------------------------------------------------------------------------------
