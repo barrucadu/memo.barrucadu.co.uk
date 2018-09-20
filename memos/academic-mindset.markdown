@@ -3,7 +3,6 @@ title: The Academic Mindset and Me
 tags: life, research
 date: 2017-12-06
 audience: Narrow
-notice: I was coming out of a bad place when I wrote this.
 ---
 
 As I come towards the end of my Ph.D, it's hard not to look back on it

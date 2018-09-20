@@ -3,7 +3,6 @@ title: 100 Prisoners
 tags: concurrency, dejafu, haskell, programming
 date: 2017-11-01
 audience: Narrow
-notice: There's a more polished version of this in my thesis, go read that instead.
 ---
 
 There's a popular logic puzzle which goes something like this:

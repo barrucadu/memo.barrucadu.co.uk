@@ -4,7 +4,6 @@ tags: finance, hledger, howto
 date: 2017-09-29
 deprecated_by: personal-finance
 audience: Narrow
-notice: You may get something out of this if you're rethinking how you manage your finances.
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I

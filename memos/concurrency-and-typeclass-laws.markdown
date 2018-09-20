@@ -3,7 +3,6 @@ title: Concurrency and Typeclass Laws
 tags: dejafu, haskell, programming, semantics
 date: 2015-11-29
 audience: General
-notice: By calling dejafu from within a property test, we can check laws of classes which do concurrency.
 ---
 
 *Note: This is using (at the time of writing) the latest developmental

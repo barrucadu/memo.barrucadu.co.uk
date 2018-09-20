@@ -1,7 +1,7 @@
 ---
 title: Read Me First
 tags: meta
-date: 2018-09-19
+date: 2018-09-20
 audience: General
 important: true
 ---
@@ -17,9 +17,6 @@ article is weirdly specific and not applicable at all," check the
    documenting something for myself, but which others may find
    interesting
 3. *Personal* memos are written for me
-
-Some memos have an **Attention Conservation Notice**, to give a very
-brief summary of what you can expect.
 
 ---
 

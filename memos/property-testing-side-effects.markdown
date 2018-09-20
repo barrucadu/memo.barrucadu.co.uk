@@ -3,7 +3,6 @@ title: Property-testing Side Effects
 tags: coco, dejafu, haskell, programming
 date: 2017-06-09
 audience: General
-notice: dejafu-0.7.0.0 can check if a concurrent program is equivalent to or a refinement of another, using observational equivalence of side-effects.
 ---
 
 [dejafu-0.7.0.0][] brings with it [a new module][] for
