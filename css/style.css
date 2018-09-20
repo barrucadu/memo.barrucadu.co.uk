@@ -3,31 +3,50 @@ header {
     padding-bottom: 15px;
 }
 
-nav ol {
+nav ol, .links ol {
     margin-left: 0;
     padding-left: 0;
 }
 
-nav li {
+nav li, .links li {
     line-height: 1.3;
     list-style-type: none;
 }
 
-nav li::before {
+nav li::before, .links li::before {
     content: "— ";
     padding-right: 6px;
 }
 
-.attributes th, .attributes td {
-    vertical-align: top;
+.links li {
+    margin-bottom: 2rem;
 }
 
-.attributes th {
-    padding-right: 16px;
-    text-align: right;
-    width: 200px;
+.metadata, .metadata dt, .metadata dd {
+    font-size: 1.1rem;
 }
 
-.deprecated {
-    opacity: 0.5;
+.metadata dl {
+    margin: 0;
+    padding: 0;
+}
+
+.metadata dt, .metadata dd {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.metadata dt {
+    font-weight: bold;
+    margin-right: 0.1em;
+}
+
+.metadata dt::before {
+  content: "";
+  display: block;
+}
+
+.metadata dt::after {
+    content: ":";
 }

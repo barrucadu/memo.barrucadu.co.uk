@@ -1,11 +1,13 @@
 <section>
   <h1>$title$</h1>
 
-  $for(memos)$
-  <section class="$if(important)$important$endif$ $if(deprecated_by)$deprecated$endif$">
-    <h2><a href="$url$">$title$</a></h2>
+  <ol class="links">
+    $for(memos)$
+    <li>
+      <a href="$url$">$title$</a>
 
-    $partial("templates/metadata.html")$
-  </section>
-  $endfor$
+      $partial("templates/metadata.html")$
+    </li>
+    $endfor$
+  </ol>
 </section>
