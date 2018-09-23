@@ -87,7 +87,8 @@ memoList tag tags pat = do
   route idRoute
   compile $ do
     entries <- sortMemos =<< loadAll pat
-    let ctx = constField "title" (titleFor tag) <>
+    let ctx = maybe id (\t -> (constField "tag" t <>)) tag $
+              constField "title" (titleFor tag) <>
               listField "memos" (memoCtx [] tags) (return entries) <>
               defaultContext
     makeItem ""

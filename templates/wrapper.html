@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="/code.css" type="text/css">
     <link rel="stylesheet" href="/style.css" type="text/css">
 
-    <link rel="alternate" type="application/atom+xml" title="barrucadu :: All Memos" href="/atom.xml" />
+    $if(tag)$
+    <link rel="alternate" type="application/atom+xml" title="barrucadu's memos - tagged '$tag$'" href="/tag/$tag$.xml" />
+    $endif$
+    <link rel="alternate" type="application/atom+xml" title="barrucadu's memos" href="/atom.xml" />
   </head>
 
   <body>
