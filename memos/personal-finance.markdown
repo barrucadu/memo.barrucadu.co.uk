@@ -1,6 +1,6 @@
 ---
 title: Personal Finance
-tags: finance, hledger, howto
+tags: finance, hledger, howto, systems
 date: 2018-09-24
 audience: Narrow
 ---
