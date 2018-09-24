@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto
-date: 2018-08-06
+date: 2018-09-24
 audience: Narrow
 ---
 
@@ -424,7 +424,7 @@ money has been allocated and spent:
 2018-01-06 * Morrisons
     expenses:food                                          £2.43
     hand:budgeted
-2018-01-06 ! Budget spend
+2018-01-06 ! Bookkeeping
     month:food                                            -£2.43
     current:float
 ```
@@ -440,7 +440,7 @@ exchange rate when removing the money from the budget category:
 2018-05-08 * FamilyMart
     expenses:food                                            548 JPY
     hand:budgeted
-2018-05-08 ! Budget spend
+2018-05-08 ! Bookkeeping
     month:food                                            -£4.60 ; -548 JPY
     current:float
 ```
@@ -461,7 +461,7 @@ category:
 2018-07-27 * Morrisons
     expenses:food                                          £3.50
     liabilities:creditcard:amex
-2018-07-27 ! Budget spend
+2018-07-27 ! Bookkeeping
     current:pending:amex                                   £3.50
     month:food
 ```
