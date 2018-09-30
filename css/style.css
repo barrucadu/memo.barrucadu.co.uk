@@ -51,6 +51,10 @@ nav li::before, .links li::before {
     content: ":";
 }
 
+figure {
+    max-width: 100% !important;
+}
+
 figcaption {
     max-width: 100% !important;
 }
