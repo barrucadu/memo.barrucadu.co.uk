@@ -1,8 +1,25 @@
 ---
 title: C is not Turing-complete
 tags: c, programming, semantics
-date: 2017-02-01
+date: 2018-10-02
 audience: General
+---
+
+**Since this has been posted to lobste.rs and a lot of people seem to
+be missing the point, here's the tl;dr:**
+
+1. The C standard bakes in enough details about pointers such that the
+   amount of memory a C program can access (even on a hypothetical
+   infinite-memory machine) is bounded and statically known.  Access
+   to an unbounded amount of memory is necessary (but not sufficient)
+   for Turing completeness.  Therefore C is not Turing complete.
+
+2. This is an argument about the *specification* of C, not any
+   particular *implementation*.  The fact that no real machine has
+   unbounded memory is totally irrelevant.
+
+3. This is not a criticism of C.
+
 ---
 
 A friend told me that C isn't actually Turing-complete due to the
