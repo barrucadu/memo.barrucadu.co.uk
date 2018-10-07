@@ -1,6 +1,14 @@
 <section>
   <h1>$title$</h1>
 
+  <p>
+    Atom feed
+    $if(tag)$
+    <a href="/tag/$tag$.xml">for the '$tag$' tag</a> or
+    $endif$
+    <a href="/atom.xml">for all memos</a>.
+  </p>
+
   <ol class="links">
     $for(memos)$
     <li>
