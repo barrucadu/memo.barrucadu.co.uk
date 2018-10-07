@@ -51,10 +51,10 @@ nav li::before, .links li::before {
     content: ":";
 }
 
-figure {
+figure, figcaption {
     max-width: 100% !important;
 }
 
-figcaption {
-    max-width: 100% !important;
+li blockquote p {
+    width: 100% !important;
 }
