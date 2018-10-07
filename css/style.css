@@ -39,7 +39,6 @@ nav li::before, .links li::before {
 
 .metadata dt {
     font-weight: bold;
-    margin-right: 0.1em;
 }
 
 .metadata dt::before {
