@@ -54,6 +54,13 @@ figure, figcaption {
     max-width: 100% !important;
 }
 
-li blockquote p {
+li blockquote p, li pre {
     width: 100% !important;
+}
+
+pre.code {
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
 }
