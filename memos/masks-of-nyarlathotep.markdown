@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2018-11-04
+date: 2018-11-11
 audience: Narrow
 ---
 
@@ -237,3 +237,160 @@ on one of your pack animals, whose head has been smashed in with a
 crowbar.
 
 What do you do?
+
+
+Peru session 3, 2018-11-11
+--------------------------
+
+Dr. Crane examined the body of the man who attacked your pack animals,
+and the wound on the animal, and determined that it matched the wound
+on Rizo's body back in Lima.  He judged that it was probably a similar
+creature which had attacked her.  Larkin appeared shocked, asking
+"what was that man?", but you realised he was lying: he seemed
+surprised that the attack had occurred, but not by the man's
+existence.  You buried the man and the animal to avoid attracting
+scavenging animals, and returned to bed.
+
+The second day and night of your journey passed uneventfully.
+
+In the third afternoon, you saw two people heading in the same
+direction as you, half a mile ahead.  Larkin suggested they may be
+local farmers.  You failed to catch up with them.
+
+You arrived at the pyramid, looking down upon it from half-way up a
+mountain.  The plateau which held it had no vegetation, just dirt,
+rock, a pit next to the south wall, and the part-buried pyramid with a
+crack running along the top.  Two figures were below: you could see
+one standing next to the pyramid, and one climbing the side.  The one
+climbing the side crouched over the crack for a few minutes, then both
+went to the pit next to the south wall and climbed down.
+
+The air swarmed with flies, which Prof. Musgrave identified as
+bloatflies, which feed on carrion.
+
+You descended to the pyramid and had a look around.  You found:
+
+* The pit the people had climbed down into, which was full of
+  emaciated and shrunken bodies in various states of decay; the air
+  full of flies and the stench of death.
+* The crack atop the pyramid, about 5cm wide, which did not offer a
+  clear view.  It also stank of corruption and swarmed with flies.
+* A couple of shafts covered with stone slabs, which appeared to
+  descend to some underground tunnels.
+
+You decided to wade through the bodies, following the two people, to
+reduce the risk of being caught unawares if you used a different
+entrance.  Larkin feigned his illness acting up to avoid going in, but
+when confronted confessed that he suffered claustrophobia, and didn't
+realise just what it would be like at the pyramid.  Jason Steele
+stayed with Larkin while the rest of you descended.
+
+Wandering the narrow tunnels, you found a room full of shiny trinkets
+from all ages: coins, jewellery, watches, cutlery, and so on; gathered
+and piled up with no apparent organisation.  You also saw the two
+people from earlier, fast asleep on filthy mats on the floor.  They
+were thin, unnaturally so, but didn't appear to be suffering for it.
+
+You tried to bind the two people, a man and a woman, without waking
+them up.  You succeeded with the man, but the woman woke up, but you
+managed to subdue her.  You tried questioning her, but got no answer.
+You tried giving her food, which she ate, but not with the reckless
+abandon you would expect from a victim of starvation.  Leaving them
+behind, you continued to explore the tunnels.
+
+You arrived at the buried walls of the pyramid, which had a
+familiar-looking golden band embedded into them.  You followed the
+band, and reached a point where it had been torn away.  There was a
+crack along the wall from the floor to the ceiling, and a hole in the
+floor which had filled with a rank-smelling white liquid.  Lady
+Ashdown saw rippling in the pool, as if something were moving beneath
+the surface.
+
+Dr. Crane lowered a sample container into the pool, and the ripples
+surged towards it.  He withdrew the container and examined the
+contents, but without much insight.  He tried setting it alight, and
+it burst into flames with such a violence he started and dropped the
+flaming container into the pool, setting the whole thing alight.
+Black smoke billowed into the tunnel.  Jackson Elias dropped to the
+ground, and to fresh air, dragging Wilhelmina with him; but the rest
+of you inhaled the smoke and collapsed unconscious.
+
+On the surface, Jason Steele saw the smoke emerging, and tried to move
+one of the stone slabs covering the shafts, to let the smoke escape
+more rapidly.  As he was struggling with that, he heard footsteps from
+behind.  He turned, and it was Larkin, but not Larkin as you knew him.
+This Larkin stood straight and tall, with no sign of his usual
+illness, and his eyes were totally black.  Jason Steele felt his mind
+go blank as Larkin said "you will go into the pyramid and destroy the
+golden seal."
+
+Jason climbed down into the tunnels, touching the golden band.  He
+briefly fought to overcome this compulsion upon him, but could not.
+He struck the band with a crowbar, creating a new crack.  A brief
+earthquake shook the ground.
+
+Lady Ashdown, Dr. Crane, and Prof. Musgrave regained consciousness
+just in time to see Jason Steele strike the band and feel the ground
+shake.  "What have you done," Prof. Musgrave cried, and Jason Steele
+babbled for a few moments about Larkin.
+
+You decided to try repairing the golden band with the gold in the
+other room, as the band was set into the wall of the pyramid, so it
+was clear where gold needed to be.  Prof. Musgrave hammered the golden
+mirror he found in Luis de Mendoza's room into the cavity in the wall.
+You all then turned to go fetch more gold to finish the repair, and
+were confronted by Luis de Mendoza, seemingly back from the dead.
+
+"Destroy the seal," he said, the first words you had heard him speak.
+He had a gun aimed at you.  When you didn't cooperate, he shot
+Prof. Musgrave, who failed to dodge, and lay on the ground bleeding
+heavily.  Jason Steele shot Mendoza twice with his shotgun, inflicting
+a terrible wound, and knocking him back onto the ground, apparently
+dead once more.  The horror of what you all just witnessed began to
+sink in: a dead man came back to kill you.  Dr. Crane picked the
+bullet out of Prof. Musgrave and bandaged him up.  Prof. Musgrave
+gained a nascent phobia of bullets.
+
+You quickly fetched more gold and continued the repair, but nothing
+seemed to happen.  Jason Steele decided to pick up Mendoza's body and
+see if the seal burned it, like the fragment of seal in the university
+storage room did.  But as he picked up Mendoza, the body crumbled away
+into dust.  You dashed back to the room with the two people in, and
+saw that the man had also turned to dust.  The woman was still alive,
+but looked incredibly feeble, and seemed to worsen before your very
+eyes.  She seemed confused and afraid, asking what was happening.
+Prof. Musgrave offered her some food, but as she reached out her arm
+to take it, she fell back dead.
+
+Jason Steele and Prof. Musgrave came out onto the surface to find
+Larkin sitting down, looking very feeble, with no sign of the power
+which had filled him before.  He told you that he had come to this
+pyramid once before, with some locals, and that he didn't really
+remember what happened.  He found himself back in Lima, with a
+compulsion to find some people to take to the pyramid and destroy the
+golden seal.  He couldn't do it himself, it repelled the power within
+him.  This is where you, and his expedition, came in.
+
+You then lowered a rope down one of the shafts for the rest of you to
+climb out.  Jackson Elias carried a bag full of golden coins, and said
+sheepishly "well, this is why we came, right?"
+
+Then we had a time skip to everyone parting ways at the port in Lima.
+
+None of you seemed particularly sad to be leaving Peru, and a few of
+you said you'd hope to never cross paths with Larkin again.  Larkin
+said that he was just glad everyone survived this expedition, and that
+he hoped nothing like this would ever happen again.  Jason Steele and
+Dr. Crane realised Larkin was lying; but the point of no return had
+been passed, and they couldn't turn back to confront him.
+
+---
+
+This is the end of this chapter.  Bonus sanity points are:
+
+* `+1d6` for killing Luis de Mendoza.
+* `+1d8` for restoring the ward on the pyramid.
+
+The next chapter is after a four-year time skip.  We'll start with a
+brief character-tweaking phase where I'll award some bonus skill
+points.
