@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2018-11-11
+date: 2018-11-24
 audience: Narrow
 ---
 
@@ -394,3 +394,192 @@ This is the end of this chapter.  Bonus sanity points are:
 The next chapter is after a four-year time skip.  We'll start with a
 brief character-tweaking phase where I'll award some bonus skill
 points.
+
+
+America session 1, 2018-11-24
+-----------------------------
+
+It's 1925, four years after the events of Peru, and you have all
+received a message from Jackson Elias saying that he's uncovered new
+information about the Carlyle Expedition, and needed a reliable team
+of investigators to help him.
+
+The Carlyle Expedition of 1919 was an archaeological expedition to
+Egypt funded by wealthy playboy Roger Carlyle.  After Egypt, the
+expedition went to Nairobi, to unwind on a safari.  That was the last
+time the expedition members were seen alive.  Two months after their
+disappearance, Erica Carlyle, the sister of Roger Carlyle, arrived in
+Nairobi with an expedition of her own: to find her brother.  The
+remains of the Carlyle Expedition were found, massacred by tribesmen,
+who were executed for their crimes.  This was all over the newspapers
+of the time, and it was thought to be a settled issue.  Jackson Elias
+finding new information is quite a surprise.
+
+On the morning of the 15th of January, the day Jackson Elias asked to
+see you all, you all made your way to Prospero House, Jackson's
+publisher, to ask about his whereabouts, as his message was
+nonspecific.  There you were reunited with Wilhelmina, who has moved
+to New York and is working there as a secretary.
+
+You met Jonah Kensington, the owner of Prospero House and Jackson's
+friend, who told you that Jackson is staying in room 410 of the Hotel
+Chelsea.  You made your way to the Hotel Chelsea and were directed to
+room 410 by a man at the reception desk.
+
+Upon arriving at room 410, you found the door locked, and no answer to
+your knocking.  You noticed some workmen on the fire escape outside,
+and asked if they'd seen a man matching Jackson's description leave,
+but they irritably brushed you off and returned to work.  Wilhelmina
+investigated the possibility of climbing down to the fire escape
+outside Jackoson's room from the floor above.  Jason Steele picked the
+lock.
+
+Inside room 410 you found your good friend Jackson Elias, sprawled
+over a large chair, eviscerated and with a symbol carved into his
+forehead.  Prof. Musgrave screamed, and ran back down to the
+reception.  The window was open, and the fire escape visible beyond.
+Items were scattered around the room.  Dr. Crane determined that the
+murder had been done recently, in the last few hours.
+
+The room contained a telephone, and you called the police.  The
+receptionist downstairs also called the police.  While waiting for the
+police to arrive, you looked around, and found a few items:
+
+- A business card for Edward Gavigan, director of the London-based
+  Penhew Foundation.
+- A business card for Emerson Imports, with the name "Silas N'Kwane"
+  written on the back in Jackson's hand.
+- A handbill for a public lecture at New York University entitled "The
+  Cult of Darkness in Polynesia & The Southwest Pacific", by
+  Prof. Anthony Cowley of the University of Sydney, currently a
+  visiting professor at Miskatonic University.
+
+Jason Steele got in touch with his friend Chester Sullivan, an agency
+detective.  He arrived at around the same time as two police officers,
+who treated him with a professional respect and let him perform his
+investigation in tandem with their own.
+
+One of the officers made a phone call to Lt. Poole, saying that the
+murder was the same as the ones in the Hilton Adams case of last year.
+About 45 minutes later, Lt. Poole arrived, and sent Chester Sullivan
+away.  Lt. Poole asked you about your connection to Jackson Elias.  He
+was satisfied by your answers, and when you asked about the Hilton
+Adams case held nothing back.
+
+A string of similar murders, where the victims all had the same symbol
+carved into their forehead, had occurred last year.  Lt. Poole was
+looking into the case, but had no leads.  There was no connection
+between the victims: rich and poor, black and white.  Captain Robson
+insisted that the case be transferred to him, which it was, and he
+quickly closed the case when he found Hilton Adams at the scene of one
+such murder.  Hilton Adams was convicted with only circumstantial
+evidence, and Lt. Poole suspects that Captain Robson had been bribed
+to shut down the case.  Given the diversity of victims, Lt. Poole
+suspects that they are all people who learned too much about some
+secret.
+
+Lt. Poole gave you his contact details, and said he would be in touch
+if necessary.  You then left the scene.  Wilhelmina decided to go back
+to Prospero House to inform Jonah Kensington of the death; the rest of
+you decided to go to Emerson Imports to ask about Silas N'Kwane.
+
+Jonah was shocked by the revelation, and immediately contacted Carlton
+Ramsey, Jackson's lawyer, to arrange an urgent meeting.  Wilhelmina
+tagged along.
+
+By the time Jonah and Wilhelmina arrived at Carlton Ramsey's office,
+he had been informed by the police of Jackson's death.  After
+discussing the arrangements for the funeral the next day, Carlton
+turned to Wilhelmina and asked if she and Jackson's other friends
+could see him after the funeral for the reading of the will.
+Wilhelmina agreed, and asked if they knew anything about Jackson's
+recent work; they did, but thought it best to wait until tomorrow.
+Wilhelmina also asked about Prof. Anthony Cowles, but they didn't know
+the man.
+
+Wilhelmina then headed to New York University to enquire about the
+lecture.
+
+At Emerson Imports you met Arthur Emerson, who made a sour expression
+when you brought up Silas N'Kwane.  He said that Silas didn't work for
+him, that he was a customer who used Emerson Imports to import African
+trinkets for his shop.  Something about N'Kwane made Emerson's skin
+crawl; he doesn't like the man.  He gave you the address of Ju-Ju
+House, N'Kwane's shop.
+
+Ju-Ju House is a very small shop, full of African trinkets, souvenirs,
+display weapons, and so on.  The aged proprietor, Silas N'Kwane, said
+he didn't know a Jackson Elias.  You determined that he wasn't being
+entirely truthful, but he persisted in his claim.  He suggested that
+maybe Jackson Elias had got his name from Mr. Emerson, but had never
+come to the shop.  To get on his good side, Prof. Musgrave bought a
+wooden animal, which seemed to improve Silas' opinion of you.
+
+You then all headed to New York University as well.
+
+At the university, you all reunited at the reception.  The lecture was
+last week, and Prof. Cowles had since returned to Arkham.  You then
+went to the anthropology department, on the hunch that if anyone
+attended a talk about cults it was probably them, and Jason Steele
+stopped people until he found a timid graduate student willing to
+summarise the lecture.
+
+The lecture was about the Cult of the Sand Bat, once widespread
+amongst Australian Aborigines.  This cult worshipped a being known as
+the Sand Bat, or the Father of All Bats, and partook in human
+sacrifice.  They believed that by sacrificing, they would become
+worthy for their god, who would appear to the world and conquer it,
+turning it into a paradise for the cult.  There was also a legend that
+the Sand Bat had a battle with the Rainbow Snake, another aboriginal
+god---the deification of water and life---who tricked the Sand Bat,
+and sealed it and all his clan in a watery place from which the Sand
+Bat cannot escape.
+
+The following morning you saw an article in the New York Times about
+the similarity of Jackson Elias' murder and the crimes for which
+Hilton Adams had been arrested, who was at this time on death row.
+The author was Rebecca Shosenburg.
+
+In the afternoon you went to the funeral.  It was a brief,
+non-denominational, and poorly attended ceremony.  Only you, the
+priest, Carlton Ramsey, his niece, and Jonah Kensington were there.
+Outside the cemetery, some reporters watched.  After the ceremony
+concluded, you left with Carlton to go to his office.  As you walked
+by the reporters, one pushed to the front and introduced herself as
+Rebecca Shosenburg, asking if you had any opinions on the similarity
+of this murder to the Hilton Adams case.  You brushed her off and
+continued to the office.
+
+At the office, Carlton offered you some bootleg bourbon before the
+reading of the will.  He said that Jackson had been by the day before
+his death to update his will.  Jackson hadn't said anything, but
+Carlton believed that Jackson was afraid, and wanted to prepare for
+the worst.
+
+The key points of the will are: that Elias has given full power of
+attorney to Carlton, with complete authority to liquidate his assets;
+that Carlton is to use these assets to create and manage a fund to
+continue Jackson's investigation; and that you, named in the will, are
+the preferred people to carry on this investigation.  Carlton is also
+to act as a central point of contact, and a recruiter if people with
+specialised skills, or new investigators, are required.
+
+Jackson left a note, to be read in the event of his death, which
+encouraged you to continue his investigation and find his killers.
+Jackson had also left some of his papers:
+
+- A letter, dated 1919 and sent from Cairo, from a M. Warren Besart to
+  Roger Carlyle.
+- A blurry photograph showing some boats in the foreground and
+  buildings in the background.
+- A letter to Jackson Elias from Miriam Atwright at the Harvard
+  University Library.
+
+You all agreed to join the quest and continue in Jackson's footsteps.
+
+---
+
+It is now the morning of the 17th of January, two days after the
+murder of Jackson Elias.
+
+You have a few leads.  What are you up to?
