@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2018-11-24
+date: 2018-12-08
 audience: Narrow
 ---
 
@@ -582,4 +582,6 @@ You all agreed to join the quest and continue in Jackson's footsteps.
 It is now the morning of the 17th of January, two days after the
 murder of Jackson Elias.
 
-You have a few leads.  What are you up to?
+You have a few leads.  Also, Carlton Ramsey mentioned that Jonah
+Kensington has some of Jackson's notes, which he might be willing to
+share with you.  What are you up to?
