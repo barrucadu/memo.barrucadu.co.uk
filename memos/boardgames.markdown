@@ -1,7 +1,7 @@
 ---
 title: Boardgames
 tags: possessions
-date: 2018-05-25
+date: 2018-12-09
 audience: Personal
 ---
 
@@ -12,6 +12,8 @@ Arkham Horror                         1    2    3    4    5    6    7    8
 --- *The King in Yellow*              1    2    3    4    5    6    7    8
 Betrayal at House on the Hill                   3    4    5
 --- *Widow's Walk*                              3    4    5
+Betrayal Legacy                                 3    4    5
+Boss Monster                               2    3    4
 Carcassonne                                2    3    4    5
 --- *Bridges, Castles, and Bazaars*        2    3    4    5    6
 Chess                                      2
