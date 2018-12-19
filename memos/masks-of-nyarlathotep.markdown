@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2018-12-08
+date: 2018-12-19
 audience: Narrow
 ---
 
@@ -585,3 +585,123 @@ murder of Jackson Elias.
 You have a few leads.  Also, Carlton Ramsey mentioned that Jonah
 Kensington has some of Jackson's notes, which he might be willing to
 share with you.  What are you up to?
+
+
+America session 2, 2018-12-08
+-----------------------------
+
+You visited Prospero House to ask Jonah Kensington for Jackson Elias'
+book notes.  There was a letter, sent from Nairobi, saying that while
+the authorities denied the cult aspect of the Carlyle massacre, the
+locals thought differently.  With the letter was a bundle of notes.
+The notes revealed that the bodies had been found in an area shunned
+by the local tribes, who said it was cursed by the God of the Black
+Wind, revered by the Cult of the Bloody Tongue.  The bodies had been
+torn apart and, contrary to the official report, only included the
+Kenyan bearers from the Carlyle party.
+
+Jason Steele noticed that Jonah held back some papers, and persuaded
+him to share them.  More notes by Jackson, but in messy handwriting
+and very rambling.  These notes talked about dreams---"dreams like
+Carlyle's?"---and say that "many names, many forms" are all working
+towards one end, to "open the gate".  The notes also say "the books
+are in Carlyle's safe..."
+
+You then used Jonah's office phone to make some calls.  Firstly you
+rang Miskatonic University, hoping to talk to Prof. Cowles about his
+recent lecture.  He was unavailable, but you arranged for the
+receptionist to contact Carlton Ramsey when she knew when Prof. Cowles
+would be available to talk.  You also rang Harvard University Library
+to talk with Miriam Atwright, about the book Jackson was looking for.
+The book disappeared from the library, leaving behind only a terrible
+smell of decay, and the police haven't found any leads yet.
+
+You then decided to investigate the principals of the Carlyle
+Expedition.
+
+Dr. Crane went to the archives of the New York City Medical Affairs
+Board, and managed to talk his way by the security guard.  He found
+Dr. Robert Huston's notes about Roger Carlyle.  The notes say that
+Roger was referred by his sister, Erica, to discuss his dreams.
+
+Roger dreams of being called by a voice through the mist.  He follows
+the voice, and finds a tall dark man with an inverted ankh blazing
+upon his forehead.  The man reveals his palms, Roger's face is in one,
+a misshapen pyramid is in the other.  The hands are brought together,
+and Roger finds himself propelled into space.  He sees an array of
+monstrous creatures, all circling a ball of energy which Roger
+recognises as another aspect of the calling man.  Roger is drawn into
+the ball, and a misshapen triangle appears in the void.  The creatures
+rush into the triangle as the voice says "and become with me a god"
+and Roger awakes.  Roger has no waking interest in anything Egyptian.
+He also does not consider this a nightmare, and that he feels it is a
+genuine calling.
+
+Notes about later sessions are briefer.  Roger talks about someone
+called M'Weru, who he calls "my priestess" and devotes himself to.  In
+the final session, Huston says "if I do not go, C. threatens
+exposure."
+
+You decided to pay a visit to the Carlyle mansion, which lies to the
+north of New York City.  You parked the car out of sight and peeked
+in: a tall three-storey building with acres of surrounding grounds,
+and a tall fence with a single guarded entrance.  You decided not to
+try to sneak in and rob the safe.
+
+The next morning you visited Hilton Adams, arrested for the previous
+murders, in Sing Sing Prison.  You got half an hour to speak with him.
+
+Hilton Adams was a community leader of sorts, who grew concerned with
+the murders and decided to take matters into his own hands.  He found
+that the murders fanned out in a rough circle for about a mile west of
+the Harlem River; but none within a two block radius of West 137th
+Street, between Lenox Avenue and the Harlem
+River[^america3_1]---except the one which had him arrested.  A
+Dr. Mordecai Lemming had been quoted in the papers saying the murders
+seemed similar to those conducted by the Cult of the Bloody Tongue, an
+African death cult.  As Ju-Ju House is the only thing African in the
+vicinity, Hilton staked it out.  One day he managed to follow a
+muscular, shaven, African man in his late 30s from Ju-Ju House to a
+coffee shop on 139th Street and Sixth Avenue.  Nobody seemed keen to
+talk about this man, just saying that he was Mukunga M'Dari, and he
+was bad news.  Shortly after that, Hilton's knife was found at the
+scene of a murder, on a night Hilton had gone out patrolling.  This
+caused his arrest.  But that night Hilton says he went out with his
+gun.
+
+[^america3_1]: This is roughly the same location as the Ju-Ju House,
+  which you previously visited.  Ju-Ju House is at 1 Ransom Court,
+  down an alley off West 137th Street, east of Lenox Avenue.
+
+When you returned from Sing Sing, you managed to get a phone call with
+Prof. Cowles, who gave you a full summary of his lecture.  The
+graduate student you talked to previously covered most of it,
+Prof. Cowles additionally described some photos from his slides: each
+of sweating men standing beside enormous blocks of stone, pitted and
+eroded, but clearly formed for architectural purposes.  Cowles says
+that the discovered, a Arthur MacWhirr of Port Hedland, Australia,
+kept a diary in which he recorded several attacks on the party by
+Aboriginals, and records deaths to victims from hundreds of small
+punctures, reminiscent of the bat cult.
+
+You then wanted to learn some more about Erica Carlyle, so you went to
+the New York Public Library to look through its newspaper archives.
+Outside, you bought today's newspaper, and found mention that the
+Carlyle munitions business had become the biggest in the state, due to
+the careful management of Erica Carlyle and her lawyer, Bradley Grey.
+Grey is a partner in one of the top law firms in New York, but was
+described as almost a personal assistant to Erica.
+
+After debating a few ways of getting in touch with Erica Carlyle and
+being invited into the mansion, you decided to send her a letter
+saying that you were reopening the investigation into her brother
+Roger and his ill-fated expedition.
+
+You then went into the newspaper archives to try to find out some
+information about Hypatia Masters, as there seemed no obvious reason
+why a socialite would go on the expedition.  You found a mention, some
+months before the expedition, that she and Roger had begun dating.
+
+---
+
+It is now the 22nd of January, and you have a reply to your letter.
