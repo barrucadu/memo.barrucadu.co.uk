@@ -64,3 +64,7 @@ pre.code {
     border: 1px solid #ddd;
     padding: 1em;
 }
+
+th, td {
+    font-size: 1.4rem;
+}
