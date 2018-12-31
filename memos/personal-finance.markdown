@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 tags: finance, hledger, howto, systems
-date: 2018-09-24
+date: 2018-12-31
 audience: Narrow
 ---
 
@@ -90,27 +90,24 @@ the regular accounts, which are mostly self-explanatory:
             - `current`
                 - `float`<br><em>Cash which can be withdrawn</em>
                 - `goal`<br><em>Subaccounts for specific future expenses, like renewing my passport; money added when I am paid</em>
-                - `month`<br><em>Living expenses; money added at the start of the month</em>
-                    - `food`
-                    - `fun`
-                    - `other`
                 - `overdraft`<br><em>My available overdraft</em>
                 - `pending`<br><em>Subaccounts for money put aside for transactions which have not cleared yet</em>
                 - `saved`<br><em>Savings; money added when I am paid</em>
-                    - `clothing`
+                    - `discretionary`
                     - `gift`
+                    - `graze`<br><em>Subscription to <a href="https://www.graze.com/uk/">Graze</a></em>
                     - `health`
                     - `household`
                     - `insurance`
                     - `invest`
-                    - `monthly`
+                    - `food`
                     - `phone`
                     - `rent`
-                    - `tech`
                     - `travel`
                     - `utilities`
         - `starling`
             - `float`<br><em>Cash which can be withdrawn</em>
+            - `patreon`<br><em>Savings for Patreon subscriptions (charged in USD)</em>
             - `web`<br><em>Savings for AWS, domain names, and web hosting (all charged in foreign currencies)</em>
     - `investments`
         - `cavendish`
@@ -122,12 +119,14 @@ the regular accounts, which are mostly self-explanatory:
         - `deposit`<br><em>The deposit on my flat</em>
 - `equity`
 - `expenses`
+    - `adjustment`<br><em>See <a href="#balance-correction">Balance Correction</a></em>
     - `books`
     - `clothing`
     - `fees`
-        - `cavendish`<br><em>My investment broker</em>
-        - `currency`
+        - `amex`
+        - `cavendish`
         - `customs`
+        - `fundingcircle`
     - `food`
     - `fun`
     - `gift`
@@ -150,7 +149,10 @@ the regular accounts, which are mostly self-explanatory:
         - `water`
     - `web`
 - `income`
+    - `adjustment`<br><em>See <a href="#balance-correction">Balance Correction</a></em>
+    - `amex`<br><em>To track cashback offers and similar</em>
     - `donation`
+    - `gift`
     - `interest`
     - `job`
 - `liabilities`
@@ -185,7 +187,8 @@ Money (and other commodities) is only stored in leaf accounts.
 
 ## Financial Institutions
 
-I have two bank accounts, two investment accounts, and a credit card.
+I have two bank accounts, three investment accounts, and a credit
+card.
 
 For bank accounts I use:
 
@@ -211,8 +214,8 @@ For investment accounts I use:
 - **Funding Circle**, who provide my innovative finance ISA.
 
 For a credit card I use an **American Express** cashback card.  There
-is a small annual fee (£25), but I predict (based on my typical
-spending patterns) that the cashback will more than cover that.
+is a small annual fee (£25), but by using it for all the transactions
+I can, the cashback more than covers that.
 
 Most of the time I am dealing with American Express and Santander,
 only rarely do I need to touch the others.
@@ -236,15 +239,13 @@ traditional meaning of these is "pending" and "cleared".
 
 I use `!` slightly differently.  I use it for transactions which are
 just an artefact of the way I track my finances, which don't involve
-any balance changes to a real-world account.  For example, setting up
-my monthly budget:
+any balance changes to a real-world account.  For example, moving
+money between different types of savings:
 
 ```
-2018-06-01 ! Budget
-    month:food                                           £250.00
-    month:fun                                             £50.00
-    month:other                                           £25.00
-    saved:monthly                                       -£325.00
+2018-01-26 ! Allocation
+    saved:travel                                           £1.30
+    saved:monthly
 ```
 
 I use `*` as normal, although I usually only consider cash
@@ -514,61 +515,58 @@ Firstly, my monthly expenses:
 
 ```
 ~ every 1st day of month
-    month:food                                           £250.00
-    month:fun                                             £50.00
-    month:other                                           £25.00
-    saved:monthly
-~ every 1st day of month
-    expenses:web                                          £40.00
-    saved:web
-
-~ every 1st day of month from 2018-03
-    expenses:utilities                                    £75.00
-    saved:utilities
-~ every 15th day of month from 2018-03
-    expenses:rent                                       £1300.00
-    expenses:tax:council                                  £82.00
-    saved:rent
-~ every 16th day of month from 2018-03
-    expenses:insurance                                    £15.00
-    saved:insurance
+    (assets:cash:starling:patreon)                        -£3.00 ; HPPodcraft
+    (assets:cash:starling:web)                           -£45.00 ; Linode / OVH / Moniker (estimate)
+    (saved:food)                                        -£185.00 ; Monthly food
+    (saved:invest)                                      -£150.00 ; Cavendish direct debit
+    (saved:rent)                                         -£82.00 ; Council tax
+~ every 15th day of month
+    (saved:rent)                                       -£1300.00 ; Haart
+~ every 16th day of month
+    (saved:insurance)                                    -£11.49 ; Homelet
+~ every 28th day of month
+    (saved:graze)                                        -£15.16 ; Graze
+    (saved:phone)                                        -£13.00 ; EE
+    (saved:utilities)                                    -£25.00 ; TalkTalk
+    (saved:utilities)                                    -£50.00 ; EDF Energy
 ```
-
-This is based on experience.  It's in two chunks because I moved to
-London in March.
 
 Now, my monthly income:
 
 ```
-~ every 30th day of month from 2018-04
-    saved:clothing                                        £13.00
-    saved:gift                                            £20.00
-    saved:health                                           £7.00
-    saved:household                                       £15.00
-    saved:insurance                                       £15.00
-    saved:invest                                         £116.00
-    saved:monthly                                        £380.46
-    saved:phone                                           £13.00
-    saved:rent                                          £1700.00
-    saved:tech                                            £13.00
-    saved:travel                                          £25.00
-    saved:utilities                                      £100.00
-    saved:web                                             £60.00
-    expenses:tax:income                                  £848.20
-    expenses:tax:ni                                      £382.61
-    liabilities:loan:slc                                 £100.00
-    assets:pension:civilservice                          £219.51
-    income:job                                         -£4027.78
-    assets:pension:civilservice                          £890.14
-    income:job                                          -£890.14
+~ every 30th day of month
+    current:pending:starling                              £45.00 ; top up web
+    current:pending:starling                               £3.00 ; top up patreon
+    saved:discretionary                                  £114.34 ;=  £500.00
+    saved:food                                           £200.00 ;= £1000.00
+    saved:gift                                             £0.00 ;=  £150.00
+    saved:graze                                           £15.16 ;=   £50.00
+    saved:health                                           £0.00 ;=   £50.00
+    saved:household                                       £40.00 ;=  £300.00
+    saved:insurance                                       £11.49 ;=   £50.00
+    saved:invest                                         £150.00
+    saved:phone                                           £13.00 ;=   £50.00
+    saved:rent                                          £1900.00 ;= £4200.00
+    saved:tea                                             £15.00 ;=   £30.00
+    saved:travel                                          £15.00 ;=   £50.00
+    saved:utilities                                       £75.00 ;=  £250.00
+    expenses:tax:income                                  £807.60
+    expenses:tax:ni                                      £387.48
+    liabilities:loan:slc                                 £246.00
+    assets:pension:civilservice                          £232.76
+    income:job                                         -£4270.83
+    assets:pension:civilservice                          £943.85
+    income:job                                          -£943.85
 ```
 
-This is based on my pay in April.  The month-to-month allocation of
-cash to `saved:...` categories will vary a little.
+The month-to-month allocation of cash to `saved:...` categories will
+vary a little.
 
-Notice how I'm only spending £325 of `saved:monthly` a month, but I'm
-adding £380 to it.  I do this with all the savings accounts, gradually
-building up a buffer so I will not be living paycheck to paycheck.
+Notice how I'm only spending £1382 of `saved:rent` a month, but I'm
+adding £1900 to it.  This is to build up a buffer so I'm not living
+pay day to pay day.  The goal is to have three months expenses in
+every category saved up; once I achieve that with rent, the excess
+money will be allocated elsewhere.
 
 ### Forecasting
 
@@ -607,7 +605,7 @@ bookkeeping I do occasionally, to keep my records easy to process.
 
 ### Once every so often
 
-Every so often (once or twice a week) I check my various financial
+Every so often (every week or two) I check my various financial
 statements and reconcile transactions in the journal:
 
 1. For every transaction in the statement, find the corresponding
@@ -619,29 +617,15 @@ statements and reconcile transactions in the journal:
       next few days.
     - If all transactions have cleared but the balance is not what is
       expected, either figure out what happened or add transactions to
-      adjust (see "balance correction").
+      adjust (see [Balance Correction](#balance-correction)).
 2. Check the balance in my wallet and mark all `hand` transactions.
     - If the wallet balance is below the `hand` balance, add a
-      transaction to adjust (see "balance correction").
-
-### End of Month
-
-At the end of a month I reconcile the transactions of the
-month-just-ended and set up the budget for the month-just-started:
-
-```
-2018-06-01 ! Budget
-    month:food                                           £250.00
-    month:fun                                             £50.00
-    month:other                                           £25.00
-    saved:monthly                                       -£325.00
-```
-
-This is just the regular monthly budget, but with a date.
+      transaction to adjust (see [Balance
+      Correction](#balance-correction)).
 
 ### End of Year
 
-1. Reconcile, as at the end of any other month.
+1. Reconcile transactions.
 2. Rename the current journal file from "current.journal" to
    "$YEAR.journal".
 3. Identify financial goals for the upcoming year.
@@ -753,7 +737,5 @@ transaction if I need to:
     income:adjustment
 ```
 
-I made 11 transactions to `expenses:adjustment` and 1 from
-`income:adjustment` in 2017.  As the year went on, the frequency (and
-magnitude) of these adjustments dropped.  So far in 2018 (as of June),
-I have only needed 2.  Hopefully in 2019 I won't need any.
+I made 12 adjustment transactions in 2017 and 6 in 2018.  Hopefully in
+2019 I won't need any.
