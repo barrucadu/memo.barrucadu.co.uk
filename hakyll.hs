@@ -214,6 +214,7 @@ buildTagsWithExtra = buildTagsWith $ \identifier -> do
   pure $
     ["important"  | hasField "important"] ++
     ["deprecated" | hasField "deprecated_by"] ++
+    fieldValue "audience" ++
     fieldValue "tags"
 
 -- | Sort memos by date (descending), with important memos at the top,
