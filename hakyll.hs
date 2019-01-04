@@ -209,7 +209,7 @@ extractTOC = do
 buildTagsWithExtra :: MonadMetadata m => Pattern -> (String -> Identifier) -> m Tags
 buildTagsWithExtra = buildTagsWith $ \identifier -> do
   metadata <- getMetadata identifier
-  let fieldValue fld = fromMaybe [] $ lookupStringList fld metadata `mplus` (map trim . splitAll "," <$> lookupString fld metadata)
+  let fieldValue fld = fromMaybe [] $ lookupStringList fld metadata `mplus` (map (lowerCase . trim) . splitAll "," <$> lookupString fld metadata)
   let hasField   fld = isJust (lookupString fld metadata)
   pure $
     ["important"  | hasField "important"] ++
@@ -253,3 +253,7 @@ dropUntil prefix = go where
   go xs
     | prefix `isPrefixOf` xs = xs
     | otherwise = go (tail xs)
+
+-- | Lowercase a string
+lowerCase :: String -> String
+lowerCase = map toLower
