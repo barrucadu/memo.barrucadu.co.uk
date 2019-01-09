@@ -68,3 +68,8 @@ pre.code {
 th, td {
     font-size: 1.4rem;
 }
+
+section > .MJXc-display {
+    width: 55%;
+    font-size: 1.4rem;
+}

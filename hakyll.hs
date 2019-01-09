@@ -44,6 +44,11 @@ main = hakyllWith defaultConfiguration $ do
     route $ dropPat "tufte-css/"
     compile copyFileCompiler
 
+  -- MathJaX
+  match "MathJax/**" $ do
+    route idRoute
+    compile copyFileCompiler
+
   -- Tags
   let mkTags = buildTagsWithExtra "memos/*" . fromCapture
   tags <- mkTags "tag/*.html"

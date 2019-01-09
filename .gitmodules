@@ -1,3 +1,6 @@
 [submodule "tufte-css"]
 	path = tufte-css
 	url = https://github.com/edwardtufte/tufte-css.git
+[submodule "MathJax"]
+	path = MathJax
+	url = https://github.com/mathjax/MathJax.git
