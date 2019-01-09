@@ -181,7 +181,10 @@ myPandoc = pandocCompilerWithTransformM ropts wopts pandoc where
 -- arg, processor func)]@.  Called on code blocks where the langauge
 -- matches, argument is given in the format \"language:argument\".
 codeProcessors :: [(String, String, String -> String -> IO String)]
-codeProcessors = [("graphviz", "dot", graphvizToHtml)]
+codeProcessors =
+  [ ("graphviz", "dot", graphvizToHtml)
+  , ("raw", "", const pure)
+  ]
 
 -- | Render graphviz code.
 graphvizToHtml :: String -> String -> IO String
