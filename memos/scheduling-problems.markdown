@@ -401,7 +401,7 @@ who can occupy which roles:
     optional.
 - **Out-of-hours support roles:**
   - *Primary on-call*, no special requirements.
-  - *Secondary on-call*, must have been primary on-call at least two
+  - *Secondary on-call*, must have been primary on-call at least three
     times[^asym].
 
 [^asym]: There's an asymmetry there: the primary in-hours needs to be
@@ -581,16 +581,16 @@ conditionals in results in a lot of extra variables and constraints:
 ```raw
 \[
 \begin{alignat*}{4}
-&amp;\forall t \in \mathcal T \text{, } \forall p \in \mathcal P \text{, } &amp; 0 &amp;\lt S_{tp} - 3 + 999 \times D_{tp} \\
+&amp;\forall t \in \mathcal T \text{, } \forall p \in \mathcal P \text{, } &amp; 0 &amp;\lt S_{tp} - 2 + 999 \times D_{tp} \\
 &amp;\forall t \in \mathcal T \text{, } \forall p \in \mathcal P \text{, } &amp;0 &amp;\leqslant A_{tp,\text{primary}} + 999 \times D_{tp} \\
-&amp;\forall t \in \mathcal T \text{, } \forall p \in \mathcal P \text{, } &amp;S_{tp} - 3 &amp;\leqslant 999 \times (1 - D_{tp}) \\
+&amp;\forall t \in \mathcal T \text{, } \forall p \in \mathcal P \text{, } &amp;S_{tp} - 2 &amp;\leqslant 999 \times (1 - D_{tp}) \\
 &amp;\forall t \in \mathcal T \text{, } \forall p \in \mathcal P \text{, } &amp;A_{tp,\text{primary}} &amp;\leqslant 999 \times (1 - D_{tp})
 \end{alignat*}
 \]
 ```
 
 Here 2 has been substituted for \\(k\\), as someone needs to have been
-a secondary more than two times to be a primary; and 999 has been
+a secondary at least three times to be a primary; and 999 has been
 substituted for \\(m\\), which is larger than the number of secondary
 shifts someone could actually have done.
 
