@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2018-12-19
+date: 2019-01-22
 audience: Narrow
 ---
 
@@ -705,3 +705,118 @@ months before the expedition, that she and Roger had begun dating.
 ---
 
 It is now the 22nd of January, and you have a reply to your letter.
+
+
+America session 3, 2019-01-19
+-----------------------------
+
+You received a rather cold reply from Bradley Grey to your letter to
+Erica Carlyle about re-opening the investigation into the Carlyle
+Expedition.  He made it clear that you would have to convince him
+there was some merit to your investigation before he would arrange a
+meeting with Erica.  You got in touch with Bradley Grey's assistant to
+arrange a meeting.  He had thought you might, and left a spot free in
+his calendar the next day.
+
+At the meeting, Jason Steele (everyone but Wilhelmina attended), tried
+to convince Bradley Grey by explaining how Jackson Elias had been
+looking into the Carlyle Expedition when he was murdered.  Bradley
+Grey was initially unconvinced, but was impressed enough by
+Prof. Musgrave's credentials to accept that you probably weren't just
+trying to make some money off of the Carlyle family.  He arranged a
+meeting with Erica and also told you a little about the Carlyle
+Expedition principles:
+
+- Roger Carlyle had a poor reputation amongst the investors, and the
+  company's fortunes have picked up since Erica took over.
+- Hypatia Masters was a socialite from a wealthy family who dated
+  Roger, she was known amongst amateur circles as a skilled
+  photographer.
+- Jack "Brass" Brady, Roger's bodyguard and manservant, was a
+  condemned man saved by Roger's lawyers, who became incredibly
+  devoted and loyal to his saviour.
+- He only knew Sir Aubrey Penhew by reputation, and that Dr. Robert
+  Huston was a psychoanalysist favoured by Erica Carlyle.
+
+Two days later (the 25th), you returned to the Carlyle estate, this
+time not hiding your car behind a hill, and were ushered into a
+reception hall to meet Erica Carlyle.  After introductions, she led
+you to a sitting room and you talked about Roger.
+
+She told you that Roger had been having bad dreams for several months
+before the expedition, waking screaming.  He refused to discuss these
+dreams, and eventually Erica referred him to Dr. Huston.  A month or
+so after the dreams began, Roger became involved with "that Negro
+woman, Bunay".  Erica doesn't know who this Bunay is, but Roger became
+increasingly obsessed with her, describing her as "queenly", and "a
+priestess".  Roger began to disappear for days at a time, saying only
+that he had been to Harlem on his return.  Bunay had accompanied the
+expedition.
+
+You then asked about the books in the safe.  Erica was unable to hide
+her surprise, saying that Roger had spent a lot of time pouring over
+old books in the months leading up to the expedition.  Roger had hid
+the books in a safe, and not even told Erica about them, so she was
+surprised that you knew.  You convinced her to show you the books, and
+she summoned a guard and took you to the library.
+
+You waited outside while she fetched the books.  When you went in,
+there were four books arranged on a table, and no sign of a safe.  The
+books were:
+
+- *The Pnakotic Manuscripts*, centuries old and written in English.
+- *Selections de Livre D'Ivon*, centuries old and written in a
+  language none of you recognised (French).
+- *Amongst the Stones*, fairly recent, English, handwritten, and bound
+  in some sort of skin.
+- *Life As A God*, fairly recent, English, and bound in human skin.
+
+Over the next few hours Prof. Musgrave read *Amongst the Stones* and
+Lady Ashdown read *Life As A God* (after Wilhelmina tried and failed).
+*Amongst the Stones* is a collection of poetry, and one stood out.  It
+was about the regal garments of Queen Nitocris of Egypt, in great
+detail.  *Life As A God* is the diary of English artist Montgomery
+Crompton, who went to Egypt in 1805 and became a priest of the
+Brotherhood of the Black Pharaoh.  Crompton was insane when he wrote
+the diary.  It describes unspeakable acts committed in the name of the
+Black Pharaoh, and the hidden throne room of Bent Pyramid.
+
+By the time you finished reading, Erica Carlyle had left, and the
+guard politely suggested that you would be overstaying your welcome if
+you remained any longer.  You took the hint and left.
+
+The next day Jason Steele decided to stake out Ju-Ju House, and
+Wilhelmina the cafe mentioned by Hilton Adams.  In the mid-morning,
+Jason saw a white man poorly concealing a gun beneath his jacket enter
+the Ju-Ju House.  The man left a few minutes later stuffing an
+envelope into his inside pocket.  Jason followed the man to a nearby
+police station, and watched for a while, but the man did not come out.
+Jason peered through the windows, and was seen; but managed to outrun
+the police.  The only thing of note to happen at the cafe is that
+Silas N'Kwane, owner of Ju-Ju House, went for lunch.
+
+The next day you continued your stake-outs.  In mid-afternoon, a man
+matching Mukunga M'Dari's description paid a short visit to the Ju-Ju
+House, and then headed in the direction of the cafe.  Jason followed.
+The man arrived at the cafe, and a few minutes later Jason also
+entered.  Jason got the attention of Wilhelmina and indicated to
+Mukunga M'Dari.  Mukunga spoke quietly to a waiter, and was led
+through a door.
+
+Wilhelmina got the attention of a waiter and asked what was through
+the door.  The waiter judged that she was not with the police, and
+seemed a trustworthy sort, so he told her that it is the door to a
+speakeasy.  Wilhelmina went through the door, which took her to a
+staircase leading down to the basement.
+
+At this time of day the speakeasy was not particularly busy, but it
+had a fair few customers.  Mukunga M'Dari was sitting by himself with
+his drink.  Wilhelmina asked the bartender who he (Mukunga) was, and
+learned that he has a bad reputation.  He has no apparent employment,
+but always has money; he seems to be friendly with the police; and
+people don't like to mess with him.  Wilhelmina finished her drink and
+left, collecting Jason from the cafe.
+
+---
+
+It is now the 26th of January.  What are you doing?
