@@ -1,7 +1,7 @@
 ---
 title: The '~' Instance Pattern
 tags: haskell, programming
-date: 2019-01-29
+date: 2019-02-02
 audience: General
 ---
 
@@ -127,7 +127,7 @@ There's one sort of `Program`, a `Program Basic`, which can be used as
 a concurrency monad (a `MonadConc`) directly.  The instances are
 defined like so:
 
-[example]: https://github.com/barrucadu/dejafu/commit/7f0bc3ec414f5d13300cb07893f9f279322dafb9
+[example]: https://github.com/barrucadu/dejafu/commit/bb0e953b2b4f830a08f316e675acb9bde3161fa9
 
 ```haskell
 instance (pty ~ Basic, MonadIO n) => MonadIO (Program pty n) where
