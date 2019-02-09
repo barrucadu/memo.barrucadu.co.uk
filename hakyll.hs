@@ -10,6 +10,7 @@ import           Data.Maybe             (catMaybes, fromMaybe, isJust)
 import           Data.Monoid            ((<>))
 import           Data.Ord               (Down(..), comparing)
 import           Data.Time.Format       (defaultTimeLocale)
+import           Data.Witherable        (filterA)
 import           Hakyll
 import           System.IO              (hClose, hPutStrLn)
 import           System.IO.Temp         (withSystemTempFile)
@@ -121,7 +122,8 @@ memoFeed :: Maybe String -> Pattern -> Rules ()
 memoFeed tag pat = do
   route idRoute
   compile $ loadAllSnapshots pat "content"
-    >>= fmap (take 10) . recentFirst
+    >>= recentFirst
+    >>= fmap (take 10) . filterA (fmap not . isPersonal)
     >>= renderAtom (feedCfg (titleFor tag)) feedCtx
 
 feedCfg :: String -> FeedConfiguration
@@ -240,6 +242,12 @@ sortMemos = sortByA info where
     let isImportant  = isJust (lookupString "important" metadata)
     date <- getItemUTC defaultTimeLocale identifier
     pure (if isDeprecated then Nothing else Just (Down isImportant, Down date))
+
+-- | Check if a memo has a "Personal" target audience.
+isPersonal :: MonadMetadata m => Item a -> m Bool
+isPersonal item = do
+  metadata <- getMetadata (itemIdentifier item)
+  pure (lookupString "audience" metadata == Just "Personal")
 
 -- | Title for a memo listing or feed, with optional tag.
 titleFor :: Maybe String -> String
