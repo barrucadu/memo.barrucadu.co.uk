@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-01-22
+date: 2019-02-13
 audience: Narrow
 ---
 
@@ -820,3 +820,156 @@ left, collecting Jason from the cafe.
 ---
 
 It is now the 26th of January.  What are you doing?
+
+
+America session 4, 2019-02-10
+-----------------------------
+
+You decided to break in to the Ju-Ju House[^america4_1], so Jason and
+Wilhelmina arrived around closing time and watched the shop for a few
+hours.  A little after midnight, a light was still on inside, though
+the curtains were drawn across the shop window so you couldn't see in.
+Jason peered through the keyhole, and saw Silas N'Kwane bent over
+something behind the counter.
+
+[^america4_1]: Because I mentioned that I assumed were going to do
+  that, and you all thought it was a reasonable enough idea.
+
+Wilhelmina found a back door down an alley, and Jason picked the lock.
+You cautiously entered a small dark room, separated from the shopfront
+by a thick curtain, and which looked like Silas N'Kwane's living
+quarters.  Wilhelmina looked through the curtain and saw Silas opening
+a trap door behind the counter.  He heard the curtain move and looked
+up, but did not see Wilhelmina.  He entered the back room, but Jason
+managed to hide in a closet in time.  Wilhelmina lead Silas out of the
+back door, giving Jason enough time to enter the shopfront, and
+descend the stairs beneath the open trap door.
+
+Jason entered a large basement, running under the entire building.  At
+one end was a large well with a stone cover, about 2 metres in
+diameter.  Half way along the wall opposite the entrance was a curtain
+covering an alcove.  It was completely silent.
+
+Jason approached the curtain, and peered beneath it.  Inside the
+alcove were four pairs of standing bare feet, two along the wall to
+the left and two along the wall to the right.  These looked like the
+feet of living people, rather than a statue or something like that,
+but still there was no noise.
+
+Jason slowly and quietly got to his feet, grasped the curtain in one
+hand and a camera in the other.  He dramatically whisked the curtain
+aside, to reveal four people, their foreheads branded with the same
+symbol as Jackson Elias, their intestines spilling out of open wounds,
+their skin decaying, and their eyes completely black.  Their heads
+snapped to the side to look at Jason, who took a photo and ran.  They
+leaped after him, but he got to the stairs, and they would not follow
+out of the basement.
+
+Jason climbed the stairs, to be faced with Silas N'Kwane.  Jason
+managed to shove him out of the way, climbed over the counter, and
+jumped through the front window, being wounded a little by broken
+glass in the process.  Wilhelmina had brought the car around, and they
+escaped to Jason's office.  Jason developed the photo in his darkroom,
+pacing impatiently while waiting for it to process.  In the early
+morning, the photo was ready.  Jason called everyone around, along
+with Lt. Poole, who came to investigate Jackson Elias' murder, and
+shared the photo.
+
+Lt. Poole shakily asked where the photo was taken, and commented that
+that was Captain Robson's territory.  Captain Robson is the one who
+arrested Hilton Adams for the previous murders.  Lt. Poole called a
+squad of officers to go visit the Ju-Ju House.
+
+You all, except Wilhelmina who was still sleeping, arrived at the
+Ju-Ju House with police backup.  Lt. Poole took command of the
+situation, taking Silas N'Kwane into custody and demanding access to
+the basement.  Silas looked surprised and briefly annoyed---as if he
+didn't expect the police, of all people, to do this---before changing
+his demeanour to meek submission.  The trap door was revealed beneath
+a rug, and you all descended.  Prof. Musgrave stayed outside, due to
+his ballistophobia.
+
+In the basement was Mukunga M'Dari, surrounded by the four people.
+Several of you gasped at the sight.  Dr. Crane attempted to
+rationalise the situation by saying that they must be victims of
+torture, probably drugged which is why they can stand and move around
+at all with those wounds, but others were less convinced.  Lt. Poole
+shouted for everyone to put their hands where he could see them and
+not to make any sudden moves.  Mukunga complied, the four didn't move.
+
+One of the officers approached the four, and put his hand on their
+shoulder to guide them down to the floor.  As soon as he made physical
+contact, the person spun around and snapped the officer's arm in two
+with incredible speed.  The other three adopted fighting postures, and
+all moved between Mukunga and the police.  The wounded man passed out
+due to the pain and was carried to the back of the room, where
+Dr. Crane treated him.  Dr. Crane and Clarissa carried him out while
+the police opened fire.  The four people seemed unaffected by the
+bullets, being knocked back but otherwise not appearing to suffer from
+the onslaught.  They shielded Mukunga, who was hiding behind them
+still.
+
+Jason realised he still had some dynamite[^america4_2], and decided to
+use it.  He threw it, but fumbled his grip a little, and hit one of
+the officers.  The dynamite fell in the middle of the room.  You and
+all but one of the police managed to escape from the basement before
+it exploded.
+
+[^america4_2]: From Peru.
+
+As the explosion ripped through the basement, there was suddenly a
+sound of dozens of voices---far more than there had been in the
+basement---wailing in agony.  Jason and Dr. Crane returned to the
+basement and cautiously entered.  Mukunga and the four people had been
+torn apart by the dynamite.  The stone seal over the well had been
+cracked open, and the noise was coming from there.  Thinking it might
+be more torture victims, Dr. Crane approached.
+
+In the well Dr. Crane saw a great writhing mass of tentacles, or
+perhaps worms, covered in screaming human faces.  In a bout of
+madness, he threw up and ran, screaming, from the basement.  He made
+it past the surprised officers in the shopfront, and was only caught
+outside.  Seeing what had happened, Jason decided not to approach the
+well.
+
+Jason investigated the alcove, as the photo he took showed a
+bulky-looking bag, and found:
+
+- A cloth headdress with a severed human tongue attached to the front.
+
+- A robe made of feathers.
+
+- The book *Africa's Dark Sects*, which Jackson Elias was looking for
+  at Harvard University Library.  The book details Nigel Blackwell's
+  travels across Africa and the cults he encountered on the way,
+  including a description in great detail of a cult summoning the
+  monster they worship.  It contains one spell, and will take several
+  weeks to study fully.
+
+- A woven wooden mask, like a woven basket, but with no eyeholes.  On
+  the top of the mask are four monstrous faces, at right angles to
+  each other.  Prof. Musgrave identified the mask being possibly from
+  the Congo.
+
+- A wooden sceptre carved with hieroglyphics saying "Nyambe, Thy Power
+  Mine".  From the context, Nyambe is a given name, but not one any of
+  you are familiar with.
+
+- A marine chronometer, a very accurate clock used by sailors to
+  calculate their position.  It was set to GMT, rather than local
+  time.
+
+Jason managed to persuade Lt. Poole that there was enough evidence
+left at the Ju-Ju House for him to conduct an investigation, and to
+overturn the conviction of Hilton Adams, and he allowed you to take
+the items from the alcove.
+
+Having exhausted the trail in New York, you decided to follow an
+earlier lead to the Penhew Foundation, and set sail for London.  The
+crossing took 9 days, during which you attempted to rest and to
+recover some of your sanity.
+
+---
+
+It is now the 5th of February, and you have just arrived in
+London. Where are you staying and what are you doing?
