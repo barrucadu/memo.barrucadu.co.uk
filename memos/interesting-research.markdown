@@ -1,7 +1,7 @@
 ---
 title: Interesting Research
 tags: research
-date: 2018-03-22
+date: 2019-02-25
 audience: Narrow
 ---
 
@@ -36,6 +36,7 @@ Sources
 - [International Conference on Software Engineering](http://www.icse-conferences.org) (ICSE)
 - [International Conference on Testing Software and Systems](https://sites.google.com/site/ictssmain/home) (ICTSS)
 - International Conference on Tests and Proofs (TAP)
+- [International Conference on Tools and Algorithms for the Construction and Analysis of Systems](https://tacas.info/) (TACAS)
 - [International Symposium on Distributed Computing](http://www.disc-conference.org/wp) (DISC)
 - [International Symposium on Memory Management](http://conf.researchr.org/series/ismm) (ISMM)
 - [International Symposium on Software Testing and Analysis](http://conf.researchr.org/series/issta) (ISSTA)
@@ -69,6 +70,7 @@ program verification.
 - **[Alastair F. Donaldson](http://multicore.doc.ic.ac.uk/people/ally-donaldson/)**[^bold]
 - **[Chao Wang](http://www-bcf.usc.edu/~wang626)**
 - **[Jeff Huang](https://parasol.tamu.edu/~jeff/)**
+- **[Konstantinos Sagonas](https://scholar.google.co.uk/citations?hl=en&user=ijCSV_wAAAAJ&view_op=list_works&sortby=pubdate)**
 - **[Koushik Sen](https://people.eecs.berkeley.edu/~ksen)**
 - **[Madanlal (Madan) Musuvathi](https://www.microsoft.com/en-us/research/people/madanm)**
 - **[Patrice Godefroid](http://research.microsoft.com/en-us/um/people/pg)**
@@ -76,6 +78,7 @@ program verification.
 - **[Shaz Qadeer](https://www.microsoft.com/en-us/research/people/qadeer)**
 - [Adam Betts](http://www.doc.ic.ac.uk/~abetts/)
 - [Akash Lal](https://www.microsoft.com/en-us/research/people/akashl)
+- Bengt Jonsson
 - [Cheng Huang](http://research.microsoft.com/en-us/um/people/chengh)
 - [Colin Runciman](https://www-users.cs.york.ac.uk/colin)
 - [Cormac Flanagan](https://users.soe.ucsc.edu/~cormac)
@@ -85,6 +88,7 @@ program verification.
 - John Erickson
 - Katherine E. Coons
 - [Kathryn S. McKinley](http://www.cs.utexas.edu/users/mckinley)
+- Magnus Lång
 - Mahmoud Abdelrasoul
 - [Markus Kusano](https://markus-kusano.github.io)
 - [Matt McCutchen](http://web.mit.edu/rmccutch/www)
@@ -96,6 +100,7 @@ program verification.
 - Rashmi Mudduluru
 - [Santosh Nagarakatte](https://www.cs.rutgers.edu/~santosh.nagarakatte)
 - [Shuo Chen](https://www.microsoft.com/en-us/research/people/shuochen)
+- Stavros Aronis
 - [Tayfun Elmas](https://sites.google.com/site/tayfunelmas/)
 - [Wolfram Schulte](https://www.microsoft.com/en-us/research/people/schulte)
 - [Zvonimir Rakamaric](http://www.zvonimir.info)
@@ -172,6 +177,10 @@ program verification.
     Mahmoud Abdelrasoul.<br>
     In *Conference on Automated Software Engineering* (ASE). 2017.
 
+- **Optimal Dynamic Partial Order Reduction with Observers** ([pdf](https://www.oapen.org/download?type=document&docid=1002306))<br>
+    Stavros Aronis, Bengt Jonsson, Magnus Lång, and Konstantinos Sagonas.<br>
+    In *International Conference on Tools and Algorithms for the Construction and Analysis of Systems* (TACAS). 2018.
+
 #### My papers
 
 - **Déjà Fu: A Concurrency Testing Library for Haskell** ([pdf](https://www.barrucadu.co.uk/publications/dejafu-hs15.pdf))<br>
@@ -189,6 +198,7 @@ program verification.
 - Symposium on Principles and Practice of Parallel Programming (PPoPP)
 - Symposium on Principles of Programming Languages (POPL)
 - Transactions on Parallel Computing (TOPC)
+- International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
 
 ### Test case generation
 
