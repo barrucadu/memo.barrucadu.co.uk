@@ -265,6 +265,12 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
     Rudy Braquehais and Colin Runciman.<br>
     In *Symposium on Haskell* (Haskell). 2017.
 
+#### My papers
+
+- **Cheap Remarks about Concurrent Programs** ([pdf](https://www.barrucadu.co.uk/publications/coco-flops18.pdf))<br>
+    Michael Walker and Colin Runciman.<br>
+    In *Functional and Logic Programming Symposium* (FLOPS). 2018.
+
 #### Venues
 
 - Haskell Symposium (Haskell)
