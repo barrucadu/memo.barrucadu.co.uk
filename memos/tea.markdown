@@ -22,18 +22,16 @@ Name                          Supplier              Type                   Origi
 [Houjicha]: https://what-cha.com/japan-obubu-dark-roast-houjicha-green-tea/
 [Charcoal Roasted Oolong]: https://what-cha.com/taiwan-charcoal-roasted-oolong-tea/
 
-### Trial
+### Contenders
 
-Which will change regularly.
+Which I like and which might become standard.
 
-Name                          Supplier              Type                   Origin
-----------------------------  ------------------  ------  -----------------------
-[Anhui Huoshan Huang Ya][]    [What-Cha][]        Yellow             Anhui, China
-[Assam Mancotta SFTGFOP-1][]  [What-Cha][]         Black             Assam, India
-[Pure Bud Golden Snail][]     [What-Cha][]         Black            Yunnan, China
+Name                                    Supplier              Type                   Origin
+----------------------------            ------------------  ------  -----------------------
+[Darjeeling 2nd Flush Kanchaan View][]  [What-Cha][]         Black        Darjeeling, India
+[Pure Bud Golden Snail][]               [What-Cha][]         Black            Yunnan, China
 
-[Anhui Huoshan Huang Ya]: https://what-cha.com/china-anhui-huoshan-huang-ya-yellow-tea/
-[Assam Mancotta SFTGFOP-1]: https://what-cha.com/india-assam-mancotta-sftgfop-1-clonal-black-tea/
+[Darjeeling 2nd Flush Kanchaan View]: https://what-cha.com/copy-of-india-darjeeling-2nd-flush-gopaldhara-china-muscatel-black-tea/
 [Pure Bud Golden Snail]: https://what-cha.com/china-yunnan-pure-bud-golden-snail-black-tea/
 
 ### Emergency Teabags
