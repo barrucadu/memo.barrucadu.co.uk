@@ -1,7 +1,7 @@
 ---
 title: Tea
 tags: possessions
-date: 2019-01-04
+date: 2019-03-03
 audience: Personal
 ---
 
@@ -14,18 +14,12 @@ Which will always be in stock.
 
 Name                          Supplier              Type                   Origin
 ----------------------------  ------------------  ------  -----------------------
-[Darjeeling][]                [The Tea Makers][]   Black        Darjeeling, India
-[Davit's 'Phoenix'][]         [What-Cha][]         Black           Guria, Georgia
 [Malawi Leafy Ripe][]         [What-Cha][]          Dark  Shire Highlands, Malawi
 [Houjicha][]                  [What-Cha][]         Green             Kyoto, Japan
-[Jasmine][]                   [The Tea Makers][]   Green            Fujian, China
 [Charcoal Roasted Oolong][]   [What-Cha][]        Oolong           Nantou, Taiwan
 
-[Darjeeling]: https://www.theteamakers.co.uk/darjeeling-house-blend.html
-[Davit's 'Phoenix']: https://what-cha.com/georgia-davits-phoenix-black-tea/
 [Malawi Leafy Ripe]: https://what-cha.com/malawi-2018-leafy-ripe-dark-tea/
 [Houjicha]: https://what-cha.com/japan-obubu-dark-roast-houjicha-green-tea/
-[Jasmine]: https://www.theteamakers.co.uk/jasmine-green-tea.html
 [Charcoal Roasted Oolong]: https://what-cha.com/taiwan-charcoal-roasted-oolong-tea/
 
 ### Trial
