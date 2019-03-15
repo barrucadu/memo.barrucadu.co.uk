@@ -8,11 +8,11 @@ audience: Narrow
 Player characters
 -----------------
 
-* **Lady Clarissa Ashdown** (19), an antiquarian from England.
-* **Wilhelmina Braun** (22), a drifter from Austria.
-* **Dr. Carson Crane** (30), a doctor of medicine from Louisiana.
-* **Professor Arthur Musgrave** (58), an archaeologist from London.
-* **Jason Steele** (28), a private eye from Salem.
+* **Lady Clarissa Ashdown** (23), an antiquarian from England.
+* **Wilhelmina Braun** (26), a drifter from Austria.
+* **Dr. Carson Crane** (34), a doctor of medicine from Louisiana.
+* **Professor Arthur Musgrave** (62), an archaeologist from London.
+* **Jason Steele** (32), a private eye from Salem.
 
 
 Peru session 1, 2018-09-29
