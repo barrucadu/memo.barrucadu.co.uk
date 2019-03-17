@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-02-13
+date: 2019-03-17
 audience: Narrow
 ---
 
@@ -973,3 +973,331 @@ recover some of your sanity.
 
 It is now the 5th of February, and you have just arrived in
 London. Where are you staying and what are you doing?
+
+
+England intro, 2019-03-16
+-------------------------
+
+It's been nine uneventful days at sea since you departed New York, and
+now Southampton is in sight.  From there you can catch a train to
+London, at the time the heart of the British Empire, the greatest city
+in the world, and famous for its incredibly thick fogs.
+
+You came to London following two leads:
+
+- The Carlyle Expedition, which briefly stopped over in London and
+  picked up the Egyptologist Sir Aubrey Penhew, founder of the Penhew
+  Foundation.
+
+- And Jackson Elias, who had a business card for Edward Gavigan, the
+  current director of the Penhew Foundation, in his hotel room.
+
+Before we get into the game, I'd like to bring up some mechanics, and
+also talk about some backstories.
+
+Firstly, Dr. Carson Crane is indefinitely insane.  This means that
+losing even one point of sanity will cause him to suffer a bout of
+madness, and also he can have sensory hallucinations at any time.  You
+can take sanity damage from hallucinating a mythos creature.  Luke, if
+you think Dr. Crane is hallucinating, there are two things you can do:
+
+- You can make a Reality Check roll, which is a Sanity roll.  If you
+  succeed you see through the delusion, and can't have any more until
+  you take some sanity damage.  If you fail, you take one point of
+  sanity damage and suffer a bout of madness.
+
+- Or you can make a Psychoanalysis roll.  If you succeed, you see
+  through the delusion.
+
+The only way to recover from indefinite insanity is to spend months in
+an asylum recuperating.
+
+Secondly, there's a mechanic I forgot about.  If an investigator
+suffers insanity from a mythos source, they gain one point of Cthulhu
+Mythos, or five points the first time.  I've given you all an extra
+eight points of Cthulhu Mythos, which probably covers it.
+
+Now, backstories.
+
+Lady Clarissa Ashdown, it's a bit unusual to be a Lady in your own
+right at such a young age.  Normally your mother would be "Lady
+Ashdown" by virtue of being married to your father, Lord Ashdown.  Are
+you actually a lady, or do you just call yourself that because you
+have noble parents?  What's your family situation like?[^england0_1]
+
+[^england0_1]: Possible follow ups depending on the answer: Is Lord
+  Ashdown a member of the House of Lords?  Where are the Ashdowns
+  based?
+
+Professor Musgrave, you must know of the Penhew Foundation, unless
+you've spent your entire academic career under a rock.  You certainly
+know that it was established in 1890 by Sir Aubrey Penhew who, as
+director of the Foundation, funded and oversaw several expeditions to
+Egypt.  When Sir Aubrey was presumed dead after the massacre of the
+Carlyle Expedition, Edward Gavigan became director.  The Foundation
+issues grants to scholars undertaking the study of Egyptian history
+and antiquities.  It also helps out with planning and funding
+expeditions, negotiating permits with Egyptian authorities, hiring
+local labour, et cetera.  The Foundation building itself is partly
+offices, partly museum.  Have you been on an expedition supported by
+the Penhew Foundation?[^england0_2]
+
+[^england0_2]: Possible follow up depending on the answer: Do you have
+  a research membership to the Penhew Foundation?
+
+Now, before you all disembark, there's one more thing.  Firearms are
+illegal in England at this time unless you have a permit, except
+shotguns which are considered weapons for hunting game.  Everyone who
+is bringing a gun into the country make a Luck roll now.
+
+
+England session 1, 2019-03-16
+-----------------------------
+
+### 9th of February, 1925
+
+You arrived in Southampton, ready to begin the next leg of your
+adventure.
+
+Prof Musgrave, who has had dealings with the Penhew Foundation and
+Edward Gavigan before, rang the Foundation to arrange an interview.
+Thomas Kinnery, Edward Gavigan's personal secretary, arranged a
+meeting for the following day, in the late morning.
+
+You then hopped aboard a train, which took you to London in about six
+hours.  You spent the rest of the day sorting out your accommodation,
+finding a regular meeting place to discuss the events of each day, and
+planning the next day.
+
+### 10th of February, 1925
+
+Wilhelmina decided not to accompany you to the interview with Edward
+Gavigan, and went to look through newspaper archives for any new
+information relating to the Carlyle Expedition.
+
+The rest of you went to the Penhew Foundation and were greeted by
+Thomas Kinnery.  He took you to an anteroom outside Edward Gavigan's
+office, where you took seats, and he returned to work.  Jason Steele
+got up to examine the room, which was decorated with Egyptian scrolls,
+and some information about the Foundation's previous expeditions.
+
+After a few minutes, Edward Gavigan emerged from his office, and
+greeted Prof. Musgrave like an old friend before ushering you all in.
+The office itself was quite bare, there were chairs, a desk with a
+photo facing away from you, a cupboard against one wall, and a floor
+safe in one corner of the room, its door ajar.
+
+Prof. Musgrave trusts Edward Gavigan, and so told him the story so far
+(if a little abridged when it came to the more unbelievable
+components).  Gavigan confirmed that Jackson Elias, "that journalist
+working for The Scoop"[^feb10_scoop], had come to visit him and ask
+some questions about the work of the Foundation.  Gavigan had been
+pleased to talk about the Foundation's role in grant funding and
+assistance with travel permits and the like.  It had been a short
+meeting, and he had never heard from Jackson Elias again.
+
+[^feb10_scoop]: You have never heard of The Scoop before, and Jackson
+  Elias was not a journalist.  You guessed that this is probably a
+  cover story Jackson gave.
+
+You then asked about the Carlyle Expedition.  Gavigan said that Roger
+Carlyle had obtained information from "an African woman" about a
+shadowy time in Egyptian history where the Nile had been ruled by a
+sorcerer.  Sir Aubrey had been interested in this period as well.
+Unfortunately, the information turned out to be a hoax, and after
+conducting some digs in Egypt, the African woman took off with the
+money (some £3500).  The loss of the money bothered Carlyle less than
+the defection of his lover, and the party went to Kenya to distract
+themselves with hunting and wildlife photography.  There they strayed
+into unfortunate territory, and paid for it with their lives.  Sir
+Aubrey had kept in touch with the Foundation during the expedition,
+even sending some artefacts back before they left for Kenya, but
+Gavigan would not show you these telegraphs, saying that they
+concerned much of young Carlyle and were of a personal nature, not the
+sort of thing which the Foundation could afford "getting into the
+gutter press."
+
+Gavigan then showed you some of the artefacts in the exhibition hall,
+which Prof. Musgrave greatly enjoyed, but the rest of you less so.
+While showing the artefacts, Jason Steele returned to Gavigan's
+office, with the excuse that he left his hat behind.  Without much
+time to spare, to avoid rousing the suspicions of Kinnery, Jason
+quickly looked at the photograph on the desk and in the floor safe.
+
+The photograph was of a three storey country house called "Misr
+House".  Upon being told this later, Prof. Musgrave recognised "Misr"
+as being Arabic for "Egypt".  The safe contained roughly a hundred £1
+notes.
+
+Musgrave spent the rest of the afternoon enjoying the Penhew
+Foundation's library, where he found a book mentioning the "Black
+Pharaoh", a figure of myth who is said to have ruled during the Third
+Dynasty.
+
+While this was going on, Wilhelmina spent the entire day in the
+newspaper archives, finding nothing new about the Carlyle Expedition,
+but finding an article by The Scoop on the "Egyptian Murders" from
+right before Jackson Elias was in London.  The article describes a
+series of murders with the victims all severely beaten and stabbed
+through the heart.
+
+You then reconvened, and decided the next day to check out The Scoop
+and Misr House.
+
+### 11th of February, 1925
+
+Prof. Musgrave decided to go with Jason Steele to investigate Misr
+House, mostly to keep an eye on Jason, because he didn't want the man
+he introduced to Edward Gavigan as a friend, to be found the next day
+breaking into Gavigan's country estate.  You both went to the General
+Records Office and found that Misr House was located on a 1000 acre
+estate on an island in the Naze, in Essex.  You got on a train to
+Colchester, intending to change to a local train to
+Walton-on-the-Naze, and hire a car from there.
+
+The rest of you went to the offices of The Scoop, located on the third
+floor of a grubby building on Fleet Street.  Mention of Jackson Elias
+got you to Mickey Mahoney, owner and editor of The Scoop.  He said he
+was a friend of Jackson's, and that any friend of Jackson is a friend
+of his.  He said that Jackson had been investigating a cult in the
+heart of London, but Jackson hadn't told him the details; he would pay
+£15 for the story if you bring it to him.  He also said that Jackson
+had been interested in three stories The Scoop had printed (the
+Egyptian Murders was one), but he couldn't remember the titles of the
+other two off the top of his head, and that you were welcome to look
+through the back issues to try to find them.  He didn't know of
+anything suspicious about the Carlyle Expedition.
+
+After a couple of hours of finding likely looking articles and asking
+"is this one?" you finally found the two others that Jackson Elias had
+been interested in:
+
+- **Slaughter Continues!  Reward Offered!** - the Egyptian Murders, a
+  series of murders in which all the victims had been killed by severe
+  beating, and then stabbed through the heart.  Inspector Barrington
+  at New Scotland Yard has been investigating, and Mahoney said that
+  Jackson Elias had gone to visit him.
+
+- **Shocking Canvases Craze: Local Artist's Monstrous Scenes Mock
+  'Surrealists'** - Miles Shipley, a local artist, has been painting
+  very realistic scenes of horror, which are said to be visions of
+  another place the artist merely makes visible.
+
+- **Police Baffled By Monstrous Murders!  Killer Beast Shot But Still
+  Alive?** - two murders and one wounding in Lesser Edale, Derbyshire,
+  which have been attributed to a rabid dog.  Despite the dog being
+  shot dead, local residents report a strange beast lurking in the
+  area which wails on nights of the full moon.
+
+In the afternoon, Prof. Musgrave and Jason arrive at the island of
+Misr House, but are turned away by a guard at the one bridge onto the
+island.  He says that this is private property owned by Edward
+Gavigan, and you cannot come in.  From the bridge you could see Misr
+House, but not much else on the island due to the heavy forestation.
+Prof. Musgrave seemed a little smug, asking Jason if he was satisfied
+now.  You returned to the village to try to gather some information
+about the estate.
+
+In the village pub the landlord, after being encouraged to pour a
+third drink "for yourself", told you some of the history of the area.
+The land and house had previously been owned by an Egyptologist and
+occultist Neville Lloyd-Price.  Rumour has it that he went bankrupt
+and had to sell the land to pay his debts, Edward Gavigan was the
+buyer.  Neville Lloyd-Price has not been seen since the sale,
+effectively disappearing from London society.  The house dates from
+the time of Queen Elizabeth, and is rumoured to have a priest hole,
+used to hide Catholic priests during the religious purges.  The estate
+itself is 6000 acres, with the island being 1000.  The surrounding
+land is rented out to farmers.  Edward Gavigan doesn't show himself
+much, he visits the house occasionally but it doesn't seem to be his
+primary residence.  Everyone knows of him as the land owner, but he is
+a fairly distant figure.  You then decided to return to London and
+meet up with the others in the evening.
+
+The rest of you decided to visit Miles Shipley, the artist, at his
+home in Holbein Mews.  You were greeted at the door by an old woman
+who introduced herself as Bertha Shipley, Miles' mother.  Upon saying
+you were interested in buying some paintings, she took you in to a
+sitting room, and called for Miles while she made some tea.  As soon
+as you stepped into the house you were struck with a strong biological
+smell, which Wilhelmina recognised as the smell of a reptile house.
+Upon asking Bertha about it, she seemed embarrassed that you had
+noticed, as if she had not realised how strong it was, and said that
+she was looking after a friend's reptiles while they were away.
+
+After a few minutes, you heard Miles clattering down the stairs, and
+he entered the room.  A quiet and nervous looking young man, you
+spotted that his hands were shaking.  He invited you up to the garret
+to see the finished paintings.  He took the lead, Dr. Crane, Clarissa,
+and Wilhelmina following, and Bertha Shipley bringing up the rear
+carrying teacups.  In the garret room you noticed that Miles glanced
+over at Bertha, who seemed completely calm, and in charge of the
+situation.  She said that the paintings were £75 to £300 each.  The
+paintings were:
+
+- **Ancient Science** - an alchemical lab with a reptilian humanoid
+  working at a table surrounded by glass jars emitting colourful
+  vapours.
+
+- **The Dark Pharaoh** - a processional scene in which a mass of
+  people prostrate themselves before a golden chariot.  Standing atop
+  the chariot is a pharaoh in black and gold robes, his face turned
+  away from the canvas.  Behind the pharaoh, two men have been impaled
+  on stakes, and are being eaten by a pack of jackals.
+
+- **Goat Wood** - a nighttime woodland scene illuminated by a yellow
+  moon, naked men and women dancing around a bonfire.  Rising from the
+  flames is a goat-headed man with outstretched arms.
+
+- **Drawn in Blood** - a man being cut open by a silver dagger, with
+  an occult symbol carved into his chest which you can't quite seem to
+  focus on.
+
+- **Black Mountain** - a towering mountain over which rises a
+  monstrous demonic creature, its head a great tentacle covered in
+  blood[^feb11_bm1].  In a nearby temple-like building, small human
+  figures wearing a headdress with a red tentacle[^feb11_bm2] lift
+  their arms towards it in supplication.
+
+[^feb11_bm1]: This reminds you of the tattoo on Larkin's chest of the
+  man with a spiral emerging from his neck in place of a head.
+
+[^feb11_bm2]: These look like Mukunga M'Dari's headdress you found at
+  the Ju-Ju House.
+
+Miles also showed you a painting he is working on entitled **City of
+the Great Race**, which depicted tiny human figures next to a colossal
+building, but it was still in early stages.  You examined the
+paintings themselves, and the art supplies in the room; everything
+looked ordinary, other than the subject matter of the paintings.  When
+asked about the newspaper article saying that Miles was painting
+visions, Bertha said that the newspapers exaggerate everything, which
+Miles agreed with.
+
+You pick out **The Dark Pharaoh**, **Drawn in Blood**, and **Black
+Mountain** as paintings you would like to buy, and leave to go to the
+bank.
+
+While out of the house, you formulated a plan: Clarissa and Dr. Crane
+would distract the Shipleys by haggling, while Wilhelmina would sneak
+out of the garret and examine the rest of the house.  When you
+returned, you put the plan into action, and Wilhelmina slipped out of
+the room.
+
+On the first floor, there are four bedrooms.  Three were open and very
+dusty, as if they hadn't been used in a long time.  One was locked,
+but through the keyhole Wilhelmina could see it looked messy and in
+active use.
+
+On the ground floor, in addition to the corridor, stairs, and sitting
+room you had seen, there is also a kitchen (which looked normal), and
+a dining room and lounge, both of which looked dusty and unused.
+There was no sign of reptiles, beyond the pervasive smell.  In the
+garden was a locked cellar door which Wilhelmina could not pick.
+Wilhelmina quietly returned to the garret, where the Shipleys were
+still distracted.  You then exchanged the money, and left with your
+paintings.
+
+As you left the house, Wilhelmina asked what reptiles Bertha was
+caring for.  Bertha looked momentarily confused, as if she had
+forgotten about the reptiles, and then said snakes.
