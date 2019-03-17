@@ -928,7 +928,7 @@ You decided to break in to the Ju-Ju House[^jan27_1], so Jason and
 Wilhelmina arrived around closing time and watched the shop for a few
 hours.
 
-[^jan28_1]: Because I mentioned that I assumed were going to do that,
+[^jan27_1]: Because I mentioned that I assumed were going to do that,
   and you all thought it was a reasonable enough idea.
 
 ### 28th of January (midnight)
