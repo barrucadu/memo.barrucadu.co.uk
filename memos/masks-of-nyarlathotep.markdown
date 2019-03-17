@@ -5,18 +5,94 @@ date: 2019-03-17
 audience: Narrow
 ---
 
+Masks of Nyarlathotep is a campaign for Call of Cthulhu.  We're
+playing the new edition for CoC 7e.  These are the tales of our
+investigations.
+
+
 Player characters
 -----------------
 
-* **Lady Clarissa Ashdown** (23), an antiquarian from England.
-* **Wilhelmina Braun** (26), a drifter from Austria.
+* **Clarissa Ashdown** (23), an antiquarian from England.  Calls
+  herself "Lady Ashdown", but is actually heiress to that title.
+
+* **Wilhelmina Braun** (26), a drifter from Austria.  Lived on the
+  streets of Lima, then moved to New York to work for Prospero House
+  following the events in Peru.
+
 * **Dr. Carson Crane** (34), a doctor of medicine from Louisiana.
+  Indefinitely insane: prone to sensory delusions and bouts of
+  madness.
+
 * **Professor Arthur Musgrave** (62), an archaeologist from London.
-* **Jason Steele** (32), a private eye from Salem.
+  Suffering from ballistophobia, a fear of guns and bullets.
+
+* **Jason Steele** (32), a private eye from Salem.  Not insane, but
+  seems to be a bit paranoid nonetheless.
+
+These ages and descriptions reflect the characters as they currently
+are, not as they were at the beginning of the campaign.
+
+
+Notable possessions
+-------------------
+
+### Found in Peru
+
+- Wilhelmina's rusty bike, which she found on the streets of Lima one
+  day.
+
+### Found in America
+
+- A cloth headdress with a severed human tongue attached to the front.
+
+- A robe made of feathers.
+
+- The book **Africa's Dark Sects**, which Jackson Elias was looking
+  for at Harvard University Library.  The book details Nigel
+  Blackwell's travels across Africa and the cults he encountered on
+  the way, including a description in great detail of a cult summoning
+  the monster they worship.  It contains one spell, and will take
+  several weeks to study fully.
+
+- A woven wooden mask, like a woven basket, but with no eyeholes.  On
+  the top of the mask are four monstrous faces, at right angles to
+  each other.  Prof. Musgrave identified the mask being possibly from
+  the Congo.
+
+- A wooden sceptre carved with hieroglyphics saying "Nyambe, Thy Power
+  Mine".  From the context, Nyambe is a given name, but not one any of
+  you are familiar with.
+
+- A marine chronometer, a very accurate clock used by sailors to
+  calculate their position.  It was set to GMT, rather than local
+  time.
+
+### Found in England
+
+- Paintings by Miles Shipley:
+
+  - **The Dark Pharaoh** - a processional scene in which a mass of
+    people prostrate themselves before a golden chariot.  Standing
+    atop the chariot is a pharaoh in black and gold robes, his face
+    turned away from the canvas.  Behind the pharaoh, two men have
+    been impaled on stakes, and are being eaten by a pack of jackals.
+
+  - **Drawn in Blood** - a man being cut open by a silver dagger, with
+    an occult symbol carved into his chest which you can't quite seem
+    to focus on.
+
+  - **Black Mountain** - a towering mountain over which rises a
+    monstrous demonic creature, its head a great tentacle covered in
+    blood.  In a nearby temple-like building, small human figures
+    wearing a headdress with a red tentacle lift their arms towards it
+    in supplication.
 
 
 Peru session 1, 2018-09-29
 --------------------------
+
+### 18th of March, 1921
 
 You all responded to a newspaper advert looking for participants in an
 expedition to find an unknown pyramid in Peru, organised by one
@@ -43,10 +119,12 @@ Mendoza are staying in the Hotel Espana.  The expedition leaves the
 morning of the day after tomorrow to Puno, and from there into the
 mountains: so you have one evening and one full day in Lima.
 
-The following morning you went with Jackson Elias to meet with
-Professor Memesio Sanchez, a respected archaeologist and historian at
-the local university. Professor Sanchez has offered numerous times to
-help Larkin's expedition, but been rebuffed or ignored every time.  He
+### 19th of March, 1921
+
+You went with Jackson Elias to meet with Professor Memesio Sanchez, a
+respected archaeologist and historian at the local
+university. Professor Sanchez has offered numerous times to help
+Larkin's expedition, but been rebuffed or ignored every time.  He
 thinks that Larkin plans to steal the pyramid's historical treasures
 and take them abroad, which the law currently does not prevent.  He
 and his assistant, the undergraduate Trinidad Rizo, have been
@@ -61,19 +139,11 @@ partly buried.  You found the skin stretched tightly over her bones,
 as if the fat had been removed from her body, and a large circular
 wound in her chest.
 
----
-
-It is now around noon.
-
-Dr. Crane, you were examining the body.
-
-Lady Ashdown, you had found footprints leaving the room.
-
-What are the rest of you doing?
-
 
 Peru session 2, 2018-10-27
 --------------------------
+
+### 19th of March, 1921 (early afternoon)
 
 Still reeling from the shock of finding Rizo's damaged body,
 Prof. Musgrave ran back to the office to fetch Prof. Sanchez and
@@ -178,10 +248,12 @@ such a thing, and said that he had only known Mendoza for a few
 months.  Lady Ashdown realised that Larkin was lying.  Larkin seemed
 to have no recollection of your visit that afternoon.
 
-The following morning, you set off to Puno in the Andean foothills.
-Larkin was determined that the loss of Mendoza not slow down the
-expedition.  This was an uneventful three-day journey by truck, during
-which you fought off altitude sickness.
+### 20th of March, 1921
+
+You set off to Puno in the Andean foothills.  Larkin was determined
+that the loss of Mendoza not slow down the expedition.  This was an
+uneventful three-day journey by truck, during which you fought off
+altitude sickness.
 
 You had one night to rest in Puno before heading out the next morning
 to the pyramid on foot.  Most of you chose to stay in the hotel, but
@@ -208,10 +280,11 @@ crossed herself[^peru2_2] and shuddered.
 [^peru2_2]: Nayra seems to follow a mixture of Catholicism and local
   beliefs.
 
-The following morning, you discussed what you knew, and sent a
-telegram off to Prof. Sanchez detailing your findings.  You thought
-that you might need to bring the gold band to the pyramid, so it's
-best for him to be prepared.
+### 21st of March, 1921
+
+You discussed what you knew, and sent a telegram off to Prof. Sanchez
+detailing your findings.  You thought that you might need to bring the
+gold band to the pyramid, so it's best for him to be prepared.
 
 You then set out into the jungle with Larkin, using pack animals to
 carry your supplies.  No locals would accompany you now.  After a few
@@ -228,19 +301,11 @@ no human mouth: it was circular and full of sharp teeth, much like a
 lamprey.  The rest of you had awoken at this point, and easily dealt
 with the man.
 
----
-
-It is now around 3am.
-
-You're all standing around the body of a lamprey-man who was feeding
-on one of your pack animals, whose head has been smashed in with a
-crowbar.
-
-What do you do?
-
 
 Peru session 3, 2018-11-11
 --------------------------
+
+### 22nd of March, 1921 (early morning)
 
 Dr. Crane examined the body of the man who attacked your pack animals,
 and the wound on the animal, and determined that it matched the wound
@@ -251,7 +316,11 @@ surprised that the attack had occurred, but not by the man's
 existence.  You buried the man and the animal to avoid attracting
 scavenging animals, and returned to bed.
 
+### 22nd of March, 1921
+
 The second day and night of your journey passed uneventfully.
+
+### 23rd of March, 1921
 
 In the third afternoon, you saw two people heading in the same
 direction as you, half a mile ahead.  Larkin suggested they may be
@@ -384,12 +453,12 @@ he hoped nothing like this would ever happen again.  Jason Steele and
 Dr. Crane realised Larkin was lying; but the point of no return had
 been passed, and they couldn't turn back to confront him.
 
----
+### End
 
 This is the end of this chapter.  Bonus sanity points are:
 
-* `+1d6` for killing Luis de Mendoza.
-* `+1d8` for restoring the ward on the pyramid.
+- `+1d6` for killing Luis de Mendoza.
+- `+1d8` for restoring the ward on the pyramid.
 
 The next chapter is after a four-year time skip.  We'll start with a
 brief character-tweaking phase where I'll award some bonus skill
@@ -399,21 +468,42 @@ points.
 America session 1, 2018-11-24
 -----------------------------
 
+### Intro
+
 It's 1925, four years after the events of Peru, and you have all
 received a message from Jackson Elias saying that he's uncovered new
 information about the Carlyle Expedition, and needed a reliable team
 of investigators to help him.
 
 The Carlyle Expedition of 1919 was an archaeological expedition to
-Egypt funded by wealthy playboy Roger Carlyle.  After Egypt, the
-expedition went to Nairobi, to unwind on a safari.  That was the last
-time the expedition members were seen alive.  Two months after their
-disappearance, Erica Carlyle, the sister of Roger Carlyle, arrived in
-Nairobi with an expedition of her own: to find her brother.  The
-remains of the Carlyle Expedition were found, massacred by tribesmen,
-who were executed for their crimes.  This was all over the newspapers
-of the time, and it was thought to be a settled issue.  Jackson Elias
-finding new information is quite a surprise.
+Egypt funded by wealthy playboy Roger Carlyle.  The expedition
+primaries were:
+
+- **Roger Carlyle** - wealthy playboy.
+
+- **Sir Aubrey Penhew** - renowned Egyptologist and founder of the
+  Penhew Foundation in London.
+
+- **Dr. Robert Huston** - a fashionable Freudian psychologist, on the
+  expedition to conduct research into ancient pictographs.
+
+- **Hypatia Masters** - a socialite acting as photographer and
+  archivist.
+
+- **Jack Brady** - Rodger Carlyle's loyal bodyguard and manservant.
+
+After Egypt, the expedition went to Nairobi, to unwind on a safari.
+That was the last time the expedition members were seen alive.  Two
+months after their disappearance, Erica Carlyle, the sister of Roger
+Carlyle, arrived in Nairobi with an expedition of her own: to find her
+brother.  The remains of the Carlyle Expedition were found, massacred
+by tribesmen, who were executed for their crimes.
+
+This was all over the newspapers of the time, and it was thought to be
+a settled issue.  Jackson Elias finding new information is quite a
+surprise.
+
+### 15th of January, 1925
 
 On the morning of the 15th of January, the day Jackson Elias asked to
 see you all, you all made your way to Prospero House, Jackson's
@@ -447,8 +537,10 @@ police to arrive, you looked around, and found a few items:
 
 - A business card for Edward Gavigan, director of the London-based
   Penhew Foundation.
+
 - A business card for Emerson Imports, with the name "Silas N'Kwane"
   written on the back in Jackson's hand.
+
 - A handbill for a public lecture at New York University entitled "The
   Cult of Darkness in Polynesia & The Southwest Pacific", by
   Prof. Anthony Cowley of the University of Sydney, currently a
@@ -535,10 +627,12 @@ god---the deification of water and life---who tricked the Sand Bat,
 and sealed it and all his clan in a watery place from which the Sand
 Bat cannot escape.
 
-The following morning you saw an article in the New York Times about
-the similarity of Jackson Elias' murder and the crimes for which
-Hilton Adams had been arrested, who was at this time on death row.
-The author was Rebecca Shosenburg.
+### 16th of January, 1925
+
+You saw an article in the New York Times about the similarity of
+Jackson Elias' murder and the crimes for which Hilton Adams had been
+arrested, who was at this time on death row.  The author was Rebecca
+Shosenburg.
 
 In the afternoon you went to the funeral.  It was a brief,
 non-denominational, and poorly attended ceremony.  Only you, the
@@ -570,25 +664,20 @@ Jackson had also left some of his papers:
 
 - A letter, dated 1919 and sent from Cairo, from a M. Warren Besart to
   Roger Carlyle.
+
 - A blurry photograph showing some boats in the foreground and
   buildings in the background.
+
 - A letter to Jackson Elias from Miriam Atwright at the Harvard
   University Library.
 
 You all agreed to join the quest and continue in Jackson's footsteps.
 
----
-
-It is now the morning of the 17th of January, two days after the
-murder of Jackson Elias.
-
-You have a few leads.  Also, Carlton Ramsey mentioned that Jonah
-Kensington has some of Jackson's notes, which he might be willing to
-share with you.  What are you up to?
-
 
 America session 2, 2018-12-08
 -----------------------------
+
+### 17th of January, 1925
 
 You visited Prospero House to ask Jonah Kensington for Jackson Elias'
 book notes.  There was a letter, sent from Nairobi, saying that while
@@ -648,28 +737,29 @@ in: a tall three-storey building with acres of surrounding grounds,
 and a tall fence with a single guarded entrance.  You decided not to
 try to sneak in and rob the safe.
 
-The next morning you visited Hilton Adams, arrested for the previous
-murders, in Sing Sing Prison.  You got half an hour to speak with him.
+### 18th of January, 1925
+
+You visited Hilton Adams, arrested for the previous murders, in Sing
+Sing Prison.  You got half an hour to speak with him.
 
 Hilton Adams was a community leader of sorts, who grew concerned with
 the murders and decided to take matters into his own hands.  He found
 that the murders fanned out in a rough circle for about a mile west of
 the Harlem River; but none within a two block radius of West 137th
-Street, between Lenox Avenue and the Harlem
-River[^america3_1]---except the one which had him arrested.  A
-Dr. Mordecai Lemming had been quoted in the papers saying the murders
-seemed similar to those conducted by the Cult of the Bloody Tongue, an
-African death cult.  As Ju-Ju House is the only thing African in the
-vicinity, Hilton staked it out.  One day he managed to follow a
-muscular, shaven, African man in his late 30s from Ju-Ju House to a
-coffee shop on 139th Street and Sixth Avenue.  Nobody seemed keen to
-talk about this man, just saying that he was Mukunga M'Dari, and he
-was bad news.  Shortly after that, Hilton's knife was found at the
-scene of a murder, on a night Hilton had gone out patrolling.  This
-caused his arrest.  But that night Hilton says he went out with his
-gun.
+Street, between Lenox Avenue and the Harlem River[^jan18_1]---except
+the one which had him arrested.  A Dr. Mordecai Lemming had been
+quoted in the papers saying the murders seemed similar to those
+conducted by the Cult of the Bloody Tongue, an African death cult.  As
+Ju-Ju House is the only thing African in the vicinity, Hilton staked
+it out.  One day he managed to follow a muscular, shaven, African man
+in his late 30s from Ju-Ju House to a coffee shop on 139th Street and
+Sixth Avenue.  Nobody seemed keen to talk about this man, just saying
+that he was Mukunga M'Dari, and he was bad news.  Shortly after that,
+Hilton's knife was found at the scene of a murder, on a night Hilton
+had gone out patrolling.  This caused his arrest.  But that night
+Hilton says he went out with his gun.
 
-[^america3_1]: This is roughly the same location as the Ju-Ju House,
+[^jan18_1]: This is roughly the same location as the Ju-Ju House,
   which you previously visited.  Ju-Ju House is at 1 Ransom Court,
   down an alley off West 137th Street, east of Lenox Avenue.
 
@@ -702,13 +792,11 @@ information about Hypatia Masters, as there seemed no obvious reason
 why a socialite would go on the expedition.  You found a mention, some
 months before the expedition, that she and Roger had begun dating.
 
----
-
-It is now the 22nd of January, and you have a reply to your letter.
-
 
 America session 3, 2019-01-19
 -----------------------------
+
+### 22nd of January, 1925
 
 You received a rather cold reply from Bradley Grey to your letter to
 Erica Carlyle about re-opening the investigation into the Carlyle
@@ -717,6 +805,8 @@ there was some merit to your investigation before he would arrange a
 meeting with Erica.  You got in touch with Bradley Grey's assistant to
 arrange a meeting.  He had thought you might, and left a spot free in
 his calendar the next day.
+
+### 23rd of Janaury, 1925
 
 At the meeting, Jason Steele (everyone but Wilhelmina attended), tried
 to convince Bradley Grey by explaining how Jackson Elias had been
@@ -729,19 +819,24 @@ Expedition principles:
 
 - Roger Carlyle had a poor reputation amongst the investors, and the
   company's fortunes have picked up since Erica took over.
+
 - Hypatia Masters was a socialite from a wealthy family who dated
   Roger, she was known amongst amateur circles as a skilled
   photographer.
+
 - Jack "Brass" Brady, Roger's bodyguard and manservant, was a
   condemned man saved by Roger's lawyers, who became incredibly
   devoted and loyal to his saviour.
+
 - He only knew Sir Aubrey Penhew by reputation, and that Dr. Robert
   Huston was a psychoanalysist favoured by Erica Carlyle.
 
-Two days later (the 25th), you returned to the Carlyle estate, this
-time not hiding your car behind a hill, and were ushered into a
-reception hall to meet Erica Carlyle.  After introductions, she led
-you to a sitting room and you talked about Roger.
+### 25th of January, 1925
+
+You returned to the Carlyle estate, this time not hiding your car
+behind a hill, and were ushered into a reception hall to meet Erica
+Carlyle.  After introductions, she led you to a sitting room and you
+talked about Roger.
 
 She told you that Roger had been having bad dreams for several months
 before the expedition, waking screaming.  He refused to discuss these
@@ -764,12 +859,15 @@ You waited outside while she fetched the books.  When you went in,
 there were four books arranged on a table, and no sign of a safe.  The
 books were:
 
-- *The Pnakotic Manuscripts*, centuries old and written in English.
-- *Selections de Livre D'Ivon*, centuries old and written in a
+- **The Pnakotic Manuscripts** - centuries old and written in English.
+
+- **Selections de Livre D'Ivon** - centuries old and written in a
   language none of you recognised (French).
-- *Amongst the Stones*, fairly recent, English, handwritten, and bound
-  in some sort of skin.
-- *Life As A God*, fairly recent, English, and bound in human skin.
+
+- **Amongst the Stones** - fairly recent, English, handwritten, and
+  bound in some sort of skin.
+
+- **Life As A God** - fairly recent, English, and bound in human skin.
 
 Over the next few hours Prof. Musgrave read *Amongst the Stones* and
 Lady Ashdown read *Life As A God* (after Wilhelmina tried and failed).
@@ -785,23 +883,26 @@ By the time you finished reading, Erica Carlyle had left, and the
 guard politely suggested that you would be overstaying your welcome if
 you remained any longer.  You took the hint and left.
 
-The next day Jason Steele decided to stake out Ju-Ju House, and
-Wilhelmina the cafe mentioned by Hilton Adams.  In the mid-morning,
-Jason saw a white man poorly concealing a gun beneath his jacket enter
-the Ju-Ju House.  The man left a few minutes later stuffing an
-envelope into his inside pocket.  Jason followed the man to a nearby
-police station, and watched for a while, but the man did not come out.
-Jason peered through the windows, and was seen; but managed to outrun
-the police.  The only thing of note to happen at the cafe is that
-Silas N'Kwane, owner of Ju-Ju House, went for lunch.
+### 26th of January, 1925
 
-The next day you continued your stake-outs.  In mid-afternoon, a man
-matching Mukunga M'Dari's description paid a short visit to the Ju-Ju
-House, and then headed in the direction of the cafe.  Jason followed.
-The man arrived at the cafe, and a few minutes later Jason also
-entered.  Jason got the attention of Wilhelmina and indicated to
-Mukunga M'Dari.  Mukunga spoke quietly to a waiter, and was led
-through a door.
+Jason Steele decided to stake out Ju-Ju House, and Wilhelmina the cafe
+mentioned by Hilton Adams.  In the mid-morning, Jason saw a white man
+poorly concealing a gun beneath his jacket enter the Ju-Ju House.  The
+man left a few minutes later stuffing an envelope into his inside
+pocket.  Jason followed the man to a nearby police station, and
+watched for a while, but the man did not come out.  Jason peered
+through the windows, and was seen; but managed to outrun the police.
+The only thing of note to happen at the cafe is that Silas N'Kwane,
+owner of Ju-Ju House, went for lunch.
+
+### 27th of January, 1925
+
+You continued your stake-outs.  In mid-afternoon, a man matching
+Mukunga M'Dari's description paid a short visit to the Ju-Ju House,
+and then headed in the direction of the cafe.  Jason followed.  The
+man arrived at the cafe, and a few minutes later Jason also entered.
+Jason got the attention of Wilhelmina and indicated to Mukunga M'Dari.
+Mukunga spoke quietly to a waiter, and was led through a door.
 
 Wilhelmina got the attention of a waiter and asked what was through
 the door.  The waiter judged that she was not with the police, and
@@ -817,23 +918,25 @@ but always has money; he seems to be friendly with the police; and
 people don't like to mess with him.  Wilhelmina finished her drink and
 left, collecting Jason from the cafe.
 
----
-
-It is now the 26th of January.  What are you doing?
-
 
 America session 4, 2019-02-10
 -----------------------------
 
-You decided to break in to the Ju-Ju House[^america4_1], so Jason and
+### 27th of January, 1925
+
+You decided to break in to the Ju-Ju House[^jan27_1], so Jason and
 Wilhelmina arrived around closing time and watched the shop for a few
-hours.  A little after midnight, a light was still on inside, though
-the curtains were drawn across the shop window so you couldn't see in.
+hours.
+
+[^jan28_1]: Because I mentioned that I assumed were going to do that,
+  and you all thought it was a reasonable enough idea.
+
+### 28th of January (midnight)
+
+A little after midnight, a light was still on inside, though the
+curtains were drawn across the shop window so you couldn't see in.
 Jason peered through the keyhole, and saw Silas N'Kwane bent over
 something behind the counter.
-
-[^america4_1]: Because I mentioned that I assumed were going to do
-  that, and you all thought it was a reasonable enough idea.
 
 Wilhelmina found a back door down an alley, and Jason picked the lock.
 You cautiously entered a small dark room, separated from the shopfront
@@ -909,13 +1012,13 @@ bullets, being knocked back but otherwise not appearing to suffer from
 the onslaught.  They shielded Mukunga, who was hiding behind them
 still.
 
-Jason realised he still had some dynamite[^america4_2], and decided to
+Jason realised he still had some dynamite[^jan28_1], and decided to
 use it.  He threw it, but fumbled his grip a little, and hit one of
 the officers.  The dynamite fell in the middle of the room.  You and
 all but one of the police managed to escape from the basement before
 it exploded.
 
-[^america4_2]: From Peru.
+[^jan28_1]: From Peru.
 
 As the explosion ripped through the basement, there was suddenly a
 sound of dozens of voices---far more than there had been in the
@@ -939,12 +1042,12 @@ bulky-looking bag, and found:
 
 - A robe made of feathers.
 
-- The book *Africa's Dark Sects*, which Jackson Elias was looking for
-  at Harvard University Library.  The book details Nigel Blackwell's
-  travels across Africa and the cults he encountered on the way,
-  including a description in great detail of a cult summoning the
-  monster they worship.  It contains one spell, and will take several
-  weeks to study fully.
+- The book **Africa's Dark Sects**, which Jackson Elias was looking
+  for at Harvard University Library.  The book details Nigel
+  Blackwell's travels across Africa and the cults he encountered on
+  the way, including a description in great detail of a cult summoning
+  the monster they worship.  It contains one spell, and will take
+  several weeks to study fully.
 
 - A woven wooden mask, like a woven basket, but with no eyeholes.  On
   the top of the mask are four monstrous faces, at right angles to
@@ -969,14 +1072,23 @@ earlier lead to the Penhew Foundation, and set sail for London.  The
 crossing took 9 days, during which you attempted to rest and to
 recover some of your sanity.
 
----
+### End
 
-It is now the 5th of February, and you have just arrived in
-London. Where are you staying and what are you doing?
+This is the end of this chapter. Bonus sanity points are:
+
+- `+1d6` for effectively solving Jackson Elias' murder.
+- `+1d4` for finding enough evidence to get Hilton Adams off death
+  row.
+- `+1d6` for neutralising Mukunga M'Dari.
+- `+1d4` for breaking up the cult.
+
+The next chapter will begin with you arriving in England.
 
 
-England intro, 2019-03-16
--------------------------
+England session 1, 2019-03-16
+-----------------------------
+
+### Intro
 
 It's been nine uneventful days at sea since you departed New York, and
 now Southampton is in sight.  From there you can catch a train to
@@ -1050,16 +1162,12 @@ illegal in England at this time unless you have a permit, except
 shotguns which are considered weapons for hunting game.  Everyone who
 is bringing a gun into the country make a Luck roll now.
 
-
-England session 1, 2019-03-16
------------------------------
-
-### 9th of February, 1925
+### 10th of February, 1925
 
 You arrived in Southampton, ready to begin the next leg of your
 adventure.
 
-Prof Musgrave, who has had dealings with the Penhew Foundation and
+Prof. Musgrave, who has had dealings with the Penhew Foundation and
 Edward Gavigan before, rang the Foundation to arrange an interview.
 Thomas Kinnery, Edward Gavigan's personal secretary, arranged a
 meeting for the following day, in the late morning.
@@ -1069,7 +1177,7 @@ hours.  You spent the rest of the day sorting out your accommodation,
 finding a regular meeting place to discuss the events of each day, and
 planning the next day.
 
-### 10th of February, 1925
+### 11th of February, 1925
 
 Wilhelmina decided not to accompany you to the interview with Edward
 Gavigan, and went to look through newspaper archives for any new
@@ -1090,13 +1198,13 @@ safe in one corner of the room, its door ajar.
 Prof. Musgrave trusts Edward Gavigan, and so told him the story so far
 (if a little abridged when it came to the more unbelievable
 components).  Gavigan confirmed that Jackson Elias, "that journalist
-working for The Scoop"[^feb10_scoop], had come to visit him and ask
-some questions about the work of the Foundation.  Gavigan had been
-pleased to talk about the Foundation's role in grant funding and
-assistance with travel permits and the like.  It had been a short
-meeting, and he had never heard from Jackson Elias again.
+working for The Scoop"[^feb11_1], had come to visit him and ask some
+questions about the work of the Foundation.  Gavigan had been pleased
+to talk about the Foundation's role in grant funding and assistance
+with travel permits and the like.  It had been a short meeting, and he
+had never heard from Jackson Elias again.
 
-[^feb10_scoop]: You have never heard of The Scoop before, and Jackson
+[^feb11_1]: You have never heard of The Scoop before, and Jackson
   Elias was not a journalist.  You guessed that this is probably a
   cover story Jackson gave.
 
@@ -1144,7 +1252,7 @@ through the heart.
 You then reconvened, and decided the next day to check out The Scoop
 and Misr House.
 
-### 11th of February, 1925
+### 12th of February, 1925
 
 Prof. Musgrave decided to go with Jason Steele to investigate Misr
 House, mostly to keep an eye on Jason, because he didn't want the man
@@ -1255,14 +1363,14 @@ paintings were:
 
 - **Black Mountain** - a towering mountain over which rises a
   monstrous demonic creature, its head a great tentacle covered in
-  blood[^feb11_bm1].  In a nearby temple-like building, small human
-  figures wearing a headdress with a red tentacle[^feb11_bm2] lift
-  their arms towards it in supplication.
+  blood[^feb12_1].  In a nearby temple-like building, small human
+  figures wearing a headdress with a red tentacle[^feb12_2] lift their
+  arms towards it in supplication.
 
-[^feb11_bm1]: This reminds you of the tattoo on Larkin's chest of the
+[^feb12_1]: This reminds you of the tattoo on Larkin's chest of the
   man with a spiral emerging from his neck in place of a head.
 
-[^feb11_bm2]: These look like Mukunga M'Dari's headdress you found at
+[^feb12_2]: These look like Mukunga M'Dari's headdress you found at
   the Ju-Ju House.
 
 Miles also showed you a painting he is working on entitled **City of
