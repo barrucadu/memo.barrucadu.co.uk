@@ -1,7 +1,7 @@
 ---
 title: Backups
 tags: aws, programming
-date: 2019-03-01
+date: 2019-03-29
 audience: General
 ---
 
@@ -205,7 +205,7 @@ backups has a copy of the password.  The backups are useless if I lose
 the password, but for that to happen, I'd have to lose:
 
 - Both of my home computers, in London
-- A VPS, on a physical server in London
+- A VPS, on a physical server in Nuremberg
 - A dedicated server, in France somewhere
 
 That seems pretty unlikely.  Even if it does happen, any event (or
@@ -219,7 +219,7 @@ take out my backups themselves, which are in Ireland.
 These aren't terribly interesting, or useful to anyone other than me,
 so I'll just give an example rather than go through each one.
 
-The script for innsmouth, my VPS, backs up:
+The script for dunwich, my VPS, backs up:
 
 - All my public github repositories (I don't have any private ones)
 - All my self-hosted repositories (which are all private)
@@ -241,28 +241,28 @@ function clone_public_github_repos() {
     done
 }
 
-function clone_all_innsmouth_repos() {
+function clone_all_dunwich_repos() {
   for dir in /srv/git/repositories/*.git; do
-    url="git@innsmouth:$(basename $dir)"
+    url="git@dunwich.barrucadu.co.uk:$(basename $dir)"
     git clone --bare "$url"
   done
 }
 
 set -e
 
-[[ -d innsmouth ]] && rm -rf innsmouth
-mkdir innsmouth
+[[ -d dunwich ]] && rm -rf dunwich
+mkdir dunwich
 
-cd innsmouth
+cd dunwich
 
 cp -a $HOME/s syncthing
 
 mkdir git
-mkdir git/innsmouth
+mkdir git/dunwich
 mkdir git/github.com
 
-pushd git/innsmouth
-clone_all_innsmouth_repos
+pushd git/dunwich
+clone_all_dunwich_repos
 popd
 
 pushd git/github.com
@@ -270,7 +270,7 @@ clone_public_github_repos
 popd
 ```
 
-The script creates the backup inside an `innsmouth` directory: all the
+The script creates the backup inside an `dunwich` directory: all the
 host-specific scripts generate their backup in a folder named after
 the host.  This was useful in an earlier incarnation of my backup
 scripts, but isn't really necessary now.
