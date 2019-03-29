@@ -1,24 +1,20 @@
 ---
 title: Machines
 tags: howto, possessions, tech
-date: 2018-08-17
+date: 2019-03-29
 audience: Personal
 ---
 
 Naming convention
 -----------------
 
-**Machines for my use:** *Beings* (elder gods, outer gods, people,
-etc) in the Cthulhu Mythos for local machines; *places* in the Cthulhu
-Mythos for remote machines (even though there's only one of those
-currently).
+- **Local machines:** beings (elder gods, outer gods, people, etc) in the Cthulhu Mythos
+- **Remote machines:** places in the Cthulhu Mythos
 
-**Machines for more general use:** Something descriptive.
+Local machines
+--------------
 
-Physical machines
------------------
-
-### azathoth ###
+### azathoth
 
 > [O]utside the ordered universe [is] that amorphous blight of nethermost confusion which blasphemes
 > and bubbles at the center of all infinity—the boundless daemon sultan Azathoth, whose name no lips
@@ -26,117 +22,85 @@ Physical machines
 > space amidst the muffled, maddening beating of vile drums and the thin monotonous whine of
 > accursed flutes.
 
-Purpose
-  ~ Primary desktop machine
+- **Purpose:** primary desktop machine
+- **Operating System:** Windows 10 / NixOS dual-boot
+- **Monitoring:** no
+- **Backups:** no
 
-Operating System
-  ~ Windows 10 / NixOS dual-boot
-
-Configuration
-  ~ nixfiles/azathoth.nix
-
-### nyarlathotep ###
+### nyarlathotep
 
 > It is understood in the land of dream that the Other Gods have many agents moving among men; and
 > all these agents, whether wholly human or slightly less than human, are eager to work the will of
 > those blind and mindless things in return for the favour of their hideous soul and messenger, the
 > crawling chaos Nyarlathotep.
 
-Purpose
-  ~ Home server
+- **Purpose:** general purpose server and NAS
+- **Operating System:** NixOS
+- **Monitoring:** yes
+- **Backups:** yes
 
-Operating System
-  ~ NixOS
-
-Configuration
-  ~ nixfiles/nyarlathotep.nix
-
-Alerting
-  ~ Uses mirrored hard drives for redundancy. Sends a text message and
-  email when one drive fails.
-
-Issues
-  ~ Sometimes fails to boot, have yet to reproduce this when a monitor is plugged in.
-
-### carter ###
+### carter
 
 > In the car they found the hideously carved box of fragrant wood, and the parchment which no man
 > could read. The Silver Key was gone—presumably with Carter. Further than that there was no certain
 > clue.
 
-Purpose
-  ~ Portable machine
+- **Purpose:** laptop
+- **Operating System:** macOS High Sierra
+- **Monitoring:** no
+- **Backups:** no
 
-Operating System
-  ~ macOS High Sierra
+#### Post-boot set-up
 
-Configuration
-  ~ System-wide configuration is fairly vanilla.
-
-Issues
-  ~ None
-
-#### Post-boot set-up ####
-
-syncthing:
-  ~ `tmux new-session -ssyncthing -d ~/syncthing/syncthing`
+```bash
+# syncthing
+tmux new-session -ssyncthing -d ~/syncthing/syncthing
+```
 
 Virtual machines
 ----------------
 
-### innsmouth ###
+### dunwich
 
-> During the winter of 1927–28 officials of the Federal government made a strange and secret
-> investigation of certain conditions in the ancient Massachusetts seaport of Innsmouth. The public
-> first learned of it in February, when a vast series of raids and arrests occurred, followed by the
-> deliberate burning and dynamiting—under suitable precautions—of an enormous number of crumbling,
-> worm-eaten, and supposedly empty houses along the abandoned waterfront. Uninquiring souls let this
-> occurrence pass as one of the major clashes in a spasmodic war on liquor.
+> Outsiders visit Dunwich as seldom as possible, and since a certain
+> season of horror all the signboards pointing toward it have been
+> taken down. The scenery, judged by any ordinary aesthetic canon, is
+> more than commonly beautiful; yet there is no influx of artists or
+> summer tourists. Two centuries ago, when talk of witch-blood,
+> Satan-worship, and strange forest presences was not laughed at, it
+> was the custom to give reasons for avoiding the locality. In our
+> sensible age—since the Dunwich horror of 1928 was hushed up by those
+> who had the town’s and the world’s welfare at heart—people shun it
+> without knowing exactly why.
 
-Host
-  ~ Linode
+- **Host:** Hetzner Cloud
+- **Purpose:** publicly accessible services, SOCKS proxy endpoint, and IRC bouncer
+- **Operating System:** NixOS
+- **Monitoring:** yes
+- **Backups:** yes
 
-Purpose
-  ~ Publically-accessible services
-  ~ SOCKS proxy endpoint
+#### Post-boot set-up
 
-Operating System
-  ~ NixOS
+```bash
+# irc
+tmux new-session -sirc -d irssi
 
-Configuration
-  ~ nixfiles/innsmouth.nix
+# yukibot (in /projects/yukibot)
+./run-yukibot live-configuration.toml
+```
 
-Issues
-  ~ None
+Other
+-----
 
-#### Post-boot set-up ####
+### lainon.life
 
-irc
-  ~ As barrucadu:<br/>
-    `tmux new-session -sirc -d irssi`
+- **Host:** OVH (Kimsufi)
+- **Purpose:** lainchan radio and storing lainchan backups
+- **Operating System:** NixOS
+- **Monitoring:** yes
+- **Backups:** no
 
-yukibot
-  ~ As barrucadu in ~/projects/yukibot:<br/>
-    `./run-yukibot`
+#### Notes
 
-General use machines
---------------------
-
-### lainon.life ###
-
-Host
-  ~ OVH (Kimsufi)
-
-Purpose
-  ~ Lainchan radio
-  ~ Storing lainchan backups
-
-Operating System
-  ~ NixOS
-
-Configuration
-  ~ nixfiles/lainonlife.nix
-
-Issues
-  ~ Radio services need to start in a specific order,
-  `~/restart-all.sh` can fix them if they don't start properly
+The radio services need to start in a specific order,
+`~/restart-all.sh` can fix them if they don't start properly
