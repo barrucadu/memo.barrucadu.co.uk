@@ -1,0 +1,43 @@
+#! /usr/bin/env nix-shell
+#! nix-shell -i python3 -p "python3.withPackages(ps: [ps.feedparser ps.requests])"
+
+import feedparser
+import os
+import requests
+import sys
+
+uri = 'https://ap.barrucadu.co.uk'
+username = 'memo'
+password = os.environ['PLEROMA_PASSWORD']
+
+
+def check_prior_status(memo_link):
+    """Check if the prior status is the same as the status we want to post.
+    """
+
+    try:
+        status_feed = feedparser.parse(f'{uri}/users/{username}/feed')
+        return memo_link in status_feed.entries[0].content[0]['value']
+    except:
+        # failed to read from the feed, so either there is nothing
+        # there or the server had a hiccup - in either case go ahead
+        # and post the new status.
+        return False
+
+
+memo = feedparser.parse('https://memo.barrucadu.co.uk/atom.xml').entries[0]
+
+if check_prior_status(memo.link):
+    print('new status same as previous status')
+    if os.getenv('PLEROMA_NO_CHECK_PRIOR_STATUS') is None:
+        sys.exit(0)
+    else:
+        print('continuing anyway')
+
+r = requests.post(
+    f'{uri}/api/v1/statuses',
+    auth=(username, password),
+    json={'status': f'{memo.title}: {memo.link}'}
+)
+
+print(r.status_code)
