@@ -185,6 +185,7 @@ myPandoc = pandocCompilerWithTransformM ropts wopts pandoc where
 codeProcessors :: [(String, String, String -> String -> IO String)]
 codeProcessors =
   [ ("graphviz", "dot", graphvizToHtml)
+  , ("asciiart", "", \_ art -> pure ("<pre class=\"asciiart\">" ++ art ++ "</pre>"))
   , ("raw", "", const pure)
   ]
 

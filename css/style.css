@@ -65,6 +65,10 @@ pre.code {
     padding: 1em;
 }
 
+pre.asciiart {
+    line-height: normal;
+}
+
 th, td {
     font-size: 1.4rem;
 }
