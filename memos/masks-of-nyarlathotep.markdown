@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-03-17
+date: 2019-04-02
 audience: Narrow
 ---
 
@@ -1133,9 +1133,9 @@ Now, backstories.
 
 Lady Clarissa Ashdown, it's a bit unusual to be a Lady in your own
 right at such a young age.  Normally your mother would be "Lady
-Ashdown" by virtue of being married to your father, Lord Ashdown.  Are
-you actually a lady, or do you just call yourself that because you
-have noble parents?  What's your family situation like?[^england0_1]
+Ashdown" by virtue of being married to Lord Ashdown.  Are you actually
+a lady, or do you just call yourself that because you have noble
+parents?  What's your family situation like?[^england0_1]
 
 [^england0_1]: Possible follow ups depending on the answer: Is Lord
   Ashdown a member of the House of Lords?  Where are the Ashdowns
@@ -1409,3 +1409,175 @@ paintings.
 As you left the house, Wilhelmina asked what reptiles Bertha was
 caring for.  Bertha looked momentarily confused, as if she had
 forgotten about the reptiles, and then said snakes.
+
+
+England session 2, 2019-03-30
+-----------------------------
+
+### 12th of February, 1925 (evening)
+
+You discussed the events of the day.  Photos were taken of the symbol
+in the **Drawn in Blood** painting, in the hope that a photo might be
+easier to focus on.  You then parted ways.  Wilhelmina, suspicious of
+Edward Gavigan's refusal to show you the telegraphs from Sir Aubrey
+Penhew, decided to go stake out the Foundation, and asked Jason to
+join her.  The rest of you went home.
+
+On her way home, Clarissa realised she was being followed, and chased
+a man down an alley.  However, he gave her the slip in the thick fog,
+and she lost sight of where he went.
+
+Wilhelmina and Jason watched the Penhew Foundation for a few hours,
+learning that there is a single night watchman (who patrols
+infrequently) and, around the back, a yard large enough for delivery
+vehicles, with a visible store room and a coal chute.  You decided to
+return the following night and gain entry to the basement through the
+chute.
+
+### 13th of February, 1925
+
+You went to see Inspector Barrington at New Scotland Yard about the
+Egyptian Murders.  He was able to spare you a little time.  Throughout
+the interview he was quite cautious, not giving much away about the
+case, and asking about you and your interest.  He said that the press
+is calling the murders the "Egyptian Murders" because most of the
+victims were Egyptian nationals.  All of the victims are killed by
+being beaten and then stabbed through the heart.
+
+Barrington confirmed that he had met Jackson Elias.  Jackson Elias
+said he thought the murders were conducted by an Egyptian death cult
+known as the Cult of the Black Pharaoh, but due to the lack of
+evidence Barrington is not pursuing that particular avenue.
+Barrington spoke to the Penhew Foundation, who said that such an
+organisation did exist once, but died out centuries ago with no modern
+equivalent.
+
+You mentioned that you had dealt with a death cult in New York, and
+that such things are not unreasonable.  Barrington seemed unimpressed
+by this and quickly drew the interview to a close as you had no leads
+for him.
+
+After the interview Wilhelmina and Jason went to buy supplies to break
+into the Penhew Foundation that evening (they had still not shared
+their plans with Prof. Musgrave at this point).  The rest of you
+decided to have the photos of the painting developed and to arrange
+transport to Lesser Edale, to investigate the third newspaper article.
+
+The developed photos proved just as hard to focus on as the original
+painting, but Prof. Musgrave really concentrated, and realised that it
+was actually two overlapping symbols, which tricked the eye.  The
+symbols were:
+
+- An inverted ankh:
+
+  ```asciiart
+    |
+    |
+  --+--
+   / \
+   \_/
+    |
+  ```
+
+- A circle with two lines coming off it, like wings:
+
+  ```asciiart
+  __     __
+   _\   /_
+     \_/
+     / \
+     \_/
+  ```
+
+After sunset Wilhelmina and Jason returned to the rear of the Penhew
+Foundation.  Jason managed to force the padlock on the back gate,
+without breaking it, and you entered the yard.  In the yard Jason
+noticed an air intake vent, going underground, at the opposite side of
+the building to the coal chute.
+
+You descended the coal chute using a rope tied to a grappling hook,
+and found yourselves in a pile of coal.  Using flashlights you could
+see that you are in a large basement, approximately half as wide as
+the building (though not wide enough to include the air intake vent)
+with a low wall separating the coal heap from the main basement, which
+contained the boiler.  After stepping over the low wall you could see
+an elevator and a staircase up into the main building, and a door.
+
+You listened at the door, and couldn't hear anything.  You opened it
+cautiously, and found a storage room full of crates.  The discovered
+basement now consisted of an L shape:
+
+```asciiart
+ ________
+|     .  |
+|     .  |
+|     ...|
+|        |
+|        |_______
+|        |       |
+|                |
+|________|_______|
+```
+
+The air vent suggested an underground room in the missing area, but
+there were no more doors.  You tried to look behind crates against the
+back wall of the storage room, but they were flush against the wall.
+Quietly, to not alert the night watchman in the rooms above, you moved
+some crates.  This revealed a door.
+
+You listened at the door and, again, couldn't hear anything.  However,
+this time you were certain that the room was empty.  You opened the
+door.
+
+Inside the room your flashlights played over a collection of
+unexpected items: high quality furniture, evidently well cared for and
+used; strange paintings; books, crates, and an ornate chest.  The air
+vent was visible at the far end of the room, as was a ladder into the
+main building.
+
+Examining everything in the room, you found:
+
+- A .32 revolver and a box of bullets.
+- Several passports, for various genders and nationalities.  None of
+  the faces or names were familiar.
+- Bundles of five- and ten-pound notes, totalling thousands of pounds.
+- A receipt for the rental of a cast iron safe from Ernest Whitfield &
+  Co, Birmingham to Henson Manufacturing, Derby.  Strangely, it
+  appears to have no connection to the Penhew Foundation.
+- A letter from Puneet Chaudhary of Limehouse relating to the
+  warehousing and shipping of "sundry antiquities" to Shanghai.
+- A business card for Empire Spices in Soho.
+- Egyptian-style artwork of strange creatures:
+  - A dark winged thing, somehow both leprous and scaly.
+  - A winged hulking beast, with a dragon-like tail and a fang-rimmed
+    jaw.
+  - A group of people with deformed faces and too-large eyes.
+  - A man on fire and surrounded by colourful lights, but his features
+    shrouded in darkness.
+- A large sealed crate addressed to "Ho Fang Import/Export, 15 Kaoyang
+  Street, Shanghai, China".
+- A smaller sealed crate addressed to "Randolph Shipping Company, Port
+  Darwin, Northern Territory, Dominion of Australia".  This crate had
+  the winged-circle symbol on it.
+- An ornate wooden chest decorated with silver depictions of strange
+  creatures that look like a cross between a lizard and an ape with
+  too-long arms, which contained two ornate silver daggers.
+- Books in many languages.
+
+Not wanting to leave any evidence of your presence, you took
+photographs but didn't disturb or take anything.
+
+You then snuck back out of the building and left, locking the gate
+behind you.
+
+### 14th of February, 1925
+
+Jason and Wilhelmina finally told Prof. Musgrave that they still
+suspected the Penhew Foundation, and asked his opinion on the
+paintings, handing him the photos they took.  After spending some
+hours in his study, Prof. Musgrave found features in the artwork which
+clearly dated it to the Third Dynasty, which is when the Black Pharaoh
+is said to have ruled.  Caught up in his research, he almost missed
+the train to Derby.
+
+You then all set off for Lesser Edale.
