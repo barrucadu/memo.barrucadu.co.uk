@@ -5,6 +5,8 @@ date: 2019-04-07
 audience: General
 ---
 
+![The Concourse dashboard](/concourseci-on-nixos/dashboard.png)
+
 I recently switched from the venerable [Jenkins][] to [Concourse
 CI][].  The main reason is that I'm going to be working on a Concourse
 thing at work, so it seemed a good idea to get familiar with the
@@ -397,6 +399,8 @@ even a script).
 
 Example Pipeline: barrucadu.co.uk
 ---------------------------------
+
+![The barrucadu.co.uk pipeline](/concourseci-on-nixos/barrucadu.co.uk-pipeline.png)
 
 Now let's look at a somewhat-complex example pipeline, the one which
 deploys www.barrucadu.co.uk and memo.barrucadu.co.uk.  There are three
