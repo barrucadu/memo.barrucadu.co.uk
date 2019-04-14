@@ -4,7 +4,9 @@ packages:
 extra-deps:
 - pandoc-sidenote-0.19.0.0
 - monad-gen-0.3.0.1
-resolver: lts-12.2
+- hakyll-4.12.5.1
+- lrucache-1.2.0.1
+resolver: lts-13.16
 nix:
   pure: false
   enable: true
