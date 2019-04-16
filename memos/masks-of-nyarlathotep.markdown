@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-04-02
+date: 2019-04-16
 audience: Narrow
 ---
 
@@ -41,6 +41,9 @@ Notable possessions
 
 - Wilhelmina's rusty bike, which she found on the streets of Lima one
   day.
+
+- A golden mirror, found in Peru, similar in design to artefacts found
+  in Tiwanaku.  Gave Prof. Musgrave a vision when he looked into it.
 
 ### Found in America
 
@@ -1581,3 +1584,129 @@ is said to have ruled.  Caught up in his research, he almost missed
 the train to Derby.
 
 You then all set off for Lesser Edale.
+
+
+England session 3, 2019-04-13
+-----------------------------
+
+### 14th of February, 1925 (mid afternoon)
+
+You arrived in Edale, which is far as the train can take you.  You
+walked the five miles to Lesser Edale in a little under two hours,
+with rain starting just before you arrived at the village pub, the
+Laughing Horse Inn.
+
+Lesser Edale is home to the Vane family, currently presided over by
+Lord Arthur Vane.  The Vanes live in Plumb Castle to the north of the
+village.  Clarissa knows of them, but has not met them in years.
+
+You quietly asked Bill Tatlock, the landlord, about the recent
+murders.  He said that "folk around here don't like to talk about it"
+but, with a little encouragement, told you that the murders happened
+three months ago during the nights of the full moon.  George Osgood
+and Lydia Perkins were killed, Harold Short was attacked but survived,
+and has gone to his brother in Skegness.  Constable Tumwell shot a
+wild dog, and he thinks the matter is settled, but there have been
+strange howls on the nights of the full moon---which starts tomorrow.
+
+You decided to split up and go talk to the families of the victims.
+Dr. Crane and Lady Ashdown went to see John Perkins, father of Lydia
+Perkins; the rest of you went to see where Harold Short was attacked
+and then go on to the Osgood farm.
+
+Dr. Crane knocked on the door, and was answered by John Perkins.
+Dr. Crane introduced himself and Clarissa, and upon hearing the title
+*Lady* Ashdown, John took a step back in shock and said "Another one!
+Come back for more, have you?"  He started ranting about the
+unjustness of the British class system and how the Labour party would
+put a stop to this[^feb14_1].
+
+[^feb14_1]: The Labour party had experienced a rapid increase in vote
+  share since about 1910, which probably contributes to John's high
+  hopes.
+
+After several minutes of this, Dr. Crane asked if this was something
+to do with Lord Vane (Clarissa was keeping quiet).  You learned that
+John thinks that Lawrence Vane, son of Lord Arthur Vane, had something
+to do with the death of Lydia, who was found mauled.  Lawrence was
+seen nearby on the night of Lydia's death, though "he had no reason to
+be here".  The police talked to Lawrence Vane but declared him
+innocent, but "the police won't charge these aristocrats".  You also
+learned that both Lord Arthur and Lawrence had been away recently,
+Lawrence returned six months ago and Lord Arthur three or four.
+Although seeming somewhat unhinged, John seemed to believe everything
+he said about Lawrence being the culprit (or at least very close to
+the culprit).  After managing to extract yourselves from the
+conversation, you examined his field where the body had been found,
+but found no clues.
+
+Wilhelmina, Prof. Musgrave, and Jason went to Harold Short's house,
+but nobody was at home.  You continued on to the Osgood farm, and
+there met Edith Osgood, wife of George Osgood.  She said that George
+heard a noise in the barn and went to investigate, taking his shotgun
+with him.  She heard a shot, and a scream.  She looked out of the
+window and saw a hairy form, the height of a man, running away on all
+fours into the woods to the north.  "It was a demon", she said.  Upon
+mustering her courage, she went to the barn and found the mauled form
+of George Osgood.  The sheep in the barn had not been attacked.
+
+You all returned to the pub, where you stayed the night.
+
+### 15th of February
+
+You decided to pay Lord Vane a visit, and went to Plum Castle first
+thing in the morning, leaving your calling cards to request a social
+visit.
+
+You visited the police station, which is clearly just a house, but
+didn't find anybody in.  You then returned to the pub, and there met
+Constable Tumwell, the police force for Lesser Edale.  You asked him
+about the murders, and he said that there had been no trouble since he
+shot the wild dog, the case is closed in his opinion.  When asked
+about the howling he said that there are always wild animals in the
+countryside, but these don't seem to be causing any trouble.
+
+You went back to his house to use his phone to ring Harold Short.  You
+got in touch with his brother, Thomas Short, who said that Harold
+couldn't possibly talk about the events of that night, as he was still
+recovering.  You failed to persuade Thomas to tell you any more
+details than you already knew.
+
+You then visited the village church.  The church building is quite
+new, but the foundations of the old can be seen in the grounds, which
+are partly cemetery.  Next to the church is a vicarage.  Inside the
+church you found Reverend Jeremy Stratton.
+
+You asked Rev. Stratton about the murders, and he said that he
+understood Constable Tumwell had shot a wild dog, and that that seemed
+to be the end of it.  Jason could tell he wasn't being entirely
+truthful, and that he really didn't think the shooting of the dog had
+achieved anything.  Jason hinted at this quite strongly, but
+Rev. Stratton simply said that he hopes life in the village can return
+to normal.
+
+You then turned to the topic of the Vanes.  Rev. Stratton said that
+Lord Arthur spent most of his time in London, taking his role in the
+House of Lords very seriously.  In addition to a son, Lawrence, there
+is a daughter, Eloise.  Lord Arthur returned about four months ago and
+has remained in Lesser Edale to care for Eloise, who has taken ill.
+You asked how long ago Eloise fell ill, but the Reverend thought that
+you were beginning to pry upon personal matters, and ended the
+conversation.
+
+Outside the church, you found a groundskeeper.  Jason approached him
+and tried to make conversation, but mostly got grumblings and
+laughter.  Nearby you spotted the new graves of George Osgood and
+Lydia Perkins, and noticed they had a small silver crucifix over their
+headstones.  You asked the groundskeeper about these, and his good
+natutre fell away immediately, as he said "these are local matters,
+they don't concern outsiders", and turned away.  You pressed him to
+continue, and he said "they were murdered by the beast, them
+crucifixes will keep 'em down where they belong; don't want 'em
+turning", and he stalked off.  Jason tried to get him to say more, but
+he wouldn't.
+
+As tonight is the first night of the full moon, you decided to arm
+yourselves and go to a high location to try to identify the source of
+the howling.  Dr. Crane visited John Perkins and rented three
+shotguns.
