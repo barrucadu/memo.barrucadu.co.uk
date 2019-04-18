@@ -36,15 +36,6 @@ main = hakyllWith defaultConfiguration $ do
     route $ dropPat "css/"
     compile compressCssCompiler
 
-  -- tufte-css files
-  match "tufte-css/tufte.css" $ do
-    route $ dropPat "tufte-css/"
-    compile compressCssCompiler
-
-  match "tufte-css/et-book/**" $ do
-    route $ dropPat "tufte-css/"
-    compile copyFileCompiler
-
   -- MathJaX
   match "MathJax/**" $ do
     route idRoute
