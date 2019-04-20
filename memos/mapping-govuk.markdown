@@ -102,9 +102,16 @@ The structure of the organisation network looks like this:
 
 ![Network showing organisation--organisation links.  [Full size (10240x10240).](/mapping-govuk/organisations.png)](/mapping-govuk/organisations.thumb.png)
 
-But as we'll see in the next two subsections, an organisation with a
-lot of related organisations (like BEIS) doesn't necessarily have a
-lot of content.
+Some organisations are linked to multiple others.  I guess this means
+that the child organisation is run as a collaboration under both of
+the others.  For instance, the organisation linked to both BEIS and
+DCMS is the [Office for Artificial Intelligence][].
+
+[Office for Artificial Intelligence]: https://www.gov.uk/government/organisations/office-for-artificial-intelligence
+
+As we'll see in the next two subsections, an organisation with a lot
+of related organisations (like BEIS) doesn't necessarily have a lot of
+content.
 
 ### Content linking to its related organisations
 
