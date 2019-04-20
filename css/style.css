@@ -213,7 +213,7 @@ input.margin-toggle, label.margin-toggle:not(.sidenote-number) {
 }
 
 pre, code {
-    font-family: 'Fira Mono';
+    font-family: 'Fira Mono', monospace;
 }
 
 pre.code, blockquote {
