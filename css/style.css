@@ -241,6 +241,6 @@ table {
     margin-right: auto;
 }
 
-img {
+img, svg {
     max-width: 100%;
 }
