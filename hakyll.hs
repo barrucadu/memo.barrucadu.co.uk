@@ -75,8 +75,9 @@ memoCompiler tags = do
     >>= saveSnapshot "content"
     >>= loadAndApplyTemplate "templates/memo.html"    (memoCtx toc tags)
     >>= loadAndApplyTemplate "templates/return.html"  defaultContext
-    >>= loadAndApplyTemplate "templates/wrapper.html" defaultContext
+    >>= loadAndApplyTemplate "templates/wrapper.html" (wrapperCtx "BlogPosting")
     >>= relativizeUrls
+    >>= fixHtml
 
 -- | Render a memo listing page
 memoList :: Maybe String -> Tags -> Pattern -> Rules ()
@@ -91,8 +92,9 @@ memoList tag tags pat = do
     makeItem ""
       >>= loadAndApplyTemplate "templates/memo-list.html" ctx
       >>= (if isJust tag then loadAndApplyTemplate "templates/return.html" ctx else pure)
-      >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
+      >>= loadAndApplyTemplate "templates/wrapper.html"   (wrapperCtx "Blog")
       >>= relativizeUrls
+      >>= fixHtml
 
 memoCtx :: [(String, String)] -> Tags -> Context String
 memoCtx toc tags = mconcat
@@ -104,6 +106,11 @@ memoCtx toc tags = mconcat
   , defaultContext
   ]
 
+wrapperCtx :: String -> Context String
+wrapperCtx itemType = mconcat
+  [ constField "item_type" itemType
+  , defaultContext
+  ]
 
 -------------------------------------------------------------------------------
 -- * Rendering feeds
@@ -165,6 +172,18 @@ myPandoc = pandocCompilerWithTransformM ropts wopts pandoc where
 
     getArg _ (':':arg) = arg
     getArg def _ = def
+
+-- | 'relativizeUrls' (and other bits of hakyll perhaps?) uses
+-- TagSoup, which is rather opinionated about how HTML should be
+-- written, and is actually wrong.
+fixHtml :: Item String -> Compiler (Item String)
+fixHtml = pure . fmap fixup where
+  fixup = replace "itemscope=\"\"" "itemscope"
+
+  replace from to s@(x:xs) = case stripPrefix from s of
+    Just rest -> to ++ replace from to rest
+    Nothing -> x : replace from to xs
+  replace _ _ [] = []
 
 
 -------------------------------------------------------------------------------

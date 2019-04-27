@@ -1,34 +1,38 @@
-<header>
-  <h1>$title$</h1>
+<article>
+  <header>
+    <h1 itemprop="headline name">$title$</h1>
 
-  <p>
-    Atom feed
-    $if(tag)$
-    <a href="/tag/$tag$.xml">for the '$tag$' tag</a> or
-    $endif$
-    <a href="/atom.xml">for all memos</a>.
-  </p>
-</header>
+    <p>
+      Atom feed
+      $if(tag)$
+      <a href="/tag/$tag$.xml">for the '$tag$' tag</a> or
+      $endif$
+      <a href="/atom.xml">for all memos</a>.
+    </p>
+  </header>
 
-<section>
-  <ol class="navigation-list">
-    $for(memos)$
-    <li class="navigation-list-item">
-      <h2 class="list-title"><a href="$url$">$title$</a></h2>
+  <section>
+    <ol class="navigation-list">
+      $for(memos)$
+      <li itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="navigation-list-item">
+        <h2 itemprop="headline name" class="list-title"><a itemprop="mainEntityOfPage url" href="$url$">$title$</a></h2>
 
-      <dl class="list-metadata">
-        <dt class="list-metadata-label">Audience:</dt>
-        <dd class="list-metadata-value">$audience$</dd>
-        <dt class="list-metadata-label">Updated:</dt>
-        <dd class="list-metadata-value"><time datetime="$isodate$">$ppdate$</time></dd>
-        $if(deprecated_by)$
-        <dt class="list-metadata-label">Replacement:</dt>
-        <dd class="list-metadata-value"><a href="/$deprecated_by$.html">$deprecated_by$</a></dd>
-        $endif$
-        <dt class="list-metadata-label">Tags:</dt>
-        <dd class="list-metadata-value">$tags$</dd>
-      </dl>
-    </li>
-    $endfor$
-  </ol>
-</section>
+        <dl class="list-metadata">
+          <dt class="list-metadata-label">Audience:</dt>
+          <dd class="list-metadata-value">$audience$</dd>
+          <dt class="list-metadata-label">Updated:</dt>
+          <dd class="list-metadata-value"><time itemprop="dateModified" content="$isodate$"  datetime="$isodate$">$ppdate$</time></dd>
+          $if(deprecated_by)$
+          <dt class="list-metadata-label">Replacement:</dt>
+          <dd class="list-metadata-value"><a href="/$deprecated_by$.html">$deprecated_by$</a></dd>
+          $endif$
+          <dt class="list-metadata-label">Tags:</dt>
+          <dd class="list-metadata-value">$tags$</dd>
+        </dl>
+
+        $partial("templates/person-me.html")$
+      </li>
+      $endfor$
+    </ol>
+  </section>
+</article>

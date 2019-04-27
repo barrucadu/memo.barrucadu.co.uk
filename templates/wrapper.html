@@ -18,9 +18,11 @@
     <script src="/MathJax/MathJax.js?config=TeX-AMS_CHTML" async></script>
   </head>
 
-  <body>
-    <article>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <article itemscope itemtype="http://schema.org/$item_type$" itemprop="mainEntity">
       $body$
-     </article>
+
+      $partial("templates/person-me.html")$
+    </article>
   </body>
 </html>
