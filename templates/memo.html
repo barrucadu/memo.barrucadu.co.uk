@@ -1,17 +1,32 @@
 <header>
   <h1>$title$</h1>
 
-  $partial("templates/metadata.html")$
+  <div class="flex-grid">
+    $if(has_toc)$
+    <nav class="flex-item">
+      <ol class="navigation-list">
+        $for(toc)$
+        <li class="navigation-list-item"><a href="#$anchor$">$text$</a></li>
+        $endfor$
+      </ol>
+    </nav>
+    $endif$
 
-  $if(has_toc)$
-  <nav>
-    <ol>
-      $for(toc)$
-      <li><a href="#$anchor$">$text$</a></li>
-      $endfor$
-    </ol>
-  </nav>
-  $endif$
+    <div class="flex-item">
+      <dl class="header-metadata">
+        <dt class="header-metadata-label">Target audience:</dt>
+        <dd class="header-metadata-value">$audience$</dd>
+        <dt class="header-metadata-label">Last updated:</dt>
+        <dd class="header-metadata-value"><time datetime="$isodate$">$ppdate$</time></dd>
+        $if(deprecated_by)$
+        <dt class="header-metadata-label">Replaced by:</dt>
+        <dd class="header-metadata-value"><a href="/$deprecated_by$.html">$deprecated_by$</a></dd>
+        $endif$
+        <dt class="header-metadata-label">Tags:</dt>
+        <dd class="header-metadata-value">$tags$</dd>
+      </dl>
+    </div>
+  </div>
 </header>
 
 <section>
