@@ -88,11 +88,11 @@ memoList tag tags pat = do
     let ctx = maybe id (\t -> (constField "tag" t <>)) tag $
               constField "title" (titleFor tag) <>
               listField "memos" (memoCtx [] tags) (return entries) <>
-              defaultContext
+              wrapperCtx "Blog"
     makeItem ""
       >>= loadAndApplyTemplate "templates/memo-list.html" ctx
       >>= (if isJust tag then loadAndApplyTemplate "templates/return.html" ctx else pure)
-      >>= loadAndApplyTemplate "templates/wrapper.html"   (wrapperCtx "Blog")
+      >>= loadAndApplyTemplate "templates/wrapper.html"   ctx
       >>= relativizeUrls
       >>= fixHtml
 
