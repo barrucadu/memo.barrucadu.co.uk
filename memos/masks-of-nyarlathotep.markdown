@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-04-16
+date: 2019-04-29
 audience: Narrow
 ---
 
@@ -1710,3 +1710,114 @@ As tonight is the first night of the full moon, you decided to arm
 yourselves and go to a high location to try to identify the source of
 the howling.  Dr. Crane visited John Perkins and rented three
 shotguns.
+
+
+England session 4, 2019-04-27
+-----------------------------
+
+### 15th of February (late afternoon)
+
+With not much to do until sunset, you returned to the church to ask if
+you could buy any silver crucifixes, like those on the graves.  You
+were told no, the silver belongs to the Church and is not for sale.
+
+At sunset you went up a hill, and a little after the moon rose the
+howling started.  The sound seemed to be coming from every direction,
+echoing so much you couldn't tell if it was one voice or many.
+Clarissa recognised the sound from a story she had once heard, about
+ghouls: man-sized creatures which eat human flesh.
+
+You decided to walk towards Plum Castle to see if the sound was coming
+from there.  The howling steadily got louder as you did.  About half
+way between the castle and the village, you found a torn scrap of
+frilly cloth, perhaps from a dress.  It had clearly been out in the
+elements for a while.
+
+When you arrived at the crumbling outer wall of the castle, you could
+tell that the howling was coming from somewhere inside the castle
+grounds, on the opposite side of the keep to where you were.  You
+snuck around the building, paying close attention to the windows, and
+stopped facing the mausoleum.  You could see light reflected on the
+ground, a room in the keep had a lighted window.
+
+```asciiart
+    x <- you are here
+_____
+     |                       ___________
+     |                      |           |
+keep |                      | mausoleum |
+     | <- lighted window    |           | <- door
+     |                      |           |
+```
+
+Wilhelmina crept to the window and listened.  She heard two male
+voices, one older and one younger, having some sort of argument.  The
+younger said "we can't keep this hidden... this nightly ordeal... we
+need help!" the older said "no, we can't involve outsiders."
+
+You snuck across to the mausoleum and around to the big double doors,
+which face away from the keep.  You listened, but couldn't hear
+anything other than the howling.  You carefully pushed the door open,
+and saw just a mausoleum, no movement, no creatures.  The howling
+seemed to be coming from a staircase to a lower level.  You descended
+it, and saw nothing again---the howling filled the room.
+
+Jason found a loose floor slab, which revealed a narrow man-made shaft
+with a rusty ladder, descending into what looked like a natural cave.
+You descended, and saw a tunnel.  Clarissa realised the tunnel headed
+towards the keep.  You followed it.
+
+You arrived at a brick wall, and the howling was now very loud.
+
+Wilhelmina found a hidden mechanism to open a door in the wall.
+Everyone readied their guns.  Wilhelmina flung the door open, but even
+as she was opening it the creature burst through: man-tall, with a
+dog-like face, grey skin, shaggy hair, and yellow talons.  Dr. Crane
+panicked, losing the ability to focus.  Jason fired two shots,
+flinging the creature back into the room whence it came.  It didn't
+get up.
+
+You saw that the room was a dungeon cell.  When you looked at the
+creature again, it had transformed into a young girl, you guessed to
+be Eloise Vane, with a gaping wound in her chest from the shotgun
+blast.  Dr. Crane rushed into the cell, trying to help the girl, who
+was obviously dead.  He began grinding his teeth from stress.
+
+You heard a door opening inside the keep, and rapid footsteps.
+Dr. Crane wouldn't leave the girl, and Jason stayed behind with him.
+The rest of you fled back through the tunnel.
+
+Two men with shotguns entered, who you guessed to be Arthur and
+Lawrence Vane.  When Lawrence saw Eloise, he collapsed to his knees.
+Arthur alternately demanded "what have you done?" and "where did you
+come from?", gesturing towards the hidden door.  Dr. Crane looked up
+sadly and said "the mausoleum", and Arthur sent Lawrence to it after
+dragging him to his feet.  Jason tried to reason with Arthur, saying
+that it had to be done, that there had been enough death in the
+village already, but didn't get through.  Arthur said that you would
+be staying there, and left.
+
+Those of you who fled escaped back to your rooms at the pub.
+
+### 16th of February
+
+Prof. Musgrave, Wilhelmina, and Clarissa planned a rescue operation
+for that evening.
+
+In the morning, Dr. Crane and Jason were left alone, though they heard
+hammering from the secret passage.  In the afternoon, Arthur and
+Lawrence returned.  Jason again tried to persuade Arthur, but is just
+told to get back, as Lawrence pointed the gun at you.  Arthur took
+Eloise's body, and they left you alone and locked in again.
+
+In the evening, Prof. Musgrave, Wilhelmina, and Clarissa returned to
+the mausoleum the way they came.  The door had been boarded shut.
+They tried to pull the boards out by hand, but lost their grip and
+loudly fell back into a puddle.  A door in the keep opened, and you
+managed to hide before Lawrence arrived.  He looked around, but didn't
+see anything, and returned to the keep.
+
+You then broke into a garden shed, and found a claw hammer and a
+shovel.  You returned to the mausoleum, and removed the wood.  You
+reunited with Dr. Crane and Jason, and all travelled cross-country
+through the night to Edale, to get the first train back to London.
