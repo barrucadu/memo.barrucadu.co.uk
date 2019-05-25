@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-04-29
+date: 2019-05-26
 audience: Narrow
 ---
 
@@ -49,7 +49,8 @@ Notable possessions
 
 - A cloth headdress with a severed human tongue attached to the front.
 
-- A robe made of feathers.
+- <span style="color:red;font-weight:bold">[Stolen]</span>
+  A robe made of feathers.
 
 - The book **Africa's Dark Sects**, which Jackson Elias was looking
   for at Harvard University Library.  The book details Nigel
@@ -58,12 +59,14 @@ Notable possessions
   the monster they worship.  It contains one spell, and will take
   several weeks to study fully.
 
-- A woven wooden mask, like a woven basket, but with no eyeholes.  On
+- <span style="color:red;font-weight:bold">[Stolen]</span>
+  A woven wooden mask, like a woven basket, but with no eyeholes.  On
   the top of the mask are four monstrous faces, at right angles to
   each other.  Prof. Musgrave identified the mask being possibly from
   the Congo.
 
-- A wooden sceptre carved with hieroglyphics saying "Nyambe, Thy Power
+- <span style="color:red;font-weight:bold">[Stolen]</span>
+  A wooden sceptre carved with hieroglyphics saying "Nyambe, Thy Power
   Mine".  From the context, Nyambe is a given name, but not one any of
   you are familiar with.
 
@@ -470,8 +473,6 @@ points.
 
 America session 1, 2018-11-24
 -----------------------------
-
-### Intro
 
 It's 1925, four years after the events of Peru, and you have all
 received a message from Jackson Elias saying that he's uncovered new
@@ -1090,8 +1091,6 @@ The next chapter will begin with you arriving in England.
 
 England session 1, 2019-03-16
 -----------------------------
-
-### Intro
 
 It's been nine uneventful days at sea since you departed New York, and
 now Southampton is in sight.  From there you can catch a train to
@@ -1821,3 +1820,263 @@ You then broke into a garden shed, and found a claw hammer and a
 shovel.  You returned to the mausoleum, and removed the wood.  You
 reunited with Dr. Crane and Jason, and all travelled cross-country
 through the night to Edale, to get the first train back to London.
+
+
+England session 5, 2019-05-11
+-----------------------------
+
+### 17th of February
+
+You all returned to your homes after travelling through the night, and
+made some discoveries: Jason found footprints in the dust, leading to
+a window; Arthur found the police at his house, and some of the New
+York artefacts stolen.  The feather robe, the wooden mask, and the
+wooden sceptre were all taken; other more mundane artefacts in the
+same room had not, despite it having been ransacked.  The police
+thought that the house had probably been visited multiple times, as
+there were multiple signs of entry at different points.  Arthur's wife
+had been home during all this, but not discovered anything until the
+robbery itself.  You spoke to the neighbours, but they had nothing new
+to share.
+
+Carson suffered a hallucination where he thought there was someone
+else in his hotel room with him, and turned to see the ghoul form of
+Eloise Vane fatally wounded but alive and watching him.  He came to
+his senses on a train bound for Southampton, and got off at the next
+stop.  He then spent the rest of the day in the local pub
+recuperating.
+
+The rest of you systematically examined everyone's homes for signs of
+trespass.  At Prof. Musgrave's house you found footprints of multiple
+people in the garden, and the same in the gardens of Clarissa's house,
+where Jason was staying.  When questioned, Clarissa's butler mentioned
+that some "ruffians" had been loitering near the house, and he had
+chased them off.  You managed to talk your way into Carson's hotel
+room, despite his absence, and found that the tongue-mask hadn't been
+taken.  You advised the hotel staff that you had reason to believe
+Carson's room could be targeted for a robbery, and that they should
+increase security if possible.
+
+Jason spent the rest of the day going through Clarissa's garden trying
+to track the footprints, but with no luck.  That evening Jason and a
+band of brutish thugs (or possibly thuggish brutes) he managed to
+round up from a pub kept an eye on Carson's hotel, but saw nothing.
+
+### 18th of February
+
+You decided to follow up on the Empire Spices business card you found
+in the hidden room of the Penhew Foundation's basement, and went to
+visit.  You asked around as you approached, and found that it's a
+generally well-regarded shop that gets a lot of custom.  You arrived
+at 76 Wardour Street to find a two-storey building full of spices from
+all around the globe.  While browsing you talked to Zahra Shafik, the
+owner, mentioning you had heard about Empire Spices while at the
+Penhew Foundation.  Shafik said that she sometimes helped the
+Foundation with expedition preparations, giving advice on local
+customs, fashioning introductions to the local authorities, that sort
+of thing.  You bought some spices and left.
+
+That evening you decided to go investigate the Shipley house, and find
+out what was going on there once and for all.  You arrived to find the
+house dark.  As you watched it, you saw Miles leave; Arthur and Carson
+followed him into the fog.  The rest of you snuck around the back of
+the house to the garden, and picked the lock on the gate.
+
+Miles spotted Arthur and Carson, and then headed into a nearby pub.
+They followed him in, and accosted him at the bar, sitting down with
+him and drawing him into conversation about his recent work.  He
+seemed uncomfortable, but unable to extract himself from the
+conversation.
+
+Jason picked the padlock on the trapdoor into the basement, and you
+all entered cautiously.  It was messy, with boxes, crates, and old
+furniture strewn around.  There was a path through the junk to the
+south wall.  Jason spotted the outline of a partially hidden door in
+the wall, and opened it by pushing a brick.  The door swung open, with
+a cloud of snake-smell pouring out into the basement.  The hidden room
+was unoccupied.
+
+The room contained shelves covered with jars, some filled with liquid,
+some filled with ground-up solids.  One wall was covered in mystic
+symbols.  At the base of another wall was a large stone tub covered
+with a metal lid.  Clarissa took some of the jars.  Jason cautiously
+removed the lid of the tub and revealed the severed head and butchered
+body of a naked woman, covered in large claw marks.
+
+
+England session 6, 2019-05-25
+-----------------------------
+
+### 18th of February
+
+Clarissa, Jason, and Wilhelmina left the basement and moved onto the
+Shipley house.  Jason picked the lock of the back door, and you snuck
+into the kitchen.  Wilhelmina crept up the stairs, quickly looking at
+the three open bedrooms, still dusty and showing no signs of recent
+use, and peered through the lock of the shut one.  She couldn't see or
+hear anything.  As Wilhelmina focused on the door, there was a noise
+from the attic room[^feb18_1].  Wilhelmina crept back downstairs to
+relay her findings.
+
+[^feb18_1]: Where you previously saw Miles' paintings.
+
+You decided to pick the lock on the bedroom door and see what was
+inside.  You snuck to the door, and Jason picked the lock.  He
+succeeded, but had to force the door as it was stuck on something in
+the room.  As soon as he put some strength into it, the door knocked
+the obstacle free, and swung open noiselessly.  There were no sounds
+from the attic to indicate awareness of you.
+
+You went into the bedroom, shut the door behind you, and took out
+torches.  You saw Miles' clothes, scattered around.  Inside the closet
+you found a fancy wooden box containing a syringe and a vial of
+greenish liquid.  The syringe had been used so much that it was
+stained where it had been repeatedly filled up to.  You took the box,
+and decided to lure Bertha out of the attic so you could see what she
+was doing in there.
+
+Wilhelmina went back downstairs and made a loud noise by banging some
+pans together, before running out through the back door.  Bertha
+shouted "Miles, is that you?" and left the attic.  Jason and Clarissa
+quickly went up the stairs.  They found a padlocked cabinet, its door
+open, in the middle of the room.  Inside the cabinet was an incredibly
+realistic painting, clearly Miles' masterpiece.  You grabbed the
+painting and headed back down to the first floor, and escaped through
+a bedroom window onto the street.  Rather than wait around for Bertha
+to realise that she had been robbed, you fled back to Clarissa's home.
+
+Some time later Arthur and Carson returned, Miles having extracted
+himself from the conversation at last.
+
+### 19th of February
+
+Around noon you all met up at Clarissa's home, Carson nursing a bad
+hangover.  You decided to send the police an anonymous tip about the
+body you found in the basement of the Shipley house, and then set to
+examining your findings.  Carson looked at the greenish liquid, but
+hadn't seen or heard of anything like it before.  Clarissa sent a
+servant to catch a rat, and Carson measured out a small dosage.
+
+When the servant returned with the rat, Carson took out a notebook,
+and injected the rat with the liquid.  The rat stood still, eyes
+bulging, looking around.  It remained that way for about half an hour,
+before returning to normal with no apparent side-effects from its
+temporary paralysis.
+
+While Carson was observing the rat, Arthur and Clarissa examined the
+painting.  Jason averted his gaze.  Despite being clearly incomplete,
+it was incredibly realistic, even by Miles' usual standard.  The
+painting depicted a swampy area filled with serpents and humanoid
+lizards.  In the middle of the swamp was an island with an altar on
+it.  The swamp was surrounded by ancient plants which Arthur
+identified as being the extinct flora of the Permian era[^feb19_1].
+As you looked at the painting, the figures on it seemed to move
+purposefully, though you couldn't tell what they were doing.
+
+[^feb19_1]: 300 to 250 million years ago.
+
+After the rat recovered, Carson judged that the drug must be some sort
+of hallucinogenic.  Clarissa volunteered to try the drug.  After
+laying her down on a sofa, Carson measured out a half dose and
+injected her.
+
+Clarissa felt her viewpoint rapidly pulled backwards out of her body,
+which she could no longer feel.  She found herself in Egypt in front
+of a pyramid, and felt as if she had travelled in time.  She saw five
+Europeans entering the pyramid, and she followed them.  She recognised
+them as the members of the Carlyle expedition.  Her vision blurred,
+and the people were gone.  She felt as if she had travelled in time
+again.  She felt like she wasn't alone, as if some presence were aware
+of her and watching her, and this presence felt amusement at this.
+She was pulled upwards, through the rock of the pyramid, into the sky.
+She saw a great shadow covering the land, and turned to see the sun
+being eclipsed.  She was pulled up into space.  She saw a burst of
+light from the ground, and a rocket climbing towards her.  The rocket
+passed her and, as the eclipse became total, exploded.  Despite now
+being in space she felt a shockwave pass through her.  A great
+triangular rent appeared in space, somehow blacker than the
+surrounding space.  Inside the rent was a sole red star, which felt
+malevolent.  Clarissa was drawn towards the red star and as she was
+about to pass through the triangular rent, awoke in hysterics.  An
+hour and a half had passed.
+
+Unable to calm her down, Carson gave her a sedative, and she slept for
+a few more hours.  After waking up she shared the vision, and you
+realised it had similarities with Roger Carlyle's vision which he
+described to Robert Huston.
+
+### 20th of February to 3rd of March
+
+I suggested you make an **Idea Roll** to pick up on a missed
+opportunity for investigation.
+
+Retracing your steps, going over your clues again, and trying to work
+out where you should go next, you realised that, despite the
+suspicious nature of Edward Gavigan and the Penhew Foundation, you
+hadn't done anything more than break in and explore.  So you decided
+to take turns watching Gavigan and the Foundation.
+
+After several days you knew that Gavigan was a man of habit.  He
+arrived at the Foundation at the same time every morning.  He went out
+for lunch to the same place every day at the same time.  He left the
+Foundation and went to one of a handful of restaurants at the same
+time every evening, before then going home.
+
+One day he did something different.  At lunch time he headed not
+towards his usual restaurant, but towards Wembley.  Clarissa was
+watching at the time, and followed him to the British Empire
+Exhibition.
+
+Gavigan met a woman wearing a headscarf who Clarissa realised was
+Zahra Shafik, owner of Empire Spices.  Unable to get close enough to
+hear the full conversation, Clarissa only received these snippets:
+
+- "friends of that irritating journalist"
+- "they came to the shop"
+- "shame, I have the greatest respect for him professionally, but"
+- "my sources say they were in New York"
+- "break in at the Foundation"
+- "they can't be allowed to interfere with the shipments"
+
+They then parted ways.  Clarissa informed the rest of you, and you
+promptly decided to interfere with the shipments, assuming this
+related to the crates addressed to Australia and Shanghai you found in
+the secret room in the Penhew Foundation basement.
+
+### 3rd of March to 9th of March
+
+Figuring that a truck would arrive at the Foundation at some point to
+collect the crates, you kept up your watch.  One night when Arthur was
+watching, this happened.  He followed the truck to a warehouse in
+Limehouse, and paid a street urchin to go and tell the rest of you
+where he had gone.  Arthur entered the warehouse and asked the owner,
+Puneet Chaudhary, about shipments from the Penhew Foundation.
+Chaudhary said that he had been warehousing things for the Foundation
+for a while, and that the shipping was done by a vessel called the
+Ivory Wind, currently docked in the Regent's Canal Dock and due to set
+sail in a few days.
+
+Arthur left the warehouse, by which time the rest of you had arrived.
+You went to the dock and found the ship, where a crew member said that
+the captain was at the pub.  You went to the local pub and found him,
+Lars Torvak, a heavily drinking Norwegian man.
+
+You asked about booking travel to Shanghai.  Lars was surprised by
+this, saying that his ship doesn't normally carry passengers, but you
+said that there were people you wanted to keep out of the sight of.
+He agreed to take you.  You then asked about his shipments, and if you
+could inspect them.  You failed to persuade him, and he said "I'll
+pretend I didn't hear that."
+
+### 11th of March
+
+A few days later the Ivory Wind set sail, with you aboard.
+
+### End
+
+This is the end of this chapter.  Bonus sanity points are:
+
+- `+1d6` for putting an end to the happenings in the Shipley house.
+- `-1d3` for killing Eloise Vane and making an enemy of Lord Arthur.
+
+The next chapter will begin with you arriving in Shanghai.
