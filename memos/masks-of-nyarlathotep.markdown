@@ -94,6 +94,12 @@ Notable possessions
     wearing a headdress with a red tentacle lift their arms towards it
     in supplication.
 
+  - A hyper-realistic, unfinished, painting of a swampy landscape in
+    the Permian era, featuring humanoid lizards.  The figures in the
+    painting seem to move purposefully when you look at it.
+
+- A greenish hallucinogenic drug which provokes mythos visions.
+
 
 Peru session 1, 2018-09-29
 --------------------------
