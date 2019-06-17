@@ -1,7 +1,7 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-05-26
+date: 2019-06-17
 audience: Narrow
 ---
 
@@ -49,7 +49,7 @@ Notable possessions
 
 - A cloth headdress with a severed human tongue attached to the front.
 
-- <span style="color:red;font-weight:bold">[Stolen]</span>
+- <span class="highlight">[Stolen]</span>
   A robe made of feathers.
 
 - The book **Africa's Dark Sects**, which Jackson Elias was looking
@@ -59,13 +59,13 @@ Notable possessions
   the monster they worship.  It contains one spell, and will take
   several weeks to study fully.
 
-- <span style="color:red;font-weight:bold">[Stolen]</span>
+- <span class="highlight">[Stolen]</span>
   A woven wooden mask, like a woven basket, but with no eyeholes.  On
   the top of the mask are four monstrous faces, at right angles to
   each other.  Prof. Musgrave identified the mask being possibly from
   the Congo.
 
-- <span style="color:red;font-weight:bold">[Stolen]</span>
+- <span class="highlight">[Stolen]</span>
   A wooden sceptre carved with hieroglyphics saying "Nyambe, Thy Power
   Mine".  From the context, Nyambe is a given name, but not one any of
   you are familiar with.
@@ -99,6 +99,14 @@ Notable possessions
     painting seem to move purposefully when you look at it.
 
 - A greenish hallucinogenic drug which provokes mythos visions.
+
+### Found in China
+
+- A gross statuette of a bloated, tentacled, woman.
+
+- A strange and intricate mechanism.
+
+- A bunch of voluminous black and yellow robes.
 
 
 Peru session 1, 2018-09-29
@@ -2086,3 +2094,310 @@ This is the end of this chapter.  Bonus sanity points are:
 - `-1d3` for killing Eloise Vane and making an enemy of Lord Arthur.
 
 The next chapter will begin with you arriving in Shanghai.
+
+
+China session 1, 2019-06-08
+---------------------------
+
+It was a bright and sunny morning on the day the Ivory Wind set sail.
+The ship, fully loaded with cargo; your belongings, stored in the
+passenger rooms which the crew had, grumbling at the orders of the
+captain, vacated; and you, standing on the deck watching the crew and
+the dock workers make their final preparations.
+
+As you watched, a dense fog started to pour out from the city,
+creeping across the ground.  The fog hadn't quite reached the ship
+when Captain Torvak gave the order to set sail.  As the ship pulled
+off into the Thames, the fog rushed towards it, as if driven by a
+gale, but there was only a light wind.  The fog piled up obscuring the
+city from view, towering over the ship, but stopped when it reached
+the water.  The breeze brought you the faint smell of burning hair.
+
+You sailed down the Thames with a wall of fog on each bank.  Captain
+Torvak said he'd never seen weather like it.  Carson swore he saw the
+fog moving purposefully, following you.  The Ivory Wind made it out
+into the sea, leaving London and its fogs and cults behind.
+
+The crossing took the best part of two months, with the ship stopping
+to exchange cargo in Marseilles, Malta, Port Said, Aden, Bombay,
+Singapore, and finally Shanghai.
+
+It wasn't exactly a luxury crossing, but you all relaxed and
+recuperated as best you could during the long voyage.
+
+<aside class="highlight">
+All gain `1d6` Sanity.
+</aside>
+
+Clarissa spent most of her time studying the book **Africa's Dark
+Sects**, which you found at the Ju-Ju House in New York.  Sometimes
+several days went by with her staying locked up in her room.  Some
+mornings she would come for breakfast tired and bleary eyed, then
+return to her room to spend the day sleeping.  The book goes into
+great and gory detail about the ritual practices of various cults,
+including human sacrifice, and Clarissa finished her study certain
+that there was still more to learn from the tome.
+
+<aside class="highlight">
+Clarissa gains `4` Cthulhu Mythos; loses `1d10` Sanity; and has
+learned a ritual to create undead servants.
+</aside>
+
+This ritual was used by a particularly bloodthirsty tribe, the Kikuyu.
+The same tribe which is blamed for killing the members of the Carlyle
+Expedition.  As she read the description of the undead servants,
+Clarissa couldn't help but be reminded of the four mutilated people in
+the basement of the Ju-Ju House.
+
+---
+
+You came to Shanghai following the lead of some crates in a hidden
+basement in the Penhew Foundation, which were addressed to Ho Fang
+Import/Export, Shanghai.  But that isn't the only time you've seen
+mention of China in your investigation.  Jackson Elias' Nairobi notes
+say that he met a man who claimed to have met Jack Brady, Roger
+Carlyle's bodyguard, in Hong Kong well after the Kenyan courts had
+declared the entire expedition dead.
+
+Shanghai in 1925 is a divided city.  There's the old walled Chinese
+city itself; to the west is the French Concession; and to the north is
+the Shanghai International Settlement, ruled by the British and the
+Americans.  Chinese law doesn't apply to the French Concession or the
+International Settlement.  Outside of the International Settlement,
+most people don't speak fluent, or any, English.  Citizens of the US,
+Mexico, and most European colonial powers are immune to Chinese law
+even in the old city and can only be tried under the laws of their
+respective states, a fact the native Chinese are not fond of.  Despite
+the strong western control over Shanghai, Chinese make up the vast
+majority of the population.  Of the 1.6 million inhabitants, only
+20,000 are non-Chinese, and most of those are Japanese.  The
+westerners tend to either be incredibly wealthy businessmen, or
+undocumented immigrants trying to eke out a living where they can.
+The national government has little authority, and the city is largely
+ruled by gangs.  Buildings have high walls and barred windows.
+Everyone who is anyone employs guards.  And the wealthy walk the
+streets in shabby clothes to hide their status. The currency is the
+yuan, which is used interchangeably with the Mexican silver dollar.
+One US dollar is worth two yuan.
+
+After spiriting you and his cargo through customs with suspicious
+ease, Captain Torvak introduced you to Li Wen-Cheng, a young man with
+a very western outlook.  At the captain's recommendation you employed
+him as a comprador, a kind of assistant to help you interact with the
+locals.  You have him at your disposal, though he's not spending every
+waking moment with you.  He can usually be found at the Methodist
+University if you need him.  He can help if you want to interact with
+anyone who doesn't know English, which will be most of the Chinese who
+don't regularly work with westerners, and with providing general
+information and gossip about the city.
+
+---
+
+It's now the morning of the 4th of May.  You've been in Shanghai for a
+few days, enough time to get your bearings, find lodgings in a hotel
+on the outskirts of the International Settlement, and send an update
+on your investigation to Carlton Ramsey.  What do you do?
+
+### 4th of May
+
+You wanted to hire some guards, so Li Wen-Cheng took you all (except
+Arthur who didn't want to go) to the Stumbling Tiger Bar, which has a
+reputation of being a place where you can acquire anything you need:
+items, people, and information.  The Stumbling Tiger Bar is in a
+district of bars, gambling dens, and flower girl houses[^flower_girl].
+Opening the door to the bar released a wall of cigarette smoke.  The
+inside was busy, filthy, and Carson couldn't help but think of the
+risks of tuberculosis as he entered.  There you met the bartender
+Fergus Chum---polishing a glass with a surprisingly clean rag---a
+mixed race man who greeted you warmly and asked you to call him
+"McChum".  You asked about hiring thuggish brutes (brutish thugs?) and
+he said he knew some guys.  You negotiated a week-long contract at a
+day rate of $3, open to renegotiation at the end of the week; they
+will meet you at your hotel tomorrow morning.
+
+[^flower_girl]: A flower girl house is a place where pretty girls
+  entertain men.  It's not necessarily a brothel, but many of the
+  girls do have sex with their customers for money.
+
+Jason had the idea of asking McChum, an information broker, if he knew
+anything about Jack Brady.  McChum said he didn't know the name.
+Carson spotted this was a lie and signalled Jason.  Jason discretely
+passed over some money to help jog McChum's memory, and he confessed
+that he did know Jack Brady and told you that Brady had gone to
+contact Charlie Grey, a "big money man" in Rangoon, to conduct some
+business involving guns.  Jason realised that this story was only a
+partial truth but didn't press for more.
+
+While Jason and McChum were engaged in conversation, Carson looked
+around the bar at the other patrons.  Carson's attention was caught by
+a very drunk-looking man, but Carson noticed his actions didn't seem
+quite right.  His motor skills and reactions weren't uniformly
+degraded, and he managed to spill much more than he drank.  The man
+was only pretending to be drunk.  Carson asked McChum who the man was.
+McChum said he was a regular customer, some sort of foreman involved
+in a construction project.
+
+You all wanted some weapons, so Carson asked Li Wen-Cheng if there was
+a gun shop nearby, and went off to do some shopping.  He bought enough
+for a small army, and eventually headed back to the hotel.
+
+Jason, Wilhelmina, and Clarissa kept an eye on the drunk guy for hours
+but he didn't leave.  Eventually they went back to the hotel to meet
+Carson.
+
+While this was going on, Arthur went to visit a buddhist temple.
+While there he found an advert for Mr Lung's horoscopes and fortune
+telling, which he decided to go check out.
+
+Arthur found the small house on Kaoyang Street.  Its bright red door
+smelled of wet paint.  On either side of the door were wooden plaques
+with stylised symbols based on Chinese script.  Outside the door sat a
+Siamese cat meowing loudly.  Arthur knocked on the door, but got no
+response.  He peered through the window and saw a man, he caught the
+man's attention and knocked again.
+
+The door opened slowly to reveal a man wearing a bright purple hat and
+robe.  Arthur introduced himself, and asked if the man was Mr. Lung.
+He assented, and opened the door further.  The cat dashed in.  Arthur
+stepped through the door, which seemed to astonish Mr. Lung.
+Immediately inside the door was a screen obscuring the rest of the
+home, and many hanging amulets.  Mr. Lung keenly showed the amulets to
+Arthur and asked his opinion.  Arthur was polite.  Beyond the screen,
+the furniture of the home was scattered across the floor, blocking the
+path, and had to be climbed over.  Arthur could tell that there was
+some organisation to the furniture, but couldn't tell what it was.  As
+he clambered over the furniture, Mr. Lung again looked astonished.
+Mr. Lung then showed Arthur some scrolls decorated with tigers.
+Arthur was polite again.  The cat was still nowhere to be seen.
+
+Mr. Lung then gestured to a room and said that he did his work in his
+office, and invited Arthur in.  As soon as Arthur had stepped through
+the door, Mr. Lung dashed out and slammed it shut.  The door was
+locked.  The room contained a desk, on which was a pile of money and a
+box of matches.  The walls were covered in black drapes embroided with
+stars and representations of the Chinese zodiac.  The drapes were
+lumpy as if they covered something.  Arthur moved one of the drapes,
+and they all fell to the floor.  The walls were covered in dozens of
+mirrors.  Arthur immediately began to feel ill, and he realised what
+was going on.  Everything Mr. Lung had showed him was some protection
+against demons in Chinese mythology, and mirrors were the most potent
+of all.  Despite not being a demon, Arthur felt very affected by the
+mirrors.
+
+<aside class="highlight">
+Arthur loses 5 POW.
+</aside>
+
+Arthur tried to force the door.  He failed, and smashed some of the
+mirrors, before deciding to cover himself with the drapes.  Once out
+of sight of the mirrors, Arthur felt better again.  He then heard the
+cat yowling from the other room.  Suddenly there was a loud roar, and
+Mr. Lung screamed.  A while later Mr. Lung, covered in scratches and
+bruises, opened the door and said "so you weren't the demon after
+all..." before collapsing onto Arthur.  Arthur managed to get him to
+say where the nearest apothecary was, and half carried Mr. Lung to get
+medical treatment.  Arthur looked for the cat, but it had vanished.
+As Mr. Lung calmed down, he managed to explain that he had foretold
+that a demon would come to him today, and that he assumed it was
+Arthur.
+
+Impressed by seeing Mr. Lung's genuine power, the power to banish a
+demon, Arthur was keen to get his horoscope foretold.  Mr. Lung was
+only too happy to oblige, and told Arthur that he was only part way
+through a long journey with more still to come; that there would be
+terrible things man was not meant to see; and to beware of seafood.
+
+Arthur then asked Mr. Lung if he knew anything about Ho Fang, whose
+warehouse is on the same street.  Mr. Lung said that Ho Fang is a
+powerful businessman, and not the sort of person you want to get on
+the wrong side of.  There are rumours he's involved in smuggling; but
+in the import/export business who isn't?  Arthur decided to go check
+out the warehouse.
+
+Ho Fang's warehouse is a large building by a pier on the banks of the
+Whangpoo River.  At the front looks like offices, and around the back
+is the warehouse proper.  The warehouse itself has six huge doors,
+open at this hour, with people coming to and fro.  All the windows
+were high off the ground and barred.  Arthur then returned to the
+hotel.
+
+After everyone met back up in the hotel, and Arthur recounted the
+story of his terrible day, Wilhelmina and Jason decided to head back
+out to have a look at the warehouse.  It was locked up by the time
+they arrived, with the large doors shut.  They noticed that the
+warehouse was partially built over the pier, and it looked like a
+small boat could fit beneath it at low tide.  They suspected that this
+was used for transporting items Ho Fang wanted to keep hidden.
+
+On their way back to the hotel they went to the Stumbling Tiger Bar,
+and saw that the drunk foreman had left.
+
+### 5th of May
+
+You decided to look into all of your leads simultaneously: find a way
+to contact Charlie Grey, get a boat to investigate the bit of Ho
+Fang's warehouse which extends over the pier, and follow the
+pretending-to-be-drunk guy from the Stumbling Tiger Bar.
+
+Arthur went to the British Consulate to follow up on Charlie Grey, as
+they're probably a British or American citizen.  He found contact
+details for a Charles Grey Ltd. registered in Rangoon and sent a
+telegram asking about Jack Brady.  Meanwhile, Carson went to rent a
+small boat.
+
+You then waited until the evening.
+
+Jason and Wilhelmina went to the bar, keeping a low profile while
+watching the foreman.  Eventually he waved goodbye to his companions
+and stumbled out into the crowd.  You followed him.  Even thought it
+was now night, the narrow streets were still packed, and staying out
+of sight wasn't difficult.  As he got further from the bar, he
+appeared to sober up---far too quickly for actual drunkeness.  When he
+reached a quieter area, he stopped and looked around before turning
+down a side street, but you managed to duck out of sight.  You caught
+up and followed him to his hotel.
+
+Wilhelmina distracted the one receptionist up at this hour, while
+Jason carefully followed the man to his room.  Through the closed
+door, Jason heard conversation in Japanese, and the name "Jack Brady".
+
+Jason and Wilhelmina then went to meet up with everyone else at the
+boat, and sailed beneath the pier.  Above you, in the floor of the
+warehouse, was a pair of large metal doors with no obvious lock or
+mechanism.  You all strained with crowbars, but failed to shift them.
+Jason decided to try breaking in through the front and finding a way
+to open the doors from the inside.
+
+Jason picked the lock of the front door and entered the office part at
+the front of the building.  Jason found himself in a small entrance
+hall connected to a corridor, with stairs going up at one end and
+offices at the other.  Through the wall from the direction of the
+warehouse he could hear voices.  Jason had a look at the offices, but
+found nothing interesting.  He started climbing the stairs, and
+stopped when he noticed a loose stair which would probably make a
+noise when he stood on it.  He pried the board up, and saw that it
+gave access to the ceiling of a room directly above where the boat
+was.  Jason climbed down into the room, which was separated from the
+main warehouse by a large sealed door.
+
+The room had two large, padlocked, metal doors in the floor, with a
+winch mechanism above them.  The room also had a lot of strange items
+and many crates: several statues of different sizes of a large bloated
+woman with tentacles emerging from her flesh; a bronze vessel used in
+ancestor rituals (Jason had seen such a thing before in the British
+Museum while in London), with carvings of strange beasts; and a
+display case containing several large bones, labelled "dragon bones".
+
+Jason turned his attention to the doors in the floor, and managed to
+break the locks, allowing the others into the room.  After examining
+everything, you decided to take one of the bloated woman statues and
+open some of the crates.  There was no obvious sign of the crates sent
+from the Penhew Foundation, most of the crates were labelled "A.P.".
+You remembered that "A.P." are the initials of Sir Aubrey Penhew.  You
+opened a crate, and found a very strange and intricate looking
+mechanism.  You decided to take that too.  You opened an unlabelled
+crate, and found large, baggy, black and yellow robes.  You took some
+of those too.
+
+You lowered your spoils into the boat.  Then Jason and Wilhelmina
+decided to go explore upstairs while the rest of you waited quietly.

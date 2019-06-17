@@ -294,3 +294,14 @@ table {
 img, svg {
     max-width: 100%;
 }
+
+aside.highlight {
+    border: 2px solid red;
+    background-color: #ffe;
+    padding: 0.5em;
+}
+
+span.highlight {
+    color: red;
+    font-weight: bold;
+}
