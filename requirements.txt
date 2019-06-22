@@ -1,3 +1,4 @@
+# build
 beautifulsoup4
 docopt
 graphviz
@@ -6,3 +7,7 @@ panflute
 pygments
 pypandoc
 pyyaml
+
+# post-pleroma-status
+feedparser
+requests
