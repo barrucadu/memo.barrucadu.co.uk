@@ -1,0 +1,47 @@
+{% extends "_layout.html" %}
+{% block itemtype %}Blog{% endblock %}
+{% block body %}
+<article>
+  <header>
+    <h1 itemprop="headline name">{{ title|e }}</h1>
+
+    <p>
+      Atom feed
+      {% if tag is defined %}
+      <a href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">for the {{ tag.name|e }} tag</a> or
+      {% endif %}
+      <a href="atom.xml">for all memos</a>.
+    </p>
+  </header>
+
+  <section>
+    <ol class="navigation-list">
+      {% for memo in memos %}
+      <li itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="navigation-list-item">
+        <h2 itemprop="headline name" class="list-title"><a itemprop="mainEntityOfPage url" href="{{ memo.slug|e }}.html">{{ memo.title|e }}</a></h2>
+
+        <dl class="list-metadata">
+          <dt class="list-metadata-label">Audience:</dt>
+          <dd class="list-metadata-value">{{ memo.audience|e }}</dd>
+          <dt class="list-metadata-label">Updated:</dt>
+          <dd class="list-metadata-value"><time itemprop="dateModified" content="{{ memo.isodate|e }}"  datetime="{{ memo.isodate|e }}">{{ memo.ppdate|e }}</time></dd>
+          {% if memo.deprecated_by is defined %}
+          <dt class="list-metadata-label">Replacement:</dt>
+          <dd class="list-metadata-value"><a href="{{ memo.deprecated_by|e }}.html">{{ memo.deprecated_by|e }}</a></dd>
+          {% endif %}
+          <dt class="list-metadata-label">Tags:</dt>
+          <dd class="list-metadata-value">
+            {% for tag in memo.tags %}
+            <a href="{{ tag_dir|e }}{{ tag.slug|e }}.html">{{ tag.name|e }}</a>
+            {% if not loop.last %}, {% endif %}
+            {% endfor %}
+          </dd>
+        </dl>
+
+        {% include "_person.html" %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+</article>
+{% endblock %}

@@ -1,34 +1,43 @@
+{% extends "_layout.html" %}
+{% block itemtype %}BlogPosting{% endblock %}
+{% block body %}
 <header>
-  <h1 itemprop="headline name">$title$</h1>
+  <h1 itemprop="headline name">{{ title }}</h1>
 
   <div class="flex-grid">
-    $if(has_toc)$
+    {% if toc is defined %}
     <nav class="flex-item">
       <ol class="navigation-list">
-        $for(toc)$
-        <li class="navigation-list-item"><a href="#$anchor$">$text$</a></li>
-        $endfor$
+        {% for link in toc %}
+        <li class="navigation-list-item"><a href="#{{ link.anchor|e }}">{{ link.title|e }}</a></li>
+        {% endfor %}
       </ol>
     </nav>
-    $endif$
+    {% endif %}
 
     <div class="flex-item">
       <dl class="header-metadata">
         <dt class="header-metadata-label">Target audience:</dt>
-        <dd class="header-metadata-value">$audience$</dd>
+        <dd class="header-metadata-value">{{ audience|e }}</dd>
         <dt class="header-metadata-label">Last updated:</dt>
-        <dd class="header-metadata-value"><time itemprop="dateModified" content="$isodate$" datetime="$isodate$">$ppdate$</time></dd>
-        $if(deprecated_by)$
+        <dd class="header-metadata-value"><time itemprop="dateModified" content="{{ isodate|e }}" datetime="{{ isodate|e }}">{{ ppdate|e }}</time></dd>
+        {% if deprecated_by is defined %}
         <dt class="header-metadata-label">Replaced by:</dt>
-        <dd class="header-metadata-value"><a href="/$deprecated_by$.html">$deprecated_by$</a></dd>
-        $endif$
+        <dd class="header-metadata-value"><a href="{{ deprecated_by|e }}.html">{{ deprecated_by|e }}</a></dd>
+        {% endif %}
         <dt class="header-metadata-label">Tags:</dt>
-        <dd class="header-metadata-value">$tags$</dd>
+        <dd class="header-metadata-value">
+          {% for tag in tags %}
+          <a href="{{ tag_dir|e }}{{ tag.slug|e }}.html">{{ tag.name|e }}</a>
+          {% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </dd>
       </dl>
     </div>
   </div>
 </header>
 
 <section itemprop="articleBody">
-  $body$
+{{ content }}
 </section>
+{% endblock %}

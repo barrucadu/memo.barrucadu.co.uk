@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Michael Walker">
+    <meta name="robots" content="FOLLOW,INDEX">
+
+    <meta property="og:site_name" content="{{ site_name|e }}">
+    <meta property="og:url"       content="{{ site_root|e }}{{ url|e }}">
+    <meta property="og:title"     content="{{ title|e }}">
+
+    <meta name="twitter:card"    content="summary">
+    <meta name="twitter:site"    content="@barrucadu">
+    <meta name="twitter:creator" content="@barrucadu">
+
+    <link rel="canonical" href="{{ site_root|e }}{{ url|e }}">
+
+    <base href="{{ site_root|e }}">
+
+    <title>{{ title|e }}</title>
+
+    <link rel="stylesheet" href="code.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <script src="MathJax/MathJax.js?config=TeX-AMS_CHTML" async></script>
+
+    {% if tag is defined %}
+    <link rel="alternate" type="application/atom+xml" title="{{ title }}" href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">
+    {% endif %}
+    <link rel="alternate" type="application/atom+xml" title="{{ site_name|e }}" href="atom.xml">
+  </head>
+
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <article itemscope itemtype="http://schema.org/{% block itemtype %}{% endblock %}" itemprop="mainEntity">
+      {% block body %}
+      {% endblock %}
+
+      {% include "_person.html" %}
+      {% if not is_root %}
+      <footer>
+        <nav>
+          <p><a href="" title="All Memos">All Memos</a></p>
+        </nav>
+      </footer>
+      {% endif %}
+    </article>
+  </body>
+</html>

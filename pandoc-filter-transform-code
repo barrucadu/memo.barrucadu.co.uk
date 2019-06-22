@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+import graphviz
+import html
+
+from panflute import *
+from pygments import highlight
+from pygments.lexers import get_lexer_by_name
+from pygments.formatters import HtmlFormatter
+
+
+def transform_code(elem, doc):
+    """Transform code blocks based on language.
+    """
+
+    if type(elem) != CodeBlock:
+        return
+
+    # Literate Haskell source gets reported as "sourcecode" format, so
+    # manually fix that - this will be a problem if I ever want
+    # literate not-Haskell.
+    fmt = (elem.classes or [""])[0].lower()
+    if fmt == "sourcecode":
+        fmt = "haskell"
+
+    if fmt == "graphviz" or fmt.startswith("graphviz:"):
+        engine = "dot"
+        if fmt.startswith("graphviz:"):
+            engine = fmt.split(":")[1]
+        src = graphviz.Source(elem.text, format="svg", engine=engine)
+        out = src.pipe(quiet=True).decode("utf-8").splitlines()
+        idx = 0
+        for line in out:
+            if line.startswith("<svg"):
+                break
+            idx += 1
+        svg = "\n".join(out[idx:])
+        return RawBlock(f"<figure>{svg}</figure>")
+    elif fmt == "asciiart":
+        return RawBlock(f"<pre class=\"asciiart\">{html.escape(elem.text)}</pre>")
+    elif fmt == "raw":
+        return RawBlock(elem.text)
+    elif fmt == "":
+        return RawBlock(f"<pre class=\"code\">{html.escape(elem.text)}</pre>")
+    else:
+        lexer = get_lexer_by_name(fmt, stripall=True)
+        formatter = HtmlFormatter()
+        result = highlight(elem.text, lexer, formatter)
+        return RawBlock(f"<pre class=\"code\">{result}</pre>")
+
+
+if __name__ == "__main__":
+    toJSONFilter(transform_code)
