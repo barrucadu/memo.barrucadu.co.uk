@@ -949,7 +949,7 @@ hours.
 [^jan27_1]: Because I mentioned that I assumed were going to do that,
   and you all thought it was a reasonable enough idea.
 
-### 28th of January (midnight)
+### 28th of January, 1925 (midnight)
 
 A little after midnight, a light was still on inside, though the
 curtains were drawn across the shop window so you couldn't see in.
@@ -1665,7 +1665,7 @@ of George Osgood.  The sheep in the barn had not been attacked.
 
 You all returned to the pub, where you stayed the night.
 
-### 15th of February
+### 15th of February, 1925
 
 You decided to pay Lord Vane a visit, and went to Plum Castle first
 thing in the morning, leaving your calling cards to request a social
@@ -1728,7 +1728,7 @@ shotguns.
 England session 4, 2019-04-27
 -----------------------------
 
-### 15th of February (late afternoon)
+### 15th of February, 1925 (late afternoon)
 
 With not much to do until sunset, you returned to the church to ask if
 you could buy any silver crucifixes, like those on the graves.  You
@@ -1812,7 +1812,7 @@ be staying there, and left.
 
 Those of you who fled escaped back to your rooms at the pub.
 
-### 16th of February
+### 16th of February, 1925
 
 Prof. Musgrave, Wilhelmina, and Clarissa planned a rescue operation
 for that evening.
@@ -1839,7 +1839,7 @@ through the night to Edale, to get the first train back to London.
 England session 5, 2019-05-11
 -----------------------------
 
-### 17th of February
+### 17th of February, 1925
 
 You all returned to your homes after travelling through the night, and
 made some discoveries: Jason found footprints in the dust, leading to
@@ -1876,7 +1876,7 @@ to track the footprints, but with no luck.  That evening Jason and a
 band of brutish thugs (or possibly thuggish brutes) he managed to
 round up from a pub kept an eye on Carson's hotel, but saw nothing.
 
-### 18th of February
+### 18th of February, 1925
 
 You decided to follow up on the Empire Spices business card you found
 in the hidden room of the Penhew Foundation's basement, and went to
@@ -1921,7 +1921,7 @@ body of a naked woman, covered in large claw marks.
 England session 6, 2019-05-25
 -----------------------------
 
-### 18th of February
+### 18th of February, 1925
 
 Clarissa, Jason, and Wilhelmina left the basement and moved onto the
 Shipley house.  Jason picked the lock of the back door, and you snuck
@@ -1962,7 +1962,7 @@ to realise that she had been robbed, you fled back to Clarissa's home.
 Some time later Arthur and Carson returned, Miles having extracted
 himself from the conversation at last.
 
-### 19th of February
+### 19th of February, 1925
 
 Around noon you all met up at Clarissa's home, Carson nursing a bad
 hangover.  You decided to send the police an anonymous tip about the
@@ -2019,7 +2019,7 @@ a few more hours.  After waking up she shared the vision, and you
 realised it had similarities with Roger Carlyle's vision which he
 described to Robert Huston.
 
-### 20th of February to 3rd of March
+### 20th of February to 3rd of March, 1925
 
 I suggested you make an **Idea Roll** to pick up on a missed
 opportunity for investigation.
@@ -2057,7 +2057,7 @@ promptly decided to interfere with the shipments, assuming this
 related to the crates addressed to Australia and Shanghai you found in
 the secret room in the Penhew Foundation basement.
 
-### 3rd of March to 9th of March
+### 3rd of March to 9th of March, 1925
 
 Figuring that a truck would arrive at the Foundation at some point to
 collect the crates, you kept up your watch.  One night when Arthur was
@@ -2082,7 +2082,7 @@ He agreed to take you.  You then asked about his shipments, and if you
 could inspect them.  You failed to persuade him, and he said "I'll
 pretend I didn't hear that."
 
-### 11th of March
+### 11th of March, 1925
 
 A few days later the Ivory Wind set sail, with you aboard.
 
@@ -2198,7 +2198,7 @@ few days, enough time to get your bearings, find lodgings in a hotel
 on the outskirts of the International Settlement, and send an update
 on your investigation to Carlton Ramsey.  What do you do?
 
-### 4th of May
+### 4th of May, 1925
 
 You wanted to hire some guards, so Li Wen-Cheng took you all (except
 Arthur who didn't want to go) to the Stumbling Tiger Bar, which has a
@@ -2332,7 +2332,7 @@ was used for transporting items Ho Fang wanted to keep hidden.
 On their way back to the hotel they went to the Stumbling Tiger Bar,
 and saw that the drunk foreman had left.
 
-### 5th of May
+### 5th of May, 1925
 
 You decided to look into all of your leads simultaneously: find a way
 to contact Charlie Grey, get a boat to investigate the bit of Ho
