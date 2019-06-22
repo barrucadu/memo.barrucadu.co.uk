@@ -15,6 +15,7 @@ Options:
 
 import os
 import pypandoc
+import subprocess
 import yaml
 
 from bs4 import BeautifulSoup
@@ -78,13 +79,20 @@ class MemoReader:
         content = "".join(lines[idx + 1:])
 
         # add the implicit frontmatter
-        # todo - get original publication date from git log
         if "slug" not in frontmatter:
             frontmatter["slug"], _ = os.path.splitext(os.path.basename(fpath))
-        if "isodate" not in frontmatter:
-            frontmatter["isodate"] = frontmatter["date"].strftime("%Y-%m-%d")
-        if "ppdate" not in frontmatter:
-            frontmatter["ppdate"] = frontmatter["date"].strftime("%B %-d, %Y")
+        if "published" not in frontmatter:
+            datestr = subprocess.check_output(["git", "log", "--diff-filter=A", "--follow", "--date=short", "--format=%ad", "-1", "--", fpath])
+            try:
+                frontmatter["published"] = datetime.strptime(datestr.decode("utf-8").strip(), "%Y-%m-%d")
+            except:
+                # this will be reached if the file hasn't been committed
+                frontmatter["published"] = datetime.now()
+        frontmatter["published_iso"] = frontmatter.get("published_iso", frontmatter["published"].strftime("%Y-%m-%d"))
+        frontmatter["published_pp"] = frontmatter.get("published_pp", frontmatter["published"].strftime("%B %-d, %Y"))
+        frontmatter["modified"] = frontmatter.get("modified", frontmatter.get("date", frontmatter["published"]))
+        frontmatter["modified_iso"] = frontmatter.get("modified_iso", frontmatter["modified"].strftime("%Y-%m-%d"))
+        frontmatter["modified_pp"] = frontmatter.get("modified_pp", frontmatter["modified"].strftime("%B %-d, %Y"))
 
         # mangle the 'tags' field into a list
         tag_names = frontmatter.get("tags", [])
@@ -233,7 +241,7 @@ class WebsiteBuilder:
         self.__render(fname, "atom.xml",
             title=WebsiteBuilder.__title_for(tag),
             tag=tag,
-            feed_date=feed_memos[0]["isodate"],
+            feed_date=feed_memos[0]["modified_iso"],
             memos=feed_memos,
         )
 

@@ -14,8 +14,8 @@
     <title>{{ memo.title|e }}</title>
     <link href="{{ site_root|e }}{{ memo.slug|e }}.html" />
     <id>{{ site_root|e }}{{ memo.slug|e }}.html</id>
-    <published>{{ memo.isodate|e }}T00:00:00Z</published>
-    <updated>{{ memo.isodate|e }}T00:00:00Z</updated>
+    <published>{{ memo.published_iso|e }}T00:00:00Z</published>
+    <updated>{{ memo.modified_iso|e }}T00:00:00Z</updated>
     <summary type="html">
       <![CDATA[
 {{ memo.content }}

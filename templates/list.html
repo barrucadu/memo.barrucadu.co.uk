@@ -23,8 +23,12 @@
         <dl class="list-metadata">
           <dt class="list-metadata-label">Audience:</dt>
           <dd class="list-metadata-value">{{ memo.audience|e }}</dd>
+          <dt class="list-metadata-label">Published:</dt>
+          <dd class="list-metadata-value"><time itemprop="datePublished" content="{{ memo.published_iso|e }}"  datetime="{{ memo.published_iso|e }}">{{ memo.published_pp|e }}</time></dd>
+          {% if memo.published_iso != memo.modified_iso %}
           <dt class="list-metadata-label">Updated:</dt>
-          <dd class="list-metadata-value"><time itemprop="dateModified" content="{{ memo.isodate|e }}"  datetime="{{ memo.isodate|e }}">{{ memo.ppdate|e }}</time></dd>
+          <dd class="list-metadata-value"><time itemprop="dateModified" content="{{ memo.modified_iso|e }}"  datetime="{{ memo.modified_iso|e }}">{{ memo.modified_pp|e }}</time></dd>
+          {% endif %}
           {% if memo.deprecated_by is defined %}
           <dt class="list-metadata-label">Replacement:</dt>
           <dd class="list-metadata-value"><a href="{{ memo.deprecated_by|e }}.html">{{ memo.deprecated_by|e }}</a></dd>

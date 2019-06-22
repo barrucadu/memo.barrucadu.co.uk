@@ -19,8 +19,12 @@
       <dl class="header-metadata">
         <dt class="header-metadata-label">Target audience:</dt>
         <dd class="header-metadata-value">{{ audience|e }}</dd>
+        <dt class="header-metadata-label">First published:</dt>
+        <dd class="header-metadata-value"><time itemprop="datePublished" content="{{ published_iso|e }}" datetime="{{ published_iso|e }}">{{ published_pp|e }}</time></dd>
+        {% if published_iso != modified_iso %}
         <dt class="header-metadata-label">Last updated:</dt>
-        <dd class="header-metadata-value"><time itemprop="dateModified" content="{{ isodate|e }}" datetime="{{ isodate|e }}">{{ ppdate|e }}</time></dd>
+        <dd class="header-metadata-value"><time itemprop="dateModified" content="{{ modified_iso|e }}" datetime="{{ modified_iso|e }}">{{ modified_pp|e }}</time></dd>
+        {% endif %}
         {% if deprecated_by is defined %}
         <dt class="header-metadata-label">Replaced by:</dt>
         <dd class="header-metadata-value"><a href="{{ deprecated_by|e }}.html">{{ deprecated_by|e }}</a></dd>
