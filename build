@@ -140,7 +140,7 @@ class MemoReader:
         """
 
         def key(memo):
-            k = memo["date"]
+            k = memo["modified"]
             if "important" in memo:
                 k += timedelta(days=365 * 1000)
             if not isinstance(k, datetime):
@@ -227,7 +227,7 @@ class WebsiteBuilder:
 
         # sort memos without putting important ones at the top
         def key(memo):
-            k = memo["date"]
+            k = memo["modified"]
             if not isinstance(k, datetime):
                 k = datetime(k.year, k.month, k.day)
             return k
