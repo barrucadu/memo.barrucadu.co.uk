@@ -201,7 +201,7 @@ audience: General
   >
   > What are the rest of you doing?
 
-[how I processed 100GB of nginx logs]: /processing-100gb-nginx-logs.html
+[how I processed 100GB of nginx logs]: processing-100gb-nginx-logs.html
 [LambdaMOO]: https://en.wikipedia.org/wiki/LambdaMOO
 [Rust]: https://www.rust-lang.org/
 [there's a repository on GitHub]: https://github.com/barrucadu/lambdamoo

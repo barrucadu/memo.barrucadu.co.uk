@@ -73,13 +73,13 @@ audience: General
 - I played around GOV.UK content data using [Gephi][] and wrote
   [Mapping GOV.UK][] to share some of the fancier graphs.
 
-[Concourse CI on NixOS]: /concourseci-nixos.html
+[Concourse CI on NixOS]: concourseci-nixos.html
 [this instalment of NixOS Weekly]: https://weekly.nixos.org/2019/07-nixos-19-03-release-ipfs-ci-integrations-and-documentation-feedback.html
 [Peopleware: Productive Projects and Teams]: https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams
 [Void Star]: https://en.wikipedia.org/wiki/Void_Star
 [rewrite of BookDB]: https://github.com/barrucadu/bookdb-new
 [Gephi]: https://gephi.org/
-[Mapping GOV.UK]: /mapping-govuk.html
+[Mapping GOV.UK]: mapping-govuk.html
 
 ## Link Roundup
 

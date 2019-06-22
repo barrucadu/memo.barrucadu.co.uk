@@ -5,7 +5,7 @@ date: 2019-01-06
 audience: Personal
 ---
 
-![The goal: a delicious bolognese sauce](/bolognese.jpg)
+![The goal: a delicious bolognese sauce](bolognese.jpg)
 
 ## Ingredients
 

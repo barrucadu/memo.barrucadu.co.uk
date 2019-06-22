@@ -74,7 +74,7 @@ audience: General
 - I woke up on Saturday with a cold, which is still pretty bad now, on
   Sunday evening.  Not really how I wanted to spend my weekend.
 
-[Interpolation Search]: /interpolation-search.html
+[Interpolation Search]: interpolation-search.html
 
 ## Link Roundup
 

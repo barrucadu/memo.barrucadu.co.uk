@@ -42,7 +42,7 @@ audience: General
 
 [wrote a script]: https://github.com/alphagov/govuk-load-testing/tree/master/test-data-scripts/finder-facets
 [AAIB reports finder]: https://www.gov.uk/aaib-reports
-[a few weeks ago]: /weeknotes-007.html
+[a few weeks ago]: weeknotes-007.html
 [removing an unnecessary field from link expansion]: https://github.com/alphagov/publishing-api/pull/1397
 [shrinking organisation links]: https://github.com/alphagov/publishing-api/pull/1349
 

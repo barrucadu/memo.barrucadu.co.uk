@@ -9,7 +9,7 @@ audience: General
 
 - I passed.
 
-  ![Section of Ph.D report showing that the examiners recommend the degree be awarded with no corrections.](/weeknotes-020/thesis.png)
+  ![Section of Ph.D report showing that the examiners recommend the degree be awarded with no corrections.](weeknotes-020/thesis.png)
 
   There's one optional correction, writing about some closely related
   work I haven't mentioned, but I'm undecided whether I want to do
@@ -111,7 +111,7 @@ audience: General
 [concurrency invariants]: https://github.com/barrucadu/dejafu/commit/129c21912e36e4015c610460c3c4077c997a3096
 [Adjoint]: https://www.adjoint.io/
 [testsuite of their Raft library for Haskell]: https://github.com/adjoint-io/raft/blob/master/test/TestDejaFu.hs
-[wrote a memo]: /tilde-instance-pattern.html
+[wrote a memo]: tilde-instance-pattern.html
 [used in borscht]: https://bellyovermind.com/2018/02/07/fermented-black-carrot-borscht-soup/
 [Runescape]: https://www.runescape.com/
 

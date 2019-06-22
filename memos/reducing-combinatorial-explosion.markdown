@@ -81,7 +81,7 @@ alternative decisions still to make. This turns out to be quite a
 space-efficient representation, as schedule prefixes are explicitly
 shared as much as possible.
 
-![Schedule tree](/reducing-combinatorial-explosion/schedtree.png)
+![Schedule tree](reducing-combinatorial-explosion/schedtree.png)
 
 ## Blocking Avoidance
 
@@ -89,7 +89,7 @@ If we have a bunch of runnable threads, but some of them will block
 immediately without modifying any shared state, then we can restrict
 the set of runnable threads to those which won't block.
 
-![Scheduling choice leading to immediate block](/reducing-combinatorial-explosion/blocking.png)
+![Scheduling choice leading to immediate block](reducing-combinatorial-explosion/blocking.png)
 
 This is safe when there's no schedule bounding happening, or when it
 can't result in otherwise legal schedules no longer being legal.
@@ -111,7 +111,7 @@ there may be many *total orders*. Ideally, we would only check one
 total order for each partial order, as different total orders will
 have the same result.
 
-![Two executions with the same result, amenable to POR](/reducing-combinatorial-explosion/por-potential.png)
+![Two executions with the same result, amenable to POR](reducing-combinatorial-explosion/por-potential.png)
 
 Partial-order reduction (POR) can be implemented by only exploring
 multiple scheduling decisions (when there is a choice) if they can
@@ -134,7 +134,7 @@ Unfortunately, the context switches introduced by POR can still result
 in the same program state being reached by multiple different
 schedules.
 
-![A state-space amenable to sleep sets, each node represents a state](/reducing-combinatorial-explosion/sleepsets-potential.png)
+![A state-space amenable to sleep sets, each node represents a state](reducing-combinatorial-explosion/sleepsets-potential.png)
 
 Sleep sets are a complementary improvement, which do not require
 POR. The idea is that, if you have two or more decisions to make, and
@@ -143,7 +143,7 @@ same decision when trying the other possibility, unless something
 happens which can alter the result. If nothing has changed, you'll get
 the same result.
 
-![The same state space pruning transitions with sleep sets](/reducing-combinatorial-explosion/sleepsets.png)
+![The same state space pruning transitions with sleep sets](reducing-combinatorial-explosion/sleepsets.png)
 
 ## The Déjà Fu Approach
 

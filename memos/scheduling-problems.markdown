@@ -639,7 +639,7 @@ one-week "do whatever you want as long as it's useful" gap we have
 between quarters---but probably not worth it if you're looking to save
 a bit of time.
 
-![xkcd 1205, "Don't forget the time you spend finding the chart to look up what you save. And the time spent reading this reminder about the time spent. And the time trying to figure out if either of those actually make sense. Remember, every second counts toward your life total, including these right now."](/xkcd-1205.png)
+![xkcd 1205, "Don't forget the time you spend finding the chart to look up what you save. And the time spent reading this reminder about the time spent. And the time trying to figure out if either of those actually make sense. Remember, every second counts toward your life total, including these right now."](xkcd-1205.png)
 
 
 [ILP]: https://en.wikipedia.org/wiki/Integer_programming

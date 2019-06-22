@@ -96,7 +96,7 @@ audience: General
 [net_http]: https://www.rubydoc.info/stdlib/net/Net/HTTP
 [we disabled tracing of aws-sdk requests]: https://github.com/alphagov/govuk_app_config/pull/61
 [raised an issue on aws-xray-sdk]: https://github.com/aws/aws-xray-sdk-ruby/issues/13
-[Weeknotes: 001]: /weeknotes-001.html
+[Weeknotes: 001]: weeknotes-001.html
 [transition]: https://github.com/alphagov/transition
 
 ## Miscellaneous
@@ -132,7 +132,7 @@ audience: General
   out-of-date dependencies?][] At GOV.UK, the answer is definitely a
   resounding "yes".
 
-[C is not Turing-complete]: /c-is-not-turing-complete.html
+[C is not Turing-complete]: c-is-not-turing-complete.html
 [posted to lobste.rs]: https://lobste.rs/s/bovwsx/c_is_not_turing_complete_2017
 [general protection fault]: https://en.wikipedia.org/wiki/General_protection_fault
 [a small documentation fix to pleroma]: https://git.pleroma.social/pleroma/pleroma/merge_requests/364

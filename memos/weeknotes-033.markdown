@@ -28,7 +28,7 @@ audience: General
   police...  Four of the players had never played before, and despite
   taking longer than I expected, I think it went pretty well.
 
-[Masks of Nyarlathotep]: /masks-of-nyarlathotep.html
+[Masks of Nyarlathotep]: masks-of-nyarlathotep.html
 
 ## Link Roundup
 

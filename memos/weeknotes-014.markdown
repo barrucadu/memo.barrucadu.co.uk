@@ -28,7 +28,7 @@ audience: General
   dev, the problem went away by itself.  At the moment we suspect a
   network issue with our hosting provider.
 
-[on call since last Wednesday]: /weeknotes-013.html
+[on call since last Wednesday]: weeknotes-013.html
 
 ## Miscellaneous
 

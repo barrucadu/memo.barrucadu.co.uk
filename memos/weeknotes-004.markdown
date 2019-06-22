@@ -38,17 +38,17 @@ audience: General
   * One for our [documentation][] about the architecture of
     [transition][]:
 
-    ![Architecture of the transition application](/weeknotes-004/transition-architecture.png)
+    ![Architecture of the transition application](weeknotes-004/transition-architecture.png)
 
   * One for a talk I gave about how we handle files uploaded by
     publishers, comparing it to how we handle content:
 
-    ![Workflow of assets vs content](/weeknotes-004/assets-vs-documents.png)
+    ![Workflow of assets vs content](weeknotes-004/assets-vs-documents.png)
 
   * Another for the same talk, about the internal workflow in the
     [asset-manager][] itself:
 
-    ![Internal flow of assets in the asset-manager](/weeknotes-004/asset-workflow.png)
+    ![Internal flow of assets in the asset-manager](weeknotes-004/asset-workflow.png)
 
 * On Wednesday I started looking into our postgres backup system,
   [WAL-E][].  We actually have two backup systems, one which takes a

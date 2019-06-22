@@ -161,7 +161,7 @@ don't think they need to be part of the software.
 
 Imageboards attract trouble, and a persistent problem is that there
 are never enough moderators.  [I have written before about imageboard
-staffing](/imageboards.html), and the system is quite heavyweight.
+staffing](imageboards.html), and the system is quite heavyweight.
 Here's a summary:
 
 Administrators

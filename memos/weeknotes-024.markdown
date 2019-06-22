@@ -149,7 +149,7 @@ audience: General
   good, I enjoyed the trilogy as a whole.
 
 [duplicity]: http://duplicity.nongnu.org/
-[wrote about them]: /backups.html
+[wrote about them]: backups.html
 [Gopher]: https://en.wikipedia.org/wiki/Gopher_(protocol)
 [html2text]: https://pypi.org/project/html2text/
 [govuk-gopher]: https://github.com/barrucadu/govuk-gopher/

@@ -52,7 +52,7 @@ audience: General
   never touched before, but it's similar enough to Java and Haskell
   that I can sort of get by.
 
-[Weeknotes: 003]: /weeknotes-003.html
+[Weeknotes: 003]: weeknotes-003.html
 [a rounding issue in our holiday entitlement calculator]: https://github.com/alphagov/smart-answers/pull/3726
 [BEIS]: https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy
 [Gatling]: https://gatling.io/

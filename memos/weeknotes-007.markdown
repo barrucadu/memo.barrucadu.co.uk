@@ -20,7 +20,7 @@ audience: General
   I think this shows fairly clearly that I've been putting off the
   more tedious corrections until the end.
 
-[using Trello to track my to-do lists]: /self-organisation.html
+[using Trello to track my to-do lists]: self-organisation.html
 
 ## Work
 
@@ -86,7 +86,7 @@ audience: General
 [information pages for "World Locations"]: https://github.com/alphagov/whitehall/pull/4465
 [load-testing the GOV.UK frontend apps]: https://github.com/alphagov/govuk-load-testing
 [holiday entitlement calculator]: https://www.gov.uk/calculate-your-holiday-entitlement
-[sent to BEIS for a fact-check]: /weeknotes-005.html#work
+[sent to BEIS for a fact-check]: weeknotes-005.html#work
 
 ## Miscellaneous
 

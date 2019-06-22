@@ -53,7 +53,7 @@ audience: General
   something on Friday at 17:30, before leaving the office.  It's been
   uneventful since then though.
 
-[previous load test]: /weeknotes-012.html
+[previous load test]: weeknotes-012.html
 
 ## Miscellaneous
 

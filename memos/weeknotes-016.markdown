@@ -16,7 +16,7 @@ audience: General
   he'll get back to me at some point about with a suggestion of what
   to do next.
 
-[as suggested by my supervisor]: /weeknotes-014.html
+[as suggested by my supervisor]: weeknotes-014.html
 
 ## Work
 
@@ -50,7 +50,7 @@ audience: General
   move on to the flavouring stage.
 
 [brainfuck interpreter using LLVM to JIT-compile the code]: https://github.com/barrucadu/quickie
-[wrote it up]: /recipe-bolognese.html
+[wrote it up]: recipe-bolognese.html
 [kombucha]: https://en.wikipedia.org/wiki/Kombucha
 [a nice dark tea]: https://what-cha.com/malawi-2018-leafy-ripe-dark-tea/
 

@@ -92,10 +92,10 @@ audience: General
       went home.
 
 [AWS X-Ray]: https://aws.amazon.com/xray/
-[AWS X-Ray service graph for GOV.UK's integration environment]: /weeknotes-002/x-ray.png
+[AWS X-Ray service graph for GOV.UK's integration environment]: weeknotes-002/x-ray.png
 [smokey]: https://github.com/alphagov/smokey
 [data.gov.uk]: https://data.gov.uk/
-["cofrestru" or "mewngofnodi"?]: /weeknotes-002/welsh.png
+["cofrestru" or "mewngofnodi"?]: weeknotes-002/welsh.png
 [brexit-related statutory instruments]: https://www.gov.uk/eu-withdrawal-act-2018-statutory-instruments
 
 ## Miscellaneous
@@ -117,6 +117,6 @@ audience: General
   more on my calendar than *I* can see is very weird.  I now have that
   setting disabled, and I've deleted the invitations.
 
-[Self Organisation]: /self-organisation.html
-[systems]: /tag/systems.html
-[here is the feed for "weeknotes"]: /tag/weeknotes.xml
+[Self Organisation]: self-organisation.html
+[systems]: tag/systems.html
+[here is the feed for "weeknotes"]: tag/weeknotes.xml

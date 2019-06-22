@@ -5,7 +5,7 @@ date: 2019-02-26
 audience: Personal
 ---
 
-![The goal: a delicious chilli](/chilli.jpg)
+![The goal: a delicious chilli](chilli.jpg)
 
 ## Ingredients
 

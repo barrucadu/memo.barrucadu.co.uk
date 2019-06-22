@@ -136,7 +136,7 @@ Trace simplification
 The key idea underpinning trace simplification is that dejafu can tell
 when two scheduling decisions can be swapped without changing the
 behaviour of the program.  I talked about this idea in the [Using
-Hedgehog to Test Déjà Fu](/hedgehog-dejafu.html) memo.  So we can
+Hedgehog to Test Déjà Fu](hedgehog-dejafu.html) memo.  So we can
 implement transformations which are guaranteed to preserve semantics
 *without needing to verify this by re-running the test case*.
 

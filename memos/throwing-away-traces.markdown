@@ -21,13 +21,13 @@ even better.
 
 ## Discarding results and traces (dejafu-0.7.1.0)
 
-![Random testing before (with traces)](/throwing-away-traces/randomly-before.png)
+![Random testing before (with traces)](throwing-away-traces/randomly-before.png)
 
-![Random testing after (without traces)](/throwing-away-traces/randomly-after.png)
+![Random testing after (without traces)](throwing-away-traces/randomly-after.png)
 
 **Full-size images:**
-[before](/throwing-away-traces/randomly-before-full.pdf),
-[after](/throwing-away-traces/randomly-after-full.pdf).
+[before](throwing-away-traces/randomly-before-full.pdf),
+[after](throwing-away-traces/randomly-after-full.pdf).
 
 Test cases with long traces have been a particularly bad case, as all
 the traces stuck around in memory until you did something with them at
@@ -120,13 +120,13 @@ dejafuDiscard
 
 ## A much improved DPOR implementation (dejafu-0.7.1.1)
 
-![Systematic testing before (with traces)](/throwing-away-traces/systematically-before.png)
+![Systematic testing before (with traces)](throwing-away-traces/systematically-before.png)
 
-![Systematic testing after (without traces)](/throwing-away-traces/systematically-after.png)
+![Systematic testing after (without traces)](throwing-away-traces/systematically-after.png)
 
 **Full-size images:**
-[before](/throwing-away-traces/systematically-before-full.pdf),
-[after](/throwing-away-traces/systematically-after-full.pdf).
+[before](throwing-away-traces/systematically-before-full.pdf),
+[after](throwing-away-traces/systematically-after-full.pdf).
 
 Unfortunately, 0.7.1.0 was only a win for random testing, as
 systematic testing explicitly constructed the tree of executions in

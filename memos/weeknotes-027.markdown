@@ -170,7 +170,7 @@ audience: General
   we weren't planning to do anything on Thursday or Friday, but then
   the date of Brexit changed.
 
-[I changed the index schemas to only use a single mapping type]: /weeknotes-023.html
+[I changed the index schemas to only use a single mapping type]: weeknotes-023.html
 [I'd introduced the same problem in a few places.]: https://github.com/alphagov/search-api/pull/15
 [I switched back to the (deprecated) old-style text similarity and reverted the index definition change.]: https://github.com/alphagov/search-api/pull/23
 [we have a solution]: https://github.com/alphagov/search-api/pull/24

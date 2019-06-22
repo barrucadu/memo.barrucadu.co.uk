@@ -137,4 +137,4 @@ routines have already been tweaked a bit, but the quarterly routine
 has only happened once so far, and the biannual and annual routines
 haven't happened at all yet.
 
-[weeknotes]: /tag/weeknotes.html
+[weeknotes]: tag/weeknotes.html

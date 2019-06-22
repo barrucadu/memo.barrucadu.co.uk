@@ -5,7 +5,7 @@ date: 2017-05-18
 audience: General
 ---
 
-![Graph of my saved money](/hledger-influxdb-grafana/savings-graph.png)
+![Graph of my saved money](hledger-influxdb-grafana/savings-graph.png)
 
 [hledger][] is a plain-text accounting tool for keeping track of your finances.  I've been using it
 for nearly a year now, and am pretty sold on it.  [Grafana][] is a graphing tool which supports data
@@ -188,13 +188,13 @@ This is partial but, again, I am lazy and it works for me.
 
 Here's what the graph from the start looks like:
 
-![Graph of my saved money (deltas)](/hledger-influxdb-grafana/savings-graph-deltas.png)
+![Graph of my saved money (deltas)](hledger-influxdb-grafana/savings-graph-deltas.png)
 
 A bit weird, but it makes sense.  We're only reporting the deltas after all.  It's also a little
 misleading, as I'm not continuously depositing £200 into my savings account, only once a month.
 Turning on points in the graph display illustrates this:
 
-![Graph of my saved money (deltas) (with points)](/hledger-influxdb-grafana/savings-graph-deltas-points.png)
+![Graph of my saved money (deltas) (with points)](hledger-influxdb-grafana/savings-graph-deltas-points.png)
 
 ### Reporting totals
 
@@ -231,7 +231,7 @@ deltas are still available in case they're useful.
 day.  This is because we report all our daily transactions as happening at the same instant, which
 makes the graph look a little odd.  Here's my current account on the 3rd of January:
 
-![Graph showing multiple transactions on the same day](/hledger-influxdb-grafana/multiple-transactions.png)
+![Graph showing multiple transactions on the same day](hledger-influxdb-grafana/multiple-transactions.png)
 
 We can get the transactions for that day from InfluxDB with a query in its SQL-like language:
 
@@ -271,7 +271,7 @@ toInflux keyT keyD bals txn = (bals', map toLine [(keyT, fieldsT), (keyD, fields
 So we produce two collections of measurements: the raw and the daily aggregate.  Now the 3rd of
 January looks sensible:
 
-![Graph showing multiple transactions on the same day (aggregate)](/hledger-influxdb-grafana/multiple-transactions-aggregate.png)
+![Graph showing multiple transactions on the same day (aggregate)](hledger-influxdb-grafana/multiple-transactions-aggregate.png)
 
 Graphs
 ------
@@ -280,18 +280,18 @@ Now we can graph pretty much any aspect of our finances.  Like...
 
 - The monthly budget[^food]:
 
-    ![Graph showing May budget](/hledger-influxdb-grafana/budget.png)
+    ![Graph showing May budget](hledger-influxdb-grafana/budget.png)
 
     [^food]: Don't worry, I have several days of food in the fridge/freezer.  I'm not on the brink
     of starvation.
 
 - Takeaway purchases (by filtering on the description):
 
-    ![Graph showing takeaway purchases](/hledger-influxdb-grafana/takeaway.png)
+    ![Graph showing takeaway purchases](hledger-influxdb-grafana/takeaway.png)
 
 - Money I am owed:
 
-    ![Graph showing money owed to me](/hledger-influxdb-grafana/owed.png)
+    ![Graph showing money owed to me](hledger-influxdb-grafana/owed.png)
 
 I'm not sure if I'll keep exporting my journal changes to InfluxDB, but this could be a good way to
 spot longer-term trends.  It's certainly a nice way to get a quick summary of what's happening.

@@ -12,7 +12,7 @@ implement exceptions.  If you missed part 1, you can read it [here][].
 As before, all code is available on [GitHub][].  The code for this
 post is under the "post-02" tag.
 
-[here]: /minifu-01.html
+[here]: minifu-01.html
 [GitHub]: https://github.com/barrucadu/minifu
 
 ---

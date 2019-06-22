@@ -82,9 +82,9 @@ audience: General
     only learned about this on Sunday morning, but it feels fitting we
     were playing Masks on his final day.
 
-[`sed`-as-a-service]: /sed-as-a-service.html
+[`sed`-as-a-service]: sed-as-a-service.html
 [water kefir]: https://en.wikipedia.org/wiki/Tibicos
-[Masks of Nyarlathotep game]: /masks-of-nyarlathotep.html
+[Masks of Nyarlathotep game]: masks-of-nyarlathotep.html
 [Babylon 5]: https://en.wikipedia.org/wiki/Babylon_5
 
 ## Link Roundup

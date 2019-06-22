@@ -8,7 +8,7 @@ audience: Narrow
 I've recently returned to my [hledger
 scripts](https://github.com/barrucadu/hledger-scripts) from the memo
 "[Visualise your finances with hledger, InfluxDB, and
-Grafana](/hledger-influxdb-grafana.html)", and in particular adding
+Grafana](hledger-influxdb-grafana.html)", and in particular adding
 support for multiple currencies.
 
 This got me thinking about *market values*.  If I want to see the
@@ -202,4 +202,4 @@ of our personal finances.
 So now I can look at my total assets in yen and feel like a
 millionaire:
 
-![Market value of assets in JPY](/currency-conversion.png)
+![Market value of assets in JPY](currency-conversion.png)

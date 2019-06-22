@@ -21,7 +21,7 @@ audience: General
   sort of problem][].
 
 [tech support rota generator]: https://github.com/barrucadu/govuk-2ndline-rota-generator
-[solving this sort of problem]: /scheduling-problems.html
+[solving this sort of problem]: scheduling-problems.html
 
 ## Miscellaneous
 
@@ -55,7 +55,7 @@ audience: General
   somewhere between two weeks and two months.
 
 [kombucha]: https://en.wikipedia.org/wiki/Kombucha
-[started fermenting last week]: /weeknotes-016.html
+[started fermenting last week]: weeknotes-016.html
 
 ## Link Roundup
 

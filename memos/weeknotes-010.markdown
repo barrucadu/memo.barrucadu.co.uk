@@ -75,10 +75,10 @@ audience: General
   investigating][] the gruesome murder of their good friend Jackson
   Elias, after a four-year time skip.
 
-[I wrote up my recipe]: /recipe-cottage-pie.html
+[I wrote up my recipe]: recipe-cottage-pie.html
 [NVMe M.2 SSDs]: https://en.wikipedia.org/wiki/M.2
 [look up a video on youtube]: https://www.youtube.com/watch?v=NCIqZjo34rw
-[the players have begun investigating]: /masks-of-nyarlathotep.html
+[the players have begun investigating]: masks-of-nyarlathotep.html
 
 ## Link Roundup
 

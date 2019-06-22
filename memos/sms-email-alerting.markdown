@@ -218,4 +218,4 @@ the time I was doing this) to check that the timer worked.
 
 Both SMSes and emails came through:
 
-![Email alerts from AWS SNS](/sms-email-alerting.png)
+![Email alerts from AWS SNS](sms-email-alerting.png)

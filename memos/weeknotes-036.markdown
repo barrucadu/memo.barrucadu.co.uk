@@ -21,7 +21,7 @@ audience: General
 - I started making changes to [licence-finder][] and [search-api][] to
   make them compatible with Elasticsearch 6.
 
-[the previous weekend]: /weeknotes-035.html
+[the previous weekend]: weeknotes-035.html
 [licence-finder]: https://github.com/alphagov/licence-finder/pull/530
 [search-api]: https://github.com/alphagov/search-api/pull/1553
 
@@ -37,7 +37,7 @@ audience: General
   well written.  But I didn't find it as engaging or as enjoyable as
   his more weird fiction like [The Great God Pan][].
 
-[Call of Cthulhu campaign]: /masks-of-nyarlathotep.html
+[Call of Cthulhu campaign]: masks-of-nyarlathotep.html
 [The Hill of Dreams]: https://en.wikipedia.org/wiki/The_Hill_of_Dreams
 [The Great God Pan]: https://en.wikipedia.org/wiki/The_Great_God_Pan
 

@@ -5,7 +5,7 @@ date: 2018-11-21
 audience: Personal
 ---
 
-![The goal: a delicious cottage pie](/cottage_pie.jpg)
+![The goal: a delicious cottage pie](cottage_pie.jpg)
 
 ## Ingredients
 

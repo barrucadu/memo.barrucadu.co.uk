@@ -30,7 +30,7 @@ audience: General
   charts look pretty good, but I'm not so sure about the heatmaps.
   The coloured squares are precise for the wiggly axes.
 
-[some Call of Cthulhu dice roll probabilities]: /call-of-cthulhu-dice-rolls.html
+[some Call of Cthulhu dice roll probabilities]: call-of-cthulhu-dice-rolls.html
 [matplotlib]: https://matplotlib.org/
 
 ## Link Roundup

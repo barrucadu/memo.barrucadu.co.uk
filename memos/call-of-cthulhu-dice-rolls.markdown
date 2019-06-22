@@ -25,7 +25,7 @@ so the more likely you are to succeed.
 There are a couple of caveats: 1 is always a success and 100 is always
 a failure.
 
-![Chance of success for a skill roll.](/call-of-cthulhu-dice-rolls/basic.png)
+![Chance of success for a skill roll.](call-of-cthulhu-dice-rolls/basic.png)
 
 If this was all there were to it, it wouldn't be very interesting.
 What if you're doing something especially difficult?  Something that
@@ -34,7 +34,7 @@ rolls have three difficulty levels: *normal*, which is as above;
 *hard*, where you need to roll under half your skill; and *extreme*,
 where you need to roll under a fifth of your skill.
 
-![Chance of success for a skill roll, showing all three difficulties.](/call-of-cthulhu-dice-rolls/difficulties.png)
+![Chance of success for a skill roll, showing all three difficulties.](call-of-cthulhu-dice-rolls/difficulties.png)
 
 Normal rolls are for things that would challenge a competent person.
 Hard rolls are for things that would challenge a professional.
@@ -60,7 +60,7 @@ non-pushed roll.
 
 Unsurprisingly, pushing a roll gives you a better chance at success:
 
-![Chance of success for a pushed skill roll, showing all three difficulties.](/call-of-cthulhu-dice-rolls/pushed.png)
+![Chance of success for a pushed skill roll, showing all three difficulties.](call-of-cthulhu-dice-rolls/pushed.png)
 
 
 ## Bonus dice
@@ -74,7 +74,7 @@ where the player keeps the lower of the two "tens" values.
 Lower rolls are better, so this gives Xander a greater chance of
 success:
 
-![Chance of success for a skill roll with a bonus die, for hard difficulty.](/call-of-cthulhu-dice-rolls/bonus.png)
+![Chance of success for a skill roll with a bonus die, for hard difficulty.](call-of-cthulhu-dice-rolls/bonus.png)
 
 A little disappointingly, it seems that getting a bonus die is exactly
 the same as pushing the roll.  Though pushing a roll with a bonus die
@@ -100,7 +100,7 @@ This is exactly the same as a bonus die, but rather than keeping the
 
 Xander will have a hard time indeed:
 
-![Chance of success for a skill roll with a penalty die, for hard difficulty.](/call-of-cthulhu-dice-rolls/penalty.png)
+![Chance of success for a skill roll with a penalty die, for hard difficulty.](call-of-cthulhu-dice-rolls/penalty.png)
 
 
 ## Opposed rolls
@@ -161,7 +161,7 @@ for an opposed **POW** roll.
 Let's say the serpent person is called Yassith.  We'll assume
 Yassith's **POW** is no more than 100 greater than Xander's.
 
-![Chance of Xander's success in an opposed roll.  [Click for full size](/call-of-cthulhu-dice-rolls/opposed.png).](/call-of-cthulhu-dice-rolls/opposed.thumb.png)
+![Chance of Xander's success in an opposed roll.  [Click for full size](call-of-cthulhu-dice-rolls/opposed.png).](call-of-cthulhu-dice-rolls/opposed.thumb.png)
 
 Here Xander's skill level is along the X axis and Yassith's skill
 level is along the Y axis.  The colour shows Xander's chance of
@@ -184,7 +184,7 @@ these extra environmental factors (needing to hide from a cultist).
 Xander might get a bonus die if he had a talisman which shielded him
 from the magic:
 
-![Chance of Xander's success in an opposed roll, with a bonus die.  [Click for full size](/call-of-cthulhu-dice-rolls/opposed-bonus.png).](/call-of-cthulhu-dice-rolls/opposed-bonus.thumb.png)
+![Chance of Xander's success in an opposed roll, with a bonus die.  [Click for full size](call-of-cthulhu-dice-rolls/opposed-bonus.png).](call-of-cthulhu-dice-rolls/opposed-bonus.thumb.png)
 
 It looks pretty similar, but try comparing it side-by-side with the
 previous heatmap.  It's a bit brighter.
@@ -192,14 +192,14 @@ previous heatmap.  It's a bit brighter.
 Alternatively, Xander might get a penalty die if he hadn't slept well
 the night before, and was already not at his best:
 
-![Chance of Xander's success in an opposed roll, with a penalty die.  [Click for full size](/call-of-cthulhu-dice-rolls/opposed-penalty.png).](/call-of-cthulhu-dice-rolls/opposed-penalty.thumb.png)
+![Chance of Xander's success in an opposed roll, with a penalty die.  [Click for full size](call-of-cthulhu-dice-rolls/opposed-penalty.png).](call-of-cthulhu-dice-rolls/opposed-penalty.thumb.png)
 
 Goodbye, Xander.
 
 
 ## Appendix: All the lines on one graph
 
-![All the lines on one graph.  [Click for a larger version with a legend](/call-of-cthulhu-dice-rolls/all.png).](/call-of-cthulhu-dice-rolls/all.thumb.png)
+![All the lines on one graph.  [Click for a larger version with a legend](call-of-cthulhu-dice-rolls/all.png).](call-of-cthulhu-dice-rolls/all.thumb.png)
 
 
 ## Appendix: Scripts

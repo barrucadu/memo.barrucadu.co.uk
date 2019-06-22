@@ -40,7 +40,7 @@ have people (who are not ministers), and it may also have ministers.
 A speech will have a speaker.  And so on.  Here is a network showing
 all content linked to a person:
 
-![Network showing all content linked to a person. [Full size (10240x10240).](/mapping-govuk/people.png).](/mapping-govuk/people.thumb.png)
+![Network showing all content linked to a person. [Full size (10240x10240).](mapping-govuk/people.png).](mapping-govuk/people.thumb.png)
 
 You can see larger clusters around more significant figures, like
 David Cameron or Theresa May.
@@ -52,7 +52,7 @@ that it shares an edge (in any direction) with.  Here is the same
 network but with the colours adjusted to highlight David Cameron's ego
 network:
 
-![The previous network but coloured to highlight David Cameron's ego network. [Full size (10240x10240).](/mapping-govuk/people-david-cameron-ego.png).](/mapping-govuk/people-david-cameron-ego.png)
+![The previous network but coloured to highlight David Cameron's ego network. [Full size (10240x10240).](mapping-govuk/people-david-cameron-ego.png).](mapping-govuk/people-david-cameron-ego.png)
 
 It's mostly concentrated in the cluster surrounding his node, but not
 entirely.
@@ -76,16 +76,16 @@ student loan][].
 There aren't that many of them yet, so this is a fairly sparse
 network:
 
-![Network showing all step-by-step guides on GOV.UK. [Full size (10240x10240).](/mapping-govuk/step-by-step.png)](/mapping-govuk/step-by-step.thumb.png)
+![Network showing all step-by-step guides on GOV.UK. [Full size (10240x10240).](mapping-govuk/step-by-step.png)](mapping-govuk/step-by-step.thumb.png)
 
 But we can see some structure.  For example, there's a cluster of
 step-by-steps about driving instruction:
 
-![A cluster of step-by-steps about driving instruction.](/mapping-govuk/step-by-step-driving-cluster.png)
+![A cluster of step-by-steps about driving instruction.](mapping-govuk/step-by-step-driving-cluster.png)
 
 Marriage, on the other hand, is a lonely endeavour:
 
-![The "get married in England or Wales" step-by-step.](/mapping-govuk/step-by-step-marriage-cluster.png)
+![The "get married in England or Wales" step-by-step.](mapping-govuk/step-by-step-marriage-cluster.png)
 
 [how to get a student loan]: https://www.gov.uk/get-undergraduate-student-loan
 
@@ -100,7 +100,7 @@ Organisations show up in links a lot:
 
 The structure of the organisation network looks like this:
 
-![Network showing organisation--organisation links.  [Full size (10240x10240).](/mapping-govuk/organisations.png)](/mapping-govuk/organisations.thumb.png)
+![Network showing organisation--organisation links.  [Full size (10240x10240).](mapping-govuk/organisations.png)](mapping-govuk/organisations.thumb.png)
 
 Some organisations are linked to multiple others.  I guess this means
 that the child organisation is run as a collaboration under both of
@@ -115,7 +115,7 @@ content.
 
 ### Content linking to its related organisations
 
-![Network showing content linked to related organisations, and also organisation--organisation links. [Full size (10240x10240).](/mapping-govuk/related-organisations.png)](/mapping-govuk/related-organisations.thumb.png)
+![Network showing content linked to related organisations, and also organisation--organisation links. [Full size (10240x10240).](mapping-govuk/related-organisations.png)](mapping-govuk/related-organisations.thumb.png)
 
 This is pretty messy, it's good that you usually don't need to know
 about organisations when navigating GOV.UK!
@@ -140,7 +140,7 @@ It's apparent that not all organisations are created equal, some have
 a far greater volume of content than others.  HMRC's ego network
 contains 19.7% of all nodes in the network:
 
-![The previous network but coloured to show HMRC's ego network. [Full size (10240x10240).](/mapping-govuk/related-organisations-hmrc-ego.png)](/mapping-govuk/related-organisations-hmrc-ego.thumb.png)
+![The previous network but coloured to show HMRC's ego network. [Full size (10240x10240).](mapping-govuk/related-organisations-hmrc-ego.png)](mapping-govuk/related-organisations-hmrc-ego.thumb.png)
 
 Unlike David Cameron, HMRC has a huge ego network.  Though, I bet a
 large chunk of that is the [HMRC internal manuals][], which very few
@@ -152,7 +152,7 @@ people care about.[^ltr]
 
 In contrast, GDS does quite poorly with only 0.2% of the nodes:
 
-![The previous network but coloured to show GDS's ego network. [Full size (10240x10240).](/mapping-govuk/related-organisations-gds-ego.png)](/mapping-govuk/related-organisations-gds-ego.thumb.png)
+![The previous network but coloured to show GDS's ego network. [Full size (10240x10240).](mapping-govuk/related-organisations-gds-ego.png)](mapping-govuk/related-organisations-gds-ego.thumb.png)
 
 But that's ok; it's all about quality, not quantity.
 
@@ -160,7 +160,7 @@ But that's ok; it's all about quality, not quantity.
 
 ### Content linking to its publishing organisations
 
-![Network showing content linked to publishing organisations. [Full size (10240x10240).](/mapping-govuk/publishing-organisations.png)](/mapping-govuk/publishing-organisations.thumb.png)
+![Network showing content linked to publishing organisations. [Full size (10240x10240).](mapping-govuk/publishing-organisations.png)](mapping-govuk/publishing-organisations.thumb.png)
 
 This graph is coloured in the same way as in the previous subsection,
 but it's a lot more monochrome.  This is because we've lost the
@@ -173,11 +173,11 @@ links are to do with the publishing organisation.
 
 Disappointingly, HMRC's ego network has *increased* to 21.4% of the nodes:
 
-![The previous network but coloured to show HMRC's ego network. [Full size (10240x10240).](/mapping-govuk/publishing-organisations-hmrc-ego.png)](/mapping-govuk/publishing-organisations-hmrc-ego.thumb.png)
+![The previous network but coloured to show HMRC's ego network. [Full size (10240x10240).](mapping-govuk/publishing-organisations-hmrc-ego.png)](mapping-govuk/publishing-organisations-hmrc-ego.thumb.png)
 
 GDS now has 1.2% of the nodes:
 
-![The previous network but coloured to show GDS's ego network. [Full size (10240x10240).](/mapping-govuk/publishing-organisations-gds-ego.png)](/mapping-govuk/publishing-organisations-gds-ego.thumb.png)
+![The previous network but coloured to show GDS's ego network. [Full size (10240x10240).](mapping-govuk/publishing-organisations-gds-ego.png)](mapping-govuk/publishing-organisations-gds-ego.thumb.png)
 
 ## The taxonomy
 
@@ -191,7 +191,7 @@ structure of which makes sense to people other than just publishers.
 Taxon pages [look like this][].  The tree structure of the taxonomy,
 it turns out, looks like this:
 
-![Network showing the structure of the taxonomy with no content. [Full size (10240x10240).](/mapping-govuk/taxonomy-structure.png)](/mapping-govuk/taxonomy-structure.thumb.png)
+![Network showing the structure of the taxonomy with no content. [Full size (10240x10240).](mapping-govuk/taxonomy-structure.png)](mapping-govuk/taxonomy-structure.thumb.png)
 
 It doesn't look much like a tree, so I've probably conflated a few
 different link types.  For instance, the network includes "alpha"
@@ -200,7 +200,7 @@ knew of before.
 
 And here's what it looks like with all the content items as well:
 
-![Network showing the taxonomy. [Full size (10240x10240).](/mapping-govuk/taxonomy.png)](/mapping-govuk/taxonomy.thumb.png)
+![Network showing the taxonomy. [Full size (10240x10240).](mapping-govuk/taxonomy.png)](mapping-govuk/taxonomy.thumb.png)
 
 [look like this]: https://www.gov.uk/education
 
@@ -215,20 +215,20 @@ that could almost be a poster.
 
 Here's a bonus light version of the people graph:
 
-![Network showing all content linked to a person (light and with edges). [Full size (10240x10240).](/mapping-govuk/people-light.png).](/mapping-govuk/people-light.thumb.png)
+![Network showing all content linked to a person (light and with edges). [Full size (10240x10240).](mapping-govuk/people-light.png).](mapping-govuk/people-light.thumb.png)
 
-[organisations and related content one]: /mapping-govuk/related-organisations.png
+[organisations and related content one]: mapping-govuk/related-organisations.png
 
 ## Appendix: Gephi input files
 
 Here are the csv files I used with Gephi:
 
-- [all-links.csv.gz](/mapping-govuk/all-links.csv.gz)
-- [organisations.csv.gz](/mapping-govuk/organisations.csv.gz)
-- [people.csv.gz](/mapping-govuk/people.csv.gz)
-- [publishing-organisations.csv.gz](/mapping-govuk/publishing-organisations.csv.gz)
-- [step-by-step.csv.gz](/mapping-govuk/step-by-step.csv.gz)
-- [taxonomy.csv.gz](/mapping-govuk/taxonomy.csv.gz)
+- [all-links.csv.gz](mapping-govuk/all-links.csv.gz)
+- [organisations.csv.gz](mapping-govuk/organisations.csv.gz)
+- [people.csv.gz](mapping-govuk/people.csv.gz)
+- [publishing-organisations.csv.gz](mapping-govuk/publishing-organisations.csv.gz)
+- [step-by-step.csv.gz](mapping-govuk/step-by-step.csv.gz)
+- [taxonomy.csv.gz](mapping-govuk/taxonomy.csv.gz)
 
 ## Appendix: Script to generate the Gephi input files
 

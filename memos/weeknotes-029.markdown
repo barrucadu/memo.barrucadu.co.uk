@@ -56,7 +56,7 @@ audience: General
 [the memos git repository]: https://github.com/barrucadu/memo.barrucadu.co.uk/blob/master/post-pleroma-status
 [Jenkins]: https://jenkins.io/
 [Concourse]: https://concourse-ci.org/
-[wrote a memo]: /concourseci-nixos.html
+[wrote a memo]: concourseci-nixos.html
 [Roadside Picnic]: https://en.wikipedia.org/wiki/Roadside_Picnic
 
 ## Link Roundup

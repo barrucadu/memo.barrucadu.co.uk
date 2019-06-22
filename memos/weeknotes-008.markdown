@@ -42,10 +42,10 @@ audience: General
   disappointing, but having some time off was still nice.
 
 [signon]: https://github.com/alphagov/signon
-[which I mentioned last week]: /weeknotes-007.html
+[which I mentioned last week]: weeknotes-007.html
 [discrepancy in our local-links-manager]: https://github.com/alphagov/local-links-manager/pull/334
 [refactoring of our Jenkins configuration]: https://github.com/alphagov/govuk-puppet/pull/8301
-[a month ago]: /weeknotes-003.html
+[a month ago]: weeknotes-003.html
 [Code Mesh]: https://codesync.global/conferences/code-mesh-2018/
 
 ## Miscellaneous
@@ -104,12 +104,12 @@ audience: General
   Elixir rather than Go.
 
 [I last read in December 2012]: https://www.barrucadu.co.uk/bookdb
-[my session notes from Call of Cthulhu]: /masks-of-nyarlathotep.html
-[my broken server]: /weeknotes-007.html
+[my session notes from Call of Cthulhu]: masks-of-nyarlathotep.html
+[my broken server]: weeknotes-007.html
 [Elixir]: https://elixir-lang.org/
 [the guides]: https://elixir-lang.org/getting-started/introduction.html
 [GOV.UK router]: https://github.com/alphagov/router
-[in my budget]: /personal-finance.html
+[in my budget]: personal-finance.html
 
 ## Link Roundup
 
