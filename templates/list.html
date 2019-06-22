@@ -36,8 +36,7 @@
           <dt class="list-metadata-label">Tags:</dt>
           <dd class="list-metadata-value">
             {% for tag in memo.tags %}
-            <a href="{{ tag_dir|e }}{{ tag.slug|e }}.html">{{ tag.name|e }}</a>
-            {% if not loop.last %}, {% endif %}
+            <a href="{{ tag_dir|e }}{{ tag.slug|e }}.html">{{ tag.name|e }}</a>{% if not loop.last %},{% endif %}
             {% endfor %}
           </dd>
         </dl>
