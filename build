@@ -181,6 +181,23 @@ class WebsiteBuilder:
         copy_tree(source, target)
 
 
+    def robots(self):
+        """Render the robots.txt.
+        """
+
+        self.__render("robots.txt", "robots.txt")
+
+
+    def sitemap(self, memos, tags):
+        """Render an XML sitemap.
+        """
+
+        self.__render("sitemap.xml", "sitemap.xml",
+            memos=memos,
+            tags=tags,
+        )
+
+
     def memo_list(self, memos, tag=None):
         """Render a memo listing page.
         """
@@ -273,6 +290,9 @@ builder = WebsiteBuilder(args["--out"], args["--root"])
 builder.copy("static")
 builder.copy("css") # todo - minify
 builder.copy("MathJax", subdir=True)
+
+builder.robots()
+builder.sitemap(memos, tags)
 
 builder.memo_list(memos)
 builder.memo_feed(memos)

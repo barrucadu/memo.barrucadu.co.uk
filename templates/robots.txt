@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: {{ site_root }}sitemap.xml
