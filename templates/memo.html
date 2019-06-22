@@ -9,7 +9,7 @@
     <nav class="flex-item">
       <ol class="navigation-list">
         {% for link in toc %}
-        <li class="navigation-list-item"><a href="#{{ link.anchor|e }}">{{ link.title|e }}</a></li>
+        <li class="navigation-list-item"><a href="{{ url|e }}#{{ link.anchor|e }}">{{ link.title|e }}</a></li>
         {% endfor %}
       </ol>
     </nav>
