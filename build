@@ -225,25 +225,34 @@ class WebsiteBuilder:
         """Render a memo listing feed.
         """
 
-        # sort memos without putting important ones at the top
+        # sort memos without putting important ones at the top,
+        # removing personal memos.
         def key(memo):
             k = memo["modified"]
             if not isinstance(k, datetime):
                 k = datetime(k.year, k.month, k.day)
             return k
-        sorted_memos = sorted(memos, key=key, reverse=True)
-        feed_memos = sorted_memos[:num]
+
+
+        feed_memos = sorted(
+            [memo for memo in memos if memo["audience"].lower() != "personal"],
+            key=key,
+            reverse=True
+        )[:num]
 
         fname = "atom.xml"
         if tag is not None:
             fname = os.path.join(self.tagdir, tag["slug"] + ".xml")
 
-        self.__render(fname, "atom.xml",
-            title=WebsiteBuilder.__title_for(tag),
-            tag=tag,
-            feed_date=feed_memos[0]["modified_iso"],
-            memos=feed_memos,
-        )
+        metadata = {
+            "title": WebsiteBuilder.__title_for(tag),
+            "tag": tag,
+            "memos": feed_memos,
+        }
+        if feed_memos:
+            metadata["feed_date"] = feed_memos[0]["modified_iso"]
+
+        self.__render(fname, "atom.xml", **metadata)
 
 
     def memo(self, memo):

@@ -8,7 +8,9 @@
     <name>Michael Walker</name>
     <email>mike@barrucadu.co.uk</email>
   </author>
+  {% if feed_date is defined %}
   <updated>{{ feed_date|e }}T00:00:00Z</updated>
+  {% endif %}
   {% for memo in memos %}
   <entry>
     <title>{{ memo.title|e }}</title>
