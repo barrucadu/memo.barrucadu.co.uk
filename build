@@ -54,7 +54,6 @@ class MemoReader:
             memos.append(memo)
             tag_names.extend(memo_tag_names)
 
-        memos = MemoReader.__filter_and_sort_memos(memos)
         return memos, MemoReader.__make_tags(set(tag_names))
 
 
@@ -93,6 +92,10 @@ class MemoReader:
         frontmatter["modified"] = frontmatter.get("modified", frontmatter.get("date", frontmatter["published"]))
         frontmatter["modified_iso"] = frontmatter.get("modified_iso", frontmatter["modified"].strftime("%Y-%m-%d"))
         frontmatter["modified_pp"] = frontmatter.get("modified_pp", frontmatter["modified"].strftime("%B %-d, %Y"))
+        if not isinstance(frontmatter["published"], datetime):
+            frontmatter["published"] = datetime(frontmatter["published"].year, frontmatter["published"].month, frontmatter["published"].day)
+        if not isinstance(frontmatter["modified"], datetime):
+            frontmatter["modified"] = datetime(frontmatter["modified"].year, frontmatter["modified"].month, frontmatter["modified"].day)
 
         # mangle the 'tags' field into a list
         tag_names = frontmatter.get("tags", [])
@@ -131,27 +134,6 @@ class MemoReader:
             })
 
         return rendered, toc
-
-
-    @staticmethod
-    def __filter_and_sort_memos(memos):
-        """Sort memos by recency and import, newest/most important first.
-        Discard deprecated memos.
-        """
-
-        def key(memo):
-            k = memo["modified"]
-            if "important" in memo:
-                k += timedelta(days=365 * 1000)
-            if not isinstance(k, datetime):
-                k = datetime(k.year, k.month, k.day)
-            return k
-
-        return sorted(
-            [memo for memo in memos if "deprecated" not in memo],
-             key=key,
-             reverse=True,
-        )
 
     @staticmethod
     def __make_tags(tag_names):
@@ -213,6 +195,7 @@ class WebsiteBuilder:
         fname = "index.html"
         if tag is not None:
             fname = os.path.join(self.tagdir, tag["slug"] + ".html")
+            memos = [memo for memo in memos if tag in memo["tags"]]
 
         self.__render(fname, "list.html",
             title=WebsiteBuilder.__title_for(tag),
@@ -225,32 +208,18 @@ class WebsiteBuilder:
         """Render a memo listing feed.
         """
 
-        # sort memos without putting important ones at the top,
-        # removing personal memos.
-        def key(memo):
-            k = memo["modified"]
-            if not isinstance(k, datetime):
-                k = datetime(k.year, k.month, k.day)
-            return k
-
-
-        feed_memos = sorted(
-            [memo for memo in memos if memo["audience"].lower() != "personal"],
-            key=key,
-            reverse=True
-        )[:num]
-
         fname = "atom.xml"
         if tag is not None:
             fname = os.path.join(self.tagdir, tag["slug"] + ".xml")
+            memos = [memo for memo in memos if tag in memo["tags"]]
 
         metadata = {
             "title": WebsiteBuilder.__title_for(tag),
             "tag": tag,
-            "memos": feed_memos,
+            "memos": memos[:num],
         }
-        if feed_memos:
-            metadata["feed_date"] = feed_memos[0]["modified_iso"]
+        if memos:
+            metadata["feed_date"] = memos[0]["modified_iso"]
 
         self.__render(fname, "atom.xml", **metadata)
 
@@ -302,6 +271,18 @@ args = docopt(__doc__)
 
 memos, tags = MemoReader("memos").memos()
 
+memos_for_lists = sorted(
+    [memo for memo in memos if "deprecated_by" not in memo],
+    key=lambda memo: memo["modified"] + timedelta(days=(365*1000 if "important" in memo else 0)),
+    reverse=True
+)
+
+memos_for_feeds = sorted(
+    [memo for memo in memos_for_lists if memo["audience"].lower() != "personal"],
+    key=lambda memo: memo["modified"],
+    reverse=True
+)
+
 builder = WebsiteBuilder(args["--out"], args["--root"])
 
 builder.copy("static")
@@ -311,13 +292,12 @@ builder.copy("MathJax", subdir=True)
 builder.robots()
 builder.sitemap(memos, tags)
 
-builder.memo_list(memos)
-builder.memo_feed(memos)
+builder.memo_list(memos_for_lists)
+builder.memo_feed(memos_for_feeds)
 
 for tag in tags:
-    tagged_memos = [memo for memo in memos if tag in memo["tags"]]
-    builder.memo_list(tagged_memos, tag=tag)
-    builder.memo_feed(tagged_memos, tag=tag)
+    builder.memo_list(memos_for_lists, tag=tag)
+    builder.memo_feed(memos_for_feeds, tag=tag)
 
 for memo in memos:
     builder.memo(memo)
