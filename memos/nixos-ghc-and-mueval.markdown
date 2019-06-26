@@ -108,7 +108,7 @@ Prelude Data.Text>
 However, `mueval` will not be able to see your new packages yet:
 
 ```
-[nix-shell:~/tmp]$ mueval -XOverloadedStrings -m Data.Text -e 'Data.Text.Length "hello world"'
+[nix-shell:~/tmp]$ mueval -XOverloadedStrings -m Data.Text -e 'Data.Text.length "hello world"'
 <no location info>: error:
     Could not find module ‘Data.Text’
     Perhaps you meant
