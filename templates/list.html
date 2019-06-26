@@ -29,10 +29,6 @@
           <dt class="list-metadata-label">Updated:</dt>
           <dd class="list-metadata-value"><time itemprop="dateModified" content="{{ memo.modified_iso|e }}"  datetime="{{ memo.modified_iso|e }}">{{ memo.modified_pp|e }}</time></dd>
           {% endif %}
-          {% if memo.deprecated_by is defined %}
-          <dt class="list-metadata-label">Replacement:</dt>
-          <dd class="list-metadata-value"><a href="{{ memo.deprecated_by|e }}.html">{{ memo.deprecated_by|e }}</a></dd>
-          {% endif %}
           <dt class="list-metadata-label">Tags:</dt>
           <dd class="list-metadata-value">
             {% for tag in memo.tags %}

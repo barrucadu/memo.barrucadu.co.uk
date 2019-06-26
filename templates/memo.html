@@ -4,6 +4,12 @@
 <header>
   <h1 itemprop="headline name">{{ title }}</h1>
 
+  {% if superseded_by is defined %}
+  <div class="meta-message">
+    <p>This memo is <strong>superseded</strong>.  It has been replaced by <a href="{{ superseded_by.slug|e }}.html">{{ superseded_by.title|e }}</a>.</p>
+  </div>
+  {% endif %}
+
   <div class="flex-grid">
     {% if toc is defined %}
     <nav class="flex-item">
@@ -24,10 +30,6 @@
         {% if published_iso != modified_iso %}
         <dt class="header-metadata-label">Last updated:</dt>
         <dd class="header-metadata-value"><time itemprop="dateModified" content="{{ modified_iso|e }}" datetime="{{ modified_iso|e }}">{{ modified_pp|e }}</time></dd>
-        {% endif %}
-        {% if deprecated_by is defined %}
-        <dt class="header-metadata-label">Replaced by:</dt>
-        <dd class="header-metadata-value"><a href="{{ deprecated_by|e }}.html">{{ deprecated_by|e }}</a></dd>
         {% endif %}
         <dt class="header-metadata-label">Tags:</dt>
         <dd class="header-metadata-value">

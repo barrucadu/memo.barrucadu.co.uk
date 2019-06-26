@@ -54,6 +54,8 @@ class MemoReader:
             memos.append(memo)
             tag_names.extend(memo_tag_names)
 
+        MemoReader.__expand_links(memos)
+
         return memos, MemoReader.__make_tags(set(tag_names))
 
 
@@ -144,6 +146,18 @@ class MemoReader:
             { "name": name, "slug": name.lower().replace(" ", "-") }
             for name in tag_names
         ]
+
+    @staticmethod
+    def __expand_links(memos):
+        """Change slugs in frontmatter into references.
+
+        Mutates the input.
+        """
+
+        memos_by_slug = { memo["slug"]: memo for memo in memos }
+        for memo in memos:
+            if "superseded_by" in memo:
+                memo["superseded_by"] = memos_by_slug[memo["superseded_by"]]
 
 
 class WebsiteBuilder:
@@ -272,7 +286,7 @@ args = docopt(__doc__)
 memos, tags = MemoReader("memos").memos()
 
 memos_for_lists = sorted(
-    [memo for memo in memos if "deprecated_by" not in memo],
+    [memo for memo in memos if "superseded_by" not in memo],
     key=lambda memo: memo["modified"] + timedelta(days=(365*1000 if "important" in memo else 0)),
     reverse=True
 )
