@@ -103,6 +103,7 @@ class MemoReader:
         tag_names = frontmatter.get("tags", [])
         if type(tag_names) is str:
             tag_names = [name.strip() for name in tag_names.split(",")]
+        tag_names.sort()
         frontmatter["tags"] = MemoReader.__make_tags(tag_names)
 
         return frontmatter, content, tag_names
