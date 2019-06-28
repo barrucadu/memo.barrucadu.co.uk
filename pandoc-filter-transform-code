@@ -44,7 +44,7 @@ def transform_code(elem, doc):
         return RawBlock(f"<pre class=\"code\">{html.escape(elem.text)}</pre>")
     else:
         lexer = get_lexer_by_name(fmt, stripall=True)
-        formatter = HtmlFormatter()
+        formatter = HtmlFormatter(nowrap=True)
         result = highlight(elem.text, lexer, formatter)
         return RawBlock(f"<pre class=\"code\">{result}</pre>")
 
