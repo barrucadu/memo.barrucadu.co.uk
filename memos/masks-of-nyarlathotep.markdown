@@ -1,7 +1,8 @@
 ---
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
-date: 2019-06-17
+published: 2018-11-04
+modified: 2019-06-30T19:00:00
 audience: Narrow
 ---
 
@@ -2401,3 +2402,191 @@ of those too.
 
 You lowered your spoils into the boat.  Then Jason and Wilhelmina
 decided to go explore upstairs while the rest of you waited quietly.
+
+
+China session 2, 2019-06-23
+---------------------------
+
+You've come to Shanghai, following the lead of some crates addressed
+to Ho Fang Import/Export which you found in a hidden cultist basement
+of the Penhew Foundation in London.  You've learned that Ho Fang is
+powerful, involved with smuggling, and definitely not the sort of
+person you want to get on the wrong side of.  You've also found signs
+of Jack Brady, Roger Carlyle's bodyguard and surviving member of the
+Carlyle Expedition.
+
+Last session you found a secret smuggler's entrance to Ho Fang's
+warehouse, accessible at low tide, and broke in at night.  You found
+some strange things: statues of bloated, tentacled, women; black and
+yellow robes; and intricate machine parts.  It's now well after
+midnight, Jason and Wilhelmina have gone to explore the upstairs of
+the warehouse offices, while the rest of you wait below in your boat.
+
+### 5th of May, 1925 (night)
+
+Jason and Wilhelmina crept upstairs and found a large, plainly
+decorated, office.  Jason looked through a ledger on the desk and
+found some non-Chinese names and destinations: Omar al-Shakti (Cairo),
+Ahja Singh (Mombasa), Randolph Shipping Company (Port Darwin).  The
+entries mostly mentioned antiques, art, and books, however the
+Randolph Shipping Company seemed to be handling a lot of mining
+equipment.  Wilhelmina looked through the filing cabinets and found
+more papers with those names on, though the papers themselves were in
+Chinese.
+
+The room also contained many large rolled-up navigational charts.
+Jason realised one was less dusty than the rest and, figuring that it
+was frequently used, took some photos.  The map was for Gray Dragon
+Island, a volcanic island with some sort of large cave inside the
+volcano, 300 miles to the south.
+
+You then heard movement downstairs.  Wilhelmina peered down the
+stairs, and saw that the coast was clear.  You both crept back down to
+the room with the hidden door, took the dragon bones, and got back
+into the boat.
+
+As you sailed away, you saw a face watching you from the shadows on
+the riverbank.
+
+Hoping to avoid being followed back to your hotel, you got off the
+boat sooner than you had planned, and took a circuitous route.  You
+didn't see anyone following you, and returned to the hotel safely.
+
+You decided to wake up Prof. Musgrave and ask if he'd seen anything
+like these dragon bones before.  He said bones were a bit out of his
+area of expertise, but he would have a look.  Musgrave said that the
+bones were from something larger than a human, though he's not sure
+what, and they were an unusual shade of grey.
+
+You also examined more closely the mechanical parts you took, but
+nobody could even guess what they could be for.
+
+### 6th of May, 1925
+
+Prof. Musgrave woke up first, and sat in the hotel cafe eating
+breakfast while reading the Shanghai Courier, a dual-language
+newspaper.  The front-page story was about the Seamen's Club being
+attacked and partially destroyed last night by "strange creatures"
+which came from the river, though officials who had inspected the
+damage thought it was due to seepage undermining the ground.  Another
+short story talked about "yet another" murder where the victim had had
+their arms cut off and left to bleed out.  There are rumours of a
+madman, and the police haven't found the perpetrator yet.
+
+While Musgrave was reading, the thuggish brutes you'd hired from
+Fergus Chum arrived.  With their poor English, and the aid of the
+hotel receptionist, they conveyed that they had been hired as
+protection.
+
+Eventually, everyone but Wilhelmina had woken up, come down to
+breakfast, and found Musgrave sitting in the middle of five
+mean-looking thugs.  You decided to go to the university to do some
+research and to see if the engineering or physics department could
+tell you what the machine parts you found were.
+
+Musgrave, Clarissa, and the thuggish brutes went to the library.
+Musgrave asked the librarian for anything they had about Gray Dragon
+Island in English, and received some navigational charts with basic
+factual information: it's a small volcanic island in such a
+strategically useless position that no country has claimed ownership
+of it.  He satisfies the staff of his academic credentials and gets a
+library card.  Clarissa found a book on the history of religion in
+Shanghai, in Chinese.  Musgrave found a book about local folklore,
+also in Chinese.
+
+Jason and Carson met up with Li Wen-Cheng and went to the engineering
+department.  They managed to persuade the receptionist how important
+it was to speak with the head of the department, and made an
+appointment for that afternoon.  They then went to the library to pass
+the time.
+
+Li Wen-Cheng translated fragments of the books Musgrave and Clarissa
+had checked out:
+
+- Gray Dragon Island is called that because it was once an active
+  volcano.  The last eruption killed all the inhabitants, and the
+  island is still uninhabited.  It hasn't been active for centuries.
+
+- A god in the form of a bloated, tentacled, woman was once worshipped
+  by the Cult of the Bloated Woman.  The cult had a presence all over
+  China, but was concentrated in Shanghai with a few hundred members.
+  The cult was secretive about its practices and beliefs, but it was
+  known to have connections to the criminal underworld.  It gradually
+  died out and isn't thought to exist in the modern day.
+
+Jason, Carson, and Li Wen-Cheng went to their meeting with the head of
+the engineering department.  He was stumped by the device, and guessed
+that it could be part of some control system, but he really doesn't
+know.  He asked where you got it, you blatantly lied, and he didn't
+press the matter.  He said that the device is very advanced, and
+suggested that it could possibly be from some sort of military
+research.
+
+Meanwhile, Wilhelmina woke up and found you gone.  She read the
+Shanghai Courier, and figured you had probably gone to investigate the
+Seamen's Club, which is where she went.  The entire side of the
+building facing the river had collapsed, and the area was cordoned off
+with a few spectators, both Chinese and European.
+
+One of the spectators was a German sailor who had been at the club
+during the attack.  He said he saw the creatures, and described them
+as "fish men".  He said they seemed to be searching for something, but
+whatever it was they returned to the river empty-handed.
+
+Wilhelmina asked if anyone unusual had been staying at the club.  He
+said that there had been an American, who gave the name John Smith,
+who arrived last week and left the day before the attack.  The
+American was tall and muscular, with short hair.  Didn't talk much,
+and kept to himself.  Wilhelmina took the German's contact details.
+
+Wilhelmina then visited the port authority to check if any ships
+matched with the dates John Smith stayed at the club.  She found that
+the only non-Chinese and non-Japanese ship to arrive on the right day
+was a British yacht called The Dark Mistress[^may6_1] registered to an
+Alfred Penhurst, with contact c/o Ho Fang Import/Export[^may6_2].
+
+You realised that this was probably the ship in the photo you found in
+Jackson Elias' room back in New York.
+
+[^may6_1]: You all thought that name was really suspicious, but it's
+  not necessarily so.  Shakespeare wrote some sonnets about his "Dark
+  Mistress", and using the name for a ship is not unheard of.
+
+[^may6_2]: The crates with the machine parts in Ho Fang's warehouse
+  were labelled "A.P."
+
+While travelling back from the university, you realised you were being
+followed.  To try to catch your tail off guard, you headed to a
+quieter area, and everyone but Musgrave hid after turning a corner
+into an alley.  Three people arrived at the head of the alley, and
+stopped when they saw Musgrave alone.  You managed to surround the
+three, and asked who had sent them.  One said they served a powerful
+mistress.  As you were trying to interrogate them, Musgrave noticed
+that five more people, with guns, were approaching from the other end
+of the alley, and you all ran off.
+
+You met back up with Wilhelmina at the hotel, and decided to move to
+another hotel.  You went to one deeper in the International
+Settlement.
+
+You decided to visit Gray Dragon Island, and figured it would take a
+day or two to get there, depending on weather.  You went to the docks
+to hire a ship and crew, but didn't have much luck.  All the captains
+refused you.  They said that the last few ships which tried to go to
+Gray Dragon Island have all disappeared.  A man from one of the ships
+got rescued at sea, he said that as they approached the island the
+weather suddenly turned violent and sunk the ship.
+
+Your queries were overheard by a man who introduced himself as Chu
+Min, and said he would take you.  You asked if he was worried like the
+other captains, but he said that that was just superstitious nonsense,
+and that with charts and a good crew you can sail any waters.
+
+Jason and Wilhelmina were suspicious of Chu Min.  They decided to take
+him to the pub to "celebrate" their meeting, to get him drunk, and to
+then follow him and try to learn what his deal is.  Jason asked about
+Chu Min's background, Chu Min said that he had been a policeman, and
+turned to the sea when he couldn't take it anymore; Jason could tell
+he was lying about something.  They drank for a few hours in the pub,
+and eventually Chu Min got up to leave.  Jason and Clarissa followed a
+few minutes later, but Chu Min had disappeared.
