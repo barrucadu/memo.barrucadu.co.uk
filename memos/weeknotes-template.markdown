@@ -1,7 +1,8 @@
 ---
 title: Template for Weeknotes
 tags: weeknotes, systems
-date: 2019-02-09
+modified: 2019-07-21
+published: 2019-02-09
 audience: Personal
 ---
 
@@ -14,8 +15,6 @@ audience: General
 ---
 
 ## Open Source
-
-## Ph.D
 
 ## Work
 
