@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-06-30T19:00:00
+modified: 2019-07-28
 audience: Narrow
 ---
 
@@ -2590,3 +2590,74 @@ turned to the sea when he couldn't take it anymore; Jason could tell
 he was lying about something.  They drank for a few hours in the pub,
 and eventually Chu Min got up to leave.  Jason and Clarissa followed a
 few minutes later, but Chu Min had disappeared.
+
+
+China session 3, 2019-07-06
+---------------------------
+
+**I didn't get around to writing up proper notes, so here are bullet
+points.**
+
+You're setting out to Gray Dragon Island, following a map you found in
+Ho Fang's office.  By a stroke of luck, after all the other captains
+refused to take you, you encountered the willing Chu Min.  So far
+during your short stay in Shanghai you've been watched, followed, and
+threatened.  You've hired thugs, followed signs of the cult to Ho
+Fang, and found signs of Aubrey Penhew and Jack Brady.  Now you're
+leaving it all behind, at least for a few days.  It's now the morning
+of the 7th of May, and you and your brutish thugs have just arrived at
+the docks.
+
+### 7th of May, 1925
+
+- Met Chu Min at the docks and sailed off
+- After three hours the ship turned east, which is not the direction
+  of Gray Dragon Island
+- Investigators went, with thugs, to ask Chu Min what was going on
+- Chu Min tells the investigators they're taking a diversion, not
+  going to Gray Dragon Island today, and suggests that they have a
+  talk.  He suggests the brutish thugs leave them because "you don't
+  know who else's pocket they're in"
+- Investigators refuse to send away the brutish thugs.  Chu Min
+  shrugs.
+- Chu Min asks about their business in Shanghai and why they want to
+  go to Gray Dragon Island.  Not a popular destination with tourists.
+  He also asked if they knew why they were being followed by Ho Fang,
+  Lin Yenyu, and Isoge Taro.
+- Investigators open up, seeing that Chu Min knows too much to
+  deceive.
+- Investigators question Chu Min, who tells them about Firm Action.
+- Chu Min signals one of his staff, who operates a radio.  Chu Min
+  says that there is someone they should meet, his boat will be here
+  soon.  To go to the deck, and this time he really insists that they
+  leave the brutish thugs behind.
+- After 15 minutes of waiting, an old fishing boat approaches.  On the
+  deck is a white man.
+- The white man crosses over and has a brief conversation with Chu Min
+  out of hearing.
+- He turns to the investigators and introduces himself as Jack Brady.
+  Jack suggests they get on his boat and accompany him to his base, to
+  talk about Gray Dragon Island and his plans.
+- During the journey Jack Brady tells his story.
+- At the warehouse Jack Brady tells his plans and about the Eye of
+  Light and Darkness and invites the investigators along.  He doesn't
+  reveal Mu Hsien's name.  He tells the investigators to lay low and
+  not attract further attention.  The investigators ask why they are
+  being followed by Lin Yenyu and Isoge Taro.
+- When the investigators leave they see some people watching the
+  warehouse.  They return to tell Jack Brady, who reveals they are
+  Firm Action members.
+
+### 8th of May, 1925
+
+- Investigators go to Shanghai Courier offices and find other
+  articles.
+- Lantern Street: track down the girl to the hospital but do not go to
+  where Chong Mei-Ling has been sold.  Learn about the European.
+- Chin-Ling Road: ask the bonze about the monks and the European, if
+  he knew why they were meeting.  He did not.  Tracked down Liu
+  Chen-dai, he lied out of embarrassment about what he saw.  Checked
+  the weather forecast and saw it was poor conditions for a moving
+  fire that day (damp and no wind).
+- Staked out the docks for the Dark Mistress, which arrived after a
+  few days.
