@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-07-28
+modified: 2019-08-11
 audience: Narrow
 ---
 
@@ -23,10 +23,10 @@ Player characters
 
 * **Dr. Carson Crane** (34), a doctor of medicine from Louisiana.
   Indefinitely insane: prone to sensory delusions and bouts of
-  madness.
+  madness.  Suffering from myxophobia, the fear of slime.
 
 * **Professor Arthur Musgrave** (62), an archaeologist from London.
-  Suffering from ballistophobia, a fear of guns and bullets.
+  Suffering from ballistophobia, the fear of guns and bullets.
 
 * **Jason Steele** (32), a private eye from Salem.  Not insane, but
   seems to be a bit paranoid nonetheless.
@@ -108,6 +108,13 @@ Notable possessions
 - A strange and intricate mechanism.
 
 - A bunch of voluminous black and yellow robes.
+
+- The book **True Magick** (1700s, English).  Details the nature and
+  habits of "demonic creatures", including the means to summon them.
+  Also discusses the author's interpretation of the different schools
+  of magic.
+
+- Some ancient scrolls written in Chinese.  Currently with Mr. Lung.
 
 
 Peru session 1, 2018-09-29
@@ -440,6 +447,10 @@ dead once more.  The horror of what you all just witnessed began to
 sink in: a dead man came back to kill you.  Dr. Crane picked the
 bullet out of Prof. Musgrave and bandaged him up.  Prof. Musgrave
 gained a nascent phobia of bullets.
+
+<aside class="highlight">
+Musgrave gains ballisophobia.
+</aside>
 
 You quickly fetched more gold and continued the repair, but nothing
 seemed to happen.  Jason Steele decided to pick up Mendoza's body and
@@ -2641,9 +2652,9 @@ the docks.
 - During the journey Jack Brady tells his story.
 - At the warehouse Jack Brady tells his plans and about the Eye of
   Light and Darkness and invites the investigators along.  He doesn't
-  reveal Mu Hsien's name.  He tells the investigators to lay low and
-  not attract further attention.  The investigators ask why they are
-  being followed by Lin Yenyu and Isoge Taro.
+  reveal who is doing the translation.  He tells the investigators to
+  lay low and not attract further attention.  The investigators ask
+  why they are being followed by Lin Yenyu and Isoge Taro.
 - When the investigators leave they see some people watching the
   warehouse.  They return to tell Jack Brady, who reveals they are
   Firm Action members.
@@ -2661,3 +2672,250 @@ the docks.
   fire that day (damp and no wind).
 - Staked out the docks for the Dark Mistress, which arrived after a
   few days.
+
+
+China session 4, 2019-08-03
+---------------------------
+
+Last session you met Jack Brady, who told you what he knows, and his
+plans to render Gray Dragon Island unusable to the cult by means of a
+ritual he is having translated.  He offered to bring you along as part
+of his strike force when he makes his move.
+
+While you wait for him to contact you again, you've been keeping a
+watch on the docks for Sir Aubrey Penhew's yacht, the Dark Mistress.
+Tonight, it has arrived.
+
+It is now the night of the 17th of May 1925, 10 days after you met
+Jack Brady, and you're all concealed in the shadows watching The Dark
+Mistress dock.
+
+What do you do?
+
+### 17th of May, 1925
+
+You watched the crew disembark, you couldn't make out their features
+in the darkness, but you saw six tall well-built men, and one shorter
+and thinner man.  Judging by the size of the yacht, this would quite
+possibly be the total number of crew.  The six well-built men set off
+in the direction of Ho Fang's warehouse.  The thin man lit a match for
+his pipe, and you saw his face.
+
+The man's skin was sagging, like a sack draped over a frame, his nose
+was partially eaten away, his eyes yellow, and he had bald patches.
+Carson recognised these as the symptoms of long-term exposure to a
+low-intensity source of radiation.
+
+The man didn't seem to be moving from near the ship, so Wilhelmina
+decided to try to swim across to it and climb aboard without being
+seen.  However the man heard her get into the water, and she decided
+to change tack to acting as a diversion, and started shouting "help,
+I've fallen in the water!"  When the man went to investigate, Jason
+dashed across the dock and into the yacht.
+
+Jason explored the interior of the ship, finding the luxurious guest
+rooms, and the less luxurious crew rooms.  The ship's hold was empty,
+other than a few expected items like spare ropes and tools.  There
+were no other crew.  In a lounge, Jason found a bloated woman statue
+in a display cabinet, along with books on astronomy, astrology,
+science, and engineering.  In an locked, opulent, bedroom (the only
+locked room on the ship), Jason found a booby-trapped wooden cabinet
+containing five cylindrical ivory cases, a book **True Magick**, some
+particularly ornate cult robes, and a medallion bearing Chinese
+characters.
+
+Jason then left the ship.  Wilhelmina had persuaded the thin man to
+take her to a nearby bar to dry off near the fireplace.  Everyone
+returned to the hotel.
+
+Musgrave examined the ivory cases, and found they contained scrolls
+written in Chinese, and worked out they must be over 2,000 years old.
+Musgrave also examined the **True Magick** book, which had been
+rebound in red silks bearing Chinese-style mythological creatures, and
+worked out that it would be from about the 17th century.
+
+You decided to go see Mr. Lung the following day, to see if he could
+translate the scrolls or tell you anything about the medallion.
+
+### 18th of May, 1925
+
+You went to see Mr. Lung.  You showed him one of the scrolls, and
+after examining it for a while he said that this was only part of a
+collection.  You gave him the rest of the scrolls, and with some
+difficulty he figured out their order as well as their general topic:
+lost ancient continents.  He said that a translation would be
+difficult, because the language had changed a lot since the scrolls
+were written, he estimated three or four weeks.  Musgrave paid him a
+generous retainer, and asked him to work on the translation.  You then
+took out the medallion, at which Mr. Lung drew back and became clearly
+uncomfortable.  When pressed, he explained that those were the
+characters of the Cult of the Bloated Woman, of which he knew a
+little.  He then told you more or less what you already knew from the
+library.  He said the medallion was a bad omen.
+
+You then went to a cafe to get some lunch.  While you were there, Jack
+Brady arrived, to tell you that everything was ready and to come to
+the warehouse.  He disappeared as suddenly as he had arrived.
+
+You went to the Firm Action warehouse, and were shown to Jack Brady's
+office.  Inside the office were Jack Brady, Chu Min, the "drunken"
+Japanese man from the Stumbling Tiger Bar, and an old man wearing
+traditional clothing you didn't know.  Jack Brady introduced the old
+man as Mu Hsien, the translator.  He introduced the Japanese man as
+Captain Isoge Taro of the Imperial Japanese Navy, who had agreed to
+help out.
+
+Jack outlined the situation.  The good news is that the ritual has
+been translated[^may18_1], the bad news is that Firm Action spies had
+reported significantly increased cult activity on the island.  It
+seems they were planning to do something big in the next few days,
+involving a device Aubrey Penhew has been constructing in the volcano,
+and so Jack didn't want to wait.  He said that this could be a
+blessing in disguise though, as with so many people---some
+white---many of whom have never met before it should be fairly easy to
+slip in with disguises.
+
+[^may18_1]: You got a copy as a handout.
+
+He outlined his plan.  Jack would lead a team of Firm Action members
+to the opposite side of the volcano to the village, where they would
+perform the ritual.  This would last all night.  You would infiltrate
+the volcano base and disable the device and, if possible, kill Aubrey
+Penhew.  Isoge Taro would call down a naval bombardment on the island
+after you had had time to reach the volcano, to cause panic.
+
+At this point Isoge Taro interrupted, and clarified that he didn't
+believe in any of this magic business, but that he had seen plans
+stolen by the Firm Action spies, and agreed that some sort of weapon
+was being constructed.  He said that the Imperial Japanese Navy could
+not allow a weapon installation in the South China Sea, and that is
+the only reason he is involved.
+
+In the early evening you embarked on the day-long journey to Gray
+Dragon Island.
+
+### 19th of May, 1925
+
+As you approach the island, Jack's ship changed course to approach the
+far side of the volcano, leaving you by yourselves.  During the
+journey Clarissa read **True Magick**.
+
+Your ship pulled up to a rickety wooden pier, where a few other boats
+were tied up.  The island was not a welcoming sight: mostly cinders,
+sand, and stunted palm trees.  Steam vents dotted the ground.  You
+looked up and could see the volcano cone, towering above the rest of
+the island.
+
+You went towards the village, and saw a dismal collection of thatched
+huts huddling together beneath the trees.  A few villagers milled
+around.  You saw a group of a dozen or so cultists heading up the path
+to the volcano, and followed them.
+
+You followed the twisting trail about 50m up to an entrance in the
+side of the volcano.  The entrance was decorated with the Order's
+characters.  The entrance lead to a long stone staircase, descending
+another 70m.  The staircase lead to a large open chamber, full of
+activity.
+
+The chamber was packed with dozens of people.  It was a rough cylinder
+50m high, tapering to a hole through which you could see the sky.  The
+walls were coated in slimy fungi.  In the centre of the chamber was a
+large device, like a large bullet, with tasteful Art Deco designs
+worked into the exterior, held by metal girders over a pit of lava
+glowing orange, yellow, purple, green, and blue.  The device was
+tended to by some cultists wearing more work-practical robes, who were
+using cigar-shaped devices which emitted blinding light.
+
+A dozen thin-looking people wearing black head dresses carried buckets
+of bubbling black liquid from a pool to the lava pit.  There were
+three creatures, with greyish-green skin, white bellies, scaly backs;
+humanoid but with the heads of fish with great bulging eyes, and
+palpitating gills in the necks.  Two of these creatures held tridents
+and were shepherding the thin people[^may19_1].  The third creature,
+significantly larger, held globs of grey slime in its hands and was
+waving them around as if directing traffic.  Across from the pool of
+bubbling black liquid was a pool of clean-looking water.
+
+[^may19_1]: Who you guessed to be human slaves.
+
+Also in the room was a large statue of the bloated woman, much taller
+than a person, facing the wall.  Hundreds of severed human arms hung
+from its tentacles.  Its base was stained with blood.  Near the
+entrance was a pile of boxes.  There were a few doorways, only one
+with actual doors.
+
+Wilhelmina and Jason saw that Carson was about to lose it at the sight
+of all this, and Jason managed to clamp a hand over Carson's mouth
+before he could draw attention.
+
+Able to move fairly freely, due to the amount of people in the room
+looking at the statue or the device, Jason and Arthur made their way
+to the pile of crates and examined one of the devices used by the
+worker-cultists.
+
+<aside class="highlight">
+Jason gains the Firearms (Alien Welding Device) skill at 10%.
+</aside>
+
+Then the naval bombardment began, and the room erupted into panic and
+chaos.  Many cultists started making their way to the exit.
+
+Taking advantage of the chaos, you started planting sticks of dynamite
+at the bases of the metal girders supporting the device above the lava
+pit.  Clarissa was noticed by the large fish-person, but before it
+could do anything Carson smacked it over the head with a crowbar.  The
+pool of bubbling black slime exploded into the room.
+
+A large glob of black slime, holding itself together in a rough
+sphere, constantly undulating and forming appendages which last for a
+second before being reabsorbed and reformed into something else,
+emerged from the pool.  Everyone but you and the fish people had now
+fled the room.  The fish people leapt into the pool of water and
+disappeared.
+
+Horrified by what had been unleashed, Carson let out a scream.
+
+<aside class="highlight">
+Carson gains myxophobia.
+</aside>
+
+The doors slammed open, and a man strode out.  Arthur recognised Roger
+Penhew.  Penhew took stock of the situation, raised his arm, and
+shouted a command.  The liquid creature was hurled against the wall.
+Penhew looked totally absorbed in the strain of keeping the creature
+under control.
+
+Arthur tried to tear his gaze away from the creature, to continue the
+mission.  But he panicked, dropped the dynamite without lighting it,
+and ran through the doors Penhew came from, slamming them behind him.
+Arthur found himself in a workroom with books, intricate mechanisms,
+and papers written in an unknown alphabet scattered everywhere.  On
+the wall as a chronometer of the same make as the one in the Ju-Ju
+House, set to GMT.  When he calmed down enough to have a proper look
+around, Arthur found Penhew's diaries, which he grabbed.
+
+The dropped stick of dynamite had rolled next to the girder it was
+supposed to destroy, so Jason shot at it, blowing it up.  The other
+sticks of dynamite also started to explode.  The device started to
+list over into the lava.
+
+The explosions broke Penhew's concentration.  The creature surged
+forward and engulfed him.
+
+Arthur managed to muster the courage to leave the room, and ran around
+the creature to join up with the others near the exit.  You all
+started to run up the stairs, and heard the creature behind you start
+to move.  Turning around you saw it had dropped Penhew's dead and
+partially digested body, as it moved towards you.  You ran, as the
+remaining dynamite exploded, and the device fell into the lava.
+
+At the surface you dropped all your remaining dynamite, lit, and
+clambered down the side of the volcano to the beach as it exploded
+behind you.  Nothing pursued.
+
+After a little while, the ship came to pick you back up.  You then
+sailed around to the far side of the island to collect the other team.
+
+While waiting for them, you looked through Penhew's diaries, which
+talked about constructing the device, and made frequent mention to
+Robert Huston in Australia.
