@@ -449,7 +449,7 @@ bullet out of Prof. Musgrave and bandaged him up.  Prof. Musgrave
 gained a nascent phobia of bullets.
 
 <aside class="highlight">
-Musgrave gains ballisophobia.
+Musgrave gains ballistophobia.
 </aside>
 
 You quickly fetched more gold and continued the repair, but nothing
