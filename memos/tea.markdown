@@ -19,7 +19,7 @@ Name                          Supplier              Type                   Origi
 [Charcoal Roasted Oolong][]   [What-Cha][]        Oolong           Nantou, Taiwan
 
 [Malawi Leafy Ripe]: https://what-cha.com/malawi-2018-leafy-ripe-dark-tea/
-[Houjicha]: https://what-cha.com/japan-obubu-dark-roast-houjicha-green-tea/
+[Houjicha]: https://what-cha.com/collections/green-tea/products/japan-obubu-dark-roast-houjicha-green-tea
 [Charcoal Roasted Oolong]: https://what-cha.com/taiwan-charcoal-roasted-oolong-tea/
 
 ### Contenders
