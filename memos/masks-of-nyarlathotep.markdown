@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-08-11
+modified: 2019-08-29
 audience: Narrow
 ---
 
@@ -115,6 +115,8 @@ Notable possessions
   of magic.
 
 - Some ancient scrolls written in Chinese.  Currently with Mr. Lung.
+
+- Aubrey Penhew's diaries.
 
 
 Peru session 1, 2018-09-29
@@ -2919,3 +2921,333 @@ sailed around to the far side of the island to collect the other team.
 While waiting for them, you looked through Penhew's diaries, which
 talked about constructing the device, and made frequent mention to
 Robert Huston in Australia.
+
+### End
+
+This is the end of this chapter.  Bonus sanity points are:
+
+- `+1d4` for breaking up the Order of the Bloated Woman.
+- `+1d8` for destroying Sir Aubrey's rocket.
+
+The next chapter will begin with you arriving in Alexandria.
+
+
+Egypt session 1, 2019-08-17
+---------------------------
+
+As the moon began to set, a little before dawn, you felt a shockwave
+pass through the air, and heard a terrible inhuman screech from the
+direction of the volcano.  The boat captain said "it's time", and set
+sail for the far side of the island, to collect Jack Brady.  You heard
+a loud splash from the island, as if something large fell into the
+sea.
+
+About half an hour later the ship had pulled in to the island again
+and you saw Jack Brady, Chu Min, and their Firm Action companions,
+clambering across the rocky beach.  Jack was covered in blood, but
+rebuffed Carson's offer to examine him, saying "it's not needed, the
+job is done."  That much blood must have come from a significant
+wound, but neither Jack nor any of the others showed any obvious signs
+of injury, though they all looked incredibly tired.  There was just
+the blood.
+
+On the journey back to Shanghai, Jack opened up a little, saying that
+the ritual had been a success, "the Order won't be using that island
+for a while", he said, and "did you hear that cry around dawn?  We
+must have cast something out."
+
+A few days after the events on Gray Dragon Island, you met up with
+Jack again, to tell him you were going to Egypt, to continue following
+Jackson Elias' footsteps.  "Elias was a good man", he said, "I hope
+you don't end up like he did.  As for me, my work here in Shanghai is
+done.  The Order is broken up, which is good, but there are now a lot
+of people out for my blood.  I'm going to go to Roger, lay low in Hong
+Kong.  If you're going to Egypt, you should take this," he hands
+Musgrave the fragment of the Eye of Light and Darkness from the Red
+Pyramid, "I don't think you can fix this, but maybe you can make a new
+one."
+
+You booked passage on the Voiture du Mer, a French steamer heading to
+Alexandria, a journey of 20 days.  Once in Alexandria you can get a
+train to Cairo.
+
+You had some opportunity to relax on the crossing.
+
+<aside class="highlight">
+All gain `1d6` Sanity.
+</aside>
+
+As with the London to Shanghai voyage, Clarissa spent most of her time
+reading: this time **True Magick**, and **Aubrey Penhew's diaries**.
+
+<aside class="highlight">
+Clarissa gains 5 Cthulhu Mythos points; loses `1d8` sanity; and can
+make Hard INT rolls to try to learn up to two of these three spells:
+
+- A spell to visit upon thy foe a blood pestilence, which must be cast
+  at night and requires sacrificing some of your blood in payment.
+- A spell to call down a great winged steed, which can be cast at
+  night when the star Aldebaran is above the horizon.  October to
+  March are the best times of year for that, any week outside that
+  time will require a Luck roll.
+- A spell to convey thy prayers to the Great Gods, which requires a
+  flute, but can be cast at any time.  The author's description of
+  this spell notes how tired someone is after casting it.
+
+Rolls, including for any spells you didn't try to learn, can be
+retried at a rate of one per week, if you have had some down time in
+that week to study the book.
+
+I'm house ruling the timing on this book reading and spell learning
+stuff, because otherwise you'd only be able to properly read maybe two
+books in the whole campaign.
+</aside>
+
+---
+
+Egypt was the first stop of the Carlyle Expedition.  They went to
+Cairo, and then conducted digs in nearby Giza, Saqqara, and Dashur.
+Dashur is where Roger Carlyle destroyed the Eye of Light and Darkness
+atop the Red Pyramid, and where all the expedition members but Jack
+Brady disappeared inside the Bent Pyramid, to emerge... changed.
+Jackson Elias also went to Cairo, after having spoken to Jack Brady,
+though it seems he didn't stay for long.  Leads you have in Cairo are:
+
+- Warren Besart, who acted as Roger Carlyle's purchasing agent for
+  "singular curios", in 1919.
+- Faraz Najjar, who sold the curios to Warren Besart.
+
+Cairo in 1925 is an old city trying to modernise.  Horse-drawn
+carriages are common, but so are taxis, and there's an extensive tram
+network.  Trains run from Cairo to all the major nearby historical
+sites, including Giza, Saqqara, and Dashur.  Hiring cars, and drivers
+if you need them, is possible if you want to go further afield.  The
+tomb of Tutankhamun was opened a few years ago, in November of 1922,
+and has sparked a wave of Egyptomania across the entire world.  As far
+away as America, many people wear Egyptian-style jewellery and
+tarbouches; and Egypt itself is experiencing a tourism boom.  Cairo,
+originally called El Kahira and built in 968AD after the Islamic
+conquest, now has a population of 850,000, of which one in ten is
+foreign.  Palaces and mosques litter the city, and it's said that you
+can study all there is to study about Arabic art without ever leaving
+Cairo.  The Old City is a maze of narrow winding streets, with the
+upper floors of the buildings on either side leaning overhead, casting
+the streets into shadows; and bustling open market squares.  Many
+Cairenes are very poor, with beggars on every street corner.  The
+currency is the Egyptian pound, which is equivalent to the British
+pound, or five US dollars.  The primary language is Arabic, with
+French being used in learned societies, and English being very
+uncommon.  The dominant religion is Islam, with a small minority of
+Coptic Christians.  The weather is hottest from June to August, with
+daily highs of 40C not uncommon.  Strenuous outdoor physical activity
+is a bad idea for your health.
+
+Professor Musgrave knows a bit more about Egypt and Cairo than the
+rest of you.  Musgrave, you know that the Egyptian authorities have
+been cracking down on the exporting of archaeological finds, unless
+you have a proper licence; so bringing anything you find out of Egypt
+will be tricky.  The body which issues these licences is the Egyptian
+Museum, and of course there's a thriving black market trade---or so
+you hear.  You've previously had dealings with Dr. Ali Kafour,
+custodian of the occult and religious library of the Egyptian Museum,
+who you consulted about some research you were doing.  You've never
+met, but you have a friendly correspondence.  You know that
+communicating with the locals, or even just getting around in Cairo,
+is almost impossible without either speaking Arabic, or employing a
+*dragoman*, which is a local guide.  The more reputable hotels can
+generally find someone reliable, who won't take you down a back alley
+and rob you.  You've previously stayed in the Hotel du Nord and the
+Semiramis.  You also know that the dust storm season lasts from March
+to June, so you've arrived just at the tail end of that, which should
+make any desert excursions easier.
+
+---
+
+It's now the 12th of June.  You've just disembarked in the port of
+Alexandria, and are standing in the queue for customs, where they're
+checking random bags for weapons.  What do you do?
+
+### 12th of June, 1925
+
+The Alexandrian customs officers randomly inspected Jason's bag,
+finding and confiscating his guns.  The rest of you escaped notice.
+After passing through customs you boarded the train to Cairo.
+
+Your first impression upon leaving Cairo station was how busy it was:
+the wide open streets, bordered by palm trees, were packed with people
+as far as the eye could see.  You could hear the shouts of street
+vendors in a variety of languages, and just outside the station a
+group of beggars sat in a row shaking bowls of coins at passers-by.
+
+As you stepped out into the street, a group of men waving flyers for
+hotels, all trying to shout over each other, accosted you.  One
+well-dressed young man, taller than the rest, shouldered his way
+through the throng and bowed deeply to you.  "Good day to you and
+welcome to Cairo.  My name is Ibi Moussa.  If you have yet to arrange
+your accommodation, may I suggest the Hotel du Sud?" he said in
+accented and near-flawless English.  Without waiting for your reply he
+said "Please, permit me to take care of your luggage for you", he
+gestured at some street urchins, and they grabbed your bags and began
+to stride through the crowd, Ibi included.
+
+You followed after through the crowd as best you could, and soon found
+yourselves at the Hotel du Sud: tired looking, with out-of-fashion
+decor and peeling paint.  The manageress introduced herself as Madame
+Patenaude, as the urchins stood expectantly waiting for tips.  Arthur,
+Wilhelmina, and Carson decided to take rooms here.  Clarissa and Jason
+went off to the Semiramis hotel instead.  The rooms at the Hotel du
+Sud are as plain and unimpressive as the rest of the hotel.  None of
+your three rooms were adjacent, though you didn't see any other
+guests.  In contrast, the Semiramis is opulent, lavishly decorated,
+and expensive.
+
+Each group decided to do some independent investigation.
+
+Clarissa and Jason first went clothes shopping, and then to find Faraz
+Najjar on the Street of Jackals.  The Semiramis supplied them with
+Saleem Naziz, a dragoman, to help navigate the city.
+
+In the Street of Jackals you saw a burned down building, clearly quite
+old ruins, odd given how dense the surrounding city is.  You noticed
+people didn't linger in front of it, and made a sign of warding when
+they passed it.  You went into a linen shop to ask the shopkeeper,
+through Saleem, if he knew anything about Faraz Najjar.  You learned
+that the burned out building had been the shop of Faraz Najjar, and
+that it was destroyed by a hideous demon five or six years ago.  The
+shopkeeper said people believed Faraz Najjar to be cursed, and don't
+like to deal with him.  But despite that, Faraz Najjar has set up a
+new shop near the Khan el-Khalili bazaar.
+
+Next Jason and Clarissa went there and, down the nearby Street of
+Potters, found Faraz Najjar's new shop.  You all went into the shop,
+and were greeted warmly by Faraz Najjar, who encouraged you to look
+around.  You noticed that he kept one side of his face turned away
+from you as he spoke, and conspired to move around the shop so that at
+least one of you would see.  You saw that he had terrible burns.  You
+began to ask him about Warren Besart, and his demeanour changed
+immediately, he began to splutter, and asked you to leave his shop.
+Undeterred, Jason pressed forward, and Faraz Najjar drew a jewelled
+scimitar from behind the counter as he began to curse at you in
+Arabic.  You decided to leave quickly, as a small crowd was starting
+to form outside the shop.
+
+You then asked Saleem to take you to a newspaper archive.  He took you
+to the Cairo Bulletin, back near the Semiramis.  Nigel Wassif, the
+editor, let you look through the archives.  You found:
+
+- Articles about the Carlyle Expedition during their stay in Cairo.
+  It said that they conducted digs in Giza, Saqqara, and Dashur to
+  investigate the Third Dynasty.  Speculation and rumours arose about
+  the expedition's "true purpose", as those locations are not
+  associated with the Third Dynasty.  Then, in July 1919, the
+  expedition departs for Kenya on holiday.  There were rumours that
+  Roger Carlyle fell ill.  Aubrey Penhew said that the Egyptian summer
+  was too hot for Roger, and also that the seasonal flood of the Nile
+  would obscure an important dig site for several months, so there was
+  no point in staying.  You noticed that a photo of Hypatia Masters,
+  printed in June 1919, was actually taken in May 1919.  There were no
+  photos of Hypatia Masters which had definitely been taken after May.
+
+  You asked Nigel Wassif about the expedition, he said that they had
+  been "simply horrid" in how they kept the press away from their
+  digs, being unusually hostile and secretive.
+
+- There is currently a Penhew Foundation-funded dig going on in Giza,
+  led by a Dr. Henry Clive.  The Clive Expedition unearthed a mummy
+  from the smaller of the three Great Pyramids, which disappeared
+  under mysterious circumstances while under guard.  The police have
+  failed to find the mummy.  Wassif has heard rumours that one of the
+  expedition members, a Dutch archaeologist called Janwillem van
+  Heuvelen, was fired for incompetence.  Janwillem can't afford travel
+  back to Europe, and is said to be living in some poor part of Cairo
+  currently.
+
+- An article about the burning of Faraz Najjar's shop, at roughly the
+  right date, which the police blamed on carelessness and an oil lamp.
+
+While Jason and Clarissa were investigating Faraz Najjar, Arthur,
+Carson, and Wilhelmina visited the Egyptian Museum to pay a visit to
+the occult library managed by Arthur's contact, Dr. Ali Kafour.
+
+After exchanging pleasantries with Dr. Kafour, Musgrave took out the
+fragment of the Eye of Light and Darkness.  Dr. Kafour recognised the
+Egyptian design, and sketched a possible completion of the symbol on a
+piece of paper, saying it would have been a powerful warding symbol.
+He said that it must have come from the Red Pyramid, based on the
+colour of the stone.  He asked where you got it, and Musgrave told the
+story.
+
+Dr. Kafour revealed that he was something of an occultist himself, and
+was familiar with some of what Musgrave had told him.  In particular:
+
+- He had met Jackson Elias, who came to ask about the Carlyle
+  Expedition.  They had a short meeting, and arranged another, but
+  Jackson never showed up to the second meeting.
+
+- Dr. Kafour believed that the Carlyle Expedition had uncovered a
+  secret relating to the Black Pharaoh, which had led to their
+  slaughter in Egypt, though their being alive suggests they are in
+  league with the Black Pharaoh, which is corroborated by what the
+  investigators discovered about the Penhew Foundation.  When Sir
+  Aubrey came to Egypt, he did not seek out Dr. Kafour despite the two
+  having corresponded before, and in fact rudely rebuffed Dr. Kafour
+  when he visited the dig site.  Sir Aubrey also looked younger than
+  he had previously.
+
+- Since the Carlyle Expedition, there have been 10 Foundation
+  expeditions to Egypt, the latest of which is the Clive Expedition,
+  and amongst them there have been 20 deaths, disappearances,
+  suicides, and a case of madness.  Most have been as secretive as the
+  Carlyle Expedition.
+
+Dr. Kafour also told you the legend of the Black Pharaoh, which goes
+as follows.  At the end of the Third Dynasty a powerful sorcerer
+called Nephren-Ka came to Egypt from the city of Irem, the City of
+Pillars, which is described in the **Al Azif** (also known as the
+**Necronomicon**).  Nephren-Ka revived the worship of an old god
+called the Black Pharaoh and, in the minds of the people, Nephren-Ka
+and the Black Pharaoh were mixed together, making it difficult to
+distinguish what each one did exactly.  For many years Nephren-Ka /
+the Black Pharaoh fought with the successors of the Third Dynasty for
+control of Egypt, but no records remain from that period.  For a time,
+Nephren-Ka ruled.  Then Sneferu overthrew him to found the Fourth
+Dynasty with the aid of the goddess Isis.  Sneferu ordered all trace
+of the Black Pharaoh stricken from the land, and his worshippers were
+driven from Egypt into Sudan.  A pyramid was built at Meidum to
+contain Nephren-Ka's body, and to ensure he could never rise again.
+This first pyramid collapsed, and a second pyramid under construction
+was repurposed to hold the body.  This is the Bent Pyramid at Dashur,
+though no trace of a body has been found inside; a second pyramid at
+Dashur, the Red Pyramid, as said to ward the area so that Nephren-Ka
+could never rise.  Later, in the Sixth Dynasty, it's rumoured that
+Queen Nitocris was in league with the worshippers of the Black
+Pharaoh, though there is no concrete evidence of this, but Dr. Kafour
+believes it to be true.
+
+Dr. Kafour said that "Black Pharaoh" is a title, and that he was
+sometimes known by the name Nyarlathotep.  He believes that
+Nyarlathotep was merely a part of a pantheon of ancient gods he calls
+the Outer Gods, which are described in the **Necronomicon**.  He
+offered to show you a version of the Arabic original, the **Al Azif**,
+in the museum archives, which you took him up on.
+
+Dr. Kafour took you to the archives, a huge room with thick steel
+walls, a combination lock, and a magical ward.  Dr. Kafour confessed
+as he undid the ward that his interest in the occult was more than
+just a passing curiosity, though he felt he hardly needed to justify
+that to people who had been through what you had.  Musgrave and Kafour
+spent the rest of the afternoon slowly working through the Arabic
+text.
+
+That evening, after you were all asleep in your rooms, you were all
+awoken by flames, about the size of a human head, levitating above
+your chests.  The flames descended onto you to burn you but, in the
+burning, you also felt a weakness as if you were being
+drained[^jun12].  The creatures were very hot, though only Musgrave
+took significant burns before escaping.  As you escaped from your
+rooms, the creatures began to set them alight.  A conveniently placed
+fire extinguisher in the Semiramis allowed Jason and Clarissa to
+destroy their fires, but the Hotel du Sud was burned to the ground,
+leaving Jason, Musgrave, and Wilhelmina with nowhere to stay.
+
+[^jun12]: Magic point loss.
