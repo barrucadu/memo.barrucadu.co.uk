@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-08-29
+modified: 2019-09-10
 audience: Narrow
 ---
 
@@ -30,6 +30,8 @@ Player characters
 
 * **Jason Steele** (32), a private eye from Salem.  Not insane, but
   seems to be a bit paranoid nonetheless.
+
+* **Janneke van Heuvelen**
 
 These ages and descriptions reflect the characters as they currently
 are, not as they were at the beginning of the campaign.
@@ -3251,3 +3253,151 @@ destroy their fires, but the Hotel du Sud was burned to the ground,
 leaving Jason, Musgrave, and Wilhelmina with nowhere to stay.
 
 [^jun12]: Magic point loss.
+
+
+Egypt session 2, 2019-08-31
+---------------------------
+
+<aside class="highlight">
+We've got a new player, who is taking over the NPC Janwillem van
+Heuvelen, who has been retconned into a woman called Janneke van
+Heuvelen, but otherwise is the same.  As you didn't meet Janneke last
+session we're going to have a time-skip of a few days, which I'll
+cover in the recap.  So, without further ado...
+</aside>
+
+Last session you arrived in Cairo, the first destination of the
+Carlyle Expedition.  As you often do, you split the party and did some
+independent investigation: Jason and Clarissa went to track down Faraz
+Najjar, who you knew sold some artefacts to Roger Carlyle via his
+agent Warren Besart.  You found Faraz Najjar's shop destroyed, locals
+said by a fire demon, and you were chased from his new shop when you
+started to ask about the past.  Musgrave, Carson, and Wilhelmina
+visited Dr. Ali Kafour, Musgrave's academic contact, at the Egyptian
+Museum and heard the legend of the Nyarlathotep the Black Pharaoh, and
+got to see the museum's copy of the **Al Azif**, the Arabic original
+of the famed **Necronomicon**.
+
+You also learned that the Clive Expedition, another Penhew
+Foundation-funded expedition, has been conducting digs in Giza, and
+had a mummy disappear several weeks ago under mysterious
+circumstances.  Janneke was part of that expedition, but was fired for
+being drunk on site one too many times and, lacking the funds to
+return to Europe, remained in Cairo.
+
+That night you were attacked in your hotel rooms by levitating balls
+of fire.  Jason and Clarissa managed to extinguish their fires, but
+the rest of you weren't so lucky.  The Hotel du Sud, where Musgrave,
+Carson, and Wilhelmina were staying, burned to the ground.
+
+And now for the time skip.
+
+The next day, after meeting up and discussing the events of the night,
+you realised that you must have been followed to your hotels.  You
+decided to regroup at the Semiramis and keep an eye out, see if anyone
+was watching you.  It was hard to tell with the large crowds, but you
+didn’t notice anyone suspicious.  That night you were attacked again.
+Clarissa awoke to the sound of her window being broken, and saw a
+figure, like an ape with spindly arms and a too-long face with
+too-large eyes clambering in to the room, with another peering in from
+behind it.  A phenomenal amount of sand cascaded from its hairless
+body, heaping up on the carpeted floor.  Fortunately, Clarissa had
+anticipated that she might need to escape in the night, and had gone
+to bed wearing her day clothes.  She jumped out of her bed, but felt
+oddly calm, with no desire to run. She looked at the creature, now
+fully inside the room and rising to its full height, and felt a wave
+of power well up inside her body.  The creature leapt towards her, and
+exploded into a mountain of sand with a clap of thunder.  A moment
+later, the creature still outside the window exploded as
+well. Clarissa sank to the floor, suddenly exhausted, and she sank
+into unconsciousness...
+
+<aside class="highlight">
+You have unlocked the "Spontaneous use of Cthulhu Mythos" optional
+rule, but don't expect it to go so well every time.
+</aside>
+
+Jason and Carson were the first to arrive, drawn by the noise, but
+couldn't gain entry to the locked room.  A few minutes later the
+hotel's night watchman arrived.  After getting no response from
+shouting and banging on the door, he unlocked the room.  Inside the
+room, the floor and all the flat surfaces were coated with a thick
+layer of sand.  Clarissa lay unconscious on the floor, her arms and
+legs covered in small cuts.  As Carson tended to her injuries, Jason
+and the night watchman looked around the room.  Peering down from the
+open window of the third storey room, Jason saw that the street
+beneath also had a dusting of sand.
+
+The next day, the hotel manager regretfully informed you that, while a
+mysterious fire could potentially be overlooked, two mysterious
+happenings in two nights could not.  You would have to leave.
+Determined to lose whoever had followed you, you went into the Old
+City.  You found lodgings in a small guesthouse, the owner spoke no
+English but you were able to get across that you had money and needed
+rooms, and that seemed enough for him.  The next night came and went
+without incident.
+
+The following morning Musgrave was looking out of his window and saw,
+amongst the crowd of dark-skinned Egyptians, a white woman.  She saw
+Musgrave too.  After staring at each other for a few moments, each
+equally out-of-place in this poor district, Musgrave ventured to shout
+"hello!".  And that is how you met Janneke van Heuvelen.
+
+---
+
+It is late morning on the 15th of June.  You've all exchanged names,
+and gone to a nearby cafe for some coffee, Janneke ordering for you in
+Arabic.  What do you do?
+
+### 15th of June, 1925
+
+You spent a few hours in the cafe talking, mostly about the
+discoveries and members of the Clive Expedition.  Janneke told you
+about the mysterious disappearance of the mummy, and how there were no
+tracks or marks showing how a large sarcophagus was removed from the
+pyramid.
+
+During your conversation, you became aware of a group of cats watching
+you.  When Janneke noticed, she chased them away and said that Cairo
+was full of them; cats everywhere, as far as the eye can see.  This
+struck you as odd, as you hadn't noticed a large amount of cats.  Even
+after the cats had been chased off, Janneke was able to easily spot
+some more hiding nearby, watching you.
+
+Eventually you decided to split up and continue your previous
+investigations.  Janneke decided to tag along with you.
+
+Carson, Musgrave, and Clarissa returned to the Egyptian Museum and met
+up with Dr. Kafour, who had been worried at their absence the past
+couple of days.  You described your experience with the floating
+fires, and he recognised the creatures.  He taught you all a hand
+gesture called the Voorish Sign, said to improve magical spells and to
+ward off evil creatures.  He also taught Clarissa a spell to bind a
+fire vampire---the floating fires which visited you in the night---to
+her will.  You asked him if there was any way to figure out who had
+sent them, but he said that fire vampires can travel quite large
+distances away from their controller.  By the time you left, it was
+the evening.
+
+Jason, Janneke, and Wilhelmina went to Faraz Najjar's shop.  Before he
+could chase you out, you managed to persuade him that you had also
+been attacked by the fire demon, and that you should talk.  He
+arranged to meet you at the al-Hussein Mosque down the street in a few
+hours time, as he only felt safe talking about such things on holy
+ground.
+
+The chosen hour came around, and you met Faraz Najjar outside the
+mosque.  He took you in to a small meeting room and, through a
+combination of his basic English and Janneke's basic Arabic, told his
+story.  He said that Warren Besart had approached him about some
+artefacts in his possession.  The artefacts were an ancient scroll
+detailing the entrance to a hidden room in an unnamed pyramid, a bust
+of the Black Pharaoh, and a circlet set with a large zircon, said to
+be the crown of the Black Pharaoh and the key to his triumph over
+death.  You pressed him, and he admitted that he had stolen the
+artefacts, and believed that the cult had sent the fire demon as
+revenge.  He doesn't know where Warren Besart is now, and hasn't been
+in contact with him since then.
+
+Jason, Janneke, and Wilhelmina noticed they were being followed by
+cats.
