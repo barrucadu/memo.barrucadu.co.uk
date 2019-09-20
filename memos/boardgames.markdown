@@ -1,7 +1,8 @@
 ---
 title: Boardgames
 tags: possessions
-date: 2018-12-09
+published: 2017-03-03
+modified: 2019-09-20
 audience: Personal
 ---
 
@@ -10,8 +11,8 @@ Game                                  1    2    3    4    5    6    7    8    9 
 Arkham Horror                         1    2    3    4    5    6    7    8
 --- *The Black Goat of the Woods*     1    2    3    4    5    6    7    8
 --- *The King in Yellow*              1    2    3    4    5    6    7    8
-Betrayal at House on the Hill                   3    4    5
---- *Widow's Walk*                              3    4    5
+Betrayal at House on the Hill                   3    4    5    6
+--- *Widow's Walk*                              3    4    5    6
 Betrayal Legacy                                 3    4    5
 Boss Monster                               2    3    4
 Carcassonne                                2    3    4    5
