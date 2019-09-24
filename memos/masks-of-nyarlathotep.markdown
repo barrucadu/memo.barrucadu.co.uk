@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-09-10
+modified: 2019-09-24
 audience: Narrow
 ---
 
@@ -31,7 +31,8 @@ Player characters
 * **Jason Steele** (32), a private eye from Salem.  Not insane, but
   seems to be a bit paranoid nonetheless.
 
-* **Janneke van Heuvelen**
+* **Janneke van Heuvelen** (32), self-taught archaeologist from the
+  Netherlands and ex-member of the Clive Expedition.
 
 These ages and descriptions reflect the characters as they currently
 are, not as they were at the beginning of the campaign.
@@ -3353,9 +3354,9 @@ Arabic.  What do you do?
 
 You spent a few hours in the cafe talking, mostly about the
 discoveries and members of the Clive Expedition.  Janneke told you
-about the mysterious disappearance of the mummy, and how there were no
-tracks or marks showing how a large sarcophagus was removed from the
-pyramid.
+about the mysterious disappearance of the mummy, which Dr. Clive had
+identified as Nitocris, and how there were no tracks or marks showing
+how a large sarcophagus was removed from the pyramid.
 
 During your conversation, you became aware of a group of cats watching
 you.  When Janneke noticed, she chased them away and said that Cairo
@@ -3401,3 +3402,111 @@ in contact with him since then.
 
 Jason, Janneke, and Wilhelmina noticed they were being followed by
 cats.
+
+
+Egypt session 3, 2019-09-14
+---------------------------
+
+Last session you met Janneke van Heuvelen, ex-member of the Clive
+Expedition and disliker of cats.  Janneke told you the story of the
+disappearance of the mummy from Giza, which Dr. Clive identified as
+Nitocris, but the papers have said was unidentified.  You spent the
+afternoon tracking down Faraz Najjar and learning magic from
+Dr. Kafour.  Faraz Najjar told you that he sold to Warren Besart an
+ancient scroll detailing the entrance to a hidden room in an unnamed
+pyramid, a bust of the Black Pharaoh, and a circlet set with a large
+zircon, said to be the crown of the Black Pharaoh and the key to his
+triumph over death.  However, he had had no contact with Warren Besart
+since that exchange, and he couldn't tell you where to find Besart
+now.
+
+If you're stuck for ideas about finding Warren Besart, remember that
+the Idea Roll is always an option.
+
+It is now the morning of the 16th of June, and you've all gathered at
+the cafe again.  On her way there, Janneke was attacked by a cat and
+got scratched.  What do you do?
+
+### 16th of June, 1925
+
+Jason, Janneke, and Wilhelmina went to the black market, with some
+money borrowed from Carson, to buy guns.  While there Jason asked an
+antiques dealer if they knew anything about Warren Besart.  For a
+small fee, the dealer was able to point them to "the red door" on the
+Street of Scorpions, though they said that they hadn't seen Warren
+Besart in some time.
+
+You arrived at the Street of Scorpions, and found the one red door: a
+clothes shop.  The shopkeeper said he didn't know a Warren Besart, but
+Wilhelmina noticed him glance over at a curtained doorway.  You made
+your way over to the curtain, and looked behind it to find a
+filthy-looking man sprawled out on a dirty bed.  The shopkeeper didn't
+seem too inclined to keep you away or to defend the man.  The man made
+a token resistance, but quickly gave up and lit a foul-smelling pipe.
+He confirmed he was Warren Besart, and agreed to tell his story:
+
+- After being contacted by a lawyer, he bought artefacts for Roger
+  Carlyle from Faraz Najjar---his description of the artefacts matched
+  Najjar's---and shipped them illegally to London.
+- When the Carlyle Expedition came to Egypt he met with them and
+  arranged all of their permits.  He then went on the expedition with
+  them in case there were local difficulties.
+- One day, Jack Brady came to him and said that everyone had
+  disappeared and the diggers had run off.  His story matched Jack
+  Brady's, though Jack didn't mention Warren Besart to you.
+- The day of their return, an old Egyptian woman came to Warren and
+  told him that the expedition principals had lost their souls, they
+  had consorted with an ancient evil called the Messenger of the Black
+  Wins.  She told him to go to the Collapsed Pyramid at Meidum the
+  night before the new moon to see for himself.
+- He went, and saw the same ritual as Jack Brady, but he saw more: a
+  huge five-headed creature which swallowed up the dead.  He went mad,
+  wandered into the desert, and was found by a man.  The man and his
+  mother looked after Warren for two years until he recovered.  But he
+  hasn't recovered fully, he only gets by with the aid of drugs.
+
+Through the telling, his voice was level and emotionless, and he took
+frequent puffs from his pipe.  You asked him who looked after him, he
+said the woman was called Nuri and lived in El Wasta.
+
+When you left the shop, you were struck by how quiet the previously
+busy street was.  A beautiful Egyptian woman appeared in the silence,
+and demanded that Janneke turn over what she had stolen.  After a
+little argument, it became clear that Janneke had taken some scrolls
+from a hidden temple of Bast, and that this woman Neris wanted them to
+be returned immediately.  Jason intervened and managed to get a week
+of leeway---the time Janneke thought it would take to finish her
+translation.
+
+Meanwhile, Musgrave, Carson, and Clarissa had been at the museum
+talking to Dr. Kafour again.  Dr. Kafour didn't know anything about
+the Crown of Nitocris which Faraz Najjar talked about.  He taught
+Clarissa how to make an Elder Sign, a powerful ward against evil.
+
+When everyone met up at your rooms and related the events of the day,
+you decided it would be best to spend the week taking detailed
+photographs of the scrolls, rather than try to get the translation
+done and then lose the originals.  Janneke revealed where she had
+hidden the scrolls, buried in the dirt floor of her room.  The
+photography occupied Jason, Janneke, and Musgrave for the next two
+days.
+
+At the end of the two days, Janneke led everyone to the hidden temple.
+The path was long and winding.  You saw fewer and fewer people, more
+and more cats.  Eventually you arrived at the small temple, which
+featured an obsidian statue of Bast, with a small compartment at the
+feet which Janneke placed the scrolls into.  Musgrave examined the
+statue while Jason took some photos.  As you were looking around, a
+man arrived.  He seemed surprised to see you, and went to pray at the
+statue.  When he was done you asked what he knew about this place and
+why he had come: he said that his grandmother had told him about this
+place, that he didn't know about some sort of organised Bast cult, and
+that he had come to pray for his cat which had been lost for a few
+days.
+
+### End
+
+This is the end of the Van Heuvelen side-story (though Janneke is
+staying with us).  Bonus sanity points are:
+
+- `+2` for Janneke surviving.
