@@ -1,5 +1,5 @@
 ---
-title: "Weeknotes: 052"
+title: "Weeknotes: 053"
 tags: weeknotes
 date: 2019-09-22
 audience: General
