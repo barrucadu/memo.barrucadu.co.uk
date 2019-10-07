@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-09-24
+modified: 2019-10-07
 audience: Narrow
 ---
 
@@ -3491,6 +3491,8 @@ hidden the scrolls, buried in the dirt floor of her room.  The
 photography occupied Jason, Janneke, and Musgrave for the next two
 days.
 
+### 18th of June, 1925
+
 At the end of the two days, Janneke led everyone to the hidden temple.
 The path was long and winding.  You saw fewer and fewer people, more
 and more cats.  Eventually you arrived at the small temple, which
@@ -3510,3 +3512,163 @@ This is the end of the Van Heuvelen side-story (though Janneke is
 staying with us).  Bonus sanity points are:
 
 - `+2` for Janneke surviving.
+
+
+Egypt session 4, 2019-09-30
+---------------------------
+
+You came to Egypt on the trail of the Carlyle Expedition, and you've
+now heard stories from Jack Brady and Warren Besart about their time
+here.  Jack said that Roger Carlyle destroyed an Eye of Light and
+Darkness atop the Red Pyramid at Dashur.  Jack and Warren told you
+about how the expedition members disappeared inside the Bent Pyramid
+the following day, and about the dark ritual they enacted in the
+desert after their return.  In New York Clarissa read *Life As A God*,
+which described a hidden room inside the Bent Pyramid; and, in a
+vision, saw the expedition members entering it.
+
+But it's not just the pyramids of Dashur.  The Collapsed Pyramid at
+Meidum is the original burial site of Nephren-Ka before he was moved
+to the Bent Pyramid, and the locale of the dark ritual witnessed by
+Jack and Warren.  The Pyramid of Mycerinus at Giza is where the Clive
+Expedition found and then seemingly lost, without a trace, the mummy
+of Queen Nitocris.
+
+It is now the morning of the 19th of June, and the secrets of Egypt's
+past beckon.  What do you do?
+
+### 19th of June, 1925
+
+You decided to go to Giza to investigate the missing mummy of
+Nitocris.  You took the tram service from Cairo and, after a journey
+of an hour, arrived in Giza.  You went to the police station to ask
+about the latest on the investigation.
+
+The investigation had been over for several weeks, and the police
+hadn't found anything.  They searched the pyramid for secret doors but
+found nothing, there were no tracks indicating the sarcophagus had
+been moved, and the missing guards hadn't turned up; a complete
+failure of a search.  The only thing they had found was a previously
+undiscovered burial shaft outside the pyramid, but they dismissed that
+because (1) it was outside the pyramid, and (2) it was too narrow to
+get a sarcophagus down in any case.  You thanked the officers and set
+off to the pyramid.
+
+Outside Mycerinus' pyramid street hawkers and guides were selling
+tours to the mysterious room and selling crudely hand drawn maps with
+the new room hastily added.  Musgrave began to say he knew a thing or
+two about navigating pyramids before Janneke pointed outt hat she had
+been in the room, and knew the way.
+
+Arriving in a series of small antechambers preceding the burial
+chamber, you began your search for hidden doors and secret
+contraptions.  You found nothing.  Nor was there anything in the
+burial chamber: just a big empty patch of floor where you would expect
+a sarcophagus to be.
+
+You then went out to investigate the burial shaft.  You found it
+easily enough from the police description, and peered down into the
+darkness.  Too narrow to lower a sarcophagus, but not for a person to
+climb down.  You could see a floor down there, and Wilhelmina was
+lowered on a rope into a small, square, room which had a walled-up
+doorway on each wall.  Wilhelmina shouted up that there was something
+down here, and the rest squeezed in.
+
+Jason noticed a breeze from one of the doorways and surmised that
+there was something down there.  He and Carson broke down the bricks
+over the course of an hour, producing an entrance into a narrow
+tunnel.
+
+You stepped out into a dark tunnel with irregular walls and a twisting
+route.  You could barely see a few metres ahead before another corner
+loomed.  You cautiously proceeded down, and arrived in a much wider
+and more regular tunnel: clearly artificial work.  About wide enough
+to carry a sarcophagus down.  The tunnel went to the left, ending in a
+wall beneath the pyramid, or to the right, disappearing into the
+darkness.
+
+You went left.
+
+Musgrave inspected the wall, and found a small lever.  When pulled, a
+large section of the wall swung away, revealing the burial chamber you
+had just been in.  You surmised that this is how the sarcophagus had
+been taken, and turned around, heading down the tunnel into the
+darkness.
+
+You had walked about a quarter of a mile along the tunnel, stopping to
+peer down the frequent side tunnels, which looked like little more
+than natural fissures in the rock, when you heard voices.  You stood
+at a crossroads where the main tunnel intersected two of the side
+tunnels, and the echo meant you couldn't work out a direction, or any
+of the words.
+
+You guessed at a tunnel and headed along it, with Musgrave in the
+lead.  The floor and ceiling raised and lowered, the walls twisted,
+you had to crouch on occasion, and at one point Musgrave slipped and
+fell into a patch of luminous fungi he couldn't scrape off his
+clothes.  You emerged into a small chamber with three prison cells.
+The cells had metal bars which didn't look particularly rusted, so you
+surmised that this must be a recent addition to the tunnels.  The
+cells, and the rest of the room, were unoccupied.  You carried on
+going.  A little while later you saw a figure by the edge of your
+torchlight, but it had disappeared when you spun to look.  Eventually
+you emerged back in the main tunnel.
+
+You could see a large doorway in the distance, and cautiously
+approached.  The doorway stood three times taller than a man, and
+opened onto a staircase of black marble leading down a further 30m.
+The staircase connected to an equally black floor.  You descended.
+
+You emerged into a vast room, so large your torch couldn't reach the
+far side, and could only just reach the ceiling.  The walls, floors,
+and vast pillars holding up the ceiling, were all carved of the same
+black marble flecked with white spots that glowed in the light.  A
+little inside the room was another staircase, leading down into a
+glowing red mist.  You could hear quiet screaming coming up through
+the mist, and decided not to continue down.
+
+In the distance you could see a low wall, though it was so far away
+you couldn't see beyond it.  As you approached you heard the sounds of
+a struggle, a loud splash, and a scream.  You ducked behind one of the
+pillars.  You crept closer to see two men, standing next to a large
+pool of water (the low wall formed an edge of the pool), with another
+man face down in the water.  The gang sprang into action, and attacked
+the two men.
+
+The men were surprised, and only armed with knives.  After a brief
+struggle one of them had captured, and the other fell into the pool.
+As he hit the water it began to froth and splash around him, like when
+something fell into a piranha-infested river.  You managed to drag him
+out of the water without touching it, and as you did saw a metre-long
+black leech detach itself from the man and slink back into the water.
+He was covered in bleeding bites, and dead.  The other man was too far
+out to reach.
+
+You entertained the idea of interrogating the man, but his crazed
+expression suggested that answers would not be forthcoming.  Also he
+was on leech-feeding duty, so probably not a very high-ranking
+cultist.
+
+Leaving him tied up, you continued to explore the rest of the room.
+
+After a few more minutes of walking, you came across an altar of white
+marble, with unlit stone braziers built into each corner, and a
+sarcophagus resting atop it.  Musgrave and Jason pried the lid ajar,
+and saw that it contained a mummy.
+
+Beyond the altar was a double throne, carved in green stone covered in
+depictions of horrifying creatures.  Behind the throne was an enormous
+hole in the ground.
+
+Next to the throne but much closer to the wall was an obelisk covered
+in hieroglyphics.  Musgrave recognised it to be a ritual chant, and
+read it out for the others.  It was Carson who stumbled upon the
+correct incantation and, as he said it, the obelisk started to glow
+and turned translucent.  Through the obelisk you could see the
+surface, and the sphinx.  You moved around the obelisk, and the view
+changed accordingly as if you were looking out of a window.  Musgrave
+recollected that there is an obelisk near the sphinx where your
+vantage point seemed to be, it's as if you were looking out of that.
+He tentatively touched the obelisk and, with a little resistance, his
+hand passed through it.  Others could see the hand emerging from their
+viewpoint.  Musgrave withdrew his hand unharmed.
