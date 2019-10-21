@@ -1,7 +1,7 @@
 ---
 title: Tea
 tags: possessions
-date: 2019-03-03
+date: 2019-10-21
 audience: Personal
 ---
 
@@ -12,27 +12,31 @@ Teas
 
 Which will always be in stock.
 
-Name                          Supplier              Type                   Origin
-----------------------------  ------------------  ------  -----------------------
-[Malawi Leafy Ripe][]         [What-Cha][]          Dark  Shire Highlands, Malawi
-[Houjicha][]                  [What-Cha][]         Green             Kyoto, Japan
-[Charcoal Roasted Oolong][]   [What-Cha][]        Oolong           Nantou, Taiwan
+Name                              Supplier        Type                   Origin
+----------------------------      ------------  ------  -----------------------
+[Malawi Leafy Ripe][]             [What-Cha][]    Dark  Shire Highlands, Malawi
+[Houjicha][]                      [What-Cha][]   Green             Kyoto, Japan
+[Charcoal Roasted Oolong][]       [What-Cha][]  Oolong           Nantou, Taiwan
+[Pure Bud Golden Snail][]         [What-Cha][]   Black            Yunnan, China
+['Non-Smoky' Lapsang Souchong][]  [What-Cha][]   Black            Fujian, China
 
 [Malawi Leafy Ripe]: https://what-cha.com/malawi-2018-leafy-ripe-dark-tea/
 [Houjicha]: https://what-cha.com/collections/green-tea/products/japan-obubu-dark-roast-houjicha-green-tea
 [Charcoal Roasted Oolong]: https://what-cha.com/taiwan-charcoal-roasted-oolong-tea/
+[Pure Bud Golden Snail]: https://what-cha.com/china-yunnan-pure-bud-golden-snail-black-tea/
+['Non-Smoky' Lapsang Souchong]: https://what-cha.com/collections/black-tea/products/china-fujian-non-smoky-lapsang-souchong-black-tea
 
 ### Contenders
 
 Which I like and which might become standard.
 
-Name                                    Supplier              Type                   Origin
-----------------------------            ------------------  ------  -----------------------
-[Darjeeling 2nd Flush Kanchaan View][]  [What-Cha][]         Black        Darjeeling, India
-[Pure Bud Golden Snail][]               [What-Cha][]         Black            Yunnan, China
+Name                                    Supplier       Type             Origin
+----------------------------            ------------  -----  -----------------
+[Darjeeling 2nd Flush Kanchaan View][]  [What-Cha][]  Black  Darjeeling, India
+[Davit's 'Phoenix'][]                   [What-Cha][]  Black     Guria, Georgia
 
 [Darjeeling 2nd Flush Kanchaan View]: https://what-cha.com/copy-of-india-darjeeling-2nd-flush-gopaldhara-china-muscatel-black-tea/
-[Pure Bud Golden Snail]: https://what-cha.com/china-yunnan-pure-bud-golden-snail-black-tea/
+[Davit's 'Phoenix']: https://what-cha.com/collections/2019-harvest-tea/products/georgia-davits-phoenix-black-tea
 
 ### Emergency Teabags
 
