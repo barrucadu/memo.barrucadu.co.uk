@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-10-07
+modified: 2019-11-02
 audience: Narrow
 ---
 
@@ -3672,3 +3672,150 @@ vantage point seemed to be, it's as if you were looking out of that.
 He tentatively touched the obelisk and, with a little resistance, his
 hand passed through it.  Others could see the hand emerging from their
 viewpoint.  Musgrave withdrew his hand unharmed.
+
+
+Egypt session 5, 2019-10-12
+---------------------------
+
+There are four pyramids you have leads pointing to: the Red Pyramid at
+Dashur, where Roger Carlyle destroyed the Eye of Light and Darkness;
+the Bent Pyramid at Dashur, where the expedition members disappeared;
+the Collapsed Pyramid at Meidum, where Nephren-Ka was buried before
+being moved to the Bent Pyramid; and the Pyramid of Mycerinus at Giza,
+where the mummy of Nitocris was found and then lost.
+
+Last session you travelled to Giza and found a network of underground
+tunnels, connecting the burial chamber in the pyramid to a vast
+underground temple.  You fought two cultists, capturing one and
+accidentally killing the other.  You left the captured one behind
+while you continued to explore, and you found an obelisk which seems
+to act as some sort of gateway to the surface.  Distracted by the
+obelisk, you now realise that the captured cultist has been shouting
+for help, and you can hear hurrying footsteps.
+
+What do you do?
+
+### 19th of June, 1925 (late afternoon)
+
+You decided to leap through the obelisk to the surface, and from there
+find help.  Musgrave went first, as you all cautiously watched the
+scene through the obelisk.  You saw Musgrave pass through and emerge,
+unharmed, on the other side and take stock of his surroundings.  The
+rest followed.
+
+You did not arrive on the surface, the vision through the obelisk was
+a lie.  You all found yourselves in a corridor, evidently in a
+pyramid, in front of a large asymmetrical arch.  Through the arch you
+could see a raised throne and some pillars.
+
+All of you but Wilhelmina stepped through the arch into the room.  The
+throne was carved of black stone and encrusted with gems.  The six
+pillars each had a gem on top which dazzled in the torchlight.  On the
+walls behind the throne were bas-reliefs of symbols, a star chart, a
+map of the solar system, and a map of the world.  Clarissa recognised
+the room from **Life As A God**.
+
+You decided to examine the bas-reliefs, take pictures, and get out of
+there.  Outside the room, Wilhelmina began searching for an exit.
+
+The symbolic bas-relief described the impending birth of the child of
+Nyarlathotep within the Mountain of the Black Wind, which you've heard
+of before (it's in Kenya), heralded by vast destruction.  This event
+is to take place in a couple of months time.  The planetary map showed
+an alignment which will next take place on the 14th of January, 1926.
+The world map had three gems embedded into it, one in the South China
+Sea (about the location of Grey Dragon Island), one in central Kenya,
+and one in western Australia.  Across the ocean was drawn a curved
+line.
+
+As you examined the bas-reliefs, you heard a grinding noise, and
+turned to find the stone wall flowing like water, filling up the arch.
+Jason managed to leap through, but everyone else was sealed inside.
+
+Without turning around, without hearing anything, without a
+disturbance in the air, you suddenly all knew with absolute certainty
+that you were not alone in the room any more.  Musgrave turned around.
+
+Seated on the throne was a man who could only be the Black Pharaoh:
+tall, handsome, dressed in the full regalia of a pharaoh, and with a
+haughty expression.  The air beside him shimmered as if in a heat
+haze, but no heat source was visible.  Suddenly you all felt an
+immense mental pressure to bow down and worship.  Musgrave managed to
+resist, his knees buckling under the strain, but the rest of you threw
+yourselves to the ground.  The Black Pharaoh smiled.  He greeted you
+all by name, and asked what you most wanted in the world.  He looked
+thoughtful for a moment, and then waved a hand.  A shimmering portal
+appeared next to him and he said that if you agreed to serve him, step
+through the portal and he would reward you just as you have described.
+
+Nobody took him up on the offer.  The Black Pharaoh's expression
+changed to immense irritation, as he berated you for persisting in
+your foolish, doomed, quest.  At another wave of his hand, images
+appeared in the air showing the members of the Carlyle Expedition
+being torn apart by terrible monsters.  Musgrave suffered a bout of
+madness at the terrible sight, and flung himself at the Black Pharoah.
+
+The shimmering air beside the Black Pharaoh was dispelled, revealing
+two large hovering winged snake-like creatures.  Before Musgrave
+reached the Black Pharaoh, the others managed to intercept and wrestle
+him to the floor.  The Black Pharaoh mocked you some more, and then
+faded away.  The door to the room opened, and you wandered until you
+found the exit.
+
+When the room was first sealed, with Wilhelmina and Jason outside, two
+creatures like hairless sand-covered apes crawled out of the walls and
+attacked.  Managing to push them back a little, Wilhelmina and Jason
+ran towards where they thought the exit would be, with the apes
+following.  Descending a flight of stairs, Wilhelmina tripped, and an
+ape was upon her.  Jason shot it at point-blank range, temporarily
+deafening Wilhelmina, and they were able to reach the exit just before
+the second ape caught up.  The second ape wouldn't leave the pyramid,
+and instead stood watching from the exit.
+
+Taking a step back and looking up at the pyramid, they could see that
+this was indeed the Bent Pyramid of Dashur, far south of Giza.
+
+When the Black Pharaoh left, the ape crawled back into the stone.
+Shortly afterwards, the others also emerged from the pyramid.
+
+You decided that this evil had to be stopped and, as you were now at
+Dashur, you could try to restore the Eye of Light and Darkness atop
+the Red Pyramid.  You knew most of the ritual from China, but didn't
+know who counted as an "innocent" (for the blood of the innocent) or
+how to create the symbol in the first place.  Musgrave decided to try
+the vision drug.
+
+Musgrave felt like he travelled forward in time, and was floating
+above the Red Pyramid as the sun set, looking down.  You were all
+there, and also a man Musgrave recognised as a rather dim-witted
+librarian from the museum.  Clarissa, looking tired, straightened up
+from bending over the pyramid and said "there, I've made the Elder
+Sign, I hope this works."  The sun set, and the librarian allowed you
+to prick his finger, drawing out a few drops of blood onto the symbol,
+as everyone began to chant.  This continued for the entire night, with
+more blood added every hour.  As the sun crept over the horizon, the
+symbol glowed brilliantly, and faded into the rock.  The vision ended.
+
+Musgrave woke up, and recounted his vision.  You didn't know how you'd
+persuade this man to let you have his blood, but you knew it had to be
+done.  So you took the next train to Cairo and went to the museum.
+You first approached the man directly, without any luck.  You then
+went to Dr. Kafour and explained what was going on.  Dr. Kafour said
+that the man could probably be tricked into thinking that this is some
+re-enactment of a newly discovered ancient ritual and would help make
+him known in archaeological circles.  So Dri. Kafour went with you
+back to the man and took that angle.  Motivated by the potential of
+fame, he agreed, and you all returned to Dashur.
+
+Dr. Kafour helped you set up, and then said that he would wait at the
+base of the pyramid, to keep an eye on the Bent Pyramid.  The sun
+began to set, and you conducted the ritual Musgrave had seen in his
+vision.  When it was over, everyone felt very tired and drained, as if
+it had cost something you could not see.
+
+You then discussed your next steps with Dr. Kafour.  You decided that
+you should go to Kenya ASAP due to the prophecy, but that the Clive
+Expedition was on the way back to Cairo and that you could check out
+what was going on there, to see if they knew anything about the secret
+passage and the mummy of Nitocris.  Dr. Kafour agreed to visit the dig
+site with you.
