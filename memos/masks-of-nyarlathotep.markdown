@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-11-02
+modified: 2019-11-07
 audience: Narrow
 ---
 
@@ -3819,3 +3819,108 @@ Expedition was on the way back to Cairo and that you could check out
 what was going on there, to see if they knew anything about the secret
 passage and the mummy of Nitocris.  Dr. Kafour agreed to visit the dig
 site with you.
+
+
+## Egypt session 6, 2019-10-26
+
+Last session you found yourselves transported to the Bent Pyramid.
+There you met the Black Pharaoh, who offered you whatever your heart
+most desired if only you would serve him.  For some reason none of you
+took him up on the offer.  While there you read a prophesy about the
+impending birth of the child of Nyarlathotep in the Mountain of the
+Black Wind, and decided to wrap things up in Egypt and head to Kenya
+and to the mountain as quickly as you could.
+
+After escaping the wrath of the Black Pharaoh, you took some of the
+vision drug to try to learn how to recreate the Eye of Light and
+Darkness atop the Red Pyramid.  You saw yourselves in the future, and
+rushed to Cairo to get the help you needed.  That evening you,
+Dr. Kafour, and a fairly dim librarian, embarked on the ritual.
+
+It's now the morning of the 20th of June.  You've been up all night
+chanting and having your magical energy drained.  And you're still in
+Dashur.
+
+What do you do?
+
+### 20th of June, 1925 (afternoon)
+
+You took the train from Dashur up to Membis, and disembarked with
+Dr. Kafour to go to the Clive Expedition dig site.  You hired a jeep,
+and Dr. Kafour was able to guide you to the site.
+
+You arrived at the impressively fortified and guarded dig site,
+needing only landmines and machine guns to be up to the standards of
+the Great War, and were trying to talk your way in when Johanna Specht
+happened to be passing by and recognised Janneke.  You said that you
+had important news to share with Dr. Clive, and Johanna took you to a
+large tent in the centre of the camp to meet him.
+
+Dr. Clive welcomed Dr. Kafour and "his friends", who Dr. Kafour
+introduced.  You had brief Dr. Kafour beforehand on what you wanted to
+learn from Dr. Clive, so Dr. Kafour began by saying that a hidden
+passage had been discovered in the Pyramid of Mycerinus, connecting
+the burial room where the mummy was taken to a network of underground
+tunnels.  Dr. Clive affected surprised, but you could tell this was
+put on.
+
+Dr. Clive offered to show Dr. Kafour and Prof. Musgrave the scrolls he
+found in the burial chamber, which you agreed to.  He also suggested
+that the rest of you have a look around the dig site, saying that
+dusty old parchments covered in hieroglyphics are not to everyone's
+interest.  At that moment, Martin Winfield appeared, and Dr. Clive
+asked him to show the rest of you around.  Musgrave, Kafour, and
+Carson accompanied Clive to a separate tent. in the opposite direction
+to the one taken by Martin.
+
+The tend had two guards standing outside, and inside a safe.  Clive
+said he wasn't taking any chances this time.  Clive knelt to open the
+safe, but seemed to be having some difficulty.  As he was fiddling
+with it, Carson realised that one of the guards outside was slowly
+drawing the tent flap aside.  He alerted the others, and the guard
+leapt in.  A fight began, with Clive on the side of the guards.
+Musgrave overcame his fear and used a gun, but failed several times to
+hit anyone.  Carson used a machete.  Both Clive and Kafour attempted
+to use magic to confuse or disable their foes, but were ineffective.
+
+With a lucky swing, Carson managed to kill the guard, and you ran away
+from the tent, in the direction the others had gone.  It took several
+minutes to make your way across the busy camp and, as you reached the
+others, a tremendous roar erupted behind you, and the ground shook.
+You grabbed Martin Winfield and all ran back to the jeep, where you
+piled in and Carson took the wheel.
+
+Carson, with his eyes fixed in front of the jeep, drove as fast as he
+dare across the sandy road, but it sounded like something was gaining
+on you.  The ground shook and boomed, as if something huge were
+running after you.  Musgrave and Jason dared to look behind, and fell
+back into the jeep in their shock: a huge five headed creature, like
+the sphinx but far more massive, chased you.  You thought of Warren
+Besart's story.  Musgrave fainted, Jason huddled in his seat.
+
+Shooting guns behind you didn't seem to be having any effect, so
+Clarissa tried her hand at magic.  She cast the spell to summon a
+flying steed, and it answered her call.  With an unearthly shriek from
+the skies, Clarissa felt a mental connection to something far from
+human.  A great winged beast soared over the jeep and into the sphinx.
+The sphinx stalled and roared as it fought.  A few minutes later it
+was back after you, but you had gained a little distance.  A little
+while later the city was in sight, and the sphinx stopped chasing.
+
+Carson screeched to a halt and tended to those who had been hurt in
+the fight in the camp.  You asked Dr. Kafour about the creature and
+whether it was now loose upon Egypt, he shakily answered that there
+are many summoning spells, some summon a creature permanently, some
+summon it for a fixed time, and there was no real way for you to tell.
+You decided that, even if the creature went away on its own, Clive
+could just bring it back, and that could not be allowed to happen.
+
+You rested until night, and then snuck back to the dig site.
+Examining it from a distance, it looked deserted.  There was no sign
+of life.  It looked partly trampled.  You snuck into the camp and
+looked around: nothing.  You looked in the central tent, and it looked
+like things had been packed up and taken away in a hurry.  Scouting
+the outside of the site, you saw truck tracks, heading north.
+
+You followed the tracks through the night, and at dawn found a truck
+abandoned near the pyramids of Giza.
