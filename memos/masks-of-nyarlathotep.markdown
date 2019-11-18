@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-11-07
+modified: 2019-11-18
 audience: Narrow
 ---
 
@@ -3924,3 +3924,79 @@ the outside of the site, you saw truck tracks, heading north.
 
 You followed the tracks through the night, and at dawn found a truck
 abandoned near the pyramids of Giza.
+
+
+## Egypt session 7, 2019-11-09
+
+Last time you decided to pay a visit to the Clive Expedition dig site,
+to see what they thought about the secret passage you found in Giza.
+Dr. Clive seemed more surprised that you'd found the tunnel than that
+it existed, and tried to do away with you first with his goons, then
+with a giant monster.  You fled from the site, picking up Martin
+Winfield, one of the expedition principals, along the way.
+
+You decided you couldn't leave such a dangerous man free, and that
+night snuck back to the site.  You found it abandoned, and it looked
+like people had left in a hurry.  There were tire tracks leading
+north.  You followed them, and arrived a few hours later in Giza.
+
+It's early morning on the 21st of June, you've barely slept for the
+past 48 hours, and you're back at the pyramids.
+
+<aside class="highlight">
+To model sleep deprivation, any rolls requiring concentration or
+observation (picking locks, finding hidden clues, dodging bullets,
+etc) are going to have a penalty die until you get a good 8 hours of
+sleep.
+</aside>
+
+What do you do?
+
+### 21th of June, 1925
+
+- We decided Carson would reasonably have a stimulant, though it would
+  only last for a few hours per person and the cost of coming down
+  from it would be two penalty dice on rolls instead of one.
+
+- You went to the entrance to the tunnels, took the stimulants, gave
+  Martin Winfield a gun, and headed inside.
+
+- As you approached the temple chamber, you heard an argument.  Clive
+  and someone else, who was berating Clive.
+
+- In front of the entrance stood four animal-headed people, as still
+  as statues.  They weren't there before.
+
+- You hid down a side corridor and Wilhelmina threw a rock to distract
+  them.  It sort of worked: they noticed Wilhelmina, and chased after
+  her.
+
+- The rest of you snuck into the room.
+
+- You could see Clive and another man, the other man saying "it's a
+  good thing the ritual is tonight!"  In the distance you could hear
+  crying.
+
+- As you snuck into the chamber, Martin yelled out for the guards.
+
+- The rest of the session was a fight, in which:
+  - Clive and the other man got killed
+  - Kafour incapacitated Martin with magic
+  - The guards returned, but you killed them
+  - Musgrave was paralysed by hysterics
+  - Carson hallucinated that Clarissa was his wife
+  - Janneke attacked Carson and Clarissa
+
+- You investigated the source of the crying, and found the other
+  principals of the Clive Expedition tied up.
+
+<aside class="highlight">
+Musgrave is now indefinitely insane.
+</aside>
+
+### End
+
+This is the end of this chapter.  Bonus sanity points are:
+
+- `+1d6` for neutralising the leader of the Cult of the Black Pharaoh.
+- `+1d4` for saving Agatha Broadmoor.
