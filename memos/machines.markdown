@@ -1,7 +1,7 @@
 ---
 title: Machines
 tags: howto, possessions, tech
-date: 2019-03-29
+date: 2019-12-17
 audience: Personal
 ---
 
@@ -38,24 +38,6 @@ Local machines
 - **Operating System:** NixOS
 - **Monitoring:** yes
 - **Backups:** yes
-
-### carter
-
-> In the car they found the hideously carved box of fragrant wood, and the parchment which no man
-> could read. The Silver Key was gone—presumably with Carter. Further than that there was no certain
-> clue.
-
-- **Purpose:** laptop
-- **Operating System:** macOS High Sierra
-- **Monitoring:** no
-- **Backups:** no
-
-#### Post-boot set-up
-
-```bash
-# syncthing
-tmux new-session -ssyncthing -d ~/syncthing/syncthing
-```
 
 Virtual machines
 ----------------
