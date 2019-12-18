@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-11-18
+modified: 2019-12-18
 audience: Narrow
 ---
 
@@ -120,6 +120,15 @@ Notable possessions
 - Some ancient scrolls written in Chinese.  Currently with Mr. Lung.
 
 - Aubrey Penhew's diaries.
+
+### Found in Kenya
+
+- A wooden fly whisk, which you are told can detect evil.
+
+- A lizard named "Who-Is-Not-What-She-Seems" in a wooden cage, called
+  "Who" for short.  Who's two arms split half way down, forming four
+  forearms with pincers, and the mouth is on the vertical axis rather
+  than the horizontal.
 
 
 Peru session 1, 2018-09-29
@@ -4000,3 +4009,109 @@ This is the end of this chapter.  Bonus sanity points are:
 
 - `+1d6` for neutralising the leader of the Cult of the Black Pharaoh.
 - `+1d4` for saving Agatha Broadmoor.
+
+
+## Kenya session 1, 2019-11-26
+
+Kenya, the country where the Carlyle Expedition apparently met its
+doom.  A country of jungles, mountains, and wild animals; outside the
+cities it's another world, and few of the non-urban locals speak
+English.  In 1925 the country is a colony of the British Empire, with
+Nairobi being the capital city.  It's a heavily segregated and openly
+racist society.  Cities are generally based around three districts:
+one for white people, one for asian people, and one for black people.
+Businesses will often have signs out front saying "for whites only".
+Fortunately, you're all white, so you can go more or less where you
+please.
+
+You've got two main leads pointing to Kenya: Jackson Elias' **Nairobi
+Notes**, and a prophesy that the spawn of Nyarlathotep will be born
+soon in the Mountain of the Black Wind.
+
+### 5th of July (afternoon)
+
+Just after noon on Sunday the 5th of July, your ship pulls into
+Mombasa.
+
+- Asked around about the Mountain of the Black Wind.  White people
+  didn't know what you were talking about, one local was clearly
+  disturbed and left your presence.
+- Jason took the vision drug, felt drawn to a mountain north of
+  Nairobi
+- Decided to head to Nairobi to do more investigation.
+- Train attacked in the night by fire vampires, you defeat them by
+  blowing up the water tank.
+- People claimed to have seen the fire vampires descend from the sky,
+  can't find a clear lead to a sorcerer on the train.
+- Stuck overnight waiting for rescue.
+
+
+## Kenya session 2, 2019-12-07
+
+Last session you arrived in Mombasa and tried to find some clues about
+the Mountain of the Black Wind.  The white people you asked didn't
+recognise it but, at the mention of the name, one native hurridly
+excused themselves from your company.  Jason took some of the vision
+drug, and felt himself drawn to a mountain due north of Nairobi, so
+you decided to go and ask around the capital.
+
+On the overnight journey your train was attacked by fire vampires
+which descended from the sky.  You defeated them by blowing up the
+train's water tank.  Stranded, you and the other passengers had no
+choice but to wait next to the Kenyan jungle for hours until your
+absence was noticed in Nairobi and a rescue sent.
+
+It's now the morning of the 6th of July.  A replacement train from
+Nairobi arrived a short while ago, and the passengers are boarding
+while a crew works to repair the stricken train enough that it can be
+moved to a station.
+
+What do you do?
+
+### 6th of July (morning)
+
+- Pull into Nairobi on the rescue train
+- Review Elias' Nairobi Notes
+- Wilhelmina goes to find Sam Mariga at the station, to ask about his
+  meeting with Elias:
+  - Sam remembers Elias
+  - Said he found and reported the massacre site when visiting a
+    cousin in the Aberdare Forest
+  - Knew of Dr. Horace Starret, a good man who runs a free hospital
+    and school in the slums.
+  - Recommended you go talk to Johnstone Kenyatta to learn more about
+    folklore and myths
+- Rest of you decided to go to Government House and get permits for
+  your guns
+- Went to meet Johnstone Kenyatta.  Found him in a small office.  Upon
+  asking about the Mountain of the Black Wind, he took you into an
+  empty room to be more private.  He arranged for you to meet a
+  mystic, Old Bundari.
+- You went to meet Old Bundari in a village several miles out of
+  Nairobi, and his servant had you wait 11 hours for Bundari to return
+  "from the other planes", and awaken.
+- Bundari greeted you all by name, revealed a detail of your past, and
+  some knowledge of your quest.  He answered your questions:
+  - The Carlyle Massacre was done by the Cult of the Bloody Tongue
+  - The Mountain of the Black Wind is so-called because it's inhabited
+    by the God of the Black Wind, which sets out once a year bringing
+    death and plague.  White people know it as Mount Satima.
+  - The god's priestess is called M'Weru and lives inside the
+    mountain.
+  - The Eye of Light and Darkness can be used to trap the god within
+    the mountain.  Some day the sign had existed until only a few
+    years ago, when the god tricked men into destroying it.
+  - He can find out who set the fire vampires on you if you come back
+    tomorrow.
+- Bundari gave you a fly whisk and a strange four-armed lizard which
+  he told you to feed daily with flies and to only let out when you
+  reached the mountain.
+
+### 7th of July
+
+- You returned to Bundari and he told you that the fire vampires were
+  sent by Taan Kaur, owner of a tea shop in the Asian Quarter.
+- You went to check out the shop, and saw it was large and busy.  Taan
+  Kaur left a few times for food.  In the evening, a group of men
+  wearing red head-dresses entered the shop by a locked side-door and
+  stayed a while.
