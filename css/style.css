@@ -317,3 +317,13 @@ span.highlight {
     color: red;
     font-weight: bold;
 }
+
+.spoiler {
+    color: #000;
+    background-color: #000;
+}
+
+.spoiler:hover {
+    color: inherit;
+    background-color: transparent;
+}
