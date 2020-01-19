@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2019-12-18
+modified: 2020-01-19
 audience: Narrow
 ---
 
@@ -4077,7 +4077,7 @@ What do you do?
   - Sam remembers Elias
   - Said he found and reported the massacre site when visiting a
     cousin in the Aberdare Forest
-  - Knew of Dr. Horace Starret, a good man who runs a free hospital
+  - Knew of Dr. Horrace Starret, a good man who runs a free hospital
     and school in the slums.
   - Recommended you go talk to Johnstone Kenyatta to learn more about
     folklore and myths
@@ -4109,9 +4109,250 @@ What do you do?
 
 ### 7th of July
 
+- You spent the day resting and recuperating.  You got back from
+  seeing Old Bundari in the early morning, and had been told to come
+  back the next day.
+
+### 8th of July
+
 - You returned to Bundari and he told you that the fire vampires were
   sent by Taan Kaur, owner of a tea shop in the Asian Quarter.
 - You went to check out the shop, and saw it was large and busy.  Taan
   Kaur left a few times for food.  In the evening, a group of men
-  wearing red head-dresses entered the shop by a locked side-door and
+  wearing red headbands entered the shop by a locked side-door and
   stayed a while.
+- You followed the men, they went into the Swahili Town to a
+  collection of huts with other headband-wearing men.  You decided not
+  to push your luck, and returned home.
+
+
+Kenya session 3, 2020-01-18
+---------------------------
+
+You're in Kenya looking for the Mountain of the Black Wind, the home
+of the Cult of the Bloody Tongue.  You've been brought here by two
+clues: the Carlyle Massacre, which took place in Kenya, and a prophecy
+you found in the Bent Pyramid of Dashur, which the Carlyle Expedition
+visited and disappeared inside for several hours, about the impending
+birth of the child of Nyarlathotep in the Mountain of the Black Wind.
+
+You've been in Kenya for a few days now.  You arrived in Mombasa, and
+didn't have much luck asking about the mountain.  You moved on to
+Nairobi, and your overnight train was attacked by fire vampires.
+
+When you finally arrived in Nairobi, several hours delayed, you
+started to follow up on the leads in Jackson Elias' notes.  Wilhelmina
+talked to Sam Mariga, who Elias had interviewed, and who was the one
+to discover, or at least report, the massacre site.  He sent you on to
+Johnstone Kenyatta, a man who, he said, would be better placed to talk
+about folklore and myth.
+
+You met Johnstone in an office of the Kikuyu Central Association
+building, a political organisation working to improve the situation
+for native Africans in the British Kenya Colony.  As soon as the words
+"Mountain of the Black Wind" left your mouth, he ushered you into a
+private room and questioned you about your purpose.  Seemingly
+satisfied, he sent you on to yet another person, a mystic called Old
+Bundari, living in a village outside Nairobi.  A man drove you there,
+and handed you over to Okomu, Bundari's attendant.
+
+Okomu took you to Bundari who was unconscious.  Okomu said that
+Bundari was visiting "other planes", and that you would need to sit
+near him to draw his attention back to this plane.  Eleven hours
+passed.  Okomu brought food, but didn't allow you to speak in
+Bundari's presence, lest you "draw him back too suddenly."
+Eventually, Bundari awoke.
+
+He greeted you all by name, speaking through Okomu acting as
+interpreter, and revealed knowledge of your pasts and of your quest.
+He said that he would answer your questions.  He told you that the
+Carlyle Massacre was performed by the Cult of the Bloody Tongue.  That
+the Mountain of the Black Wind is the centre of the Cult of the Bloody
+Tongue's religious beliefs, and is so-called because it is home to the
+God of the Black Wind, which sets out once a year to spread disease
+and death.  The high priestess of the Bloody Tongue lives inside the
+mountain and is called M'Weru, which you recognise as the name of the
+African woman Roger Carlyle was obsessed with, and who he had met
+around the time his strange Egyptian dreams began.  He told you that
+the white people call the mountain Mount Satima, and that the god
+could be sealed within it once more with an Eye of Light and Darkness.
+He also said that, if you come back the next day, he can find out set
+the fire vampires on you.  Before you left he gave you a ritual fly
+whisk, which he said could detect evil, and a strange four-armed
+lizard with its mouth on the vertical axis rather than horizontal in a
+cage.  he said the lizard's name is *Who Is Not What She Seems* and
+that he found her on his travels, he told you to feed her daily with
+flies, and to only let out when you reached the mountain and are in
+need of a friend.
+
+The next day you returned to the village, and Bundari told you that
+the fire vampires were the work of Taan Kaur, a tea seller in the
+Asian Quarter.  You returned to Nairobi and spent the remainder of the
+day watching Taan Kaur's shop.  It's large and busy, but at night when
+the street had quieted down, you saw a group of men wearing red
+head-dresses enter the shop through a side door.  They left a little
+while later.
+
+It's now the morning of the 9th of July, what do you do?
+
+### 9th of July
+
+You decided to go talk to Dr. Horrace Starret, who runs the free
+hospital and mission school in the Swahili Town, who Jackson Elias had
+also been to see.  You found him in his office and, after
+introduction, Musgrave asked about Jackson Elias and cult matters.
+Dr. Starret said he didn't know anything about cults, but Jackson
+Elias had been to see him, asking about the Carlyle Massacre, as
+Dr. Starret had examined the bodies.  He said that the bodies were
+remarkably well-preserved, despite being torn into shreds and lying in
+the open for months, they hadn't decayed at all.  He said that this
+was clearly the mark of supernatural evil, that the Carlyle Expedition
+had somehow brought the attention of the devil upon them, and that
+they had been punished for it.
+
+That evening, Jason decided to pay Taan Kaur a visit at her shop.  He
+waited until the early hours of the morning, and picked the padlock on
+the alley door.  He peered in and saw a corridor, linking the front of
+the shop to what looked like a store room.  In the middle of the
+corridor was a curtain-covered doorway.
+
+Jason looked beneath the curtain, and saw what looked like a bed, but
+it was hard to make out anything more in the darkness.  He drew the
+curtain aside, but it clattered on the rail, and awoke Taan Kaur.
+"Who's there?" she said, getting out of bed.  Jason didn't take any
+chances, he blew her away with his shotgun, and fled into the night.
+
+You decided to leave town the next day, as it's very suspicious if
+some new people arrive in town, register their shotguns, and then a
+couple of nights later someone is murdered with a shotgun.  Leaving
+would be even more suspicious, but at least you would be in the jungle
+and not easily captured.
+
+### 10th of July
+
+Due to experience with expeditions, Musgrave took charge of the
+organisation.  He first went to the library to consult, and copy, maps
+of the region.  He plotted a route to the Mountain of the Black Wind
+which he estimated would take about 9 days if you took all the
+supplies you would need to get there and back again.  He then went to
+the Dalston & Son Trading Post to purchase supplies and horses, to be
+delivered to the northern border of town early that afternoon.
+
+Off into the jungle you went.
+
+Carson was on fly duty today.  He almost took *Who Is Not What She
+Seems* out of her cage, but the rest of you recalled Bundari's warning
+to not let her out before you get to the mountain, and stopped him.
+Instead, Carson ran around holding the cage up, so she could catch
+some flies with her long tongue.
+
+As the sun was starting to get low in the sky and you were beginning
+to think about making camp, you spied what looked like an observation
+post: a hut with a platform around it held off the ground on tall
+stilts.  Looking beyond it, you saw a collection of buildings
+surrounded by a wooden wall.  You decided to go check it out.
+
+As you approached the buildings, you could see that it looked like a
+hunting lodge of some sort, with a few lights on in the main building,
+and numerous outbuildings, including a stable.  There was space for
+vehicles, but none parked there at the moment.
+
+You knocked on the door and, a few minutes later, a man opened it, and
+looked surprised to see you.  He didn't speak, but gestured for you to
+remain there, and disappeared again.  A few minutes later he returned
+with a boisterous, red-faced, man smelling of stale whisky, who
+introduced himself as Colonel Endicott, and welcomed you to his game
+lodge.  You talked about your journey and he offered you rooms, saying
+that the lodge had no customers at the moment.  He said that his
+assistant, Silent Joe, a mute, would show you to your rooms.
+
+Joe lead you through the large lodge, to quite large and
+well-furnished rooms.  You could tell that this lodge is clearly a
+business, it's not a personal country home of the colonel.  And yet
+there were no other people.
+
+Musgrave decided to go talk to the colonel, and found him in a large
+armchair in the lounge.  Jason decided to go check out the viewing
+platform.
+
+Over the course of the next couple of hours, and a lot of alcohol,
+Musgrave got the colonel's story out of him.  This lodge was a
+successful business once upon a time, but all changed when "that
+Mr. Carlyle, or whatever he was called" and his friends stayed for a
+few nights.  Since then, the lodge has been cursed with bad luck.
+Fatally bad luck.  The next few guests who stayed at the viewing
+platform were all found mauled in the jungle, miles from the platform,
+the following morning.  As if they wandered off in the night and were
+attacked by a wild animal.  The story got into the papers and, because
+there had been four such instances, people began to avoid the lodge.
+And now it's deserted.
+
+Jason found the viewing platform had some small beds, a few rifles,
+some binoculars, and a crate of whisky.  He sampled some of that
+before returning to the lodge.
+
+Later, you all gathered in one of the bedrooms, and Musgrave drunkenly
+related the colonel's story.  As he did, it turned to full night, and
+a wind rose.  Clarissa was sat smoking next to an open window and
+noticed something very odd: the trees in the distance weren't moving
+in the wind.  The rest of you saw the same thing when she pointed it
+out.  You shut the window, and decided to sleep in shifts.  The wind
+stopped at dawn.
+
+### 11th of July
+
+Musgrave decided to go get more information from the colonel, and
+found him asleep in the armchair where he had left him.  When he woke
+up, the colonel seemed to remember something of what he had said the
+night before, as he was reluctant to talk about the wind, but Musgrave
+didn't need to pressure him too much.  He said that the wind had
+started when the Carlyle Expedition stayed, and came every night when
+there wasn't a victim.  Neither he nor Silent Joe had ever been out
+into it.
+
+You decided to go investigate the viewing platform that night.  The
+colonel tried to dissuade you, but didn't physically restrain you.
+
+You went outside, and noticed that the ground inside the compound was
+very dusty.  It had been dusty the previous day too, and you would
+have expected the wind to blow it away.
+
+You suspected something was luring people off the platform into the
+jungle at night.  Janneke agreed to be tied to a support pillar on the
+platform while the rest of you concealed yourselves in the surrounding
+bushes, so that no matter what she saw or heard, she wouldn't be able
+to get down from the platform before you could come to help.
+
+Night fell.
+
+The ladder creaked, as if someone were stealthily climbing up it.
+Janneke looked down, and saw four humanoid shapes, made of whirling
+dust and rocks.  She shot the ladder, destroying it, which alerted the
+rest of you to the danger.  Upon seeing the shapes, Musgrave was
+temporarily paralysed by fear.  They immediately began attacking the
+stilts holding the platform up, which began to judder.
+
+You opened fire.  Janneke missed one, and then dropped the crate of
+whisky on it.  Despite the shape being made of particles of dust, it
+was pinned beneath the crate and struggled to escape, suggesting they
+have some physical form.  They seem to be able to withstand a lot of
+damage, with Clarissa's handgun not bothering them at all.  Jason and
+Carson formed a team, with Carson reloading Jason's shotguns for him,
+so Jason could fire both barrels repeatedly.  That had an effect.
+Jason hit one with both shots, it dispersed and didn't reform.
+Another noticed this and began running towards you, which Jason dealt
+with in the same way.  The one pinned beneath the crate escaped, just
+as Janneke shot the rope tying her to the platform and jumped into a
+tree.  But she failed to grab a branch, and fell to the ground.  The
+creature hit her in the chest, knocking the wind from her, and she
+slipped into unconsciousness on the ground.  Jason destroyed a third
+creature, which had also began charging him.
+
+With only one left, leaning over Janneke, the rest of you ran in all
+guns blazing, and took it out before it could land another blow.
+Carson administered first aid, and carried her back to the lodge where
+he could properly treat the wound.  Being hit with small chunks of
+rock and dust had torn up her chest, and he had to stitch the wound
+back together.
+
+You noticed there was no wind.
