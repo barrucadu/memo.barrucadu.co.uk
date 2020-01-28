@@ -2,7 +2,7 @@
 title: Boardgames
 tags: possessions
 published: 2017-03-03
-modified: 2019-09-20
+modified: 2020-01-28
 audience: Personal
 ---
 
@@ -29,16 +29,19 @@ Fluxx: The Board Game                      2    3    4
 Go                                         2
 Hanabi                                     2    3    4    5
 Love Letter                                2    3    4
+Luzhanqi                                   2
 Mansions of Madness                        2    3    4    5
 --- *Call of the Wild*                     2    3    4    5
 Monty Python Fluxx                         2    3    4    5    6
 New Bedford                           1    2    3    4
+Shogi                                      2
 The Resistance                                            5    6    7    8    9    10
 The Settlers of Catan                           3    4
 Takenoko                                   2    3    4
 Tanto Cuore                                2    3    4
 Tao Long                                   2
 Ticket to Ride: Europe                     2    3    4    5
+Xianqi                                     2
 
 **Notes:**
 
