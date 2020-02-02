@@ -2,7 +2,7 @@
 title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
-modified: 2020-01-19
+modified: 2020-02-02
 audience: Narrow
 ---
 
@@ -4356,3 +4356,192 @@ rock and dust had torn up her chest, and he had to stitch the wound
 back together.
 
 You noticed there was no wind.
+
+
+Kenya session 4, 2020-02-01
+---------------------------
+
+You're in a hunting lodge, north of Nairobi, on your way to the
+Mountain of the Black Wind.  The lodge belongs to a Col. Henry
+Endicott and, other than him and his servant Silent Joe, it's totally
+unoccupied.
+
+Musgrave got the colonel drunk, and learned that the lodge has been
+suffering a spell of "bad luck" since the Carlyle Expedition stayed.
+A few visitors have been found dead in the jungle, having seemingly
+wandered off in the night and been mauled by animals, and the lodge
+has acquired a bad reputation.
+
+You decided to check out the viewing platform, where all the victims
+had been staying, the next night.  The colonel tried to dissuade you,
+but you went anyway.  You thought it might be sirens or something,
+luring people into the jungle, so Janneke, alone, was tied up on the
+platform while the rest of you waited in the bushes.
+
+It wasn't sirens.  It was shadowy people made out of dust and rocks
+whirling in the wind.  They tried to creep up to the platform to
+Janneke but, when she broke the ladder, started attacking the stilts
+instead to bring it down.  You all joined the fight.  They withstood a
+lot of damage, and Janneke got very hurt, but you destroyed them in
+the end.  You returned to the lodge to nurse your wounds.
+
+It's now the morning of the 12th of July, you've been up all night,
+and Janneke is hurt.  What do you do?
+
+
+### 12th of July
+
+You decided to leave the hunting lodge behind, as you needed to get to
+the mountain.  You suspected that the problem hadn't been solved with
+guns, but decided you could check in on your way back.
+
+A couple of days passed.
+
+### 14th of July
+
+You arrived at a path heading north-east, and decided to follow it.
+It took you to a village.  The villagers had interacted with white
+people before; they eyed your guns, but only one of them, an old man,
+spoke any English.
+
+He said he was called Ndovu and, after you madee your purpose clear to
+him, he warned you away from the mountain.  He said that it is an evil
+place, and that many people have been gathering there.  You told him
+you had been sent by Bundari, which made him conclude that your
+purpose can't be an evil one, but he still doesn't like it.
+
+You set out north again.
+
+### 17th of July
+
+You came across a clearing, where the ground was blackened and the air
+smelled of death.  Animal tracks skirted the area.  You surmised that
+this was probably the site of the Carlyle Massacre, and decided to
+keep to the trees and not cross it openly.
+
+### 18th of July
+
+You've been seeing signs of other travellers: remains of campfires,
+leftover bones and other rubbish.  You're now well into the foothills
+and the trees are thinning.
+
+### 20th of July
+
+At last, the mountain is before you.  The area is barren and rocky
+now, but the mountain itself is covered in dense forest.  Clustered
+around the base of the mountain is an enormous campsite.  Looking at
+it through binoculars, you see mostly natives, but also white people,
+Indians, and Asians.
+
+You went around the foothills until you were out of site of the camp,
+and crossed stealthily to the mountain.
+
+On the mountain, you found a cave entrance, and crept inside.  The
+cave started to widen, and you heard voices.  Jason edged forward and
+peered into the cavern: a woman who could only be M'Weru, standing
+talking to ten men, in front of a horrifyign statue.  The statue
+depicted a man-like figure but, where the head should be, there was
+only a great tentacle.  Before the statue was a pile of bones and
+decaying corpses.
+
+You watched and waited for another half hour or so, until they moved
+out of sight behind the statue and evidently left to another room.
+You then entered the cavern to have a look around.  You heard a
+whimper from behind you, and shon your torches to reveal maybe two
+hundred people, thin and sickly, locked in a large cage.  Jason tried
+to pick the lock, but couldn't manage it, so you decided to search the
+room for the key.
+
+Jason found the key in an alcove next to the statue, along with a
+marine chronometer of the sort you've seen before (set to GMT, like
+the others).  He didn't see a passageway M'Weru could have gone
+through though.  Examining the wall more closely, Jason found a lever
+which opened a hidden door.
+
+The door led to a long, thin, tunnel.  Sloping upwards and curving in
+a great spiral.  At times the ground had been torn as if by an
+earthquake, and you had to scramble down and up the sides of fissures.
+You eventually found yourselves on the doorway of a huge chamber.
+
+The walls were made of black stone, and the immense ceiling was held
+up by six great pillars.  The room was lit by the glow of a
+sickly-looking brown fungus.  In the middle, next to what could only
+be described as a sacrificial altar, stood M'Weru and the men.  You
+could also see some steps off to the side, but couldn't see up them
+without creeping further into the room.
+
+As the room was so huge, you felt you could sneak to the steps without
+being noticed, and you did.
+
+At the top of the steps stood a large throne, and before the throne
+crouched a hideous mound of flesh, with a sick approximation of a
+human face near its apex, and two tentacles on its sides which could
+perhaps be arms.  At the hideous site, you all lost control.  Jason
+threw grenade after grenade.  Even in such a large room, being noticed
+by M'Weru was unavoidable.  You ran.  Ran back through the doorway,
+down the tunnel, and into the lower chamber.  Musgrave ran over to the
+cage and flung it open, though only a few dozen or so were strong
+enough to run for freedom.  In the resulting confusion, you managed to
+escape, and hide out on the mountain until the pursuit gave up around
+sunset.
+
+Clarissa decided to cast a spell to summon "a spirit of the air".
+
+Fifty minutes later, the air became somehow denser, and you all felt a
+presence.  Clarissa felt something unseen brush against her.  She
+shuddered, and commanded the creature to attack M'Weru.  A sudden gust
+of wind announced its departure.
+
+A few moments later, from the direction of the cave, you heard a man's
+voice yell.  A little after that, a loud thud as if something large
+had been flung hard against a surface.  Then nothing.
+
+You realised the cultists were gathering at the foot of the mountain,
+and managed to join the crowd.  M'Weru, limping, and one of the men,
+bleeding, appeared on a ledge, to the cheers of the assembled throng.
+There were thousands of people there.
+
+M'Weru raised her arms, and shouted something in swahili.  She then
+started to chant "nyar sthan! nyar gashanna!" which the rest of the
+crowd picked up.  Drums began to beat the rhythm of the chant.  The
+cultists started to work themselves up into a frenzy, some even
+tearing off their clothes.  Then, the man started shoving captived off
+the ledge into the crowd, who tore them apart.
+
+At that, Carson had had enough.  He remembered Bundari's words, to let
+out Who when you were at the mountain and in need of a friend, so he
+took the little lizard from its cage and flung it towards M'Weru.  As
+he held the lizard, he felt it begin to change, and it rapidly grew
+into a much larger creater, bigger than a man, with large claws.  Who
+began clawing her way through the crowd towards M'Weru, who flung her
+arm forward and began to chant.  Jason raised his gun, and shot her.
+Who made it to the front of the crowd and began climbing to the ledge,
+with Carson chasing behind.  When Carson made it to the top, he saw
+Who ripping apart the body of the man.
+
+The cultists were in too much of a frenzy to be dismayed, or even
+notice, the death of M'Weru.
+
+Lightning struck the mountain top, and a black cloud, which held its
+shape rather than dispersing, raced down the side towards the group.
+You decided to run.
+
+But not fast enough.  The cloud reached the ground, and formed a giant
+shape, as tall as the mountain, of a man with a tentacle where his
+head should be.  The giant figure gestured towards the mountain, and
+it reshaped itself into a vast staircase.  Cultists began racing up
+the stairs, shoving each other off the sides and to their death on the
+rocks below in their eagerness.  The Bloody Tongue scooped up
+occasional handfuls of cultists, either eating them or dashing them
+onto the rocks.
+
+Blisfully, your sanity left you.  All of you.  Some of you escaped to
+the jungle, emerging broken men with short live.  Some of you were
+killed in the crowd.  Clarissa joined the cultists ascending the
+mountain, and found herself bowing down and worshiping before the
+Spawn of Nyarlathotep, which had emerged from the corpse of what had
+once been Hypatia Masters.
+
+<aside class="highlight">
+The end.
+</aside>
