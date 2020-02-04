@@ -147,6 +147,8 @@ class MemoReader:
             frontmatter["published"] = datetime(frontmatter["published"].year, frontmatter["published"].month, frontmatter["published"].day)
         if not isinstance(frontmatter["modified"], datetime):
             frontmatter["modified"] = datetime(frontmatter["modified"].year, frontmatter["modified"].month, frontmatter["modified"].day)
+        if frontmatter["published"] > frontmatter["modified"]:
+            frontmatter["published"] = frontmatter["modified"]
 
         # get the taxon
         taxon_slug = frontmatter.get("taxon", DEFAULT_TAXON)
