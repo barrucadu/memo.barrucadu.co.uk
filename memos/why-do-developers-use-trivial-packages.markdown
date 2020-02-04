@@ -1,8 +1,8 @@
 ---
 title: Why Do Developers Use Trivial Packages?
-tags: esec, fse, paper summary, research
+taxon: research-summary
+tags: esec, fse
 date: 2017-12-04
-audience: General
 ---
 
 By [Rabe Abdalkareem][a1], Olivier Nourry, [Sultan Wehaibi][a2], [Suhaib Mujahid][a3], and [Emad Shihab][a4].<br>

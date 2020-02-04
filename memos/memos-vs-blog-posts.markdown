@@ -2,7 +2,6 @@
 title: Memos vs. Blog Posts
 tags: meta, writing
 date: 2017-03-01
-audience: General
 superseded_by: read-me-first
 ---
 

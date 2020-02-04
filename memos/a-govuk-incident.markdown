@@ -2,7 +2,6 @@
 title: A GOV.UK Incident
 tags: gov.uk, tech
 date: 2018-08-10
-audience: General
 ---
 
 In August 2018 [GOV.UK][] had an incident where people who had

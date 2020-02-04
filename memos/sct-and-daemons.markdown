@@ -1,8 +1,8 @@
 ---
 title: Systematic Concurrency Testing and Daemon Threads
-tags: concurrency, programming, research
+taxon: research-dejafucoco
+tags: concurrency, programming
 date: 2016-05-13
-audience: Narrow
 ---
 
 Systematically testing concurrent programs is hard because, for

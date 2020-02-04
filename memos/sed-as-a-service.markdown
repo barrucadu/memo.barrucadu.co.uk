@@ -2,7 +2,6 @@
 title: Sed as a Service
 tags: humour, tech
 date: 2019-03-10
-audience: General
 ---
 
 Matching regular expressions can be computationally intensive.  In

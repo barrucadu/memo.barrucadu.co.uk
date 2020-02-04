@@ -2,7 +2,6 @@
 title: Using GADTs for alternative datatype representations
 tags: haskell, programming
 date: 2019-11-07
-audience: General
 ---
 
 The generalised algebraic data types (GADTs) GHC extension is really

@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 040"
-tags: weeknotes
+taxon: weeknotes-2019
 published: 2019-06-23
-audience: General
 ---
 
 ## Work

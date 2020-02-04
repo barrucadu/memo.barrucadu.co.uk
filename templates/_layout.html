@@ -25,24 +25,27 @@
     <script src="MathJax/MathJax.js?config=TeX-AMS_CHTML" async></script>
 
     {% if tag is defined %}
-    <link rel="alternate" type="application/atom+xml" title="{{ title }}" href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">
+    <link rel="alternate" type="application/atom+xml" title="{{ title|e }}" href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">
+    {% endif %}
+    {% if taxon is defined %}
+    <link rel="alternate" type="application/atom+xml" title="{{ title|e }}" href="{{ taxon_dir|e }}{{ taxon.slug|e }}.xml">
     {% endif %}
     <link rel="alternate" type="application/atom+xml" title="{{ site_name|e }}" href="atom.xml">
   </head>
 
   <body itemscope itemtype="http://schema.org/WebPage">
-    <article itemscope itemtype="http://schema.org/{% block itemtype %}{% endblock %}" itemprop="mainEntity">
-      {% block body %}
-      {% endblock %}
+    <div class="grid-2col" itemscope itemtype="http://schema.org/{% block itemtype %}{% endblock %}" itemprop="mainEntity">
+      <nav class="sidebar">
+        {% block sidebar %}
+        {% endblock %}
+      </nav>
 
-      {% include "_person.html" %}
-      {% if not is_root %}
-      <footer>
-        <nav>
-          <p><a href="" title="All Memos">All Memos</a></p>
-        </nav>
-      </footer>
-      {% endif %}
-    </article>
+      <article class="main-text">
+        {% block body %}
+        {% endblock %}
+
+        {% include "_person.html" %}
+      </article>
+    </div>
   </body>
 </html>

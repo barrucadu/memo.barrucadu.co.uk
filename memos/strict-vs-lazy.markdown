@@ -2,7 +2,6 @@
 title: Strict-by-default vs Lazy-by-default
 tags: haskell, programming
 date: 2016-02-12
-audience: General
 ---
 
 In a language with lazy evaluation, a value is computed *only* when it

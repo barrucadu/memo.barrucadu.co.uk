@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 027"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-03-24
-audience: General
 ---
 
 ## Open Source

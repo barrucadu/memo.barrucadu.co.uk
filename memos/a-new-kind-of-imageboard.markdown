@@ -2,7 +2,6 @@
 title: A New Kind of Imageboard
 tags: culture, tech
 date: 2018-05-28
-audience: General
 ---
 
 I've been using imageboards for a long time, and I accept that they

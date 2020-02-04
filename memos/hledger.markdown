@@ -3,7 +3,6 @@ title: hledger
 tags: finance, hledger, howto
 date: 2017-09-29
 superseded_by: personal-finance
-audience: Narrow
 ---
 
 Since about June 2016 I have been using [hledger](http://hledger.org/) to track my finances. How I

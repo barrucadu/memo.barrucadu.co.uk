@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 029"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-04-07 21:30:00
-audience: General
 ---
 
 ## Work

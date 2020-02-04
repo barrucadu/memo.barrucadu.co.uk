@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 008"
-tags: weeknotes
+taxon: weeknotes-2018
 date: 2018-11-11
-audience: General
 ---
 
 ## Ph.D

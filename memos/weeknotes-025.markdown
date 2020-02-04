@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 025"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-03-10
-audience: General
 ---
 
 ## Work

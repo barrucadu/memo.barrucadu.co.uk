@@ -1,8 +1,7 @@
 ---
 title: Concourse CI on NixOS
-tags: tech
+taxon: techdocs-practices
 date: 2019-04-07
-audience: General
 ---
 
 ![The Concourse dashboard](concourseci-on-nixos/dashboard.png)

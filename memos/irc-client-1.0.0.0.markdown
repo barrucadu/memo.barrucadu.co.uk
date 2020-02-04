@@ -2,7 +2,6 @@
 title: irc-client-1.0.0.0
 tags: haskell, irc-client, programming, release notes
 date: 2017-09-22
-audience: General
 ---
 
 Version [1.0.0.0][] of my [irc-client][] library has just been pushed

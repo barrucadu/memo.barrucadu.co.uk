@@ -2,7 +2,6 @@
 title: More Graphs than You Ever Wanted about Call of Cthulhu Skill Rolls
 tags: call of cthulhu
 date: 2019-05-11
-audience: Narrow
 ---
 
 Conflict in RPGs can be resolved in two ways: *narratively*, where

@@ -2,7 +2,6 @@
 title: Processing 100GB of nginx logs
 tags: gov.uk, tech
 date: 2018-10-22
-audience: General
 ---
 
 I wanted to know two slightly different things about traffic to

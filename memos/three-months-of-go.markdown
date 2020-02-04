@@ -2,7 +2,6 @@
 title: Three Months of Go (from a Haskeller's perspective)
 tags: haskell, go, programming
 date: 2016-08-25
-audience: General
 ---
 
 This summer I've been interning at [Pusher][], and have been writing a

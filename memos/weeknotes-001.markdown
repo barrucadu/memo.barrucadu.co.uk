@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 001"
-tags: weeknotes
+taxon: weeknotes-2018
 date: 2018-09-23
-audience: General
 ---
 
 I've decided to give writing [weeknotes][] a try.  I've tried, and

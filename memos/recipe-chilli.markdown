@@ -1,8 +1,8 @@
 ---
 title: Chilli
-tags: recipe
+taxon: self-recipes
 date: 2019-02-26
-audience: Personal
+exclude_from_feed: yes
 ---
 
 ![The goal: a delicious chilli](chilli.jpg)

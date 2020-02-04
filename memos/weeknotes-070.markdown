@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 070"
-tags: weeknotes
+taxon: weeknotes-2020
 date: 2020-01-19
-audience: General
 ---
 
 ## Work

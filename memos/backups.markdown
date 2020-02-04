@@ -1,8 +1,8 @@
 ---
 title: Backups
-tags: aws, programming
+taxon: techdocs-practices
+tags: aws
 date: 2019-03-29
-audience: General
 ---
 
 I take automatic full and incremental off-site backups using

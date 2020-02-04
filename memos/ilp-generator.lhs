@@ -2,7 +2,6 @@
 title: A little programming language for integer linear programming
 tags: haskell, maths, programming
 date: 2019-06-29
-audience: General
 ---
 
 Integer linear programming (ILP) is [a good fit for making rotas][ilp].

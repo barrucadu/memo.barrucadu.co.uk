@@ -2,7 +2,6 @@
 title: dejafu-2.0.0.0
 tags: dejafu, haskell, programming, release notes
 date: 2019-02-12
-audience: General
 ---
 
 (this message has also been sent to [/r/haskell][] and [haskell-cafe][])

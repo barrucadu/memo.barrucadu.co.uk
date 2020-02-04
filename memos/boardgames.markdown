@@ -1,9 +1,9 @@
 ---
 title: Boardgames
-tags: possessions
+taxon: self-possessions
 published: 2017-03-03
 modified: 2020-01-28
-audience: Personal
+exclude_from_feed: yes
 ---
 
 Game                                  1    2    3    4    5    6    7    8    9    10

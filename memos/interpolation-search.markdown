@@ -2,7 +2,6 @@
 title: Interpolation Search
 tags: algorithms, programming, python
 date: 2019-05-15
-audience: General
 ---
 
 In which I rediscover something [first described in 1957][is], and

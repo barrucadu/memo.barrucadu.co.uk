@@ -2,7 +2,6 @@
 title: Property-testing Side Effects
 tags: coco, dejafu, haskell, programming
 date: 2017-06-09
-audience: General
 ---
 
 [dejafu-0.7.0.0][] brings with it [a new module][] for

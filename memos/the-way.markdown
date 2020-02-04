@@ -1,8 +1,8 @@
 ---
 title: The Way
-tags: life
+taxon: self
 date: 2017-03-06
-audience: Personal
+exclude_from_feed: yes
 ---
 
 On Attitude

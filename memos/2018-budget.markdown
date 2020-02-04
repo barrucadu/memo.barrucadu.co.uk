@@ -1,8 +1,9 @@
 ---
 title: I Need A Budget
-tags: finance, hledger, howto
+tags: finance, hledger
+taxon: self-systems
+superseded_by: personal-finance
 date: 2017-12-16
-audience: General
 ---
 
 It's hard to believe it's only been around a year and a half since I

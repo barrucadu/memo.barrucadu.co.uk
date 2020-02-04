@@ -2,7 +2,6 @@
 title: NixOS, GHCi, and Mueval
 tags: haskell, howto, nixos, programming, tech
 date: 2017-03-17
-audience: Narrow
 ---
 
 

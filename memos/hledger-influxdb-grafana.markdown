@@ -2,7 +2,6 @@
 title: Visualise your finances with hledger, InfluxDB, and Grafana
 tags: finance, hledger, howto
 date: 2017-05-18
-audience: General
 ---
 
 ![Graph of my saved money](hledger-influxdb-grafana/savings-graph.png)

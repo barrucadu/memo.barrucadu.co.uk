@@ -2,7 +2,6 @@
 title: Metaphysics for Hermetic Magic
 tags: ars magica
 published: 2019-09-22
-audience: Narrow
 ---
 
 This is an attempt to find a consistent metaphysical underpinning for

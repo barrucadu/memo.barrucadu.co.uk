@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 015"
-tags: weeknotes
+taxon: weeknotes-2018
 date: 2018-12-30
-audience: General
 ---
 
 ## Miscellaneous

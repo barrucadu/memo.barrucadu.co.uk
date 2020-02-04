@@ -5,6 +5,10 @@
   {% for memo in memos %}
   <url><loc>{{ site_root|e }}{{ memo.slug|e }}.html</loc></url>
   {% endfor %}
+  {% for taxon in taxa %}
+  <url><loc>{{ site_root|e }}{{ taxon_dir|e }}{{ taxon.slug|e }}.html</loc></url>
+  <url><loc>{{ site_root|e }}{{ taxon_dir|e }}{{ taxon.slug|e }}.xml</loc></url>
+  {% endfor %}
   {% for tag in tags %}
   <url><loc>{{ site_root|e }}{{ tag_dir|e }}{{ tag.slug|e }}.html</loc></url>
   <url><loc>{{ site_root|e }}{{ tag_dir|e }}{{ tag.slug|e }}.xml</loc></url>

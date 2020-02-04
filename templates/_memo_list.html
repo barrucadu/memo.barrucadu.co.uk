@@ -1,0 +1,16 @@
+<ol class="navigation-list">
+  {% for memo in memos %}
+  <li itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="navigation-list-item">
+    <h2 itemprop="headline name" class="list-title"><a itemprop="mainEntityOfPage url" href="{{ memo.slug|e }}.html">{{ memo.title|e }}</a></h2>
+
+    <span style="display: none">
+      <meta itemprop="datePublished" content="{{ memo.published_iso|e }}">
+      {% if memo.published_iso != memo.modified_iso %}
+      <meta itemprop="dateModified" content="{{ memo.modified_iso|e }}">
+      {% endif %}
+    </span>
+
+    {% include "_person.html" %}
+  </li>
+  {% endfor %}
+</ol>

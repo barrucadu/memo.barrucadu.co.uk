@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 071"
-tags: weeknotes
+taxon: weeknotes-2020
 date: 2020-01-26
-audience: General
 ---
 
 ## Work

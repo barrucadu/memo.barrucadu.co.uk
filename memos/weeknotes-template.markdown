@@ -1,15 +1,15 @@
 ---
 title: Template for Weeknotes
-tags: weeknotes, systems
+taxon: weeknotes
 modified: 2019-07-21
 published: 2019-02-09
-audience: Personal
+exclude_from_feed: yes
 ---
 
 ```
 ---
 title: "Weeknotes: NNN"
-tags: weeknotes
+taxon: weeknotes-YYYY
 date: YYYY-MM-DD
 audience: General
 ---

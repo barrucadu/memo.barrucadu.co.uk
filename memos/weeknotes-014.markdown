@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 014"
-tags: weeknotes
+taxon: weeknotes-2018
 date: 2018-12-24
-audience: General
 ---
 
 ## Ph.D

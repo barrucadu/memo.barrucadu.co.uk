@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 030"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-04-14
-audience: General
 ---
 
 ## Ph.D

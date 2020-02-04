@@ -1,8 +1,8 @@
 ---
 title: How to Break an API
-tags: esec, fse, paper summary, research
+taxon: research-summary
+tags: esec, fse
 date: 2017-11-30
-audience: General
 ---
 
 By [Christopher Bogart][a1], [Christian Kästner][a2], [James Herbsleb][a3], and [Ferdian Thung][a4].<br>

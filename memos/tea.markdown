@@ -1,8 +1,8 @@
 ---
 title: Tea
-tags: possessions
+taxon: self-possessions
 date: 2019-10-21
-audience: Personal
+exclude_from_feed: yes
 ---
 
 Teas

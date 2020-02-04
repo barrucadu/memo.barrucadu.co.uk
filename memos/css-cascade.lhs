@@ -2,7 +2,6 @@
 title: The CSS Cascade Algorithm
 tags: haskell, programming, webdev
 date: 2019-11-02
-audience: General
 ---
 
 I've never really been clear on how CSS handles conflict

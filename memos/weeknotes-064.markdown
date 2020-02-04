@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 064"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-12-08
-audience: General
 ---
 
 ## Moving

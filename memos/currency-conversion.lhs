@@ -2,7 +2,6 @@
 title: Currency Conversion
 tags: finance, haskell, programming
 date: 2018-05-31
-audience: Narrow
 ---
 
 I've recently returned to my [hledger

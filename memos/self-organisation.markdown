@@ -1,8 +1,8 @@
 ---
 title: Self Organisation
-tags: life, systems, trello
-date: 2018-09-24
-audience: Narrow
+taxon: self-systems
+published: 2018-09-24
+modified: 2019-07-22
 ---
 
 I use [Trello][] to keep track of things I need to do.  Everything I

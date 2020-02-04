@@ -2,7 +2,6 @@
 title: Improving Performance by Discarding Traces
 tags: dejafu, haskell, programming, release notes
 date: 2017-08-16
-audience: General
 ---
 
 **tl;dr** if you don't want all the execution traces, you might now be

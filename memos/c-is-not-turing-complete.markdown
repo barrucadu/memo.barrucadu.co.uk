@@ -2,7 +2,6 @@
 title: C is not Turing-complete
 tags: c, programming, semantics
 date: 2018-10-02
-audience: General
 ---
 
 **Since this has been posted to lobste.rs and a lot of people seem to

@@ -2,7 +2,6 @@
 title: Solving Scheduling Problems with Integer Linear Programming
 tags: gov.uk, maths, programming
 date: 2019-01-11
-audience: General
 ---
 
 [Integer Linear Programming][ILP] (ILP) is, according to Wikipedia, a

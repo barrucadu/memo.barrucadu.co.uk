@@ -64,25 +64,23 @@ body {
     counter-reset: sidenote-counter;
 }
 
-article {
-    max-width: 700px;
-    margin: 0 auto;
+article, section {
+    margin: 0;
     padding: 0;
+}
+
+.main-text {
+    font-size: 18px;
+    line-height: 1.4;
+    padding-bottom: 3em;
 }
 
 header {
     color: #2c3e50;
 }
 
-footer {
-    border-top: 1px solid #999;
-}
-
-section {
-    margin: 2em 10px;
-}
-
 .navigation-list {
+    margin-top: 0;
     margin-left: 0;
     padding-left: 0;
 }
@@ -95,6 +93,15 @@ section {
 .navigation-list-item::before {
     content: "— ";
     padding-right: 6px;
+}
+
+.current-page {
+    font-weight: bold;
+}
+
+.back-link {
+    display: block;
+    margin-bottom: 1em;
 }
 
 .list-title {
@@ -113,6 +120,25 @@ dl {
     margin-block-end: 0.7em;
 }
 
+.grid-2col {
+    display: grid;
+    grid-column-gap: 64px;
+    grid-template-columns: 300px 700px;
+    max-width: 1064px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted #333;
+    color: #333;
+}
+
+.sidebar > * {
+    margin-bottom: 1em;
+}
+
 .flex-grid {
     display: flex;
     flex-flow: row wrap;
@@ -129,52 +155,32 @@ dl {
 .meta-message {
     background: #a5005e;
     color: #fff;
-    padding: 20px 30px;
-    box-sizing: border-box;
+    padding: 30px;
 }
 
-.meta-message a, .meta-message a:link, .meta-message a:visited, .meta-message a:active, .meta-message a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.header-metadata-label, .list-metadata-label, .header-metadata-value, .list-metadata-value {
+.sidebar-metadata-label, .sidebar-metadata-value {
     padding: 0;
     margin: 0;
 }
 
-.header-metadata {
+.sidebar-metadata {
     background: #00a55e;
     color: #fff;
-    padding: 20px 30px;
-    box-sizing: border-box;
+    padding: 30px;
 }
 
-.header-metadata a, .header-metadata a:link, .header-metadata a:visited, .header-metadata a:active, .header-metadata a:hover {
+.meta-message a, .meta-message a:link, .meta-message a:visited, .meta-message a:active, .meta-message a:hover, .sidebar-metadata a, .sidebar-metadata a:link, .sidebar-metadata a:visited, .sidebar-metadata a:active, .sidebar-metadata a:hover {
     color: #fff;
     text-decoration: underline;
 }
 
-.header-metadata-label {
-    float: left;
-    padding-right: 5px;
+.sidebar-metadata-label, .sidebar-metadata-value {
+    display: block;
 }
 
-.header-metadata-value {
+.sidebar-metadata-value {
     font-weight: bold;
-}
-
-.list-metadata {
-    margin-block-start: 0;
-}
-
-.list-metadata-label {
-    float: left;
-    padding-right: 5px;
-}
-
-.list-metadata-value {
-    font-weight: bold;
+    margin-bottom: 6px;
 }
 
 a, a:link, a:visited {
@@ -326,4 +332,14 @@ span.highlight {
 .spoiler:hover {
     color: inherit;
     background-color: transparent;
+}
+
+.mini-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+.mini-title::before {
+    content: "";
 }

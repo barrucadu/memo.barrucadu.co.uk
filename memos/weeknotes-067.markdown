@@ -1,8 +1,7 @@
 ---
 title: "Weeknote Special: 2019"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-12-29
-audience: General
 ---
 
 Since it's the last Sunday of the year, I thought it would be nice to

@@ -1,8 +1,8 @@
 ---
 title: Generating Typed Expressions
-tags: coco, code generation, haskell, programming, research
+taxon: research-dejafucoco
+tags: coco, code generation, haskell, programming
 date: 2017-03-27
-audience: Narrow
 ---
 
 *[Representation & Evaluation of Typed Expressions](https://memo.barrucadu.co.uk/representation-and-evaluation-of-typed-expressions.html):

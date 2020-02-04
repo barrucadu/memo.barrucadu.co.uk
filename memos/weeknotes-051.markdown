@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 051"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-09-08
-audience: General
 ---
 
 ## Work

@@ -3,7 +3,6 @@ title: Masks of Nyarlathotep Session Notes
 tags: call of cthulhu
 published: 2018-11-04
 modified: 2020-02-02
-audience: Narrow
 ---
 
 Masks of Nyarlathotep is a campaign for Call of Cthulhu.  We're

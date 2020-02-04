@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 042"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-07-07
-audience: General
 ---
 
 ## Work

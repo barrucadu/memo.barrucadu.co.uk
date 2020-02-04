@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 026"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-03-17 19:30:00
-audience: General
 ---
 
 ## Open Source

@@ -1,8 +1,8 @@
 ---
 title: The Academic Mindset and Me
-tags: life, research
+taxon: research
+tags: life
 date: 2017-12-06
-audience: Narrow
 ---
 
 As I come towards the end of my Ph.D, it's hard not to look back on it

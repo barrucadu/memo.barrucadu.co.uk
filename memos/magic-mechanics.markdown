@@ -2,7 +2,6 @@
 title: Magic Mechanics
 date: 2017-09-17
 tags: worldbuilding
-audience: Narrow
 ---
 
 This is about the mechanics of magic in a world where all power stems

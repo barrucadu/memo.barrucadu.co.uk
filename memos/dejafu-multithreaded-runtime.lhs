@@ -1,8 +1,8 @@
 ---
 title: A Multithreaded Runtime for Deja Fu
-tags: concurrency, dejafu, haskell, programming, research
+taxon: research-dejafucoco
+tags: concurrency, dejafu, haskell, programming
 date: 2017-10-03
-audience: Narrow
 ---
 
 The dejafu situation currently looks something like this:

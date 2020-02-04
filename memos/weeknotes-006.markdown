@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 006"
-tags: weeknotes
+taxon: weeknotes-2018
 date: 2018-10-28
-audience: General
 ---
 
 ## Ph.D

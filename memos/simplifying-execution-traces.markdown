@@ -1,8 +1,8 @@
 ---
 title: Simplifying Execution Traces
-tags: concurrency, dejafu, haskell, programming, research
+taxon: research-dejafucoco
+tags: concurrency, dejafu, haskell, programming
 date: 2018-03-08
-audience: Narrow
 ---
 
 It's well known that randomly generated test failures are a poor

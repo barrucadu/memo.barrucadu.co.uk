@@ -1,8 +1,8 @@
 ---
 title: Blub Crisis
 date: 2017-04-17
+taxon: self
 tags: programming
-audience: Narrow
 ---
 
 > As long as our hypothetical Blub programmer is looking down the power continuum, he knows he's

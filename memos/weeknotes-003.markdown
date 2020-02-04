@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 003"
-tags: weeknotes
+taxon: weeknotes-2018
 date: 2018-10-07
-audience: General
 ---
 
 ## Personal

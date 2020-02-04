@@ -1,8 +1,8 @@
 ---
 title: Bolognese
-tags: recipe
+taxon: self-recipes
 date: 2019-01-06
-audience: Personal
+exclude_from_feed: yes
 ---
 
 ![The goal: a delicious bolognese sauce](bolognese.jpg)

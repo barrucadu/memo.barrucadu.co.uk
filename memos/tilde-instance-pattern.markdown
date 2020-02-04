@@ -2,7 +2,6 @@
 title: The '~' Instance Pattern
 tags: haskell, programming
 date: 2019-02-02
-audience: General
 ---
 
 Typeclass instance selection

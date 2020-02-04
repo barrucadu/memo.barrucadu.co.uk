@@ -2,7 +2,6 @@
 title: Using Hedgehog to Test Déjà Fu
 tags: concurrency, dejafu, haskell, hedgehog, programming, property-based testing
 date: 2018-02-11
-audience: General
 ---
 
 Déjà Fu is a concurrency testing library, and one thing you definitely

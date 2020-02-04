@@ -2,7 +2,6 @@
 title: "Writing a Concurrency Testing Library (Part 2): Exceptions"
 tags: concurrency, dejafu, haskell, minifu, programming
 date: 2017-10-28
-audience: General
 ---
 
 Welcome back to my series on implementing a concurrency testing

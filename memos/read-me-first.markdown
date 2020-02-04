@@ -2,8 +2,7 @@
 title: Read Me First
 tags: meta
 date: 2018-09-20
-audience: General
-important: true
+superseded_by: memo-organisation
 ---
 
 Welcome to my collection of memos!

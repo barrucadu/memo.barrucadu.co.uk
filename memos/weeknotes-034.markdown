@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 034"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-05-12
-audience: General
 ---
 
 ## Open Source

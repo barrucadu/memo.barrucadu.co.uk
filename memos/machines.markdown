@@ -1,8 +1,8 @@
 ---
 title: Machines
-tags: howto, possessions, tech
+taxon: techdocs
 date: 2019-12-17
-audience: Personal
+exclude_from_feed: yes
 ---
 
 Naming convention

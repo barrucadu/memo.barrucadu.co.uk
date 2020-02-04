@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 007"
-tags: weeknotes
+taxon: weeknotes-2018
 date: 2018-11-04
-audience: General
 ---
 
 ## Ph.D

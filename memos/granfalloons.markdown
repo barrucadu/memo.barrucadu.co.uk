@@ -1,8 +1,9 @@
 ---
 title: List of Granfalloons
+taxon: self
 date: 2018-07-14
-tags: bokononism, life
-audience: Personal
+tags: bokononism
+exclude_from_feed: yes
 ---
 
 A *granfalloon* is a false *karass*: a collection of people with no

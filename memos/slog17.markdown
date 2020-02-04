@@ -1,8 +1,8 @@
 ---
 title: Notes for Summer 2017
 date: 2017-06-30
-tags: life
-audience: Personal
+taxon: self
+exclude_from_feed: yes
 ---
 
 Salvaged from the whiteboards before they were cleaned.

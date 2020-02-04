@@ -2,7 +2,6 @@
 title: dejafu-0.1.0.0
 tags: dejafu, haskell, programming, release notes
 date: 2015-08-27
-audience: General
 ---
 
 **I will be giving a presentation about Déjà Fu at the Haskell

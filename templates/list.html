@@ -1,46 +1,100 @@
 {% extends "_layout.html" %}
 {% block itemtype %}Blog{% endblock %}
+{% block sidebar %}
+<ul>
+  <li class="navigation-list-item">
+    {% if taxon is not defined and tag is not defined %}
+    <span class="current-page">All Memos</span>
+    {% else %}
+    <a href="">All Memos</a>
+    {% endif %}
+    <ul>
+      {% with parent = "" %}{% include "_taxon_tree.html" %}{% endwith %}
+    </ul>
+  </li>
+</ul>
+<hr>
+<ul>
+  {% for t in tags %}
+  <li class="navigation-list-item">
+    {% if tag is defined and tag == t %}
+    <span class="current-page">{{ t.name|e }}</span>
+    {% else %}
+    <a href="{{ tag_dir|e }}{{ t.slug |e}}.html">{{ t.name|e }}</a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+</nav>
+{% endblock %}
 {% block body %}
-<article>
-  <header>
-    <h1 itemprop="headline name">{{ title|e }}</h1>
+<header>
+  <h1 itemprop="headline name">{{ title|e }}</h1>
 
-    <p>
-      Atom feed
-      {% if tag is defined %}
-      <a href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">for the {{ tag.name|e }} tag</a> or
-      {% endif %}
-      <a href="atom.xml">for all memos</a>.
-    </p>
-  </header>
+  <p>
+    Atom feed
+    {% if tag is defined %}
+    for memos tagged <a href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">'{{ tag.name|e }}'</a> or
+    {% endif %}
+    {% if taxon is defined %}
+    for <a href="{{ taxon_dir|e }}{{ taxon.slug|e }}.xml">{{ taxon.long_name|e }}</a> or
+    {% endif %}
+    for <a href="atom.xml">all memos</a>.
+  </p>
 
-  <section>
-    <ol class="navigation-list">
-      {% for memo in memos %}
-      <li itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="navigation-list-item">
-        <h2 itemprop="headline name" class="list-title"><a itemprop="mainEntityOfPage url" href="{{ memo.slug|e }}.html">{{ memo.title|e }}</a></h2>
-
-        <dl class="list-metadata">
-          <dt class="list-metadata-label">Audience:</dt>
-          <dd class="list-metadata-value">{{ memo.audience|e }}</dd>
-          <dt class="list-metadata-label">Published:</dt>
-          <dd class="list-metadata-value"><time itemprop="datePublished" content="{{ memo.published_iso|e }}"  datetime="{{ memo.published_iso|e }}">{{ memo.published_pp|e }}</time></dd>
-          {% if memo.published_iso != memo.modified_iso %}
-          <dt class="list-metadata-label">Updated:</dt>
-          <dd class="list-metadata-value"><time itemprop="dateModified" content="{{ memo.modified_iso|e }}"  datetime="{{ memo.modified_iso|e }}">{{ memo.modified_pp|e }}</time></dd>
+  {% if taxon is defined %}
+    {% if taxon.parent == '' %}
+      <span class="back-link">Back to <a href="">all memos</a>.</span>
+    {% else %}
+      <span class="back-link">Back to <a href="{{ taxon_dir|e }}{{ taxon.parent |e}}.html">{{ taxon.parent_name|e }}</a>.</span>
+    {% endif %}
+    {% if taxon.has_children %}
+      <hr>
+      <h2 class="mini-title">Subtaxa</h2>
+      <ul class="navigation-list">
+        {% for t in taxa %}
+          {% if t.parent == taxon.slug %}
+            <li class="navigation-list-item">
+              <a href="{{ taxon_dir|e }}{{ t.slug |e}}.html">{{ t.name|e }}</a>
+            </li>
           {% endif %}
-          <dt class="list-metadata-label">Tags:</dt>
-          <dd class="list-metadata-value">
-            {% for tag in memo.tags %}
-            <a href="{{ tag_dir|e }}{{ tag.slug|e }}.html">{{ tag.name|e }}</a>{% if not loop.last %},{% endif %}
-            {% endfor %}
-          </dd>
-        </dl>
-
-        {% include "_person.html" %}
-      </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% elif tag is defined %}
+    <span class="back-link">Back to <a href="">all memos</a>.</span>
+  {% else %}
+    <hr>
+    <h2 class="mini-title">Subtaxa</h2>
+    <ul class="navigation-list">
+      {% for t in taxa %}
+        {% if t.parent == '' %}
+          <li class="navigation-list-item">
+            <a href="{{ taxon_dir|e }}{{ t.slug |e}}.html">{{ t.name|e }}</a>
+          </li>
+        {% endif %}
       {% endfor %}
-    </ol>
-  </section>
-</article>
+    </ul>
+  {% endif %}
+  <hr>
+</header>
+
+<section>
+  {% if memos is defined %}
+    {% if is_root %}
+      <h2 class="mini-title">All memos</h2>
+    {% elif taxon is defined %}
+      <h2 class="mini-title">Memos in this taxon</h2>
+    {% elif tag is defined %}
+      <h2 class="mini-title">Memos in this tag</h2>
+    {% endif %}
+    {% include "_memo_list.html" %}
+  {% endif %}
+
+  {% if extra_memos is defined %}
+    <hr>
+    <h2 class="mini-title">Memos in subtaxa</h2>
+    {% with memos = extra_memos %}{% include "_memo_list.html" %}{% endwith %}
+  {% endif %}
+</section>
 {% endblock %}

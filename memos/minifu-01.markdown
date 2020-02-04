@@ -2,7 +2,6 @@
 title: Writing a Concurrency Testing Library (Part 1)
 tags: concurrency, dejafu, haskell, minifu, programming
 date: 2017-10-14
-audience: General
 ---
 
 Welcome to the first part of a tutorial on writing your very own

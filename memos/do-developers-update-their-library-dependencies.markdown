@@ -1,8 +1,8 @@
 ---
 title: Do Developers Update Their Library Dependencies?
-tags: esec, fse, paper summary, research
+taxon: research-summary
+tags: esec, fse
 date: 2017-12-12
-audience: General
 ---
 
 By [Raula Gaikovina Kula][a1], [Daniel M. German][a2], [Ali Ouni][a3], [Takashi Ishio][a4], and [Katsuro Inoue][a5].<br>

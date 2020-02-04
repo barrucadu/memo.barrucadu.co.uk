@@ -1,8 +1,8 @@
 ---
 title: Kitchen Staples
-tags: possessions
+taxon: self-recipes
 date: 2019-01-13
-audience: Personal
+exclude_from_feed: yes
 ---
 
 Cupboards

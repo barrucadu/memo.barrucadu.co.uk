@@ -1,8 +1,7 @@
 ---
 title: Interesting Research
-tags: research
+taxon: research
 date: 2019-02-25
-audience: Narrow
 ---
 
 Sources

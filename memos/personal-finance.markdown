@@ -1,8 +1,8 @@
 ---
 title: Personal Finance
-tags: finance, hledger, howto, systems
+taxon: self-systems
+tags: finance, hledger
 date: 2019-09-01
-audience: Narrow
 ---
 
 I manage my money using [plain-text accounting][] (specifically,

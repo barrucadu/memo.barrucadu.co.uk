@@ -1,8 +1,8 @@
 ---
 title: Cottage Pie
-tags: recipe
+taxon: self-recipes
 date: 2018-11-21
-audience: Personal
+exclude_from_feed: yes
 ---
 
 ![The goal: a delicious cottage pie](cottage_pie.jpg)

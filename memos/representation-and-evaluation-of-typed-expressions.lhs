@@ -1,8 +1,8 @@
 ---
 title: Representation & Evaluation of Typed Expressions
-tags: coco, programming, research
+taxon: research-dejafucoco
+tags: coco, programming
 date: 2017-03-23
-audience: Narrow
 ---
 
 Or, "I tried really hard to use the [bound][] library but just couldn't get that square peg in this

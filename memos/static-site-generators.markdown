@@ -2,7 +2,6 @@
 title: I replaced a static site generator with a script to generate static sites
 tags: programming, tech
 published: 2019-06-22
-audience: General
 ---
 
 Today I threw out my cumbersome [hakyll][]-based build scripts for

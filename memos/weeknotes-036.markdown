@@ -1,8 +1,7 @@
 ---
 title: "Weeknotes: 036"
-tags: weeknotes
+taxon: weeknotes-2019
 date: 2019-05-26 22:00:00
-audience: General
 ---
 
 ## Ph.D

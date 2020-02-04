@@ -1,8 +1,8 @@
 ---
 title: Haskell Style Guide
+taxon: techdocs-practices
 tags: haskell, programming
 date: 2017-05-16
-audience: Narrow
 ---
 
 File layout

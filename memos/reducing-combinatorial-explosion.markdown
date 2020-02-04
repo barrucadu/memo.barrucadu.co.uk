@@ -1,8 +1,8 @@
 ---
 title: Reducing Combinatorial Explosion
-tags: concurrency, programming, research
+taxon: research-dejafucoco
+tags: concurrency, programming
 date: 2015-08-21
-audience: Narrow
 ---
 
 Testing concurrent programs is hard, because there are many valid

@@ -2,7 +2,6 @@
 title: 100 Prisoners
 tags: concurrency, dejafu, haskell, programming
 date: 2017-11-01
-audience: Narrow
 ---
 
 There's a popular logic puzzle which goes something like this:
