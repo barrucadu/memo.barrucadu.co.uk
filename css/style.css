@@ -136,17 +136,6 @@ header {
     margin-bottom: 1em;
 }
 
-.list-title {
-    display: inline-block;
-    margin: 0;
-    font-size: 1em;
-    font-weight: normal;
-}
-
-.list-title:before {
-    content: none;
-}
-
 dl {
     margin-block-start: 0.7em;
     margin-block-end: 0.7em;
