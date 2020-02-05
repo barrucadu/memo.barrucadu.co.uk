@@ -41,6 +41,7 @@ TAXA = [
     { 'name': 'Summaries', 'slug': 'research-summary', 'parent': 'research', 'tags': ['paper summary'] },
     { 'name': 'Tech Docs', 'slug': 'techdocs', 'parent': '', 'tags': ['tech'] },
     { 'name': 'Practices', 'slug': 'techdocs-practices', 'parent': 'techdocs', 'tags': [] },
+    { 'name': 'Runbooks', 'slug': 'techdocs-runbooks', 'parent': 'techdocs', 'tags': [] },
     { 'name': 'Self', 'slug': 'self', 'parent': '', 'tags': [] },
     { 'name': 'Koans', 'slug': 'self-koans', 'parent': 'self', 'tags': ['koan'] },
     { 'name': 'Possessions', 'slug': 'self-possessions', 'parent': 'self', 'tags': ['possessions'] },
