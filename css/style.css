@@ -66,6 +66,28 @@ h1, h2, h3, h4 { font-family: Lato, sans-serif }
 body { font-family: 'Gentium Book Basic', Cambria, Georgia, Times, serif }
 pre, code { font-family: 'Fira Mono', monospace }
 
+
+@media only screen and (max-width: 1300px) {
+    body {
+        margin: 0 3em 0 1em !important;
+    }
+    .grid-2col {
+        margin: 0 !important;
+    }
+}
+@media only screen and (max-width: 1064px) {
+    body {
+        margin: 0 3em !important;
+    }
+    .sidebar {
+        display: none !important;
+    }
+    .grid-2col {
+        grid-column-gap: 0px !important;
+        grid-template-columns: auto !important;
+    }
+}
+
 body {
     padding: 0;
     margin: 0 25vw 0 3em;
@@ -133,7 +155,7 @@ dl {
 .grid-2col {
     display: grid;
     grid-column-gap: 64px;
-    grid-template-columns: 300px 700px;
+    grid-template-columns: 250px 700px;
     max-width: 1064px;
     margin: 0 auto;
     padding: 0;
