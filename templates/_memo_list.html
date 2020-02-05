@@ -1,7 +1,9 @@
 <ol class="navigation-list">
   {% for memo in memos %}
   <li itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="navigation-list-item">
-    <h2 itemprop="headline name" class="list-title"><a itemprop="mainEntityOfPage url" href="{{ memo.slug|e }}.html">{{ memo.title|e }}</a></h2>
+    <a itemprop="mainEntityOfPage url" href="{{ memo.slug|e }}.html">
+      <span itemprop="headline name">{{ memo.title|e }}</span>
+    </a>
 
     <span style="display: none">
       <meta itemprop="datePublished" content="{{ memo.published_iso|e }}">
