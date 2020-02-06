@@ -1,6 +1,6 @@
 ---
 title: M4 is Good
-tags: m4, programing
+tags: m4, programming
 date: 2017-03-31
 ---
 
