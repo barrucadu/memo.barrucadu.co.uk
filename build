@@ -139,17 +139,17 @@ class MemoReader:
             except:
                 # this will be reached if the file hasn't been committed
                 frontmatter["published"] = datetime.now()
-        frontmatter["published_iso"] = frontmatter.get("published_iso", frontmatter["published"].strftime(DATE_ISO_FORMAT))
-        frontmatter["published_pp"] = frontmatter.get("published_pp", frontmatter["published"].strftime(DATE_PP_FORMAT))
         frontmatter["modified"] = frontmatter.get("modified", frontmatter.get("date", frontmatter["published"]))
-        frontmatter["modified_iso"] = frontmatter.get("modified_iso", frontmatter["modified"].strftime(DATE_ISO_FORMAT))
-        frontmatter["modified_pp"] = frontmatter.get("modified_pp", frontmatter["modified"].strftime(DATE_PP_FORMAT))
         if not isinstance(frontmatter["published"], datetime):
             frontmatter["published"] = datetime(frontmatter["published"].year, frontmatter["published"].month, frontmatter["published"].day)
         if not isinstance(frontmatter["modified"], datetime):
             frontmatter["modified"] = datetime(frontmatter["modified"].year, frontmatter["modified"].month, frontmatter["modified"].day)
         if frontmatter["published"] > frontmatter["modified"]:
             frontmatter["published"] = frontmatter["modified"]
+        frontmatter["published_iso"] = frontmatter.get("published_iso", frontmatter["published"].strftime(DATE_ISO_FORMAT))
+        frontmatter["published_pp"] = frontmatter.get("published_pp", frontmatter["published"].strftime(DATE_PP_FORMAT))
+        frontmatter["modified_iso"] = frontmatter.get("modified_iso", frontmatter["modified"].strftime(DATE_ISO_FORMAT))
+        frontmatter["modified_pp"] = frontmatter.get("modified_pp", frontmatter["modified"].strftime(DATE_PP_FORMAT))
 
         # get the taxon
         taxon_slug = frontmatter.get("taxon", DEFAULT_TAXON)
