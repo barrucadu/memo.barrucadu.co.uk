@@ -1,7 +1,7 @@
 ---
 title: Machines
 taxon: techdocs
-date: 2019-12-17
+date: 2020-02-20
 exclude_from_feed: yes
 ---
 
@@ -70,6 +70,20 @@ tmux new-session -sirc -d irssi
 # yukibot (in /projects/yukibot)
 ./run-yukibot live-configuration.toml
 ```
+
+### dreamlands
+
+> Atop the tallest of earth’s peaks dwell the gods of earth, and
+> suffer no man to tell that he hath looked upon them. Lesser peaks
+> they once inhabited; but ever the men from the plains would scale
+> the slopes of rock and snow, driving the gods to higher and higher
+> mountains till now only the last remains.
+
+- **Host:** Hetzner Cloud
+- **Purpose:** development-related services: CI/CD, git, docker registry (etc)
+- **Operating System:** NixOS
+- **Monitoring:** yes
+- **Backups:** yes
 
 Other
 -----
