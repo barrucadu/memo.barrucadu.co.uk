@@ -71,7 +71,6 @@ pre, code { font-family: 'Fira Mono', monospace }
     --bg-highlight: #ffffee;
     --bg-metadata: #00a55e;
     --bg-notice: #a5005e;
-    --bg-pre: #f8f8f8;
     --border: #00a55e;
     --border-highlight: #ff0000;
     --border-table-inner: #dddddd;
@@ -93,7 +92,6 @@ pre, code { font-family: 'Fira Mono', monospace }
         --bg-highlight: #000000;
         --bg-metadata: #3d4c49;
         --bg-notice: #ffbd48;
-        --bg-pre: #000000;
         --border: #ac4574;
         --border-highlight: #ff6666;
         --border-table-inner: #666666;
@@ -349,7 +347,6 @@ pre.code, blockquote {
 }
 
 pre.code {
-    background-color: var(--bg-pre);
     overflow: auto;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
