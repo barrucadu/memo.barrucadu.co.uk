@@ -1,5 +1,6 @@
 ---
 title: Masks of Nyarlathotep Session Notes
+taxon: general-games
 tags: call of cthulhu
 published: 2018-11-04
 modified: 2020-02-02

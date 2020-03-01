@@ -1,5 +1,6 @@
 ---
 title: More Graphs than You Ever Wanted about Call of Cthulhu Skill Rolls
+taxon: general-games
 tags: call of cthulhu
 date: 2019-05-11
 ---

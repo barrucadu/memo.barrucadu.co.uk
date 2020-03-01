@@ -32,6 +32,7 @@ DATE_PP_FORMAT = "%b %-d, %Y"
 # this is a list so they can be ordered
 TAXA = [
     { 'name': 'General', 'slug': 'general', 'parent': '', 'tags': [] },
+    { 'name': 'Games', 'slug': 'general-games', 'parent': 'general', 'tags': [] },
     { 'name': 'Weeknotes', 'slug': 'weeknotes', 'parent': '', 'tags': ['weeknotes'] },
     { 'name': '2020', 'slug': 'weeknotes-2020', 'parent': 'weeknotes', 'tags': [] },
     { 'name': '2019', 'slug': 'weeknotes-2019', 'parent': 'weeknotes', 'tags': [] },
