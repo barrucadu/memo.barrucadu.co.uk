@@ -2,7 +2,6 @@
 title: "Weeknotes: 074"
 taxon: weeknotes-2020
 date: 2020-02-16
-audience: General
 ---
 
 ## Work

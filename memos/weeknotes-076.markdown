@@ -2,7 +2,6 @@
 title: "Weeknotes: 076"
 taxon: weeknotes-2020
 date: 2020-03-01T19:00:00
-audience: General
 ---
 
 ## Open Source
