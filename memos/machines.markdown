@@ -1,7 +1,8 @@
 ---
 title: Machines
 taxon: techdocs
-date: 2020-02-20
+published: 2017-03-01
+modified: 2020-03-08
 exclude_from_feed: yes
 ---
 
@@ -64,11 +65,7 @@ Virtual machines
 #### Post-boot set-up
 
 ```bash
-# irc
 tmux new-session -sirc -d irssi
-
-# yukibot (in /projects/yukibot)
-./run-yukibot live-configuration.toml
 ```
 
 ### dreamlands
