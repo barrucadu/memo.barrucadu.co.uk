@@ -2,25 +2,23 @@
 title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
-date: 2019-09-01
+published: 2018-01-07
+modified: 2020-03-15
 ---
 
 I manage my money using [plain-text accounting][] (specifically,
 [hledger][]; though the choice of tool is unimportant), following a
 [YNABish][ynab] approach.  The four YNAB rules are:
 
-- **Give every dollar a job:** money is split into named categories,
-  don't have any "general savings".
-
-- **Embrace your true expenses:** large expenses (like a rental
+1. **Give every dollar a job:** money is split into named categories
+   don't have any "general savings".
+2. **Embrace your true expenses:** large expenses (like a rental
   deposit) are planned and allocated for in advance, as a regular
   monthly contribution.
-
-- **Roll with the punches:** if things aren't working out, adjust the
-  plan rather than lie to yourself.
-
-- **Age your money:** try to save more of each regular expense (rent,
-  travel, etc) than you spend in a given period.
+3. **Roll with the punches:** if things aren't working out, adjust the
+   plan rather than lie to yourself.
+4. **Age your money:** try to save more of each regular expense (rent,
+   travel, etc) than you spend in a given period.
 
 Why track my finances at all?
 
@@ -89,11 +87,6 @@ For current accounts I use:
   withdrawn and for foreign currency transactions, as Starling doesn't
   charge currency conversion fees.
 
-For savings accounts I use:
-
-- **Nationwide Flexsaver**, a regular saver with a monthly deposit cap
-  and interest paid out a year after opening the account.
-
 For investment accounts I use:
 
 - **Cavendish Online**, for my stocks & shares ISA (invested in a
@@ -101,17 +94,13 @@ For investment accounts I use:
 
 - **Coinbase**, for a very small amount of cryptocurrency.
 
-- **Funding Circle**, for an innovative finance ISA.  I'm phasing this
-  out, selling off my investments and transferring the money into my
-  S&S ISA.
-
 For credit cards I use:
 
 - **American Express**, for a cashback card.  There is a small annual
   fee (£25), but my annual cashback covers that.
 
-Almost all of my spending goes on the Amex card, with that paid off
-every month from the Nationwide Flexdirect.
+Almost all of my spending goes on the Amex card, with that paid off in
+full every month from the Nationwide account.
 
 
 Chart of accounts
@@ -133,24 +122,24 @@ the regular accounts, which are mostly self-explanatory:
             - `flexdirect`
                 - `goal`
                     - *subaccounts for specific future expenses, like renewing my passport*
+                - `float`---cash which can be withdrawn
                 - `pending`
                     - *subaccounts for money to be transferred outside of the flexdirect*
                 - `saved`
                     - `discretionary`
+                    - `emergency`---any unexpected large expense not covered by another category
                     - `food`
                     - `gift`
                     - `graze`---monthly [Graze](https://www.graze.com/uk/) subscription
                     - `health`
                     - `household`
-                    - `huel`---monthly [Huel](https://huel.com/) subscription
-                    - `insurance`
+                    - `move`---money for any future deposit, moving fees, etc
                     - `phone`
                     - `rent`
                     - `social`
                     - `tea`
                     - `travel`
                     - `utilities`
-            - `flexsaver`---not subdivided further because it all has to stay there for a while
         - `starling`
             - `float`---cash which can be withdrawn
             - `patreon`---monthly [Patreon](https://www.patreon.com/) subscriptions (charged in USD)
@@ -160,44 +149,13 @@ the regular accounts, which are mostly self-explanatory:
     - `investments`
         - `cavendish`
         - `coinbase`
-        - `fundingcircle`
     - `receivable`
         - `deposit`---the deposit on my flat
-- `equity`
+- `equity`---used for initialising balances at the start of the year
 - `expenses`
-    - `beeminder`---I use [Beeminder](https://www.beeminder.com/) to enforce some habits</em>
-    - `books`
-    - `clothing`
-    - `fees`
-        - *subaccounts for various things*
-    - `food`
-    - `fun`
-    - `gift`
-    - `health`
-    - `household`
-    - `insurance`
-    - `interest`
-        - `amex`
-    - `music`
-    - `other`
-    - `pension`---payroll deductions
-    - `phone`
-    - `rent`
-    - `tax`
-        - `council`
-        - `income`
-        - `ni`---national Insurance
-    - `tea`
-    - `tech`
-    - `travel`
-    - `utilities`
-        - `electricity`
-        - `internet`
-        - `water`
-    - `web`
+    - *subaccounts for various things*
 - `income`
     - `amex`---cashback offers and similar
-    - `donation`---from [lainon.life](https://lainon.life/)
     - `interest`
     - `job`
 - `liabilities`
@@ -221,7 +179,7 @@ Money (and other commodities) is only stored in leaf accounts.
 
 
 !-transactions
----------------
+--------------
 
 [hledger][] allows transactions to be marked with a `!` or a `*`.  The
 traditional meaning of these is "pending" and "cleared".
@@ -356,10 +314,10 @@ bar:
 
 ### Cash
 
-Cash that can be withdrawn lives in `starling:float`.  This is because
-it's useful to have cash on hand without necessarily having decided up
-front what it's for, but it's also good to bound the amount of
-unallocated money I have.
+Cash that can be withdrawn lives in `flexdirect:float` and
+`starling:float`.  This is because it's useful to have cash on hand
+without necessarily having decided up front what it's for, but it's
+also good to bound the amount of unallocated money I have.
 
 ```
 2019-01-25 * Withdraw
@@ -447,7 +405,6 @@ an pair of an income transaction and an allocation-style transaction:
 2019-08-14 * American Express | cashback
     liabilities:creditcard:amex                                          £181.41
     income:amex
-
 2019-08-14 ! Allocation | cashback
     assets:cash:nationwide:flexdirect:goal:move                          £100.00
     assets:cash:nationwide:flexdirect:saved:tea                           £80.00
