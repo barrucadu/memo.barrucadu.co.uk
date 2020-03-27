@@ -1,7 +1,8 @@
 ---
 title: Kitchen Staples
 taxon: self-recipes
-date: 2019-01-13
+published: 2019-01-13
+modified: 2020-03-27
 exclude_from_feed: yes
 ---
 
@@ -12,6 +13,7 @@ Cupboards
 
 - Baking powder
 - Baking soda
+- Bread flour
 - Granulated sugar
 - Lemon zest
 - Plain flour
@@ -33,6 +35,7 @@ Cupboards
 ### Oils and sauces
 
 - Extra virgin olive oil
+- Rapeseed oil
 - Soy sauce
 - Worcestershire sauce
 
@@ -40,6 +43,7 @@ Cupboards
 
 - Chopped tomatoes
 - Mixed beans
+- Soup
 
 ### Miscellaneous
 
@@ -47,10 +51,11 @@ Cupboards
 - Black pepper
 - Curry paste
 - Eggs
+- Oat milk
+- Passata
 - Red wine
 - Sea salt
 - Sun-dried tomatoes
-- White bread
 
 
 Fridge
@@ -60,13 +65,14 @@ Fridge
 use it, so my fridge is usually pretty barren.
 
 - BBQ sauce
+- Cheddar
 - Corned beef
 - HP sauce
 - Margarine
 - Mayonnaise
 - Pears
+- Sausages
 - Smoked bacon
-- Whole milk
 - Wholegrain mustard
 
 
@@ -77,4 +83,5 @@ Freezer
 - Chips
 - Minced beef
 - Peas
+- Pizza
 - Scotch bonnet peppers
