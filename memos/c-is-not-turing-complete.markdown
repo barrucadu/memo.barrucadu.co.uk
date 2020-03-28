@@ -1,7 +1,8 @@
 ---
 title: C is not Turing-complete
 tags: c, programming, semantics
-date: 2018-10-02
+published: 2018-02-06
+modified: 2018-10-02
 ---
 
 **Since this has been posted to lobste.rs and a lot of people seem to
@@ -81,7 +82,9 @@ manage it in theory.
   directly and indirectly through any chain of other functions.",
   6.5.2.2.11, nothing else is said on the matter.
 
-### Addendum: Virtual Memory
+
+Addendum: Virtual Memory
+------------------------
 
 In a discussion about this on Twitter, the possibility of doing some
 sort of virtual memory shenanigans to make a pointer see different
@@ -103,7 +106,9 @@ the deallocation (7.22.3.1):
 > until the deallocation. Each such allocation shall yield a pointer
 > to an object disjoint from any other object.
 
-### Addendum 2: Non-Object Information
+
+Addendum 2: Non-Object Information
+----------------------------------
 
 I had a fun discussion on IRC, where someone argued that the
 definition of pointer equality does not mention the object
