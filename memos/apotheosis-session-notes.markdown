@@ -2,7 +2,8 @@
 title: Apotheosis Session Notes
 taxon: general-games
 tags: apocalypse world
-published: 2020-03-21
+published: 2020-03-01
+modified: 2020-03-31
 ---
 
 Apotheosis is a homebrew setting for [Apocalypse World][], 2nd
@@ -101,10 +102,11 @@ To the west is the wastes.  Rocky, hilly, and barren; inhabited by
 mutated animals and men, adapted to deal with the toxic water.
 Occasionally Apotheosis sends out squads to cull the mutant camps.
 
-To the east is Malice, a town occupied by various disunited gangs.
-Apotheosis' prime raiding target, as no one group is strong enough to
-stand up to it.  Rumours have it that a new boss is in town though,
-uniting the gangs under one rule.
+To the east is Malice, a town which was occupied by various disunited
+gangs.  It was Apotheosis' prime raiding target, as no one group was
+strong enough to stand up to it.  But, some weeks ago, a new boss
+arrived in town, and united the gangs under one rule.  Now they're a
+force to be reckoned with.
 
 To the south is Mistfield Farm, a small religious community who supply
 food to Apotheosis in exchange for protection.  Zagan engineered this
@@ -460,3 +462,234 @@ that they need his protection.  He has Grigsby broadcast a message
 that if you mess with Mistfield Farm you mess with Apotheosis, and
 gives some flare guns to Brother Grome to signal Apotheosis with if
 they're attacked again.
+
+
+Session 2, 2020-03-28
+---------------------
+
+Last time, Apotheosis faced a potential food crisis, but Grigsby and
+Commander Zagan used their twisted minds to threaten a religious
+commune into supplying food to Apotheosis in exchange for protection.
+Also, Dodge agreed to help Leah find a plane engine, for the low price
+of letting her fly it, at least a few times.  And Oi ate some string.
+
+But first, it's time for Grigsby's broadcast:
+
+> Time now for your daily ration of news.  If truth is like a toenail,
+> today's truths are the yellowing claws of a corpse in the rain.
+>
+> Last night the travellers moved on; their colourful caravans of red,
+> blue, and the forgotton color dissapeared into the sunset; their
+> tunes, tales, and merry games still linger in the tendrils of recent
+> memory.  I urge you all to enjoy them while you still can.
+>
+> I was actually given a personal warning from one of our fans:
+> Innkeeper, who you'll rememeber sent a letter to the station last
+> week.  She'd like to tell that bastard at the radio shack that she's
+> coming you're way and that you don't need to do anything; oh sorry,
+> you can't do anything, about it.  If you're "that bastard at the
+> radio shack" I hope you're listening, or if you think you know who
+> Innkeeper is planning a visit for, do let them know.  We're always
+> happy to keep people informed here on Technical Difficulties.
+>
+> Speaking of, I'd like to announce the happy news that food has been
+> born out in Mistfield farms and the first bundle of joy has been
+> delivered without complications right to our doorstep.  The
+> commander would like to remind anybody listening from outside Hope
+> City that the Mistfield is under Apotheosis protection, and he's
+> invited anyone to take some for yourselves and see what happens.
+>
+> I wouldn't like to smell the mess left behind by anyone that takes
+> the commander up on that offer, but if I was still a betting man
+> after losing two weeks of nutrient paste to the travellers in a
+> rigged game of dice: my shells would be on the new boss of Malice
+> City.
+>
+> Spies and eyes have gone missing out that way, as it seems the new
+> combat training routines are using live target practice.  The way
+> those gangs all march together under a common banner or were crushed
+> underfoot for daring to step in the way of progress is really an
+> inspiration to us all: it doesn't matter if you're in Malice or Hope
+> City; good footwear is important.
+>
+> And that's all the news the maelstrom will listen to tonight, folks.
+> End Transmission.  Bye bye now.  Okay, bye.  Bye-bye.
+
+Grigsby eyes Leah over breakfast.  He know's she's up to something.
+
+*Flashback to the night before, Grigsby reviewing his security camera
+footage and seeing Leah's comings and goings.*
+
+He can smell a story, and wants to get involved.  But when asked, she
+just deflects the question, poorly, and escapes outside.  Grigsby
+follows, and sees her meeting with Dodge, "I think Grigsby suspects
+something" "that you're going to Malice?"
+
+Grigsby steps out of the shadows, "you're going to Malice, you say?
+Mind if I come along?  I'd like to investigate the new boss out that
+way."
+
+Leah panics.  Dodge tells him to fuck off.  A brief negotiation later,
+the three are on the road to Malice, Grigsby having handed over some
+oddments in payment.  Dodge likes fast cars and fast music, and puts
+the latter on, loudly.
+
+*Meanwhile...*
+
+Ruby is outside Apotheosis, near the entrance, doing some target
+practice.  Next to her is a small, but growing, pile of small dead
+animals.  A hairless and deformed fox scurries out of the undergrowth.
+She splits its head open.  More meat.
+
+A man approaches, walking down the Malice road.  He's kind of thin,
+medium height, and wearing a thick yellow hooded cloak.  In the
+distance behind him, clouds start to gather.  He stops a little short
+of the entrance, looking between Ruby and the guards, and loudly asks
+if he can have leave to enter.  Ruby ignores him.  One of the guards
+goes to fetch Commander Zagan.
+
+*Meanwhile...*
+
+Commander Zagan is showing around a newly-arrived family, bragging
+about all the fantastic amenities Apotheosis has: running water,
+rationed spam, dry beds.  A veritable paradise.
+
+The guard arrives, and whispers his errand in the commander's ear.
+Zagan makes his apologies to the family, and sits them down to watch
+an educational film about Apotheosis: bits of tape from pre-apocalypse
+films spliced together, with new bits inserted showing old-style
+silent film dialogue cards.
+
+Zagan arrives at the gate.  He glances at Ruby and her pile of
+corpses, but keeps most of his attention on the man.  They have a
+brief conversation.  The man asks if he can come in to spread "the
+word of chaos", but Zagan isn't having any of that.
+
+The storm is growing, but Zagan pushes the man out.  As a gesture of
+goodwill, he gives the man a hat to protect himself.  But no preaching
+in Apotheosis today.
+
+The man sets off back down the road.
+
+*Later...*
+
+Ruby arrives in the Rattlesnake, and wordlessly hands over her
+still-dripping bag of fresh meat.  Dinnerlady, just as wordlessly,
+hands her a crate of bottles of drink and tins of food.  This is an
+exchange they've performed many times before.
+
+*At Malice...*
+
+Dodge's jeep pulls into the junkyard.  It's close to Malice, but the
+piles of crap are so high you can hide behind them.  Everyone gets out
+of the car.  Oi appears from somewhere, and scrambles up a junk
+mountain to keep an eye out.
+
+Leah and Dodge get to searching.  Grigsby just hangs around.
+
+Atop her mountain, Oi spies three men in Malice, near the junkyard.
+She opens her mind to the maelstrom trying to sense if any of them are
+wolves, as she knows there is one in Malice.  To her shock, there is a
+wolf: it's near Apotheosis, not Malice, but it's and getting closer.
+Feels like it's on the road, a few hours walk away.  Oi scrambles down
+and reports her findings: "we've got to go, it's not safe!  there's
+three men, and a wolf!"
+
+Grigsby isn't scared of any wolves, but he is interested in those men.
+He slips away, and approaches them.
+
+They stop when they see him.  He greets them, saying "you may have
+heard me on the radio."
+
+"The radio station from Apotheosis?" one says.
+
+"Ah, a fan!  I have some questions about your new boss, if you don't
+mind."
+
+"Apotheosis?  I think the boss would like to meet you, but he's out
+just now, should be back later" another man says.
+
+"Oh, well, here's my card, it's got my private radio frequency."
+
+"No, I think the boss would really like to meet you *in person*." the
+same man says, stepping forward menacingly.
+
+"Now just you hang on there, I'm not alone!"
+
+Grigsby manages to bluff that he has some others with him, including
+the famed sharpshooter Ruby Monsoon, and they're expecting him back.
+The man relents, not wanting to get into a shooting match.  He takes
+the card, and they watch him go.
+
+When Grigsby gets back to the junkyard, Dodge and Ruby found a plane
+engine and are loading it into the car.  He doesn't waste any time,
+"let's go!"
+
+The car speeds off out of the junkyard and back towards Apotheosis.
+On the road, in the rain, they pass a man.  A thin medium-height man
+wearing a thick yellow hooded cloak, with a hat on top of the hood.
+As the car speeds past, he looks up, and makes eye contact with Oi.
+
+*That evening...*
+
+Zagan decides to make a pre-emptive strike against Malice, destroying
+their armoury.  So he got Leah to make a bomb---an unstable thing made
+out of a car engine, some plastic tubing, and a bunch of colourful
+liquids; it even had a key to set it off---and set off in the jeep
+with Dodge, Ruby, Balls, and Dog Head.
+
+They parked out of sight, and snuck into the town.  People roamed the
+streets, and guards stood outside the armoury.  The gang crept over to
+an alley next to the building, and broke a window.  Turns out Oi came
+with them too, and it's too late to send her back now.
+
+Footsteps approaching.  Ruby hid at the entrance to the alley, and
+quickly dragged in the guard to peered around.  She soundlessly slit
+his throat and lowered the body to the ground.
+
+Dodge decides to see if there was anything in the armoury she wanted
+before they blew it up, so she hopped in through the window.  No
+car-mounted guns, sadly, but there was a grenade launcher and a sack
+of grenades.  Nice!
+
+Oi opens her mind to the maelstrom again, trying to sense the wolf
+from earlier.  She senses it alright: it's nearby, and it's suddenly
+aware of her.  Like when Frodo puts the Ring on in Mount Doom and
+shines like a beacon to Sauron.  She clambers through the window,
+"it's not safe!", opens a door, and hides beneath a desk.  After a few
+minutes, Zagan coaxes her out, saying that they're leaving now.
+
+Everyone but Dog Head sneaks back out.  He leans through the window,
+ignites the bomb, drops it, and sprints out without trying to be
+stealthy.  A few seconds later the building erupts: windows and doors
+blown out, people on the street knocked over.  He's blown over too,
+but got far enough away that he can pick himself up and keep going.
+Everyone piles into Dodge's jeep, which tears away down the road, with
+no attempt at stealth.
+
+Two other vehicles start pursuing: a massive keep with metal spikes
+stuck all over it, and a sleek, vintage, convertible, with three
+people crammed into two seats.  Dodge tries to slam the convertible
+off the road, but misjudges the distance and stops short; it slams her
+instead, tearing up the side and ripping off some of the armour
+plating.
+
+Just then, Leah arrives in the APC, bouncing over a rise, slamming
+into the convertible and flinging it off the road.  Its side crumpled
+in, and the passengers crumpled, too.  They're not moving any time
+soon.
+
+Dodge slows down and pulls up next to the APC.  Ruby jumps to the APC.
+Leah jumps in surprise.
+
+The spiky jeep slams its brakes on, and Dodge crashes into the back of
+it; the windshield, lights, and bonnet perforated.  The people manage
+to avoid the spikes though.
+
+Ruby opens fire with the APC's machine gun, pinning down the men in
+the jeep.
+
+Zagan clambers out of the busted windshield, over the other vehicle,
+shoots the driver, the passenger gets one shot off but it pings off
+Zagan's armour; Zagan kills him too, climbs into the jeep, and drives
+it back to Apotheosis.
