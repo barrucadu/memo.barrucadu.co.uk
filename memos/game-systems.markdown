@@ -3,6 +3,7 @@ title: Game Systems
 taxon: general-games
 tags: apocalypse world, call of cthulhu
 published: 2020-04-13
+modified: 2020-04-14
 ---
 
 Here are my thoughts on game systems, and what I've learned about my
@@ -312,9 +313,47 @@ challenges are more things like "I want to found a cult", "I want to
 turn this corrupt monarchy into a theocracy", or "I want to build a
 new heaven for the souls of my worshippers".
 
+### Mythras
+
+A Basic Role Playing-derived kinda-generic system usually applied to
+fantasy settings.  It's got a bunch of features I like: hit locations,
+lethal combat, and a gentle power curve which means things which are
+threatening in the early-game can easily still be threatening in the
+late-game.
+
 
 Thoughts on mechanics
 ---------------------
+
+Before getting into specific mechanics, it's worthwhile looking at
+how, broadly, I think a game system should work.  I'll characterise
+this in terms of **[GNS][]** and **[stance][]**.
+
+I generally feel that the rules of a game should provide the "physics"
+of the game world, so I prefer simulationist systems over narritivist
+ones.  If the games rules commonly boil down to "you decide based on
+whatever is best for your story", events in the game just feel
+arbitrary to me.  I like to feel that there is some in-setting reason
+for the way things happen.
+
+As a consequence of preferring simulationist systems, I think
+*ideally* players will spend most of their time in actor
+stance[^acting], using only in-character knowledge and motivations to
+make their decisions.  In practice that's hard, so I'm also fine with
+players spending most of their time in author stance.
+
+[^acting]: *Note:* that doesn't mean *acting*, they don't have to "do
+  the voice".
+
+I generally feel that director stance ruins immersion, and I don't
+like that.  A player might briefly adopt director stance on occasion,
+for example suggesting a detail of the scene which the GM hasn't
+described, but that should definitely be the exception rather than the
+rule.
+
+I strongly think that story should arise out of the actions of the
+characters, not because the players are actively reshaping the
+narrative through rules which encourage them to take director stance.
 
 - **Core Mechanic:** I think skill checks are a good core mechanic.  I
   like the possibility of characters having substantially different
@@ -347,12 +386,9 @@ Thoughts on mechanics
   saying "now you ask for a check", should be an acceptable thing to
   do.
 
-- **GNS:** I generally feel that the rules of a game should provide
-  the "physics" of the game world, and that the narrative should arise
-  from what happens.  Rather than the rules giving explicit support to
-  constructing a narrative.  I'm pretty neutral on how gamist systems
-  should be.
-
 - **Metacurrency:** I'm not sure how I feel about metacurrency.  I
   suspect it works in more narrative-style games, and doesn't work in
   more simulation-style games.
+
+[GNS]: http://indie-rpgs.com/articles/3/
+[stance]: http://indie-rpgs.com/articles/4/
