@@ -3,7 +3,7 @@ title: Apotheosis Session Notes
 taxon: general-games
 tags: apocalypse world
 published: 2020-03-01
-modified: 2020-03-31
+modified: 2020-04-15
 ---
 
 Apotheosis is a homebrew setting for [Apocalypse World][], 2nd
@@ -693,3 +693,226 @@ Zagan clambers out of the busted windshield, over the other vehicle,
 shoots the driver, the passenger gets one shot off but it pings off
 Zagan's armour; Zagan kills him too, climbs into the jeep, and drives
 it back to Apotheosis.
+
+
+Session 3
+---------
+
+Last time, Leah got her plane engine, Grigsby got away from some
+malicious men, Dodge got a grenade launcher, Ruby got a crate of
+alcohol, and Gustav got to blow up an armoury.  I think that's about
+it.
+
+The radio broadcast this time was just a bulleted list of updates:
+
+- Leah got a new engine for some sort of project she's working on.
+- Roark, mentioned in the first broadcast, was promoted to Captain of
+  the Defence Force and was allowed to keep his child.
+- Dremmer, hitherto unmentioned, the Captain of the Suppression Force,
+  started trouble again---something about not getting enough
+  respect---and in the ensuing fight was put in the infirmary.
+
+*Flashback to Roark's promotion...*
+
+After a private meeting in his office, Zagan took Roark out for the
+public celebration of his promotion.  A big stage, a big handshake,
+and the presentation of a medal.  Troops gave a gun salute.  Not all
+the troops had matching equipment, and some of the medals were bottle
+caps, but it was as grand as Zagan could make it.
+
+*At Mistfield Farm...*
+
+Leah arrived at the farm, with Dog Head driving, called out to fix a
+busted generator.  Brother Grome is waiting for them.
+
+"Grome again..." says Dog Head.  Leah asks what's up: he thinks
+something's wrong.  Brother Grome always seems to be around, and
+somehow shows up and interrupts every time you try to talk to anyone
+else at the farm.  Very strange.
+
+Brother Grome takes them to the generator shed, explaining about how
+it stopped working, and leaves Leah and Dog Head to get on with it,
+but says he'll be nearby if they need him.  The generator is broken,
+but Leah can fix it with a couple of hours work.
+
+Part way through, Dog Head says "watch this", and steps out of the
+shed.  Immediately Brother Grome appears and asks if they need
+anything.  "No, just stretching my legs."
+
+Dog Head suggests you two split up so that one of you can talk to the
+others here, and see what's going on.  Leah asks Brother Grome where
+the toilets are, he starts to say "if you'll both follow me...",
+before Dog Head interrupts saying he needs to watch the generator.
+Leah concurs, the flange pump needs reticulating at just the right
+moment, or they'll have to start again.  Brother Grome seems
+uncertain, then calls over Sister Mary to show Leah where to go.
+
+Leah tries to engage Sister Mary in conversation, but Sister Mary
+doesn't talk.  She just looks at the ground as she guides Leah.  When
+Leah brings up Brother Grome, she stumbles a bit, and trembles.  She's
+terrified.
+
+When she gets back Brother Grome, the usual friendliness in his eyes
+replaced with suspicion, says that he saw them talking, and asks what
+they talked about.  "Oh, just talking about the farm, it's a nice
+community you've got here."  The friendliness returns, and they have a
+chat about what the farmers actually believe in.  The way Brother
+Grome explains it, they see work as morally good, as they're
+fulfilling the purpose god gave them---just like how animals fulfil
+their natural purpose---and that sloth is the ultimate sin.
+
+Leah and Dog Head finish their work and leave, deciding not to
+confront Brother Grome there and then.  More investigation is needed.
+
+*Meanwhile, at The Rattlesnake...*
+
+Dodge sits, half slumped over her table, and spies Miss Vine arrive.
+Strange to see her here.  She carefully picks her way across the room,
+stepping over the drunks, the bottles, and the occasional pool of
+vomit, and arrives at Dodge's table.  She says she's come for Zagan's
+coffee and then, unusually for her, hesitates briefly and says "you
+can be discrete, right?"
+
+Turns out that Burns, one of the old guys living in the shacks near
+the dorms, needs a job doing.  There's a package at a drop site in the
+middle of nowhere which he needs fetching.  Dodge reads between the
+lines to see that it's probably not a set-up: Miss Vine trusts her to
+get the job done and not talk about it.  They negotiate pay, and then
+Dodge goes to see Burns.
+
+Burns, an old balding guy with a large white moustache, explains
+carefully where the package is.  He says normally his grandson would
+go, but the grandson died in the last raid.  He pays up front, and
+Dodge sets off.  She picks up Ruby on her way out.
+
+The site is an old highway, the surrounding ground dotted with small
+craters, and the road itself crowded with abandoned vehicles.  It's
+quiet.  Burns explained exactly which car the package was in, so they
+find it easily.  The package is a small, impressively locked, wooden
+box.  The box itself has a lock, and is wrapped in multiple padlocked
+chains.  Ruby shakes it, but it's so full (or so empty) that nothing
+rattles, and she can't tell anything about the contents.
+
+Just then, three bikers show up.
+
+Dodge and Ruby scurry back to the jeep and set off.  The bikers come
+in pursuit.
+
+Ruby leans out of the jeep window aiming the grenade launcher, but the
+biker in front is faster: he gets a shot off, she drops the grenade
+launcher, and falls out of the jeep, rolling along the road.  Dodge
+slams on the brakes, the biker is too close and gets taken out.  A
+second biker stops next to the grenade launcher and reaches for it,
+but Ruby gets him to back off.  She picks it up, and gets hit in the
+back by the third biker, wielding a metal pole.  Dodge drives into the
+group: the bikers jump out of the way, and Ruby climbs in.  They
+escape.
+
+Back in Apotheosis, Dodge delivers the box without asking what's
+inside.
+
+*That night...*
+
+The mutant siren goes off: there's a raid.
+
+Grigsby is woken up by the noise, and sees his bedroom door open.
+There's a figure silhouetted there.  He asks "Leah, is that you?", but
+there's no response.
+
+Leah, also woken up by the siren, groggily stumbles out of her room
+and into Grigsby's.  She brushes past the unknown figure before
+realising that there's someone there, and stops dead.  As she replays
+the last minute in her head, she thinks how hard and metallic the arm
+she touched was...
+
+Oi wakes up, but not because of the siren; she can sleep through worse
+noise than that.  Oi wakes up because she senses a wolf.  But, when
+she concentrates, she realises it's not *quite* a wolf.  It's inside
+the radio shack, and she scurries down from her hiding place to
+investigate.
+
+Leah puts the light on.  The figure is a tall woman, her face covered
+in piercings, and a mohawk.
+
+Grigsby starts to tell Leah off for bringing her friends to the shack
+without permission, before the woman interrupts: "so you really don't
+remember me, after you abandoned me to save yourself!"
+
+Grigsby wakes up fully, and remembers.  Before Apotheosis, she was in
+their group: him, Zagan, Innkeeper, and a few others.  She got
+romantically involved with a mutant, which Zagan took as a threat to
+his authority; even then he was using the "mutants are monsters" story
+to scare people into line.  It culminated in a fight: Grigsby had his
+throat torn out, and Innkeeper was left got dead.  But now she's back.
+
+Innkeeper raises her pistol, and shoots Grigsby.  Leah tries to
+intervene, but is too slow.  Grigsby reels in pain, Leah shoots
+Innkeeper in the head with her shotgun, and Innkeeper... isn't too
+fazed.  Her face gets scratched, like painted metal someone's taken a
+key to, and one of her eyes was blown out, revealing a glowing red
+machine eye beneath.
+
+Grigsby tazes her, but she shrugs it off.
+
+Oi drops from a ventilation shaft in the ceiling onto Innkeeper's
+head, and manages to ask "what are you?" before Innkeeper flings her
+to the floor.
+
+Noticing sparking inside the eye socket, Leah decides to try
+short-circuiting Innkeeper.  She grabs Grigsby's chamberpot, flinging
+it in Innkeeper's face.  Innkeeper collapses to the floor, unmoving.
+
+Oi dives on her and starts trying to pry her face off with a knife.
+After a few moments, it pops off.  A metal face which looks human, but
+a robot beneath.
+
+Nobody is really sure what's going on, but Grigsby suggests that maybe
+Leah could get Innkeeper working again.  "Great, another secret."
+
+*Meanwhile...*
+
+Roark busts into Zagan's office / bedroom, bringing the news that 15
+mutants are attacking.  They're almost inside the walls.  Zagan says
+to call the men, and goes to his tank.
+
+Several minutes later, Zagan arrives at the walls in his tank, the men
+arriving too.  They already outnumber the mutants, who are climbing
+over the fence.  The fight breaks out.  Most mutants are killed in the
+initial exchange of bullets and shells, some making it inside
+Apotheosis and scattering.  Soon they're all dead, or have fled.
+
+Zagan sends some men to follow the fleeing mutants back to their camp.
+One comes back after an hour and says that there's a new camp on the
+far side of a nearby hill.
+
+Apotheosis forces set out.  The strategy is to surround the enemy:
+send the foot-soldiers out behind the mutant camp, and have the
+vehicles attack from the front.  Most of the mutants will run from the
+firepower, and into the waiting ambush.
+
+Battle vehicles crest the hill, and start blasting the camp.  Some of
+the mutants fight back, and die.  Most run, into the waiting men, and
+die.  It's a massacre.  The men laugh as they kill.
+
+After examining the camp for supplies, it's set on fire.  The men hang
+around warming themselves with the flames, talking and joking, until
+it's just ash.
+
+*The next day...*
+
+Grigsby approaches Zagan suggesting a peace deal with Malice.  Zagan's
+open to the idea, and Grigsby quickly gets the leader of Malice on the
+line.
+
+It's a voice Zagan recognises.  The voice of the man who visited
+Apotheosis asking to come in to preach about chaos.  The man who Oi
+sensed to be a wolf.  Sandalphon.
+
+Zagan starts by mocking Sandalphon about blowing up their armoury:
+"how do you like chaos now?"  But he's is incredibly infazed, and just
+says that they can rebuild when they need to.
+
+A deal is hammered out.  Zagan wants a superior position, but doesn't
+really get it.  Sandalphon wants an open borders agreement, but
+doesn't really get it.  They settle on a ceasefire---no raids---and
+access for trade caravans.
