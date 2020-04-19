@@ -355,6 +355,8 @@ I strongly think that story should arise out of the actions of the
 characters, not because the players are actively reshaping the
 narrative through rules which encourage them to take director stance.
 
+Now here are some thoughts on particular areas of systems:
+
 - **Core Mechanic:** I think skill checks are a good core mechanic.  I
   like the possibility of characters having substantially different
   competencies, so I like systems with a range of attributes/skills
@@ -362,8 +364,8 @@ narrative through rules which encourage them to take director stance.
   also like the ability to account for situational factors increasing
   or decreasing the difficulty of a task.  It feels much more real.
 
-- **Failure:** I *don't* like failure being a common end state, it can
-  be ok sometimes, but normally failing a check should nevertheless
+- **Failure:** I *don't* like dead-end failure being common, it can be
+  ok sometimes, but normally failing a check should nevertheless
   advance the game somehow.
 
 - **Structured Gameplay:** Normally gameplay should be unstructured,
@@ -374,11 +376,11 @@ narrative through rules which encourage them to take director stance.
   handle this, but I'd need to try it out.
 
   A related mechanic is that of positioning.  I've not played a
-  tactical RPG, but I suspect I would find that fairly unwieldy.
-  Genesys uses a few different ranges ("engaged", "short range",
-  "medium range", "long range", "extreme range"), with rules for
-  moving up and down levels, and that seems like a nice solution to
-  the problem.
+  grid-based tactical RPG, but I suspect I would find that fairly
+  unwieldy.  Genesys uses a few different ranges ("engaged", "short
+  range", "medium range", "long range", "extreme range"), with rules
+  for moving up and down levels, and that seems like a nice solution
+  to the problem.
 
 - **Improvisation:** I like the ability for the GM to easily improvise
   in situations there isn't a rule for.  For example, asking for a
