@@ -2,7 +2,7 @@
 title: Template for Weeknotes
 taxon: weeknotes
 published: 2019-02-09
-modified: 2020-03-02
+modified: 2020-04-29
 exclude_from_feed: yes
 ---
 
@@ -13,9 +13,9 @@ taxon: weeknotes-YYYY
 date: YYYY-MM-DD
 ---
 
-## Open Source
-
 ## Work
+
+## The Plague
 
 ## Miscellaneous
 
