@@ -3,7 +3,7 @@ title: Apotheosis Session Notes
 taxon: general-games
 tags: apocalypse world
 published: 2020-03-01
-modified: 2020-04-15
+modified: 2020-05-02
 ---
 
 Apotheosis is a homebrew setting for [Apocalypse World][], 2nd
@@ -695,8 +695,8 @@ Zagan's armour; Zagan kills him too, climbs into the jeep, and drives
 it back to Apotheosis.
 
 
-Session 3
----------
+Session 3, 2020-04-11
+---------------------
 
 Last time, Leah got her plane engine, Grigsby got away from some
 malicious men, Dodge got a grenade launcher, Ruby got a crate of
@@ -906,13 +906,263 @@ line.
 
 It's a voice Zagan recognises.  The voice of the man who visited
 Apotheosis asking to come in to preach about chaos.  The man who Oi
-sensed to be a wolf.  Sandalphon.
+sensed to be a wolf.  Ezra.
 
-Zagan starts by mocking Sandalphon about blowing up their armoury:
-"how do you like chaos now?"  But he's is incredibly infazed, and just
-says that they can rebuild when they need to.
+Zagan starts by mocking Ezra about blowing up their armoury: "how do
+you like chaos now?"  But he's is incredibly infazed, and just says
+that they can rebuild when they need to.
 
 A deal is hammered out.  Zagan wants a superior position, but doesn't
-really get it.  Sandalphon wants an open borders agreement, but
-doesn't really get it.  They settle on a ceasefire---no raids---and
-access for trade caravans.
+really get it.  Ezra wants an open borders agreement, but doesn't
+really get it.  They settle on a ceasefire---no raids---and access for
+trade caravans.
+
+
+Session 4, 2020-04-25
+---------------------
+
+Last session, Leah discovered something was up at Mistfield Farm.
+Brother Grome is perhaps not the kindly man of faith he tries to
+appear...  While that was going on, Dodge went on a secret mission to
+fetch an impressively locked box for Burns, although it was Miss Vine
+who set up the meeting.  I wonder how they're connected.  In the night
+mutants attacked Apotheosis, and in the confusion Innkeeper got to
+Grigsby.  The gang managed to disable her, revealing that she's some
+sort of machine, and now the body is lying on a slab in the workshop.
+
+But first, the news:
+
+> One of our trustworthy informants, Dune, brings stories from the
+> wastes.  While harvesting medicinal plants known only to the
+> wastefolk, his path crossed that of a gatherer by name of Mox.
+> According to Dune, she had been travelling the wastes for weeks
+> accumulating a selection of potent herbage for experimentation back
+> at her home on this side of the river.
+>
+> Now, I lost my taste for tonics when I lost my face for... well,
+> nonetheless I'm sure this will be exciting news to those of you with
+> a love of... medicines.
+>
+> This next story comes from Bones, a shy-natured wretch of a man who
+> turns out to share dewllings with a certain "Mox", who you'll recall
+> as the gatherer from our previous bit of news some 5 or so seconds
+> ago.
+>
+> The world, though endless in time and space, is---on
+> occasion---excruciatingly small.  Can you say claus-terra-phobic?  I
+> can.  But enough about me, let's talk to you.
+>
+> Bones told a passerby who told Buddy who is a friend of the show and
+> who told me that he's "making the first good map since everything
+> went to shit".  Let's hope he has enough ink.
+>
+> In fact, if anyone out there has scraps of ink, or knowledge of
+> forgotten places worth including in Bones' map, please send them in
+> to us here at the Bunker, and I'll make sure Bones gets them.  If
+> you happen to include any electrical parts, that would be just
+> dandy.  I hear capacitors in particular are very important to
+> map-making---especially those above 100 mF, the genu-ine "good
+> stuff"... as they say in map-making circles.
+>
+> Finally, I'm afraid we have some sad news.  Tonight, the show ends
+> early.
+>
+> Last night, an old friend paid me a surprise visit, and so I must
+> say good night and play the gracious host you all know me to be.
+>
+> Ghosts from the past drift in from time to time, calling us by names
+> long forgotten to the minds we've come to call home.  Who are we to
+> shut them out?
+>
+> Of course, you are all ghostly visitors here---visitors to my
+> show---and as your host I've prepared a special tape (of my own
+> composition) to drown out the screeching winds of the maelstrom, the
+> starving howls of wolves, and the hopeful cries of broken children.
+> I hope it grant you a moment's sleep.  This first melody goes out to
+> all our soldiers returning from another successful excursion in the
+> wastes: it's called "the screams in your dreams".
+>
+> Welcome home, and good night.
+>
+> *disturbingly discordant psycho electronica begins to play, but is
+> cut short after half a minute*
+>
+> ...I apologise for cutting short your lullaby tonight, listeners,
+> but I must I've just been handed a literal last minute scrap of
+> news.
+>
+> It's a note from Sister Mary that was included in this evening's
+> shipment from Mistfield Farms.  "This place... is a lie."
+>
+> A warning from a place that's a lie?  A lie, then, revealing the
+> irrevokable truth of Mistfield.
+>
+> Ah, the intricacies of theology continue to open up our craniums
+> like the petals of a spring flower to the wisdom of Saints.  Preach,
+> Sister. Preach.
+
+*Last night...*
+
+Leah bandages up Grigsby, and removes Oi from Innkeeper's body.  Oi
+resists, unsuccessfully.  She carries Innkeeper to the radio shack
+workshop: a black and grey room; floor to ceiling tubes, wires, and
+cables; electrical supplies and radio equipment scattered everywhere.
+Leah wipes all the junk off one table, ignoring Grigsby's protests,
+and sets Innkeeper down.  She starts examining the body.
+
+"She's still a person," Grigsby protests.
+
+"This person just tried to kill you."
+
+While their arguing, Oi cuts the rest of Innkeeper's face off: it's
+skin, and bleeds.  Beneath is the robot.
+
+Leah gets in the zone to examine Innkeeper.  She sets up a bunch of
+signal generators and gets them all producing the same sine wave.  She
+closes her eyes, concentrates, and opens her mind to the maelstrom.
+She...
+
+...sees: two men, wearing yellow robes with a star-in-circle symbol,
+looking at Innkeeper who is strapped to a surgical chair.  Through the
+window is the wastes.  "A failure!"  "Throw her out to die."
+
+...feels: Innkeeper has been in pain since those men did whatever
+it is they did.
+
+...knows: how to repair Innkeeper, and that Oi is somehow related to
+Innkeeper being a failure.
+
+Leah decides it's time to question Oi about the wolves.  She opens her
+eyes, says "I know how to fix her", and sends Grigsby to make some
+tea.  She begins to question Oi.
+
+Through the interrogation, Oi reveals that the wolves are everywhere.
+The symbol Leah saw is the symbol of the wolves.  Once before the
+wolves found Oi and her brother, said that they were "something
+special", and lowered their disguises.  In terror, she managed to flee
+through the maelstrom, but she doesn't know what became of her
+brother.
+
+Oi reminds Leah that she felt a wolf in Malice: the old man they saw
+walking through the rain.[^s4_wolf]
+
+[^s4_wolf]: In an OOC discussion we realised that Grigsby is the only
+  character who could have put the whole picture together (the wolf is
+  the leader of Malice), as he was with Oi when she realised that the
+  man was a wolf, and with Zagan he recognised the leader as the old
+  man who had come to the gates of Apotheosis previously.  We decided
+  Grigsby would overhear the end of the conversation, and share his
+  revelation with Leah and Oi.
+
+*After the news broadcast...*
+
+Leah is telling Grigsby about her experience on Mistfield Farm, and
+something seemed wrong.  Grigsby, sensing a story, decided to try to
+divine what was going on by opening his mind to the maelstrom.
+
+For Grigsby, the maelstrom is like an infinite number of overlapping
+radio broadcasts.  Words, words, words.  No other senses, just the
+words.  He repeated "this place is a lie" in his head as a mantra, and
+felt himself drawn to Mistfield.  He felt that Sister Mary was afraid,
+and that somewhere near her was intense anger.
+
+*Meanwhile...*
+
+Dodge pulls up to her clinic / drug lab.  It's a bunker with a buried
+entrance, and there's other ruins scattered around.  Someone coming
+through the immediate area would see the car and be curious, but
+someone seeing it from a distance would think it's just another relic
+of the past.  She waves at Mox and Bones.
+
+Mox is mushing up some plants with a mortar and pestle, says it'lol
+probably kill even Dodge, but he offers her a different bowl
+containing an almost identical-looking plant mush, saying that's the
+good stuff.
+
+Bones is working on his map.  Suddenly, a radio starts broadcasting
+Grigsby's voice: describing all the new places that listeners have
+sent in.  Bones didn't ask Grigsby for help, and doesn't like him
+much.  Grigsby also didn't ask, he just assumed his help would be
+welcome.  After a while, Bones switches the radio off mid-sentence.
+
+*Meanwhile...*
+
+Zagan isn't happy.  Word's got out that someone snuck in to Apotheosis
+and attacked Grigsby last night, and people are getting riled up.
+They're keeping indoors, peering out their doors and windows, and
+people outdoors travel in groups, weapons on display.
+
+The lock to the radio shack has been smashed off.  He picks it up,
+pockets it, and knocks.
+
+Grigsby appears, acting unconvincingly casual as he holds the bandage
+over his chest, and comes up with some lame excuse for the injury---he
+got stabbed by a metal rod in a piece of radio equipment or something
+like that.
+
+Zagan pushes his way inside, and looks around.
+
+He goes into the workshop and whisks aside a curtain, revealing
+Innkeeper.
+
+Grigsby tries to explain... ultimately giving up and saying "Leah
+knows more."
+
+*Later...*
+
+Zagan shows up at the hangar to talk to Leah.  The door is locked, but
+he shoots the lock off, and steps inside.
+
+Leah is working on the plane she's been keeping secret.
+
+"Gustav, I can explain..." she begins, before being cut off.
+
+"I need your help to deal with the robots."
+
+He ignores the plane, and asks what she knows.  Leah repeats what Oi
+told her, and says that the wolves could be coming for Oi.  She also
+shares Grigsby's realisation that the leader of Malice is a wolf.
+Zagan takes all this strange stuff in his stride, and asks what she
+would advise.  Leah suggests throwing a party to celebrate the trade
+deal, getting the leader drunk or drugged, and examining him.
+
+Zagan then looks around until he finds Dodge, and asks her to use her
+drug lab[^s4_lab] to make something to knock out a robot, and to ask
+Leah if she needs help.  Dodge gets Mox involved, who says he'll do
+his best, but he can't really judge how effective it'll be without a
+patient to test it on beforehand.
+
+[^s4_lab]: Zagan knows Dodge has a drug lab, but not where it is.
+
+*Meanwhile...*
+
+Grigsby reaches out through his trading contacts, and buys a powerful
+signal generator from an electronics merchant in Malice.  A powerfuls
+ignal generator and a faraday cage are the two components Leah needs
+to bring Innkeeper back.
+
+*Even later...*
+
+The gang gather in Zagan's office, to say that something doesn't seem
+right with Mistfield Farm and they should look into it.  Zagan agrees,
+thinking that, if there is something wrong, solving it would make
+Mistfield even more indebted to Apotheosis.
+
+They decide to head down.
+
+Brother Grome is slightly taken aback by so many people arriving at
+once, and Zagan immediately takes over the scene: striding confidently
+ahead and looking around, asking questions about the farm and the
+people, forcing Brother Grome to almost jog to keep up.
+
+Oi slips off, and goes to the furthest shed out from the main
+settlement.  It's locked, but she smashes it open with a rock.
+
+Inside is a woman, beaten and bloody, on the floor in chains.  She
+weakly looks up.  It's Sister Mary.
+
+Just as Oi frees Sister Mary and starts to think about an escape
+route, a hand clamps down on her shoulder: "what are you doing here?"
+
+It's one of the other Brothers.  He locks her up in a different shed,
+after confiscating her waterproofs.
