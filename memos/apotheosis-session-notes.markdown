@@ -3,7 +3,7 @@ title: Apotheosis Session Notes
 taxon: general-games
 tags: apocalypse world
 published: 2020-03-01
-modified: 2020-05-02
+modified: 2020-05-19
 ---
 
 Apotheosis is a homebrew setting for [Apocalypse World][], 2nd
@@ -1166,3 +1166,246 @@ route, a hand clamps down on her shoulder: "what are you doing here?"
 
 It's one of the other Brothers.  He locks her up in a different shed,
 after confiscating her waterproofs.
+
+
+Session 5, 2020-05-09
+---------------------
+
+Last session, we got some good plot development about the wolves!
+Leah learned that Innkeeper was turned into what she was by the
+wolves, though they considered her a failure only good enough to die
+in pain.  They have a base somewhere out in the wastes where they
+carry out their nefarious purposes.  Not only that, the wolves tried
+to take Oi when she was younger, they said she had "something
+special"—Oi escaped, but her brother did not.  And Grigsby put
+two-and-two together, and realised that Ezra, the leader of Malice, is
+a wolf.  We got to see Dodge's hidden drug lab, which has been
+enlisted by Zagan to make something strong enough to knock out a
+robot, so you can investigate Ezra.  And finally you all went to
+Mistfield Farm to investigate a note Sister Mary slipped in the last
+food shipment, saying "this place is a lie".  Oi found Sister Mary,
+tied up in a shed, but was captured herself while freeing the Sister.
+We ended the session with Oi just having escaped her bonds, but her
+raincoat has been taken away.
+
+*Continuing at Mistfield Farm...*
+
+Leah slips away from the tour, and finds Oi and Sister Mary.  Luckily,
+Leah has some spare waterproofs with her.
+
+*Back with the tour...*
+
+Zagan and Brother Grome are talking about the farming
+techniques---though really it's more Zagan just directing a constant
+stream of questions---when grek, BGrother Grome's assistant shows up.
+Grek says that "some wild dogs" got into one of the storehouses, but
+they've been dealt with.  Brother Grome says he'll have a look at the
+damage later.
+
+Grigsby is keeping a close eye on the farmers, looking for anything
+suspicious.  He's walking around, trying different viewpoints,
+focussing on different things; and it pays off.  As one man raises his
+hand to wipe the sweat from his brow, his sleeve slips back, revealing
+a slave tattoo on his wrist.  Grigsby then spots it on a few other
+people.  Everyone here is a slave!
+
+Overcome with a righteous zeal, Grigsby leaps atop a soap box, and
+proclaims that everyone is free!  They are slaves no longer!
+
+Everyone turns to look at him.  Brother Grome begins to splutter.
+"These people are here to seek salvation," he says, "it is right that
+they work."
+
+Zagan takes out a gun, holds it to Brother Grome's head, and says
+Apotheosis doesn't deal with slavers.
+
+Brother Grome loses all his cool.  "These people are filthy sinners!
+This is the only way to seek redemption!"  His face shows a mixture of
+rage and confusion, how could you all not see?
+
+Leah then shows up with Sister Mary and Oi.  Sister Mary all beaten
+and bloody, and Oi clutching some waterproofs which are clearly not
+the ones she arrived in.
+
+Sister Mary is nervous but, with Leah's encouragement, manages to
+confront Brother Grome.  "This is no salvation," she spits.
+
+Zagan decides he's had enough, and shoots Brother Grome in the head.
+
+Feeling very proud of himself, Grigsby is suddenly brought back to
+reality when many of the farmers start gathering their things as if to
+head off---"we need this food!" Zagan says---so Grigsby hops back on
+his soapbox and just about manages to persuade some to stay, but most
+do not.
+
+*In the Apotheosis hangar...*
+
+Leah and Dodge are ready to take the plane out.  Leah gets in cockpit
+to taxi it out, and Dodge slides open the hangar door.
+
+Zagan is waiting for them, with some of his men.  He says that this
+plane belongs to him.  Sure, Leah put it together, but where did she
+get most of the pieces from?  Apotheosis supplies.
+
+Leah doesn't back down.  She starts to taxi the plane out onto the
+runway.  Dodge clambers aboard taking the rear seat as it passes.
+Zagan and his men jump aside, rather than be run down.  Leah is
+serious about taking this plane out.
+
+And... up it goes!  Towards the clouds, into them, and then through;
+into a sky so bright and blue.  Leah pops open the hatch, and she and
+Dodge swap seats above the clouds.  Dodge gives the controls a few
+wiggles, and immediately starts doing barrel rolls and loops.
+
+"Guess we need to give it a name" "Archimedes"
+
+Eventually though, it's time to return to base.  Down, down through
+the clouds, into a world which seems so grey now.
+
+Zagan is waiting.
+
+"Do you know how much airplane fuel costs?  I'll give you a hint: they
+don't make it."
+
+he makes it clear that there will be no more flights without his
+say-so.
+
+*A few evenings later...*
+
+The Malice delegation shows up for the planned celebration.  Ezra,
+some of his troops, and a large number of traders.  Zagan welcomes
+them with open arms, though he and Ezra both know that the party is
+just for the people... the real point of this meeting is business
+dealings.
+
+Oi is apprehensive, and keeps an eye on Ezra from a distance.
+
+Ezra and Zagan are closeted in his office alone most of the time, and
+Zagan manages to slip him the poison---knocking Ezra out---without
+anyone from Malice being any the wiser.  Zagan carries him to Leah at
+the radio shack, but Grigsby turns him away: he doesn't want Ezra near
+Innkeeper.  Zagan and Leah move to the hangar, and put Ezra down on a
+workbench for Leah to have a look.
+
+Leah sets up her equipment, eases herself into a trance, and focusses
+her attention on Ezra.  As soon as she does, it all goes wrong.
+
+Ezra snaps back to consciousness, examining Leah through the
+maelstrom.  She feels like an insect underneath a magnifying glass,
+Ezra's mind piercing all of her defences.  He sits up, Leah falls back
+to the floor.  Zagan tries to grab Ezra, but he effortlessly resists,
+and with one hand pins Zagan in a vice-like grip.  With the other hand
+he takes Zagan's gun.
+
+Leah shakily gets out her gun, and tries to threaten Ezra.  He just
+says that he'd rather not start shooting now, the noise would draw
+people and he doesn't want to have to kill everyone here himself, he'd
+much rather the people of Apotheosis destroy themselves.
+
+Leah asks why he's doing this.  "This game has lasted too long, we've
+grown bored of it."
+
+Oi now drops on Ezra's head from the ceiling.  He drops his gun, still
+holding onto Zagan, to reach up and fling her off.  Leah takes the
+opportunity to shoot.
+
+Ezra staggers back, losing his grip on Zagan, though he doesn't look
+too hurt.  Freed of Oi, he starts to recover, but Zagan managed to use
+the moment of distraction to grab a car battery charger, and now clips
+it to Ezra's armpits.  He screams, the electricity courses through his
+body, burning his flesh, which starts smoking and peeling, revealing
+the hot metal beneath.
+
+Quiet.
+
+Roark bursts in, with some of his men, and tries to take stock of the
+situation.  he asks what's going on.  Zagan doesn't explain, he just
+says to go watch the party, things are probably going to get messy
+soon.
+
+Leah cautiously examines Ezra, confirming that he's dead---or whatever
+happens to robots---and enters her trance again.  She learns:
+
+- Ezra was made in the same clinic as Innkeeper, but before the
+  apocalypse.  The men operating on him bore the same symbol, and were
+  talking about "the war" and about "ending it soon".
+
+- Ezra is working for some other person, and communicates with them
+  through the maelstrom.  A few weeks ago, in his office in Malice,
+  Ezra gave a report of the subjugation of the local area to this
+  person: "Malice has fallen", "the infiltration of Apotheosis is
+  going well", "this is one of the last remaining large settlements in
+  this area, the rest have fallen".
+
+- Ezra isn't malicious, he felt no enjoyment at reporting the woes of
+  the surrounding area, just the satisfaction of someone who knows
+  they have done a job which needs to be done.  Whoever he was
+  speaking to, however, felt immense boredom.
+
+Worried that this may have immediate consequences, Oi reaches out into
+the maelstrom to sense for any wolves.  There are none nearby, Ezra
+came alone.  She does realise, however, that one of Ezra's troops---a
+mean-looking, big, tall, bald brute with a shotgun strapped to his
+side---would be trouble.  She hops into the airplane, guns pointed at
+the hangar door, to hide.
+
+*Outside...*
+
+Ruby was enjoying herself at the party, but now the atmosphere is
+tense.  There have been gunshots, a scream, and people are starting to
+realise it's been a while sinze Ezra or Zagan were last seen.  It's no
+longer a matter of if this kicks off, it's a matter of when.
+
+She looks around and spots two Malice troops---weapons in
+hand---alone, at the edge of the party peering towards the source of
+the noise earlier; and she promptly shoots them both with her pistol
+(a big thing called "Onyx Rose").
+
+There's a moment of stunned silence.
+
+Then Malice troops move to surround her, people start screaming and
+running, and Apotheosis troops start to fight their way through the
+crowd.
+
+Ruby stares down the biggest and meanest looking guy: tall, bald, with
+a shotgun strapped to his side.  He meets her gaze and challenges her
+to single combat.
+
+The fight is short, it's just like that when everyone has guns and
+little cover.
+
+It ends with Ruby diving for cover as she shoots the guy: him taking
+two bullets to the throat, and her taking a shotgun blast to the
+chest.  He collapses to the floor, blood and spit foaming out his
+mouth.  Apotheosis troops show up, quickly subdue the other Malice
+troops, and Roark stabilises Ruby's condition.
+
+*Later...*
+
+Grigsby sat thinking about Malice.  It used to be a bunch of
+disconnected gangs, but Ezra unified them, and seemingly did a good
+job at it.  But now he's gone, so things will be changing again.
+
+Would they, perhaps, accept Innkeeper as their leader?  He opeend his
+mind to the maelstrom, turning his focus towards Malice and
+felt... corruption.  Ezra unified them all right, but at what cost?
+Grigsby intuitively knew that they would accept Innkeeper as their
+leader, but only because she was somewhat similar to Ezra.  Even with
+a perfect leader, it is only a matter of time before the seeds Ezra
+has sown will drive the people of Malice to destruction.
+
+Grigsby's thoughts turned to his companions.  How did he feel about
+the return of Innkeeper?  And how did he feel about Zagan, the man who
+had tried to kill her?  He had suppressed all memory of Innkeeper out
+of trauma, but those mental walls have been torn down.
+
+Forgetting Innkeeper suppressed some of his personality, it made him
+meeker.  Now that she's back he's remembering what it means to fight
+for someone again.  The scene at Mistfield would never have played out
+with the old Grigsby.
+
+Zagan is a problem.  He is capable of great evil, but Grigsby just
+can't treat him as a lost cause.  He's trying to guide Zagan to do
+moral things, rather than just being the passive and obedient servant
+he has been so far; though Grigsby doesn't want to challenge Zagan
+directly.
