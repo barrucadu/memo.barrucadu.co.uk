@@ -386,7 +386,7 @@ memos_for_lists = sorted(
 )
 
 memos_for_feeds = sorted(
-    [memo for memo in memos_for_lists if "exclude_from_feed" not in memo],
+    [memo for memo in memos_for_lists],
     key=lambda memo: memo["modified"],
     reverse=True
 )

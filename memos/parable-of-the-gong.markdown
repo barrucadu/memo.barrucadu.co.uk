@@ -2,7 +2,6 @@
 title: The Parable of the Gong
 taxon: self-koans
 date: 2019-07-27
-exclude_from_feed: yes
 ---
 
 > There was once a young Discordian called Golden Rod. Early in his

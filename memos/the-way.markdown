@@ -2,7 +2,6 @@
 title: The Way
 taxon: self
 date: 2017-03-06
-exclude_from_feed: yes
 ---
 
 On Attitude

@@ -2,7 +2,6 @@
 title: Tea
 taxon: self-possessions
 date: 2019-10-21
-exclude_from_feed: yes
 ---
 
 Teas

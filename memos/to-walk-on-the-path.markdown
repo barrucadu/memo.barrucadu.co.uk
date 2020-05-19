@@ -2,7 +2,6 @@
 title: To Walk on the Path
 taxon: self-koans
 date: 2019-07-27
-exclude_from_feed: yes
 ---
 
 > In the city of Sāvatthī in northern India, the Buddha had a large

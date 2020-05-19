@@ -2,7 +2,6 @@
 title: Bread
 taxon: self-recipes
 date: 2020-03-15
-exclude_from_feed: yes
 ---
 
 ![The goal: a delicious loaf of bread](bread.jpg)

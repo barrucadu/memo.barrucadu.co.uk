@@ -2,7 +2,6 @@
 title: Limits
 taxon: self-koans
 date: 2019-07-27
-exclude_from_feed: yes
 ---
 
 > If the world had no limits there would be no purpose. The entire

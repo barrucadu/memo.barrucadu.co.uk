@@ -3,7 +3,6 @@ title: Kitchen Staples
 taxon: self-recipes
 published: 2019-01-13
 modified: 2020-03-27
-exclude_from_feed: yes
 ---
 
 Cupboards

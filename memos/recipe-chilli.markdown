@@ -2,7 +2,6 @@
 title: Chilli
 taxon: self-recipes
 date: 2019-02-26
-exclude_from_feed: yes
 ---
 
 ![The goal: a delicious chilli](chilli.jpg)
