@@ -10,7 +10,7 @@ thrilling reading.
 I intend to get all the books in the "reading plan" and "book series"
 sections, the others are more mutable.
 
-Reading plan
+Reading Plan
 ------------
 
 A while ago I read a blog post about [why you should have a reading
@@ -366,11 +366,11 @@ thought, I settled on a list of *some* classics:
 | `126`  | Stancliffe’s Hotel                                                           | Charlotte Brontë           |
 
 
-Book series
+Book Series
 -----------
 
 | Series                 | ISBN            | Title                                               |
-|------------------------+-----------------+-----------------------------------------------------|
+|-----------------------:+----------------:+-----------------------------------------------------|
 | [20th Century Boys][]  | `9781421535340` | Volume 16: Beyond the Looking Glass                 |
 |                        | `9781421535357` | Volume 17: Cross-counter                            |
 |                        | `9781421535364` | Volume 18: Everybody's Song                         |
@@ -415,11 +415,11 @@ Book series
 [Riftwar]: https://en.wikipedia.org/wiki/The_Riftwar_Saga
 
 
-Book series (candidates)
+Book Series (candidates)
 ------------------------
 
 | Series                                    | ISBN            | Title                                           |
-|------------------------------------------:+-----------------+-------------------------------------------------|
+|------------------------------------------:+----------------:+-------------------------------------------------|
 | [The Belgariad][]                         | `9780552554763` | Pawn of Prophecy                                |
 |                                           | `9780552554770` | Queen of Sorcery                                |
 |                                           | `9780552554787` | Magician's Gambit                               |
@@ -457,7 +457,7 @@ Book series (candidates)
 |                                           | `9780007439140` | The Laughing Policeman                          |
 |                                           | `9780007439157` | The Fire Engine That Disappeared                |
 |                                           |                 | Murder at the Savoy                             |
-|                                           | `0007439171`    | he Abominable Man (97                           |
+|                                           | `0007439171`    | The Abominable Man                              |
 |                                           |                 | The Locked Room                                 |
 |                                           | `9780007439195` | Cop Killer                                      |
 |                                           | `9780007439201` | The Terrorists                                  |
