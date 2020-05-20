@@ -1,15 +1,12 @@
 ---
-title: Apotheosis Session Notes
+title: Apocalypse World (2020-02 to ?) notes
 taxon: general-games
 tags: apocalypse world
 published: 2020-03-01
 modified: 2020-05-19
 ---
 
-Apotheosis is a homebrew setting for [Apocalypse World][], 2nd
-edition.  These are the tales of our survival.
-
-[Apocalypse World]: http://apocalypse-world.com/
+**This campaign is ongoing and this memo contains spoilers.**
 
 
 Player characters

@@ -1,14 +1,11 @@
 ---
-title: Golden Sky Stories
+title: Golden Sky Stories (2020-02 to 2020-04) notes
 taxon: general-games
 tags: golden sky stories
 published: 2020-04-26
 ---
 
-[Golden Sky Stories][] is a game about telling simple stories about
-helpful animals.
-
-[Golden Sky Stories]: http://starlinepublishing.com/our-games/golden-sky-stories/
+**This campaign has ended.**
 
 
 Player characters
