@@ -2,6 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
+modified: 2020-05-20
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -370,7 +371,7 @@ Book Series
 -----------
 
 | Series                 | ISBN            | Title                                               |
-|-----------------------:+----------------:+-----------------------------------------------------|
+|------------------------+-----------------+-----------------------------------------------------|
 | [20th Century Boys][]  | `9781421535340` | Volume 16: Beyond the Looking Glass                 |
 |                        | `9781421535357` | Volume 17: Cross-counter                            |
 |                        | `9781421535364` | Volume 18: Everybody's Song                         |
@@ -393,6 +394,15 @@ Book Series
 |                        | `1841498939`    | Surface Detail                                      |
 |                        | `9780356501505` | The Hydrogen Sonata                                 |
 | [Farseer][]            | `9780007562275` | Assassin's Quest                                    |
+| [Malazan][]            | `9780553813111` | Deadhouse Gates                                     |
+|                        | `9780553813128` | Memories of Ice                                     |
+|                        | `9780553813135` | House of Chains                                     |
+|                        | `9780553813142` | Midnight Tides                                      |
+|                        | `9780553813159` | The Bonehunters                                     |
+|                        | `9780553813166` | Reaper's Gale                                       |
+|                        | `9780553824469` | Toll The Hounds                                     |
+|                        | `9780553813173` | Dust of Dreams                                      |
+|                        | `9780553813180` | The Crippled God                                    |
 | [Nana][]               | `9781421518800` | Volume 13                                           |
 |                        | `9781421519722` | Volume 14                                           |
 |                        | `9781421523750` | Volume 16                                           |
@@ -409,6 +419,7 @@ Book Series
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
 [Culture]: https://en.wikipedia.org/wiki/Culture_series
 [Farseer]: https://en.wikipedia.org/wiki/The_Farseer_Trilogy
+[Malazan]: https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen
 [Nana]: https://en.wikipedia.org/wiki/Nana_(manga)
 [Neuromancer]: https://en.wikipedia.org/wiki/Neuromancer
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
@@ -439,15 +450,6 @@ Book Series (candidates)
 |                                           | `9781642750942` | Volume 6                                        |
 |                                           | `9781642756982` | Volume 7                                        |
 |                                           | `9781645052173` | Volume 8                                        |
-| [Malazan][]                               | `9780553813111` | Deadhouse Gates                                 |
-|                                           | `9780553813128` | Memories of Ice                                 |
-|                                           | `9780553813135` | House of Chains                                 |
-|                                           | `9780553813142` | Midnight Tides                                  |
-|                                           | `9780553813159` | The Bonehunters                                 |
-|                                           | `9780553813166` | Reaper's Gale                                   |
-|                                           | `9780553824469` | Toll The Hounds                                 |
-|                                           | `9780553813173` | Dust of Dreams                                  |
-|                                           | `9780553813180` | The Crippled God                                |
 | [Mars Trilogy][]                          | `9780007310166` | Red Mars                                        |
 |                                           | `9780007310173` | Green Mars                                      |
 |                                           | `9780007310180` | Blue Mars                                       |
@@ -477,7 +479,6 @@ Book Series (candidates)
 [The Books of Babel]: https://www.thebooksofbabel.com/
 [The Divine Cities]: https://en.wikipedia.org/wiki/The_Divine_Cities
 [Made in Abyss]: https://en.wikipedia.org/wiki/Made_in_Abyss
-[Malazan]: https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen
 [Mars Trilogy]: https://en.wikipedia.org/wiki/Mars_trilogy
 [Martin Beck]: https://en.wikipedia.org/wiki/Martin_Beck
 [My Lesbian Experience With Loneliness]: https://en.wikipedia.org/wiki/My_Lesbian_Experience_With_Loneliness
