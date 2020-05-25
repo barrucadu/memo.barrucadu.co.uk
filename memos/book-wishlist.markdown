@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-05-20
+modified: 2020-05-25
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -371,7 +371,7 @@ Book Series
 -----------
 
 | Series                 | ISBN            | Title                                               |
-|------------------------+-----------------+-----------------------------------------------------|
+|-----------------------:+----------------:+-----------------------------------------------------|
 | [20th Century Boys][]  | `9781421535340` | Volume 16: Beyond the Looking Glass                 |
 |                        | `9781421535357` | Volume 17: Cross-counter                            |
 |                        | `9781421535364` | Volume 18: Everybody's Song                         |
@@ -548,13 +548,14 @@ Politics, Philosophy, Economics, + History
 ------------------------------------------
 
 | ISBN            | Title                                                                           | Author          |
-|-----------------+---------------------------------------------------------------------------------+-----------------|
+|----------------:+---------------------------------------------------------------------------------+-----------------|
 | `9780141018812` | Penguin Great Ideas: On the Shortness of Life                                   | Seneca          |
 | `9781202221776` | The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living | Ryan Holiday    |
 | `9780226458113` | The Structure of Scientific Revolutions                                         | Thomas Kuhn     |
 | `9781540622402` | Cyropaedia                                                                      | Xenophon        |
 | `9781490361888` | Extraordinary Popular Delusions and the Madness of Crowds                       | Charles MacKay  |
 | `9780141396118` | The Conquest of Bread                                                           | Peter Kropotkin |
+| `9781297565090` | An Account of the Cultivation and Manufacture of tea in China                   | Samuel Ball     |
 
 
 Kitchen
