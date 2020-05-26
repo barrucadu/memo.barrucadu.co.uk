@@ -3,7 +3,7 @@ title: Apocalypse World (2020-02 to ?) notes
 taxon: general-games
 tags: apocalypse world
 published: 2020-03-01
-modified: 2020-05-19
+modified: 2020-05-26
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -1406,3 +1406,162 @@ can't treat him as a lost cause.  He's trying to guide Zagan to do
 moral things, rather than just being the passive and obedient servant
 he has been so far; though Grigsby doesn't want to challenge Zagan
 directly.
+
+
+Session 6, 2020-05-23
+---------------------
+
+Last session you liberated Mistfield Farm from the control of Brother
+Grome, after discovering that he was keeping people there as slaves.
+To his dying breath, he insisted that this was necessary for their
+salvation.  Most of the farmers packed their bags and left, but a few
+stayed behind.  Also, Leah and Dodge took out the plane, and got to
+see the blue sky above the clouds.  And finally, you managed to take
+out Ezra, learning that he was made before the apocalypse, and by the
+same group that worked on Innkeeper.  It seems some group has been
+working for a long time towards the downfall of civilisation.  With
+Ezra gone, it's not clear what will happen to Malice in the near
+future, but their eventual downfall due to his corruption seems
+certain.
+
+- Leah and Grigsby in the radio shack workshop working on the
+  isolation chamber:
+  - Huge metal cage, one seat in the middle with wrist and leg straps,
+    hooked up to big signal generator (size of a fridge, lots of
+    smaller generators fused together, exposed circuitry)
+  - Grigsby being uncharacteristically quiet, just sitting down and
+    watching
+  - Straps Innkeeper in
+  - Leah hears a quiet and distant sound, but she recognises it
+    immediately: the hangar door opening
+  - Grigsby didn't hear it
+  - Leah runs out to the hangar, Grigsby following protesting, see
+    Bones taking the plane out
+  - Leah doesn't want to damage the plane, so she just watches it take off
+  - Sends Grigsby to find Dodge so they can pursue
+
+- Oi is afraid of a device which can cut people off from the
+  maelstrom, so she takes a component from the big signal generator
+  and hides it in her den
+
+*Meanwhile...*
+
+- Ruby going to the clinic, Zagan paid for her treatment:
+  - Run by Shan, a big scarred guy.  He has a dog, an alsatian.
+  - It's a tiny room, one bed, medical equipment, he just stops people
+    from dying and then sends them on their way to heal the rest
+    themselves.
+  - Shan shoes the dog out, tells her to get on the bed and he'll have
+    a look.
+  - Peels off the bloody clothes, has a look
+  - Offers her some whiskey "this will sting"
+  - Cleans the wounds with a grey-looking cloth, picks out the
+    bullets, stitches together the larger holes
+  - Takes a step back to admire his handywork, cleaning his hands on
+    a cloth that looks rather like the one he used to clean her wounds
+  - "Let the dog back in on your way out"
+
+*Meanwhile...*
+
+- Dodge with Innkeeper talking about her idea:
+  - To run a bookies out of the bar: Dinnerlady takes the bets, Dodge
+    wins the races.  People currently gamble, but a less-below-board
+    person handling the money will make people feel safer and so get
+    involved more.
+  - It's an idea she's talked about before, but this is the first time
+    she's had a serious discussion with him about making it a reality.
+  - The bar is quiet at this time of day, they're in a booth talking.
+  - Dinnerlady is skeptical, it sounds like he's getting all the work
+    and risk—Dodge would be racing anyway—and only half the money.
+  - He asks for 80%.  Dodge says no. Escalates into an argument.
+  - Dinnerlady throws Dodge out, bans her from the bar, steals her
+    idea.
+
+*Then...*
+
+- Ruby goes to the bar:
+  - Innkeeper looks mad, Ruby asks why, he explains the situation
+  - Offers her a job for this gambling thing: 10%, she just has to be
+    there (which she would be anyway) and stop any trouble that starts
+  - "Drinks included?"  "Two"
+  - Ok.
+
+*Meanwhile...*
+
+- Dodge collides with Grigsby
+  - Grigsby explains the situation "something about a stolen plane",
+    points at it in the distance
+  - Get car, get Leah, keep Grigsby, go in pursuit
+  - Catch up after a few hours: plane is going slowly, meandering,
+    eventually lands
+  - Bones gets out, totally unconcerned, holding papers, "oh, I didn't
+    expect to see anyone"
+  - Leah slaps him, asks what he's doing, he drops the papers in the
+    wet mud, "what did you do that for?" starts gathering them and
+    brushing the mud off.
+  - "It's really hard to make notes while flying one of those, now
+    that you're here, would you mind helping me organise these notes?"
+  - He had to come out to verify some parts of the map for himself,
+    Grigsby is sad that his information wasn't good enough, Bones
+    tries to reassure him by saying it was very good, but not quite up
+    to the standards of cartography
+  - "You're never using this plane again!" "I know, it's out of fuel,
+    that's why I landed."
+  - "How did you plan to get back?" there's camping supplies for a few
+    days in the back seat; he'd have been killed by wild animals or
+    raiders, but he didn't think of that
+  - "What would you do if Zagan gets mad with you?" "Oh, well, he
+    doesn't know where the lab is, so I'd just hide out for a few
+    days"
+  - Decide to tow plane back, Leah attaches plane to car
+  - Grigsby gives Leah a chocolate bar, Leah gives Grigsby her pistol
+    (temporarily)
+  - Drive starts, slowly
+  - Grigsby concentrating on the gun, opens his mind, sees Archimedes
+    (Leah's grandfather) with a young Leah on his knee, explaining how
+    you can use the echo of a gunshot to judge a distance, he's kindly
+    and loving, and sad that his granddaughter will grow up in a world
+    where having those traits means people will most likely take
+    advantage of you.
+  - Sun setting, raiders arrive.  Three on motorbikes, two with guns
+    out.
+  - Leah trying to get a look, one of the raiders spots her and heads
+    towards the plane, rest continue to the car.
+  - Each shoot at the other, miss
+  - Overtaking, get level, each shoot; 1-harm Leah 2-harm raider
+    thrown off his bike
+  - Other two see, go to their fallen boss
+  - Drive on to Apotheosis.
+
+*Meanwhile...*
+
+- Zagan at the factory, looking for signs of Malice infiltration
+  - Zagan asks Mouse, the foreman, if anything is unusual
+  - "Strange how?"
+  - There have been more fights lately.  They stop the fights pretty
+    quickly, so people don't usually start them, but lately people
+    have seemed to get more violent more quickly
+  - Doing the rounds, Zagan sees a guy all over the place, talking to
+    people a lot, looks suspicious
+  - Zagan drags him out, ignoring his protests, to the acid river
+  - Asks how many of them there are
+  - "The factory has lots of errand boys!"
+  - Zagan dunks him in the acid water and holds him under until his
+    face starts to melt
+  - His eyelids and lips gone, eyes almost melted, screams in pain as
+    he tries to look at Zagan
+  - "Tell me and I'll shoot you.  If you don't I'll put you back in,
+    and it takes longer to die than you'd expect."
+  - There are four of them: Corbet, Kettle, and Isle, told to come in
+    and make trouble
+  - Zagan pushes him into the water
+  - Gathers the rest
+  - Pushes them in too
+
+- A tearful Oi approaches Zagan as he finishes:
+  - Says she thinks Leah and Grigsby are dead—she didn't mean to kill
+    them—she took something from their machine and they haven't been
+    around for hours
+  - Zagan reassures her, they look around, see Dodge is gone and so's
+    the car, Zagan says they probably needed to go out for something
+  - Oi opens her brain, sees them south and approaching again
