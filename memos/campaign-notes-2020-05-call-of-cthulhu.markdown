@@ -2,7 +2,7 @@
 title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
-published: 2020-05-20
+published: 2020-05-28
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -82,19 +82,20 @@ little more than mind-controlled puppets.
 The cult has difficulty spreading around the world because Gla'aki
 cannot leave the loch, and its fluid and spines drastically lose
 potency as soon as they are removed from its body, so creating new
-Servants elsewhere is difficult.  Gla'aki can create avatars even from
-this weak fluid, but it takes years for an avatar to become capable of
+Servants elsewhere is difficult.  Gla'aki can create Avatars even from
+this weak fluid, but it takes years for an Avatar to become capable of
 creating Servants.
+
+There is an Avatar in [Derwentwater][] in the Lake District and in
+[Lough Leane][] in Ireland.  The spines that the gang retrieved from
+the Squatter's Lake Motel are inferior spines from a still-growing
+Avatar.
 
 Furthermore, in the centuries during which Gla'aki slumbers, it cannot
 create new Servants, so the cult inevitably shrinks as Servants pass
-away due to accidents.
-
-There is an avatar in [Derwentwater][] in the Lake District and in
-[Lough Leane][] in Ireland.
-
-The spines that the gang retrieved from the Squatter's Lake Motel are
-inferior avatar-spines.
+away due to accidents.  All of the current Avatars and Servants were
+created during Gla'aki's current period of wakefulness, which has
+lasted for 90 years.
 
 [Loch Morar]: https://en.wikipedia.org/wiki/Loch_Morar
 [Derwentwater]: https://en.wikipedia.org/wiki/Derwentwater
@@ -111,10 +112,67 @@ inferior avatar-spines.
   Penelope initially suspected.
 
 - **Dr. Clayton Armitage:** contact of Howard's, he knows something
-  about the spines and their power.
+  about the spines and their power.  Leads the "UK branch" of the
+  Silver Twilight Lodge, though it's just a country house with a
+  handful of other members.
 
 - **Carl Stanford:** leader of the Silver Twilight Lodge.  "Carl" and
   "the Lodge" were mentioned in Howard and Dr. Armitage's telegrams.
+
+### The Silver Twilight Lodge
+
+Founded and lead by Carl Stanford, the STL is a fraternal organisation
+based in Boston, Massachusettes, which purports to investigate the
+occult and unexplained.  It's not a secret society, though it is a
+"society with secrets" and is relatively small and unknown.
+
+Members vary in how much they *know* and how much they *believe*.
+Most members have at least some belief in the reality of the occult,
+though they know very little.  Carl Stanford and those close to him
+more than just believe: they know this stuff to be the truth, and they
+have a great deal of knowledge.  Any artefacts and tomes which the STL
+gains possession of are only available for extended study by this core
+group.
+
+While the STL appears to be a purely investigative organisation, Carl
+Stanford and a few of his closest associates are using it to further
+the aims of alien gods.
+
+Dr. Armitage is the leader of the UK branch of the Lodge.  He
+considers himself a good friend of Carl Stanford, though Carl is
+concealing the true purpose of the Lodge from him.  Carl has long ago
+realised that having honest people in positions of authority is very
+good for maintaining cover, as then if any rumours leak out, they
+react with genuine bafflement.
+
+### Questions: Dr. Armitage and Howard Carter
+
+- **Why was Howard killed by a Servant by Dr. Armitage, who has more
+  potent spines and has been examining them for longer, has not
+  been?**
+
+  Dr. Armitage's country house, where he does his experiments, is
+  warded (a simple Elder Sign on every entrance and a more complex one
+  in the lab).  This means Gla'aki cannot mentally communicate with
+  reanimated creatures inside the house.  It also means Servants
+  cannot easily enter, as Gla'aki has destroyed their minds and
+  controls them like puppets.
+
+- **Why did Dr. Armitage tell Howard things that would get him killed,
+  without also telling him about the wards?**
+
+  Dr. Armitage doesn't know that Gla'aki can track down reanimated
+  creatures: he's only ever done it inside his warded house.  The
+  Revelations of Gla'aki merely state that "once one has been turned
+  to the Great Master, they serve as His eyes and ears", which can
+  easily be taken in a metaphorical sense, and that Servants just
+  report back.
+
+- **Why did Dr. Armitage send Howard volume 1 of the Revelations of
+  Gla'aki?**
+
+  Dr. Armitage knew Howard wouldn't have access to similar texts in
+  the US branch of the STL due to his low status.
 
 
 Session 1, 2020-05-03
@@ -409,3 +467,112 @@ least.
 ### Next session
 
 In England meeting Dr. Armitage.
+
+
+Session 3, 2020-05-31
+---------------------
+
+### Prep
+
+It's a beautiful summer day in London, it's early June, and you
+arrived two days ago.  You've taken lodgings in a bed & breakfast in
+the borough of Lewisham, just south of the Thames.  The city is huge,
+with over 7 million people, it's the largest in the world currently.
+And it is in this vast metropolis that Dr. Armitage has proposed you
+meet.
+
+In his reply to your telegram, he said that he would be conducting
+some business with colleagues at the University of London, the British
+Library, and the British Museum.  Something about Egyptian mummies, he
+wasn't too specific.  And he has proposed a meeting at the Penhew
+Foundation, an archeological institute, for 3 o'clock Thursday
+afternoon, which is four days from now.
+
+You've got some time to kill; you could spend it in your rooms, try to
+do some research, or anything you want.  What do you want to do?
+
+#### Killing time in London
+
+- No mysteries planned
+- Have a pickpocket chase at some point
+- If they're out at night emphasise the fogs
+
+#### The Penhew Foundation
+
+- Info:
+  - Impressive Victorian-style building in Central London, much
+    grander than the buildings on either side.
+  - Established in 1890 by Sir Aubrey Penhew, a renowned Egyptologist.
+  - Sir Aubrey disappeared last year on an expedition, but he and the
+    rest of the expedition members were recently confirmed to have
+    been attacked and killed by hostile tribesmen in the African
+    jungle.
+  - Edward Gavigan is now the director
+  - "Surely you heard of the Carlyle Massacre, it was all over the news!"
+- Meeting Dr. Armitage:
+  - Asking at the front desk leads the investigators to the small
+    office he is temporarily using.
+  - It's empty.
+  - After a moment, hear two voices through a different door, door
+    opens, Dr. Armitage emerges, saying "thank you, as always, for
+    your support Edward; it is a pleasure working with the
+    Foundation."
+  - He starts, and realises that he's a little late, and who they are,
+    and greets them, ushering them into his office.
+- Talking to Dr. Armitage:
+  - He's interested in how they got the spines (you were light on
+    details with Howard).
+  - And in Howard's death.
+  - And in Howard's experiments.
+  - And definitely in getting his book back!
+  - He'll also mistake the group for a married couple and their
+    daughter!
+  - Ask for a **Cthulhu Mythos** roll to impress him.
+  - If he's impressed, he'll be more open about the STL, otherwise
+    he'll deflect it as "a fraternal organisation for those of us who
+    are interested in knowledge".
+  - In any case, he'll propose they go to his country estate to look
+    at the other books in the set and his investigation materials.
+
+#### Lathom House
+
+- A large country house in Lancashire, bought by Dr. Armitage just
+  before the war, when the Earl of Lathom was ruined by his gambling
+  debts.
+- It's a place with a lot of history: there was a wooden castle on the
+  site in the 1300s, it was rebuilt as a stone castle some time in the
+  1500s, but now almost all trace of that is gone, only a few bits of
+  ruined wall and tower in the grounds remain, it's just a very large
+  country house.
+- Probably haunted.
+- Dry stone wall around the buildings, with metal gates; carved into
+  the walls at the gates are Elder Signs (**Spot Hidden** to notice).
+- Situated a 2-hour drive from Wigan, which is a 4-hour train journey
+  from London.
+- Two servants: an elderly housekeeper (Mrs. Covenant) and a gardener
+  / handyman (Mr. Donaldson).
+- One STL member is staying: Ned Thistlewaite
+
+#### Contacting Gla'aki
+
+- Dr. Armitage thinks contacting Gla'aki is crazy talk but will teach
+  Penelope the Elder Sign if she insists on trying it.
+- If Penelope learns the ritual, she can perform it
+- Nothing seems to happen
+- That night she enters a sunken crystal city in her dreams, feels
+  drawn towards the centre, there's a deep pit, a feeling of dread...
+- If she looks in the pit, Gla'aki rises: **SAN** roll, she knows what
+  Gla'aki wants (freedom) and why it can't just leave (crystal
+  fragments)
+- Before looking in the pit, can escape with the Elder Sign.
+
+#### The Dark Young
+
+- Ned is examining an artefact he had sent from Alaska: a black stone
+  with cuneiform scratched into it, with a black,twisted, and thorny
+  wooden branch sticking out of the top.  He'll unwittingly release a
+  Dark Young in the middle of the night.
+- The DY won't be able to cross the border because of the Elder Signs.
+- Dr. Armitage will realise that the Elder Signs protected him from
+  Gla'aki, and that's why Howard died: he'll blame himself.
+- Penelope won't wake up while she's in the dream.
