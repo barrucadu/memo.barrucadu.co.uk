@@ -2,7 +2,8 @@
 title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
-published: 2020-05-28
+published: 2020-05-20
+modified: 2020-05-29
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -475,27 +476,21 @@ Session 3, 2020-05-31
 ### Prep
 
 It's a beautiful summer day in London, it's early June, and you
-arrived two days ago.  You've taken lodgings in a bed & breakfast in
-the borough of Lewisham, just south of the Thames.  The city is huge,
-with over 7 million people, it's the largest in the world currently.
-And it is in this vast metropolis that Dr. Armitage has proposed you
-meet.
+arrived several days ago.  The city is huge, with over 7 million
+people, it's the largest in the world currently.  And it is in this
+vast metropolis that Dr. Armitage has proposed you meet.
 
 In his reply to your telegram, he said that he would be conducting
 some business with colleagues at the University of London, the British
 Library, and the British Museum.  Something about Egyptian mummies, he
 wasn't too specific.  And he has proposed a meeting at the Penhew
 Foundation, an archeological institute, for 3 o'clock Thursday
-afternoon, which is four days from now.
+afternoon, which is today!
 
-You've got some time to kill; you could spend it in your rooms, try to
-do some research, or anything you want.  What do you want to do?
+Penelope, you've had a few more days rest, you can try a **Hard INT**
+roll to learn the ritual to contact Gla'aki again if you want.
 
-#### Killing time in London
-
-- No mysteries planned
-- Have a pickpocket chase at some point
-- If they're out at night emphasise the fogs
+Right, what do you do?
 
 #### The Penhew Foundation
 
@@ -561,6 +556,8 @@ do some research, or anything you want.  What do you want to do?
 - Nothing seems to happen
 - That night she enters a sunken crystal city in her dreams, feels
   drawn towards the centre, there's a deep pit, a feeling of dread...
+- Surrounding the pit are thousands of destroyed crystal shards of
+  various sizes (some the size of a building).
 - If she looks in the pit, Gla'aki rises: **SAN** roll, she knows what
   Gla'aki wants (freedom) and why it can't just leave (crystal
   fragments)
@@ -576,3 +573,54 @@ do some research, or anything you want.  What do you want to do?
 - Dr. Armitage will realise that the Elder Signs protected him from
   Gla'aki, and that's why Howard died: he'll blame himself.
 - Penelope won't wake up while she's in the dream.
+
+#### Clues pointing onwards
+
+1. **What does Gla'aki want?**
+
+    To be free.
+
+    Clues:
+
+    - The vision after contacting Gla'aki
+    - The Revelations of Gla'aki
+
+2. **How can Gla'aki be freed?**
+
+    By destroying the crystal shards.  This is revealed by any of the
+    sources which reveal Clue 1.
+
+3. **Where is Gla'aki?**
+
+    [Loch Morar][].
+
+    Clues:
+
+    - Contacting Gla'aki gives a strong directional sense pointing to
+      the lake.
+    - If any of Dr. Armitage's reanimated animals are taken outside
+      the Elder Sign wards, Gla'aki will know where they are and send
+      Servants after them
+    - The Revelations of Gla'aki discuss the locations of the crystal
+      shards, and say that two of them will be difficult to reach
+      because they are in the New World, and the Servants find ocean
+      crossings difficult.
+
+4. **Where are the crystal shards?**
+
+    [Pingualuit crater][] in Quebec and [Pantasma][] in Nicaragua.
+
+    Clues:
+
+    - Contacting Gla'aki gives a vague directional sense pointing to
+      them.
+    - The Revelations of Gla'aki says that two of the shards are in
+      the New World.
+
+If any of the clues are missed, the STL can supply this information if
+the players can gain Carl Stanford's confidence.  Dr. Armitage will
+suggest becoming acquainted with Carl regardless, as Carl is very
+knowledgeable.
+
+[Pingualuit crater]: https://en.wikipedia.org/wiki/Pingualuit_crater
+[Pantasma]: https://en.wikipedia.org/wiki/Pantasma
