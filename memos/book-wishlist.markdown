@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-05-25
+modified: 2020-05-29
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -295,12 +295,9 @@ thought, I settled on a list of *some* classics:
 | `49`   | The Figure in the Carpet                                                     | Henry James                |
 | `50`   | Anthem for Doomed Youth                                                      | Wilfred Owen               |
 | `51`   | My Dearest Father                                                            | Wolfgang Amadeus Mozart    |
-| `52`   | Socrates’ Defence                                                            | Plato                      |
 | `53`   | Goblin Market                                                                | Christina Rossetti         |
 | `54`   | Sindbad the Sailor                                                           |                            |
 | `55`   | Antigone                                                                     | Sophocles                  |
-| `56`   | The Life of a Stupid Man                                                     | Ryūnosuke Akutagawa        |
-| `57`   | How Much Land Does A Man Need?                                               | Leo Tolstoy                |
 | `58`   | Leonardo da Vinci                                                            | Giorgio Vasari             |
 | `59`   | Lord Arthur Savile’s Crime                                                   | Oscar Wilde                |
 | `60`   | The Old Man of the Moon                                                      | Shen Fu                    |
@@ -341,7 +338,6 @@ thought, I settled on a list of *some* classics:
 | `99`   | The Withered                                                                 | Arm Thomas Hardy           |
 | `100`  | Nonsense                                                                     | Edward Lear                |
 | `101`  | The Frogs                                                                    | Aristophanes               |
-| `102`  | Why I Am so Clever                                                           | Friedrich Nietzsche        |
 | `103`  | Letters to a Young Poet                                                      | Rainer Maria Rilke         |
 | `104`  | Seven Hanged                                                                 | Leonid Andreyev            |
 | `105`  | Oroonoko                                                                     | Aphra Behn                 |
@@ -358,7 +354,6 @@ thought, I settled on a list of *some* classics:
 | `116`  | Matilda                                                                      | Mary Shelley               |
 | `117`  | The Lifted Veil                                                              | George Eliot               |
 | `118`  | White Nights                                                                 | Fyodor Dostoyevsky         |
-| `119`  | Only Dull People Are Brilliant at Breakfast                                  | Oscar Wilde                |
 | `120`  | Flush                                                                        | Virginia Woolf             |
 | `121`  | Lot No. 249                                                                  | Arthur Conan Doyle         |
 | `122`  | The Rule of Benedict                                                         |                            |
@@ -403,15 +398,13 @@ Book Series
 |                        | `9780553824469` | Toll The Hounds                                     |
 |                        | `9780553813173` | Dust of Dreams                                      |
 |                        | `9780553813180` | The Crippled God                                    |
-| [Nana][]               | `9781421518800` | Volume 13                                           |
-|                        | `9781421519722` | Volume 14                                           |
+| [Nana][]               | `9781421519722` | Volume 14                                           |
 |                        | `9781421523750` | Volume 16                                           |
 |                        | `9781421523767` | Volume 17                                           |
 |                        | `9781421533087` | Volume 21                                           |
 | [Neuromancer][]        | `9781473217409` | Count Zero                                          |
 |                        | `9781473217423` | Mona Lisa Overdrive                                 |
-| [Overlord][]           | `9781975308063` | Volume 12: The Paladin of the Holy Kingdom (Part 1) |
-|                        |                 | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
+| [Overlord][]           |                 | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
 |                        |                 | Volume 14: The Witch of the Falling Kingdom         |
 | [Riftwar][]            | `9780007509119` | A Darkness at Sethanon                              |
 
@@ -619,7 +612,6 @@ Miscellaneous
 | `9781402770005` | The Hound of the Baskervilles                                                                                         | I. N. J. Culbard      |
 | `9781906838355` | The Case of Charles Dexter Ward                                                                                       | I. N. J. Culbard      |
 | `9781906838683` | Shadow Out of Time                                                                                                    | I. N. J. Culbard      |
-| `9781906838928` | The King in Yellow                                                                                                    | I. N. J. Culbard      |
 | `9780330534239` | Perdido Street Station                                                                                                | China Mieville        |
 | `9780099529040` | Planet of the Apes                                                                                                    | Pierre Boulle         |
 | `9781935548355` | Night on the Galactic Railroad & Other Stories from Ihatov                                                            | Kenji Miyazawa        |
@@ -646,6 +638,7 @@ Miscellaneous
 | `9780765350374` | Elantris                                                                                                              | Brandon Sanderson     |
 | `9780345497529` | The City & The City                                                                                                   | China Mieville        |
 | `9780345524256` | Midnight Riot                                                                                                         | Ben Aaronovitch       |
+| `9780199555246` | The Nun                                                                                                               | Denis Diderot         |
 
 
 Ideas
