@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-05-29
+modified: 2020-05-31
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -64,8 +64,15 @@ Player characters
 
 ## Spells
 
-- **Contact Gla'aki:** Penelope can attempt a Hard INT roll to learn
-  this once every few days.
+- **Known spells:**
+  - Penelope:
+    - Contact Gla'aki
+  - Rachel:
+    - Contact Nyarlathotep
+    - Shrivelling
+
+- **Spell notes:**
+  - Elder Sign
 
 
 Lore
@@ -624,3 +631,161 @@ knowledgeable.
 
 [Pingualuit crater]: https://en.wikipedia.org/wiki/Pingualuit_crater
 [Pantasma]: https://en.wikipedia.org/wiki/Pantasma
+
+
+### Notes
+
+- Players go to the Penhew Foundation:
+  - They check in at the reception, and get sent to the office
+    Dr. Armitage is using
+  - Knocking on the door yields no response
+  - Rachel goes to check out the exhibits:
+    - As she looks around, she hears:
+      - "Do you happen to know the time, Edward?"
+      - "Why yes, it is ten past three"
+      - "Oh dear!  I am late for a meeting!  I'm afraid I must go.
+        Thank you, as always, for your support Edward; it is a
+        pleasure working with the Foundation."
+    - Rachel guesses this oldish man with white hair must be
+      Dr. Armitage, meets him, and accompanies him to the office
+  - Head into the office:
+    - It's pretty bare, no personal items.
+    - Dr. Armitage refers to them as "Mr and Mrs Temple" and Rachel as
+      "your daughter" at some point, Penelope doesn't correct him
+    - They talk about their experiences so far: Howard, the spikes,
+      the zombies
+    - Rachel rolling her eyes a lot, she thinks this is just some sort
+      of bacteria causing muscle spasms in dead tissue
+    - Penelope impresses Dr. Armitage with her knowledge, and he
+      invites them all to come with him to his country house the next
+      day to examine the other volumes of the Revelations of Gla'aki
+- That night:
+  - Penelope learns the ritual to contact Gla'aki
+  - She decides to do it without telling the others:
+    - She performs the ritual, and instantly collapses back in the bed
+      asleep
+    - She finds herself in a great city of crystal buildings, drawn
+      towards the centre
+    - She goes to the centre, sees a deep pit ringed with crystal:
+      unlike the crystal buildings, these are clearly broken
+      fragments, and all but two are grey and dull
+    - She peers into the pit: Gla'aki rises, imparts knowledge, she
+      wakes up
+  - Only a few minutes have passed
+  - She knows Gla'aki is trapped and the crystals are the cause
+    somehow
+  - She also has three directional senses: two west, very distant; one
+    north, much closer
+- On the train:
+  - Penelope tells the others about contacting Gla'aki:
+    - Rachel just thinks she's been looking at the illustrations in
+      RoG too much
+    - Dr. Armitage's response is "you did *what!?*"
+  - Penelope spots Dr. Armitage's signet ring, matching the one Howard
+    had:
+    - She asks him about it, he starts to give a dismissive response,
+      then says that with her experience and knowledge he thinks she
+      should know the truth
+    - It's a symbol of the Silver Twilight Lodge, a paranormal
+      investigation society
+    - Based in the US, there are a few UK members
+    - Penelope wants to join, he can write a letter of recommendation
+- At the house:
+  - Penelope spots the elder signs carved into the gates
+  - All go to the library, Dr. Armitage goes to relax:
+    - All look for a book with an elder sign in, Dill finds a Latin
+      translation of the Al Azif with a figure
+    - Penelope starts examining volumes 2 to 6 of RoG
+    - Rachel starts examining the Al Azif
+    - Dill goes to get himself some refreshments, and have a look
+      around
+  - Dill wanders the grounds:
+    - He meets Ned Thistlewaite, who Dr. Armitage mentioned in their
+      trip over:
+      - Ned is examining a black stone hexagon with what looks like a
+        carved twisted tree branch with thorns, also black stone,
+        emerging from it
+      - It's got some strange runes scratched into it he is
+        transcribing
+      - It came from Alaska
+      - Ned travels a lot---his next trip will be to India---but he
+        gets artefacts sent here, so he occasionally visits for a few
+        weeks to examine new findings
+    - He finds Dr. Armitage:
+      - They talk about the situation which brought them together some
+        more
+      - Dr. Armitage gives his story about how he got into this sort
+        of thing: investigating a pharaoh's curse which seemed to be
+        more than just superstition
+      - They head to the library to see if the others have found
+        anything interesting
+  - In the library:
+    - Rachel has transcribed and translated notes about the elder sign:
+      - The printed text says it's a symbol of protection, and how to
+        make one
+      - The scribbled margin notes tell the story of someone who made
+        an elder sign pendant, went to challenge a god, and all that
+        was left of them was the pendant and the cylinder of flesh
+        which had been directly behind it
+      - She knows that it'll take two or three weeks to study the book
+        properly
+    - Penelope learned about Gla'aki:
+      - How he came to Earth
+      - That he creates Servants and Avatars through the spines
+      - That the cult's goal is to bring the crystal shards to Gla'aki
+        or his Avatars to destroy them
+    - Rachel proposes they stay for a few weeks:
+      - Dr. Armitage asks what she's studying
+      - She manages to fast talk him into thinking it's a different
+        book than the Al Azif, one much less dangerous
+      - Penelope is keen to stay
+      - Dill begrudgingly accepts, but says he wished they would
+        consult with him before making such decisions
+      - Dr. Armitage is delighted to have the company
+- **Three week time skip:**
+  - Rachel finishes her study of the Al Azif:
+    - She learns Contact Nyarlathotep and Shrivelling
+    - She has notes on how to make an Elder Sign
+  - Penelope finishes her study of the Revelations of Gla'aki:
+    - She learns that most of the crystals are in Europe and Africa,
+      some are in the New World
+    - She infers that the pulls she feels to the west are crystal
+      shards, and the one to the north is Gla'aki
+- At night:
+  - All are woken by a roar, and a scream which is cut short
+  - It came from the opposite side of the building, where Ned has a
+    lab
+  - Rachel sneaks over and peers into the lab:
+    - She sees a Dark Young smashing through the exterior wall and
+      wandering outside
+    - She falls back, psychosomatically blinded by the horror
+    - She becomes a believer
+  - Penelope looks around the corner, sees Rachel, and drags her back
+  - Dr. Armitage says he's going to have a look:
+    - Dill follows cautiously
+    - They get to a window on the right side of the building, and peer
+      out
+    - Dr. Armitage identifies it as a Dark Young
+    - Says it must be the artefact Ned was studying, as the elder
+      signs would prevent it from coming in from the outside
+    - Says he can banish it if they get the artefact from the lab
+  - Penelope sneaks into the lab:
+    - She gets the artefact
+    - Slips and lands in liquid
+    - Looks down, and sees the shredded remains of Ned
+    - She lets out an involuntary scream, and the Dark Young charges
+      back to the house
+  - All run:
+    - Rachel, still blind, carried by Dill
+    - The Dark Young smashing through the house after them
+    - The house starting to collapse with all the damage
+    - Dill gets pinned beneath a falling beam
+    - Rachel, in her panic, calls out to Nyarlathotep for help:
+      - The house explodes
+      - The stars show a very different layout
+      - A colour, unlike any colour they had seen before, comes
+        streaking down and engulfs everything
+      - The Dark Young dissolves
+      - The colour dissipates, and the stars return to normal
+      - Rachel is left with the feeling that a steep price will be
+        demanded of her
