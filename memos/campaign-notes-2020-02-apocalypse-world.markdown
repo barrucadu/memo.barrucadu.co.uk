@@ -1,12 +1,12 @@
 ---
-title: Apocalypse World (2020-02 to ?) notes
+title: Apocalypse World (2020-02 to 2020-05) notes
 taxon: general-games
 tags: apocalypse world
 published: 2020-03-01
-modified: 2020-05-26
+modified: 2020-06-05
 ---
 
-**This campaign is ongoing and this memo contains spoilers.**
+**This campaign has ended.**
 
 
 Player characters
@@ -1565,3 +1565,11 @@ certain.
   - Zagan reassures her, they look around, see Dodge is gone and so's
     the car, Zagan says they probably needed to go out for something
   - Oi opens her brain, sees them south and approaching again
+
+
+The End
+-------
+
+I decided to cut the campaign short because I started running a game
+of Call of Cthulhu with a separate group, and realised just how much
+less fun I was finding Apocalypse World.
