@@ -3,7 +3,7 @@ title: Game Systems
 taxon: general-games
 tags: apocalypse world, call of cthulhu
 published: 2020-04-13
-modified: 2020-04-14
+modified: 2020-06-05 20:45:00
 ---
 
 Here are my thoughts on game systems, and what I've learned about my
@@ -58,6 +58,20 @@ I have three main problems with how the game works out in practice:
 
 The sessions are fun, but feel like they're fun *despite* the system,
 not *because* of it.
+
+Ultimately I ended up ending the campaign I was running early.  I had
+started running a Call of Cthulhu game for a different group, and
+realised how much less fun I was finding Apocalypse World.  On
+reflection, the main difference between the two campaigns was the
+story: I didn't feel like my Apocalypse World game was building up
+towards a conclusion.  The Apocalypse World book suggests the system
+works best for shortish (12 sessions or so) campaigns, naturally
+building to a head, and ending after some big moment.  But after 7
+sessions, I didn't feel like that was happening at all.  There were
+long-running plot arcs which could be tied up, but I saw no reason for
+one of them to be *the end* of the campaign.  And not having any idea
+how a campaign will end 5 sessions before it's supposed to is not a
+good feeling.
 
 It also doesn't help that, in certain online communities, whenever
 someone says they don't particularly like PbtA games, people come out
