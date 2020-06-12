@@ -86,28 +86,6 @@ pre, code { font-family: 'Fira Mono', monospace }
     --text-stars: #00a55e;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg: #333333;
-        --bg-highlight: #000000;
-        --bg-metadata: #3d4c49;
-        --bg-notice: #ffbd48;
-        --border: #ac4574;
-        --border-highlight: #ff6666;
-        --border-table-inner: #666666;
-        --border-table-outer: #dddddd;
-        --divider: #aaaaaa;
-        --text: #f3f3f3;
-        --text-highlight: #f3f3f3;
-        --text-highlight-inline: #ff6666;
-        --text-link: #e5ac98;
-        --text-link-alt: #ac4574;
-        --text-metadata: #f3f3f3;
-        --text-notice: #333333;
-        --text-stars: #ac4574;
-    }
-}
-
 @media only screen and (max-width: 1300px) {
     body {
         margin: 0 3em 0 1em !important;
