@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-05-29
+modified: 2020-06-12
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -494,11 +494,16 @@ Roleplaying Games
 
 ### System-agnostic
 
-| ISBN            | Title                                                          | Author          |
-|----------------:+----------------------------------------------------------------+-----------------|
-| `9781448675432` | Gamemastering                                                  | Brian Jamison   |
-| `9781556346293` | Robin's Laws of Good Game Mastering                            | Robin D. Laws   |
-| `9781434824592` | Play Unsafe: How Improvisation Can Change The Way You Roleplay | Graham Walmsley |
+| ISBN            | Title                                                          | Author                |
+|----------------:+----------------------------------------------------------------+-----------------------|
+| `9781448675432` | Gamemastering                                                  | Brian Jamison         |
+| `9781556346293` | Robin's Laws of Good Game Mastering                            | Robin D. Laws         |
+| `9780981884028` | Hamlet's Hit Points                                            | Robin D. Laws         |
+| `9781434824592` | Play Unsafe: How Improvisation Can Change The Way You Roleplay | Graham Walmsley       |
+| `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell          |
+| `9781936781119` | Kobold Guide to Worldbuilding                                  | Wolfgang Bauer et al. |
+| `9781936781034` | Kobold Guide to Game Design                                    | Wolfgang Bauer et al. |
+| `9781726631822` | Return of the Lazy Dungeon Master                              | Michael Shea          |
 
 
 Computer Science, Programming, + Digital Culture
