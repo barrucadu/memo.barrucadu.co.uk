@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-06-12
+modified: 2020-06-13
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -484,13 +484,43 @@ Roleplaying Games
 
 ### Game systems and supplements
 
-| Title                  | Author               |
-|------------------------+----------------------|
-| [Apocalypse World][]   | D. Vincent Baker     |
-| [Golden Sky Stories][] | Star Line Publishing |
+| Title                                   | Author                        |
+|-----------------------------------------+-------------------------------|
+| [Apocalypse World][]                    | D. Vincent Baker              |
+| [Golden Sky Stories][]                  | Star Line Publishing          |
+| [Mythras][]                             | Pete Nash & Lawrence Whitaker |
+| [Mythras Companion][]                   | Pete Nash et al.              |
+| [Pulp Cthulhu][]                        | Mike Mason et al.             |
+| [The Two-Headed Serpent][]              | Paul Fricker et al.           |
+| [King Arthur Pendragon][]               | Greg Stafford                 |
+| [RuneQuest: Roleplaying in Glorantha][] | Greg Stafford                 |
+| [Dead Light and Other Dark Turns][]     | Alan Bligh et al.             |
+| [Gateways to Terror][]                  | Leigh Carr et al.             |
+| [Ars Magica][]                          | Atlas Games                   |
+| [Covenants][]                           | Atlas Games                   |
+| [The Mysteries][]                       | Atlas Games                   |
+| [Lords of Men][]                        | Atlas Games                   |
+| [The Church][]                          | Atlas Games                   |
+| [Microscope][]                          | Ben Robbins                   |
+| [Microscope Explorer][]                 | Ben Robbins                   |
 
 [Apocalypse World]: http://www.apocalypse-world.com/
 [Golden Sky Stories]: https://www.drivethrurpg.com/product/118784/Golden-Sky-Stories
+[Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/?MATCH=1
+[Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/?MATCH=1
+[Pulp Cthulhu]: https://www.chaosium.com/pulp-cthulhu-hardcover/
+[The Two-Headed Serpent]: https://www.chaosium.com/the-two-headed-serpent-hardcover/
+[King Arthur Pendragon]: https://www.chaosium.com/king-arthur-pendragon-core-rule-book-5-2-edition-hardcover/
+[RuneQuest: Roleplaying in Glorantha]: https://www.chaosium.com/runequest-roleplaying-in-glorantha-slipcase-set/
+[Dead Light and Other Dark Turns]: https://www.chaosium.com/dead-light-and-other-dark-turns/
+[Gateways to Terror]: https://www.chaosium.com/gateways-to-terror/
+[Ars Magica]: https://www.atlas-games.com/product_tables/AG0205
+[Covenants]: https://www.atlas-games.com/product_tables/AG0280
+[The Mysteries]: https://www.atlas-games.com/product_tables/AG0279
+[Lords of Men]: https://www.atlas-games.com/product_tables/AG0293
+[The Church]: https://www.atlas-games.com/product_tables/AG0296
+[Microscope]: http://www.lamemage.com/store.html
+[Microscope Explorer]: http://www.lamemage.com/store.html
 
 ### System-agnostic
 
