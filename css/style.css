@@ -81,11 +81,10 @@ pre, code { font-family: 'Fira Mono', monospace }
     --text: #000000;
     --text-highlight: #34495e;
     --text-highlight-inline: #ff0000;
-    --text-link: #42b983;
-    --text-link-alt: #00a55e;
+    --text-link: #ca2017;
     --text-metadata: #ffffff;
     --text-notice: #ffffff;
-    --text-stars: #00a55e;
+    --text-stars: #ff0000;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -240,7 +239,6 @@ a, a:link, a:visited {
 }
 
 a:active, a:hover {
-    color: var(--text-link-alt);
     text-decoration: underline;
 }
 
