@@ -68,18 +68,16 @@ pre, code { font-family: 'Fira Mono', monospace }
 
 :root {
     --bg: #fafafa;
-    --bg-highlight: #ffffee;
+    --bg-highlight: rgba(0,0,0,0.05);
     --bg-metadata: #00a55e;
     --bg-notice: #a5005e;
     --bg-main: #ffffff;
     --border: #00a55e;
     --border-main: #dddddd;
-    --border-highlight: #ff0000;
     --border-table-inner: #dddddd;
     --border-table-outer: #999999;
     --divider: #333333;
     --text: #000000;
-    --text-highlight: #34495e;
     --text-highlight-inline: #ff0000;
     --text-link: #ca2017;
     --text-metadata: #ffffff;
@@ -362,10 +360,9 @@ img, svg {
 }
 
 aside.highlight {
-    border: 2px solid var(--border-highlight);
     background-color: var(--bg-highlight);
     color: var(--text-highlight);
-    padding: 0.5em;
+    padding: 1em;
 }
 
 span.highlight {
