@@ -67,16 +67,18 @@ body { font-family: 'Gentium Book Basic', Cambria, Georgia, Times, serif }
 pre, code { font-family: 'Fira Mono', monospace }
 
 :root {
-    --bg: #ffffff;
+    --bg: #fafafa;
     --bg-highlight: #ffffee;
     --bg-metadata: #00a55e;
     --bg-notice: #a5005e;
+    --bg-main: #ffffff;
     --border: #00a55e;
+    --border-main: #dddddd;
     --border-highlight: #ff0000;
     --border-table-inner: #dddddd;
     --border-table-outer: #999999;
     --divider: #333333;
-    --text: #34495e;
+    --text: #000000;
     --text-highlight: #34495e;
     --text-highlight-inline: #ff0000;
     --text-link: #42b983;
@@ -124,7 +126,10 @@ article, section {
 .main-text {
     font-size: 18px;
     line-height: 1.4;
-    padding-bottom: 3em;
+    padding: 30px 60px;
+    background-color: var(--bg-main);
+    border: 1px solid var(--border-main);
+    border-top: none;
 }
 
 .navigation-list {
