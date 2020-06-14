@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-05-31
+modified: 2020-06-14
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -789,3 +789,384 @@ knowledgeable.
       - The colour dissipates, and the stars return to normal
       - Rachel is left with the feeling that a steep price will be
         demanded of her
+
+
+Session 4, 2020-06-14
+---------------------
+
+This session takes place after a time-skip of a few months (to be
+determined at the start of the session, but at least two months), with
+Rachel attending the private care clinic of Danvers State Hospital.
+The scenario is set in the early days of *Genius Loci*[^s3_gl], with
+the Elder Sign ward being destroyed early during the last month of
+Rachel's stay.
+
+[^s3_gl]: From *Doors to Darkness*.
+
+### Prep
+
+#### What has Rachel been up to?
+
+Read:
+
+> Rachel has been staying in the private care facility of the Danvers
+> State Hospital.  A respected psychiatric hospital, out in the
+> beautiful countryside in Massachusetts near Danvers, from which it
+> gets its name.  A little further afield are Arkham and Salem, and 18
+> miles to the south is Boston.
+>
+> The director is called Dr. Berger, a friendly man who gets on well
+> with all of his patients.
+
+Figure out how long Rachel has been staying there: the underlying
+insanity must be cured, but she can stay any number of months she
+wants receiving additional treatment.  There will then be an
+additional month in which there is no treatment (described in *the
+hook* below).
+
+Rules for private care are:
+
+<aside class="highlight">
+
+Once per month, roll 1d100:
+
+- A result of 01--95 is a success: gain 1d3 SAN.  Then roll SAN and,
+  if a success, any underlying insanity is cured.
+- A result of 96--100 is a failure: lose 1d6 SAN.
+
+</aside>
+
+#### What has Dill been up to?
+
+Read:
+
+> Dill, you mostly go back to your normal life, and all your coworkers
+> think you just had a vacation for a couple of weeks.  Your wife is
+> kind of upset that you didn't take her along to England with you on
+> your trip, and you can tell that your attempts to explain it away
+> haven't really convinced her...  but maybe it's better she doubt you
+> than think you crazy.
+>
+> Whenever you're out in the field though, you find yourself wondering
+> if something's hiding behind the trees or beneath the waters.  You
+> can convince those around you that everything is normal, but you
+> can't convince yourself.
+
+Dill can spend time with a backstory element to recover some sanity.
+Rules for sanity recovery are:
+
+<aside class="highlight">
+
+The player should narrate how they do this, then makes a SAN roll (if
+the player is using their character's key connection, they roll a
+bonus die):
+
+- If the roll is successful, the player gains 1d6 SAN.
+- If unsuccessful, the player loses 1 SAN and the Keeper and player
+  should revise the backstory element.
+
+Keeper and player are encouraged to roleplay the climax of the scene.
+
+</aside>
+
+#### What has Penelope been up to?
+
+Read:
+
+> Penelope, after returning from a holiday with your daughter, you
+> waste no time in presenting yourself at the buildings of the Silver
+> Twilight Lodge, holding onto the letter of introduction Dr. Armitage
+> wrote for you.
+>
+> By the way, Dr. Armitage was able to explain away the complete
+> destruction of his country house and the death of Ned to the police
+> as the result of an undetected a gas leak.
+>
+> You meet Carl Stanford, the founder of the Lodge, and he welcomes
+> you into the fold as a new member.  He explains a bit about the
+> society to you: he says that it is more of a "society with secrets"
+> than a "secret society", if you see his meaning; a lot of the
+> members of the society don't *truly* believe in the occult, they
+> treat the society as a kind of gentlemen's club where they can meet
+> to discuss science, philosophy, and such matters.  Most people don't
+> progress beyond this outer circle but, those who show true belief,
+> and aptitude, are invited into the inner circle, where they gain
+> access to secret knowledge and to information about the society's
+> activities: archaeological expeditions, restoration of mouldering
+> old tomes, looking into ghost stories, that sort of thing.  With
+> your letter of recommendation, you are immediately admitted into
+> this inner circle.
+>
+> One day you are browsing the parts of the society's library which
+> are open to the outer circle.  There's nothing really about the
+> mythos here, and as you're flicking through a book about headhunter
+> cults in the Amazon basin, a middle-aged black man approaches you,
+> offers you his hand to shake, and greets you.  He introduces himself
+> as Jackson Elias, a member of the society currently in town.
+>
+> **Roll intelligence.**
+
+On a pass, read:
+
+> You recognise his name: it's the name printed on the book you are
+> reading!  You spend a little time talking about the book, and some
+> others he's written.  He says he likes to infiltrate cults if he
+> can, to expose their secrets to the world.  Through your
+> conversation you get the impression that he doesn't really believe
+> in the occult at all, he thinks of these cults as mostly being tools
+> of political and personal power.
+>
+> As he heads off, he tells you to keep an eye out for his next book,
+> which will be about Asian and African death cults.
+
+On a fail, read:
+
+> With a slight smirk, he asks how you're enjoying the book.  You
+> spend a little time talking about it, he recommends a few other
+> books on cults, and says that he's heard the author is planning to
+> write a book on Asian and African death cults next.
+>
+> As he walks away, you close the book, reach towards the shelf to put
+> it away, and spot the name of the author on the cover.  Jackson
+> Elias.  You look up, and see him peeking back at you from the end of
+> the shelves, and as your eyes meet, he nods, turns around, and walks
+> off while chuckling quietly.
+
+Penelope can also spend time with a backstory element to recover some
+sanity.
+
+#### Development phase
+
+Rules for investigator development:
+
+<aside class="highlight">
+
+For each skill checked, roll 1d100.  If you fail, gain 1d10 points in
+it.  Then uncheck the skills.
+
+If a skill reaches 90% or more, gain 2d6 SAN, representing the
+discipline and self-esteem gained by mastering a skill.
+
+</aside>
+
+#### The hook
+
+Read:
+
+> Rachel, during your last month at the hospital, things got a bit
+> weird.  It all began on the day they started building the
+> ampitheatre.
+>
+> The ampitheatre was one of Dr. Berger's ideas: a little stage and
+> some tiered seats, built on the side of the hill, facing a reservoir
+> and the beautiful countryside, where there would be poetry readings,
+> speeches, and plays.  The newspapers had complained about the
+> expense to the taxpayer, but Dr. Berger had fought back by saying
+> that just because the patients of the hospital couldn't integrate
+> with society, they shouldn't be deprived of culture.  And if
+> anything, this would help people to heal.
+>
+> This whole debate was before you arrived, plans were drawn up during
+> your stay, and then one day, early in the last month of your stay, a
+> team of patients who had volunteered to assist with the construction
+> had gone out to start clearing the ground.  After they'd been out
+> there for a few hours, something weird happens.
+>
+> **Roll POW**
+
+On a pass, read:
+
+> You suddenly feel a chill down your spine.
+
+On a fail, read:
+
+> You suddenly feel a strange mental pressure, not unlike when you
+> made contact with the Lord of Many Faces.
+>
+> **Take 1 SAN damage.**
+
+Then read:
+
+> You hear the distinctive sound of a teacup smashing, and look over
+> to see that one of the nurses has stumbled and lost her grip on a
+> tray she was carrying, and one of the other patients looks like he's
+> seen a ghost.  It seems you weren't the only one who felt something.
+>
+> Over the next several nights, you have a strange dream...
+>
+> Every night, the same dream, getting a little further each time, and
+> on the final night, you experience the full thing.
+>
+> > You're outdoors, it's chilly, and there's thick mist, you can't see
+> > more than a couple of meters.  You seem to be on hard dry soil,
+> > surrounded by sparse stalks of tall grass.  You hear a distant voice
+> > calling your name, and you feel drawn towards it.  The mist clings
+> > to you, you almost have to fight through at times.
+> >
+> > Eventually, tired from your struggle, you emerge from the tall
+> > grasses and see a man: tall, gaunt, and dark.  An inverted ankh
+> > blazes on his forehead.  He holds out his hands.  In his left palm
+> > is your face.  In his right palm is a strange, twisted, hourglass.
+> >
+> > The man then brings his hands together, and you feel yourself float
+> > off the ground, up into the sky, and up into space.  You stop before
+> > a collection of monstrous figures: some like twisted humans, some
+> > like animals, others of no particular shape at all.  All of them,
+> > and you, orbit a pulsating ball of yellow energy, which you somehow
+> > recognise as being the man who was calling you.  The ball draws you
+> > in, you become part of it and it becomes part of you, and you see
+> > through different eyes the void of space.  A great triangle appears
+> > in the void, twisted, in a way which reminds you of the hourglass.
+> > You hear the voice say "The price must be paid.  A moment of your
+> > time.  When the time is right."  and you wake up.
+>
+> Despite the strangeness of the dream, it doesn't feel like a
+> nightmare.
+>
+> Things have been getting strange in the hospital too: a lot of
+> people have been discharged, and a lot moved to higher-security
+> wards, used for violent inmates.  One of those moved is a gentle old
+> man you've grown to know during your stay, a Mr. Henry Akeley.  He's
+> suffering from dementia, and forgets things a lot, but is otherwise
+> completely harmless.  One day he just didn't show up in the common
+> room.  And all the staff have said is that he is "too excitable" at
+> the moment.  He didn't have any family left, so your daily chats
+> were one of the few things keeping him going.
+>
+> **Roll intelligence.**
+
+On a pass, read:
+
+> You realise that everyone who has had a recent visitor has been
+> discharged.
+
+Then read:
+
+> Dr. Berger has been acting irritable, and the staff have seemed
+> almost afraid of him.  One day, one of the nurses told you that
+> Dr. Berger wanted to see you in his office.  This is unusual, as
+> previously he visited the people he needed to talk to, and then
+> invited them to his office if it was a private matter.
+>
+> So you went to his office, and he quite bluntly asked you to leave
+> the hospital.  He said you had been treated, and were just taking up
+> space which could be used for new patients.  This is a stark change
+> to his previous attitude, which was to let you stay as long as you
+> felt you were benefiting from it.
+>
+> He had you write a letter with him, right there and then, asking
+> Penelope and Dill to come and take you back to your home as soon as
+> possible.
+>
+> In the several days it took for the letters to be delivered,
+> Penelope and Dill to talk, and to then come to pick you up, the
+> strangeness continued.
+>
+> Now we're going to start the session with Penelope and Dill arriving
+> to collect Rachel.
+
+#### The situation
+
+- Dr. Berger has unwittingly freed a lloigor with the construction of
+  the ampitheatre:
+  - On the site chosen for the ampitheatre was a granite disk bearing
+    an Elder Sign, which was keeping it at bay.
+  - Dr. Berger saw no value in the disk, and had the patients clearing
+    the ground smash it up and carry the pieces away.
+- The lloigor is weak from its long imprisonment:
+  - It then expended almost all of its power to enslave Dr. Berger and
+    to make the staff more obedient to him
+  - It plans to turn the residents into its cult:
+    - A ritual will be held on the New Moon following Rachel's release
+      to feed it with magic points.
+    - Henry Akeley has been chosen as the sacrifice.  The following
+      day, Dr. Berger will announce that he died of a heart attack in
+      his sleep.  He is old, so it won't be suspicious.
+
+#### Handouts
+
+- **Danvers Asylum Superintendent Builds Ampitheatre For Patients**
+
+    Article in the *Salem News*, found by Library Use at the newspaper
+    office, town hall, library, etc.
+
+- **Shine Retires From Danvers Asylum**
+
+    Article in the *Salem News*, found by Library Use at the newspaper
+    office, town hall, library, etc.
+
+- **Dr. Shine's Diary**
+
+    Examination of Dr. Shine's papers in the archives of the Salem
+    Hospital, with access gained by Law, Persuade, Charm, Fast Talk,
+    etc.
+
+- **Death At Danvers Lunatic Asylum**
+
+    Newspaper article on the afternoon following the attack on the
+    investigators.
+
+### Notes
+
+- Penelope and Dill arrive at the asylum to collect Rachel:
+  - Penelope senses a malevolent presence.
+  - Get ushered to Dr. Berger's office by a receptionist:
+    - He sends a nurse to fetch Rachel.
+    - Penelope notices Dr. Berger looks stressed and tired.
+    - He says he's just been a bit overworked lately.
+    - Rachel arrives, he turns the conversation to her release papers.
+    - Penelope and Dill sign the papers, and leave with Rachel.
+- Rachel tells them about the weirdness.
+- They go to check out the construction site:
+  - The water is silvery, but otherwise seems normal.
+- They go to look around and talk to people:
+  - Encounter Chalkman: he's unresponsive and just stares blankly at
+    them.
+  - See two old people talking, Rachel approaches:
+    - Old man knew Henry, he was screaming murder one day and had to
+      be restrained for his safety.
+- Go to do some research:
+  - Dill `->` Danvers Town Hall:
+    - Handout: floorplan.
+    - Learns: bureaucratic details.
+  - Rachel `->` Danvers Library:
+    - Handout: Dr. Shine leaving.
+    - Learns: about Judge Hathorne.
+  - Penelope `->` Silver Twilight Lodge:
+    - Learns: more about Judge Hathorne.
+- Go to Salem:
+  - Penelope remembers some details about Dr. Shine (and that he is
+    dead).
+  - Get into the hospital archives:
+    - Handout: Dr. Shine's notes.
+- Go back to the asylum:
+  - Examine the construction site and find where the disk was.
+  - Go to the reception to ask where they might have put it:
+    Dr. Berger is there, avoid!
+  - Go to the records office:
+    - Dill blags his way in.
+    - Examines their permits to learn what's done with the
+      construction waste (dump off the hill).
+  - Go to the dump:
+    - Dill shoved by an unseen force, almost falls down the hill.
+    - Find a fragment of the disk, dig it out, it's part of an Elder
+      Sign.
+    - Go to the construction site to get some shovels:
+      - See Chalkman.
+      - He tries to grab Rachel, but stops following when she gets too
+        far away.
+      - His blank expression is now anger.
+      - Every time Rachel gets close he tries to grab her, but
+        eventually stops.
+    - Encounter two orderlies at the dump:
+      - Dill fails at fast talking them.
+      - They tell him to leave, and to not wander around the grounds
+        without permission from Dr. Berger.
+- Return that night:
+  - One person watches for patrols, the other two dig.
+  - Get all the pieces out around dawn.
+  - Drive back to the hotel in Danvers.
+- Penelope confronted by Andrew MacBride:
+  - Tells his story.
+  - Disappears into the dawn.
+  - Two nights from now Dr. Berger will use Henry for something!
