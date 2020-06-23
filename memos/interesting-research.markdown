@@ -1,7 +1,8 @@
 ---
 title: Interesting Research
 taxon: research
-date: 2019-02-25
+published: 2017-11-20
+modified: 2020-06-24
 ---
 
 Sources
@@ -25,23 +26,20 @@ Sources
 - [Conference on Systems, Programming, Languages and Applications: Software for Humanity](http://splashcon.org) (SPLASH)
 - [Conference on Programming Language Design and Implementation](http://conf.researchr.org/series/pldi) (PLDI)
 - [Dagstuhl](https://www.dagstuhl.de)
-- [International Conference on Automated Software Engineering](http://ase-conferences.org) (ASA)
-- International Conference on Distributed Computing Systems (ICDCS)
+- [International Conference on Automated Software Engineering](http://ase-conferences.org) (ASE)
 - [International Conference on Functional Programming](http://www.icfpconference.org) (ICFP)
     - [Commercial Users of Functional Programming](http://cufp.org) (CUFP)
     - [Haskell Implementors Workshop](https://wiki.haskell.org/HaskellImplementorsWorkshop) (HIW)
     - [Haskell Symposium / Symposium on Haskell](https://www.haskell.org/haskell-symposium) (Haskell)
-- [International Conference on Runtime Verification](http://runtime-verification.org) (RV)
+- [International Conference on Runtime Verification](https://runtime-verification.github.io) (RV)
 - [International Conference on Software Engineering](http://www.icse-conferences.org) (ICSE)
 - [International Conference on Testing Software and Systems](https://sites.google.com/site/ictssmain/home) (ICTSS)
-- International Conference on Tests and Proofs (TAP)
 - [International Conference on Tools and Algorithms for the Construction and Analysis of Systems](https://tacas.info/) (TACAS)
 - [International Symposium on Distributed Computing](http://www.disc-conference.org/wp) (DISC)
 - [International Symposium on Memory Management](http://conf.researchr.org/series/ismm) (ISMM)
 - [International Symposium on Software Testing and Analysis](http://conf.researchr.org/series/issta) (ISSTA)
 - [Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering](http://www.esec-fse.org) (ESEC/FSE)
 - [Principles and Practice of Parallel Programming](http://conf.researchr.org/series/PPoPP) (PPoPP)
-- South of England Regional Programming Language Seminar (S-REPLS)
 - [Symposium on Principles of Distributed Computing](http://www.podc.org) (PODC)
 - [Symposium on Principles of Programming Languages](http://conf.researchr.org/series/POPL) (POPL)
 
@@ -77,30 +75,41 @@ program verification.
 - **[Shaz Qadeer](https://www.microsoft.com/en-us/research/people/qadeer)**
 - [Adam Betts](http://www.doc.ic.ac.uk/~abetts/)
 - [Akash Lal](https://www.microsoft.com/en-us/research/people/akashl)
-- Bengt Jonsson
+- [Azalea Raad](http://www.soundandcomplete.org/)
+- [Bengt Jonsson](http://user.it.uu.se/~bengt/)
+- [Burcu Kulahcioglu Ozkan](https://dl.acm.org/profile/87958953157)
 - [Cheng Huang](http://research.microsoft.com/en-us/um/people/chengh)
+- [Christopher Lidbury](http://multicore.doc.ic.ac.uk/people/christopher-lidbury/)
 - [Colin Runciman](https://www-users.cs.york.ac.uk/colin)
 - [Cormac Flanagan](https://users.soe.ucsc.edu/~cormac)
 - [George Necula](https://people.eecs.berkeley.edu/~necula/)
 - [Jacob Burnim](https://www.burn.im/)
 - [Jeroen Ketema](http://www.ketema.eu)
 - John Erickson
-- Katherine E. Coons
+- [Katherine E. Coons](https://dl.acm.org/profile/81381599031)
 - [Kathryn S. McKinley](http://www.cs.utexas.edu/users/mckinley)
 - Magnus Lång
 - Mahmoud Abdelrasoul
 - [Markus Kusano](https://markus-kusano.github.io)
 - [Matt McCutchen](http://web.mit.edu/rmccutch/www)
 - [Michael Emmi](http://michael-emmi.github.io)
+- Michalis Kokologiannakis
+- [Milo M. K. Martin](https://www.cis.upenn.edu/~milom/)
+- [Mohamed Faouzi Atig](http://www.it.uu.se/katalog/mohat117)
 - [Naling Zhang](https://sites.google.com/site/nalingzhang/vt)
 - [Pantazis Deligiannis](http://pdeligia.github.io)
+- [Parosh Aziz Abdulla](http://user.it.uu.se/~parosh/)
 - [Paul Thomson](http://www.doc.ic.ac.uk/~pt1110/)
 - [Pravesh Kothari](http://www.cs.princeton.edu/~kothari)
-- Rashmi Mudduluru
+- [Rashmi Mudduluru](https://sites.google.com/view/rashmi/home)
+- [Rupak Majumdar](https://people.mpi-sws.org/~rupak/)
 - [Santosh Nagarakatte](https://www.cs.rutgers.edu/~santosh.nagarakatte)
 - [Shuo Chen](https://www.microsoft.com/en-us/research/people/shuochen)
+- Simin Oraee
 - Stavros Aronis
 - [Tayfun Elmas](https://sites.google.com/site/tayfunelmas/)
+- [Tuan Phong Ngo](https://phongngo.github.io/)
+- [Viktor Vafeiadis](https://dblp.uni-trier.de/pers/v/Vafeiadis:Viktor.html)
 - [Wolfram Schulte](https://www.microsoft.com/en-us/research/people/schulte)
 - [Zvonimir Rakamaric](http://www.zvonimir.info)
 
@@ -139,6 +148,10 @@ program verification.
 - **Delay-bounded Scheduling** ([pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/msr-tr-2010-123.pdf))<br>
     Michael Emmi, Shaz Qadeer, and Zvonimir Rakamaric.<br>
     In *Symposium on Principles of Programming Languages* (POPL). 2011.
+
+- **Multicore Acceleration of Priority-Based Schedulers for Concurrency Bug Detection** ([pdf](https://dl.acm.org/doi/10.1145/2345156.2254128))<br>
+    Santosh Nagarakatte, Sebastian Burckhardt, Milo M. K. Martin, and Madanlal Musuvathi.<br>
+    In *ACM SIGPLAN Notices*. June 2012.
 
 - **Bounded Partial-order Reduction** ([pdf](http://www.cs.utexas.edu/users/mckinley/papers/bpor-oopsla-2013.pdf))<br>
     Katherine E. Coons, Madan Musuvathi, and Kathryn S. McKinley.<br>
@@ -180,6 +193,22 @@ program verification.
     Stavros Aronis, Bengt Jonsson, Magnus Lång, and Konstantinos Sagonas.<br>
     In *International Conference on Tools and Algorithms for the Construction and Analysis of Systems* (TACAS). 2018.
 
+- **Optimal Stateless Model Checking under the Release-Acquire Semantics** ([pdf](http://user.it.uu.se/~bengt/Papers/Full/oopsla18.pdf))<br>
+    Parosh Aziz Abdulla, Mohamed Faouzi Atig, Bengt Jonsson, Tuan Phong Ngo.<br>
+    In *International Conference on Object Oriented Programming Systems, Languages & Applications* (OOPSLA). 2018.
+
+- **Effective lock handling in stateless model checking** ([pdf](https://dl.acm.org/doi/10.1145/3360599))
+    Michalis Kokologiannakis, Azalea Raad, and Viktor Vafeiadis.<br>
+    In *International Conference on Object Oriented Programming Systems, Languages & Applications* (OOPSLA).  2019.
+
+- **Sparse record and replay with controlled scheduling** ([pdf](https://dl.acm.org/doi/10.1145/3314221.3314635))<br>
+    Christopher Lidbury and Alastair F Donaldson.<br>
+    In *Conference on Programming Language Design and Implementation* (PLDI). 2019.
+
+- **Trace aware random testing for distributed systems** ([pdf](https://dl.acm.org/doi/10.1145/3360606))
+    Burcu Kulahcioglu Ozkan, Rupak Majumdar, and Simin Oraee.<br>
+    In *International Conference on Object Oriented Programming Systems, Languages & Applications* (OOPSLA).  2019.
+
 #### My papers
 
 - **Déjà Fu: A Concurrency Testing Library for Haskell** ([pdf](https://www.barrucadu.co.uk/publications/dejafu-hs15.pdf))<br>
@@ -192,7 +221,7 @@ program verification.
 - Conference on File and Storage Technologies (FAST)
 - Conference on Programming Language Design and Implementation (PLDI)
 - International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
-- International Conference on Automated Software Engineering (ASA)
+- International Conference on Automated Software Engineering (ASE)
 - International Conference on Object Oriented Programming Systems, Languages & Applications (OOPSLA, now SPLASH)
 - Symposium on Principles and Practice of Parallel Programming (PPoPP)
 - Symposium on Principles of Programming Languages (POPL)
@@ -208,27 +237,45 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 #### People
 
 - **[Alex Groce](http://www.cs.cmu.edu/~agroce)**
+- **[David R. MacIver](https://www.drmaciver.com/)**
+- **[John Regehr](http://www.cs.utah.edu/~regehr)**
 - **[Koen Claessen](http://www.cse.chalmers.se/~koen/)**
 - **[Nicholas Smallbone](http://www.cse.chalmers.se/~nicsma/)**
 - **[Rudy Braquehais](https://matela.com.br/)**
-- Gabriel Ferns
-- Javier Paris
-- Maximilian Algehed
-- Arpit Christi
+- [Alistair F. Donaldson](http://www.imperial.ac.uk/people/alastair.donaldson)
+- [Andrea Mattavelli](https://andreamattavelli.github.io/)
+- [Arpit Christi](https://dblp.org/pers/c/Christi:Arpit.html)
+- [August Shi]()http://mir.cs.illinois.edu/~awshi2/
 - [Aws Albarghouthi](http://pages.cs.wisc.edu/~aws/)
+- [Benjamin C. Pierce](https://www.cis.upenn.edu/~bcpierce/)
 - [Calvin Smith](http://pages.cs.wisc.edu/~cjsmith/)
+- [Caroline Lemieux](https://www.carolemieux.com/)
 - Chaoqiang Zhang
 - [Colin Runciman](https://www-users.cs.york.ac.uk/colin/)
+- [Darko Marinov](https://dblp.uni-trier.de/pers/m/Marinov:Darko.html)
 - [Eric Eide](http://www.cs.utah.edu/~eeide)
+- Gabriel Ferns
+- [Giovanni Denaro](https://dl.acm.org/profile/81100394655)
+- Javier Paris
 - [John Derrick](http://staffwww.dcs.shef.ac.uk/people/J.Derrick/)
 - [John Hughes](http://www.cse.chalmers.se/~rjmh/)
-- [John Regehr](http://www.cs.utah.edu/~regehr)
+- Josie Holmes
 - [Kirill Bogdanov](http://staffwww.dcs.shef.ac.uk/people/K.Bogdanov/)
+- [Koushik Sen](https://people.eecs.berkeley.edu/~ksen)
+- [Leonidas Lampropoulos](https://lemonidas.github.io/)
+- [Lingming Zhang](https://personal.utdallas.edu/~lxz144130/)
+- [Mauro Pezze](https://www.inf.usi.ch/faculty/pezze/)
+- [Maximilian Algehed](https://scholar.google.se/citations?user=KGd-EW8AAAAJ&hl=en)
+- [Michael Hicks](http://www.cs.umd.edu/~mwh/)
+- [Mike Papadakis](https://sites.google.com/site/mikepapadakis/home)
 - [Moa Johansson](http://www.cse.chalmers.se/~jomoa/)
 - [Mohammad Amin Alipour](http://alipourm.github.io)
 - [Neil Walkinshaw](http://www2.le.ac.uk/departments/informatics/people/neil-walkinshaw)
+- [Pietro Braione](https://sites.google.com/site/pietrobraione/)
 - [Rahul Gopinath](https://rahul.gopinath.org)
+- [Rohan Padhye](https://rohan.padhye.org/)
 - [Yang Chen](http://www.cs.utah.edu/~chenyang)
+- [Yves Le Le Traon](https://wwwfr.uni.lu/snt/people/yves_le_traon)
 
 #### Papers
 
@@ -264,6 +311,26 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
     Rudy Braquehais and Colin Runciman.<br>
     In *Symposium on Haskell* (Haskell). 2017.
 
+- **Coverage guided, property based testing** ([pdf](https://dl.acm.org/doi/10.1145/3360607))<br>
+    Leonidas Lampropoulos, Michael Hicks, and Benjamin C. Pierce.<br>
+    In *International Conference on Object Oriented Programming Systems, Languages & Applications* (OOPSLA). 2013.
+
+- **An Extensible, Regular-Expression-Based Tool for Multi-Language Mutant Generation** ([pdf](https://agroce.github.io/icse18t.pdf))<br>
+    Alex Groce, Josie Holmes, Darko Marinov, August Shi, and Lingming Zhang.<br>
+    In *International Conference on Software Engineering* (Tool Demonstrations) (ICSE). 2018.
+
+- **SUSHI: A Test Generator for Programs with Complex Structured Inputs** ([pdf](https://andreamattavelli.github.io/papers/18-icse-demo.pdf))<br>
+    Pietro Braione, Giovanni Denaro, Andrea Mattavelli, Mauro Pezze.<br>
+    In *International Conference on Software Engineering* (Tool Demonstrations) (ICSE). 2018.
+
+- **Semantic Fuzzing with Zest** ([pdf](https://dl.acm.org/doi/10.1145/3293882.3330576))<br>
+    Rohan Padhye, Caroline Lemieux, Koushik Sen, Mike Papadakis, and Yves Le Le Traon.<br>
+    In *International Symposium on Software Testing and Analysis* (ISSTA). 2000.
+
+- **Test-Case Reduction via Test-Case Generation: Insights From the Hypothesis Reducer** ([pdf](https://drmaciver.github.io/papers/reduction-via-generation-preview.pdf))<br>
+    David R. MacIver and Alastair F. Donaldson<br>
+    In *European Conference on Object-Oriented Programming* (ECOOP). 2020.
+
 #### My papers
 
 - **Cheap Remarks about Concurrent Programs** ([pdf](https://www.barrucadu.co.uk/publications/coco-flops18.pdf))<br>
@@ -272,7 +339,10 @@ interesting ones. By reading the output, a programmer can (a) add good tests to 
 
 #### Venues
 
+- European Conference on Object-Oriented Programming (ECOOP)
 - Haskell Symposium (Haskell)
+- International Conference on Object Oriented Programming Systems, Languages & Applications (OOPSLA, now SPLASH)
+- International Conference on Software Engineering (ICSE)
 - International Conference on Testing Software and Systems (ICTSS)
 - International Conference on Tests and Proofs (TAP)
 - International Symposium on Software Testing and Analysis (ISSTA)
@@ -290,20 +360,102 @@ This overlaps heavily with **test case generation**, but differs in motivation.
 #### People
 
 - **[Alex Groce](http://www.cs.cmu.edu/~agroce)**
+- **[John Regehr](http://www.cs.utah.edu/~regehr)**
+- [Ákos Kiss](http://www.inf.u-szeged.hu/~akiss/)
+- [Andreas Zeller](https://andreas-zeller.info/)
+- Chaoqiang Zhang
+- [Chengnian Sun](https://cs.uwaterloo.ca/people-profiles/chengnian-sun)
+- [Ghassan Misherghi](http://www.gmw6.com/)
+- [Jibesh Patra](https://dl.acm.org/profile/99659215946)
 - Josie Holmes
 - Kevin Kellar
+- [Michael Pradel](http://software-lab.org/people/Michael_Pradel.html)
+- [Mohammed Amin Alipour](https://www.aminalipour.com/)
+- [Qirun Zhang](https://helloqirun.github.io/)
+- [Ralf Hildebrandt](https://www.arschkrebs.de/)
+- Renáta Hodován
+- [Sai Zhang](http://zhang-sai.github.io/)
+- Satia Herfert
+- [Tianxiao Gu](http://gutianxiao.com/)
+- Yang Chen
+- [Yuanbo Li](https://www.scs.gatech.edu/people/yuanbo-li)
+- [Zhendong Su](https://people.inf.ethz.ch/suz/)
 
 #### Papers
+
+- **Simplifying failure-inducing input** ([pdf](https://dl.acm.org/doi/10.1145/347324.348938))<br>
+    Ralf Hildebrandt and Andreas Zeller.<br>
+    In *International Symposium on Software Testing and Analysis* (ISSTA). 2000.
+
+- **HDD: Hierarchical Delta Debugging** ([pdf](https://dl.acm.org/doi/10.1145/1134285.1134307))<br>
+    Ghassan Misherghi and Zhendong Su.<br>
+    In *International Conference on Software Engineering* (ICSE). 2006.
 
 - **Practical Semantic Test Simplification** ([pdf](https://zhang-sai.github.io/pdf/zhang-icse13-nier.pdf))<br>
     Sai Zhang.<br>
     In *International Conference on Software Engineering* (ICSE). 2013.
 
+- **Cause Reduction for Quick Testing** ([pdf](http://www.cs.utah.edu/~regehr/papers/icst14.pdf))<br>
+    Alex Groce, Mohammed Amin Alipour, Chaoqiang Zhang, Yang Chen, and John Regehr.<br>
+    In *International Conference on Software Testing, Verification and Validation* (ICST). 2014.
+
+- **Practical Improvements to the Minimizing Delta Debugging Algorithm** ([pdf](https://www.scitepress.org/Link.aspx?doi=10.5220%2f0005988602410248))<br>
+    Renáta Hodován and Ákos Kiss<br>
+    In *International Joint Conference on Software Technologies* (ICSOFT). 2016.
+
 - **One Test to Rule Them All** ([pdf](https://www.cefns.nau.edu/~adg326/issta17.pdf))<br>
     Alex Groce, Josie Holmes, and Kevin Kellar.<br>
     In *International Symposium on Software Tetsing and Analysis* (ISSTA). 2017.
 
+- **Automatically reducing tree-structured test inputs** ([pdf](https://dl.acm.org/doi/10.5555/3155562.3155669))<br>
+    Satia Herfert, Jibesh Patra, and Michael Pradel.<br>
+    In *International Conference on Automated Software Engineering* (ASE). 2017.
+
+- **Perses: syntax-guided program reduction** ([pdf](https://dl.acm.org/doi/10.1145/3180155.3180236))<br>
+    Chengnian Sun, Yuanbo Li, Qirun Zhang, Tianxiao Gu, and Zhendong Su.<br>
+    In *International Conference on Software Engineering* (ICSE). 2018.
+
 #### Venues
 
+- International Conference on Automated Software Engineering (ASE)
 - International Conference on Software Engineering (ICSE)
+- International Conference on Software Testing, Verification and Validation (ICST)
+- International Joint Conference on Software Technologies (ICSOFT)
 - International Symposium on Software Testing and Analysis (ISSTA)
+
+
+How to review this memo
+-----------------------
+
+1. Check when the last change was.  Hopefully I was kind enough at the
+   time to note down the latest edition of all the conferences.
+
+2. Look through new conference proceedings.  Pick out papers which
+   have interesting titles.
+
+3. Examine the list of papers[^htrap].  Throw away those which don't
+   fit, record those which do.
+
+4. Look through people's websites.  Again pick out papers with
+   interesting titles.
+
+5. If super keen, search for some keywords on Google Scholar, or look
+   up reverse citations of papers in these lists.
+
+6. Look through references of papers newly added for more candidate
+   papers, people, and conferences.  Prune by titles, then examine,
+   then add.  Repeat until I get bored.
+
+7. Decide if anyone needs to be bolded (or unbolded).
+
+[^htrap]: There are a lot of papers, it would take an inordinate
+  amount of time for me to carefully read every single one which looks
+  interesting.  But usually it's good enough to just read enough to
+  get the gist, and then read individual papers more closely as time,
+  interest, and need permit. <br><br>
+  For this initial examination, I do something like the first two
+  passes in [How to Read a Paper][].  My second pass is usually a skim
+  reading, unless the paper really grabs me; I save a proper second
+  pass for when I read the paper more fully.
+
+[How to Read a Paper]: https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
