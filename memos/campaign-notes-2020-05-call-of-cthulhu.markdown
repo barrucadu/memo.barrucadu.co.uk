@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-06-14
+modified: 2020-06-24
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -105,9 +105,15 @@ away due to accidents.  All of the current Avatars and Servants were
 created during Gla'aki's current period of wakefulness, which has
 lasted for 90 years.
 
+There are two remaining shards of the crystal prison.  If these are
+taken to Gla'aki (or an Avatar) he can free himself.  They're in
+[Pingualuit crater][] in Quebec and [Pantasma][] in Nicaragua.
+
 [Loch Morar]: https://en.wikipedia.org/wiki/Loch_Morar
 [Derwentwater]: https://en.wikipedia.org/wiki/Derwentwater
 [Lough Leane]: https://en.wikipedia.org/wiki/Lough_Leane
+[Pingualuit crater]: https://en.wikipedia.org/wiki/Pingualuit_crater
+[Pantasma]: https://en.wikipedia.org/wiki/Pantasma
 
 ### Notable NPCs
 
@@ -181,6 +187,50 @@ react with genuine bafflement.
 
   Dr. Armitage knew Howard wouldn't have access to similar texts in
   the US branch of the STL due to his low status.
+
+### Questions: Dealing with Gla'aki
+
+- **How can they solve the Gla'aki problem?**
+
+  Surround him with Elder Signs so he can't control his Servants
+  (they'll become wild and animalistic without his will directing
+  them).
+
+  Or, surround him with a single Eye of Light and Darkness.
+
+  Or, surround the crystals with Elder Signs so his Servants can't
+  reach them (but Gla'aki will still be able to spread his cult, and
+  will eventually be able to manipulate people to destroy the signs).
+
+- **How can the Elder Sign solution be signalled?**
+
+  Have Penelope's Gla'aki sense get cut off by Elder Signs.
+
+- **Why didn't Penelope notice this when she visited Danvers or the UK
+  STL before?**
+
+  The sense is only gone in the immediate area around the Elder Sign.
+  A mile away it begins to fade and half a mile away it is completely
+  gone.  The sense is in the background, so she doesn't notice it
+  fading if her mind is on other things.  This is not a great answer,
+  because I didn't think of it before getting Elder Signs involved;
+  we'll just have to accept this small retcon.
+
+- **How many Elder Signs would it take to surround...**
+
+    - Loch Morar: 25
+    - Pingualuit crater: 5
+    - Pantasma: 20
+
+- **That's 250 POW to cut off Gla'aki!  How can they get that much?**
+
+  Unknown!  Figure this out later!
+
+- **How can they get the Eye of Light and Darkness ritual?**
+
+  They can't.  They have to leave the Gla'aki problem unsolved and
+  come back to it after learning the ritual during Masks of
+  Nyarlathotep.
 
 
 Session 1, 2020-05-03
@@ -628,10 +678,6 @@ If any of the clues are missed, the STL can supply this information if
 the players can gain Carl Stanford's confidence.  Dr. Armitage will
 suggest becoming acquainted with Carl regardless, as Carl is very
 knowledgeable.
-
-[Pingualuit crater]: https://en.wikipedia.org/wiki/Pingualuit_crater
-[Pantasma]: https://en.wikipedia.org/wiki/Pantasma
-
 
 ### Notes
 
