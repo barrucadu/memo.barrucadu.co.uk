@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-06-13
+modified: 2020-06-25
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -376,11 +376,6 @@ Book Series
 |                        | `9781421542775` | Volume 22: The Beginning of Justice                 |
 | [21st Century Boys][]  | `9781421543260` | Volume 1: The Death of "Friend"                     |
 |                        | `9781421543277` | Volume 2: 20th Century Boys                         |
-| Black Wings of Cthulhu | `9780857687845` | Volume 2                                            |
-|                        | `9781783295715` | Volume 3                                            |
-|                        | `9781783295739` | Volume 4                                            |
-|                        | `9781785656910` | Volume 5                                            |
-|                        | `9781785656934` | Volume 6                                            |
 | [Culture][]            | `1857231384`    | Consider Phlebas                                    |
 |                        | `0356196690`    | The State of the Art                                |
 |                        | `1857237633`    | Inversions                                          |
@@ -388,10 +383,7 @@ Book Series
 |                        | `1841494178`    | Matter                                              |
 |                        | `1841498939`    | Surface Detail                                      |
 |                        | `9780356501505` | The Hydrogen Sonata                                 |
-| [Farseer][]            | `9780007562275` | Assassin's Quest                                    |
-| [Malazan][]            | `9780553813111` | Deadhouse Gates                                     |
-|                        | `9780553813128` | Memories of Ice                                     |
-|                        | `9780553813135` | House of Chains                                     |
+| [Malazan][]            | `9780553813135` | House of Chains                                     |
 |                        | `9780553813142` | Midnight Tides                                      |
 |                        | `9780553813159` | The Bonehunters                                     |
 |                        | `9780553813166` | Reaper's Gale                                       |
@@ -406,17 +398,14 @@ Book Series
 |                        | `9781473217423` | Mona Lisa Overdrive                                 |
 | [Overlord][]           |                 | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
 |                        |                 | Volume 14: The Witch of the Falling Kingdom         |
-| [Riftwar][]            | `9780007509119` | A Darkness at Sethanon                              |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
 [Culture]: https://en.wikipedia.org/wiki/Culture_series
-[Farseer]: https://en.wikipedia.org/wiki/The_Farseer_Trilogy
 [Malazan]: https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen
 [Nana]: https://en.wikipedia.org/wiki/Nana_(manga)
 [Neuromancer]: https://en.wikipedia.org/wiki/Neuromancer
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
-[Riftwar]: https://en.wikipedia.org/wiki/The_Riftwar_Saga
 
 
 Book Series (candidates)
@@ -490,10 +479,7 @@ Roleplaying Games
 | [Golden Sky Stories][]                  | Star Line Publishing          |
 | [Mythras][]                             | Pete Nash & Lawrence Whitaker |
 | [Mythras Companion][]                   | Pete Nash et al.              |
-| [Pulp Cthulhu][]                        | Mike Mason et al.             |
 | [The Two-Headed Serpent][]              | Paul Fricker et al.           |
-| [King Arthur Pendragon][]               | Greg Stafford                 |
-| [RuneQuest: Roleplaying in Glorantha][] | Greg Stafford                 |
 | [Dead Light and Other Dark Turns][]     | Alan Bligh et al.             |
 | [Gateways to Terror][]                  | Leigh Carr et al.             |
 | [Ars Magica][]                          | Atlas Games                   |
@@ -508,10 +494,7 @@ Roleplaying Games
 [Golden Sky Stories]: https://www.drivethrurpg.com/product/118784/Golden-Sky-Stories
 [Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/?MATCH=1
 [Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/?MATCH=1
-[Pulp Cthulhu]: https://www.chaosium.com/pulp-cthulhu-hardcover/
 [The Two-Headed Serpent]: https://www.chaosium.com/the-two-headed-serpent-hardcover/
-[King Arthur Pendragon]: https://www.chaosium.com/king-arthur-pendragon-core-rule-book-5-2-edition-hardcover/
-[RuneQuest: Roleplaying in Glorantha]: https://www.chaosium.com/runequest-roleplaying-in-glorantha-slipcase-set/
 [Dead Light and Other Dark Turns]: https://www.chaosium.com/dead-light-and-other-dark-turns/
 [Gateways to Terror]: https://www.chaosium.com/gateways-to-terror/
 [Ars Magica]: https://www.atlas-games.com/product_tables/AG0205
@@ -531,9 +514,7 @@ Roleplaying Games
 | `9780981884028` | Hamlet's Hit Points                                            | Robin D. Laws         |
 | `9781434824592` | Play Unsafe: How Improvisation Can Change The Way You Roleplay | Graham Walmsley       |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell          |
-| `9781936781119` | Kobold Guide to Worldbuilding                                  | Wolfgang Bauer et al. |
 | `9781936781034` | Kobold Guide to Game Design                                    | Wolfgang Bauer et al. |
-| `9781726631822` | Return of the Lazy Dungeon Master                              | Michael Shea          |
 
 
 Computer Science, Programming, + Digital Culture
@@ -607,7 +588,6 @@ Miscellaneous
 |----------------:+-----------------------------------------------------------------------------------------------------------------------+-----------------------|
 | `9780356506142` | The Wheel of Time Companion                                                                                           | Robert Jordan         |
 | `9780199549740` | The Old English Baron                                                                                                 | Clara Reeve           |
-| `9780008108588` | The Once and Future King                                                                                              | T. H. White           |
 | `9789814287111` | Algebraic Models For Accounting Systems                                                                               | Cruz Rambaud Salvador |
 | `9780465026562` | Godel, Escher, Bach: An Eternal Golden Braid                                                                          | Douglas R. Hofstadter |
 | `9780343546373` | An Encyclopædia Of Occultism                                                                                          | Lewis Spence          |
@@ -615,7 +595,6 @@ Miscellaneous
 | `9780262528917` | Building Successful Online Communities: Evidence-Based Social Design                                                  | Ribert E. Kraut       |
 | `9780316362658` | The Illustrated Art of Manliness                                                                                      | Brett McKay           |
 | `9781447263401` | Last Days                                                                                                             | Adam Nevill           |
-| `9781509883448` | The Ritual                                                                                                            | Adam Nevill           |
 | `9780765318145` | Anvil of Stars                                                                                                        | Greg Bear             |
 | `9780586217467` | The Mote in God's Eye                                                                                                 | Larry Niven           |
 | `9780141191447` | The Haunting of Hill House                                                                                            | Shirley Jackson       |
@@ -640,7 +619,6 @@ Miscellaneous
 | `9781609807450` | Things to Do When You're Goth in the Country And Other Stories                                                        | Chavisa Woods         |
 | `9780765333629` | The Weird                                                                                                             | Jeff VanderMeer       |
 | `9781892391551` | The New Weird                                                                                                         | Jeff VanderMeer       |
-| `9780140422078` | The Faerie Queene                                                                                                     | Edmund Spenser        |
 | `9781585678259` | Islandia                                                                                                              | Austin Tappan Wright  |
 | `9781402780035` | The Sign of the Four                                                                                                  | I. N. J. Culbard      |
 | `9781906838058` | The Valley of Fear                                                                                                    | I. N. J. Culbard      |
@@ -673,7 +651,6 @@ Miscellaneous
 | `9780765350374` | Elantris                                                                                                              | Brandon Sanderson     |
 | `9780345497529` | The City & The City                                                                                                   | China Mieville        |
 | `9780345524256` | Midnight Riot                                                                                                         | Ben Aaronovitch       |
-| `9780199555246` | The Nun                                                                                                               | Denis Diderot         |
 
 
 Ideas
