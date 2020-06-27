@@ -1,11 +1,39 @@
 ---
 title: Game I would like to run
 taxon: general-games
-published: 2020-06-06
+published: 2020-06-27
 ---
 
 This is a collection of campaigns I think I would enjoy running, and
 systems I would like to run them in.  This is not an exhaustive list.
+
+
+The Big City
+------------
+
+The Free City of Emagar, the Jewel of the North, is the greatest city
+in the world.  Home to almost a million people, built up over
+thousands of years, and surrounded by farms and villages for miles on
+end.  The city is ruled by a council, though the true power lies with
+the guilds, the companies, and the priesthoods.
+
+It is a city of great wealth... and great poverty.  Between the
+opulent temples and palaces, there are entire districts of slums,
+where people live in squalid tenements and every day is a struggle to
+survive.  Crime is rampant, though the City Guard only care if the
+wealthy get caught up in it.
+
+**System:** I'm flexible, there are a few which would work.
+
+**Setting:** dungeonpunk set entirely within the Free City of Emagar
+and its environs.
+
+**Player Buy-in:** you have to be outside of the establishment in some
+way: maybe you hate the inequality and want to improve the lot of the
+common man, maybe you want to seize power for yourself, maybe you're a
+gang of criminals exploiting the situation, or even something else
+entirely.  This will be a political game, with lots of factions to get
+mixed up in.
 
 
 The Guild of Adventurers
@@ -42,6 +70,23 @@ Guild will supply plot hooks, should you wish to take them, but I
 expect the game to become more self-directed over time.  There will be
 opportunity to get mixed up with politics---both internal and
 external---if you want that.
+
+
+Masks of Nyarlathotep
+---------------------
+
+Your good friend Jackson Elias calls for your help with a telegram
+scarce on details.  Something about the ill-fated Carlyle Expedition
+of 1920, where everyone ended up dead.  He said he's found something.
+
+**System:** Call of Cthulhu
+
+**Setting:** 1920s
+
+**Player Buy-in:** this is a published non-linear campaign where
+you'll be following clues around the world to get to the bottom of
+things.  It's a *very long* campaign (1.5 to 2 years play-time), and
+you'll likely have characters die several times.
 
 
 Worldbuilding Deep Dive
