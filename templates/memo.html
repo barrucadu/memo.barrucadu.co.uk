@@ -1,42 +1,44 @@
 {% extends "_layout.html" %}
 {% block itemtype %}BlogPosting{% endblock %}
 {% block sidebar %}
-{% if superseded_by is defined %}
-<div class="meta-message">
-  <p>This memo is <strong>superseded</strong>.  It has been replaced by <a href="{{ superseded_by.slug|e }}.html">{{ superseded_by.title|e }}</a>.</p>
+<div class="sidebar-sticky">
+  {% if superseded_by is defined %}
+  <div class="meta-message">
+    <p>This memo is <strong>superseded</strong>.  It has been replaced by <a href="{{ superseded_by.slug|e }}.html">{{ superseded_by.title|e }}</a>.</p>
+  </div>
+  {% endif %}
+
+  <div>
+    <dl class="sidebar-metadata">
+      <dt class="sidebar-metadata-label">First published:</dt>
+      <dd class="sidebar-metadata-value"><time itemprop="datePublished" content="{{ published_iso|e }}" datetime="{{ published_iso|e }}">{{ published_pp|e }}</time></dd>
+      {% if published_iso != modified_iso %}
+      <dt class="sidebar-metadata-label">Last updated:</dt>
+      <dd class="sidebar-metadata-value"><time itemprop="dateModified" content="{{ modified_iso|e }}" datetime="{{ modified_iso|e }}">{{ modified_pp|e }}</time></dd>
+      {% endif %}
+      <dt class="sidebar-metadata-label">Taxon:</dt>
+      <dd class="sidebar-metadata-value"><a href="{{ taxon_dir|e }}{{ taxon.slug|e }}.html">{{ taxon.long_name|e }}</a></dd>
+      {% if has_tags %}
+      <dt class="sidebar-metadata-label">Tags:</dt>
+      <dd class="sidebar-metadata-value">
+        {% for tag in tags %}
+        <a href="{{ tag_dir|e }}{{ tag.slug|e }}.html">{{ tag.name|e }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+      </dd>
+      {% endif %}
+    </dl>
+  </div>
+
+  {% if toc is defined %}
+  <ol class="navigation-list">
+    {% for link in toc %}
+    <li class="navigation-list-item"><a href="{{ url|e }}#{{ link.anchor|e }}">{{ link.title|e }}</a></li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+
+  <span class="back-link">Back to <a href="">all memos</a>.</span>
 </div>
-{% endif %}
-
-<div>
-  <dl class="sidebar-metadata">
-    <dt class="sidebar-metadata-label">First published:</dt>
-    <dd class="sidebar-metadata-value"><time itemprop="datePublished" content="{{ published_iso|e }}" datetime="{{ published_iso|e }}">{{ published_pp|e }}</time></dd>
-    {% if published_iso != modified_iso %}
-    <dt class="sidebar-metadata-label">Last updated:</dt>
-    <dd class="sidebar-metadata-value"><time itemprop="dateModified" content="{{ modified_iso|e }}" datetime="{{ modified_iso|e }}">{{ modified_pp|e }}</time></dd>
-    {% endif %}
-    <dt class="sidebar-metadata-label">Taxon:</dt>
-    <dd class="sidebar-metadata-value"><a href="{{ taxon_dir|e }}{{ taxon.slug|e }}.html">{{ taxon.long_name|e }}</a></dd>
-    {% if has_tags %}
-    <dt class="sidebar-metadata-label">Tags:</dt>
-    <dd class="sidebar-metadata-value">
-      {% for tag in tags %}
-      <a href="{{ tag_dir|e }}{{ tag.slug|e }}.html">{{ tag.name|e }}</a>{% if not loop.last %},{% endif %}
-      {% endfor %}
-    </dd>
-    {% endif %}
-  </dl>
-</div>
-
-{% if toc is defined %}
-<ol class="navigation-list">
-  {% for link in toc %}
-  <li class="navigation-list-item"><a href="{{ url|e }}#{{ link.anchor|e }}">{{ link.title|e }}</a></li>
-  {% endfor %}
-</ol>
-{% endif %}
-
-<span class="back-link">Back to <a href="">all memos</a>.</span>
 {% endblock %}
 {% block body %}
 <header>
