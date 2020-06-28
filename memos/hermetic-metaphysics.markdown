@@ -1,5 +1,6 @@
 ---
 title: Metaphysics for Hermetic Magic
+taxon: general-games
 tags: ars magica
 published: 2019-09-22
 ---
