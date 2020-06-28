@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-06-24
+modified: 2020-06-28
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -40,29 +40,13 @@ Player characters
   is bound in a type of leather Penelope has not been able to
   identify.
 
-- **Revelations of Gla'aki, vol. 1:** found in Howard's study, beneath
-  a false section of flooring.  An encoded telegram with it says it
-  was lent to Howard by Dr. Armitage.  One of 9 volumes.
+- **Code book:** found in a safe in Howard's study.  A key to have an
+  encrypted telegram exchange with Dr. Armitage.
 
-  Describes, in a high level of detail: Gla'aki (along with an
-  illustration: a large oval creature rising from a lake and covered
-  in spines); its arrival on Earth (trapped in a crystal prison, which
-  fell to the Earth and shattered, trapping Gla'aki here until the
-  shards can be destroyed); its lifecycle (dormant for centuries,
-  wakes up occasionally); the duty of the cult (to grow populous and
-  widespread enough to acquire all the shards and to free Gla'aki);
-  and their motivation (eternal life, and to ascend to the stars with
-  their god).
+- **Copious notes on the Revelations of Gla'aki:** made during their
+  stay with Dr. Armitage.
 
-  Also contains a ritual to contact Gla'aki.
-
-- **Signet ring:** found in a safe in Howard's study.  A silver signet
-  ring with a design showing a country house and the full moon.
-
-- **Code book:** found in a safe in Howard's study.  A key to decode
-  his telegram exchange with Dr. Armitage.
-
-## Spells
+### Spell list
 
 - **Known spells:**
   - Penelope:
@@ -70,9 +54,27 @@ Player characters
   - Rachel:
     - Contact Nyarlathotep
     - Shrivelling
+    - Elder Sign
 
-- **Spell notes:**
-  - Elder Sign
+
+Notable NPCs
+------------
+
+- **William and Robert Brophy:** Servants of Gla'aki, on the loose
+  somewhere in New England with an Avatar of Gla'aki.
+
+- **Howard Carter:** contact from Penelope's criminal days, who poses
+  as an author.  Was investigating the spines for Penelope, later
+  found dead.  Seems he knows more about this sort of thing than
+  Penelope initially suspected.
+
+- **Dr. Clayton Armitage:** contact of Howard's, he knows something
+  about the spines and their power.  Leads the "UK branch" of the
+  Silver Twilight Lodge, though it's just a country house with a
+  handful of other members.
+
+- **Carl Stanford:** leader of the Silver Twilight Lodge.  "Carl" and
+  "the Lodge" were mentioned in Howard and Dr. Armitage's telegrams.
 
 
 Lore
@@ -114,24 +116,6 @@ taken to Gla'aki (or an Avatar) he can free himself.  They're in
 [Lough Leane]: https://en.wikipedia.org/wiki/Lough_Leane
 [Pingualuit crater]: https://en.wikipedia.org/wiki/Pingualuit_crater
 [Pantasma]: https://en.wikipedia.org/wiki/Pantasma
-
-### Notable NPCs
-
-- **William and Robert Brophy:** Servants of Gla'aki, on the loose
-  somewhere in New England with an Avatar of Gla'aki.
-
-- **Howard Carter:** contact from Penelope's criminal days, who poses
-  as an author.  Was investigating the spines for Penelope, later
-  found dead.  Seems he knows more about this sort of thing than
-  Penelope initially suspected.
-
-- **Dr. Clayton Armitage:** contact of Howard's, he knows something
-  about the spines and their power.  Leads the "UK branch" of the
-  Silver Twilight Lodge, though it's just a country house with a
-  handful of other members.
-
-- **Carl Stanford:** leader of the Silver Twilight Lodge.  "Carl" and
-  "the Lodge" were mentioned in Howard and Dr. Armitage's telegrams.
 
 ### The Silver Twilight Lodge
 
@@ -190,17 +174,13 @@ react with genuine bafflement.
 
 ### Questions: Dealing with Gla'aki
 
-- **How can they solve the Gla'aki problem?**
+- **How can they seal away Gla'aki?**
 
   Surround him with Elder Signs so he can't control his Servants
   (they'll become wild and animalistic without his will directing
   them).
 
   Or, surround him with a single Eye of Light and Darkness.
-
-  Or, surround the crystals with Elder Signs so his Servants can't
-  reach them (but Gla'aki will still be able to spread his cult, and
-  will eventually be able to manipulate people to destroy the signs).
 
 - **How can the Elder Sign solution be signalled?**
 
@@ -216,11 +196,9 @@ react with genuine bafflement.
   because I didn't think of it before getting Elder Signs involved;
   we'll just have to accept this small retcon.
 
-- **How many Elder Signs would it take to surround...**
+- **How many Elder Signs would it take to surround Loch Morar?**
 
-    - Loch Morar: 25
-    - Pingualuit crater: 5
-    - Pantasma: 20
+  25.
 
 - **That's 250 POW to cut off Gla'aki!  How can they get that much?**
 
@@ -231,6 +209,11 @@ react with genuine bafflement.
   They can't.  They have to leave the Gla'aki problem unsolved and
   come back to it after learning the ritual during Masks of
   Nyarlathotep.
+
+- **How can they free Gla'aki?**
+
+  Deliver crystals to him (or an Avatar), or seal the crystals away
+  behind Elder Signs.
 
 
 Session 1, 2020-05-03
@@ -843,7 +826,7 @@ Session 4, 2020-06-14
 This session takes place after a time-skip of a few months (to be
 determined at the start of the session, but at least two months), with
 Rachel attending the private care clinic of Danvers State Hospital.
-The scenario is set in the early days of *Genius Loci*[^s3_gl], with
+The scenario is set in the early days of *Genius Loci*,[^s3_gl] with
 the Elder Sign ward being destroyed early during the last month of
 Rachel's stay.
 
@@ -1216,3 +1199,196 @@ Then read:
   - Tells his story.
   - Disappears into the dawn.
   - Two nights from now Dr. Berger will use Henry for something!
+
+
+Session 5, 2020-06-28
+---------------------
+
+### Recap
+
+> Last time Penelope and Dill arrived at Danvers Asylum to collect
+> Rachel, who was being discharged under unusual circumstances.
+> Something seemed up with Dr. Berger and the rest of the staff, and
+> you found that recently construction work had destroyed an Elder
+> Sign on the asylum grounds.  You found that the ward had been placed
+> by Dr. Shine, the previous superintendent, and who had felt unable
+> to tell Dr. Berger of its true purpose.
+>
+> You learned, from an inmate who had been sent to deal with you, that
+> some sort of ritual is planned for the night of the New Moon: which
+> is tomorrow!  The ritual somehow involves a gentle old man Rachel
+> had befriended during her stay, and who is now being in one of the
+> high security wards for violent patients.
+
+### Prep
+
+#### Plans to deal with the situation
+
+1. Create a large distraction (eg, fire or evacuation)
+
+    This isn't a solution, it's a means to a solution.
+
+2. Disrupt the ritual
+
+    - Sneak to the site on the ritual night
+    - Find where the ritual is being held
+
+    Unlikely to solve the lloigor problem, even if the kill Berger.
+
+3. Call upon a god
+
+    - Nyarlathotep: can do whatever the investigators want if they pay
+      the price (eg, becoming his servant)
+    - Gla'aki: likely to send Servants to negotiate with the lloigor
+      for aid escaping
+
+    This seems like a bad idea to me.
+
+4. Spontaneous use of Cthulhu Mythos
+
+    Can achieve any effect, but can also be very fatal.  This also
+    seems like a bad idea to me.
+
+5. Create an Elder Sign
+
+    Someone needs to learn the spell!  Can try Hard INT daily.
+
+    This would solve the problem and restore everyone.  But can they
+    convince Berger to leave it in place?
+
+    **Clue:** Elder Sign cuts off Penelope's Gla'aki sense.
+
+6. Incapacitate Berger
+
+    This will delay the start of the ritual, while the lloigor whips
+    them into a frenzy unaided, but won't really solve anything.
+
+7. Break out Rachel's friend Henry and hope for the best
+
+    Someone else will be used.  But maybe that's good enough?
+
+8. Ask the Silver Twilight Lodge for help
+
+    They can probably get an Elder Sign or some other ward.
+
+#### Sneaking into Danvers Asylum
+
+Random encounters:
+
+1. Encounter with orderlies
+2. Encounter with nurses
+3. Encounter with patients
+4. Lloigor attack (shove, trip, etc)
+5. Lloigor help (door unlocks, orderlies distracted before seeing investigators, etc)
+6. Lloigor sighting (lizard crawling into a pool, chalk drawing, etc)
+7. Oppressive atmosphere: lose 0/1 SAN
+8. Physical barrier (door, ditch, etc)
+9. Nothing happens!
+10. Reroll!
+
+Creepy descriptions:
+
+- Dark, long, corridors
+- Echoes
+- Stout, locked, doors with barred windows
+- The sound of quiet crying / laughing in the distance
+- A scream
+- No artificial lights, windows above the doors
+- Seating area to catch the sunlight
+- Nurse room: office, medical supplies
+- Patient room: plain, undecorated, nothing sharp, small cot, restraints
+- Kitchen / serving room: sterile, metal, utensils
+- Bathroom: small bathtub, sponges
+
+### Notes
+
+- Planning what to do:
+  - Penelope, 8: ask the STL for help
+  - Rachel, 5: create an Elder Sign
+  - Dill: submit a false report of money mismanagement, to get the
+    asylum investigated.
+- That evening:
+  - Penelope returned with Russell Gibson, knows some simple healing /
+    warding magic, doesn't like the idea of people being in danger.
+  - Rachel figured out the ritual.
+  - Rachel embroiders an Elder Sign into her jacket and magics it:
+    - She sees it glow (nobody else does)
+    - Feels weak and drained
+    - Penelope's Gla'aki sense cut off:
+      - Total cut-off in a half-mile radius, then gradual fade for a
+        half-mile beyond that
+- Next day:
+  - Confirm the Elder Sign cuts off all magic in the vicinity by
+    having Russell try making the Powder of Ibn-Ghazi, which fails.
+  - Decide to sneak into the asylum at night, hide the Elder Sign
+    jacket somewhere, then go to the ampitheatre and see what happens;
+    only intervene if necessary.
+- That night:
+  - Sneak into the grounds and to the main building.
+  - Penelope spotted by a creepy patient in a flash of lightning.
+  - Penelope sneaks into the ward building to look for a hiding spot:
+    - Dark, no artificial light.
+    - Quiet, some distant laughter.
+    - Nobody around.
+    - Listen at one door: hear orderlies chatting.
+    - Open another door: discover a sleeping nurse.
+    - Open another door: creaks, and the orderlies come to
+      investigate.
+    - Sneak up to the attic before the orderlies arrive.
+    - Hide the jacket on one of the beams.
+    - Sneak back down to ground floor, avoiding the orderlies checking
+      on all the patients.
+    - Patients are awake: gibbering, talking, crying, laughing,
+      reaching through the bars...
+    - Swiftly exit and lock the door behind her.
+  - Meanwhile, Rachel sneaks to the ampitheatre:
+    - Sees Dr. Berger, other staff and patients, Henry on a gurney,
+      walking towards it.
+    - All look confused, as if they're trying to remember something,
+      or as if they're not really sure what's going on.
+    - Carrying blue flamed-torches.
+  - All reunite at the ampitheatre; and watch:
+    - Dr. Berger tries to address the crowd a few times, but looks
+      like he doesn't know what he wants to say.
+    - Eventually he talks about how something strange has been
+      happening for the last month, almost like a waking dream, he and
+      other staff have memory gaps... and no idea why they're out here
+      tonight.  Maybe the food?  Or water?  Or a gas leak?  Let's all
+      go back inside.
+    - Henry taken in by a nurse.
+  - Return to the hotel, the immediate problem solved.
+- Next day:
+  - Penelope sends Russell tot he STL to talk about donating a statue
+    or something, providing a new permanent Elder Sign.
+  - Go to visit the asylum:
+    - Dr. Berger apologises for his treatment of Rachel towards the
+      end of her stay.
+    - Chat with Henry in the common room.  Dill asks some questions
+      about what he remembers:
+      - He had a dream[^s5_0] that Dr. Shine had never come to the
+        asylum.
+      - It's ok now, the bad dream went away.
+      - In the dream he was going to go on a trip "to the seaside, I
+        think"
+  - Dill cancels his fraud report.
+- Gla'aki brainstorming:
+  - Maybe Elder Signing a crystal will prevent it from holding Gla'aki
+    and freeing him?[^s5_2]
+  - The RoG only talked about his loyal servants, not zombies!
+  - What do these servants do?  They fetch crystals and spread the
+    influence of Gla'aki to distant lands.[^s5_1]
+  - We should free Gla'aki so he'll go away and stop zombifying
+    people.
+
+[^s5_0]: This is a confused memory of the time before Dr. Shine---when
+  the lloigor was last loose---and recent events.  The "trip to the
+  seaside" was about being taken to the reservoir.
+
+[^s5_1]: Spread influence by creating Avatars.
+
+[^s5_2]: This is the exact opposite of what I planned originally, but
+  it's cool if they want to free Gla'aki.
+
+### Next time
+
+Visiting [Pingualuit crater][].
