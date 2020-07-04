@@ -3,6 +3,7 @@ title: Phased Real-Time Combat for Call of Cthulhu
 taxon: general-games
 tags: call of cthulhu
 published: 2020-06-21
+modified: 2020-07-04
 ---
 
 Combat in Call of Cthulhu is supposed to be dangerous, chaotic, and
@@ -50,24 +51,18 @@ This section replaces "The Combat Round" on page 102 of the 7th
 edition *Keeper's Rulebook*.
 </aside>
 
-A round is broken down into three phases:
+A round is broken down into these phases:
 
-- The "orders" phase, in which all combatants choose what to do when
-  they act.
-- The "fast resolution" phase, in which certain particularly fast
-  actions (like firing a readied gun) are performed.
-- The "slow resolution" phase, in which all remaining actions are
-  performed.
+1. **Hints:** Keeper hints at what the enemies are doing
+2. **Orders:** Players declare their actions
+3. **Fast spells:** Cast instantaneous spells
+4. **Fast actions:** Fire readied guns and act with 100 or more DEX
+5. **Slow actions:** Other attacks, manoeuvres, or skill checks
+6. **Movement:** Movement and fleeing
+7. **Slow spells:** Cast non-instantaneous spells
 
-Unlike a standard sequential round structure with a strict turn order,
-all actions resolved in the same phase conceptually happen at the same
+All actions resolved in the same phase conceptually happen at the same
 time.
-
-**Orders phase:**
-Each player outlines what they want to do when they act.  So that
-players can make informed decisions, the Keeper should hint at the
-actions of any NPCs ("the ink-black blob extrudes a tentacle and
-reaches toward Daniel").
 
 The *Keeper's Rulebook* lists the following actions which are suitable
 to perform on your turn during combat:
@@ -83,35 +78,15 @@ to perform on your turn during combat:
   single round.
 
 Additionally, you can choose to wait for another combatant to act
-before performing your action.  For example, if the Keeper described
-an NPC as "reaching towards the lockbox, key in hand", a player may
-say "ok, I want to move into position, ready to grapple him as soon as
-he's got it open."
-
-**Fast resolution phase:**
-Certain actions---firing a readied gun, casting some spells---are
-described in the *Keeper's Rulebook* as happening at `DEX+50` in the
-turn order, to mechanically reflect how fast they are.
-
-Such actions happen in this phase, before other slower actions are
-resolved.
-
-In addition, any combatant with a DEX of 100 or more acts in this
-phase, even if the chosen action is not normally a fast action.  If
-the combatant has more than one attack, only half of them (rounded up)
-are performed in this phase, the rest happen in the slow resolution
-phase.
-
-**Slow resolution phase:**
-Any other actions declared in the orders phase which were not
-performed as fast actions happen in this phase.
+before performing your action if your action is in the same or an
+earlier phase.
 
 ### Action resolution
 
 In each resolution phase, there will generally be clear groups of
-orders which have to be resolved together, and which can be resolved
+actions which have to be resolved together and which can be resolved
 independently of any other groups.  For example, if there are four
-combatants fighting as two pairs, each pair can be resolved
+combatants engaged in melee as two pairs, each pair can be resolved
 independently.
 
 Even within a group of combatants all fighting each other, order only
@@ -120,39 +95,18 @@ resolved simultaneously, unless a combatant will be incapacitated or
 killed, in which case their attack and the killing blow need to be
 resolved in order.
 
-Where order matters, each combatant makes a DEX check and uses the
-degree of success to determine order[^dex_why]: extreme successes go
-first, then hard successes, then regular successes, then failures,
-then fumbles.  If two combatants achieve the same degree of success,
-the one with higher DEX wins.  If there is still a tie, the one who is
-a player character wins.
+Where order matters, combatants make an opposed DEX check.  If there
+is a tie:
 
-[^dex_why]: If order was determined by just DEX, without rolling, then
-  there would be no point in splitting the multiple attacks of really
-  fast monsters across the fast and slow phases.  But this resolution
-  method requires *more* rolling than the standard combat mechanics,
-  oh no!  This definitely needs to be tested.
+- **PC vs NPC:** the PC wins.
+- **Otherwise:** flip a coin.
 
-### Concentration and interruption
-
-Certain actions require the character performing them to have
-uninterrupted concentration.  For example:
-
-- Casting a spell which takes effect on the following round.
-- Performing some challenging feat of skill, like picking an intricate
-  lock.
-- Anything else at the Keeper's discretion.
-
-When performing such an action, the player makes any needed rolls, but
-the effect only takes place at the end of the round.  If their
-character is successfully attacked, grappled, or otherwise
-interrupted, the effect does not take place: the spell is interrupted;
-or the character gets kicked away from the lock during the scuffle and
-has to start again.
-
-If the order in which these end-of-round effects take place is
-important, use the same order as the actions were resolved in, do not
-make an additional set of DEX checks.
+**Concentration and interruption:** certain actions require the
+character performing them to have uninterrupted concentration.  For
+example, casting a non-instantaneous spell requires the character to
+maintain concentration between declaring the spell and casting it.  If
+a character making such an action is successfully attacked, grappled,
+or otherwise interrupted, the effect does not take place.
 
 
 Why?
@@ -161,36 +115,35 @@ Why?
 I think this approach has a few big advantages over the standard round
 structure:
 
-**More closely matches the fiction:**
-With a sequential round structure, we're often *told* that things are
-*really* happening at the same time in the fiction, but I think that
-is basically impossible to justify.  You know everything that happened
-before your turn in the round, so you're almost certainly going to
-base your move on that.  But if things are happening simultaneously,
-you shouldn't be able to do that.
+**More closely matches the fiction:** with a sequential round
+structure, we're often *told* that things are *really* happening at
+the same time in the fiction, but I think that is basically impossible
+to justify.  You know everything that happened before your turn in the
+round, so you're almost certainly going to base your move on that.
+But if things are happening simultaneously, you shouldn't be able to
+do that.
 
 To use the needlessly complex-sounding jargon term, this is an example
 of *ludonarrative dissonance*: the narrative and the mechanics are in
 conflict.
 
-**Less disjointed:**
-If everyone acts in turn order, a round of combat just becomes a
-monotonous recital of disjointed actions, jumping between all the
-combatants.  Have you ever read a combat scene in a book, or seen one
-in a film, where it just shows what everyone is doing, one after the
-other?  No!  The narrative jumps between groups of characters, showing
-their part of the fight as its own scene before jumping to another
-group.
+**Less disjointed:** if everyone acts in turn order, a round of combat
+just becomes a monotonous recital of disjointed actions, jumping
+between all the combatants.  Have you ever read a combat scene in a
+book, or seen one in a film, where it just shows what everyone is
+doing, one after the other?  No!  The narrative jumps between groups
+of characters, showing their part of the fight as its own miniature
+scene before jumping to another group.
 
 By focusing on these small integrated scenes, the combat as a whole
 feels faster-paced.
 
-**More chaotic:**
-Because you have a much narrower view of what's going on---you know
-the orders the PCs say, but only get hints of what the NPCs
-plan---it's much harder to strategise like you would in a D&D-style
-tactical combat minigame.  The fight becomes much more unpredictable
-and chaotic, as you have to take into account the fact that: (a) you
-don't have perfect knowledge of what many of the other combatants are
-doing by the time it rolls around to your turn; and (b) you don't even
-know the order in which your part of the fight is going to resolve.
+**More chaotic:** because you have a much narrower view of what's
+going on---you know the orders the PCs say, but only get hints of what
+the NPCs plan---it's much harder to strategise like you would in a
+D&D-style tactical combat minigame.  The fight becomes much more
+unpredictable and chaotic, as you have to take into account the fact
+that: (a) you don't have perfect knowledge of what many of the other
+combatants are doing by the time it rolls around to your turn; and (b)
+you don't even know the order in which your part of the fight is going
+to resolve.
