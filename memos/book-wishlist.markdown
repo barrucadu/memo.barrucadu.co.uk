@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-07-05
+modified: 2020-07-10
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -656,6 +656,8 @@ Miscellaneous
 | `9780765350374` | Elantris                                                                                                              | Brandon Sanderson     |
 | `9780345497529` | The City & The City                                                                                                   | China Mieville        |
 | `9780345524256` | Midnight Riot                                                                                                         | Ben Aaronovitch       |
+| `9780809500314` | The Beckoning Fair One                                                                                                | Oliver Onions         |
+| `9781840226409` | The Dead of Night                                                                                                     | Oliver Onions         |
 
 
 Ideas
