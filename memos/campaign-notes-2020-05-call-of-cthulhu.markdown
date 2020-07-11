@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-06-28
+modified: 2020-07-11
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -55,6 +55,21 @@ Player characters
     - Contact Nyarlathotep
     - Shrivelling
     - Elder Sign
+
+
+Rulings
+-------
+
+- An Elder Sign cuts off magic half a mile away, and magic has reduced
+  impact up to a full mile away.
+
+  <aside class="highlight">
+  This is pretty powerful, and was introduced as a way around the lack
+  of an Eye of Light and Darkness --- probably undo this at the start
+  of the next arc.
+  </aside>
+
+- Dominate can be cast on a PC through a Contact Deity link.
 
 
 Notable NPCs
@@ -109,13 +124,12 @@ lasted for 90 years.
 
 There are two remaining shards of the crystal prison.  If these are
 taken to Gla'aki (or an Avatar) he can free himself.  They're in
-[Pingualuit crater][] in Quebec and [Pantasma][] in Nicaragua.
+[Pingualuit crater][] in Quebec and in a university in Costa Rica.
 
 [Loch Morar]: https://en.wikipedia.org/wiki/Loch_Morar
 [Derwentwater]: https://en.wikipedia.org/wiki/Derwentwater
 [Lough Leane]: https://en.wikipedia.org/wiki/Lough_Leane
 [Pingualuit crater]: https://en.wikipedia.org/wiki/Pingualuit_crater
-[Pantasma]: https://en.wikipedia.org/wiki/Pantasma
 
 ### The Silver Twilight Lodge
 
@@ -216,8 +230,8 @@ react with genuine bafflement.
   behind Elder Signs.
 
 
-Session 1, 2020-05-03
----------------------
+Gla'aki session 1, 2020-05-03
+-----------------------------
 
 We played *Servants of the Lake* (in *Doors to Darkness*) as a
 one-shot.  Then the players wanted to continue the investigation, so I
@@ -232,8 +246,8 @@ dragged out and into the forest).
 The only hard evidence they found were some large metal spines.
 
 
-Session 2, 2020-05-17
----------------------
+Gla'aki session 2, 2020-05-17
+-----------------------------
 
 ### Prep
 
@@ -510,8 +524,8 @@ least.
 In England meeting Dr. Armitage.
 
 
-Session 3, 2020-05-31
----------------------
+Gla'aki session 3, 2020-05-31
+-----------------------------
 
 ### Prep
 
@@ -648,7 +662,7 @@ Right, what do you do?
 
 4. **Where are the crystal shards?**
 
-    [Pingualuit crater][] in Quebec and [Pantasma][] in Nicaragua.
+    [Pingualuit crater][] in Quebec and in a university in Costa Rica.
 
     Clues:
 
@@ -820,8 +834,8 @@ knowledgeable.
         demanded of her
 
 
-Session 4, 2020-06-14
----------------------
+Gla'aki session 4, 2020-06-14
+-----------------------------
 
 This session takes place after a time-skip of a few months (to be
 determined at the start of the session, but at least two months), with
@@ -1201,8 +1215,8 @@ Then read:
   - Two nights from now Dr. Berger will use Henry for something!
 
 
-Session 5, 2020-06-28
----------------------
+Gla'aki session 5, 2020-06-28
+-----------------------------
 
 ### Recap
 
@@ -1392,3 +1406,269 @@ Creepy descriptions:
 ### Next time
 
 Visiting [Pingualuit crater][].
+
+
+Gla'aki session 6, 2020-07-10
+-----------------------------
+
+### Recap
+
+> Last session Rachel mastered the magic of the Elder Sign, and you
+> discovered that an Elder Sign suppressed all magic in a large area
+> around it.  Penelope's Gla'aki sense is completely cut off up to
+> half a mile away, and only regains full strength a full mile away.
+>
+> And so, you decided to use this new-found magic to deal with
+> Gla'aki's crystals, hoping to disable the remaining two for long
+> enough for Gla'aki to escape the Earth and return to the stars.
+>
+> Penelope has spent the last two weeks travelling around the states
+> with a map and a stash of pencils, trying to get a more precise fix
+> on the locations of the crystals.  And now she's got it.  One lies
+> to the north, in Quebec; the other to the south, in Central America.
+> Where do you want to go?
+
+### Prep (Quebec)
+
+![Handout: Penelope's best guess for the crystal's location](campaign-notes-2020-05-call-of-cthulhu/quebec.png)
+
+#### There and back again
+
+There are two ways to reach the crater, both starting from Quebec
+City.
+
+In both cases, the more honest locals will refuse to have anything to
+do with this fools errand, unless the investigators can convince them
+that they are fit and knowledgeable enough to handle a long trek into
+the wilderness and back (to an unspecified destination, for
+unspecified purpose!), so only the dishonest ones will assist them.
+
+David Spencer, a Servant of Gla'aki, is available in both locations to
+supply what they need.
+
+**Catch a boat to Fort Chimo then travel over land:**
+
+- 300 miles (at best a 5-day journey with dogs)
+- David Spencer will sell them a dog sled and supplies.  He'll set a
+  high price but can be haggled down.  The dogs don't like him.
+
+**Travel over land from Quebec City:**
+
+- 1000 miles (at best a 20 day journey with a truck)
+- David Spencer will sell them a truck and supplies.  He'll set a high
+  price but can be haggled down.
+
+**Gossip in Quebec City or Fort Chimo:**
+
+- "You don't look much like hunters or fur traders."
+- "It's empty out there, just barren land."
+- "...there's some sort of Esquimaux holy site, it's creepy, best to
+  stay away."
+- "If the bears don't get you those Esquimaux will."
+- David Spencer might sell you his truck/dogs/supplies."
+
+**The journey itself:**
+
+- Cold
+- Constant wind
+- Barren, sporadic clumps of trees, but mostly rocks, hills, rivers,
+  and small lakes.
+- There are three big rivers, running W/E, between Port Chimo and
+  Pingualuit Crater.
+- To the west: lots of little lakes, no rivers.
+- To the east: lots of little lakes, many small rivers running N/S+E.
+- On the return journey (without Gla'aki-sense) call for Navigation
+  checks to avoid getting lost.
+
+**Encounters:**
+
+- Recently deserted Esquimaux camp
+- Polar bears
+- Sounds of nearby gunshots or fighting at night
+- Bad weather
+- Dark Young
+- A river or lake to move around
+- An injured dog or damaged truck
+- A misplaced treasured possession
+
+**Campfire conversation starters:**
+
+- Have you been on a journey like this before?
+- What are you taking / how are you preparing?
+- What habits of the others are annoying you?
+- Everyone share a story.
+- What exactly do you plan to do when you get there?
+- What if the crystal is buried or underwater?
+- Why are you doing this?
+
+#### Pingualuit Crater
+
+The crater is a big change from the surrounding environs.  Full of
+life, and at the centre a deep lake housing the brilliant blue/green
+crystal which pulses with an inner light.
+
+- Green, fertile, lush, warm
+- Heavily forested
+- Oddly quiet (with a Listen check)
+- Crystal at bottom of central lake
+- Signs of a very ancient, and recently abandoned, settlement
+- Stone pillar with a representation of Gla'aki
+- Dark Young
+
+**Encounters:**
+
+- At night:
+  - A Dark Young is heard (cough/bark which turns into a shriek)
+- After the Elder Sign is placed:
+  - Dark Young sound, loud thumping, trees swaying
+  - "Trees" relocate outside the crater
+  - David Spencer, with a gun and a line of sight to where they were
+    working, found dead (Medicine confirms he's been dead for months)
+- If they refuse to place the Elder Sign:
+  - David Spencer confronts them
+
+### Prep (Central America)
+
+![Handout: Penelope's best guess for the crystal's location](campaign-notes-2020-05-call-of-cthulhu/central-america.png)
+
+![Handout: The San José Herald, an English daily newspaper](campaign-notes-2020-05-call-of-cthulhu/san-jose-herald.png)
+
+#### The Jade Museum
+
+It's a large modern building in the centre of San José, built in 1890,
+which houses several hundred pieces of pre-Columbian jade artefacts.
+The blue/green crystal, which pulses with an inner light, is inside
+one of the broken spheres.
+
+- The basement:
+  - Dark, long corridors
+  - Some labs
+  - Storage room with the spheres
+  - Crystal in a broken sphere
+- Guards patrol at night
+- One of the guards is a Servant:
+  - He'll watch the investigators without getting in their way (unless
+    he thinks they're going to do something detrimental)
+- Basement access through building, or through coal chute at the back
+- Exhibits:
+  -  Threshold: A look at the ecological and historical contexts that
+     lead to the rise of jade societies.
+  -  Jade: The craft, economics, and trade of jade stone and artifacts
+     in ancient Mesoamerica.
+  -  The Day: Daily life of Pre-Columbian societies in Costa Rica.
+  -  The Night: The uses of jade in religion, war, and burial rites.
+  -  Memory: A celebration of the cultural music, history, and
+     technology.
+  -  The Collection: Jade art from three regions: Greater Nicoya,
+     Central Region, Greater Chiriqui.
+  -  7000+ artefacts, from 500--300BC
+
+**Encounters:**
+
+- If they refuse to place the Elder Sign:
+  - The Guard-Servant confront them
+- After they place the Elder Sign:
+  - The Guard-Servant found dead snooping outside the storage room
+    (Medicine confirms he's been dead for months)
+
+
+### Prep (The Aftermath)
+
+![Handout: Scotland Destroyed! Earthquake Shatters Nation!](campaign-notes-2020-05-call-of-cthulhu/the-aftermath.png)
+
+After disabling the crystals, Gla'aki will rise from his earthly
+prison and return to the stars, taking the minds of his believers with
+him, leaving their bodies acting as rabid beasts.
+
+### Notes
+
+I expected the players to get through one location and maybe make
+travel arrangements for the other, and then to have a shorter next
+session and spend the time afterwards talking about where we want the
+campaign to go to next.  But we got through both locations in a
+slightly longer session, as they bypassed almost all of the Quebec
+events by deciding to charter a flight.
+
+- Players head to Panama:
+  - Dill and Penelope learn how to make an Elder Sign during the
+    journey.
+  - Penelope senses the crystal moving, somewhere in Costa Rica.
+  - Rachel fails to smuggle her gun through customs, it gets
+    confiscated, they head to Panama City to find a guitar case to
+    hide it in so they can smuggle it into Costa Rica.
+  - Penelope finds the newspaper and learns about the stone spheres.
+  - MoN Egypt hotel scenario:
+    - They spot the hidden entrances to their rooms, move into one
+      room, keep watch, and surprise the thief.
+- Players head to Costa Rica:
+  - Pick up Rachel's gun as they leave Panama, and smuggle it into
+    Costa Rica.
+  - Head to San Jose, and find a reputable hotel.
+  - Scope out the Jade Museum:
+    - Crystal is in the basement somewhere.
+    - Rachel causes a distraction, Penelope and Dill sneak down.
+    - Penelope finds the room, but it's occupied.
+    - Caught and made to leave.
+  - That night:
+    - Just one guard.
+    - Scope out the surroundings, make a plan to break in.
+  - The following night:
+    - Just the one, same, guard.
+    - Break in.
+    - Sneak through basement to crystal room, avoiding guard patrol.
+    - Steal crystal, and escape
+- Players return to the US:
+  - Crystal baked into a loaf of bread and smuggled out through
+    customs.
+  - Take the crystal to Danvers as an experiment: it cools and stops
+    glowing when in range of the Elder Sign.
+  - Go chat with the STL about chartering a flight to the Quebec
+    crystal:
+    - Failed a Psychology roll on Carl Stanford.
+    - Sure, they can have a plane.
+- Players head to Quebec, with their crystal:
+  - Silent, forested, oddly warm and green (etc)
+  - Find the deserted camp:
+    - Been inhabited for a long time, centuries at least
+    - Looks recently abandoned, but can't track the footprints
+      through the grass and trees
+    - Stone obelisk at the centre with Gla'aki carvings
+  - Hear a Dark Young at night
+  - Make an Elder Sign and drop it onto the crystal in the lake:
+    - Keeping their other crystal out of range.
+    - Dark Young call and swaying trees when they activate their Elder
+      Sign.
+    - Air cools as the rock sinks to the crystal.
+  - No way to get the crystal out of the lake:
+    - Plan to carve an Elder Sign into a rock and drop it onto the
+      crystal.
+    - Penelope makes an Elder Sign, Dill makes a raft.
+    - Lake water is warm but otherwise seems normal.
+    - Dark Young call and swaying trees when the Elder Sign activates.
+- Players return to the US:
+  - See trees have moved from the air.
+  - Penelope casts Contact Gla'aki alone at night:
+    - He uses Dominate to make her want to immediately Elder Sign the
+      remaining crystal.
+    - She does, senses Gla'aki disappear after a little while.
+  - Next morning:
+    - People on the street engrossed by the newspaper, some look
+      distraught.
+    - Scotland Destroyed!
+
+**Feedback:** they mentioned some bits about the arc they particularly
+liked:
+
+- "Suspense in the museum basement was nice" "Hell yeah."
+- "I also really enjoyed sneaking around in the asylum and the
+  museum."
+- "Personally I still can't stop grinning when remembering the time I
+  invoked Nyarly in the house, what a moment."
+- "I did enjoy the sneaky bits a good deal."
+- "I appreciated our little Panama detour"
+
+### Next time
+
+Under discussion, but the likely option seems to be playing through
+the Peru chapter of MoN with Pulp Cthulhu rules, and Nyarlathotep
+calling in his deal with Rachel.
