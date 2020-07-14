@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-07-10
+modified: 2020-07-14
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -250,18 +250,15 @@ thought, I settled on a list of *some* classics:
 | `1`    | Mrs Rosie and the Priest                                                     | Giovanni Boccaccio         |
 | `2`    | As kingfishers catch fire                                                    | Gerard Manley Hopkins      |
 | `3`    | The Saga of Gunnlaug Serpenttongue                                           |                            |
-| `4`    | On Murder Considered as One of the Fine Arts                                 | Thomas De Quincey          |
 | `5`    | Aphorisms on Love and Hatem Friedrich Nietzsche                              |                            |
 | `6`    | Traffic                                                                      | John Ruskin                |
 | `7`    | Wailing Ghosts                                                               | Pu Songling                |
 | `8`    | A Modest Proposal                                                            | Jonathan Swift             |
 | `9`    | Three Tang Dynasty Poets                                                     |                            |
 | `10`   | On the Beach at Night Alone                                                  | Walt Whitman               |
-| `12`   | How to Use Your Enemies Baltasar Gracián                                     |                            |
 | `13`   | The Eve of St Agnes                                                          | John Keats                 |
 | `14`   | Woman Much Missed                                                            | Thomas Hardy               |
 | `15`   | Femme Fatale                                                                 | Guy de Maupassant          |
-| `16`   | Travels in the Land of Serpents and Pearls                                   | Marco Polo                 |
 | `17`   | Caligula                                                                     | Suetonius                  |
 | `18`   | Jason and Medea                                                              | Apollonius of Rhodes       |
 | `19`   | Olalla                                                                       | Robert Louis Stevenson     |
@@ -296,7 +293,6 @@ thought, I settled on a list of *some* classics:
 | `50`   | Anthem for Doomed Youth                                                      | Wilfred Owen               |
 | `51`   | My Dearest Father                                                            | Wolfgang Amadeus Mozart    |
 | `53`   | Goblin Market                                                                | Christina Rossetti         |
-| `54`   | Sindbad the Sailor                                                           |                            |
 | `55`   | Antigone                                                                     | Sophocles                  |
 | `58`   | Leonardo da Vinci                                                            | Giorgio Vasari             |
 | `59`   | Lord Arthur Savile’s Crime                                                   | Oscar Wilde                |
@@ -356,7 +352,6 @@ thought, I settled on a list of *some* classics:
 | `118`  | White Nights                                                                 | Fyodor Dostoyevsky         |
 | `120`  | Flush                                                                        | Virginia Woolf             |
 | `121`  | Lot No. 249                                                                  | Arthur Conan Doyle         |
-| `122`  | The Rule of Benedict                                                         |                            |
 | `123`  | Rip Van Winkle                                                               | Washington Irving          |
 | `125`  | Waterloo                                                                     | Victor Hugo                |
 | `126`  | Stancliffe’s Hotel                                                           | Charlotte Brontë           |
