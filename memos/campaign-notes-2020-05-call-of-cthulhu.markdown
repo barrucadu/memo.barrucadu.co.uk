@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-07-11
+modified: 2020-07-26
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -11,6 +11,33 @@ modified: 2020-07-11
 
 Player characters
 -----------------
+
+- **Rachel Summers:** librarian (scholar).  A recent high school
+  graduate, who was inspired to a love of books by her school's
+  librarian.  Rachel is a bit of a bookworm, particularly focussing on
+  nonfiction, with a good working knowledge of Latin and biology.
+
+  *1921 update:* Rachel has suppressed the memory of freeing Gla'aki
+  and causing the destruction of Scotland, and is a bit unstable
+  because of it.
+
+- **Penelope Temple:** librarian / parapsychologist (cult leader).  A
+  co-worker of Rachel's, though she didn't always work in the library.
+  Penelope and her now-deceased husband were once burglars, until one
+  fateful job which ended in the foiled robbery of a secret society's
+  headquarters and the death (or, at least, disappearance) of her
+  husband Percival.
+
+  *1921 update:* Penelope has risen through the ranks of the Silver
+  Twilight Lodge and caused a schism, leaving her librarian job to
+  head a new cult centred around Gla'aki.
+
+- **Kintsugi Ikehara:** laborer (outsider).  A mixed-race
+  Japanese/Peruvian daughter of an immigrant eking out a living with
+  her mother, her only relative.  Kints wants an out from her poor
+  life.
+
+### Retired
 
 - **Alton "Dill" Dillinger:** Assistant Secretary for Fish, Wildlife
   and Parks - U.S. Department of the Interior.  Formerly a senator for
@@ -20,17 +47,6 @@ Player characters
   political friends of his arranged for him to have a rather
   unimportant and out-of-the-way position.
 
-- **Rachel Summers:** librarian.  A recent high school graduate, who
-  was inspired to a love of books by her school's librarian.  Rachel
-  is a bit of a bookworm, particularly focussing on nonfiction, with a
-  good working knowledge of Latin and biology.
-
-- **Penelope Temple:** librarian / parapsychologist.  A co-worker of
-  Rachel's, though she didn't always work in the library.  Penelope
-  and her now-deceased husband were once burglars, until one fateful
-  job which ended in the foiled robbery of a secret society's
-  headquarters and the death (or, at least, disappearance) of her
-  husband Percival.
 
 ### Notable possessions
 
@@ -60,20 +76,21 @@ Player characters
 Rulings
 -------
 
-- An Elder Sign cuts off magic half a mile away, and magic has reduced
-  impact up to a full mile away.
-
-  <aside class="highlight">
-  This is pretty powerful, and was introduced as a way around the lack
-  of an Eye of Light and Darkness --- probably undo this at the start
-  of the next arc.
-  </aside>
-
 - Dominate can be cast on a PC through a Contact Deity link.
 
 
-Notable NPCs
-------------
+MoN Peru Arc Lore
+-----------------
+
+Kharisiri have Strigoi-like (*i.e.* from The Strain) flesh-tentacles
+to drain fat.  They only use their mouth to "kiss" and transfer a
+larva.
+
+
+Gla'aki Arc Lore
+----------------
+
+### Notable NPCs
 
 - **William and Robert Brophy:** Servants of Gla'aki, on the loose
   somewhere in New England with an Avatar of Gla'aki.
@@ -90,10 +107,6 @@ Notable NPCs
 
 - **Carl Stanford:** leader of the Silver Twilight Lodge.  "Carl" and
   "the Lodge" were mentioned in Howard and Dr. Armitage's telegrams.
-
-
-Lore
-----
 
 ### Gla'aki and its cult
 
@@ -1672,3 +1685,32 @@ liked:
 Under discussion, but the likely option seems to be playing through
 the Peru chapter of MoN with Pulp Cthulhu rules, and Nyarlathotep
 calling in his deal with Rachel.
+
+
+MoN Peru session 1, 2020-07-26
+------------------------------
+
+### Prep
+
+- Quick run through of Pulp rules
+- Do character creation (preserving Cthulhu Mythos points)
+- Overturn Elder Sign ruling
+
+### Notes
+
+- Penelope agreed to play along with Jackson Elias's deception, he
+  spilled the beans with Rachel and Kints too.
+- Kints spots Pedro de Valesco watching them from an alley.
+- Find Rizo's body, + her notes, + the golden band in the store room:
+  - But don't see the burned skin fragments.
+- Rachel / Elias find Mendoza's stabbing victim then save Sanchez and
+  knock out Mendoza:
+  - But after Sanchez had been infected.
+  - Rachel noticed the moving lump inside Sanchez.
+
+### Next time
+
+Penelope and Kints are in the store room with Rizo's body.  Rachel and
+Jackson are with the injured Prof. Sanchez and the unconscious
+Mendoza.  Rachel fired her shotgun indoors, so the police will be on
+their way.
