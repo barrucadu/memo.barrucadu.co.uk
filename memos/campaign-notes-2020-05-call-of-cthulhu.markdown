@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-07-26
+modified: 2020-08-09
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -1714,3 +1714,137 @@ Penelope and Kints are in the store room with Rizo's body.  Rachel and
 Jackson are with the injured Prof. Sanchez and the unconscious
 Mendoza.  Rachel fired her shotgun indoors, so the police will be on
 their way.
+
+
+MoN Peru session 2, 2020-08-09
+------------------------------
+
+### Recap
+
+> Last time you all met up in the Bar Cordano, in Lima, Peru, to go on
+> an expedition to find a previously undiscovered pyramid somewhere in
+> the Andean highlands.
+>
+> There you met Augustus Larkin---your patron---a sickly looking man
+> who sweats a lot and, as Rachel noticed, seemed to be suffering from
+> opioid withdrawal.  Also there were Luis de Mendoza, Larkin's gaunt
+> and untalkative assistant; and Jackson Elias---going by the alias
+> Jesse Hughes---professional investigator of cults and known to
+> Penelope from the Silver Twilight Lodge.
+>
+> Larkin showed you some golden artefacts he claimed were from the
+> pyramid, and wasn't very subtle in hinting that finding it and
+> bringing back its treasures would be of great financial benefit to
+> you all.
+>
+> After Larkin and Mendoza left, Jackson revealed his identity and
+> confided that he thinks there's more to this expedition that meets
+> the eye.  Larkin had repeatedly turned down interested parties from
+> the local museum, and Mendoza has a reputation as a kharisiri: a
+> kind of local vampire which sucks the fat from its victim's bodies.
+> Legends of the kharisiri date back to the conquistadors, and they
+> are always gaunt white men, so Jackson thinks there might be a
+> centuries-old cult to investigate here.
+>
+> The following day, you went to meet Professor Sanchez and his
+> assistant Trinidad Rizo at the local museum, who have been trying to
+> find this pyramid to send a team before Larkin---they don't believe
+> in this cult stuff, but they do think Larkin is basically a
+> grave-robber.  Then disaster struck!  Rizo went to fetch her notes
+> and an artefact believed to be from the pyramid, she didn't return,
+> and you found her buried beneath a pile of broken boxes in the
+> basement, her body thin and withered as if all the fat had been
+> removed.  Rachel went to inform Jackson and the professor, but was
+> distracted by a scream from outside: a woman had been stabbed, and
+> by the time she got back to the professor's office, he had been
+> attacked by Mendoza.  Rachel and Jackson managed to knock out
+> Mendoza, despite him vomiting forth a long tentacle with pincers on
+> the end which tried to latch onto Rachel, and then found that he had
+> "kissed" the professor, and there was something moving around inside
+> the professor's abdomen...
+>
+> Kints and Penelope, you're in the basement storeroom with Rizo's
+> body, her notes on the *Final Confessions of Gaspar Figueroa*, and a
+> golden artefact which seems to be the one described in the notes.
+> Rachel, you're with Jackson, Professor Sanchez, and the unconscious
+> Luis de Mendoza in the professor's office.  The professor is in a
+> great deal of pain, and has something crawling around inside him.
+>
+> Let's go to Kints and Penelope in the basement first.  You've heard
+> some gunshots, what do you do?
+
+### Prep
+
+- Jackson can arrange a boat to the coast near Puno if the heroes want
+  to leave before Monday (or disable Larkin and can't persuade the
+  trucks to drive them).  The crossing takes a few days and then the
+  train journey is another day.
+
+- If the heroes leave it too long after killing Mendoza, Larkin will
+  come to find them.  He will try to get one of them alone, and
+  Nyarlathotep will then take over to cast Cloud Memory and make them
+  forget.
+
+- Rachel would be unsettled to hear Nyarlathotep's voice.
+
+- Mendoza isn't dead.  They can only truly kill a kharisiri by utterly
+  destroying its body (acid, fire, etc).
+
+- People in Puno will stare at and be wary of the white heroes.
+
+- Pedro de Valesco (white) and a few of the new local kharisiri will
+  be in Puno.
+
+- Spells that may be useful for Nyarlathotep:
+
+  - **Cloud Memory** (KR#250): block a specific memory in the mind of
+    the target.
+  - **Dominate** (KR#254): briefly bend the will of the target to the
+    caster.
+  - **Fist of Yog-Sothoth** (KR#259): strike a target with an
+    invisible force and propel them backwards, with a chance to knock
+    them unconscious.
+  - **Summon Hunting Horror** (KR#263): physically brings a Hunting
+    Horror (KR#299, about as massive as a cape buffalo).
+
+  Note that Nyarlathotep needs to use the heroes to destroy the golden
+  ward, he doesn't want to kill them unless they're about to destroy
+  his vessel Larkin.
+
+- Don't forget about bonus dice for distracted or outnumbered foes!
+
+### Notes
+
+- Rachel blows up Mendoza's head
+- Penelope clairvoyances the location of the pyramid
+- Visit Prof Sanchez in the hospital:
+  - Kints spots Pedro de Valesco watching the room
+  - He describes the maggot
+- Penelope sneaks into Larkin's room, taking the mask and all his
+  money.
+- Larkin feigns ignorance over what happened with Mendoza, saying the
+  expedition must continue.
+- Penelope detects rotting meat smell.
+- Set off to Puno the night before Larkin, taking a faster route
+  (arriving a full day before he will).
+- Find Nayra in the floating island:
+  - Folklore:
+    - Knows about the tentacles (kharisiri scoop out the fat with
+      their long tongue), doesn't know about the maggot or kiss.
+    - Kharisiri attacks have been getting worse, people have been
+      attacked in the city.
+    - Thinks Mendoza is after her, people have been watching her
+      house.
+    - Identifies the mask as of Tiwanaku origin (which is roughly this
+      area).
+    - Tells the legend of the god.
+  - Rachel spots kharisiri outside!
+  - Kints attacks one, severing its tentacle (5HP damage), sees other
+    two emerge from the shadows.
+
+### Next time
+
+Start with a luck refresh and the kharisiri fight on the reed island.
+Nayra should point out that these kharisiri look like locals, not
+white people.  They might also discover the pot bellies full of liquid
+fat.
