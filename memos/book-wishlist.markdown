@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-07-29
+modified: 2020-08-15
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -511,7 +511,7 @@ Roleplaying Games
 | `9780981884028` | Hamlet's Hit Points                                            | Robin D. Laws            |
 | `9781434824592` | Play Unsafe: How Improvisation Can Change The Way You Roleplay | Graham Walmsley          |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
-| `9781936781744` | Kobold Guide to Gamemastering                                  | Sean K. Reynolds et al.  |
+| `9781936781034` | Kobold Guide to Game Design                                    | Janna Silverstein et al. |
 | `9781936781324` | Kobold Guide to Combat                                         | Janna Silverstein et al. |
 | `9781936781287` | Kobold Guide to Magic                                          | Ray Vallese et al.       |
 | `9781936781041` | Kobold Guide to Board Game Design                              | Mike Selinker et al.     |
