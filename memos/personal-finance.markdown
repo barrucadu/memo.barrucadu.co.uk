@@ -3,7 +3,7 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2020-03-15
+modified: 2020-08-23 00:30:00
 ---
 
 I manage my money using [plain-text accounting][] (specifically,
@@ -94,6 +94,8 @@ For investment accounts I use:
 
 - **Coinbase**, for a very small amount of cryptocurrency.
 
+- **NS&I**, for my emergency fund (invested in Premium Bonds).
+
 For credit cards I use:
 
 - **American Express**, for a cashback card.  There is a small annual
@@ -127,13 +129,11 @@ the regular accounts, which are mostly self-explanatory:
                     - *subaccounts for money to be transferred outside of the flexdirect*
                 - `saved`
                     - `discretionary`
-                    - `emergency`---any unexpected large expense not covered by another category
                     - `food`
                     - `gift`
                     - `graze`---monthly [Graze](https://www.graze.com/uk/) subscription
                     - `health`
                     - `household`
-                    - `move`---money for any future deposit, moving fees, etc
                     - `phone`
                     - `rent`
                     - `social`
@@ -149,6 +149,7 @@ the regular accounts, which are mostly self-explanatory:
     - `investments`
         - `cavendish`
         - `coinbase`
+        - `nsi`
     - `receivable`
         - `deposit`---the deposit on my flat
 - `equity`---used for initialising balances at the start of the year
@@ -176,6 +177,27 @@ detail than if I just recorded which bank accounts things came from or
 went to.
 
 Money (and other commodities) is only stored in leaf accounts.
+
+### The emergency fund
+
+The emergency fund, stored in Premium Bonds, is used for any
+surprising emergency which isn't covered by any other category: for
+example, if I suddenly needed to replace my computer, or move to a new
+flat.
+
+It's not something I intend to use.
+
+Some people advocate investing your emergency fund into stocks and
+shares, as long-term cash savings lose value due to inflation.  But I,
+and many others, don't agree with that.  If an emergency struck, it
+could be catastrophic if the value of your fund had halved because the
+market was down.
+
+So I store mine in Premium Bonds, where it is still likely to lose
+value against inflation, but it won't have any sudden losses.  Premium
+Bonds can be withdrawn from with about a week's notice, so I make sure
+to have enough cash in my bank account (and credit on my credit card)
+to cover any emergency for at least that long.
 
 
 !-transactions
