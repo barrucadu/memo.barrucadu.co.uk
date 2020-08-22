@@ -54,6 +54,15 @@ include commodities
 include prices
 
 * Starting balances
+YYYY-01-01 ! Opening balances
+  ...
+
+* Forecast
+~ monthly  Expenses
+  ...
+~ monthly  Income
+  ...
+
 * Ledger
 ** January
 ** February
@@ -431,6 +440,109 @@ an pair of an income transaction and an allocation-style transaction:
     assets:cash:nationwide:flexdirect:goal:move                          £100.00
     assets:cash:nationwide:flexdirect:saved:tea                           £80.00
     assets:cash:nationwide:flexdirect:pending:amex
+```
+
+Forecasting
+-----------
+
+I do some basic forecasting in my ledger, but be wary!  Predicting the
+future can be the downfall of an otherwise-sound financial plan!  I am
+always pessimistic in my forecasting[^assump], and I never make
+spending decisions based on a forecast, it's purely to get an estimate
+of what my account balances will become based on my current income
+allocation and to see how sensible my savings goals are.
+
+[^assump]: The only income I forecast is from my job (though I do
+  assume I won't lose my job), and I forecast spending my entire
+  budget every month.
+
+Firstly, I forecast my monthly expenses:
+
+```
+~ monthly  Expenses
+    (assets:cash:nationwide:flexdirect:saved:food)                      -£200.00
+    (assets:cash:nationwide:flexdirect:saved:household)                  -£50.00
+    (assets:cash:nationwide:flexdirect:saved:tea)                        -£25.00
+    ;
+    (assets:cash:nationwide:flexdirect:saved:graze)                      -£15.16 ; graze
+    (assets:cash:nationwide:flexdirect:saved:phone)                      -£13.92 ; ee
+    (assets:cash:nationwide:flexdirect:saved:rent)                      -£122.17 ; three rivers DC
+    (assets:cash:nationwide:flexdirect:saved:rent)                     -£1200.00 ; hamptons
+    (assets:cash:nationwide:flexdirect:saved:utilities)                  -£40.00 ; affinity water
+    (assets:cash:nationwide:flexdirect:saved:utilities)                  -£52.00 ; virgin media
+    (assets:cash:nationwide:flexdirect:saved:utilities)                  -£72.00 ; eon energy
+    (assets:cash:starling:patreon)                                        -£8.00 ; patreon
+    (assets:cash:starling:roll20)                                         -£5.00 ; roll20
+    (assets:cash:starling:web)                                            -£7.00 ; aws
+    (assets:cash:starling:web)                                           -£20.00 ; ovh
+    (assets:cash:starling:web)                                           -£35.00 ; hetzner
+```
+
+Each of those numbers is based on experience and some of them are
+rounded up where prices aren't exact, or are in a foreign currency (so
+the exchange rate may vary).
+
+Secondly, I have some regular account transfers:
+
+```
+~ monthly  Transfers
+    assets:cash:nationwide:flexdirect:pending:cavendish                 -£200.00
+    assets:cash:nationwide:flexdirect:pending:starling:patreon            -£8.00
+    assets:cash:nationwide:flexdirect:pending:starling:protonmail         -£5.00
+    assets:cash:nationwide:flexdirect:pending:starling:roll20             -£5.00
+    assets:cash:nationwide:flexdirect:pending:starling:web               -£55.00
+    assets:cash:starling:patreon                                           £8.00
+    assets:cash:starling:protonmail                                        £5.00
+    assets:cash:starling:roll20                                            £5.00
+    assets:cash:starling:web                                              £55.00
+    assets:investments:cavendish                                         £200.00
+```
+
+I know the exact amounts of these as they're set up as standing
+orders.
+
+Thirdly, I have an allocation of my income:
+
+```
+~ monthly  Cabinet Office
+    assets:cash:nationwide:flexdirect:unallocated
+    assets:cash:nationwide:flexdirect:pending:cavendish                  £200.00
+    assets:cash:nationwide:flexdirect:pending:starling:patreon             £8.00
+    assets:cash:nationwide:flexdirect:pending:starling:protonmail          £5.00
+    assets:cash:nationwide:flexdirect:pending:starling:roll20              £5.00
+    assets:cash:nationwide:flexdirect:pending:starling:web                £55.00
+    assets:cash:nationwide:flexdirect:saved:discretionary                  £0.00
+    assets:cash:nationwide:flexdirect:saved:food                         £200.00 ;= £1000.00
+    assets:cash:nationwide:flexdirect:saved:gift                           £0.00 ;=  £150.00
+    assets:cash:nationwide:flexdirect:saved:graze                         £15.16 ;=   £50.00
+    assets:cash:nationwide:flexdirect:saved:health                         £0.00 ;=   £50.00
+    assets:cash:nationwide:flexdirect:saved:household                     £50.00 ;=  £300.00
+    assets:cash:nationwide:flexdirect:saved:phone                         £13.92 ;=  £100.00
+    assets:cash:nationwide:flexdirect:saved:rent                        £2000.00 ;= £4000.00
+    assets:cash:nationwide:flexdirect:saved:social                         £0.00
+    assets:cash:nationwide:flexdirect:saved:tea                           £25.00
+    assets:cash:nationwide:flexdirect:saved:travel                       £200.00 ;=  £750.00
+    assets:cash:nationwide:flexdirect:saved:utilities                    £364.00 ;= £1000.00
+    expenses:tax:income                                                  £910.60
+    expenses:tax:ni                                                      £427.02
+    liabilities:loan:slc                                                 £328.00
+    expenses:pension                                                     £387.22
+    income:job                                                         -£5268.25
+    expenses:pension                                                    £1469.84
+    income:job                                                         -£1469.84
+```
+
+I tweak this over time depending on what my savings targets are, and
+my actual income transactions don't include that `unallocated`
+account: that's just so I don't have to forecast every penny up front.
+
+Finally, I may sometimes know a particular expense is coming up, and
+so note it down ahead of time:
+
+```
+~ 2018-03-08  Dentist
+    expenses:health                                                       £18.80
+    assets:cash:nationwide:flexdirect:saved:health
 ```
 
 
