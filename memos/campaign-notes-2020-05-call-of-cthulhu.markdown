@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-08-09
+modified: 2020-08-23 21:00:00
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -1848,3 +1848,102 @@ Start with a luck refresh and the kharisiri fight on the reed island.
 Nayra should point out that these kharisiri look like locals, not
 white people.  They might also discover the pot bellies full of liquid
 fat.
+
+
+MoN Peru session 3, 2020-08-23
+------------------------------
+
+### Recap
+
+> First we'll do a luck refresh.  So make a luck check, gain `1d10+5`
+> if you pass and `2d10+10` if you fail.  You can't go above 99.
+>
+> Right...
+>
+> Last time you decided to leave Lima ahead of schedule, and without
+> Larkin and Mendoza, after Rachel blew up Mendoza's head with a
+> shotgun on the floor of Prof. Sanchez's office.
+>
+> Before skipping town on a fishing boat Jackson managed to hire,
+> Penelope snuck around Larkin's hotel room while he was out, finding
+> a large amount of heroin, a polished golden mirror which felt
+> magical and the lingering smell of rotting meat.
+>
+> You made it to Puno, and managed to track down Nayra, a local
+> wise-woman.  She told you a local folktale, about a hungry god which
+> fell from the sky and ate everything it could reach, but was finally
+> trapped underground, beneath a pyramid with "spells worked in gold",
+> by a legendary hero.  As the story went on, you realised it was
+> oddly quiet outside...
+>
+> Kints stepped out of the hut, and saw a hunched over figure in the
+> darkness.  A kharisiri, a woman you hadn't seen before, leaning over
+> an unmoving victim, her red tentacle pulsing as she sucked his fat
+> out...  Kints swung her sword, severing the tentacle.  The kharisiri
+> jumped up, hissing and spraying blood, and two more figures stood up
+> in the darkness.
+>
+> Kints, and anyone else seeing this, roll sanity.
+
+If anyone is inside, have them make a Spot Hidden roll, then for those
+who pass:
+
+> [characters], you look over at Nayra, who is still holding the
+> mirror, silent after telling you it looked like it was of Tiwanaku
+> origin.  She's staring into it, an expression of terror on her face.
+
+### Prep
+
+- Back at Prof. Armitage's country house, Nyarlathotep saved Rachel in
+  exchange for "a moment of your time," this session he will come to
+  collect:
+  - At the pyramid, he will possess Rachel (no roll), slip back, and
+    open a gate for Larkin and Mendoza (`1/1d6+1` SAN) to pass
+    through.
+  - If Penelope / Kints notice and come to find Rachel, she is
+    chanting "words which don't sound like anything a human mouth
+    should be making," her eyes completely black (`1d3` SAN).
+  - The gate will emit a blinding purple light, noise of a
+    thunderclap, and really strong wind.  So it's not subtle.
+  - Nyarlathotep will leave Rachel (hard CON to avoid fainting) and
+    take Larkin: he will straighten, suddenly looking stronger and
+    more confident, his eyes black, and he will speak in a deep voice:
+    - "Enough of this chase.  You two will enter the pyramid and
+      remove the golden seal, or this one will a sacrifice to my
+      glory." (Penelope & Rachel hear this in English, Kints in
+      Spanish)
+    - Rachel recognises this voice as the voice of Nyarlathotep.
+    - If she failed the hard CON, she now faints.  Mendoza stands over
+      her, hand on sword.
+    - If she passed the hard CON, Mendoza grapples her with a bonus
+      for her weakened state.
+  - Then switch viewpoints to Penelope / Kints and describe how Rachel
+    looked to them through this.
+
+### Notes
+
+- Kharisiri fight on Nayra's island:
+  - Rachel spots them healing
+  - Rachel remembers the maggot and figures out that's how they spread
+  - They decide to burn the corpses
+- Feral kharisiri encounter - they burn the corpse
+- Farmer encounter - he points confirms the kharisiri went to the
+  pyramid (backed up by clairvoyance)
+- The pyramid:
+  - Watch the kharisiri through binoculars (gross)
+  - Nyarly happens, sends Penelope and Kints into the tunnels.
+  - P & K set the fat on fire
+  - Rachel withers Larkin to death
+  - P & K repair the seal with the Gla'aki crystal
+  - Kharisiri crumble to dust
+  - Steal some of the loose gold
+  - Rachel looks into the mirror:
+    - Contacts Nyarlathotep, he gloats that his plans will inevitably
+      succeed
+    - She goes slightly mad, attacks the seal
+    - Kints restrains her
+
+### Next time
+
+We're playing a Traveller one-shot, which I expect to take two
+sessions.
