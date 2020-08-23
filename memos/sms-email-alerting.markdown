@@ -3,6 +3,7 @@ title: SMS and Email Alerting for Hardware Failure
 taxon: techdocs-practices
 tags: aws
 date: 2018-07-14
+superseded_by: monitoring
 ---
 
 On nyarlathotep, my file server, I use ZFS with mirrored drives.  If
