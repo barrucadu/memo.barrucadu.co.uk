@@ -2,7 +2,7 @@
 title: Backups
 taxon: techdocs-practices
 tags: aws
-date: 2019-03-29
+date: 2020-08-23 01:00:00
 ---
 
 I take automatic full and incremental off-site backups using
@@ -14,7 +14,7 @@ take wherever possible:
 - [dotfiles][] has my user-level configuration
 - [nixfiles][] has my system-level configuration
 
-So really I just need to back up my data and those git repositories.
+So really I just need to back up my data and git repositories.
 
 [duplicity]: http://duplicity.nongnu.org/
 [awsfiles]: https://github.com/barrucadu/awsfiles
@@ -141,18 +141,23 @@ if [[ -z "$BACKUP_TYPE" ]]; then
   exit 1
 fi
 
-if [[ -x "${BACKUP_SCRIPT_DIR}/host-scripts/${MY_HOST}" ]]; then
+if [[ -d "${BACKUP_SCRIPT_DIR}/host-scripts/${MY_HOST}" ]]; then
   DIR=`mktemp -d`
   trap "rm -rf $DIR" EXIT
   cd $DIR
 
-  # generates a backup in ./$MY_HOST
-  time $BACKUP_SCRIPT_DIR/host-scripts/$MY_HOST
+  mkdir "$MY_HOST"
+  pushd "$MY_HOST"
+  for script in "${BACKUP_SCRIPT_DIR}/host-scripts/${MY_HOST}"/*.sh; do
+    echo "$(basename $script)"
+    time "$script" || send-host-alert "Backup failed in ${script}"
+  done
+  popd
 
   time $BACKUP_SCRIPT_DIR/duplicity.sh \
     $BACKUP_TYPE                       \
     $MY_HOST                           \
-    "s3+http://${AWS_S3_BUCKET}/${MY_HOST}"
+    "s3+http://${AWS_S3_BUCKET}/${MY_HOST}" || send-host-alert "Backup upload failed"
 else
   echo 'nothing to do!'
 fi
@@ -196,6 +201,32 @@ so it can take incremental backups even though all the file
 modification times will have changed (because the backup is generated
 anew every time) since the last full backup.
 
+### Monitoring
+
+The main backup script calls a `send-host-alert` script on failure,
+which sends me an email and a text message using [AWS SNS][].  This
+tells me which part of the backup process failed, so I can then debug
+it and get it working again.
+
+That script is pretty straightforward:
+
+```bash
+#! /usr/bin/env nix-shell
+#! nix-shell -i bash -p awscli
+
+# aws config
+AWS_PROFILE="monitoring"
+AWS_TOPIC_ARN="arn:aws:sns:eu-west-1:197544591260:host-notifications"
+
+aws sns publish \
+  --profile "${AWS_PROFILE}" \
+  --topic-arn "${AWS_TOPIC_ARN}" \
+  --subject "Alert: $(hostname)" \
+  --message "$1"
+```
+
+[AWS SNS]: https://aws.amazon.com/sns/
+
 ### Encryption
 
 The backups are encrypted with a 512-character password (the
@@ -222,7 +253,7 @@ so I'll just give an example rather than go through each one.
 The script for dunwich, my VPS, backs up:
 
 - All my public github repositories (I don't have any private ones)
-- All my self-hosted repositories (which are all private)
+- All my self-hosted repositories
 - My [syncthing][] directory
 
 It looks like this:
@@ -230,6 +261,8 @@ It looks like this:
 ```bash
 #! /usr/bin/env nix-shell
 #! nix-shell -i bash -p jq
+
+source ~/secrets/backup-scripts/dreamlands-git-token.sh
 
 # I have no private github repos, and under 100 public ones; so this
 # use of the public API is fine.
@@ -241,39 +274,42 @@ function clone_public_github_repos() {
     done
 }
 
-function clone_all_dunwich_repos() {
-  for dir in /srv/git/repositories/*.git; do
-    url="git@dunwich.barrucadu.co.uk:$(basename $dir)"
-    git clone --bare "$url"
-  done
+function clone_all_private_dreamlands_repos() {
+  curl -H "Authorization: token ${DREAMLANDS_GIT_TOKEN}" https://git.barrucadu.dev/api/v1/orgs/private/repos 2>/dev/null | \
+    jq -r '.[].ssh_url' | \
+    while read url; do
+      git clone --bare "$url"
+    done
+}
+
+function clone_all_public_dreamlands_repos() {
+  curl -H "Authorization: token ${DREAMLANDS_GIT_TOKEN}" https://git.barrucadu.dev/api/v1/users/barrucadu/repos 2>/dev/null | \
+    jq -r '.[].ssh_url' | \
+    while read url; do
+      git clone --bare "$url"
+    done
 }
 
 set -e
 
-[[ -d dunwich ]] && rm -rf dunwich
-mkdir dunwich
-
-cd dunwich
-
 cp -a $HOME/s syncthing
 
-mkdir git
-mkdir git/dunwich
-mkdir git/github.com
+mkdir -p git/dreamlands/private
+mkdir -p git/dreamlands/public
+mkdir -p git/github.com
 
-pushd git/dunwich
-clone_all_dunwich_repos
+pushd git/dreamlands/private
+clone_all_private_dreamlands_repos
+popd
+
+pushd git/dreamlands/public
+clone_all_public_dreamlands_repos
 popd
 
 pushd git/github.com
 clone_public_github_repos
 popd
 ```
-
-The script creates the backup inside an `dunwich` directory: all the
-host-specific scripts generate their backup in a folder named after
-the host.  This was useful in an earlier incarnation of my backup
-scripts, but isn't really necessary now.
 
 [syncthing]: https://syncthing.net/
 
@@ -327,6 +363,6 @@ systemd.services.backup-scripts-incr = {
 
 The working directory, user, group, and frequencies are all
 configurable---but so far no host overrides them.  I thought about
-having a separate backup user, but decided that it didn't gain any
-security but cost some convenience (as everything I want to back up is
-owned by my user anyway).
+having a separate backup user, but---as everything I want to back up
+is owned by user anyway---decided that it didn't gain any security and
+made everything more awkward.
