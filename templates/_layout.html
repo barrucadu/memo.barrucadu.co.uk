@@ -19,10 +19,7 @@
 
     <title>{{ title|e }}</title>
 
-    <link rel="stylesheet" href="code.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
-
-    <script src="MathJax/MathJax.js?config=TeX-AMS_CHTML" async></script>
 
     {% if tag is defined %}
     <link rel="alternate" type="application/atom+xml" title="{{ title|e }}" href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">
@@ -31,6 +28,9 @@
     <link rel="alternate" type="application/atom+xml" title="{{ title|e }}" href="{{ taxon_dir|e }}{{ taxon.slug|e }}.xml">
     {% endif %}
     <link rel="alternate" type="application/atom+xml" title="{{ site_name|e }}" href="atom.xml">
+
+    {% block head %}
+    {% endblock %}
   </head>
 
   <body itemscope itemtype="http://schema.org/WebPage">

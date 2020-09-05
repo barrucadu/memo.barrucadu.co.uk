@@ -1,5 +1,9 @@
 {% extends "_layout.html" %}
 {% block itemtype %}BlogPosting{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="code.css" type="text/css">
+<script src="MathJax/MathJax.js?config=TeX-AMS_CHTML" async></script>
+{% endblock %}
 {% block sidebar %}
 <div class="sidebar-sticky">
   {% if superseded_by is defined %}
