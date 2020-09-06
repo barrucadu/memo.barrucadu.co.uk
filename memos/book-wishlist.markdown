@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-08-15
+modified: 2020-09-06 23:00:00
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -468,21 +468,25 @@ Roleplaying Games
 
 ### Game systems and supplements
 
-| Title                      | Author                        |
-|----------------------------+-------------------------------|
-| [Mythras][]                | Pete Nash & Lawrence Whitaker |
-| [Mythras Companion][]      | Pete Nash et al.              |
-| [The Two-Headed Serpent][] | Paul Fricker et al.           |
-| [Ars Magica][]             | Atlas Games                   |
-| [Covenants][]              | Atlas Games                   |
-| [The Mysteries][]          | Atlas Games                   |
-| [Lords of Men][]           | Atlas Games                   |
-| [The Church][]             | Atlas Games                   |
-| [Microscope][]             | Ben Robbins                   |
-| [Microscope Explorer][]    | Ben Robbins                   |
+| System       | Title                       | Author                        |
+|-------------:+-----------------------------+-------------------------------|
+| Mythras      | [Mythras][]                 | Pete Nash & Lawrence Whitaker |
+|              | [Mythras Companion][]       | Pete Nash et al.              |
+| Pulp Cthulhu | [The Two-Headed Serpent][]  | Paul Fricker et al.           |
+| Ars Magica   | [Ars Magica][]              | Atlas Games                   |
+|              | [Covenants][]               | Atlas Games                   |
+|              | [The Mysteries][]           | Atlas Games                   |
+|              | [Lords of Men][]            | Atlas Games                   |
+|              | [The Church][]              | Atlas Games                   |
+| Microscope   | [Microscope][]              | Ben Robbins                   |
+|              | [Microscope Explorer][]     | Ben Robbins                   |
+| Traveller    | [Traveller Core Rulebook][] | Mongoose Publishing           |
+|              | [Traveller Companion][]     | Mongoose Publishing           |
+|              | [The Pirates of Drinax][]   | Mongoose Publishing           |
+|              | [Shadows of Sindal][]       | Mongoose Publishing           |
 
-[Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/?MATCH=1
-[Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/?MATCH=1
+[Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/
+[Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/
 [The Two-Headed Serpent]: https://www.chaosium.com/the-two-headed-serpent-hardcover/
 [Ars Magica]: https://www.atlas-games.com/product_tables/AG0205
 [Covenants]: https://www.atlas-games.com/product_tables/AG0280
@@ -491,6 +495,10 @@ Roleplaying Games
 [The Church]: https://www.atlas-games.com/product_tables/AG0296
 [Microscope]: http://www.lamemage.com/store.html
 [Microscope Explorer]: http://www.lamemage.com/store.html
+[Traveller Core Rulebook]: https://www.mongoosepublishing.com/uk/traveller-core-rulebook.html
+[Traveller Companion]: https://www.mongoosepublishing.com/uk/traveller-companion.html
+[The Pirates of Drinax]: https://www.mongoosepublishing.com/uk/the-pirates-of-drinax.html
+[Shadows of Sindal]: https://www.mongoosepublishing.com/uk/shadowsofsindal.html.html
 
 ### Settings & Lore
 
@@ -515,6 +523,7 @@ Roleplaying Games
 | `9781936781324` | Kobold Guide to Combat                                         | Janna Silverstein et al. |
 | `9781936781287` | Kobold Guide to Magic                                          | Ray Vallese et al.       |
 | `9781936781041` | Kobold Guide to Board Game Design                              | Mike Selinker et al.     |
+| `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
 
 
 Computer Science, Programming, + Digital Culture
