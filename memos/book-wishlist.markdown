@@ -428,6 +428,10 @@ Book Series (candidates)
 |                                           | `9780575093362` | Oathbringer (part 1)                            |
 |                                           | `9780575093379` | Oathbringer (part 2)                            |
 |                                           | `9780575093386` | Rhythm of War                                   |
+| [Wax and Wayne][]                         | `9780765330420` | Mistborn: The Alloy of Law                      |
+|                                           | `9780765378552` | Mistborn: Shadows of Self                       |
+|                                           | `9780765378576` | Mistborn: The Bands of Mourning                 |
+|                                           |                 | Mistborn: The Lost Metal                        |
 
 [The Belgariad]: https://en.wikipedia.org/wiki/The_Belgariad
 [The Books of Babel]: https://www.thebooksofbabel.com/
@@ -438,6 +442,7 @@ Book Series (candidates)
 [My Lesbian Experience With Loneliness]: https://en.wikipedia.org/wiki/My_Lesbian_Experience_With_Loneliness
 [Shannara]: https://en.wikipedia.org/wiki/Terry_Brooks_bibliography#Shannara_series
 [The Stormlight Archive]: https://en.wikipedia.org/wiki/The_Stormlight_Archive
+[Wax and Wayne]: https://en.wikipedia.org/wiki/Mistborn
 
 
 Roleplaying Games
@@ -639,17 +644,6 @@ Miscellaneous
 | `9780345524256` | Midnight Riot                                                                                                         | Ben Aaronovitch       |
 | `9780809500314` | The Beckoning Fair One                                                                                                | Oliver Onions         |
 | `9781840226409` | The Dead of Night                                                                                                     | Oliver Onions         |
-
-
-Ideas
------
-
-Finally, a list of places to get book ideas from:
-
-- [Wax and Wayne series](htps://en.wikipedia.org/wiki/Mistborn)
-- [Economics books mentioned in this article](tps://thecorrespondent.com/466/the-neoliberal-era-is-ending-what-comes-next/61655148676-a00ee89a)
-- [Grady Hendrix's bibliography](https://en.wikipedia.org/wiki/Grady_Hendrix)
-- [The History of the Decline and Fall of the Roman Empire](https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire)
-- [Dan Simmons' bibliography](https://en.wikipedia.org/wiki/Dan_Simmons#Bibliography)
-
-Just in case I run out of other books.
+| `1594745269`    | Horrorstör                                                                                                            | Grady Hendrix         |
+| `1594748624`    | My Best Friend's Exorcism                                                                                             | Grady Hendrix         |
+| `9781683691433` | The Southern Book Club's Guide to Slaying Vampires                                                                    | Grady Hendrix         |
