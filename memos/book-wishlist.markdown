@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-09-06 23:00:00
+modified: 2020-09-09
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -362,44 +362,21 @@ Book Series
 
 | Series                 | ISBN            | Title                                               |
 |-----------------------:+----------------:+-----------------------------------------------------|
-| [20th Century Boys][]  | `9781421535340` | Volume 16: Beyond the Looking Glass                 |
-|                        | `9781421535357` | Volume 17: Cross-counter                            |
+| [20th Century Boys][]  | `9781421535357` | Volume 17: Cross-counter                            |
 |                        | `9781421535364` | Volume 18: Everybody's Song                         |
 |                        | `9781421535371` | Volume 19: The man who came back                    |
 |                        | `9781421535388` | Volume 20: Humanity in the Balance                  |
-|                        | `9781421535395` | Volume 21: Arrival of the space aliens              |
-|                        | `9781421542775` | Volume 22: The Beginning of Justice                 |
 | [21st Century Boys][]  | `9781421543260` | Volume 1: The Death of "Friend"                     |
 |                        | `9781421543277` | Volume 2: 20th Century Boys                         |
-| [Culture][]            | `1857231384`    | Consider Phlebas                                    |
-|                        | `0356196690`    | The State of the Art                                |
-|                        | `1857237633`    | Inversions                                          |
-|                        | `1857239695`    | Look to Windward                                    |
-|                        | `1841494178`    | Matter                                              |
-|                        | `1841498939`    | Surface Detail                                      |
-|                        | `9780356501505` | The Hydrogen Sonata                                 |
-| [Malazan][]            | `9780553813135` | House of Chains                                     |
-|                        | `9780553813142` | Midnight Tides                                      |
-|                        | `9780553813159` | The Bonehunters                                     |
-|                        | `9780553813166` | Reaper's Gale                                       |
-|                        | `9780553824469` | Toll The Hounds                                     |
-|                        | `9780553813173` | Dust of Dreams                                      |
-|                        | `9780553813180` | The Crippled God                                    |
 | [Nana][]               | `9781421519722` | Volume 14                                           |
 |                        | `9781421523750` | Volume 16                                           |
 |                        | `9781421523767` | Volume 17                                           |
-|                        | `9781421533087` | Volume 21                                           |
-| [Neuromancer][]        | `9781473217409` | Count Zero                                          |
-|                        | `9781473217423` | Mona Lisa Overdrive                                 |
 | [Overlord][]           |                 | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
 |                        |                 | Volume 14: The Witch of the Falling Kingdom         |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
-[Culture]: https://en.wikipedia.org/wiki/Culture_series
-[Malazan]: https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen
 [Nana]: https://en.wikipedia.org/wiki/Nana_(manga)
-[Neuromancer]: https://en.wikipedia.org/wiki/Neuromancer
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
 
 
