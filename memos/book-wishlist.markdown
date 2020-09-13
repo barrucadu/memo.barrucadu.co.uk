@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-09-09
+modified: 2020-09-13
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -250,9 +250,8 @@ thought, I settled on a list of *some* classics:
 | `1`    | Mrs Rosie and the Priest                                                     | Giovanni Boccaccio         |
 | `2`    | As kingfishers catch fire                                                    | Gerard Manley Hopkins      |
 | `3`    | The Saga of Gunnlaug Serpenttongue                                           |                            |
-| `5`    | Aphorisms on Love and Hatem Friedrich Nietzsche                              |                            |
+| `5`    | Aphorisms on Love and Hate                                                   | Friedrich Nietzsche        |
 | `6`    | Traffic                                                                      | John Ruskin                |
-| `7`    | Wailing Ghosts                                                               | Pu Songling                |
 | `8`    | A Modest Proposal                                                            | Jonathan Swift             |
 | `9`    | Three Tang Dynasty Poets                                                     |                            |
 | `10`   | On the Beach at Night Alone                                                  | Walt Whitman               |
@@ -262,8 +261,6 @@ thought, I settled on a list of *some* classics:
 | `17`   | Caligula                                                                     | Suetonius                  |
 | `18`   | Jason and Medea                                                              | Apollonius of Rhodes       |
 | `19`   | Olalla                                                                       | Robert Louis Stevenson     |
-| `21`   | Trimalchio’s Feast                                                           | Petronius                  |
-| `22`   | How a Ghastly Story Was Brought to Light by a Common or Garden Butcher’s Dog | Johann Peter Hebel         |
 | `23`   | The Tinder Box                                                               | Hans Christian Andersen    |
 | `24`   | The Gate of the Hundred Sorrows                                              | Rudyard Kipling            |
 | `25`   | Circles of Hell                                                              | Dante                      |
@@ -368,15 +365,11 @@ Book Series
 |                        | `9781421535388` | Volume 20: Humanity in the Balance                  |
 | [21st Century Boys][]  | `9781421543260` | Volume 1: The Death of "Friend"                     |
 |                        | `9781421543277` | Volume 2: 20th Century Boys                         |
-| [Nana][]               | `9781421519722` | Volume 14                                           |
-|                        | `9781421523750` | Volume 16                                           |
-|                        | `9781421523767` | Volume 17                                           |
 | [Overlord][]           |                 | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
 |                        |                 | Volume 14: The Witch of the Falling Kingdom         |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
-[Nana]: https://en.wikipedia.org/wiki/Nana_(manga)
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
 
 
