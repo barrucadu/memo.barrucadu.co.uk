@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-08-23 21:00:00
+modified: 2020-09-20
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -1947,3 +1947,66 @@ who pass:
 
 We're playing a Traveller one-shot, which I expect to take two
 sessions.
+
+
+MoN America session 1, 2020-09-20
+---------------------------------
+
+### Time skip / Hero Development Phase
+
+1. Set HP and MP to full
+2. Luck recovery:
+   - Roll, +2d10+10 on failure, +1d10+5 on success.
+3. Gain skills:
+   - Roll, +1d10 on failure.
+4. Recover sanity:
+   - Spend time with backstory, roll SAN, +1d10 on success, -1 and
+     revise backstory on failure.
+   - With a key connection use a bonus die and cure indefinite
+     insanity.
+5. Review credit ratings:
+   - They had pack animals, so assume everyone was bumped to CR49
+     (with an extra $2k in assets) at the end of Peru.
+   - Talk about what everyone was up to in the intervening 5 years and
+     revise up or down.
+6. Learn languages:
+   - If anyone lived in another country they gain Language (Other) at
+     30 for 2+ years or 50 for 3+ years.
+
+### Prep
+
+- Overview of Carlyle Expedition + go through newspaper clippings
+- Where would they go to await Jackson's message?  They don't know
+  where he is, so it's got to be somewhere he knows and where they can
+  hang out all day.
+  - Do any of them live in New York?
+  - Or a favoured hotel?
+  - A speakeasy?
+  - Something else?
+  - Ask and improv the phonecall scene:
+    - Jackson's audibly nervous
+    - Sets a meeting place and time (8PM, room 410 at the Hotel
+      Chelsea)
+    - He doesn't answer any questions, hangs up if pressed, and
+      doesn't answer if called back.
+    - If visited early he's not in (reception can confirm an African
+      American man went out around the time the call ended).
+
+### Notes
+
+- Room 410:
+  - They killed one cultist, the other escaped.
+  - Lt. Poole now has the car's description and their contact details.
+  - Rachel identified the Bloody Tongue symbol on Jackson's forehead.
+- Research:
+  - Talked to Arthur Emerson, he told them about Ju-Ju House and to be careful.
+  - Rachel got Bloody Tongue background from the library.
+  - And found that Roger Carlyle had checked out "Life as a God" but never returned it.
+  - Cassie leaves a message for Prof. Cowles: an "urgent matter" relating to his lecture.
+- Ju-Ju House:
+  - Asked Silas about Jackson and the Bloody Tongue.
+  - He said he didn't know Jackson and that the Bloody Tongue was a story to scare children.
+
+### Next time
+
+The funeral.
