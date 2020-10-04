@@ -1,7 +1,7 @@
 ---
 title: "How to: update Pi-hole"
 taxon: techdocs-runbooks
-published: 2020-04-04
+published: 2020-10-04
 ---
 
 My DNS at home is powered by [Pi-hole][], which needs to be updated
@@ -16,6 +16,7 @@ sudo apt-get upgrade
 
 # update pi-hole & blocklists
 pihole -up
+pihole -g
 
 # update cloudflared
 sudo cloudflared update
