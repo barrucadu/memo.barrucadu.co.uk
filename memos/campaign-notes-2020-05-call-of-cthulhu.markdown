@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-09-20
+modified: 2020-10-18
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -2010,3 +2010,139 @@ MoN America session 1, 2020-09-20
 ### Next time
 
 The funeral.
+
+
+MoN America session 2, 2020-10-18
+---------------------------------
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Leads they think they have
+
+##### The Carlyle Expedition / Erica Calyle
+
+- They can find out more about Roger and Bunay from Erica Calyle
+  **(p132)**
+- They can find gossip about the expedition members from newspaper
+  articles, peers, or Erica Carlyle **(p139)**
+
+##### Bloody Tongue headbands
+
+- Police haven't seen these before, don't know what they are (not on
+  the guy they have locked up, for instance)
+- Investigators can make an educated guess that these are cult symbols
+
+##### The cultist's car
+
+- Lt. Poole looking into it, no luck yet
+- The car is no longer a lead, but if they visit Erica Carlyle it'll
+  try to run them off the road into the snow
+
+##### The Cult of the Bloody Tongue
+
+- Nothing they can learn directly, though going around Harlem asking
+  about the cult will result in a lot of people watching them
+
+##### M. Warren Besart / Faraz Najjar
+
+- Nothing further to learn outside of Egypt
+- If Erica is questioned she says Roger used to exchange letters with
+  people all over the world; most of them trying to get his money
+
+##### The Penhew Foundation
+
+- Nothing specific to learn other than its reputation
+
+##### Arthur Emerson / Emerson Imports
+
+- He has nothing further to contribute
+
+##### Silas N'Kwane / Ju-Ju House
+
+- Questioning Silas won't reveal anything new
+- There will always be cultists in or near the shop when the
+  investigators are there, unless they shake off the tail
+- Questioning the locals will reveal that sometimes at night a great
+  many people go into the shop, usually once a month, sometimes more
+  **(p154)**
+- Watching the shop at day will reveal the bribery, Silas's routine,
+  and Mukunga M'Dari (the last not notable unless they watch for long
+  enough to see his repeated visits, or if they've heard Hilton
+  Adams's description) **(p155)**
+- Watching the shop at night will reveal people arriving for the
+  rituals **(p155)**
+
+##### Miriam Atwright / Harvard University Library
+
+- She can reveal the book Jackson wanted **(p136)**
+
+##### Prof Cowles / Arkham University / The Cult of Darkness
+
+- He never met Jackson, but read some of his books, and doesn't know
+  if he came to his lecture
+- If suitably flattered he'll invite the investigators to Arkham (2.5
+  hours on train) to see his slides and get a lecture summary
+- He can post copies if the investigators absolutely can't travel
+
+##### Lt. Martin Poole
+
+- He has nothing further to contribute (other than pointing them to
+  Dr. Lemming).
+
+##### Previous murders
+
+- Lt. Poole or Rebecca Shosenburg can point them to Dr. Mordecai
+  Lemming **(p135)**
+- Rebecca Shosenburg will approach the investigators about this at the
+  funeral **(p145)**
+
+##### Life as a God
+
+- This is hidden in the Carlyle mansion's library **(p134)**
+
+#### Mukunga M'Dari's tail
+
+- There are 4 different cultists watching the investigators in shifts,
+  3 black and 1 white
+- They will flee if spotted, leading to a chase
+- Currently they are just watching: M'Dari wants to know how much the
+  investigators know and if Jackson has told anyone else what he knew
+- After (at least) 3 days he'll be satisfied it's just the
+  investigators and will make a move
+
+#### The funeral
+
+- **(p127)**
+- A few reporters keeping a distance, Jonah Kensington, Carlton
+  Ramsey, and Willa Sligh in attendance.
+- At the end reporters come to ask questions, Rebecca Shosenburg
+  pushes to the front and asks if they know anything about the
+  connection between Jackson's murder and the previous murders for
+  which Hilton Adams was convicted and placed on death row?  If they
+  talk to her, she'll invite them to meet at the newspaper's offices.
+- Both Carlton Ramsey **(p127)** and Jonah Kensington **(p128)** make
+  appointments to see the investigators over the next 48 hours.
+- At the reading of the will, Carlton Ramsey says that the bulk of
+  Jackson's funds come from "investments made with the proceeds of
+  some sort of expedition down in Peru several years back".
+
+### Notes
+
+- Agreed to keep Rebecca Shosenburg in the loop in exchange for an
+  introduction to Millie Adams.
+- Learned that Erica Carlyle can be contacted through Bradley Grey.
+- Sent a telegram to the Penhew Foundation asking if they knew
+  anything about Jackson Elias.
+- Met Prof Cowles: got a lecture summary and contact details for
+  Robert MacKenzie.
+- Got all the notes from Jonah Kensington.
+
+### Things to bring up next session
+
+- Rebecca Shosenburg's call & the Hilton Adams story
+- The Penhew Foundation's response
+- Mukunga's tail
