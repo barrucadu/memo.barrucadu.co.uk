@@ -2,7 +2,7 @@
 title: Machines
 taxon: techdocs
 published: 2017-03-01
-modified: 2020-03-31
+modified: 2020-10-26
 ---
 
 I run a few machines with various bits and bobs on them.  They're
@@ -32,31 +32,22 @@ There is a naming convention based on the [Cthulhu Mythos][] of
 azathoth
 --------
 
-This is my primary desktop computer.  It dual-boots Windows, so it
-doesn't run any services, as they may not be accessible half of the
-time.
+This is my primary desktop computer.  It dual-boots Windows 10 and
+NixOS, so it doesn't run any services, as they may not be accessible
+half of the time.
 
-The Windows set-up is a pretty vanilla Windows 10.  I just use it for
-gaming, which I do almost entirely through [Steam][].
+I use NixOS for programming and for work.  Windows 10 most of the rest
+of the time.
 
 I don't bother backing up either OS: everything I care about on Linux
 is either in Syncthing or Git, and all of my git repositories have
 remotes on GitHub or **dreamlands**.
 
-[Steam]: https://store.steampowered.com/
-
 
 nyarlathotep
 ------------
 
-My home server.  It mostly acts as a NAS and media server, also runs a
-writable instance of [bookdb][] (which is synced to **dunwich**
-frequently) and [rtorrent][].
-
-This machine isn't available on the public internet.
-
-[bookdb]: https://github.com/barrucadu/bookdb
-[rtorrent]: https://rakshasa.github.io/rtorrent/
+[See the home network memo](home-network.html#nyarlathotep).
 
 
 dunwich
