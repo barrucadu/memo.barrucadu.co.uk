@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-10-18
+modified: 2020-11-01
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -21,21 +21,25 @@ Player characters
   and causing the destruction of Scotland, and is a bit unstable
   because of it.
 
-- **Penelope Temple:** librarian / parapsychologist (cult leader).  A
-  co-worker of Rachel's, though she didn't always work in the library.
-  Penelope and her now-deceased husband were once burglars, until one
-  fateful job which ended in the foiled robbery of a secret society's
-  headquarters and the death (or, at least, disappearance) of her
-  husband Percival.
+  *Known spells:*
+  - Contact Nyarlathotep
+  - Shrivelling
+  - Elder Sign
 
-  *1921 update:* Penelope has risen through the ranks of the Silver
-  Twilight Lodge and caused a schism, leaving her librarian job to
-  head a new cult centred around Gla'aki.
+- **Cassie Black:** private investigator (femme fatale).  An
+  ex-policewoman who left the force to become a private investigator.
+  Cassie is a long-time friend of Jackson's; as students they once
+  stole a flamingo from the zoo.
 
 - **Kintsugi Ikehara:** laborer (outsider).  A mixed-race
   Japanese/Peruvian daughter of an immigrant eking out a living with
   her mother, her only relative.  Kints wants an out from her poor
   life.
+
+  *1925 update:* Kints has been living in the US with Dill and his
+  wife for some years, and now speaks fluent English.  She's kept in
+  touch with Penelope and Rachel, and met Cassie when they responded
+  to Jackson's summons.
 
 ### Retired
 
@@ -47,36 +51,28 @@ Player characters
   political friends of his arranged for him to have a rather
   unimportant and out-of-the-way position.
 
+- **Penelope Temple:** librarian / parapsychologist (cult leader).  A
+  co-worker of Rachel's, though she didn't always work in the library.
+  Penelope and her now-deceased husband were once burglars, until one
+  fateful job which ended in the foiled robbery of a secret society's
+  headquarters and the death (or, at least, disappearance) of her
+  husband Percival.
 
-### Notable possessions
-
-- **Penelope's spooky book:** which she stole in the job which claimed
-  Percival.  On the surface it appears to be a regular book of fairy
-  tales, but they're rather darker and more grim than usual.  The book
-  is bound in a type of leather Penelope has not been able to
-  identify.
-
-- **Code book:** found in a safe in Howard's study.  A key to have an
-  encrypted telegram exchange with Dr. Armitage.
-
-- **Copious notes on the Revelations of Gla'aki:** made during their
-  stay with Dr. Armitage.
-
-### Spell list
-
-- **Known spells:**
-  - Penelope:
-    - Contact Gla'aki
-  - Rachel:
-    - Contact Nyarlathotep
-    - Shrivelling
-    - Elder Sign
+  *1921 update:* Penelope has risen through the ranks of the Silver
+  Twilight Lodge and caused a schism, leaving her librarian job to
+  head a new cult centred around Gla'aki.
 
 
 Rulings
 -------
 
 - Dominate can be cast on a PC through a Contact Deity link.
+
+
+Resources
+---------
+
+- [1925 moon phase calendar](https://www.calendar-12.com/moon_calendar/1925/january)
 
 
 MoN Peru Arc Lore
@@ -2146,3 +2142,135 @@ Who wants to give it?
 - Rebecca Shosenburg's call & the Hilton Adams story
 - The Penhew Foundation's response
 - Mukunga's tail
+
+
+MoN America session 3, 2020-11-01
+---------------------------------
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Leads they think they have
+
+##### The Expedition / The Carlyles
+
+- They can find out more about the expedition, including the existence
+  of Bunay, from Erica Calyle **(p132)**
+- They can find gossip about the expedition members from newspaper
+  articles, peers, or Erica Carlyle **(p139)**
+- The way to get in touch with Erica is through Bradley Grey
+  **(p132)**
+- If Erica is questioned about people's motives, she says a lot of
+  people tried to use Roger to get to his money
+
+##### Silas N'Kwane / Ju-Ju House
+
+- Questioning the locals will reveal that sometimes at night a great
+  many people go into the shop, usually once a month, sometimes more
+  **(p154)**
+- Watching the shop at day will reveal the bribery, Silas's routine,
+  and Mukunga M'Dari (the last not notable unless they watch for long
+  enough to see his repeated visits, or if they've heard Hilton
+  Adams's description) **(p155)**
+- Watching the shop at night will reveal people arriving for the
+  rituals **(p155)**
+
+##### Miriam Atwright / Harvard University Library
+
+- She can reveal the book Jackson wanted **(p136)**
+
+##### Prof Cowles / Arkham University / The Cult of Darkness
+
+- Nothing more to learn without going to or getting in touch with
+  Australia
+
+##### Previous murders
+
+- Lt. Poole or Rebecca Shosenburg can point them to Dr. Mordecai
+  Lemming **(p135)**
+
+##### Life as a God
+
+- This is hidden in the Carlyle mansion's library **(p134)**
+
+##### Jackson Elias
+
+- The party have clues pointing to:
+  - England (Carlyle Expedition)
+  - Egypt (Carlyle Expedition; Cult of the Bloody Tongue)
+  - Kenya (Carlyle Expedition; Nairobi Notes; Cult of the Bloody Tongue)
+  - Australia (Cult of the Sand Bat)
+  - China (Nairobi Notes)
+- Nothing further to learn from Carlton or Jonah, they've shared all
+  they have
+
+#### Mukunga M'Dari's tail
+
+##### Who
+
+- There are 4 different cultists watching the investigators in shifts,
+  3 black and 1 white
+- None will talk: they fear M'Dari's vengeance more than death
+
+##### Motives
+
+- M'Dari wants to know how much the investigators know and if Jackson
+  has told anyone else what he knew
+
+##### Tactics
+
+- They will flee if spotted, leading to a chase
+- They are more likely to instigate a riot which the investigators get
+  caught up in than directly confront them, unless the investigators
+  are alone or vulnerable in which case they will attack!
+- If they attack directly, they will try to capture, but will kill if
+  necessary
+
+##### Captain Robson
+
+- If a riot starts, Captain Robson's men will take the investigators
+  away and encourage them to leave Harlem for good
+- If the investigators start loitering outside the Ju-Ju House and
+  haven't shaken off the tail, Captain Robson's men will come take the
+  investigators away for mopery
+
+#### The Penhew Foundation's response
+
+> ELIAS VISITED 14TH NOV ABOUT CARLYLE EXP. DISCUSSED FUNDING SHORT
+> MEETING NO FURTHER INFO
+
+#### An Innocent Man (p145)
+
+- Rebecca Shosenburg will contact the investigators first thing saying
+  she has arranged a meeting with Millie Adams at the Lafayette
+  Theatre at 11am
+- There is a cult spy listening in at the theatre
+- If Millie Adams isn't protected she will be turned into a ciimba in
+  time for when the investigators visit the Ju-Ju House basement
+- Otherwise follow the scenario as written
+
+### Notes
+
+- They spotted the cultist hiding in the theatre, but didn't apprehend
+  him
+- Got Millie Adams' story
+  - Next New Moon is on Sunday the 25th
+  - Meeting arranged with Hilton Adams for following morning
+- Met Erica Carlyle at a charity gala and got invited to her estate
+- Visited Hilton Adams, got his story
+  - Watch out for Mukunga M'Dari!
+- Visited Erica Carlyle:
+  - Got her story
+  - Learn about Bunay
+  - See the books:
+    - Initial readings of all but *Selections*
+    - Note down poetry-looking bits (spells) and inverted ankh from
+      *Selections*
+
+### Things to bring up next session
+
+- Attack on the way back from the Carlyle Estate
+- The Penhew Foundation's response
