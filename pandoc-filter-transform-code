@@ -50,4 +50,4 @@ def transform_code(elem, doc):
 
 
 if __name__ == "__main__":
-    toJSONFilter(transform_code)
+    run_filter(transform_code)

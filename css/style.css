@@ -260,33 +260,12 @@ h4::before {
 }
 
 .sidenote-number {
-    counter-increment: sidenote-counter;
-}
-
-.sidenote-number:after, .sidenote:before {
     position: relative;
-    vertical-align: baseline;
-}
-
-.sidenote-number:after {
-    content: counter(sidenote-counter);
     font-size: 0.8em;
     top: -0.4em;
-    left: 0.1em;
-}
-
-.sidenote:before {
-    content: counter(sidenote-counter) " ";
-    font-size: 0.8em;
-    top: -0.4em;
-}
-
-label.sidenote-number {
-    display: inline;
-}
-
-input.margin-toggle, label.margin-toggle:not(.sidenote-number) {
-    display: none;
+    margin: 0 0.4em;
+    font-weight: bold;
+    color: var(--text-link);
 }
 
 pre.code, blockquote {

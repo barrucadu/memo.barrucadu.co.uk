@@ -185,10 +185,8 @@ class MemoReader:
 
         rendered = pypandoc.convert_text(content, "html", format=fmt,
             filters=[
-                "pandoc-sidenote",
-                # re-enable after a new release of panflute:
-                # https://github.com/sergiocorreia/panflute/issues/142
-                # "pandoc-filter-transform-code",
+                "pandoc-filter-sidenote",
+                "pandoc-filter-transform-code",
             ],
             extra_args=[
                 "--no-highlight",

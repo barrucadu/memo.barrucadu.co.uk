@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+from panflute import *
+
+
+counter = 0
+
+
+def coerceToInline(blocks):
+    """Extract inlines from blocks.
+    """
+
+    paragraph_break = [LineBreak(), LineBreak()]
+
+    inlines = []
+    for block in blocks:
+        block = block.walk(lambda e, _: Str("") if type(e) == Note else e)
+        if type(block) == Plain:
+            inlines.extend(block.content)
+        elif type(block) == Para:
+            inlines.extend(block.content)
+            inlines.extend(paragraph_break)
+        elif type(block) == LineBlock:
+            for lines in block.content:
+                inlines.extend(lines)
+                inlines.append(LineBreak())
+            inlines.extend(paragraph_break)
+        elif type(block) == RawBlock:
+            inlines.append(RawInline(block.text, format=block.format))
+
+    return inlines
+
+
+def sidenote(elem, doc):
+    """Turn footnotes into sidenotes
+    """
+
+    global counter
+
+    if type(elem) != Note:
+        return
+
+    content = coerceToInline(elem.content)
+    number = Span(Str(str(counter)), classes=["sidenote-number"])
+    sidenote = Span(number, *content, classes=["sidenote"])
+
+    counter += 1
+
+    return Span(number, sidenote)
+
+
+if __name__ == "__main__":
+    run_filter(sidenote)
