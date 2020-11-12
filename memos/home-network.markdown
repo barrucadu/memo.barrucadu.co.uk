@@ -1,7 +1,7 @@
 ---
 title: Home Network
 taxon: techdocs
-published: 2020-10-26
+published: 2020-11-12
 ---
 
 ![The pile of network hardware.](home-network/hardware.jpg)
@@ -96,6 +96,10 @@ address=/dev.gov.uk/127.0.0.1
 # these should be CNAMEs but windows doesn't resolve them
 address=/help.lan/10.0.0.3
 address=/nas.lan/10.0.0.3
+
+# firefox in windows has started redirecting http://nyarlathotep to http://www.nyarlathotep.com ???
+# so add in a domain with a dot, which it seems happier with
+address=/nyarlathotep.lan/10.0.0.3
 ```
 
 The `help.lan` and `nas.lan` rules are for guests.  Visiting
@@ -173,13 +177,12 @@ mirrored pairs for NAS:
 Mirror Device  Mirror Device
      0 A            0 B
      1 A            1 B
-     - A            - B
+     2 A            2 B
      - A            - B
 ```
 
 The "A" volume of each pair is connected to the motherboard SATA
 controller and the "B" volume of each pair to a PCI-e SATA controller.
-Only two pairs are in use right now.
 
 The HDD serial numbers are:
 
@@ -187,6 +190,8 @@ The HDD serial numbers are:
 2. **0B:** `ata-ST10000VN0004-1ZD101_ZA27G6C6`
 3. **1A:** `ata-ST10000VN0004-1ZD101_ZA22461Y`
 4. **1B:** `ata-ST10000VN0004-1ZD101_ZA27BW6R`
+5. **2A:** `ata-ST10000VN0008-2PJ103_ZLW0398A`
+5. **2B:** `ata-ST10000VN0008-2PJ103_ZLW032KE`
 
 
 Future projects
