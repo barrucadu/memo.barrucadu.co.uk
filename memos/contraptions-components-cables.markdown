@@ -1,7 +1,7 @@
 ---
 title: Contraptions, components, and cables
 taxon: self-possessions
-published: 2020-10-26
+published: 2020-11-12
 ---
 
 - **Contraption:** a thing independently useful
@@ -11,8 +11,8 @@ published: 2020-10-26
 In Use
 ------
 
-This table does not yet include cables or components used inside
-azathoth or nyarlathotep, or peripheral contraptions.
+See PCPartPicker for details of [azathoth][] and [nyarlathotep][].
+This table also doesn't include peripheral contraptions.
 
 | Type               | Quantity | Item                                                       | Assigned To     |
 |--------------------+----------+------------------------------------------------------------+-----------------|
@@ -48,6 +48,9 @@ azathoth or nyarlathotep, or peripheral contraptions.
 | Cable (power)      |        2 | 3-pin fan to USB power adapter                             | Network Cabinet |
 | Cable (power)      |        3 | C14 / UK mains adapter w/ 25cm cable                       | Network Cabinet |
 
+[azathoth]: https://uk.pcpartpicker.com/user/barrucadu/saved/bxGtnQ
+[nyarlathotep]: https://uk.pcpartpicker.com/user/barrucadu/saved/BRJqmG
+
 
 Spare
 -----
@@ -62,16 +65,12 @@ Spare
 | Contraption (rack) |        1 | 6-way PDU (UK sockets) (1U)                             | Office        |
 | Contraption (rack) |        1 | Linksys LGS124 24-port gigabit switch (1U)              | Office        |
 | &mdash;            |          |                                                         |               |
-| Component          |        1 | BitFenix Phenom M chassis w/ Corsair TX650M PSU         | Office        |
-| Component          |        1 | Chassis expansion slot cover for nyarlathotep           | Office        |
 | Component          |        4 | 120mm UpHere fan                                        | Office        |
 | Component          |        2 | 120mm SilverStone fan                                   | Office        |
 | Component          |        2 | 120mm Noctua NF-A12x15 FLX w/o fan                      | Office        |
 | Component          |        2 | 120mm Noctua NF-A12x15 FLX w/o fan, ultra-noise adapter | Office        |
-| Component          |        2 | 120mm Noctua NF-A12x15 PWM                              | Office        |
 | Component          |        3 | Magnetic case fan cover                                 | Office        |
 | Component          |        4 | Corsair Vengeance LPX DDR4 8GB RAM stick                | Office        |
-| Component          |        1 | Expansion slot cover for nyarlathotep's chassis         | Office        |
 | Component          |        1 | UniFi FlexHD mounting components                        | Office        |
 | Component (rack)   |        1 | Brush panel (1U)                                        | Office        |
 | Component (rack)   |        1 | Mesh panel (1U)                                         | Office        |
