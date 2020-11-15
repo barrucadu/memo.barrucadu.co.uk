@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-11-01
+modified: 2020-11-15
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -22,14 +22,18 @@ Player characters
   because of it.
 
   *Known spells:*
-  - Contact Nyarlathotep
-  - Shrivelling
+  - Contact Deity Nyarlathotep
+  - Contact Deity Tsathoggua
+  - Contact Yithian
+  - Create Mist of R'lyeh
   - Elder Sign
+  - Shrivelling
 
-- **Cassie Black:** private investigator (femme fatale).  An
-  ex-policewoman who left the force to become a private investigator.
-  Cassie is a long-time friend of Jackson's; as students they once
-  stole a flamingo from the zoo.
+- **Cassie Black:** <span class="highlight">[indefinitely insane]</span>
+  private investigator (femme fatale).  An ex-policewoman who left the
+  force to become a private investigator.  Cassie is a long-time
+  friend of Jackson's; as students they once stole a flamingo from the
+  zoo.
 
 - **Kintsugi Ikehara:** laborer (outsider).  A mixed-race
   Japanese/Peruvian daughter of an immigrant eking out a living with
@@ -40,6 +44,9 @@ Player characters
   wife for some years, and now speaks fluent English.  She's kept in
   touch with Penelope and Rachel, and met Cassie when they responded
   to Jackson's summons.
+
+  *Known spells:*
+  - Contact Deity Nodens
 
 ### Retired
 
@@ -2274,3 +2281,139 @@ Who wants to give it?
 
 - Attack on the way back from the Carlyle Estate
 - The Penhew Foundation's response
+
+
+MoN America session 4, 2020-11-15
+---------------------------------
+
+**Start:** evening of Thursday the 22nd of January.  Next ritual is
+Sunday the 25th.
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Leads they think they have
+
+##### The Hilton Adams Case
+
+- Millie can point them to his army buddies **(p149)**
+
+##### Mordecai Lemming
+
+- Rebecca Shosenburg, Lt. Poole, or researching old newspapers can
+  lead to his hotel **(p135)**
+
+##### The Expedition / The Carlyles
+
+- They can find gossip about the expedition members from newspaper
+  articles, peers, or Erica Carlyle **(p139)**
+- The "egyptian dreams" are detailed in Dr. Huston's notes **(p141)**
+
+##### Silas N'Kwane / Mukunga M'Dari / Ju-Ju House
+
+- Watching the shop at day will reveal the bribery, Silas's routine,
+  and Mukunga M'Dari (who they'll recognise from Hilton's description)
+  **(p155)**
+- Watching the shop at night will reveal people arriving for the
+  rituals **(p155)**
+
+##### Miriam Atwright / Harvard University Library
+
+- She can reveal the book Jackson wanted **(p136)**
+
+##### Jackson Elias
+
+- The party have clues pointing to:
+  - England (Carlyle Expedition)
+  - Egypt (Carlyle Expedition; Cult of the Bloody Tongue)
+  - Kenya (Carlyle Expedition; Nairobi Notes; Cult of the Bloody Tongue)
+  - Australia (Cult of the Sand Bat)
+  - China (Nairobi Notes)
+- Nothing further to learn from Carlton or Jonah, they've shared all
+  they have
+
+#### Contact spells
+
+##### The Winged Ones - Contact Elder Thing
+
+Won't work unless in southern Australia (and even then only with a
+hard Luck roll).  It will be obvious to the caster that it didn't
+work.
+
+##### The Observers - Contact Yithian
+
+The caster will get a sense that it worked.  A few nights later a man
+will arrive and ask to speak to whoever cast it, saying he has been
+contacted.  He will answer (some of) the gang's questions, if they
+agree to go to Australia and free his trapped companion.  His motive
+is to get Kakakatak freed and will lie or withold information to avoid
+scaring off the investigators.
+
+#### Selections de Livre D'Ivon spells
+
+The Yithian can translate these spells.
+
+- Contact Deity (Nodens) - he is an enemy of Nyarlathotep, and so may
+  aid the gang.  He avoids direct confrontation, but can impart
+  authority over the Nightgaunts.
+
+- Contact Deity (Tsathoggua) - hew as once worshipped by a great cult
+  in prehistoric times, and taught many human wizards.  But he spends
+  all his time sleeping or eating, if summoned he can be tempted with
+  magically potent food (like, say, another wizard) and onyl after
+  eating will he impart any knowledge.
+
+- Create Mist of R'lyeh
+
+If asked about the inverted ankh, "it is one of the symbols of
+Nyarlathotep, the enemy of Nodens."
+
+#### Mukunga M'Dari's tail
+
+##### Attack!
+
+- Snowy and dark drive back through the countryside to New York
+- A red 1915 Hudson will appear behind the gang and rapidly close on
+  them, trying to ram them off the road
+- Four men in the car, one being who Kints chased from Jackson's hotel
+  room
+- The men have Bloody Tongue headbands and have guns and knives
+- All will die (or bite off their own tongue) rather than spill the
+  beans
+
+##### Captain Robson (Harlem only)
+
+- If a riot starts, Captain Robson's men will take the investigators
+  away and encourage them to leave Harlem for good
+- If the investigators start loitering outside the Ju-Ju House and
+  haven't shaken off the tail, Captain Robson's men will come take the
+  investigators away for mopery
+
+#### The Penhew Foundation's response
+
+> ELIAS VISITED 14TH NOV ABOUT CARLYLE EXP. DISCUSSED FUNDING SHORT
+> MEETING NO FURTHER INFO
+
+### Notes
+
+- Knocked off the road and escaped from the cultists
+- Kints talks to Dr. Lemming and learns he's a fanboy of Silas N'Kwane
+- Cassie gets Dr. Huston's notes
+- Rachel gets the spells translated
+- The gang learn a bunch of their spells
+- Cassie bluffs her way into the cult ritual:
+  - Participates
+  - Goes indefinitely insane
+  - Sees the chakota and the ciimba
+  - Hears Mukunga M'Dari say "Nyarlathotep" and that the "great plan"
+    will be enacted with "our brothers around the world" "in a year's
+    time" "on the day of the eclipse"
+
+### Things to bring up next session
+
+- Mukunga M'Dari will find out Cassie was there and send some police
+  goons to accuse them of trespass
+- They might go to Australia
