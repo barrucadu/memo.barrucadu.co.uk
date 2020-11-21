@@ -1,7 +1,7 @@
 ---
 title: CD Wishlist
 taxon: self-possessions
-published: 2020-07-04
+published: 2020-11-21
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -35,7 +35,6 @@ Generally I only buy studio albums.
 - The Karelian Isthmus
 - Tuonela
 - Am Universum
-- Far from the Sun
 
 ### [Blind Guardian](https://en.wikipedia.org/wiki/Blind_Guardian_discography)
 
@@ -284,7 +283,6 @@ the artists:
 - GOD IS AN ASTRONAUT
 - Genesis
 - Ghost
-- Gloryhammer
 - Gnome
 - Gorgoroth
 - Gregory Alan Isakov
