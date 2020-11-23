@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-11-15
+modified: 2020-11-23
 ---
 
 **This campaign is ongoing and this memo contains spoilers.**
@@ -82,8 +82,61 @@ Resources
 - [1925 moon phase calendar](https://www.calendar-12.com/moon_calendar/1925/january)
 
 
-MoN Peru Arc Lore
------------------
+MoN Lore
+--------
+
+### Character motivations
+
+#### Gods
+
+- **Nyarlathotep:** unknowable.
+
+- **Nodens:** the desire to mess up Nyarlathotep's plans, consequences
+  be damned.
+
+#### Major cult leaders
+
+These three leaders are utterly devoted to the aspect of Nyarlathotep
+they worship; believe they will be one of the chosen rulers of the
+Earth after most of humanity perish; and desire power.  They are
+sociopaths, only seeing other people as tools.
+
+- **M'Weru**
+- **Omar Al'Shakti**
+- **Ho Fang**
+
+#### Expedition principals
+
+- **Roger Carlyle:** an insane devotion to M'Weru and the belief that
+  he will become part of something greater than himself.
+
+- **Jack Brady:** loyalty to Roger.
+
+- **Robert Huston:** initially, fear that Roger would expose that he
+  made his lover secretly abort their child before word of the
+  pregnancy got out; later, power and a desire to get one over on all
+  those who made fun of the "fashionable, Freudian, psychoanalyst".
+
+- **Hypatia Masters:** love of Roger.
+
+- **Aubrey Penhew:** power, immortality, and the return of his youth;
+  like the cult leaders he is a sociopath who sees others only as
+  tools ever since discovering the Black Pharaoh and his promises in
+  Egypt decades ago.
+
+#### Minor cult leaders
+
+- **Mukunga M'Dari:** fear of M'Weru.
+
+- **Silas N'Kwane:** loyalty to M'Weru.
+
+- **Edward Gavigan:** loyalty to Aubrey, and the desire to wrest
+  control of the main cult from Omar.
+
+- **Zahra Shafik:** loyalty to Omar, and the desire to wrest control
+  of the branch cult from Edward.
+
+### Peru lore
 
 Kharisiri have Strigoi-like (*i.e.* from The Strain) flesh-tentacles
 to drain fat.  They only use their mouth to "kiss" and transfer a
