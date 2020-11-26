@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-09-13
+modified: 2020-11-26
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -570,6 +570,7 @@ Miscellaneous
 
 | ISBN            | Title                                                                                                                 | Author                |
 |----------------:+-----------------------------------------------------------------------------------------------------------------------+-----------------------|
+| `9781974717477` | Remina                                                                                                                | Junji Ito             |
 | `9780356506142` | The Wheel of Time Companion                                                                                           | Robert Jordan         |
 | `9780199549740` | The Old English Baron                                                                                                 | Clara Reeve           |
 | `9789814287111` | Algebraic Models For Accounting Systems                                                                               | Cruz Rambaud Salvador |
