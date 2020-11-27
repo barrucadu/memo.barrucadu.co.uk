@@ -5,7 +5,7 @@ tags: golden sky stories
 published: 2020-04-26
 ---
 
-**This campaign has ended.**
+<span class="highlight">This campaign has ended.</span>
 
 
 Player characters

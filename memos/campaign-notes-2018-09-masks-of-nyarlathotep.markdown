@@ -6,6 +6,8 @@ published: 2018-11-04
 modified: 2020-02-02
 ---
 
+<span class="highlight">This campaign has ended.</span>
+
 Masks of Nyarlathotep is a campaign for Call of Cthulhu.  We're
 playing the new edition for CoC 7e.  These are the tales of our
 investigations.

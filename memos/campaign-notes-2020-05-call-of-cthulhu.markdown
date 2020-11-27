@@ -6,7 +6,7 @@ published: 2020-05-20
 modified: 2020-11-23
 ---
 
-**This campaign is ongoing and this memo contains spoilers.**
+<span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
 
 
 Player characters
