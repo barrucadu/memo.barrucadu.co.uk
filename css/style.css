@@ -38,6 +38,8 @@ body { font-family: 'Gentium Book Basic', Cambria, Georgia, Times, serif }
     --border-table-outer: #999999;
     --divider: #333333;
     --text: #000000;
+    --text-thead: #ffffff;
+    --text-highlight: #000000;
     --text-highlight-inline: #ff0000;
     --text-link: #ca2017;
     --text-metadata: #ffffff;
@@ -296,6 +298,16 @@ table {
 
 td, th {
     padding: 0 6px;
+}
+
+thead {
+    background-color: var(--border-table-outer);
+    color: var(--text-thead);
+}
+
+tr:nth-child(even) {
+    background-color: var(--bg-highlight);
+    color: var(--text-highlight);
 }
 
 .table-column-group-end {
