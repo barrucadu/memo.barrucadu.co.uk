@@ -3,18 +3,18 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2020-08-23 00:30:00
+modified: 2020-12-01
 ---
 
 I manage my money using [plain-text accounting][] (specifically,
 [hledger][]; though the choice of tool is unimportant), following a
 [YNABish][ynab] approach.  The four YNAB rules are:
 
-1. **Give every dollar a job:** money is split into named categories
+1. **Give every dollar a job:** money is split into named categories,
    don't have any "general savings".
 2. **Embrace your true expenses:** large expenses (like a rental
-  deposit) are planned and allocated for in advance, as a regular
-  monthly contribution.
+  deposit, or Christmas gifts) are planned and allocated for in
+  advance, as a regular monthly contribution.
 3. **Roll with the punches:** if things aren't working out, adjust the
    plan rather than lie to yourself.
 4. **Age your money:** try to save more of each regular expense (rent,
@@ -30,6 +30,88 @@ This memo is concerned with my mechanism for implementing this
 approach.  It could serve as a starting point for your financial
 planning; but working out what your savings categories are and how to
 allocate your income to them requires introspection.
+
+
+High-level metrics
+------------------
+
+While the most straightforward metric of financial health is the
+balance of my budget, and that's the main thing I look at when making
+day-to-day spending decisions, there are a few other high-level
+metrics I keep an eye on.  These are:
+
+- **Net Worth:** if I paid off all my liabilities right now, how much
+  of my assets would I have left?
+
+  `net worth = assets + liabilities`
+
+  With plain-text double-entry accounting, assets are positive and
+  liabilities are negative, so you get your net worth by adding them.
+
+  *What good looks like:* this metric is red below 0, green otherwise.
+
+- **Savings Rate:** how much of my income am I saving?
+
+  `savings_rate = (net_income - expenses) / net_income`
+
+  I plot the savings rate for each month on a graph, and use the mean
+  monthly savings rate as the high-level metric.
+
+  *What good looks like:* this metric is red below zero, yellow below
+  33%, and green otherwise.
+
+- **Runway:** if my income stopped *right now*, how long would I be
+  able to survive?
+
+  `runway = assets / average_daily_expense`
+
+  I use two versions of this metric:
+
+  - **Short Runway:** only considering my bank accounts and emergency
+    savings (in Premium Bonds).
+
+  - **Long Runway:** taking all my assets into account, as if I sold
+    all my investments in one go at their current price.
+
+  *What good looks like:* these metrics are red below 60 days, yellow
+  below 90 days, and green otherwise.
+
+- **Student Loan:** I want to get this down (or up, since it's a
+  liability) to zero.
+
+  *What good looks like:* this metric is red below -£10k, yellow below
+  0, and green otherwise.
+
+- **House Deposit:** I've decided to start saving for a house from the
+  2021-22 tax year.  This'll be a very long term thing.
+
+  *What good looks like:* this metric is red below £25k, yellow below
+  £50k, and green otherwise.
+
+
+Dashboard
+---------
+
+![My personal finance dashboard](personal-finance-dashboard.png)
+
+I import my hledger data into influxdb [with a script which runs
+nightly][], to power [a grafana dashboard on my home server][].  There
+are a few parts to it:
+
+1. **High-level metrics:** as explained in the section above.
+
+2. **Overview:** statistics on my hledger journal; my asset
+   allocation; a graph of my net worth; a graph of my credit card
+   balance; and a graph of my cash flow / savings rate.
+
+3. **Savings targets:** red up to 50%, yellow up to 75%, and then
+   green.  I'll hit most of these targets by the end of March 2021.
+
+4. **Commodity values:** scraped daily from the Financial Times and
+   the Coinbase API.
+
+[with a script which runs nightly]: https://github.com/barrucadu/hledger-scripts
+[a grafana dashboard on my home server]: https://github.com/barrucadu/nixfiles/tree/master/hosts/nyarlathotep/grafana-dashboards
 
 
 Journal files
