@@ -2,6 +2,7 @@
 title: Game I would like to run
 taxon: general-games
 published: 2020-06-27
+superseded_by: one-shot-ideas
 ---
 
 This is a collection of campaigns I think I would enjoy running, and
