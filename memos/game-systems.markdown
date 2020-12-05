@@ -4,6 +4,7 @@ taxon: general-games
 tags: apocalypse world, call of cthulhu
 published: 2020-04-13
 modified: 2020-06-05 20:45:00
+superseded_by: game-systems
 ---
 
 Here are my thoughts on game systems, and what I've learned about my
