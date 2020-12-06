@@ -2,7 +2,7 @@
 title: Template for Weeknotes
 taxon: weeknotes
 published: 2019-02-09
-modified: 2020-08-30
+modified: 2020-12-06
 ---
 
 Remove any sections which don't apply:
@@ -14,15 +14,13 @@ taxon: weeknotes-YYYY
 date: YYYY-MM-DD
 ---
 
-## Open Source
-
 ## Work
-
-## The Plague
 
 ## Books
 
-## Games
+This week I read:
+
+## ...
 
 ## Miscellaneous
 
