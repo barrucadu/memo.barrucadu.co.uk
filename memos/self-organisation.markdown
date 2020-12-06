@@ -14,7 +14,7 @@ certainly won't remember promising to do something.
 I've given up on improving my recall, and instead have developed a
 system to organise myself and make sure I get around to doing things
 I've said I would.  Much like my [personal finance][] system, this
-system have evolved over the years based on what's made noticeable
+system has evolved over the years based on what's made noticeable
 improvements to my life.
 
 My ideas may not work as-is for you, but I hope they'll prompt you to
