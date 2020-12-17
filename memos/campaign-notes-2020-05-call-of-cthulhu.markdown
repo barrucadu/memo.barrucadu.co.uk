@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-11-23
+modified: 2020-12-17
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
@@ -80,6 +80,7 @@ Resources
 ---------
 
 - [1925 moon phase calendar](https://www.calendar-12.com/moon_calendar/1925/january)
+- [List of ocean liners](https://en.wikipedia.org/wiki/List_of_ocean_liners)
 
 
 MoN Lore
@@ -135,6 +136,36 @@ sociopaths, only seeing other people as tools.
 
 - **Zahra Shafik:** loyalty to Omar, and the desire to wrest control
   of the branch cult from Edward.
+
+### Travel times (days) & costs ($)
+
+|           | USA             | England         | Egypt           | Kenya           | Australia       | China           |
+|-----------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------|
+| USA       | ---             | 4: 120/60/36    | 8: 240/120/72   | 12: 360/180/108 | 24: 720/360/216 | 25: 750/375/225 |
+| England   | 4: 120/60/36    | ---             | 4: 120/60/36    | 10: 300/150/90  | 30: 900/450/270 | 22: 660/330/198 |
+| Egypt     | 8: 240/120/72   | 4: 120/60/36    | ---             | 4: 120/60/36    | 14: 420/210/126 | 18: 540/270/162 |
+| Kenya     | 12: 360/180/108 | 10: 300/150/90  | 4: 120/60/36    | ---             | 10: 300/150/90  | 14: 420/210/126 |
+| Australia | 24: 720/360/216 | 30: 900/450/270 | 14: 420/210/126 | 10: 300/150/90  | ---             | 13: 390/195/117 |
+| China     | 25: 750/375/225 | 22: 660/330/198 | 18: 540/270/162 | 14: 420/210/126 | 13: 390/195/117 | ---             |
+
+First-class travel on an ocean liner, or working your way on a
+freighter, lets you learn a new skill or improve an existing one, in
+addition to the usual hero development phase[^learn].
+
+[^learn]: Make a **POW** roll.  On a success, when improving a skill,
+  gain `+1d6`, when learning a new skill set to `1d10+5`.  Any skill
+  may be chosen so long as there is a plausible explanation for how
+  you could learn it (eg, fencing lessons on an ocean liner, or mech
+  repair from engine maintenance on a steamer).
+
+Ports:
+
+- **USA:** New York
+- **England:** Southampton
+- **Egypt:** Port Said
+- **Kenya:** Mombasa
+- **Australia:** Melbourne
+- **China:** Shanghai
 
 ### Peru lore
 
@@ -2470,3 +2501,94 @@ Nyarlathotep, the enemy of Nodens."
 - Mukunga M'Dari will find out Cassie was there and send some police
   goons to accuse them of trespass
 - They might go to Australia
+
+
+MoN America session 5, 2020-12-27
+---------------------------------
+
+**Start:** morning of Monday the 26th of January.  The ritual was last night.
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Nodens
+
+- He will only respond to a call in a remote place next to the ocean
+
+#### The Yithian
+
+- Calling will make one appear in a few days time, who asks to speak
+  to Rachel Summers (by name).
+
+- He will agree to answer some of the gang's questions if they agree
+  to go to Australia and free his trapped companion.
+
+- If questioned he says there are rules preventing his direct
+  interference in historic events, but since humanity is going to go
+  extinct soon anyway he's inclined to bend that rule.
+
+- He will give the skill **Knowledge of the Future of the Universe**
+  at 10%.  Cannot be pushed, cannot have Luck spent on it, cannot be
+  improved.  The wielder of the skill will recognise the expedition
+  principals on sight.
+
+#### Hallucinations for Cassie
+
+- "Hearing" screams or drumming
+- "Recognising" people on the street as having attended the ritual, or
+  having had their face on the chakota
+- "Seeing" the ciimba out of the corner of her eye, or in reflections,
+  or shadows
+
+#### The abduction of Millie Adams
+
+If the gang try to contact Millie Adams (directly or through Rebecca
+Shosenburg), they can't reach her.
+
+When the gang return from arranging transport to Australia, they'll
+find a letter stuffed under their door saying to come to a certain
+warehouse that night, enclosed is a photograph of Millie Adams tied to
+a chair and looking terrified.
+
+#### The warehouse confrontation
+
+| Name           | DEX | MOV | Initiative |
+|----------------+-----+-----+------------|
+| **Kints**      |  85 |   9 |          1 |
+| Cultist #1     |  85 |   8 |          2 |
+| **Cassie**     |  80 |   8 |          3 |
+| Cultist #5     |  75 |   8 |          4 |
+| **Rachel**     |  70 |   8 |          5 |
+| Cultist #2     |  65 |   9 |          6 |
+| Mukunga M'Dari |  65 |   8 |          7 |
+| Zombie #1      |  65 |   6 |          8 |
+| Millie Adams   |  60 |   8 |          9 |
+| Cultist #6     |  55 |   9 |         10 |
+| Cultist #3     |  50 |   9 |         11 |
+| Zombie #2      |  50 |   6 |         12 |
+| Cultist #4     |  45 |   7 |         13 |
+| Chakota        |  15 |   4 |         14 |
+
+- On the way to the warehouse the gang will find a recently-killed
+  security guard
+- The warehouse is dimly lit, the big doors open, Millie Adams visible
+  inside tied to a chair
+- Upon entering the lights come on, the doors slam shut (revealing 6
+  cultists---one is the doorman Cassie met before), and Mukunga M'Dari
+  comes out onto the balcony, with two ciimba, to say that Cassie has
+  seen what was not for her, and that you all now have a choice to
+  join or die.
+  - **Choosing to join is game over.**
+  - Refusing to join causes Mukunga to cast Clutch of Nyogtha on
+    Cassie and the cultists to attack
+  - Millie can be freed by reaching her and spending an action
+  - If the fight is going badly for the cultists, Mukunga sends in the
+    ciimba
+  - If the fight is going badly for the ciimba, Mukunga summons the
+    chakota which bursts through the floor (**Dodge** (**hard** if in
+    melee) to avoid being hit by flying rubble)
+  - Sealed exterior doors or windows can be forced open with **STR**
+  - Doors on the upper landing lead to rooms with exterior windows
