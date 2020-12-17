@@ -86,11 +86,111 @@ Resources
 MoN Lore
 --------
 
+### Cosmology
+
+*This is a combination of Malazan magic and Cthulhu cosmology.*
+
+There is a physical world of houses and cars, planets and stars.
+Inhabited by animals, humans, aliens, and all living things.  You are
+here.
+
+Coterminous with the physical world, and yet separate to it, are a
+multitude of other realms, called warrens.  Spirit worlds, you could
+say.  Other dimensions.  Other planes.  These are the realms which
+magic comes from and which gods inhabit.
+
+Some warrens represent primal, elemental, forces.  These were formed
+out of the primal chaos of the early multiverse, and are called Elder
+Warrens.
+
+The Necronomicon speaks of:
+
+- **Denaeth Rusen:** water (or non-solid matter in general)
+- **Kaschan:** gravity
+- **Kurald Galain:** darkness
+- **Kurald Thyrllan:** light
+- **Kurald Emurlahn:** shadow
+- **Omtose Phellack:** ice (or the absence of heat in general)
+- **Starvald Demelain:** life
+- **Telann:** fire (or heat in general)
+
+Each Elder Warren is ruled by an Elder God, a being with absolute
+power over what its warren governs.
+
+Only some of the Elder Gods are known:
+
+- **Denaeth Rusen:** Nodens, the Lord of the Great Abyss
+- **Kurald Galain:** Nyarlathotep, the God of a Thousand Forms
+- **Starvald Demelain:** Shub-Niggurath, the Black Goat of the Woods with a Thousand Young
+- **Telann:** Cthugha, the Living Conflagration
+
+Some warrens are younger, hewn out of the Elder Warrens by great
+sorcerors and their rituals.  They are the most common way for magic
+to be accessed by mortal beings.  These are called Paths.
+
+The Necronomicon speaks of:
+
+- **Meanas:** illusion
+- **Mockra:** mind
+- **Ruse:** the sea
+- **Serc:** the sky
+- **Tennes:** the land
+- **Verdith'anan:** death
+
+The King in Yellow, also called Hastur, once a mortal (though not
+human) sorceror, holds the thrones of both Meanas and Mockra.
+
+In addition there are Paths representing the same power as an Elder
+Warren, but not directly a part of the same other-world:
+
+- **Rashan:** darkness
+- **Telas:** fire
+- **Thyr:** light
+
+A warren is simultaneously another world---which can be travelled to
+and journeyed through---and power over some aspect of the physical
+world.  For example, Withering is an application of Verdith'anan, the
+Path of Death.  The warrens move around relative to the physical world
+and to each other, such that if a sorceror opens a gateway into a
+warren, steps through, waits, and steps back out, they may end up in a
+different place to where they started.  Magic is used by opening a
+gateway to a warren and drawing some of its power through.
+
+It is rumoured that a warren can be "unveiled", a permanent
+manifestation such that some region of the physical world becomes just
+as much a part of the warren.
+
+Each Path is connected to the Elder Warren it splintered from.  In
+turn, each Elder Warren is connected to Chaos, the primal force of the
+early universe, the source of all things, ruled over by the Elder God
+Azathoth.  Mercifully, Azathoth is an idiot god in truth, and does not
+often exercise His power over all existence.
+
+But Azathoth is not quite the end.
+
+Beyond Azathoth, beyond Chaos, is Yog-Sothoth, the All-in-One and
+One-in-All, the Gate and the Key, the god who reaches across not just
+space and time, who steps between not just every warren in our
+multiverse, but even between the multiverses themselves.  Pray there
+is nothing beyond even Yog-Sothoth.
+
+#### So what?
+
+Kurald Galain has difficulty manifesting where the influence of Kurald
+Thyrllan is present, without large rituals.  Magic and creatures can
+slip through, but a god is much more a part of their warren than is a
+creature which lives there.  So Nyarlathotep cannot step from Kurald
+Galain into the physical world, where Kurald Thyrllan is active.
+
+This is why Nyarlathotep has to work through visions, dreams, and
+manifestations in sanctified places (like the Bent Pyramid).
+
 ### Character motivations
 
 #### Gods
 
-- **Nyarlathotep:** unknowable.
+- **Nyarlathotep:** to create a permanent unveiling of Kurald Galain,
+  giving a gateway between his elder warren and the physical world.
 
 - **Nodens:** the desire to mess up Nyarlathotep's plans, consequences
   be damned.
