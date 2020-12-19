@@ -1,7 +1,8 @@
 ---
 title: Contraptions, components, and cables
 taxon: self-possessions
-published: 2020-11-14
+published: 2020-10-26
+modified: 2020-12-19
 ---
 
 - **Contraption:** a thing independently useful
@@ -17,6 +18,7 @@ This table also doesn't include peripheral contraptions.
 | Type               | Quantity | Item                                                       | Assigned To     |
 |--------------------+----------+------------------------------------------------------------+-----------------|
 | Contraption        |        1 | 2m 8-way power extension (surge protected)                 | Desk            |
+| Contraption        |        1 | Sabrent 4-port USB hub w/power buttons                     | Desk            |
 | Contraption        |        1 | 2m 8-way power extension (surge protected)                 | Living Room     |
 | Contraption        |        1 | UniFi FlexHD Access Point                                  | Network Cabinet |
 | Contraption        |        1 | UniFi PoE injector                                         | Network Cabinet |
@@ -33,7 +35,7 @@ This table also doesn't include peripheral contraptions.
 | Component (rack)   |        1 | Shelf (1U)                                                 | Network Cabinet |
 | &mdash;            |          |                                                            |                 |
 | Cable (audio)      |        1 | 0.5m RCA extension                                         | Desk            |
-| Cable (data)       |        2 | 3m USB extension                                           | Desk            |
+| Cable (data)       |        1 | 3m USB extension                                           | Desk            |
 | Cable (power)      |        2 | 3m kettle lead                                             | Desk            |
 | Cable (video)      |        2 | 3m HDMI cable                                              | Desk            |
 | Cable (data)       |        4 | 25cm USB 2.0 extension                                     | Network Cabinet |
@@ -74,12 +76,13 @@ Spare
 | Component (rack)   |        1 | Mesh panel (1U)                                         | Office          |
 | &mdash;            |          |                                                         |                 |
 | Cable (audio)      |        1 | 2m RCA extension                                        | Cable Box       |
+| Cable (data)       |        1 | 3m USB extension                                        | Cable Box       |
 | Cable (internal)   |        - | Assorted modular PSU cables                             | Office Closet   |
 | Cable (internal)   |        2 | SilverStone SST-CPS03-RE cable                          | Cable Box       |
-| Cable (intrnal)    |        4 | Noctua NA-AC1 3-pin fan to molex adapter                | Office          |
-| Cable (intrnal)    |        4 | Noctua NA-RC10 3-pin fan low-noise adapter              | Office          |
-| Cable (intrnal)    |        2 | Noctua NA-RC12 3-pin fan low-noise adapter              | Office          |
-| Cable (intrnal)    |        4 | Noctua NA-EC2 3-pin fan extension                       | Office          |
+| Cable (internal)   |        4 | Noctua NA-AC1 3-pin fan to molex adapter                | Office          |
+| Cable (internal)   |        4 | Noctua NA-RC10 3-pin fan low-noise adapter              | Office          |
+| Cable (internal)   |        2 | Noctua NA-RC12 3-pin fan low-noise adapter              | Office          |
+| Cable (internal)   |        4 | Noctua NA-EC2 3-pin fan extension                       | Office          |
 | Cable (internal)   |        1 | 50cm SATA data cable (red)                              | Cable Box       |
 | Cable (internal)   |        3 | 45cm SATA data cable (blue)                             | Cable Box       |
 | Cable (internal)   |        6 | 40cm SATA data cable (blue)                             | Cable Box       |
