@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-11-26
+modified: 2020-12-25
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -37,7 +37,6 @@ thought, I settled on a list of *some* classics:
 
 | ISBN            | Title                                           | Author                               |
 |----------------:+-------------------------------------------------+--------------------------------------|
-| `9780575096837` | The Forge Of God                                | Greg Bear                            |
 | `1857988116`    | Cities in Flight                                | James Blish                          |
 | `1857988140`    | The Stars My Destination                        | Alfred Bester                        |
 | `1857988051`    | Babel-17                                        | Samuel R. Delany                     |
@@ -75,7 +74,6 @@ thought, I settled on a list of *some* classics:
 | `0575073160`    | Eon                                             | Greg Bear                            |
 | `0575074639`    | The Shrinking Man                               | Richard Matheson                     |
 | `0575074809`    | The Three Stigmata of Palmer Eldritch           | Philip K. Dick                       |
-| `0575074760`    | The Dancers at the End of Time                  | Michael Moorcock                     |
 | `0575075287`    | The Space Merchants                             | Frederik Pohl and Cyril M. Kornbluth |
 | `0575074582`    | Time Out of Joint                               | Philip K. Dick                       |
 | `0575074604`    | The Simulacra                                   | Philip K. Dick                       |
@@ -224,7 +222,6 @@ thought, I settled on a list of *some* classics:
 | `9780575076891` | Sea-Kings of Mars and Otherworldly Stories                       | Leigh Brackett                        |
 | `9780575077256` | The Anubis Gates                                                 | Tim Powers                            |
 | `9780575077652` | The Forgotten Beasts of Eld                                      | Patricia A. McKillip                  |
-| `9780575078741` | Something Wicked This Way Comes                                  | Ray Bradbury                          |
 | `9780575077911` | The Mark of the Beast and Other Fantastical Tales                | Rudyard Kipling                       |
 | `9780575083004` | Aegypt                                                           | John Crowley                          |
 | `9780575089921` | The Dragon Griaule                                               | Lucius Shepard                        |
@@ -447,7 +444,6 @@ Roleplaying Games
 |-------------:+-----------------------------+-------------------------------|
 | Mythras      | [Mythras][]                 | Pete Nash & Lawrence Whitaker |
 |              | [Mythras Companion][]       | Pete Nash et al.              |
-| Pulp Cthulhu | [The Two-Headed Serpent][]  | Paul Fricker et al.           |
 | Ars Magica   | [Ars Magica][]              | Atlas Games                   |
 |              | [Covenants][]               | Atlas Games                   |
 |              | [The Mysteries][]           | Atlas Games                   |
@@ -462,7 +458,6 @@ Roleplaying Games
 
 [Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/
 [Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/
-[The Two-Headed Serpent]: https://www.chaosium.com/the-two-headed-serpent-hardcover/
 [Ars Magica]: https://www.atlas-games.com/product_tables/AG0205
 [Covenants]: https://www.atlas-games.com/product_tables/AG0280
 [The Mysteries]: https://www.atlas-games.com/product_tables/AG0279
@@ -494,10 +489,8 @@ Roleplaying Games
 | `9780981884028` | Hamlet's Hit Points                                            | Robin D. Laws            |
 | `9781434824592` | Play Unsafe: How Improvisation Can Change The Way You Roleplay | Graham Walmsley          |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
-| `9781936781034` | Kobold Guide to Game Design                                    | Janna Silverstein et al. |
 | `9781936781324` | Kobold Guide to Combat                                         | Janna Silverstein et al. |
 | `9781936781287` | Kobold Guide to Magic                                          | Ray Vallese et al.       |
-| `9781936781041` | Kobold Guide to Board Game Design                              | Mike Selinker et al.     |
 | `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
 
 
@@ -595,7 +588,6 @@ Miscellaneous
 | `9780575082076` | Permutation City                                                                                                      | Greg Egan             |
 | `9781556524417` | The Egyptian                                                                                                          | Mika Waltari          |
 | `9780967321547` | Eyes of the God: The Weird Fiction and Poetry of R. H. Barlow                                                         | S. T. Joshi           |
-| `9781597809207` | The Boats of the "Glen Carrig" and Other Nautical Adventures: The Collected Fiction of William Hope Hodgson, Volume 1 | William Hodgson       |
 | `9781597809214` | The House on the Borderland and Other Mysterious Places: The Collected Fiction of William Hope Hodgson, Volume 2      | William Hodgson       |
 | `9781597809412` | The Ghost Pirates and Other Revenants of the Sea: The Collected Fiction of William Hope Hodgson, Volume 3             | William Hodgson       |
 | `9781597809597` | The Night Land and Other Perilous Romances: The Collected Fiction of William Hope Hodgson, Volume 4                   | William Hodgson       |
