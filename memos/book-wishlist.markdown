@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-12-25
+modified: 2020-12-27
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -542,6 +542,8 @@ Politics, Philosophy, Economics, + History
 | `9781490361888` | Extraordinary Popular Delusions and the Madness of Crowds                       | Charles MacKay  |
 | `9780141396118` | The Conquest of Bread                                                           | Peter Kropotkin |
 | `9781297565090` | An Account of the Cultivation and Manufacture of tea in China                   | Samuel Ball     |
+| `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy             | Neville Morley  |
+| `9780521634168` | Trade in Classical Antiquity                                                    | Neville Morley  |
 
 
 Kitchen
