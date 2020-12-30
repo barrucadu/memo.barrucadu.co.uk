@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-12-17
+modified: 2020-12-30
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
@@ -2325,7 +2325,7 @@ Who wants to give it?
 - Sent a telegram to the Penhew Foundation asking if they knew
   anything about Jackson Elias.
 - Met Prof Cowles: got a lecture summary and contact details for
-  Robert MacKenzie.
+  Robert MacKenzie and Prof. David Dodge.
 - Got all the notes from Jonah Kensington.
 
 ### Things to bring up next session
@@ -2606,6 +2606,8 @@ Nyarlathotep, the enemy of Nodens."
 MoN America session 5, 2020-12-27
 ---------------------------------
 
+<span class="highlight">I decided to skip this session and go straight to Australia.</span>
+
 **Start:** morning of Monday the 26th of January.  The ritual was last night.
 
 ### Recap
@@ -2692,3 +2694,37 @@ a chair and looking terrified.
     melee) to avoid being hit by flying rubble)
   - Sealed exterior doors or windows can be forced open with **STR**
   - Doors on the upper landing lead to rooms with exterior windows
+
+
+MoN Australia session 1, 2020-12-27
+-----------------------------------
+
+### Notes
+
+- Melbourne:
+  - Journey takes 24 days
+  - Hero development phase
+- Sydney:
+  - Journey takes 1 day
+  - They meet David Dodge and agree to take him with them
+  - Further research takes 4 days
+    - They get some rumours about a city of the gods and a bat cult
+  - Rachel casts Contact Yithian:
+    - Gains **Knowledge of the Future of the Universe** (10%)
+    - Sees a shadowy vision of Kakakatak in the buried city
+    - Has a bout of madness and trashes Prof. Cowles' place, to the chagrin of Prof. Dodge
+- Port Hedland:
+  - Journey takes 7 days
+  - Meet Robert Mackenzie, he tells them what he knows and telegrams
+    ahead for supplies
+- Cuncudgerie:
+  - Journey takes 1 day
+  - Hear the rumour of the ghost and of some about "a crazy American
+    bloke called John Carver"
+
+### Next Time
+
+- Wednesday the 3rd of March.
+
+- The journey from Cuncudgerie to the City of the Great Race, via the
+  Canning Stock Route
