@@ -3,7 +3,7 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2020-12-01
+modified: 2020-12-31
 ---
 
 I manage my money using [plain-text accounting][] (specifically,
@@ -243,7 +243,7 @@ the regular accounts, which are mostly self-explanatory:
         - `nsi`
     - `receivable`
         - `deposit`---the deposit on my flat
-- `equity`---used for initialising balances at the start of the year
+- `equity`---used for special transactions (see below)
 - `expenses`
     - *subaccounts for various things*
 - `income`
@@ -524,6 +524,30 @@ an pair of an income transaction and an allocation-style transaction:
     assets:cash:nationwide:flexdirect:pending:amex
 ```
 
+
+Special transactions
+--------------------
+
+There are three sorts of "special" transactions which show up in my
+journal.
+
+1. One transaction at the start of the year to initialise all the
+   accounts.
+2. One transaction at the end of the year to discard any small amounts
+   of money owed between friends.
+3. Possibly multiple transactions during the year to correct balance
+   errors.
+
+These all come out of `equity`, because I'm not really sure where else
+they should go, specifically:
+
+1. `equity:opening/closing`
+2. `equity:writeoff`
+3. `equity:adjustment`
+
+I don't really care about the balance of `equity`, so having these
+special transactions use that is fine.
+
 Forecasting
 -----------
 
@@ -649,65 +673,76 @@ transactions in the journal:
     - If all transactions have cleared but the balance is not what is
       expected, figure out what happened and fix it.
 2. Check the balance in my wallet and mark all `hand` transactions.
-    - If the wallet balance is below the `hand` balance and I really
-      can't remember what I spent the cash on, add a transaction to
-      `expenses:adjustment`.
+
+If any of the account balances are incorrect, and I can't find the
+mistake, give up and fix it with a transaction to/from `equity`.  For
+example:
+
+```
+2020-12-04 ! Adjustment
+    liabilities:creditcard:amex                                          -£76.15 = -£220.26
+    equity:adjustment
+```
 
 ### Annually
 
 1. Reconcile transactions.
-2. Rename the current journal file from `current.journal` to
+2. Write off any small amounts owed between friends with a transaction
+   to equity.
+3. Rename the current journal file from `current.journal` to
    `$YEAR.journal`.
-3. Create a new `current.journal`.
-4. Initialise all accounts on the first of January by transferring from equity.
-5. Identify financial goals for the upcoming year.
+4. Create a new `current.journal`.
+5. Initialise all accounts on the first of January by transferring from equity.
+6. Identify financial goals for the upcoming year.
 
-Here's an example of a (4) transaction setting up the starting
-balances:
+Here's an example of a (2) transaction:
 
 ```
-2019-01-01 ! Start of year
-    assets:cash:petty:hand:budgeted                                        £2.56
+2020-12-31 ! Write-off
+    assets:receivable:adam                                               -£11.95 = £0.00
+    liabilities:owed:jake                                                 £10.94 = £0.00
+    equity:writeoff
+```
+
+Here's an example of a (5) transaction:
+
+```
+2021-01-01 ! Opening balances
+    assets:cash:nationwide:flexdirect:pending:amex                        £598.01
+    assets:cash:nationwide:flexdirect:pending:cavendish                   £200.00
+    assets:cash:nationwide:flexdirect:pending:starling:patreon              £8.00
+    assets:cash:nationwide:flexdirect:pending:starling:protonmail           £5.00
+    assets:cash:nationwide:flexdirect:pending:starling:roll20               £5.00
+    assets:cash:nationwide:flexdirect:pending:starling:web                 £55.00
+    assets:cash:nationwide:flexdirect:saved:food                          £200.57
+    assets:cash:nationwide:flexdirect:saved:graze                          £50.00
+    assets:cash:nationwide:flexdirect:saved:health                        £500.00
+    assets:cash:nationwide:flexdirect:saved:household                     £300.00
+    assets:cash:nationwide:flexdirect:saved:phone                         £100.00
+    assets:cash:nationwide:flexdirect:saved:rent                         £2475.54
+    assets:cash:nationwide:flexdirect:saved:travel                        £523.69
+    assets:cash:nationwide:flexdirect:saved:utilities                     £800.00
     ;
-    assets:cash:petty:home                                                  3.35 EUR
-    assets:cash:petty:home                                               1853.00 JPY
+    assets:cash:petty:hand:budgeted                                        £19.05
+    assets:cash:petty:hand:unbudgeted                                       £2.00
+    assets:cash:petty:home                                               3.35 EUR
+    assets:cash:petty:home                                            1853.00 JPY
     ;
-    assets:cash:santander:current:float                                   £94.46
-    assets:cash:santander:current:goal:passport                           £75.50
-    assets:cash:santander:current:goal:thesis                            £300.00
-    assets:cash:santander:current:overdraft                             £2000.00
-    assets:cash:santander:current:pending:amex                          £1755.29
-    assets:cash:santander:current:pending:starling:patreon                 £2.83
-    assets:cash:santander:current:pending:starling:web                    £52.59
-    assets:cash:santander:current:saved:discretionary                    £100.00
-    assets:cash:santander:current:saved:food                             £200.00
-    assets:cash:santander:current:saved:graze                             £21.21
-    assets:cash:santander:current:saved:health                            £38.51
-    assets:cash:santander:current:saved:household                        £100.00
-    assets:cash:santander:current:saved:insurance                         £25.00
-    assets:cash:santander:current:saved:invest                           £100.00
-    assets:cash:santander:current:saved:phone                             £25.00
-    assets:cash:santander:current:saved:rent                            £1700.17
-    assets:cash:santander:current:saved:travel                            £38.50
-    assets:cash:santander:current:saved:utilities                        £150.00
+    assets:cash:starling:patreon                                           £21.79
+    assets:cash:starling:protonmail                                        £42.43
+    assets:cash:starling:roll20                                            £37.33
+    assets:cash:starling:web                                              £283.38
     ;
-    assets:cash:starling:float                                           £100.00
-    assets:cash:starling:patreon                                          £17.17
-    assets:cash:starling:web                                             £135.85
+    assets:investments:cavendish                                      19.66 VANEA
+    assets:investments:cavendish                                           £36.08
+    assets:investments:coinbase                                         10.00 EUR
+    assets:investments:fundingcircle                                       £21.29
+    assets:investments:nsi:premium_bonds:emergency                       £4475.00
+    assets:investments:nsi:premium_bonds:move                            £3775.00
     ;
-    assets:investments:cavendish                                            3.29 VANEA
-    assets:investments:cavendish                                          £46.95
-    assets:investments:coinbase                                            10.00 EUR
-    assets:investments:coinbase                                           0.0040 BTC
-    assets:investments:coinbase                                           0.1000 ETH
-    assets:investments:coinbase                                           0.2500 LTC
-    assets:investments:fundingcircle                                    £1028.09
+    assets:receivable:deposit                                            £1384.62
+    liabilities:creditcard:amex                                          -£598.01
+    liabilities:loan:slc                                               -£20468.52
     ;
-    assets:receivable:deposit                                           £1800.00
-    ;
-    liabilities:creditcard:amex                                        -£2740.00
-    liabilities:loan:slc                                              -£26896.25
-    liabilities:overdraft:santander:current                            -£2000.00
-    ;
-    equity
+    equity:opening/closing
 ```
