@@ -124,7 +124,7 @@ digraph {
 Each task I need to do is in one of these states:
 
 - **Routines**---a backlog of regular, time-based, tasks (see
-  [routines](self-organisation.html#routiens) section).
+  [routines](self-organisation.html#calendars-for-routines) section).
 
 - **Has Prerequisites**---a backlog of things I can't do until I do
   something else.
@@ -175,7 +175,7 @@ I manage routines using [Google Calendar][], another integral
 component of my self-organisation system.
 
 Routines are recurring calendar events, for example I've got an event
-every Saturday morning called "weekly chores", and every another
+every Saturday morning called "weekly chores", and another every
 Sunday evening called "weeknotes".
 
 The routines which have multiple things to do (like my chores) have a
