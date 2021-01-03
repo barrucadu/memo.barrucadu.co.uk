@@ -34,6 +34,7 @@ TAXA = [
     { 'name': 'General', 'slug': 'general', 'parent': '', 'tags': [] },
     { 'name': 'Games', 'slug': 'general-games', 'parent': 'general', 'tags': [] },
     { 'name': 'Weeknotes', 'slug': 'weeknotes', 'parent': '', 'tags': ['weeknotes'] },
+    { 'name': '2021', 'slug': 'weeknotes-2021', 'parent': 'weeknotes', 'tags': [] },
     { 'name': '2020', 'slug': 'weeknotes-2020', 'parent': 'weeknotes', 'tags': [] },
     { 'name': '2019', 'slug': 'weeknotes-2019', 'parent': 'weeknotes', 'tags': [] },
     { 'name': '2018', 'slug': 'weeknotes-2018', 'parent': 'weeknotes', 'tags': [] },
