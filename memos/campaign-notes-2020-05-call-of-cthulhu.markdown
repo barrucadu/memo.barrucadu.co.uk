@@ -2603,7 +2603,7 @@ Nyarlathotep, the enemy of Nodens."
 - They might go to Australia
 
 
-MoN America session 5, 2020-12-27
+MoN America session 5, 2020-12-30
 ---------------------------------
 
 <span class="highlight">I decided to skip this session and go straight to Australia.</span>
@@ -2696,7 +2696,7 @@ a chair and looking terrified.
   - Doors on the upper landing lead to rooms with exterior windows
 
 
-MoN Australia session 1, 2020-12-27
+MoN Australia session 1, 2020-12-30
 -----------------------------------
 
 ### Notes
