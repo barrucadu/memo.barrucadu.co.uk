@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2020-12-30
+modified: 2021-01-10
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
@@ -2728,3 +2728,89 @@ MoN Australia session 1, 2020-12-30
 
 - The journey from Cuncudgerie to the City of the Great Race, via the
   Canning Stock Route
+
+
+MoN Australia session 2, 2021-01-10
+-----------------------------------
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Description prompts
+
+Sight, sound, smell, temperature, touch, emotion.
+
+#### Hallucinations for Cassie
+
+- Flying polyps
+- Mistaking a linewalker for a ciimba
+
+#### Visions for Rachel
+
+At the appropriate location, call for a **Knowledge of the Future of
+the Universe** roll and grant a vision on success.
+
+- On a road leading to the main entrance: bullets whizzing, a truck exploding.
+- Within sight of Huston's headquarters: Robert Huston calmly rising from his desk to greet them.
+- At each intersection of the City: which path to take to get to Kakakatak.
+
+#### The City of the Great Race
+
+![GM Map: Relative distances & cultist encounter likelihood (purple = high, blue = low) in the City](campaign-notes-2020-05-call-of-cthulhu/city-of-the-great-race.jpg)
+
+Lining the paths, none of which are less than 10m (30 feet) wide, are
+ancient stone buildings with heavy metal doors.  Everything is huge.
+Inside the buildings, arches are preferred over doors.
+
+Huge furniture & artefacts abound, for example: tables; pedestals;
+shelves; metal jars containing a hard black substance & metal rods
+(ink & pen); globes of faintly glowing crystal; ruined contraptions of
+tubes, rods, and wires; large clasped metal cases (book cases, now
+empty).
+
+Many of the buildings and paths are damaged, with caved in walls or
+ceilings and rubble.  There are signs of crumbled ramps leading to a
+now-vanished upper level.
+
+The walls are covered in curvilinear mathematical designs, along with
+inscriptions in no familiar alphabet.  The floors are of a
+tessellating regular octagonal pattern.
+
+At some point, everyone will have a **Sanity** roll (`0/1d3`) when
+they come to grips over just how alien this city is:
+
+- Examining the stone and discovering how truly ancient the city is.
+- Realising that regular octagons normally don't tessellate.
+- Just being overcome by how huge it is.
+
+##### Danger clock
+
+If the gang sneak in through the second entrance, use an **8 segment
+clock** to track the cultists' suspicion:
+
+- Tick 1 segment for doing something noisy (eg, firing a gun) away from anyone else.
+- Tick 2 or 3 segments for leaving an obvious trace discovered by a cultist.
+- Tick all segments for breaking cover.
+
+If the gang can deal with any cultists who discover them, the clock
+**only goes up by 1**.  If the bodies are discovered, unless care was
+taken to make it look like a polyp attack, **tick all segments**.
+
+### Notes
+
+**Discovery clock:** 2
+
+- Travel took 6 days:
+  1. Nothing
+  2. Prospector (he didn't talk about the polyps)
+  3. Snake
+  4. Nothing
+  5. Vehicle damage & Grogan's camp
+  6. Arrival in the City via the second entrance
+- There's been a flying polyp attack
+- Hatch is open, with the gang on the wrong side
+- Rachel has had her City sanity roll (realising the age from the sandstone)
+- Rachel saw Huston through a window
