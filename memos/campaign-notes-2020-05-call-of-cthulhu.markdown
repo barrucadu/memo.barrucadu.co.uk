@@ -2814,3 +2814,8 @@ taken to make it look like a polyp attack, **tick all segments**.
 - Hatch is open, with the gang on the wrong side
 - Rachel has had her City sanity roll (realising the age from the sandstone)
 - Rachel saw Huston through a window
+
+### Next time
+
+- David will suggest that maybe they can get some planks of wood or
+  something to cover the pit and let them escape.
