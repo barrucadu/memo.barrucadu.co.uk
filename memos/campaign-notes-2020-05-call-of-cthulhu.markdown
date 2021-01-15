@@ -3,10 +3,19 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-01-10
+modified: 2021-01-15
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
+
+
+Lines & veils
+-------------
+
+- The obvious
+- Family member death
+- Isopods (woodlice, etc)
+- Unexpected PvP
 
 
 Player characters
