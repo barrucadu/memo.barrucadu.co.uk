@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2020-12-27
+modified: 2021-01-17
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -362,7 +362,7 @@ Book Series
 |                        | `9781421535388` | Volume 20: Humanity in the Balance                  |
 | [21st Century Boys][]  | `9781421543260` | Volume 1: The Death of "Friend"                     |
 |                        | `9781421543277` | Volume 2: 20th Century Boys                         |
-| [Overlord][]           |                 | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
+| [Overlord][]           | `9781975311537` | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
 |                        |                 | Volume 14: The Witch of the Falling Kingdom         |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
@@ -386,6 +386,9 @@ Book Series (candidates)
 | [The Divine Cities][]                     | `9781848667983` | City of Stairs                                  |
 |                                           | `9781848669598` | City of Blades                                  |
 |                                           | `9780857053596` | City of Miracles                                |
+| [Liveship Traders][]                      | `9780008117450` | Ship of Magic                                   |
+|                                           | `9780008117467` | The Mad Ship                                    |
+|                                           | `9780008117474` | Ship of Destiny                                 |
 | [Made in Abyss][]                         | `9781626927735` | Volume 1                                        |
 |                                           | `9781626927742` | Volume 2                                        |
 |                                           | `9781626928275` | Volume 3                                        |
@@ -397,16 +400,6 @@ Book Series (candidates)
 | [Mars Trilogy][]                          | `9780007310166` | Red Mars                                        |
 |                                           | `9780007310173` | Green Mars                                      |
 |                                           | `9780007310180` | Blue Mars                                       |
-| [Martin Beck][]                           | `9780007439119` | Roseanna                                        |
-|                                           | `9780007439126` | The Man Who Went Up in Smoke                    |
-|                                           | `9780007439133` | The Man on the Balcony                          |
-|                                           | `9780007439140` | The Laughing Policeman                          |
-|                                           | `9780007439157` | The Fire Engine That Disappeared                |
-|                                           |                 | Murder at the Savoy                             |
-|                                           | `0007439171`    | The Abominable Man                              |
-|                                           |                 | The Locked Room                                 |
-|                                           | `9780007439195` | Cop Killer                                      |
-|                                           | `9780007439201` | The Terrorists                                  |
 | [My Lesbian Experience With Loneliness][] | `9781626926035` | Volume 1: My Lesbian Experience with Loneliness |
 |                                           | `9781626928893` | Volume 2: My Solo Exchange Diary                |
 |                                           | `9781626929999` | Volume 3: My Solo Exchange Diary Vol. 2         |
@@ -426,9 +419,9 @@ Book Series (candidates)
 [The Belgariad]: https://en.wikipedia.org/wiki/The_Belgariad
 [The Books of Babel]: https://www.thebooksofbabel.com/
 [The Divine Cities]: https://en.wikipedia.org/wiki/The_Divine_Cities
+[Liveship Traders]: https://en.wikipedia.org/wiki/Liveship_Traders_Trilogy
 [Made in Abyss]: https://en.wikipedia.org/wiki/Made_in_Abyss
 [Mars Trilogy]: https://en.wikipedia.org/wiki/Mars_trilogy
-[Martin Beck]: https://en.wikipedia.org/wiki/Martin_Beck
 [My Lesbian Experience With Loneliness]: https://en.wikipedia.org/wiki/My_Lesbian_Experience_With_Loneliness
 [Shannara]: https://en.wikipedia.org/wiki/Terry_Brooks_bibliography#Shannara_series
 [The Stormlight Archive]: https://en.wikipedia.org/wiki/The_Stormlight_Archive
@@ -635,3 +628,12 @@ Miscellaneous
 | `1594745269`    | Horrorstör                                                                                                            | Grady Hendrix         |
 | `1594748624`    | My Best Friend's Exorcism                                                                                             | Grady Hendrix         |
 | `9781683691433` | The Southern Book Club's Guide to Slaying Vampires                                                                    | Grady Hendrix         |
+| `9780843948448` | Black Butterflies                                                                                                     | John Shirley          |
+| `9781849161350` | The Leaping                                                                                                           | Tom Fletcher          |
+| `9781849161367` | The Thing on the Shore                                                                                                | Tom Fletcher          |
+| `9780984480203` | Tempting Providence and Other Stories                                                                                 | Jonathan Thomas       |
+| `9780978991128` | Omens                                                                                                                 | Richard Gavin         |
+| `9780809572496` | Mr. Gaunt and Other Uneasy Encounters                                                                                 | John Langan           |
+| `9781906120597` | Murmurations: An Anthology of Uncanny Stories About Birds                                                             | Nicholas Royle        |
+| `9780982843697` | Ugly Behaviour                                                                                                        | Steve Rasnic Tem      |
+| `9781566892254` | Fugue State                                                                                                           | Brian Evenson         |
