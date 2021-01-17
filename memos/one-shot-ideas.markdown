@@ -2,6 +2,7 @@
 title: One-shot ideas
 taxon: general-games
 published: 2020-12-05
+modified: 2021-01-17
 ---
 
 This is a collection of ideas for one-shots, which I think would all
@@ -31,10 +32,10 @@ forming of the Order of Hermes, the organisation which governs magi,
 was a spell which makes you not hate other magi, and the theory of
 magic which came from the same brilliant inventor.
 
-**The PCs** are a group young magi who have set out to establish a new
-base of operations, away from their stuffy teachers and superiors in
-the Order of Hermes, and have claimed a couple of crumbling towers on
-the outskirts of large village.
+**The PCs** are a group of young magi who have set out to establish a
+new base of operations, away from their stuffy teachers and superiors
+in the Order of Hermes, and have claimed a couple of crumbling towers
+on the outskirts of large village.
 
 The local villagers and their priest shun you, but that's about what
 you expected.  The nearest other magi, who live in a much more
@@ -59,14 +60,15 @@ Lovecraft's fiction.  For most people, the world is a normal and
 thoroughly human place, but for those in the know---or those who are
 very unlucky---there are darker and older truths lurking out there.
 
-### Servants of the Lake
+### Motel on the Lake
 
 A banker, Gerald Frazer, has contacted **the PCs** to help search for
 his missing son James.
 
 James, a bit of a young rebel, abandoned his studies at the Miskatonic
 University in Arkham because he missed his girlfriend in Kingsport.
-Nine days later, James has not arrived.  What could have happened on
+Nine days later, James has not arrived.  The last his father heard
+from him was a phone call from a motel.  What could have happened on
 his journey?
 
 ### The Disintegrator
@@ -84,8 +86,7 @@ inventor of the device is an engineer of no great genius, who claims
 he stumbled upon the principle which makes the device work, and is
 selling it because he doesn't have the scientific knowledge to develop
 the device any further.  Frankly, it seems a bit hard to believe that
-this nobody stumbled upon a principle which will revolutionise physics
-if true!
+this nobody found something which will revolutionise physics if true!
 
 The professor hopes that the device is an elaborate hoax.  But he
 worries it's not.  If it's the real deal, could not this device end
@@ -95,7 +96,7 @@ the fragile peace and plunge the world into a second Great War?
 Godbound
 --------
 
-**Genre:** high-powered fantasy
+**Genre:** high-powered apocalyptic fantasy
 
 ### Everyone is Rand (from The Wheel of Time)
 
@@ -110,7 +111,7 @@ agents out in search of those with the potential to use magic,
 bringing those into the fold who will come, and killing those who will
 not.  They say that one sworn to the Conclave cannot lie; but they
 also say that the truth you think you hear is not the truth that was
-intended...
+stated...
 
 **The PCs** are a bunch of young villagers from a tiny village in the
 middle of nowhere, so small it's almost forgotten by the country which
@@ -123,8 +124,8 @@ To make matters worse, there have been sightings of monsters in the
 woods and hills around the village recently.  The first sightings were
 around the time you noticed your new powers, come to think of it.
 
-To make matters even worse, an agent of the Conclave has just arrived
-in town.
+To make matters even worse, two agents of the Conclave have just
+arrived in town.
 
 #### Special mechanics
 
@@ -134,7 +135,8 @@ awakening to your demi-godhood.
 
 You can become a level 1 Godbound and gain your full powers at a time
 of your choosing, or at a time when the GM thinks you are under a lot
-of stress (physical or mental).
+of stress (physical or mental).  This won't be subtle, everyone nearby
+will know some powerful magic has just happened.
 
 If brought to 0 HP while level 0, you will automatically level up and
 enter a Divine Fury.
@@ -185,9 +187,9 @@ travel isn't instantaneous, faster-than-light jumps are limited in
 range and take a week to execute, so news takes a long time to travel.
 
 **The PCs** are a collection of travellers---a group of people who
-roam the stars in a spaceship, doing odd jobs to pay off the galactic
-mortgage they had to take out to buy it---and have been offered a
-juicy contract by the Hegemony Military.
+roam the stars, doing odd jobs to pay off the galactic mortgage they
+had to take out to buy it---and have been offered a juicy contract by
+the Hegemony Military.
 
 The military is conducting a large-scale operation against a group of
 space pirates operating somewhere beyond the border of Hegemony space.
