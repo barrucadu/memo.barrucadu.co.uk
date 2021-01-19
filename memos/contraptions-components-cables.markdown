@@ -2,7 +2,7 @@
 title: Contraptions, components, and cables
 taxon: self-possessions
 published: 2020-10-26
-modified: 2020-12-19
+modified: 2021-01-19
 ---
 
 - **Contraption:** a thing independently useful
@@ -39,6 +39,7 @@ This table also doesn't include peripheral contraptions.
 | Cable (power)      |        2 | 3m kettle lead                                             | Desk            |
 | Cable (video)      |        2 | 3m HDMI cable                                              | Desk            |
 | Cable (data)       |        4 | 25cm USB 2.0 extension                                     | Network Cabinet |
+| Cable (network)    |        1 | 5m cat6 (black)                                            | Network Cabinet |
 | Cable (network)    |        1 | 1.5m cat6 (white)                                          | Network Cabinet |
 | Cable (network)    |        2 | 1m cat6 patch cable (black)                                | Network Cabinet |
 | Cable (network)    |        2 | 35cm cat6 patch cable (black)                              | Network Cabinet |
@@ -89,10 +90,9 @@ Spare
 | Cable (network)    |        1 | 50cm SFP+ DAC cable                                     | Cable Box       |
 | Cable (network)    |        1 | 30m cat6 cable (black / blue)                           | Cable Box       |
 | Cable (network)    |        2 | 10m cat6 cable (black)                                  | Cable Box       |
-| Cable (network)    |        1 | 5m cat6 (black)                                         | Cable Box       |
 | Cable (network)    |        3 | 5m cat6 (white)                                         | Network Cabinet |
 | Cable (network)    |       10 | 3m cat6 patch cable (red)                               | Cable Box       |
-| Cable (network)    |        1 | 2.1m cat6 patch cable (black)                           | Cable Box       |
+| Cable (network)    |        2 | 2.1m cat6 patch cable (black)                           | Cable Box       |
 | Cable (network)    |        1 | 50cm cat6 patch cable (black)                           | Cable Box       |
 | Cable (network)    |        1 | 35cm cat6 patch cable (black)                           | Cable Box       |
 | Cable (network)    |        7 | 25cm cat6 patch cable (red)                             | Cable Box       |
