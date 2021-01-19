@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-01-17
+modified: 2021-01-19
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -637,3 +637,4 @@ Miscellaneous
 | `9781906120597` | Murmurations: An Anthology of Uncanny Stories About Birds                                                             | Nicholas Royle        |
 | `9780982843697` | Ugly Behaviour                                                                                                        | Steve Rasnic Tem      |
 | `9781566892254` | Fugue State                                                                                                           | Brian Evenson         |
+| `9780715653739` | World War Z                                                                                                           | Max Brooks            |
