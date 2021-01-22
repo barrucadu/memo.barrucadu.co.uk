@@ -1,7 +1,7 @@
 ---
 title: Home Network
 taxon: techdocs
-published: 2020-11-12
+published: 2021-01-22
 ---
 
 ![The pile of network hardware.](home-network/hardware.jpg)
@@ -92,6 +92,9 @@ address=/nyarlathotep/10.0.0.3
 
 # for https://github.com/alphagov/govuk-docker
 address=/dev.gov.uk/127.0.0.1
+
+# for general use
+address=/localhost/127.0.0.1
 
 # these should be CNAMEs but windows doesn't resolve them
 address=/help.lan/10.0.0.3
