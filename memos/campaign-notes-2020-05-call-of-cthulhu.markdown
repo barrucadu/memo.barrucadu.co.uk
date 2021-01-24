@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-01-15
+modified: 2021-01-24
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
@@ -2828,3 +2828,105 @@ taken to make it look like a polyp attack, **tick all segments**.
 
 - David will suggest that maybe they can get some planks of wood or
   something to cover the pit and let them escape.
+
+
+MoN Australia session 3, 2021-01-24
+-----------------------------------
+
+### Recap
+
+Who wants to give it?
+
+Then clarify:
+
+- This place is *vast*.
+
+  You've crossed miles of artificial tunnels so far and only seen a
+  few signs of human habitation: two generators, a string of
+  lightbulbs, and a small building.
+
+- This place is *built on a different scale*.
+
+  The narrowest tunnels are still 10 or more meters wide.  The strings
+  of light bulbs produce only small pools of light, the majority of
+  the tunnels are in darkness. The ceilings tower above you.  The
+  doors, tables, and shelves you've seen all dwarf human standards.
+
+- This place is *old*.
+
+  There are natural sandstone formations here, which form over
+  hundreds of millions of years.
+
+- This place is *dangerous*.
+
+  You were warned that the surface is guarded by men with guns, and
+  down here translucent creatures made of eyeballs and tentacles,
+  which control the wind and make a strange piping sound, stalk the
+  tunnels.
+
+- This place is *alien*.
+
+  The walls are covered with strange curvilinear engravings, and
+  depictions of unusual cone-shaped beings.  The one mechanism you've
+  seen so far, the latch for a gigantic trapdoor, was clearly designed
+  for something other than human hands.
+
+### Prep
+
+#### Hallucinations for Cassie
+
+- Flying polyps
+- Mistaking a linewalker for a ciimba
+
+#### Visions for Rachel
+
+- Which path to take to get to Kakakatak.
+
+#### Remember to mention
+
+- Line walkers (everywhere)
+- Repair workers (at least once per week)
+- Zombified work party (going between Huston's house and the current excavations)
+- Petrol smell
+
+#### Madness prompt
+
+For Kints or Cassie (Rachel has had her SAN check):
+
+- The great plazas have floors made of regular octagonal slabs.
+  Regular octagons don't tessellate.
+
+### Notes
+
+**Duration: 9 days**
+
+**Discovery clock: 4**
+
+- Leave Huston for now & find Kakakatak instead
+  - Rachel: mania (helping Kakakatak feels so natural)
+  - Cassie: phobia (Kakakatak is a horrible monster trying to hurt them)
+  - David: phobia (got to get out of these tunnels)
+  - Kints: a giant cone beast, cool
+- Convince Kakakatak that limbs are helpful for removing rubble and the gang should accompany her:
+  - Everyone gets lightning guns:
+    - Rachel: 18
+    - Cassie: 6
+    - Kints: 13
+    - David: 4
+    - Kakakatak: 21
+  - 8 days pass reaching the library
+  - Kakakatak:
+    - Drives off a polyp
+    - Gives Rachel & Kints a vision of the end of the world
+      - They forget it all, other than that Egypt, China, and another member of the Carlyle Expedition are involved somehow
+    - Gives Rachel:
+      - A Yithian to English dictionary
+      - A page from a book of advanced warding spells about Eye of Light and Darkness
+        - Will take a week to translate
+    - Explains that
+      - Warding the ritual sites could disrupt the end of the world
+      - Jackson Elias was on the right track of figuring out where they were
+
+### Next time
+
+- Morning of Tuesday the 17th of March, 1925
