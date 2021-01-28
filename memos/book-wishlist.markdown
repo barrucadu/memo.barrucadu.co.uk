@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-01-19
+modified: 2021-01-28
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -354,16 +354,22 @@ thought, I settled on a list of *some* classics:
 Book Series
 -----------
 
-| Series                 | ISBN            | Title                                               |
-|-----------------------:+----------------:+-----------------------------------------------------|
-| [20th Century Boys][]  | `9781421535357` | Volume 17: Cross-counter                            |
-|                        | `9781421535364` | Volume 18: Everybody's Song                         |
-|                        | `9781421535371` | Volume 19: The man who came back                    |
-|                        | `9781421535388` | Volume 20: Humanity in the Balance                  |
-| [21st Century Boys][]  | `9781421543260` | Volume 1: The Death of "Friend"                     |
-|                        | `9781421543277` | Volume 2: 20th Century Boys                         |
-| [Overlord][]           | `9781975311537` | Volume 13: The Paladin of the Holy Kingdom (Part 2) |
-|                        |                 | Volume 14: The Witch of the Falling Kingdom         |
+| Series                                        | ISBN            | Title                                                             |
+|----------------------------------------------:+----------------:+-------------------------------------------------------------------|
+| [20th Century Boys][]                         | `9781421535357` | Volume 17: Cross-counter                                          |
+|                                               | `9781421535364` | Volume 18: Everybody's Song                                       |
+|                                               | `9781421535371` | Volume 19: The man who came back                                  |
+|                                               | `9781421535388` | Volume 20: Humanity in the Balance                                |
+| [21st Century Boys][]                         | `9781421543260` | Volume 1: The Death of "Friend"                                   |
+|                                               | `9781421543277` | Volume 2: 20th Century Boys                                       |
+| [Overlord][]                                  | `9781975311537` | Volume 13: The Paladin of the Holy Kingdom (Part 2)               |
+|                                               |                 | Volume 14: The Witch of the Falling Kingdom                       |
+| Kobold Guides                                 | `9781936781324` | Kobold Guide to Combat                                            |
+|                                               | `9781936781287` | Kobold Guide to Magic                                             |
+| The Collected Fiction of William Hope Hodgson | `9781597809214` | Volume 2: The House on the Borderland and Other Mysterious Places |
+|                                               | `9781597809412` | Volume 3: The Ghost Pirates and Other Revenants of the Sea        |
+|                                               | `9781597809597` | Volume 4: The Night Land and Other Perilous Romances              |
+|                                               | `9781597809603` | Volume 5: The Dream of X and Other Fantastic Visions              |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
@@ -482,8 +488,6 @@ Roleplaying Games
 | `9780981884028` | Hamlet's Hit Points                                            | Robin D. Laws            |
 | `9781434824592` | Play Unsafe: How Improvisation Can Change The Way You Roleplay | Graham Walmsley          |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
-| `9781936781324` | Kobold Guide to Combat                                         | Janna Silverstein et al. |
-| `9781936781287` | Kobold Guide to Magic                                          | Ray Vallese et al.       |
 | `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
 
 
@@ -556,85 +560,81 @@ Kitchen
 Miscellaneous
 -------------
 
-| ISBN            | Title                                                                                                                 | Author                |
-|----------------:+-----------------------------------------------------------------------------------------------------------------------+-----------------------|
-| `9781974717477` | Remina                                                                                                                | Junji Ito             |
-| `9780356506142` | The Wheel of Time Companion                                                                                           | Robert Jordan         |
-| `9780199549740` | The Old English Baron                                                                                                 | Clara Reeve           |
-| `9789814287111` | Algebraic Models For Accounting Systems                                                                               | Cruz Rambaud Salvador |
-| `9780465026562` | Godel, Escher, Bach: An Eternal Golden Braid                                                                          | Douglas R. Hofstadter |
-| `9780343546373` | An Encyclopædia Of Occultism                                                                                          | Lewis Spence          |
-| `9781614982173` | Lovecraft's Library: A Catalogue (Fourth Revised Edition)                                                             | S. T. Joshi           |
-| `9780262528917` | Building Successful Online Communities: Evidence-Based Social Design                                                  | Ribert E. Kraut       |
-| `9780316362658` | The Illustrated Art of Manliness                                                                                      | Brett McKay           |
-| `9781447263401` | Last Days                                                                                                             | Adam Nevill           |
-| `9780765318145` | Anvil of Stars                                                                                                        | Greg Bear             |
-| `9780586217467` | The Mote in God's Eye                                                                                                 | Larry Niven           |
-| `9780141191447` | The Haunting of Hill House                                                                                            | Shirley Jackson       |
-| `9780575082373` | House of Suns                                                                                                         | Alastair Reynolds     |
-| `9781771481595` | Wild Fell                                                                                                             | Michael Rowe          |
-| `9781511536738` | The Turn of the Screw                                                                                                 | Henry James           |
-| `9780099908807` | The Snows Of Kilimanjaro And Other Stories                                                                            | Ernest Hemingway      |
-| `9780141182551` | The Crucible: A Play in Four Acts                                                                                     | Arthur Miller         |
-| `9780299038946` | Kallocain                                                                                                             | Karin Boye            |
-| `9780156306300` | Fiasco                                                                                                                | Stanislaw Lem         |
-| `9780552101233` | Logan's Run                                                                                                           | William Nolan         |
-| `9780575082090` | Diaspora                                                                                                              | Greg Egan             |
-| `9780575082076` | Permutation City                                                                                                      | Greg Egan             |
-| `9781556524417` | The Egyptian                                                                                                          | Mika Waltari          |
-| `9780967321547` | Eyes of the God: The Weird Fiction and Poetry of R. H. Barlow                                                         | S. T. Joshi           |
-| `9781597809214` | The House on the Borderland and Other Mysterious Places: The Collected Fiction of William Hope Hodgson, Volume 2      | William Hodgson       |
-| `9781597809412` | The Ghost Pirates and Other Revenants of the Sea: The Collected Fiction of William Hope Hodgson, Volume 3             | William Hodgson       |
-| `9781597809597` | The Night Land and Other Perilous Romances: The Collected Fiction of William Hope Hodgson, Volume 4                   | William Hodgson       |
-| `9781597809603` | The Dream of X and Other Fantastic Visions: The Collected Fiction of William Hope Hodgson, Volume 5                   | William Hodgson       |
-| `9780199552351` | The Last Man                                                                                                          | Mary Shelley          |
-| `9781609807450` | Things to Do When You're Goth in the Country And Other Stories                                                        | Chavisa Woods         |
-| `9780765333629` | The Weird                                                                                                             | Jeff VanderMeer       |
-| `9781892391551` | The New Weird                                                                                                         | Jeff VanderMeer       |
-| `9781585678259` | Islandia                                                                                                              | Austin Tappan Wright  |
-| `9781402780035` | The Sign of the Four                                                                                                  | I. N. J. Culbard      |
-| `9781906838058` | The Valley of Fear                                                                                                    | I. N. J. Culbard      |
-| `9781402770005` | The Hound of the Baskervilles                                                                                         | I. N. J. Culbard      |
-| `9781906838355` | The Case of Charles Dexter Ward                                                                                       | I. N. J. Culbard      |
-| `9781906838683` | Shadow Out of Time                                                                                                    | I. N. J. Culbard      |
-| `9780330534239` | Perdido Street Station                                                                                                | China Mieville        |
-| `9780099529040` | Planet of the Apes                                                                                                    | Pierre Boulle         |
-| `9781935548355` | Night on the Galactic Railroad & Other Stories from Ihatov                                                            | Kenji Miyazawa        |
-| `9781447263210` | Wicker Man                                                                                                            | Hardy                 |
-| `9780143107651` | Perchance to Dream: Selected Stories                                                                                  | Charles Beaumont      |
-| `9781590179062` | The Rim Of Morning                                                                                                    | William Sloane        |
-| `9780199536733` | No Name                                                                                                               | Wilkie Collins        |
-| `9781857231793` | Against A Dark Background                                                                                             | Iain M. Banks         |
-| `0749386428`    | The Magic Mountain                                                                                                    | Thomas Mann           |
-| `9780007528417` | The Space Trilogy                                                                                                     | C. S. Lewis           |
-| `9780374175412` | Infinite Detail                                                                                                       | Tim Maughan           |
-| `9781878580351` | The Beak Doctor: Short Fiction 1972-1976                                                                              | Eric Basso            |
-| `9780553382914` | The Etched City                                                                                                       | K. J. Bishop          |
-| `9781590176689` | The Black Spider                                                                                                      | Jeremias Gotthelf     |
-| `9780553383157` | Viriconium                                                                                                            | M. John Harrison      |
-| `9780947757984` | Malpertuis                                                                                                            | Jean Ray              |
-| `9781596061330` | The Best of Lucius Shepard                                                                                            | Lucius Shepard        |
-| `9780743417358` | Weaveworld                                                                                                            | Clive Barker          |
-| `9780812533057` | Seventh Son                                                                                                           | Orson Scott Card      |
-| `9780062094537` | On Stranger Tides                                                                                                     | Tim Powers            |
-| `9781892391797` | The Stress of Her Regard                                                                                              | Tim Powers            |
-| `9780316029186` | The Last Wish                                                                                                         | Andrzej Sapkowski     |
-| `9780060557812` | Neverwhere                                                                                                            | Neil Gaiman           |
-| `9780765350374` | Elantris                                                                                                              | Brandon Sanderson     |
-| `9780345497529` | The City & The City                                                                                                   | China Mieville        |
-| `9780345524256` | Midnight Riot                                                                                                         | Ben Aaronovitch       |
-| `9780809500314` | The Beckoning Fair One                                                                                                | Oliver Onions         |
-| `9781840226409` | The Dead of Night                                                                                                     | Oliver Onions         |
-| `1594745269`    | Horrorstör                                                                                                            | Grady Hendrix         |
-| `1594748624`    | My Best Friend's Exorcism                                                                                             | Grady Hendrix         |
-| `9781683691433` | The Southern Book Club's Guide to Slaying Vampires                                                                    | Grady Hendrix         |
-| `9780843948448` | Black Butterflies                                                                                                     | John Shirley          |
-| `9781849161350` | The Leaping                                                                                                           | Tom Fletcher          |
-| `9781849161367` | The Thing on the Shore                                                                                                | Tom Fletcher          |
-| `9780984480203` | Tempting Providence and Other Stories                                                                                 | Jonathan Thomas       |
-| `9780978991128` | Omens                                                                                                                 | Richard Gavin         |
-| `9780809572496` | Mr. Gaunt and Other Uneasy Encounters                                                                                 | John Langan           |
-| `9781906120597` | Murmurations: An Anthology of Uncanny Stories About Birds                                                             | Nicholas Royle        |
-| `9780982843697` | Ugly Behaviour                                                                                                        | Steve Rasnic Tem      |
-| `9781566892254` | Fugue State                                                                                                           | Brian Evenson         |
-| `9780715653739` | World War Z                                                                                                           | Max Brooks            |
+| ISBN            | Title                                                                | Author                |
+|----------------:+----------------------------------------------------------------------+-----------------------|
+| `9781974717477` | Remina                                                               | Junji Ito             |
+| `9780356506142` | The Wheel of Time Companion                                          | Robert Jordan         |
+| `9780199549740` | The Old English Baron                                                | Clara Reeve           |
+| `9789814287111` | Algebraic Models For Accounting Systems                              | Cruz Rambaud Salvador |
+| `9780465026562` | Godel, Escher, Bach: An Eternal Golden Braid                         | Douglas R. Hofstadter |
+| `9780343546373` | An Encyclopædia Of Occultism                                         | Lewis Spence          |
+| `9781614982173` | Lovecraft's Library: A Catalogue (Fourth Revised Edition)            | S. T. Joshi           |
+| `9780262528917` | Building Successful Online Communities: Evidence-Based Social Design | Ribert E. Kraut       |
+| `9780316362658` | The Illustrated Art of Manliness                                     | Brett McKay           |
+| `9781447263401` | Last Days                                                            | Adam Nevill           |
+| `9780765318145` | Anvil of Stars                                                       | Greg Bear             |
+| `9780586217467` | The Mote in God's Eye                                                | Larry Niven           |
+| `9780141191447` | The Haunting of Hill House                                           | Shirley Jackson       |
+| `9780575082373` | House of Suns                                                        | Alastair Reynolds     |
+| `9781771481595` | Wild Fell                                                            | Michael Rowe          |
+| `9781511536738` | The Turn of the Screw                                                | Henry James           |
+| `9780099908807` | The Snows Of Kilimanjaro And Other Stories                           | Ernest Hemingway      |
+| `9780141182551` | The Crucible: A Play in Four Acts                                    | Arthur Miller         |
+| `9780299038946` | Kallocain                                                            | Karin Boye            |
+| `9780156306300` | Fiasco                                                               | Stanislaw Lem         |
+| `9780552101233` | Logan's Run                                                          | William Nolan         |
+| `9780575082090` | Diaspora                                                             | Greg Egan             |
+| `9780575082076` | Permutation City                                                     | Greg Egan             |
+| `9781556524417` | The Egyptian                                                         | Mika Waltari          |
+| `9780967321547` | Eyes of the God: The Weird Fiction and Poetry of R. H. Barlow        | S. T. Joshi           |
+| `9780199552351` | The Last Man                                                         | Mary Shelley          |
+| `9781609807450` | Things to Do When You're Goth in the Country And Other Stories       | Chavisa Woods         |
+| `9780765333629` | The Weird                                                            | Jeff VanderMeer       |
+| `9781892391551` | The New Weird                                                        | Jeff VanderMeer       |
+| `9781585678259` | Islandia                                                             | Austin Tappan Wright  |
+| `9781402780035` | The Sign of the Four                                                 | I. N. J. Culbard      |
+| `9781906838058` | The Valley of Fear                                                   | I. N. J. Culbard      |
+| `9781402770005` | The Hound of the Baskervilles                                        | I. N. J. Culbard      |
+| `9781906838355` | The Case of Charles Dexter Ward                                      | I. N. J. Culbard      |
+| `9781906838683` | Shadow Out of Time                                                   | I. N. J. Culbard      |
+| `9780330534239` | Perdido Street Station                                               | China Mieville        |
+| `9780099529040` | Planet of the Apes                                                   | Pierre Boulle         |
+| `9781935548355` | Night on the Galactic Railroad & Other Stories from Ihatov           | Kenji Miyazawa        |
+| `9781447263210` | Wicker Man                                                           | Hardy                 |
+| `9780143107651` | Perchance to Dream: Selected Stories                                 | Charles Beaumont      |
+| `9781590179062` | The Rim Of Morning                                                   | William Sloane        |
+| `9780199536733` | No Name                                                              | Wilkie Collins        |
+| `9781857231793` | Against A Dark Background                                            | Iain M. Banks         |
+| `0749386428`    | The Magic Mountain                                                   | Thomas Mann           |
+| `9780007528417` | The Space Trilogy                                                    | C. S. Lewis           |
+| `9780374175412` | Infinite Detail                                                      | Tim Maughan           |
+| `9781878580351` | The Beak Doctor: Short Fiction 1972-1976                             | Eric Basso            |
+| `9780553382914` | The Etched City                                                      | K. J. Bishop          |
+| `9781590176689` | The Black Spider                                                     | Jeremias Gotthelf     |
+| `9780553383157` | Viriconium                                                           | M. John Harrison      |
+| `9780947757984` | Malpertuis                                                           | Jean Ray              |
+| `9781596061330` | The Best of Lucius Shepard                                           | Lucius Shepard        |
+| `9780743417358` | Weaveworld                                                           | Clive Barker          |
+| `9780812533057` | Seventh Son                                                          | Orson Scott Card      |
+| `9780062094537` | On Stranger Tides                                                    | Tim Powers            |
+| `9781892391797` | The Stress of Her Regard                                             | Tim Powers            |
+| `9780316029186` | The Last Wish                                                        | Andrzej Sapkowski     |
+| `9780060557812` | Neverwhere                                                           | Neil Gaiman           |
+| `9780765350374` | Elantris                                                             | Brandon Sanderson     |
+| `9780345497529` | The City & The City                                                  | China Mieville        |
+| `9780345524256` | Midnight Riot                                                        | Ben Aaronovitch       |
+| `9780809500314` | The Beckoning Fair One                                               | Oliver Onions         |
+| `9781840226409` | The Dead of Night                                                    | Oliver Onions         |
+| `1594745269`    | Horrorstör                                                           | Grady Hendrix         |
+| `1594748624`    | My Best Friend's Exorcism                                            | Grady Hendrix         |
+| `9781683691433` | The Southern Book Club's Guide to Slaying Vampires                   | Grady Hendrix         |
+| `9780843948448` | Black Butterflies                                                    | John Shirley          |
+| `9781849161350` | The Leaping                                                          | Tom Fletcher          |
+| `9781849161367` | The Thing on the Shore                                               | Tom Fletcher          |
+| `9780984480203` | Tempting Providence and Other Stories                                | Jonathan Thomas       |
+| `9780978991128` | Omens                                                                | Richard Gavin         |
+| `9780809572496` | Mr. Gaunt and Other Uneasy Encounters                                | John Langan           |
+| `9781906120597` | Murmurations: An Anthology of Uncanny Stories About Birds            | Nicholas Royle        |
+| `9780982843697` | Ugly Behaviour                                                       | Steve Rasnic Tem      |
+| `9781566892254` | Fugue State                                                          | Brian Evenson         |
+| `9780715653739` | World War Z                                                          | Max Brooks            |
