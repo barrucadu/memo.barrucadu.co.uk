@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-01-28
+modified: 2021-01-30
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -370,6 +370,8 @@ Book Series
 |                                               | `9781597809412` | Volume 3: The Ghost Pirates and Other Revenants of the Sea        |
 |                                               | `9781597809597` | Volume 4: The Night Land and Other Perilous Romances              |
 |                                               | `9781597809603` | Volume 5: The Dream of X and Other Fantastic Visions              |
+| The Best Short Fiction of Darrell Schweitzer  | `9781786364425` | Volume 1: The Mysteries of the Faceless King                      |
+|                                               | `9781786364449` | Volume 2: The Last Heretic                                        |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
@@ -638,3 +640,7 @@ Miscellaneous
 | `9780982843697` | Ugly Behaviour                                                       | Steve Rasnic Tem      |
 | `9781566892254` | Fugue State                                                          | Brian Evenson         |
 | `9780715653739` | World War Z                                                          | Max Brooks            |
+| `9781616963026` | The Very Best of Caitlín R. Kiernan                                  | Caitlín R. Kiernan    |
+| `9781505602562` | The Horror Society Presents: Forgotten Places                        | Henry Snider et al.   |
+| `9781906652173` | Songs from Spider Street                                             | Mark Howard Jones     |
+| `9780970400031` | The Womb of Time                                                     | Brian Stableford      |
