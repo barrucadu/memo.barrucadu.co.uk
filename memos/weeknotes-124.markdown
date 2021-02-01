@@ -4,6 +4,8 @@ taxon: weeknotes-2021
 date: 2021-01-31
 ---
 
+**This deployed a day late as my Concourse instance fell over.**
+
 ## Work
 
 ### Shifting gears
