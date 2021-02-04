@@ -1,5 +1,5 @@
 ---
-title: Golden Sky Stories (2020-02 to 2020-04) notes
+title: Golden Sky Stories (2020-04) notes
 taxon: general-games
 tags: golden sky stories
 published: 2020-04-26
