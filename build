@@ -34,6 +34,7 @@ DATE_PP_FORMAT = "%b %-d, %Y"
 TAXA = [
     { 'name': 'General', 'slug': 'general', 'parent': '', 'tags': [] },
     { 'name': 'Games', 'slug': 'general-games', 'parent': 'general', 'tags': [] },
+    { 'name': 'Tools I Use', 'slug': 'general-tools', 'parent': 'general', 'tags': [], 'draft': True },
     { 'name': 'Weeknotes', 'slug': 'weeknotes', 'parent': '', 'tags': ['weeknotes'] },
     { 'name': '2021', 'slug': 'weeknotes-2021', 'parent': 'weeknotes', 'tags': [] },
     { 'name': '2020', 'slug': 'weeknotes-2020', 'parent': 'weeknotes', 'tags': [] },
@@ -66,6 +67,7 @@ for taxon in TAXA:
         parent['has_children'] = True
         taxon['long_name'] = f"{parent['long_name']} ({taxon['name']})"
         taxon['parent_name'] = parent['long_name']
+        taxon['draft'] = taxon.get('draft', parent.get('draft', False))
         taxon['tags'].extend(parent['tags'])
 
 
@@ -383,6 +385,8 @@ class WebsiteBuilder:
 
 args = docopt(__doc__)
 
+filtered_taxa = [t for t in TAXA if not t.get("draft", False) or args["--drafts"]]
+
 memos, tags = MemoReader("memos", args["--drafts"]).memos()
 
 memos_for_lists = sorted(
@@ -404,27 +408,27 @@ builder.copy("css") # todo - minify
 builder.copy("MathJax", subdir=True)
 
 builder.robots()
-builder.sitemap(memos, tags, TAXA)
+builder.sitemap(memos, tags, filtered_taxa)
 
-builder.memo_list(memos_for_lists, tags=tags, taxa=TAXA)
+builder.memo_list(memos_for_lists, tags=tags, taxa=filtered_taxa)
 builder.memo_feed(memos_for_feeds)
 
 for tag in tags:
-    builder.memo_list(memos_for_lists, tag=tag, tags=tags, taxa=TAXA)
+    builder.memo_list(memos_for_lists, tag=tag, tags=tags, taxa=filtered_taxa)
     builder.memo_feed(memos_for_feeds, tag=tag)
 
 def build_taxon_pages_recursive(taxon):
-    global TAXA
+    global filtered_taxa
     global tags
     global memos_for_lists
     global memos_for_feeds
 
-    builder.memo_list(memos_for_lists, taxon=taxon, tags=tags, taxa=TAXA)
+    builder.memo_list(memos_for_lists, taxon=taxon, tags=tags, taxa=filtered_taxa)
     builder.memo_feed(memos_for_feeds, taxon=taxon)
     for t in taxon.get('children', []):
         build_taxon_pages_recursive(t)
 
-for taxon in TAXA:
+for taxon in filtered_taxa:
     build_taxon_pages_recursive(taxon)
 
 for memo in memos:
