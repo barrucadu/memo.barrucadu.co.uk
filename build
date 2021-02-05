@@ -3,11 +3,12 @@
 """build.py
 
 Usage:
-  build.py [--out=<dir>] [--root=<url>]
+  build.py [--drafts] [--out=<dir>] [--root=<url>]
   build.py (-h | --help)
 
 Options:
   -h --help       Show this screen.
+  --drafts        Include draft memos as well.
   --out=<dir>     Directory to generate site in [default: _site]
   --root=<url>    Root of the website [default: https://memo.barrucadu.co.uk/]
 
@@ -69,8 +70,9 @@ for taxon in TAXA:
 
 
 class MemoReader:
-    def __init__(self, memodir="memos"):
+    def __init__(self, memodir="memos", drafts=False):
         self.memodir = memodir
+        self.drafts = drafts
 
     def memos(self):
         """Read and parse all memos.
@@ -91,6 +93,9 @@ class MemoReader:
                     print(fpath)
                     print(traceback.format_exc())
                     sys.exit(1)
+
+            if frontmatter.get("draft", False) and not self.drafts:
+                continue
 
             memo = frontmatter
             rendered, toc = MemoReader.__pandocise_memo_content(memofile, content)
@@ -378,7 +383,7 @@ class WebsiteBuilder:
 
 args = docopt(__doc__)
 
-memos, tags = MemoReader("memos").memos()
+memos, tags = MemoReader("memos", args["--drafts"]).memos()
 
 memos_for_lists = sorted(
     [memo for memo in memos if "superseded_by" not in memo],
