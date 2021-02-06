@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-01-30
+modified: 2021-02-06
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -364,8 +364,6 @@ Book Series
 |                                               | `9781421543277` | Volume 2: 20th Century Boys                                       |
 | [Overlord][]                                  | `9781975311537` | Volume 13: The Paladin of the Holy Kingdom (Part 2)               |
 |                                               |                 | Volume 14: The Witch of the Falling Kingdom                       |
-| Kobold Guides                                 | `9781936781324` | Kobold Guide to Combat                                            |
-|                                               | `9781936781287` | Kobold Guide to Magic                                             |
 | The Collected Fiction of William Hope Hodgson | `9781597809214` | Volume 2: The House on the Borderland and Other Mysterious Places |
 |                                               | `9781597809412` | Volume 3: The Ghost Pirates and Other Revenants of the Sea        |
 |                                               | `9781597809597` | Volume 4: The Night Land and Other Perilous Romances              |
@@ -476,7 +474,6 @@ Roleplaying Games
 | Title                  | Author                                      |
 |------------------------+---------------------------------------------|
 | Yoon-Suin              | David McGrogan                              |
-| The Gardens Of Ynn     | Emmy Allen                                  |
 | The Stygian Library    | Emmy Allen                                  |
 | Guide to Glorantha     | Greg Stafford, Jeff Richard, Sandy Petersen |
 | Ultraviolet Grasslands | Luka Rejec                                  |
@@ -487,8 +484,6 @@ Roleplaying Games
 |----------------:+----------------------------------------------------------------+--------------------------|
 | `9781448675432` | Gamemastering                                                  | Brian Jamison            |
 | `9781556346293` | Robin's Laws of Good Game Mastering                            | Robin D. Laws            |
-| `9780981884028` | Hamlet's Hit Points                                            | Robin D. Laws            |
-| `9781434824592` | Play Unsafe: How Improvisation Can Change The Way You Roleplay | Graham Walmsley          |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
 | `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
 
