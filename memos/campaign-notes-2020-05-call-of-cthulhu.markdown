@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-01-24
+modified: 2021-02-07
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
@@ -2612,8 +2612,8 @@ Nyarlathotep, the enemy of Nodens."
 - They might go to Australia
 
 
-MoN America session 5, 2020-12-30
----------------------------------
+MoN America session 5, [cancelled]
+----------------------------------
 
 <span class="highlight">I decided to skip this session and go straight to Australia.</span>
 
@@ -2929,4 +2929,62 @@ For Kints or Cassie (Rachel has had her SAN check):
 
 ### Next time
 
-- Morning of Tuesday the 17th of March, 1925
+- Morning of Thursday the 19th of March, 1925
+
+MoN Australia session 4, 2021-02-07
+-----------------------------------
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Rachel's notes on the Eye of Light and Darkness
+
+To be given after a suitable period of time (eg, a week to dedicate to
+translation).
+
+![Rachel's notes on the Eye of Light and Darkness.](campaign-notes-2020-05-call-of-cthulhu/rachels-notes-eye-of-light-and-darkness.png)
+
+#### Changes to the city in response to Kakakatak's disappearance
+
+- Lights run up to the bottomless pit
+- lights run down the unexplored lower levels up to the fork
+- Linewalkers patrol every 3 hours
+- Huston will ask if they had anything to do with the escape
+
+#### Other things
+
+- The generator and lights near the bottomless pit are switched off
+  for maintenance, which is actively being done when the gang enter.
+- The great plazas have floors made of regular octagonal slabs.
+  Regular octagons don’t tessellate.
+
+### Notes
+
+- Spend a day trying to find a third entrance (and fail)
+- Discover the brainwashed workers
+- Encounter Huston
+  - He assumes they've come to join, and that the guards just let them in
+  - They kill him and:
+    - Get the manuscript
+    - Get the letter
+    - Get the cage keys
+    - Discover the mind-transmitter
+- Free the captives
+- Discover one of the brainwashed workers has gone
+- Attacked by Huston Reborn and 5 cultists
+- Rachel summons Tsathoggua
+  - He smashes the bad guys
+- The ground begins to tremble...
+
+### Next time
+
+- Morning of Friday the 20th of March, 1925
+  - Nobody has slept (CON rolls to avoid disadvantage)
+  - The Sand Bat will get mad if the quarterly ritual is not performed
+- The earthquake
+- Huston is dead for good now (but they don't know that) - the mind
+  transfer was the equivalent of the "look out, master!" mechanic
+- They can get the manuscript handout after spending a day to read it
