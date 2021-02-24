@@ -5,6 +5,14 @@ tags: call of cthulhu
 date: 2019-05-11
 ---
 
+<aside class="highlight">
+
+A revised version of this memo has been posted to my RPG blog:
+
+[Dice rolls in Call of Cthulhu](https://www.lookwhattheshoggothdraggedin.com/post/dice-rolls-in-call-of-cthulhu.html)
+
+</aside>
+
 Conflict in RPGs can be resolved in two ways: *narratively*, where
 resolution is handled entirely through role-playing; and
 *mechanically*, where the rules give a way to determine which side (if
