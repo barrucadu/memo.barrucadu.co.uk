@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-02-07
+modified: 2021-02-25
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
@@ -2981,10 +2981,75 @@ translation).
 
 ### Next time
 
-- Morning of Friday the 20th of March, 1925
-  - Nobody has slept (CON rolls to avoid disadvantage)
-  - The Sand Bat will get mad if the quarterly ritual is not performed
+- Night of Thursday the 19th of March, 1925
+- The Sand Bat will get mad if the quarterly ritual is not performed
 - The earthquake
 - Huston is dead for good now (but they don't know that) - the mind
   transfer was the equivalent of the "look out, master!" mechanic
 - They can get the manuscript handout after spending a day to read it
+
+
+MoN Australia session 5, 2021-02-25
+-----------------------------------
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+- The ground has stopped rumbling, but their bridge has fallen into
+  the bottomless pit
+- The floor around the titan horror has huge, new, cracks
+- The main entrance is dripping with bat shit and reeks of ammonia,
+  **CON** check to avoid a penalty die to other rolls
+- The purple dome temple takes a few minutes to run through, and has
+  three guardians present who will try to carry characters up into the
+  air and drop them a fatal distance
+- Bats are going nuts and swarming
+- The gang can make it back to Cuncudgerie in 72 hours (night of the
+  22nd / morning of the 23rd) if they drive constantly and have no
+  mishaps
+- The Father of All Bats will attack on the night of the 20th, unless
+  all the cultists are dead and so cannot perform the summoning
+  ritual, but can be driven off with light
+
+#### The escapees
+
+The gang has:
+
+- 9 zombified miners (p514)
+- 13 malnourished & beaten kidnappees (treat as Australian Rowdies
+  (p508) with half health and a penalty die to combat rolls)
+- 2 very unwell kidnappees (unable to do more than slowly shuffle
+  along; on death have them "give birth" (p498))
+
+#### The cult
+
+- Cultist Squad A is in the bunkhouse
+- Cultist Squad B has been wiped out by Tsathoggua
+- Cultist Squad C is in the bunkhouse
+- Cultist Squad D is split between guard duty outside and repairing the generator at Kakakatak's chamber
+
+### Notes
+
+- Tried and failed to use the machine in Kakakatak's room to
+  debrainwash the miners
+- Decided to blow it up instead, used too much dynamite, and started
+  to collapse the ceilings
+- Managed to cross the bottomless pit with clever use of rope and
+  fearless brainwashed miners
+- Visit Grogan, get him to explain his magic stone circles.  A dingo
+  just stands in front of whoever tries to enter.  They're convinced.
+- That night: an attack by Bat Guardians.  They manage to drive them
+  off with only one casualty
+- The next day: they find the escapee
+- That night: Sand Bat visits, knocks over a truck
+- Make it back to Cuncudgerie just before the axel snaps
+- Leave Australia
+
+### Next time
+
+- 22nd of April
+- England
+- All the cults are aware of the gang and what they did in America
