@@ -1,7 +1,7 @@
 ---
 title: CD Wishlist
 taxon: self-possessions
-published: 2020-11-21
+published: 2021-03-01
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -85,6 +85,15 @@ Generally I only buy studio albums.
 - Puritanical Euphoric Misanthropia
 - In Sorte Diaboli
 - Abrahadabra
+
+### [Eluveitie](https://en.wikipedia.org/wiki/Eluveitie_discography)
+
+- Spirit
+- Slania
+- Evocation I: The Arcane Dominion
+- Everything Remains (As It Never Was)
+- Helvetios
+- Evocation II: Pantheon
 
 ### [Epica](https://en.wikipedia.org/wiki/Epica_discography)
 
