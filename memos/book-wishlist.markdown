@@ -381,17 +381,6 @@ Book Series (candidates)
 
 | Series                                    | ISBN            | Title                                           |
 |------------------------------------------:+----------------:+-------------------------------------------------|
-| [The Belgariad][]                         | `9780552554763` | Pawn of Prophecy                                |
-|                                           | `9780552554770` | Queen of Sorcery                                |
-|                                           | `9780552554787` | Magician's Gambit                               |
-|                                           | `9780552554794` | Castle of Wizardry                              |
-|                                           | `9780552554800` | Enchanters' End Game                            |
-| [The Books of Babel][]                    | `9780356510811` | Senlin Ascends                                  |
-|                                           | `9780356510835` | Arm of the Sphinx                               |
-|                                           | `9780356510842` | The Hod King                                    |
-| [The Divine Cities][]                     | `9781848667983` | City of Stairs                                  |
-|                                           | `9781848669598` | City of Blades                                  |
-|                                           | `9780857053596` | City of Miracles                                |
 | [Liveship Traders][]                      | `9780008117450` | Ship of Magic                                   |
 |                                           | `9780008117467` | The Mad Ship                                    |
 |                                           | `9780008117474` | Ship of Destiny                                 |
@@ -406,35 +395,13 @@ Book Series (candidates)
 | [Mars Trilogy][]                          | `9780007310166` | Red Mars                                        |
 |                                           | `9780007310173` | Green Mars                                      |
 |                                           | `9780007310180` | Blue Mars                                       |
-| [My Lesbian Experience With Loneliness][] | `9781626926035` | Volume 1: My Lesbian Experience with Loneliness |
-|                                           | `9781626928893` | Volume 2: My Solo Exchange Diary                |
-|                                           | `9781626929999` | Volume 3: My Solo Exchange Diary Vol. 2         |
-| [Shannara][]                              | `9781841495484` | The Sword of Shannara                           |
-|                                           | `9781841495491` | The Elfstones of Shannara                       |
-|                                           | `9781841495507` | The Wishsong of Shannara                        |
-| [The Stormlight Archive][]                | `9780575097360` | The Way of Kings                                |
-|                                           | `9780575093317` | Words of Radiance                               |
-|                                           | `9780575093362` | Oathbringer (part 1)                            |
-|                                           | `9780575093379` | Oathbringer (part 2)                            |
-|                                           | `9780575093386` | Rhythm of War                                   |
-| [Wax and Wayne][]                         | `9780765330420` | Mistborn: The Alloy of Law                      |
-|                                           | `9780765378552` | Mistborn: Shadows of Self                       |
-|                                           | `9780765378576` | Mistborn: The Bands of Mourning                 |
-|                                           |                 | Mistborn: The Lost Metal                        |
 | The Elric Saga                            |                 | Elric of Melniboné                              |
 |                                           |                 | Stormbringer                                    |
 |                                           |                 | The White Wolf                                  |
 
-[The Belgariad]: https://en.wikipedia.org/wiki/The_Belgariad
-[The Books of Babel]: https://www.thebooksofbabel.com/
-[The Divine Cities]: https://en.wikipedia.org/wiki/The_Divine_Cities
 [Liveship Traders]: https://en.wikipedia.org/wiki/Liveship_Traders_Trilogy
 [Made in Abyss]: https://en.wikipedia.org/wiki/Made_in_Abyss
 [Mars Trilogy]: https://en.wikipedia.org/wiki/Mars_trilogy
-[My Lesbian Experience With Loneliness]: https://en.wikipedia.org/wiki/My_Lesbian_Experience_With_Loneliness
-[Shannara]: https://en.wikipedia.org/wiki/Terry_Brooks_bibliography#Shannara_series
-[The Stormlight Archive]: https://en.wikipedia.org/wiki/The_Stormlight_Archive
-[Wax and Wayne]: https://en.wikipedia.org/wiki/Mistborn
 
 
 Roleplaying Games
@@ -489,7 +456,6 @@ Roleplaying Games
 
 | ISBN            | Title                                                          | Author                   |
 |----------------:+----------------------------------------------------------------+--------------------------|
-| `9781448675432` | Gamemastering                                                  | Brian Jamison            |
 | `9781556346293` | Robin's Laws of Good Game Mastering                            | Robin D. Laws            |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
 | `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
@@ -505,28 +471,18 @@ Computer Science, Programming, + Digital Culture
 | `9781568842035` | UNIX-hater's Handbook                                                       | Garfinkel              |
 | `9780201835953` | The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition | Frederick P. Brooks Jr |
 | `9781449335946` | Parallel and Concurrent Programming in Haskell                              | Simon Marlow           |
-| `9781732102200` | A Philosophy of Software Design                                             | John Ousterhout        |
-| `9783540097242` | Edinburgh LCF: A Mechanized Logic of Computation                            | M. Gordon              |
 | `9781881526919` | Selected Papers on Computer Science                                         | Donald E. Knuth        |
 | `9780521513388` | Pearls of Functional Algorithm Design                                       | Richard Bird           |
 | `9780521663502` | Purely Functional Data Structures                                           | Chris Okasaki          |
 
 
-Design, Typography, + Writing
------------------------------
+Typography & Writing
+--------------------
 
 | ISBN            | Title                                                                                                  | Author                  |
 |----------------:+--------------------------------------------------------------------------------------------------------+-------------------------|
 | `9780241960349` | Plain Words                                                                                            | Rebecca Gowers          |
 | `9789389157123` | The Elements of Style                                                                                  | William Strunk          |
-| `9780961392123` | Visual Explanations: Images and Quantities, Evidence and Narrative                                     | Edward R. Tufte         |
-| `9780961392116` | Envisioning Information                                                                                | Edward R. Tufte         |
-| `9780961392178` | Beautiful Evidence                                                                                     | Edward R. Tufte         |
-| `9780961392161` | The Cognitive Style of PowerPoint                                                                      | Edward R. Tufte         |
-| `9780961392185` | Artful Sentences: Syntax As Style                                                                      | Virginia Tufte          |
-| `9780465002283` | The Design of Future Things                                                                            | Donald Norman           |
-| `9780465051366` | Emotional Design: Why We Love (or Hate) Everyday Things                                                | Donald Norman           |
-| `9780262014861` | Living with Complexity                                                                                 | Donald Norman           |
 | `9780881792126` | The Elements of Typographic Style: Version 4.0                                                         | Robert Bringhurst       |
 | `9783721201451` | Grid Systems in Graphic Design: A Handbook for Graphic Artists, Typographers, and Exhibition Designers | Josef Mülller-Brockmann |
 
@@ -536,8 +492,6 @@ Politics, Philosophy, Economics, + History
 
 | ISBN            | Title                                                                           | Author          |
 |----------------:+---------------------------------------------------------------------------------+-----------------|
-| `9780141018812` | Penguin Great Ideas: On the Shortness of Life                                   | Seneca          |
-| `9781202221776` | The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living | Ryan Holiday    |
 | `9780226458113` | The Structure of Scientific Revolutions                                         | Thomas Kuhn     |
 | `9781540622402` | Cyropaedia                                                                      | Xenophon        |
 | `9781490361888` | Extraordinary Popular Delusions and the Madness of Crowds                       | Charles MacKay  |
@@ -553,13 +507,8 @@ Kitchen
 
 | ISBN            | Title                                                                       | Author                |
 |----------------:+-----------------------------------------------------------------------------+-----------------------|
-| `9781607742739` | Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza         | Ken Forkish           |
-| `9780241229781` | The Science of Cooking: Every Question Answered to Perfect your Cooking     | Dr. Stuart Farrimond  |
 | `9781607744382` | Mastering Fermentation: Recipes for Making and Cooking with Fermented Foods | Mary Karlin           |
 | `9781612124339` | The Big Book of Kombucha                                                    | Hannah Crum           |
-| `9781328954350` | The Gaijin Cookbook                                                         | Ivan Orkin            |
-| `9781641529389` | The Easy College Cookbook                                                   | Candace Braun Davison |
-| `9780735234499` | Oven To Table: More Than 100 One-Pan Recipes to Cook, Bake, and Share       | Jan Scott             |
 
 
 Miscellaneous
@@ -584,13 +533,10 @@ Miscellaneous
 | `9781771481595` | Wild Fell                                                            | Michael Rowe          |
 | `9781511536738` | The Turn of the Screw                                                | Henry James           |
 | `9780099908807` | The Snows Of Kilimanjaro And Other Stories                           | Ernest Hemingway      |
-| `9780141182551` | The Crucible: A Play in Four Acts                                    | Arthur Miller         |
-| `9780299038946` | Kallocain                                                            | Karin Boye            |
 | `9780156306300` | Fiasco                                                               | Stanislaw Lem         |
 | `9780552101233` | Logan's Run                                                          | William Nolan         |
 | `9780575082090` | Diaspora                                                             | Greg Egan             |
 | `9780575082076` | Permutation City                                                     | Greg Egan             |
-| `9781556524417` | The Egyptian                                                         | Mika Waltari          |
 | `9780967321547` | Eyes of the God: The Weird Fiction and Poetry of R. H. Barlow        | S. T. Joshi           |
 | `9780199552351` | The Last Man                                                         | Mary Shelley          |
 | `9781609807450` | Things to Do When You're Goth in the Country And Other Stories       | Chavisa Woods         |
@@ -625,7 +571,6 @@ Miscellaneous
 | `9781892391797` | The Stress of Her Regard                                             | Tim Powers            |
 | `9780316029186` | The Last Wish                                                        | Andrzej Sapkowski     |
 | `9780060557812` | Neverwhere                                                           | Neil Gaiman           |
-| `9780765350374` | Elantris                                                             | Brandon Sanderson     |
 | `9780345497529` | The City & The City                                                  | China Mieville        |
 | `9780345524256` | Midnight Riot                                                        | Ben Aaronovitch       |
 | `9780809500314` | The Beckoning Fair One                                               | Oliver Onions         |
