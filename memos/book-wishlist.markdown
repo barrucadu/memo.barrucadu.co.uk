@@ -421,6 +421,9 @@ Book Series (candidates)
 |                                           | `9780765378552` | Mistborn: Shadows of Self                       |
 |                                           | `9780765378576` | Mistborn: The Bands of Mourning                 |
 |                                           |                 | Mistborn: The Lost Metal                        |
+| The Elric Saga                            |                 | Elric of Melniboné                              |
+|                                           |                 | Stormbringer                                    |
+|                                           |                 | The White Wolf                                  |
 
 [The Belgariad]: https://en.wikipedia.org/wiki/The_Belgariad
 [The Books of Babel]: https://www.thebooksofbabel.com/
@@ -471,12 +474,16 @@ Roleplaying Games
 
 ### Settings & Lore
 
-| Title                  | Author                                      |
-|------------------------+---------------------------------------------|
-| Yoon-Suin              | David McGrogan                              |
-| The Stygian Library    | Emmy Allen                                  |
-| Guide to Glorantha     | Greg Stafford, Jeff Richard, Sandy Petersen |
-| Ultraviolet Grasslands | Luka Rejec                                  |
+| Title                                   | Author                                      |
+|-----------------------------------------+---------------------------------------------|
+| Yoon-Suin                               | David McGrogan                              |
+| The Stygian Library                     | Emmy Allen                                  |
+| Guide to Glorantha                      | Greg Stafford, Jeff Richard, Sandy Petersen |
+| Ultraviolet Grasslands                  | Luka Rejec                                  |
+| Fungi of the Far Realms                 | Melsonian Arts Council                      |
+| Magical Industrial Revolution           | Skerples                                    |
+| Trilemma Adventures Compendium Volume I | Trilemma Adventures                         |
+| Lorn Song of the Bachelor               | Zedeck Siew                                 |
 
 ### Advice
 
@@ -640,3 +647,12 @@ Miscellaneous
 | `9781505602562` | The Horror Society Presents: Forgotten Places                        | Henry Snider et al.   |
 | `9781906652173` | Songs from Spider Street                                             | Mark Howard Jones     |
 | `9780970400031` | The Womb of Time                                                     | Brian Stableford      |
+| `9781614980704` | The Ancient Track: The Complete Poetical Works of H. P. Lovecraft    | S. T. Joshi           |
+| `9780312931995` | The Boat of a Million Years                                          | Poul Anderson         |
+| `9781925355796` | A Collapse of Horses                                                 | Brian Evenson         |
+| `9781566894173` | The Open Curtain                                                     | Brian Evenson         |
+| `9781566895484` | Song for the Unravelling of the World                                | Brian Evenson         |
+| `9781566894159` | Father of Lies                                                       | Brian Evenson         |
+| `9781566894166` | Last Days                                                            | Brian Evenson         |
+| `9781786361998` | The Ceremonies                                                       | T. E. D. Klein        |
+| `9781946154330` | The Cipher                                                           | Kathe Koja            |
