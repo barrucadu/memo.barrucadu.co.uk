@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-02-06
+modified: 2021-03-04
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -538,6 +538,7 @@ Politics, Philosophy, Economics, + History
 | `9781297565090` | An Account of the Cultivation and Manufacture of tea in China                   | Samuel Ball     |
 | `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy             | Neville Morley  |
 | `9780521634168` | Trade in Classical Antiquity                                                    | Neville Morley  |
+| `9781577315933` | The Hero with A Thousand Faces                                                  | Joseph Campbell |
 
 
 Kitchen
