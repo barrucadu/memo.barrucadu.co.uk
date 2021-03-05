@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-03-04
+modified: 2021-03-05
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -457,6 +457,7 @@ Roleplaying Games
 | ISBN            | Title                                                          | Author                   |
 |----------------:+----------------------------------------------------------------+--------------------------|
 | `9781556346293` | Robin's Laws of Good Game Mastering                            | Robin D. Laws            |
+| `9780981884042` | Beating the Story                                              | Robin D. Laws            |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
 | `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
 
