@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-02-25
+modified: 2021-03-09
 ---
 
 <span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
@@ -2141,8 +2141,13 @@ who pass:
 
 ### Next time
 
-We're playing a Traveller one-shot, which I expect to take two
-sessions.
+America!
+
+
+Break 1: Traveller, 2020-09-06
+------------------------------
+
+I ran a Traveller one-shot based on the classic Annic Nova scenario.
 
 
 MoN America session 1, 2020-09-20
@@ -2705,6 +2710,16 @@ a chair and looking terrified.
   - Doors on the upper landing lead to rooms with exterior windows
 
 
+Break 2: Magister Lor, 2020-11-29
+---------------------------------
+
+Yuyu ran a game of Magister Lor.
+
+Break 3: Lord Scurlock, 2020-12-13
+----------------------------------
+
+Pets ran a game of Lord Scurlock.
+
 MoN Australia session 1, 2020-12-30
 -----------------------------------
 
@@ -3053,3 +3068,9 @@ The gang has:
 - 22nd of April
 - England
 - All the cults are aware of the gang and what they did in America
+
+
+Break 4: Troika, 2021-03-07
+---------------------------
+
+I ran a Troika one-shot using the Gardens of Ynn and a heist.
