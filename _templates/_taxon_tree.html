@@ -2,9 +2,9 @@
 {% if t.parent == parent %}
 <li class="navigation-list-item">
   {% if taxon is defined and taxon == t %}
-  <span class="current-page">{{ t.name|e }}</span>
+  <span class="current-page">{{ t.name }}</span>
   {% else %}
-  <a href="{{ taxon_dir|e }}{{ t.slug |e}}.html">{{ t.name|e }}</a>
+  <a href="{{ t.link }}">{{ t.name }}</a>
   {% endif %}
   {% if t.has_children %}
   <ul>

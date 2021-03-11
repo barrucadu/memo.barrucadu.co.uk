@@ -18,9 +18,9 @@
   {% for t in tags %}
   <li class="navigation-list-item">
     {% if tag is defined and tag == t %}
-    <span class="current-page">{{ t.name|e }}</span>
+    <span class="current-page">{{ t.name }}</span>
     {% else %}
-    <a href="{{ tag_dir|e }}{{ t.slug |e}}.html">{{ t.name|e }}</a>
+    <a href="{{ t.link }}">{{ t.name }}</a>
     {% endif %}
   </li>
   {% endfor %}
@@ -29,15 +29,15 @@
 {% endblock %}
 {% block body %}
 <header>
-  <h1 itemprop="headline name">{{ title|e }}</h1>
+  <h1 itemprop="headline name">{{ title }}</h1>
 
   <p>
     Atom feed
     {% if tag is defined %}
-    for memos tagged <a href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">'{{ tag.name|e }}'</a> or
+    for memos tagged <a href="{{ tag.feed_link }}">'{{ tag.name }}'</a> or
     {% endif %}
     {% if taxon is defined %}
-    for <a href="{{ taxon_dir|e }}{{ taxon.slug|e }}.xml">{{ taxon.long_name|e }}</a> or
+    for <a href="{{ taxon.feed_link }}">{{ taxon.long_name }}</a> or
     {% endif %}
     for <a href="atom.xml">all memos</a>.
   </p>
@@ -46,7 +46,7 @@
     {% if taxon.parent == '' %}
       <span class="back-link">Back to <a href="">all memos</a>.</span>
     {% else %}
-      <span class="back-link">Back to <a href="{{ taxon_dir|e }}{{ taxon.parent |e}}.html">{{ taxon.parent_name|e }}</a>.</span>
+      <span class="back-link">Back to <a href="{{ taxon.parent_link }}">{{ taxon.parent_name }}</a>.</span>
     {% endif %}
     {% if taxon.has_children %}
       <hr>
@@ -55,7 +55,7 @@
         {% for t in taxa %}
           {% if t.parent == taxon.slug %}
             <li class="navigation-list-item">
-              <a href="{{ taxon_dir|e }}{{ t.slug |e}}.html">{{ t.name|e }}</a>
+              <a href="{{ t.link }}">{{ t.name }}</a>
             </li>
           {% endif %}
         {% endfor %}
@@ -70,7 +70,7 @@
       {% for t in taxa %}
         {% if t.parent == '' %}
           <li class="navigation-list-item">
-            <a href="{{ taxon_dir|e }}{{ t.slug |e}}.html">{{ t.name|e }}</a>
+            <a href="{{ t.link }}">{{ t.name }}</a>
           </li>
         {% endif %}
       {% endfor %}

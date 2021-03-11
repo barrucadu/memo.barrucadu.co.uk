@@ -1,14 +1,14 @@
 <ol class="navigation-list">
   {% for memo in memos %}
   <li itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="navigation-list-item">
-    <a itemprop="mainEntityOfPage url" href="{{ memo.slug|e }}.html">
-      <span itemprop="headline name">{{ memo.title|e }}</span>
+    <a itemprop="mainEntityOfPage url" href="{{ memo.link }}">
+      <span itemprop="headline name">{{ memo.title }}</span>
     </a>
 
     <span style="display: none">
-      <meta itemprop="datePublished" content="{{ memo.published_iso|e }}">
+      <meta itemprop="datePublished" content="{{ memo.published_iso }}">
       {% if memo.published_iso != memo.modified_iso %}
-      <meta itemprop="dateModified" content="{{ memo.modified_iso|e }}">
+      <meta itemprop="dateModified" content="{{ memo.modified_iso }}">
       {% endif %}
     </span>
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ title }}</title>
+  <link href="{{ permalink }}" rel="self" />
+  <link href="{{ base_href }}" />
+  <id>{{ permalink }}</id>
+  <author>
+    <name>Michael Walker</name>
+    <email>mike@barrucadu.co.uk</email>
+  </author>
+  {% if feed_date is defined %}
+  <updated>{{ feed_date }}T00:00:00Z</updated>
+  {% endif %}
+  {% for memo in memos %}
+  <entry>
+    <title>{{ memo.title }}</title>
+    <link href="{{ memo.permalink }}" />
+    <id>{{ memo.permalink }}</id>
+    <published>{{ memo.published_iso }}T00:00:00Z</published>
+    <updated>{{ memo.modified_iso }}T00:00:00Z</updated>
+    <summary type="html">
+      <![CDATA[
+{{ memo.body | safe }}
+      ]]>
+    </summary>
+  </entry>
+  {% endfor %}
+</feed>

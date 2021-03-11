@@ -5,29 +5,29 @@
     <meta name="author" content="Michael Walker">
     <meta name="robots" content="FOLLOW,INDEX">
 
-    <meta property="og:site_name" content="{{ site_name|e }}">
-    <meta property="og:url"       content="{{ site_root|e }}{{ url|e }}">
-    <meta property="og:title"     content="{{ title|e }}">
+    <meta property="og:site_name" content="{{ site_name }}">
+    <meta property="og:url"       content="{{ permalink }}">
+    <meta property="og:title"     content="{{ title }}">
 
     <meta name="twitter:card"    content="summary">
     <meta name="twitter:site"    content="@barrucadu">
     <meta name="twitter:creator" content="@barrucadu">
 
-    <link rel="canonical" href="{{ site_root|e }}{{ url|e }}">
+    <link rel="canonical" href="{{ permalink }}">
 
-    <base href="{{ site_root|e }}">
+    <base href="{{ base_href }}">
 
-    <title>{{ title|e }}</title>
+    <title>{{ title }}</title>
 
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet preload" href="{{ hashed_links['style.css'] }}" as="style" type="text/css">
 
     {% if tag is defined %}
-    <link rel="alternate" type="application/atom+xml" title="{{ title|e }}" href="{{ tag_dir|e }}{{ tag.slug|e }}.xml">
+    <link rel="alternate" type="application/atom+xml" title="{{ title }}" href="{{ tag.feed_link }}">
     {% endif %}
     {% if taxon is defined %}
-    <link rel="alternate" type="application/atom+xml" title="{{ title|e }}" href="{{ taxon_dir|e }}{{ taxon.slug|e }}.xml">
+    <link rel="alternate" type="application/atom+xml" title="{{ title }}" href="{{ taxon.feed_link }}">
     {% endif %}
-    <link rel="alternate" type="application/atom+xml" title="{{ site_name|e }}" href="atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="{{ site_name }}" href="atom.xml">
 
     {% block head %}
     {% endblock %}

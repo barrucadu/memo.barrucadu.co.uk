@@ -1,0 +1,55 @@
+{% extends "_layout.html" %}
+{% block itemtype %}BlogPosting{% endblock %}
+{% block head %}
+<link rel="stylesheet preload" href="{{ hashed_links['code.css'] }}" as="style" type="text/css">
+<script src="MathJax/MathJax.js?config=TeX-AMS_CHTML" async></script>
+{% endblock %}
+{% block sidebar %}
+<div class="sidebar-sticky">
+  {% if memo.superseded_by is defined %}
+  <div class="meta-message">
+    <p>This memo is <strong>superseded</strong>.  It has been replaced by <a href="{{ memo.superseded_by.link }}">{{ memo.superseded_by.title }}</a>.</p>
+  </div>
+  {% endif %}
+
+  <div>
+    <dl class="sidebar-metadata">
+      <dt class="sidebar-metadata-label">First published:</dt>
+      <dd class="sidebar-metadata-value"><time itemprop="datePublished" content="{{ memo.published_iso }}" datetime="{{ memo.published_iso }}">{{ memo.published_pp }}</time></dd>
+      {% if memo.published_iso != memo.modified_iso %}
+      <dt class="sidebar-metadata-label">Last updated:</dt>
+      <dd class="sidebar-metadata-value"><time itemprop="dateModified" content="{{ memo.modified_iso }}" datetime="{{ memo.modified_iso }}">{{ memo.modified_pp }}</time></dd>
+      {% endif %}
+      <dt class="sidebar-metadata-label">Taxon:</dt>
+      <dd class="sidebar-metadata-value"><a href="{{ memo.taxon.link }}">{{ memo.taxon.long_name }}</a></dd>
+      {% if memo.has_tags %}
+      <dt class="sidebar-metadata-label">Tags:</dt>
+      <dd class="sidebar-metadata-value">
+        {% for tag in memo.tags %}
+        <a href="{{ tag.link }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+      </dd>
+      {% endif %}
+    </dl>
+  </div>
+
+  {% if memo.toc is defined %}
+  <ol class="navigation-list">
+    {% for link in memo.toc %}
+    <li class="navigation-list-item"><a href="{{ memo.link }}#{{ link.anchor }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+
+  <span class="back-link">Back to <a href="">all memos</a>.</span>
+</div>
+{% endblock %}
+{% block body %}
+<header>
+  <h1 itemprop="headline name">{{ memo.title }}</h1>
+</header>
+
+<section itemprop="articleBody">
+{{ memo.body | safe }}
+</section>
+{% endblock %}

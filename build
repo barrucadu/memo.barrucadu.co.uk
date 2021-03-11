@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-"""build.py
+"""build
 
 Usage:
-  build.py [--drafts] [--out=<dir>] [--root=<url>]
-  build.py (-h | --help)
+  build [--drafts] [--out=<dir>] [--root=<url>]
+  build (-h | --help)
 
 Options:
   -h --help       Show this screen.
@@ -14,382 +14,306 @@ Options:
 
 """
 
+import hashlib
+import jinja2
 import os
 import pypandoc
 import subprocess
-import sys
-import traceback
 import yaml
 
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
-from distutils.dir_util import create_tree, copy_tree
+from distutils import dir_util, file_util
 from docopt import docopt
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+args = docopt(__doc__)
+OUT_DIR = args["--out"]
+BASE_HREF = args["--root"]
+DRAFT_MODE = args["--drafts"]
+
+JINJA2_ENV = jinja2.Environment(
+    autoescape=jinja2.select_autoescape(["html", "xml"]),
+    loader=jinja2.FileSystemLoader("_templates"),
+)
+
+TAG_DIR = "tag"
+TAXON_DIR = "taxon"
 
 DATE_ISO_FORMAT = "%Y-%m-%d"
 DATE_PP_FORMAT = "%b %-d, %Y"
 
+
 # this is a list so they can be ordered
 TAXA = [
-    { 'name': 'General', 'slug': 'general', 'parent': '', 'tags': [] },
-    { 'name': 'Games', 'slug': 'general-games', 'parent': 'general', 'tags': [] },
-    { 'name': 'Weeknotes', 'slug': 'weeknotes', 'parent': '', 'tags': ['weeknotes'] },
-    { 'name': '2021', 'slug': 'weeknotes-2021', 'parent': 'weeknotes', 'tags': [] },
-    { 'name': '2020', 'slug': 'weeknotes-2020', 'parent': 'weeknotes', 'tags': [] },
-    { 'name': '2019', 'slug': 'weeknotes-2019', 'parent': 'weeknotes', 'tags': [] },
-    { 'name': '2018', 'slug': 'weeknotes-2018', 'parent': 'weeknotes', 'tags': [] },
-    { 'name': 'Research', 'slug': 'research', 'parent': '', 'tags': ['research'] },
-    { 'name': 'Deja Fu / CoCo', 'slug': 'research-dejafucoco', 'parent': 'research', 'tags': [] },
-    { 'name': 'Summaries', 'slug': 'research-summary', 'parent': 'research', 'tags': ['paper summary'] },
-    { 'name': 'Tech Docs', 'slug': 'techdocs', 'parent': '', 'tags': ['tech'] },
-    { 'name': 'Practices', 'slug': 'techdocs-practices', 'parent': 'techdocs', 'tags': [] },
-    { 'name': 'Runbooks', 'slug': 'techdocs-runbooks', 'parent': 'techdocs', 'tags': [] },
-    { 'name': 'Self', 'slug': 'self', 'parent': '', 'tags': [] },
-    { 'name': 'Koans', 'slug': 'self-koans', 'parent': 'self', 'tags': ['koan'] },
-    { 'name': 'Possessions', 'slug': 'self-possessions', 'parent': 'self', 'tags': ['possessions'] },
-    { 'name': 'Recipes', 'slug': 'self-recipes', 'parent': 'self', 'tags': ['recipe'] },
-    { 'name': 'Systems', 'slug': 'self-systems', 'parent': 'self', 'tags': ['systems'] },
+    { "name": "General", "slug": "general" },
+    { "name": "Games", "slug": "general-games", "parent": "general" },
+    { "name": "Weeknotes", "slug": "weeknotes", "tags": ["weeknotes"] },
+    { "name": "2021", "slug": "weeknotes-2021", "parent": "weeknotes"  },
+    { "name": "2020", "slug": "weeknotes-2020", "parent": "weeknotes" },
+    { "name": "2019", "slug": "weeknotes-2019", "parent": "weeknotes" },
+    { "name": "2018", "slug": "weeknotes-2018", "parent": "weeknotes" },
+    { "name": "Research", "slug": "research", "tags": ["research"] },
+    { "name": "Deja Fu / CoCo", "slug": "research-dejafucoco", "parent": "research" },
+    { "name": "Summaries", "slug": "research-summary", "parent": "research", "tags": ["paper summary"] },
+    { "name": "Tech Docs", "slug": "techdocs", "tags": ["tech"] },
+    { "name": "Practices", "slug": "techdocs-practices", "parent": "techdocs" },
+    { "name": "Runbooks", "slug": "techdocs-runbooks", "parent": "techdocs" },
+    { "name": "Self", "slug": "self" },
+    { "name": "Koans", "slug": "self-koans", "parent": "self", "tags": ["koan"] },
+    { "name": "Possessions", "slug": "self-possessions", "parent": "self", "tags": ["possessions"] },
+    { "name": "Recipes", "slug": "self-recipes", "parent": "self", "tags": ["recipe"] },
+    { "name": "Systems", "slug": "self-systems", "parent": "self", "tags": ["systems"] },
 ]
 
 TAXA_BY_SLUG = {
-    taxon['slug']: taxon for taxon in TAXA
+    taxon["slug"]: taxon for taxon in TAXA
 }
 
-DEFAULT_TAXON = 'general'
+DEFAULT_TAXON = "general"
 
 for taxon in TAXA:
-    taxon['long_name'] = taxon['name']
-    taxon['has_children'] = False
-    if taxon['parent'] != '':
-        parent = TAXA_BY_SLUG[taxon['parent']]
-        parent['has_children'] = True
-        taxon['long_name'] = f"{parent['long_name']} ({taxon['name']})"
-        taxon['parent_name'] = parent['long_name']
-        taxon['draft'] = taxon.get('draft', parent.get('draft', False))
-        taxon['tags'].extend(parent['tags'])
+    taxon["long_name"] = taxon["name"]
+    taxon["has_children"] = False
+    taxon["link"] = f"{TAXON_DIR}/{taxon['slug']}.html"
+    taxon["permalink"] = f"{BASE_HREF}{taxon['link']}"
+    taxon["feed_link"] = f"{TAXON_DIR}/{taxon['slug']}.xml"
+    taxon["feed_permalink"] = f"{BASE_HREF}{taxon['feed_link']}"
+    taxon["parent"] = taxon.get("parent", "")
+    if taxon["parent"]:
+        parent = TAXA_BY_SLUG[taxon["parent"]]
+        parent["has_children"] = True
+        taxon["long_name"] = f"{parent['long_name']} ({taxon['name']})"
+        taxon["parent_name"] = parent["long_name"]
+        taxon["parent_link"] = parent["link"]
+        taxon["draft"] = taxon.get("draft", parent.get("draft", False))
+        if "tags" in parent:
+            merged_tags = set(taxon.get("tags", []))
+            merged_tags.update(parent["tags"])
+            taxon["tags"] = list(merged_tags)
 
 
-class MemoReader:
-    def __init__(self, memodir="memos", drafts=False):
-        self.memodir = memodir
-        self.drafts = drafts
+def title_for(tag=None, taxon=None):
+    """Title for a memo listing or feed.
+    """
 
-    def memos(self):
-        """Read and parse all memos.
-        """
-
-        memos = []
-        tag_names = []
-
-        for memofile in os.listdir(self.memodir):
-            fpath = os.path.join(self.memodir, memofile)
-            if not os.path.isfile(fpath):
-                continue
-
-            with open(fpath, "r") as f:
-                try:
-                    frontmatter, content, memo_tag_names = MemoReader.__split_frontmatter_content(fpath, f.readlines())
-                except Exception:
-                    print(fpath)
-                    print(traceback.format_exc())
-                    sys.exit(1)
-
-            if frontmatter.get("draft", False) and not self.drafts:
-                continue
-
-            memo = frontmatter
-            rendered, toc = MemoReader.__pandocise_memo_content(memofile, content)
-            memo["content"] = rendered
-            if toc != []:
-                memo["toc"] = toc
-            memo["raw_content"] = content
-
-            memos.append(memo)
-            tag_names.extend(memo_tag_names)
-
-        MemoReader.__expand_links(memos)
-
-        return memos, MemoReader.__make_tags(set(tag_names))
+    if tag is not None:
+        return f"barrucadu's memos - tagged '{tag['name']}'"
+    elif taxon is not None:
+        return f"barrucadu's memos - {taxon['long_name']}"
+    else:
+        return "barrucadu's memos"
 
 
-    @staticmethod
-    def __split_frontmatter_content(fpath, lines):
-        """Split a file into frontmatter and content, and interpret the
-        frontmatter as a YAML document.
-        """
+def make_tag_list(tag_names):
+    """Turn a list of tag names into tag objects.
+    """
 
-        global DATE_ISO_FORMAT
-        global DATE_PP_FORMAT
-        global TAXA_BY_SLUG
+    tags = []
+    for name in set(tag_names):
+        slug = name.lower().replace(" ", "-")
+        link = f"{TAG_DIR}/{slug}.html"
+        feed_link = f"{TAG_DIR}/{slug}.html"
+        tags.append({
+            "name": name,
+            "slug": slug,
+            "link": link,
+            "permalink": f"{BASE_HREF}{link}",
+            "feed_link": feed_link,
+            "feed_permalink": f"{BASE_HREF}{feed_link}",
+        })
+    return sorted(tags, key=lambda tag: tag["slug"])
 
-        # structure of a document is:
-        #
-        #    ---
-        #    yaml frontmatter
-        #    ---
-        #    content
-        #
-        # there may be more '---'s in the content, so we want the
-        # index of the first one after the initial line.
+
+def pandocise_memo(fname, text):
+    """Render a memo's content using pandoc.
+    """
+
+    _, fmt = os.path.splitext(fname)
+    fmt = fmt[1:]
+    if fmt == "lhs":
+        fmt = "markdown+literate_haskell"
+
+    rendered = pypandoc.convert_text(text, "html", format=fmt,
+        filters=[
+            "pandoc-filter-sidenote",
+            "pandoc-filter-transform-code",
+        ],
+        extra_args=[
+            "--no-highlight",
+        ],
+    )
+
+    toc = []
+    for h2 in BeautifulSoup(rendered, features="html.parser").find_all("h2"):
+        toc.append({
+            "title": h2.text,
+            "anchor": h2["id"],
+        })
+
+    return rendered, toc
+
+
+ALL_MEMOS = []
+ALL_TAGS = []
+for fname in os.listdir("memos"):
+    fpath = os.path.join("memos", fname)
+    if not os.path.isfile(fpath):
+        continue
+
+    with open(fpath, "r") as f:
+        lines = f.readlines()
         idx = lines[1:].index("---\n") + 1
+        memo = yaml.load("".join(lines[1:idx]), Loader=yaml.SafeLoader)
 
-        frontmatter = yaml.load("".join(lines[1:idx]), Loader=yaml.SafeLoader)
-        content = "".join(lines[idx + 1:])
-
-        # add the implicit frontmatter
-        if "slug" not in frontmatter:
-            frontmatter["slug"], _ = os.path.splitext(os.path.basename(fpath))
-        if "published" not in frontmatter:
+        # default metadata
+        if "slug" not in memo:
+            memo["slug"], _ = os.path.splitext(os.path.basename(fpath))
+        if "published" not in memo:
             datestr = subprocess.check_output(["git", "log", "--diff-filter=A", "--follow", "--date=short", "--format=%ad", "-1", "--", fpath])
             try:
-                frontmatter["published"] = datetime.strptime(datestr.decode("utf-8").strip(), "%Y-%m-%d")
+                memo["published"] = datetime.strptime(datestr.decode("utf-8").strip(), "%Y-%m-%d")
             except:
                 # this will be reached if the file hasn't been committed
-                frontmatter["published"] = datetime.now()
-        frontmatter["modified"] = frontmatter.get("modified", frontmatter.get("date", frontmatter["published"]))
-        if not isinstance(frontmatter["published"], datetime):
-            frontmatter["published"] = datetime(frontmatter["published"].year, frontmatter["published"].month, frontmatter["published"].day)
-        if not isinstance(frontmatter["modified"], datetime):
-            frontmatter["modified"] = datetime(frontmatter["modified"].year, frontmatter["modified"].month, frontmatter["modified"].day)
-        if frontmatter["published"] > frontmatter["modified"]:
-            frontmatter["published"] = frontmatter["modified"]
-        frontmatter["published_iso"] = frontmatter.get("published_iso", frontmatter["published"].strftime(DATE_ISO_FORMAT))
-        frontmatter["published_pp"] = frontmatter.get("published_pp", frontmatter["published"].strftime(DATE_PP_FORMAT))
-        frontmatter["modified_iso"] = frontmatter.get("modified_iso", frontmatter["modified"].strftime(DATE_ISO_FORMAT))
-        frontmatter["modified_pp"] = frontmatter.get("modified_pp", frontmatter["modified"].strftime(DATE_PP_FORMAT))
+                memo["published"] = datetime.now()
+        memo["modified"] = memo.get("modified", memo.get("date", memo["published"]))
+        if not isinstance(memo["published"], datetime):
+            memo["published"] = datetime(memo["published"].year, memo["published"].month, memo["published"].day)
+        if not isinstance(memo["modified"], datetime):
+            memo["modified"] = datetime(memo["modified"].year, memo["modified"].month, memo["modified"].day)
+        if memo["published"] > memo["modified"]:
+            memo["published"] = memo["modified"]
+        memo["published_iso"] = memo.get("published_iso", memo["published"].strftime(DATE_ISO_FORMAT))
+        memo["published_pp"] = memo.get("published_pp", memo["published"].strftime(DATE_PP_FORMAT))
+        memo["modified_iso"] = memo.get("modified_iso", memo["modified"].strftime(DATE_ISO_FORMAT))
+        memo["modified_pp"] = memo.get("modified_pp", memo["modified"].strftime(DATE_PP_FORMAT))
+        memo["link"] = f"{memo['slug']}.html"
+        memo["permalink"] = f"{BASE_HREF}{memo['slug']}.html"
 
         # get the taxon
-        taxon_slug = frontmatter.get("taxon", DEFAULT_TAXON)
+        taxon_slug = memo.get("taxon", DEFAULT_TAXON)
         taxon = TAXA_BY_SLUG[taxon_slug]
-        frontmatter["taxon"] = taxon
-        frontmatter["taxa"] = [taxon]
-        while taxon["parent"] != '':
+        memo["taxon"] = taxon
+        memo["taxa"] = [taxon]
+        while taxon["parent"]:
             taxon = TAXA_BY_SLUG[taxon["parent"]]
-            frontmatter["taxa"].append(taxon)
+            memo["taxa"].append(taxon)
 
-        # mangle the 'tags' field into a list
-        tag_names = frontmatter.get("tags", [])
+        # mangle the "tags" field into a list
+        tag_names = memo.get("tags", [])
         if type(tag_names) is str:
             tag_names = [name.strip() for name in tag_names.split(",")]
-        tag_names.extend(taxon["tags"])
-        tag_names.sort()
-        frontmatter["tags"] = MemoReader.__make_tags(tag_names)
-        frontmatter["has_tags"] = len(frontmatter["tags"]) > 0
+        tag_names.extend(taxon.get("tags", []))
+        ALL_TAGS.extend(tag_names)
+        memo["tags"] = make_tag_list(tag_names)
+        memo["has_tags"] = len(memo["tags"]) > 0
 
-        return frontmatter, content, tag_names
+        # render the body
+        memo["text"] = "".join(lines[idx + 1:])
+        memo["body"], toc = pandocise_memo(fname, memo["text"])
+        if toc:
+            memo["toc"] = toc
+
+    if memo.get("draft", False) and not DRAFT_MODE:
+        continue
+    ALL_MEMOS.append(memo)
+
+ALL_TAGS = make_tag_list(ALL_TAGS)
+
+MEMOS_BY_SLUG = { memo["slug"]: memo for memo in ALL_MEMOS }
+for memo in ALL_MEMOS:
+    if "superseded_by" in memo:
+        memo["superseded_by"] = MEMOS_BY_SLUG[memo["superseded_by"]]
+
+HASHED_LINKS = {}
+for fname in os.listdir("hashed-static"):
+    fpath = os.path.join("hashed-static", fname)
+    if not os.path.isfile(fpath):
+        continue
+
+    file_hash = hashlib.sha256()
+    with open(fpath, "rb") as f:
+        while True:
+            data = f.read(65536)
+            if not data:
+                break
+            file_hash.update(data)
+    base, ext = os.path.splitext(fname)
+    HASHED_LINKS[fname] = f"{base}-sha256-{file_hash.hexdigest()}{ext}"
 
 
-    @staticmethod
-    def __pandocise_memo_content(memofile, content):
-        """Render a memo's content using pandoc.
-        """
-
-        _, fmt = os.path.splitext(memofile)
-        fmt = fmt[1:]
-        if fmt == "lhs":
-            fmt = "markdown+literate_haskell"
-
-        rendered = pypandoc.convert_text(content, "html", format=fmt,
-            filters=[
-                "pandoc-filter-sidenote",
-                "pandoc-filter-transform-code",
-            ],
-            extra_args=[
-                "--no-highlight",
-            ],
+def render(link, template, **metadata):
+     with open(os.path.join(OUT_DIR, link), "w") as f:
+        rendered = JINJA2_ENV.get_template(template).render(
+            base_href=BASE_HREF,
+            hashed_links=HASHED_LINKS,
+            site_name=title_for(),
+            is_root=link == "index.html",
+            is_memo=template == "memo.html",
+            link=link,
+            permalink=f"{BASE_HREF}{link}",
+            **metadata,
         )
-
-        toc = []
-        for h2 in BeautifulSoup(rendered, features="html.parser").find_all("h2"):
-            toc.append({
-                "title": h2.text,
-                "anchor": h2["id"],
-            })
-
-        return rendered, toc
-
-    @staticmethod
-    def __make_tags(tag_names):
-        """Turn a list of tag names into tag objects.
-        """
-
-        return sorted(
-            [
-                { "name": name, "slug": name.lower().replace(" ", "-") }
-                for name in tag_names
-            ],
-            key=lambda tag: tag['slug'],
-        )
-
-    @staticmethod
-    def __expand_links(memos):
-        """Change slugs in frontmatter into references.
-
-        Mutates the input.
-        """
-
-        memos_by_slug = { memo["slug"]: memo for memo in memos }
-        for memo in memos:
-            if "superseded_by" in memo:
-                memo["superseded_by"] = memos_by_slug[memo["superseded_by"]]
+        print(rendered, file=f)
 
 
-class WebsiteBuilder:
-    def __init__(self, outdir, siteroot, tpldir="templates"):
-        self.outdir = outdir
-        self.siteroot = siteroot
-        self.tagdir = "tag/"
-        self.taxondir = "taxon/"
+def render_memo_list(memos, tag=None, taxon=None, tags=[], taxa=[]):
+    """Render a memo listing page.
+    """
 
-        self.env = Environment(
-            loader=FileSystemLoader(tpldir),
-            autoescape=False,
-        )
+    metadata = {
+        "title": title_for(tag=tag, taxon=taxon),
+        "tags": tags,
+        "taxa": taxa,
+    }
 
+    link = "index.html"
+    extra_memos = []
+    if tag is not None:
+        link = os.path.join(TAG_DIR, tag["slug"] + ".html")
+        metadata["tag"] = tag
+        memos = [memo for memo in memos if tag in memo["tags"]]
+    elif taxon is not None:
+        link = os.path.join(TAXON_DIR, taxon["slug"] + ".html")
+        metadata["taxon"] = taxon
+        extra_memos = [memo for memo in memos if taxon != memo["taxon"] and taxon in memo["taxa"]]
+        memos = [memo for memo in memos if taxon == memo["taxon"]]
 
-    def copy(self, source, subdir=False):
-        """Copy the 'source' into the $target directory.
+    if memos:
+        metadata["memos"] = memos
+    if extra_memos:
+        metadata["extra_memos"] = extra_memos
+    if not memos and not extra_memos:
+        raise Exception(f"no memos or extra_memos (tag={tag}, taxon={taxon})")
 
-        If 'subdir' is true, copy 'source' to $target/'source'.
-        """
-
-        target = self.outdir
-        if subdir:
-            target = os.path.join(self.outdir, source)
-
-        copy_tree(source, target)
-
-
-    def robots(self):
-        """Render the robots.txt.
-        """
-
-        self.__render("robots.txt", "robots.txt")
-
-
-    def sitemap(self, memos, tags, taxa):
-        """Render an XML sitemap.
-        """
-
-        self.__render("sitemap.xml", "sitemap.xml",
-            memos=memos,
-            tags=tags,
-            taxa=taxa,
-        )
+    render(link, "list.html", **metadata)
 
 
-    def memo_list(self, memos, tag=None, taxon=None, tags=[], taxa=[]):
-        """Render a memo listing page.
-        """
+def render_memo_feed(memos, tag=None, taxon=None, num=10):
+    """Render a memo listing feed.
+    """
 
-        fname = "index.html"
-        extra_memos = []
-        if tag is not None:
-            fname = os.path.join(self.tagdir, tag["slug"] + ".html")
-            memos = [memo for memo in memos if tag in memo["tags"]]
-        elif taxon is not None:
-            fname = os.path.join(self.taxondir, taxon["slug"] + ".html")
-            extra_memos = [memo for memo in memos if taxon != memo["taxon"] and taxon in memo["taxa"]]
-            memos = [memo for memo in memos if taxon == memo["taxon"]]
+    link = "atom.xml"
+    if tag is not None:
+        link = os.path.join(TAG_DIR, tag["slug"] + ".xml")
+        memos = [memo for memo in memos if tag in memo["tags"]]
+    elif taxon is not None:
+        link = os.path.join(TAXON_DIR, taxon["slug"] + ".xml")
+        memos = [memo for memo in memos if taxon in memo["taxa"]]
 
-        metadata = {
-            "title": WebsiteBuilder.__title_for(tag=tag, taxon=taxon),
-            "tags": tags,
-            "taxa": taxa,
-        }
+    metadata = {
+        "title": title_for(tag=tag, taxon=taxon),
+        "tag": tag,
+        "taxon": taxon,
+        "memos": memos[:num],
+    }
+    if memos:
+        metadata["feed_date"] = memos[0]["modified_iso"]
 
-        if memos:
-            metadata["memos"] = memos
-        if extra_memos:
-            metadata["extra_memos"] = extra_memos
-        if memos is None and extra_memos is None:
-            raise Exception(f"no memos or extra_memos (tag={tag}, taxon={taxon})")
+    render(link, "atom.xml", **metadata)
 
-        self.__render(fname, "list.html", tag=tag, taxon=taxon, **metadata)
-
-
-    def memo_feed(self, memos, tag=None, taxon=None, num=10):
-        """Render a memo listing feed.
-        """
-
-        fname = "atom.xml"
-        if tag is not None:
-            fname = os.path.join(self.tagdir, tag["slug"] + ".xml")
-            memos = [memo for memo in memos if tag in memo["tags"]]
-        elif taxon is not None:
-            fname = os.path.join(self.taxondir, taxon["slug"] + ".xml")
-            memos = [memo for memo in memos if taxon in memo["taxa"]]
-
-        metadata = {
-            "title": WebsiteBuilder.__title_for(tag=tag, taxon=taxon),
-            "tag": tag,
-            "taxon": taxon,
-            "memos": memos[:num],
-        }
-        if memos:
-            metadata["feed_date"] = memos[0]["modified_iso"]
-
-        self.__render(fname, "atom.xml", **metadata)
-
-
-    def memo(self, memo):
-        """Render a memo.
-        """
-
-        self.__render(memo["slug"] + ".html", "memo.html", **memo)
-
-
-    def __render(self, fname, tplfile, tag=None, taxon=None, **kwargs):
-        """Render a template to a file.  The file name is interpreted relative
-        to the base directory.
-        """
-
-        create_tree(self.outdir, [fname])
-
-        tplargs = {
-            "is_root": fname == "index.html",
-            "is_memo": tplfile == "memo.html",
-            "site_name": WebsiteBuilder.__title_for(),
-            "site_root": self.siteroot,
-            "tag_dir": self.tagdir,
-            "taxon_dir": self.taxondir,
-            "url": fname,
-        }
-
-        if tag is not None:
-            tplargs["tag"] = tag
-        if taxon is not None:
-            tplargs["taxon"] = taxon
-
-        template = self.env.get_template(tplfile)
-        rendered = template.render(**tplargs, **kwargs)
-
-        with open(os.path.join(self.outdir, fname), "w") as f:
-            print(rendered, file=f)
-
-
-    @staticmethod
-    def __title_for(tag=None, taxon=None):
-        """Title for a memo listing or feed.
-        """
-
-        if tag is not None:
-            return f"barrucadu's memos - tagged '{tag['name']}'"
-        elif taxon is not None:
-            return f"barrucadu's memos - {taxon['long_name']}"
-        else:
-            return "barrucadu's memos"
-
-
-args = docopt(__doc__)
-
-filtered_taxa = [t for t in TAXA if not t.get("draft", False) or args["--drafts"]]
-
-memos, tags = MemoReader("memos", args["--drafts"]).memos()
 
 memos_for_lists = sorted(
-    [memo for memo in memos if "superseded_by" not in memo],
+    [memo for memo in ALL_MEMOS if "superseded_by" not in memo],
     key=lambda memo: memo["modified"] + timedelta(days=(365*1000 if "important" in memo else 0)),
     reverse=True
 )
@@ -400,35 +324,33 @@ memos_for_feeds = sorted(
     reverse=True
 )
 
-builder = WebsiteBuilder(args["--out"], args["--root"])
+dir_util.copy_tree("static", OUT_DIR)
+dir_util.copy_tree("MathJax", os.path.join(OUT_DIR, "MathJax"))
 
-builder.copy("static")
-builder.copy("css") # todo - minify
-builder.copy("MathJax", subdir=True)
+dir_util.mkpath(os.path.join(OUT_DIR, TAG_DIR))
+dir_util.mkpath(os.path.join(OUT_DIR, TAXON_DIR))
 
-builder.robots()
-builder.sitemap(memos, tags, filtered_taxa)
+for source, target in HASHED_LINKS.items():
+    file_util.copy_file(os.path.join("hashed-static", source), os.path.join(OUT_DIR, target))
 
-builder.memo_list(memos_for_lists, tags=tags, taxa=filtered_taxa)
-builder.memo_feed(memos_for_feeds)
+render("robots.txt", "robots.txt")
+render("sitemap.xml", "sitemap.xml", memos=ALL_MEMOS, tags=ALL_TAGS, taxa=TAXA)
 
-for tag in tags:
-    builder.memo_list(memos_for_lists, tag=tag, tags=tags, taxa=filtered_taxa)
-    builder.memo_feed(memos_for_feeds, tag=tag)
+render_memo_list(memos_for_lists, tags=ALL_TAGS, taxa=TAXA)
+render_memo_feed(memos_for_feeds)
+
+for tag in ALL_TAGS:
+    render_memo_list(memos_for_lists, tag=tag, tags=ALL_TAGS, taxa=TAXA)
+    render_memo_feed(memos_for_feeds, tag=tag)
 
 def build_taxon_pages_recursive(taxon):
-    global filtered_taxa
-    global tags
-    global memos_for_lists
-    global memos_for_feeds
-
-    builder.memo_list(memos_for_lists, taxon=taxon, tags=tags, taxa=filtered_taxa)
-    builder.memo_feed(memos_for_feeds, taxon=taxon)
-    for t in taxon.get('children', []):
+    render_memo_list(memos_for_lists, taxon=taxon, tags=ALL_TAGS, taxa=TAXA)
+    render_memo_feed(memos_for_feeds, taxon=taxon)
+    for t in taxon.get("children", []):
         build_taxon_pages_recursive(t)
 
-for taxon in filtered_taxa:
+for taxon in TAXA:
     build_taxon_pages_recursive(taxon)
 
-for memo in memos:
-    builder.memo(memo)
+for memo in ALL_MEMOS:
+    render(f"{memo['slug']}.html", "memo.html", title=memo["title"], memo=memo)
