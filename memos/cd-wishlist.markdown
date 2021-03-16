@@ -1,7 +1,8 @@
 ---
 title: CD Wishlist
 taxon: self-possessions
-published: 2021-03-01
+published: 2020-07-04
+modified: 2021-03-16
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -90,10 +91,8 @@ Generally I only buy studio albums.
 
 - Spirit
 - Slania
-- Evocation I: The Arcane Dominion
 - Everything Remains (As It Never Was)
 - Helvetios
-- Evocation II: Pantheon
 
 ### [Epica](https://en.wikipedia.org/wiki/Epica_discography)
 
