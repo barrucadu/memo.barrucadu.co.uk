@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-03-05
+modified: 2021-03-16
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -343,7 +343,6 @@ thought, I settled on a list of *some* classics:
 | `115`  | Daphnis and Chloe                                                            | Longus                     |
 | `116`  | Matilda                                                                      | Mary Shelley               |
 | `117`  | The Lifted Veil                                                              | George Eliot               |
-| `118`  | White Nights                                                                 | Fyodor Dostoyevsky         |
 | `120`  | Flush                                                                        | Virginia Woolf             |
 | `121`  | Lot No. 249                                                                  | Arthur Conan Doyle         |
 | `123`  | Rip Van Winkle                                                               | Washington Irving          |
