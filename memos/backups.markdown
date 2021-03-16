@@ -2,7 +2,7 @@
 title: Backups
 taxon: techdocs-practices
 tags: aws
-date: 2020-08-23 01:00:00
+date: 2021-03-16
 ---
 
 I take automatic full and incremental off-site backups using
@@ -10,14 +10,14 @@ I take automatic full and incremental off-site backups using
 of the "infrastructure as code" / "configuration as code" approach I
 take wherever possible:
 
-- [awsfiles][] has my AWS infrastructure
-- [dotfiles][] has my user-level configuration
-- [nixfiles][] has my system-level configuration
+- [ops][] has my cloud configuration
+- [dotfiles][] has my user configuration
+- [nixfiles][] has my system configuration
 
 So really I just need to back up my data and git repositories.
 
 [duplicity]: http://duplicity.nongnu.org/
-[awsfiles]: https://github.com/barrucadu/awsfiles
+[ops]: https://github.com/barrucadu/ops
 [dotfiles]: https://github.com/barrucadu/dotfiles
 [nixfiles]: https://github.com/barrucadu/nixfiles
 
@@ -30,7 +30,7 @@ harder-to-access) Glacier storage after 64 days.  I use [terraform][]
 to provision all my AWS stuff, including this backup location:
 
 ```terraform
-resource "aws_s3_bucket" "backup" {
+resource "aws_s3_bucket" "backups" {
   bucket = "barrucadu-backups"
   acl    = "private"
 
@@ -58,40 +58,38 @@ resource "aws_s3_bucket" "backup" {
 There's also an IAM policy granting access to the bucket:
 
 ```terraform
-resource "aws_iam_policy" "tool_duplicity" {
-  policy = <<EOF
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Action": [
-                "s3:ListAllMyBuckets",
-                "s3:GetBucketLocation"
-            ],
-            "Effect": "Allow",
-            "Resource": [
-                "arn:aws:s3:::*"
-            ]
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:ListBucket",
-                "s3:ListBucketMultipartUploads",
-                "s3:ListMultipartUploadParts",
-                "s3:AbortMultipartUpload",
-                "s3:PutObject",
-                "s3:GetObject",
-                "s3:DeleteObject"
-             ],
-            "Resource": [
-                "${aws_s3_bucket.backup.arn}",
-                "${aws_s3_bucket.backup.arn}/*"
-            ]
-        }
+data "aws_iam_policy_document" "backups" {
+  statement {
+    sid = "InspectBuckets"
+
+    actions = [
+      "s3:ListAllMyBuckets",
+      "s3:GetBucketLocation",
     ]
-}
-EOF
+
+    resources = [
+      "arn:aws:s3:::*",
+    ]
+  }
+
+  statement {
+    sid = "ManageBackups"
+
+    actions = [
+      "s3:ListBucket",
+      "s3:ListBucketMultipartUploads",
+      "s3:ListMultipartUploadParts",
+      "s3:AbortMultipartUpload",
+      "s3:PutObject",
+      "s3:GetObject",
+      "s3:DeleteObject",
+    ]
+
+    resources = [
+      aws_s3_bucket.backups.arn,
+      "${aws_s3_bucket.backups.arn}/*",
+    ]
+  }
 }
 ```
 
@@ -100,8 +98,12 @@ bucket itself is versioned, but I don't grant the backup user any
 versioning-related permissions (eg, they can't delete an old version
 of a file).  This is so that if the credentials for the backup user
 get leaked somehow, and someone deletes or overwrites my backups, I
-can recover them.  The backups are encrypted, so someone downloading
-them is only a small concern.
+can recover them.
+
+The backups are encrypted.  However, the encryption key is stored in
+the same place as the AWS access keys, so if someone can get one they
+likely can get both.  I'd like a better solution for this, but I'm not
+sure what that is yet.
 
 [terraform]: https://www.terraform.io/
 
@@ -132,9 +134,6 @@ BACKUP_SCRIPT_DIR=$HOME/backup-scripts
 # hostname
 MY_HOST=`hostname`
 
-# aws config
-AWS_S3_BUCKET="barrucadu-backups"
-
 BACKUP_TYPE=$1
 if [[ -z "$BACKUP_TYPE" ]]; then
   echo 'specify a backup type!'
@@ -150,14 +149,17 @@ if [[ -d "${BACKUP_SCRIPT_DIR}/host-scripts/${MY_HOST}" ]]; then
   pushd "$MY_HOST"
   for script in "${BACKUP_SCRIPT_DIR}/host-scripts/${MY_HOST}"/*.sh; do
     echo "$(basename $script)"
-    time "$script" || send-host-alert "Backup failed in ${script}"
+    if ! time "$script"; then
+      send-host-alert "Backup failed in ${script}"
+      exit 1
+    fi
   done
   popd
 
-  time $BACKUP_SCRIPT_DIR/duplicity.sh \
-    $BACKUP_TYPE                       \
-    $MY_HOST                           \
-    "s3+http://${AWS_S3_BUCKET}/${MY_HOST}" || send-host-alert "Backup upload failed"
+  if ! time $BACKUP_SCRIPT_DIR/duplicity.sh $BACKUP_TYPE $MY_HOST; then
+    send-host-alert "Backup upload failed"
+    exit 1
+  fi
 else
   echo 'nothing to do!'
 fi
@@ -167,7 +169,8 @@ The `duplicity.sh` script sets some environment variables and common
 parameters:
 
 ```bash
-#!/bin/sh
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p duplicity "python3.withPackages (ps: [ps.boto3])"
 
 set -e
 
@@ -176,6 +179,7 @@ BACKUP_SCRIPT_DIR=$HOME/backup-scripts
 
 # aws config
 AWS_PROFILE="backup"
+AWS_S3_BUCKET="barrucadu-backups"
 
 if [[ ! -e $BACKUP_SCRIPT_DIR/passphrase.sh ]]; then
   echo 'missing passphrase file!'
@@ -187,13 +191,13 @@ source $BACKUP_SCRIPT_DIR/passphrase.sh
 export AWS_PROFILE=$AWS_PROFILE
 export PASSPHRASE=$PASSPHRASE
 
-nix run nixpkgs.duplicity -c \
-  duplicity                  \
-    --s3-european-buckets    \
-    --s3-use-multiprocessing \
-    --s3-use-new-style       \
-    --verbosity notice       \
-    "$@"
+duplicity                  \
+  --s3-european-buckets    \
+  --s3-use-multiprocessing \
+  --s3-use-new-style       \
+  --verbosity notice       \
+  "$@"                     \
+  "boto3+s3://${AWS_S3_BUCKET}/$(hostname)"
 ```
 
 Duplicity's incremental backups are based on hashing chunks of files,
@@ -201,31 +205,15 @@ so it can take incremental backups even though all the file
 modification times will have changed (because the backup is generated
 anew every time) since the last full backup.
 
-### Monitoring
+### Alerting
 
 The main backup script calls a `send-host-alert` script on failure,
-which sends me an email and a text message using [AWS SNS][].  This
-tells me which part of the backup process failed, so I can then debug
-it and get it working again.
+which sends me an email and a text message using [Amazon SNS][].
 
-That script is pretty straightforward:
+This is documented more in the [monitoring memo][].
 
-```bash
-#! /usr/bin/env nix-shell
-#! nix-shell -i bash -p awscli
-
-# aws config
-AWS_PROFILE="monitoring"
-AWS_TOPIC_ARN="arn:aws:sns:eu-west-1:197544591260:host-notifications"
-
-aws sns publish \
-  --profile "${AWS_PROFILE}" \
-  --topic-arn "${AWS_TOPIC_ARN}" \
-  --subject "Alert: $(hostname)" \
-  --message "$1"
-```
-
-[AWS SNS]: https://aws.amazon.com/sns/
+[Amazon SNS]: https://aws.amazon.com/sns/
+[monitoring memo]: monitoring.html
 
 ### Encryption
 
@@ -236,27 +224,27 @@ backups has a copy of the password.  The backups are useless if I lose
 the password, but for that to happen, I'd have to lose:
 
 - Both of my home computers, in London
-- A VPS, on a physical server in Nuremberg
+- Two VPSes, in Nuremberg somewhere
 - A dedicated server, in France somewhere
 
 That seems pretty unlikely.  Even if it does happen, any event (or
-sequence of events) which takes out those three locations in quick
+sequence of events) which takes out all those locations in quick
 succession would probably give me big enough problems that not having
-a backup of my git repositories is a small concern---it could also
-take out my backups themselves, which are in Ireland.
+a backup of my git repositories or RPG PDFs is a small concern---it
+could also take out my backups themselves, which are in Ireland.
 
 ### Host-specific scripts
 
 These aren't terribly interesting, or useful to anyone other than me,
 so I'll just give an example rather than go through each one.
 
-The script for dunwich, my VPS, backs up:
+The script for dunwich, one of my VPSes, backs up:
 
 - All my public github repositories (I don't have any private ones)
 - All my self-hosted repositories
 - My [syncthing][] directory
 
-It looks like this:
+Here's the git repository step:
 
 ```bash
 #! /usr/bin/env nix-shell
@@ -291,8 +279,6 @@ function clone_all_public_dreamlands_repos() {
 }
 
 set -e
-
-cp -a $HOME/s syncthing
 
 mkdir -p git/dreamlands/private
 mkdir -p git/dreamlands/public

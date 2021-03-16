@@ -2,36 +2,33 @@
 title: Monitoring
 taxon: techdocs-practices
 tags: aws
-date: 2020-08-23 02:00:00
+date: 2021-03-16
 ---
 
 I have basic monitoring for my servers, checking for availability and
 hardware failure.  A monitoring failure sends me a text message and an
-email through [AWS SNS][].
+email.
 
 [AWS SNS]: https://aws.amazon.com/sns/
 
-Setting up SNS
---------------
 
-You'll need an AWS account, and you'll also need to be okay with SNS
-not being free.  Fortunately, unless you're going to be sending
-hundreds of notifications, [it's pretty cheap][].
+Sending notifications: Amazon SNS
+---------------------------------
 
-I set up the SNS topic and SMS subscription with [Terraform][], a tool
-for provisioning infrastructure:
+I use [Amazon SNS][] for sending messages.  It's not free, but for my
+usage it is [pretty cheap][].  I use [terraform][] to provision all my
+AWS stuff, including this notification topic and my phone's
+subscription to it:
 
 ```terraform
 variable "phone" {}
 
-resource "aws_sns_topic" "host-notifications" {
-  provider = "aws"
-  name     = "host-notifications"
+resource "aws_sns_topic" "notifications" {
+  name = "host-notifications"
 }
 
-resource "aws_sns_topic_subscription" "host-notifications-sms" {
-  provider  = "aws"
-  topic_arn = aws_sns_topic.host-notifications.arn
+resource "aws_sns_topic_subscription" "sms" {
+  topic_arn = aws_sns_topic.notifications.arn
   protocol  = "sms"
   endpoint  = var.phone
 }
@@ -40,37 +37,40 @@ resource "aws_sns_topic_subscription" "host-notifications-sms" {
 Unfortunately Terraform can't set up email subscriptions, so I had to
 set that up via the AWS web console.
 
-There's also an IAM policy granting access to the topic:
+There's also an IAM policy granting publish access to the topic:
 
 ```terraform
-resource "aws_iam_policy" "host-notifications" {
-  policy = <<EOF
-{
-  "Version":"2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Resource": "${aws_sns_topic.host-notifications.arn}",
-      "Action": [
-        "sns:Publish"
-      ]
-    }
-  ]
-}
-EOF
+data "aws_iam_policy_document" "notifications" {
+  statement {
+    actions = [
+      "sns:Publish",
+    ]
+
+    resources = [
+      aws_sns_topic.notifications.arn,
+    ]
+  }
 }
 ```
 
-[it's pretty cheap]: https://aws.amazon.com/sns/pricing/
-[Terraform]: https://www.terraform.io/
+Currently the AWS access keys are stored in plaintext on every host
+which can send me notifications, which isn't ideal.  I can't even
+restrict usage of the keys by IP address, as my home server can send
+notifications, and my residential IP is dynamic.  I'd like a better
+solution for this, but I'm not sure what that is yet.
+
+[Amazon SNS]: https://aws.amazon.com/sns/
+[pretty cheap]: https://aws.amazon.com/sns/pricing/
+[terraform]: https://www.terraform.io/
 
 
-Monitoring scripts
-------------------
+Monitoring script
+-----------------
 
 I have a generic monitoring script which:
 
-1. Checks for a host-specific monitoring script
+1. Checks for a host-specific monitoring script (not all hosts do
+   monitoring)
 2. Runs it, capturing the output to a file
 3. Sends an alert if it exits with a nonzero status
 
@@ -139,8 +139,8 @@ fi
 ```
 
 
-Monitoring automation
----------------------
+Monitoring automation: systemd timers
+-------------------------------------
 
 The script runs hourly, triggered by a systemd timer which is defined
 in my NixOS configuration:
