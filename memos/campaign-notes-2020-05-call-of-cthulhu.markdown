@@ -6,7 +6,7 @@ published: 2020-05-20
 modified: 2021-03-09
 ---
 
-<span class="highlight">This campaign is ongoing and this memo contains spoilers.</span>
+<aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
 
 
 Lines & veils

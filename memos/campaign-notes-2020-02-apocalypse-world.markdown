@@ -6,7 +6,7 @@ published: 2020-03-01
 modified: 2020-06-05
 ---
 
-<span class="highlight">This campaign has ended.</span>
+<aside class="highlight">This campaign has ended.</aside>
 
 
 Player characters

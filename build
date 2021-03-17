@@ -267,7 +267,6 @@ def render_memo_list(memos, tag=None, taxon=None, tags=[], taxa=[]):
     }
 
     link = "index.html"
-    extra_memos = []
     if tag is not None:
         link = os.path.join(TAG_DIR, tag["slug"] + ".html")
         metadata["tag"] = tag
@@ -275,15 +274,12 @@ def render_memo_list(memos, tag=None, taxon=None, tags=[], taxa=[]):
     elif taxon is not None:
         link = os.path.join(TAXON_DIR, taxon["slug"] + ".html")
         metadata["taxon"] = taxon
-        extra_memos = [memo for memo in memos if taxon != memo["taxon"] and taxon in memo["taxa"]]
-        memos = [memo for memo in memos if taxon == memo["taxon"]]
+        memos = [memo for memo in memos if taxon in memo["taxa"]]
 
     if memos:
         metadata["memos"] = memos
-    if extra_memos:
-        metadata["extra_memos"] = extra_memos
-    if not memos and not extra_memos:
-        raise Exception(f"no memos or extra_memos (tag={tag}, taxon={taxon})")
+    else:
+        raise Exception(f"no memos (tag={tag}, taxon={taxon})")
 
     render(link, "list.html", **metadata)
 

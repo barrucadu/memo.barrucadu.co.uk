@@ -1,100 +1,56 @@
 {% extends "_layout.html" %}
-{% block itemtype %}Blog{% endblock %}
 {% block sidebar %}
-<ul>
-  <li class="navigation-list-item">
-    {% if taxon is not defined and tag is not defined %}
-    <span class="current-page">All Memos</span>
-    {% else %}
-    <a href="">All Memos</a>
-    {% endif %}
-    <ul>
-      {% with parent = "" %}{% include "_taxon_tree.html" %}{% endwith %}
-    </ul>
-  </li>
-</ul>
-<hr>
-<ul>
-  {% for t in tags %}
-  <li class="navigation-list-item">
-    {% if tag is defined and tag == t %}
-    <span class="current-page">{{ t.name }}</span>
-    {% else %}
-    <a href="{{ t.link }}">{{ t.name }}</a>
-    {% endif %}
-  </li>
-  {% endfor %}
-</ul>
-</nav>
+<section class="sidebar-box">
+  <ul class="navigation-list">
+    <li class="navigation-list__item">
+      <a class="link" href=""{% if taxon is not defined and tag is not defined %} aria-current="page"{% endif %}>All Memos</a>
+      <ul class="navigation-list">
+        {% with parent = "" %}{% include "_taxon_tree.html" %}{% endwith %}
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section class="sidebar-box">
+  <ul class="navigation-list">
+    {% for t in tags %}
+    <li class="navigation-list__item">
+      <a class="link" href="{{ t.link }}"{% if tag is defined and tag == t %} aria-current="page"{% endif %}>{{ t.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 {% endblock %}
 {% block body %}
-<header>
-  <h1 itemprop="headline name">{{ title }}</h1>
-
-  <p>
-    Atom feed
-    {% if tag is defined %}
-    for memos tagged <a href="{{ tag.feed_link }}">'{{ tag.name }}'</a> or
-    {% endif %}
-    {% if taxon is defined %}
-    for <a href="{{ taxon.feed_link }}">{{ taxon.long_name }}</a> or
-    {% endif %}
-    for <a href="atom.xml">all memos</a>.
-  </p>
-
+<p>
+  Atom feed
+  {% if tag is defined %}
+  for memos tagged <a class="link" href="{{ tag.feed_link }}">'{{ tag.name }}'</a> or
+  {% endif %}
   {% if taxon is defined %}
-    {% if taxon.parent == '' %}
-      <span class="back-link">Back to <a href="">all memos</a>.</span>
-    {% else %}
-      <span class="back-link">Back to <a href="{{ taxon.parent_link }}">{{ taxon.parent_name }}</a>.</span>
-    {% endif %}
-    {% if taxon.has_children %}
-      <hr>
-      <h2 class="mini-title">Subtaxa</h2>
-      <ul class="navigation-list">
-        {% for t in taxa %}
-          {% if t.parent == taxon.slug %}
-            <li class="navigation-list-item">
-              <a href="{{ t.link }}">{{ t.name }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  {% elif tag is defined %}
-    <span class="back-link">Back to <a href="">all memos</a>.</span>
+  for <a class="link" href="{{ taxon.feed_link }}">{{ taxon.long_name }}</a> or
+  {% endif %}
+  for <a class="link" href="atom.xml">all memos</a>.
+</p>
+
+{% if taxon is defined %}
+  {% if taxon.has_children %}
+    <p>Restrict to{% for t in taxa %}{% if t.parent == taxon.slug %} <a class="link" href="{{ t.link }}">{{ t.name }}</a>{% endif %}{% endfor %}.</p>
+  {% endif %}
+  {% if taxon.parent == '' %}
+    <p>Back to <a class="link" href="">all memos</a>.</p>
   {% else %}
-    <hr>
-    <h2 class="mini-title">Subtaxa</h2>
-    <ul class="navigation-list">
-      {% for t in taxa %}
-        {% if t.parent == '' %}
-          <li class="navigation-list-item">
-            <a href="{{ t.link }}">{{ t.name }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+    <p>Back to <a class="link" href="{{ taxon.parent_link }}">{{ taxon.parent_name }}</a>.</p>
   {% endif %}
-  <hr>
-</header>
+{% elif tag is defined %}
+  <p>Back to <a class="link" href="">all memos</a>.</p>
+{% else %}
+    <p>Restrict to{% for t in taxa %}{% if t.parent == '' %} <a class="link" href="{{ t.link }}">{{ t.name }}</a>{% endif %}{% endfor %}.</p>
+{% endif %}
 
-<section>
-  {% if memos is defined %}
-    {% if is_root %}
-      <h2 class="mini-title">All memos</h2>
-    {% elif taxon is defined %}
-      <h2 class="mini-title">Memos in this taxon</h2>
-    {% elif tag is defined %}
-      <h2 class="mini-title">Memos in this tag</h2>
-    {% endif %}
-    {% include "_memo_list.html" %}
-  {% endif %}
-
-  {% if extra_memos is defined %}
-    <hr>
-    <h2 class="mini-title">Memos in subtaxa</h2>
-    {% with memos = extra_memos %}{% include "_memo_list.html" %}{% endwith %}
-  {% endif %}
-</section>
+<ol class="navigation-list division-above">
+{% for memo in memos %}
+  <li class="navigation-list__item"><a class="link link--no-underline" href="{{ memo.link }}">{{ memo.title }}</a></li>
+{% endfor %}
+</ol>
 {% endblock %}
