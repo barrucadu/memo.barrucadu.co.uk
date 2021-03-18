@@ -375,8 +375,7 @@ Book Series
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
 
 
-Book Series (candidates)
-------------------------
+### Candidate series
 
 | Series                                    | ISBN            | Title                                           |
 |------------------------------------------:+----------------:+-------------------------------------------------|

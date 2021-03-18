@@ -50,19 +50,22 @@ Teas I don't like
 I buy tea from
 --------------
 
-- [What-Cha][]:
-  - Good quality, teas often brew three or four good pots.
-  - Free (for orders over £25) and prompt (often next-day) delivery.
-  - But often missing more standard teas like darjeeling or jasmine, or only carrying expensive variants.
+### [What-Cha][]
 
-- [Japan Centre][]:
-  - Has a lot of "normal" Japanese teas, which more specialist sellers often gloss over.
-  - Usually has matcha in stock.
-  - But very little fancy stuff.
+- Good quality, teas often brew three or four good pots.
+- Free (for orders over £25) and prompt (often next-day) delivery.
+- But often missing more standard teas like darjeeling or jasmine, or only carrying expensive variants.
 
-- [The Tea Makers][]:
-  - Has lots of more "normal" teas.
-  - But it's of mediocre quality, teas usually only make one or two good pots.
+### [Japan Centre][]
+
+- Has a lot of "normal" Japanese teas, which more specialist sellers often gloss over.
+- Usually has matcha in stock.
+- But very little fancy stuff.
+
+### [The Tea Makers][]
+
+- Has lots of more "normal" teas.
+- But it's of mediocre quality, teas usually only make one or two good pots.
 
 [What-Cha]: https://what-cha.com/
 [The Tea Makers]: https://www.theteamakers.co.uk/

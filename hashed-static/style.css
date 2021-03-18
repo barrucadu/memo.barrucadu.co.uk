@@ -34,16 +34,17 @@
 
     --highlight: #ff0000;
 
-    --heading-fg: #ffffff;
-    --heading-bg: #730b0b;
+    --heading-underline: #730b0b;
 
     --bg-notice: #a5005e;
     --text-notice: #ffffff;
 
+    --thead-fg: #ffffff;
+    --thead-bg: #730b0b;
     --text-table-even: #000000;
     --bg-table-even: rgba(0,0,0,0.05);
     --border-table-inner: #dddddd;
-    --border-table-outer: #999999;
+    --border-table-outer: #730b0b;
 }
 
 * {
@@ -176,27 +177,25 @@ a[aria-current="page"] {
 
 .markdown h2 {
     font-family: Staatliches, serif;
-    font-size: 2rem;
-    margin-bottom: 16px;
-    padding: 16px;
-    text-align: right;
-    color: var(--heading-fg);
-    background-color: var(--heading-bg);
+    font-size: 2.5rem;
+    margin: 32px 0 16px 0;
+    border-bottom: 5px solid var(--heading-underline);
 }
 
 .markdown h3 {
     font-family: Staatliches, serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 16px;
 }
 
 .markdown h4 {
-    font-family: "Gentium Book Basic", Cambria, Georgia, Times, serif;
-    font-weight: bold;
-    text-decoration: none;
+    font-family: Staatliches, serif;
+    font-size: 1.5rem;
     margin-bottom: 16px;
 }
 
 .markdown ul, .markdown ol {
+    margin-top: 16px;
     padding-left: 20px;
 }
 
@@ -230,9 +229,18 @@ a[aria-current="page"] {
     font-weight: bold;
 }
 
+.markdown figure {
+    margin-bottom: 16px;
+}
+
 .markdown img {
     margin: 0 auto;
     display: block;
+}
+
+.markdown figcaption {
+    text-align: center;
+    font-style: italic;
 }
 
 .markdown hr {
@@ -277,8 +285,8 @@ a[aria-current="page"] {
 }
 
 .markdown thead {
-    background-color: var(--heading-bg);
-    color: var(--heading-fg);
+    background-color: var(--thead-bg);
+    color: var(--thead-fg);
 }
 
 .markdown tr:nth-child(even) {
