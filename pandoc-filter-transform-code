@@ -2,18 +2,17 @@
 
 import graphviz
 import html
+import panflute as pf
 
-from panflute import *
 from pygments import highlight
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import HtmlFormatter
 
 
 def transform_code(elem, doc):
-    """Transform code blocks based on language.
-    """
+    """Transform code blocks based on language."""
 
-    if type(elem) != CodeBlock:
+    if type(elem) != pf.CodeBlock:
         return
 
     # Literate Haskell source gets reported as "sourcecode" format, so
@@ -35,19 +34,19 @@ def transform_code(elem, doc):
                 break
             idx += 1
         svg = "\n".join(out[idx:])
-        return RawBlock(f"<figure>{svg}</figure>")
+        return pf.RawBlock(f"<figure>{svg}</figure>")
     elif fmt == "asciiart":
-        return RawBlock(f"<pre class=\"asciiart\">{html.escape(elem.text)}</pre>")
+        return pf.RawBlock(f'<pre class="asciiart">{html.escape(elem.text)}</pre>')
     elif fmt == "raw":
-        return RawBlock(elem.text)
+        return pf.RawBlock(elem.text)
     elif fmt == "":
-        return RawBlock(f"<pre class=\"code\">{html.escape(elem.text)}</pre>")
+        return pf.RawBlock(f'<pre class="code">{html.escape(elem.text)}</pre>')
     else:
         lexer = get_lexer_by_name(fmt)
         formatter = HtmlFormatter(nowrap=True)
         result = highlight(elem.text, lexer, formatter)
-        return RawBlock(f"<pre class=\"code\">{result}</pre>")
+        return pf.RawBlock(f'<pre class="code">{result}</pre>')
 
 
 if __name__ == "__main__":
-    run_filter(transform_code)
+    pf.run_filter(transform_code)

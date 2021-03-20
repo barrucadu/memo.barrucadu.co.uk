@@ -1,53 +1,51 @@
 #!/usr/bin/env python3
 
-from panflute import *
+import panflute as pf
 
 
 counter = 0
 
 
 def coerceToInline(blocks):
-    """Extract inlines from blocks.
-    """
+    """Extract inlines from blocks."""
 
-    paragraph_break = [LineBreak(), LineBreak()]
+    paragraph_break = [pf.LineBreak(), pf.LineBreak()]
 
     inlines = []
     for block in blocks:
-        block = block.walk(lambda e, _: Str("") if type(e) == Note else e)
-        if type(block) == Plain:
+        block = block.walk(lambda e, _: pf.Str("") if type(e) == pf.Note else e)
+        if type(block) == pf.Plain:
             inlines.extend(block.content)
-        elif type(block) == Para:
+        elif type(block) == pf.Para:
             inlines.extend(block.content)
             inlines.extend(paragraph_break)
-        elif type(block) == LineBlock:
+        elif type(block) == pf.LineBlock:
             for lines in block.content:
                 inlines.extend(lines)
-                inlines.append(LineBreak())
+                inlines.append(pf.LineBreak())
             inlines.extend(paragraph_break)
-        elif type(block) == RawBlock:
-            inlines.append(RawInline(block.text, format=block.format))
+        elif type(block) == pf.RawBlock:
+            inlines.append(pf.RawInline(block.text, format=block.format))
 
     return inlines
 
 
 def sidenote(elem, doc):
-    """Turn footnotes into sidenotes
-    """
+    """Turn footnotes into sidenotes"""
 
     global counter
 
-    if type(elem) != Note:
+    if type(elem) != pf.Note:
         return
 
     content = coerceToInline(elem.content)
-    number = Span(Str(str(counter)), classes=["sidenote-number"])
-    sidenote = Span(number, *content, classes=["sidenote"])
+    number = pf.Span(pf.Str(str(counter)), classes=["sidenote-number"])
+    sidenote = pf.Span(number, *content, classes=["sidenote"])
 
     counter += 1
 
-    return Span(number, sidenote)
+    return pf.Span(number, sidenote)
 
 
 if __name__ == "__main__":
-    run_filter(sidenote)
+    pf.run_filter(sidenote)
