@@ -83,7 +83,7 @@ a[aria-current="page"] {
     max-width: 1364px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px minmax(min-content, 1300px);
+    grid-template-columns: 300px 1000px;
     grid-column-gap: 64px;
     grid-template-areas:
         "header header"
