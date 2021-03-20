@@ -45,29 +45,32 @@ DATE_PP_FORMAT = "%b %-d, %Y"
 
 # this is a list so they can be ordered
 TAXA = [
-    { "name": "General", "slug": "general" },
-    { "name": "Games", "slug": "general-games", "parent": "general" },
-    { "name": "Weeknotes", "slug": "weeknotes", "tags": ["weeknotes"] },
-    { "name": "2021", "slug": "weeknotes-2021", "parent": "weeknotes"  },
-    { "name": "2020", "slug": "weeknotes-2020", "parent": "weeknotes" },
-    { "name": "2019", "slug": "weeknotes-2019", "parent": "weeknotes" },
-    { "name": "2018", "slug": "weeknotes-2018", "parent": "weeknotes" },
-    { "name": "Research", "slug": "research", "tags": ["research"] },
-    { "name": "Deja Fu / CoCo", "slug": "research-dejafucoco", "parent": "research" },
-    { "name": "Summaries", "slug": "research-summary", "parent": "research", "tags": ["paper summary"] },
-    { "name": "Tech Docs", "slug": "techdocs", "tags": ["tech"] },
-    { "name": "Practices", "slug": "techdocs-practices", "parent": "techdocs" },
-    { "name": "Runbooks", "slug": "techdocs-runbooks", "parent": "techdocs" },
-    { "name": "Self", "slug": "self" },
-    { "name": "Koans", "slug": "self-koans", "parent": "self", "tags": ["koan"] },
-    { "name": "Possessions", "slug": "self-possessions", "parent": "self", "tags": ["possessions"] },
-    { "name": "Recipes", "slug": "self-recipes", "parent": "self", "tags": ["recipe"] },
-    { "name": "Systems", "slug": "self-systems", "parent": "self", "tags": ["systems"] },
+    {"name": "General", "slug": "general"},
+    {"name": "Games", "slug": "general-games", "parent": "general"},
+    {"name": "Weeknotes", "slug": "weeknotes", "tags": ["weeknotes"]},
+    {"name": "2021", "slug": "weeknotes-2021", "parent": "weeknotes"},
+    {"name": "2020", "slug": "weeknotes-2020", "parent": "weeknotes"},
+    {"name": "2019", "slug": "weeknotes-2019", "parent": "weeknotes"},
+    {"name": "2018", "slug": "weeknotes-2018", "parent": "weeknotes"},
+    {"name": "Research", "slug": "research", "tags": ["research"]},
+    {"name": "Deja Fu / CoCo", "slug": "research-dejafucoco", "parent": "research"},
+    {
+        "name": "Summaries",
+        "slug": "research-summary",
+        "parent": "research",
+        "tags": ["paper summary"],
+    },
+    {"name": "Tech Docs", "slug": "techdocs", "tags": ["tech"]},
+    {"name": "Practices", "slug": "techdocs-practices", "parent": "techdocs"},
+    {"name": "Runbooks", "slug": "techdocs-runbooks", "parent": "techdocs"},
+    {"name": "Self", "slug": "self"},
+    {"name": "Koans", "slug": "self-koans", "parent": "self", "tags": ["koan"]},
+    {"name": "Possessions", "slug": "self-possessions", "parent": "self", "tags": ["possessions"]},
+    {"name": "Recipes", "slug": "self-recipes", "parent": "self", "tags": ["recipe"]},
+    {"name": "Systems", "slug": "self-systems", "parent": "self", "tags": ["systems"]},
 ]
 
-TAXA_BY_SLUG = {
-    taxon["slug"]: taxon for taxon in TAXA
-}
+TAXA_BY_SLUG = {taxon["slug"]: taxon for taxon in TAXA}
 
 DEFAULT_TAXON = "general"
 
@@ -93,8 +96,7 @@ for taxon in TAXA:
 
 
 def title_for(tag=None, taxon=None):
-    """Title for a memo listing or feed.
-    """
+    """Title for a memo listing or feed."""
 
     if tag is not None:
         return f"barrucadu's memos - tagged '{tag['name']}'"
@@ -105,35 +107,38 @@ def title_for(tag=None, taxon=None):
 
 
 def make_tag_list(tag_names):
-    """Turn a list of tag names into tag objects.
-    """
+    """Turn a list of tag names into tag objects."""
 
     tags = []
     for name in set(tag_names):
         slug = name.lower().replace(" ", "-")
         link = f"{TAG_DIR}/{slug}.html"
         feed_link = f"{TAG_DIR}/{slug}.html"
-        tags.append({
-            "name": name,
-            "slug": slug,
-            "link": link,
-            "permalink": f"{BASE_HREF}{link}",
-            "feed_link": feed_link,
-            "feed_permalink": f"{BASE_HREF}{feed_link}",
-        })
+        tags.append(
+            {
+                "name": name,
+                "slug": slug,
+                "link": link,
+                "permalink": f"{BASE_HREF}{link}",
+                "feed_link": feed_link,
+                "feed_permalink": f"{BASE_HREF}{feed_link}",
+            }
+        )
     return sorted(tags, key=lambda tag: tag["slug"])
 
 
 def pandocise_memo(fname, text):
-    """Render a memo's content using pandoc.
-    """
+    """Render a memo's content using pandoc."""
 
     _, fmt = os.path.splitext(fname)
     fmt = fmt[1:]
     if fmt == "lhs":
         fmt = "markdown+literate_haskell"
 
-    rendered = pypandoc.convert_text(text, "html", format=fmt,
+    rendered = pypandoc.convert_text(
+        text,
+        "html",
+        format=fmt,
         filters=[
             "pandoc-filter-sidenote",
             "pandoc-filter-transform-code",
@@ -145,10 +150,12 @@ def pandocise_memo(fname, text):
 
     toc = []
     for h2 in BeautifulSoup(rendered, features="html.parser").find_all("h2"):
-        toc.append({
-            "title": h2.text,
-            "anchor": h2["id"],
-        })
+        toc.append(
+            {
+                "title": h2.text,
+                "anchor": h2["id"],
+            }
+        )
 
     return rendered, toc
 
@@ -162,27 +169,46 @@ for fname in os.listdir("memos"):
 
     with open(fpath, "r") as f:
         lines = f.readlines()
-        idx = lines[1:].index("---\n") + 1
-        memo = yaml.load("".join(lines[1:idx]), Loader=yaml.SafeLoader)
+        metadata_end_idx = lines[1:].index("---\n") + 1
+        text_start_idx = metadata_end_idx + 1
+        memo = yaml.load("".join(lines[1:metadata_end_idx]), Loader=yaml.SafeLoader)
 
         # default metadata
         if "slug" not in memo:
             memo["slug"], _ = os.path.splitext(os.path.basename(fpath))
         if "published" not in memo:
-            datestr = subprocess.check_output(["git", "log", "--diff-filter=A", "--follow", "--date=short", "--format=%ad", "-1", "--", fpath])
+            datestr = subprocess.check_output(
+                [
+                    "git",
+                    "log",
+                    "--diff-filter=A",
+                    "--follow",
+                    "--date=short",
+                    "--format=%ad",
+                    "-1",
+                    "--",
+                    fpath,
+                ]
+            )
             try:
                 memo["published"] = datetime.strptime(datestr.decode("utf-8").strip(), "%Y-%m-%d")
-            except:
+            except Exception:
                 # this will be reached if the file hasn't been committed
                 memo["published"] = datetime.now()
         memo["modified"] = memo.get("modified", memo.get("date", memo["published"]))
         if not isinstance(memo["published"], datetime):
-            memo["published"] = datetime(memo["published"].year, memo["published"].month, memo["published"].day)
+            memo["published"] = datetime(
+                memo["published"].year, memo["published"].month, memo["published"].day
+            )
         if not isinstance(memo["modified"], datetime):
-            memo["modified"] = datetime(memo["modified"].year, memo["modified"].month, memo["modified"].day)
+            memo["modified"] = datetime(
+                memo["modified"].year, memo["modified"].month, memo["modified"].day
+            )
         if memo["published"] > memo["modified"]:
             memo["published"] = memo["modified"]
-        memo["published_iso"] = memo.get("published_iso", memo["published"].strftime(DATE_ISO_FORMAT))
+        memo["published_iso"] = memo.get(
+            "published_iso", memo["published"].strftime(DATE_ISO_FORMAT)
+        )
         memo["published_pp"] = memo.get("published_pp", memo["published"].strftime(DATE_PP_FORMAT))
         memo["modified_iso"] = memo.get("modified_iso", memo["modified"].strftime(DATE_ISO_FORMAT))
         memo["modified_pp"] = memo.get("modified_pp", memo["modified"].strftime(DATE_PP_FORMAT))
@@ -208,7 +234,7 @@ for fname in os.listdir("memos"):
         memo["has_tags"] = len(memo["tags"]) > 0
 
         # render the body
-        memo["text"] = "".join(lines[idx + 1:])
+        memo["text"] = "".join(lines[text_start_idx:])
         memo["body"], toc = pandocise_memo(fname, memo["text"])
         if toc:
             memo["toc"] = toc
@@ -219,7 +245,7 @@ for fname in os.listdir("memos"):
 
 ALL_TAGS = make_tag_list(ALL_TAGS)
 
-MEMOS_BY_SLUG = { memo["slug"]: memo for memo in ALL_MEMOS }
+MEMOS_BY_SLUG = {memo["slug"]: memo for memo in ALL_MEMOS}
 for memo in ALL_MEMOS:
     if "superseded_by" in memo:
         memo["superseded_by"] = MEMOS_BY_SLUG[memo["superseded_by"]]
@@ -242,7 +268,7 @@ for fname in os.listdir("hashed-static"):
 
 
 def render(link, template, **metadata):
-     with open(os.path.join(OUT_DIR, link), "w") as f:
+    with open(os.path.join(OUT_DIR, link), "w") as f:
         rendered = JINJA2_ENV.get_template(template).render(
             base_href=BASE_HREF,
             hashed_links=HASHED_LINKS,
@@ -257,8 +283,7 @@ def render(link, template, **metadata):
 
 
 def render_memo_list(memos, tag=None, taxon=None, tags=[], taxa=[]):
-    """Render a memo listing page.
-    """
+    """Render a memo listing page."""
 
     metadata = {
         "title": title_for(tag=tag, taxon=taxon),
@@ -285,8 +310,7 @@ def render_memo_list(memos, tag=None, taxon=None, tags=[], taxa=[]):
 
 
 def render_memo_feed(memos, tag=None, taxon=None, num=10):
-    """Render a memo listing feed.
-    """
+    """Render a memo listing feed."""
 
     link = "atom.xml"
     if tag is not None:
@@ -310,14 +334,12 @@ def render_memo_feed(memos, tag=None, taxon=None, num=10):
 
 memos_for_lists = sorted(
     [memo for memo in ALL_MEMOS if "superseded_by" not in memo],
-    key=lambda memo: memo["modified"] + timedelta(days=(365*1000 if "important" in memo else 0)),
-    reverse=True
+    key=lambda memo: memo["modified"] + timedelta(days=(365 * 1000 if "important" in memo else 0)),
+    reverse=True,
 )
 
 memos_for_feeds = sorted(
-    [memo for memo in memos_for_lists],
-    key=lambda memo: memo["modified"],
-    reverse=True
+    [memo for memo in memos_for_lists], key=lambda memo: memo["modified"], reverse=True
 )
 
 dir_util.copy_tree("static", OUT_DIR)
@@ -339,11 +361,13 @@ for tag in ALL_TAGS:
     render_memo_list(memos_for_lists, tag=tag, tags=ALL_TAGS, taxa=TAXA)
     render_memo_feed(memos_for_feeds, tag=tag)
 
+
 def build_taxon_pages_recursive(taxon):
     render_memo_list(memos_for_lists, taxon=taxon, tags=ALL_TAGS, taxa=TAXA)
     render_memo_feed(memos_for_feeds, taxon=taxon)
     for t in taxon.get("children", []):
         build_taxon_pages_recursive(t)
+
 
 for taxon in TAXA:
     build_taxon_pages_recursive(taxon)
