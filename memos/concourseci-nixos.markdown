@@ -2,6 +2,7 @@
 title: Concourse CI on NixOS
 taxon: techdocs-practices
 date: 2019-04-07
+superseded_by: ci-cd
 ---
 
 ![The Concourse dashboard](concourseci-on-nixos/dashboard.png)
