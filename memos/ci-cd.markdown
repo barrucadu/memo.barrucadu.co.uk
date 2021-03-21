@@ -76,7 +76,7 @@ install.
 
 I've found that [pip][] doesn't have the most robust dependency
 solver, and can sometimes get confused and install mutually
-incompatible versions of gems.  So for any PR which upgrades the
+incompatible versions of packages.  So for any PR which upgrades the
 dependencies, I like to ensure that the freeze file has a consistent
 set of versions.
 
