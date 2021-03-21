@@ -175,6 +175,10 @@ a[aria-current="page"] {
     border: none !important;
 }
 
+.markdown > :first-child {
+    margin-top: 0;
+}
+
 .markdown h2 {
     font-family: Staatliches, serif;
     font-size: 2.5rem;
