@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-03-09
+modified: 2021-03-21
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -38,11 +38,10 @@ Player characters
   - Elder Sign
   - Shrivelling
 
-- **Cassie Black:** <span class="highlight">[indefinitely insane]</span>
-  private investigator (femme fatale).  An ex-policewoman who left the
-  force to become a private investigator.  Cassie is a long-time
-  friend of Jackson's; as students they once stole a flamingo from the
-  zoo.
+- **Cassie Black:** private investigator (femme fatale).  An
+  ex-policewoman who left the force to become a private investigator.
+  Cassie is a long-time friend of Jackson's; as students they once
+  stole a flamingo from the zoo.
 
 - **Kintsugi Ikehara:** laborer (outsider).  A mixed-race
   Japanese/Peruvian daughter of an immigrant eking out a living with
@@ -3074,3 +3073,99 @@ Break 4: Troika, 2021-03-07
 ---------------------------
 
 I ran a Troika one-shot using the Gardens of Ynn and a heist.
+
+
+MoN England session 1, 2021-03-21
+---------------------------------
+
+### Recap
+
+> You've arrived in England, 30 days after escaping a nightmare
+> situation in the Australian desert.  It's now the 22nd of April, 97
+> days after you were supposed to meet your good friend Jackson Elias
+> in his hotel room, and instead discovered his warm body and his
+> murderers.
+>
+> Before his death, Jackson had been retracing the steps of the
+> ill-fated Carlyle Expedition, and had a theory that they had all
+> survived the "massacre", and were now involved in some vast, dark,
+> conspiracy.
+>
+> Charged by Jackson's will to continue his investigation, and to
+> avenge him if possible, so far you've learned that Jackson was
+> killed by the Cult of the Bloody Tongue, an African cult with a
+> small following in Harlem, New York.  Cassie infiltrated a meeting,
+> and learned that the cult is anticipating a big event in
+> January 1926.  You then went to Australia, and learned that not only
+> was Robert Huston alive and well, though insane, he was raiding an
+> ancient alien city for technology!  And somehow *this* is also
+> connected to January 1926.  From a letter you found in Huston's
+> house, you learned that Sir Aubrey Penhew is also alive, and that
+> Edward Gavigan of the Penhew Foundation is involved with the
+> conspiracy too.
+>
+> It seems that Jackson was right, that dark schemes herald the end of
+> the world.
+
+### Prep
+
+The PCs are all visibly tanned for the next week.  Remind them of this
+if it becomes relevant.
+
+#### What Carlton Ramsey tells them
+
+- Some police came to him to ask questions about you, but he was able
+  to scare them off.
+- A few times he's felt like he was being watched, but hasn't been
+  able to catch anyone.
+- Jackson had a friend in London, Mickey Mahoney, editor of The Scoop
+  newspaper.  He may have useful information.
+- Stay safe.
+
+#### What the other cults know
+
+Mukunga M'Dari has sent the other cults short descriptions of the gang
+and said that they are looking into Jackson Elias.  If all three show
+up to meet a senior cultist (like Gavigan) he will recognise them, but
+if only one or two go, he will be less certain (and even if he is
+certain will want the third).
+
+Details of Australia has not yet reached England, but Aubrey Penhew
+has noted the lack of communication from Huston, and a lack of reply
+to a telegram sent on the 8th of April, and so has telegraphed Gavigan
+to say that "those Americans may have visited Huston".  He sent some
+of his men to visit Huston on the 12th, they will arrive on the 30th
+and discover the aftermath.
+
+When news of the destruction of the Australian mining camp spreads,
+capture and interrogation of "those Americans" will become a top
+priority for the cults.
+
+### Notes
+
+- **22 April**
+  - Get a hotel in Marylebone
+  - Send a message to Carlton Ramsey
+    - He replies a few days later
+  - Find the Egyptian Murders scoop article + do research
+    - Method of killing
+    - Mentions of Inspector Barrington
+    - "Hotep!" (peace / rest)
+
+- **23 April**
+  - Visit the Penhew Foundation:
+    - Rachel goes to the exhibits and finds mention of the Black Pharaoh
+    - Cassie & Kints scope out the building and spy the coal chute
+
+- **24 April**
+  - Visit The Scoop:
+    - Find the other two articles
+    - Mickey doesn't know anything about Gavigan, but will get his people looking into him
+  - Visit Miles Shipley:
+    - End up fighting & killing Bertha
+    - Take the drug, but not the painting
+    - Police confiscate Cassie's gun
+
+### Next time
+
+The 25th of April.
