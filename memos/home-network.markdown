@@ -1,7 +1,7 @@
 ---
 title: Home Network
 taxon: techdocs
-published: 2021-01-22
+published: 2021-03-22
 ---
 
 ![The pile of network hardware.](home-network/hardware.jpg)
@@ -169,6 +169,8 @@ style: everything is deleted by rolling back to an empty snapshot of
 Any state which needs to be persisted is in `/persist`, and managed
 through configuration and symlinks.
 
+The `local/persistent` dataset has automatic snapshots configured.
+
 ["erase your darlings"]: https://grahamc.com/blog/erase-your-darlings
 
 #### NAS
@@ -195,6 +197,12 @@ The HDD serial numbers are:
 4. **1B:** `ata-ST10000VN0004-1ZD101_ZA27BW6R`
 5. **2A:** `ata-ST10000VN0008-2PJ103_ZLW0398A`
 5. **2B:** `ata-ST10000VN0008-2PJ103_ZLW032KE`
+
+The zpool currently has a single dataset:
+
+- **`data/nas`**: mounted at `/mnt/nas`
+
+The `data` dataset has automatic snapshots configured.
 
 
 Future projects
