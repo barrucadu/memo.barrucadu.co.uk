@@ -343,7 +343,7 @@ memos_for_feeds = sorted(
 )
 
 dir_util.copy_tree("static", OUT_DIR)
-dir_util.copy_tree("MathJax", os.path.join(OUT_DIR, "MathJax"))
+dir_util.copy_tree("MathJax/es5", os.path.join(OUT_DIR, "mathjax"))
 
 dir_util.mkpath(os.path.join(OUT_DIR, TAG_DIR))
 dir_util.mkpath(os.path.join(OUT_DIR, TAXON_DIR))
