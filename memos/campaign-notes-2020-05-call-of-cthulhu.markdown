@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-03-21
+modified: 2021-04-04
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -3146,18 +3146,20 @@ priority for the cults.
 - **22 April**
   - Get a hotel in Marylebone
   - Send a message to Carlton Ramsey
-    - He replies a few days later
+    - He replies morning of the 24th
   - Find the Egyptian Murders scoop article + do research
     - Method of killing
     - Mentions of Inspector Barrington
     - "Hotep!" (peace / rest)
 
 - **23 April**
+  - Do research on the Penhew Foundation
   - Visit the Penhew Foundation:
     - Rachel goes to the exhibits and finds mention of the Black Pharaoh
     - Cassie & Kints scope out the building and spy the coal chute
 
 - **24 April**
+  - Get reply from Carlton Ramsey
   - Visit The Scoop:
     - Find the other two articles
     - Mickey doesn't know anything about Gavigan, but will get his people looking into him
@@ -3169,3 +3171,77 @@ priority for the cults.
 ### Next time
 
 The 25th of April.
+
+
+MoN England session 2, 2021-04-04
+---------------------------------
+
+### Recap
+
+Who wants to give it?
+
+And then list the leads:
+
+> You've got the following leads in England:
+>
+> - There's Edward Gavigan and the Penhew Foundation.  Mickey Mahoney
+>   is looking into Gavigan for you and said to come back in a week.
+> - There's the Egyptian Murders, which Inspector James Barrington is
+>   investigating.
+> - And there's something about a monster up in Derwent Valley which
+>   Jackson was interested in.
+
+### Prep
+
+- **25th of April:**
+  - Today
+- **30th of April:**
+  - Aubrey Penhew will learn of the disruption in Australia
+- **1st of May:**
+  - Mickey Mahoney has some info about Edward Gavigan:
+    - He has a squeaky clean reputation, nobody has dirt on the guy.
+      If he's involved in anything nefarious it happens behind closed
+      doors.
+    - His daily routine is to walk from his flat in Mayfair to the
+      Penhew Foundation, work there all day, and go to a club for
+      dinner on the way home.
+    - His usual haunts are the Diamondback Club, a fashionable and
+      expensive restaurant; and the Blue Pyramid Club, a private
+      Egyptian-themed club popular amongst artistic and intellectual
+      types, with membership available for a fee to people of good
+      character.
+    - He has a country house out in Essex called Misr House, which he
+      drives out to a few times a month.
+    - Remember the story!
+- **4th of May:**
+  - A telegraph from Aubrey Penhew about Australia will reach all the
+    other cults.
+
+### Notes
+
+- **25th of April**
+  - Cassie manages to charm her way to a firearm loicense, and gets her gun back
+  - Gang decide to head to Lesser Edale
+  - Spot silver crucifixes on the graves:
+    - "It's a local matter" - don't get any more
+  - Gossip with Maddy Albright, an old woman, in the pub:
+    - Howls at the full moon (which is the night after tomorrow)
+    - Lawrence Vane involved?
+    - Constable Tumwell shot a wild dog
+    - Who the victims were
+  - Meet Reverend Stratton
+    - Spot the things on his desk
+    - Get his account
+  - Meet Hubert Tumwell
+    - "it limped off into the hills to die"
+- **26th of April**
+  - Check out the stone circles
+  - Find a magical soothing powder / lamp / incense burner at Mam Tor
+    - This can be used to de-ghoul Eloise
+  - Meet Lawrence Vane and get an invitation to dinner
+
+### Next time
+
+- 27th of April
+- The first night of the Full Moon
+- An earlier dinner at Plum Castle
