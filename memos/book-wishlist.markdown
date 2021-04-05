@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-03-16
+modified: 2021-04-05
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -355,14 +355,7 @@ Book Series
 
 | Series                                        | ISBN            | Title                                                             |
 |----------------------------------------------:+----------------:+-------------------------------------------------------------------|
-| [20th Century Boys][]                         | `9781421535357` | Volume 17: Cross-counter                                          |
-|                                               | `9781421535364` | Volume 18: Everybody's Song                                       |
-|                                               | `9781421535371` | Volume 19: The man who came back                                  |
-|                                               | `9781421535388` | Volume 20: Humanity in the Balance                                |
-| [21st Century Boys][]                         | `9781421543260` | Volume 1: The Death of "Friend"                                   |
-|                                               | `9781421543277` | Volume 2: 20th Century Boys                                       |
-| [Overlord][]                                  | `9781975311537` | Volume 13: The Paladin of the Holy Kingdom (Part 2)               |
-|                                               |                 | Volume 14: The Witch of the Falling Kingdom                       |
+| [Overlord][]                                  |                 | Volume 14: The Witch of the Falling Kingdom                       |
 | The Collected Fiction of William Hope Hodgson | `9781597809214` | Volume 2: The House on the Borderland and Other Mysterious Places |
 |                                               | `9781597809412` | Volume 3: The Ghost Pirates and Other Revenants of the Sea        |
 |                                               | `9781597809597` | Volume 4: The Night Land and Other Perilous Romances              |
@@ -370,10 +363,23 @@ Book Series
 | The Best Short Fiction of Darrell Schweitzer  | `9781786364425` | Volume 1: The Mysteries of the Faceless King                      |
 |                                               | `9781786364449` | Volume 2: The Last Heretic                                        |
 
-[20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
-[21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
 
+### Out of print
+
+I might have to give up on these and buy a different printing:
+
+| Series                                        | ISBN            | Title                                                             |
+|----------------------------------------------:+----------------:+-------------------------------------------------------------------|
+| [20th Century Boys][]                         | `9781421535357` | Volume 17: Cross-counter                                          |
+|                                               | `9781421535364` | Volume 18: Everybody's Song                                       |
+|                                               | `9781421535371` | Volume 19: The man who came back                                  |
+|                                               | `9781421535388` | Volume 20: Humanity in the Balance                                |
+| [21st Century Boys][]                         | `9781421543260` | Volume 1: The Death of "Friend"                                   |
+|                                               | `9781421543277` | Volume 2: 20th Century Boys                                       |
+
+[20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
+[21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
 
 ### Candidate series
 
@@ -393,13 +399,14 @@ Book Series
 | [Mars Trilogy][]                          | `9780007310166` | Red Mars                                        |
 |                                           | `9780007310173` | Green Mars                                      |
 |                                           | `9780007310180` | Blue Mars                                       |
-| The Elric Saga                            |                 | Elric of Melniboné                              |
-|                                           |                 | Stormbringer                                    |
-|                                           |                 | The White Wolf                                  |
+| [The Elric Saga][]                        | `9781534445680` | Elric of Melniboné                              |
+|                                           | `9781534445710` | Stormbringer                                    |
+|                                           | `9781534445741` | The White Wolf                                  |
 
 [Liveship Traders]: https://en.wikipedia.org/wiki/Liveship_Traders_Trilogy
 [Made in Abyss]: https://en.wikipedia.org/wiki/Made_in_Abyss
 [Mars Trilogy]: https://en.wikipedia.org/wiki/Mars_trilogy
+[The Elric Saga]: https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/
 
 
 Roleplaying Games
@@ -465,7 +472,6 @@ Computer Science, Programming, + Digital Culture
 
 | ISBN            | Title                                                                       | Author                 |
 |----------------:+-----------------------------------------------------------------------------+------------------------|
-| `9780201134483` | The TeXbook                                                                 | Donald E. Knuth        |
 | `9780321842688` | Hacker's Delight                                                            | Henry S. Warren        |
 | `9781568842035` | UNIX-hater's Handbook                                                       | Garfinkel              |
 | `9780201835953` | The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition | Frederick P. Brooks Jr |
@@ -473,17 +479,10 @@ Computer Science, Programming, + Digital Culture
 | `9781881526919` | Selected Papers on Computer Science                                         | Donald E. Knuth        |
 | `9780521513388` | Pearls of Functional Algorithm Design                                       | Richard Bird           |
 | `9780521663502` | Purely Functional Data Structures                                           | Chris Okasaki          |
-
-
-Typography & Writing
---------------------
-
-| ISBN            | Title                                                                                                  | Author                  |
-|----------------:+--------------------------------------------------------------------------------------------------------+-------------------------|
-| `9780241960349` | Plain Words                                                                                            | Rebecca Gowers          |
-| `9789389157123` | The Elements of Style                                                                                  | William Strunk          |
-| `9780881792126` | The Elements of Typographic Style: Version 4.0                                                         | Robert Bringhurst       |
-| `9783721201451` | Grid Systems in Graphic Design: A Handbook for Graphic Artists, Typographers, and Exhibition Designers | Josef Mülller-Brockmann |
+| `9781732265189` | An Elegant Puzzle: Systems of Engineering Management                        | Will Larson            |
+| `9781736417911` | Staff Engineer: Leadership beyond the management track                      | Will Larson            |
+| `9781732102200` | A Philosophy of Software Design                                             | John Ousterhout        |
+| `9780321125217` | Domain-Driven Design: Tackling Complexity in the Heart of Software          | Eric Evans             |
 
 
 Politics, Philosophy, Economics, + History
@@ -491,23 +490,20 @@ Politics, Philosophy, Economics, + History
 
 | ISBN            | Title                                                                           | Author          |
 |----------------:+---------------------------------------------------------------------------------+-----------------|
-| `9780226458113` | The Structure of Scientific Revolutions                                         | Thomas Kuhn     |
 | `9781540622402` | Cyropaedia                                                                      | Xenophon        |
-| `9781490361888` | Extraordinary Popular Delusions and the Madness of Crowds                       | Charles MacKay  |
-| `9780141396118` | The Conquest of Bread                                                           | Peter Kropotkin |
 | `9781297565090` | An Account of the Cultivation and Manufacture of tea in China                   | Samuel Ball     |
 | `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy             | Neville Morley  |
 | `9780521634168` | Trade in Classical Antiquity                                                    | Neville Morley  |
 | `9781577315933` | The Hero with A Thousand Faces                                                  | Joseph Campbell |
+| `9780691208015` | 1177 B.C.: The Year Civilization Collapsed                                      | Eric H. Cline   |
 
 
-Kitchen
--------
+Design
+------
 
-| ISBN            | Title                                                                       | Author                |
-|----------------:+-----------------------------------------------------------------------------+-----------------------|
-| `9781607744382` | Mastering Fermentation: Recipes for Making and Cooking with Fermented Foods | Mary Karlin           |
-| `9781612124339` | The Big Book of Kombucha                                                    | Hannah Crum           |
+| ISBN            | Title                                                                                                  | Author                  |
+|----------------:+--------------------------------------------------------------------------------------------------------+-------------------------|
+| `9783721201451` | Grid Systems in Graphic Design: A Handbook for Graphic Artists, Typographers, and Exhibition Designers | Josef Mülller-Brockmann |
 
 
 Miscellaneous
@@ -518,12 +514,9 @@ Miscellaneous
 | `9781974717477` | Remina                                                               | Junji Ito             |
 | `9780356506142` | The Wheel of Time Companion                                          | Robert Jordan         |
 | `9780199549740` | The Old English Baron                                                | Clara Reeve           |
-| `9789814287111` | Algebraic Models For Accounting Systems                              | Cruz Rambaud Salvador |
-| `9780465026562` | Godel, Escher, Bach: An Eternal Golden Braid                         | Douglas R. Hofstadter |
 | `9780343546373` | An Encyclopædia Of Occultism                                         | Lewis Spence          |
 | `9781614982173` | Lovecraft's Library: A Catalogue (Fourth Revised Edition)            | S. T. Joshi           |
 | `9780262528917` | Building Successful Online Communities: Evidence-Based Social Design | Ribert E. Kraut       |
-| `9780316362658` | The Illustrated Art of Manliness                                     | Brett McKay           |
 | `9781447263401` | Last Days                                                            | Adam Nevill           |
 | `9780765318145` | Anvil of Stars                                                       | Greg Bear             |
 | `9780586217467` | The Mote in God's Eye                                                | Larry Niven           |
@@ -549,7 +542,6 @@ Miscellaneous
 | `9781906838683` | Shadow Out of Time                                                   | I. N. J. Culbard      |
 | `9780330534239` | Perdido Street Station                                               | China Mieville        |
 | `9780099529040` | Planet of the Apes                                                   | Pierre Boulle         |
-| `9781935548355` | Night on the Galactic Railroad & Other Stories from Ihatov           | Kenji Miyazawa        |
 | `9781447263210` | Wicker Man                                                           | Hardy                 |
 | `9780143107651` | Perchance to Dream: Selected Stories                                 | Charles Beaumont      |
 | `9781590179062` | The Rim Of Morning                                                   | William Sloane        |
@@ -600,3 +592,4 @@ Miscellaneous
 | `9781566894166` | Last Days                                                            | Brian Evenson         |
 | `9781786361998` | The Ceremonies                                                       | T. E. D. Klein        |
 | `9781946154330` | The Cipher                                                           | Kathe Koja            |
+| `9780312863944` | The Urth of the New Sun                                              | Gene Wolfe            |
