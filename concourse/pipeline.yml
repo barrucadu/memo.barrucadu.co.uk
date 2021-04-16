@@ -26,9 +26,9 @@ resources:
   - name: memo-rsync
     type: rsync-resource
     source:
-      server: dunwich.barrucadu.co.uk
-      remote_dir: /srv/http/barrucadu.co.uk/memo
-      private_key: ((dunwich-ssh-private-key))
+      server: carcosa.barrucadu.co.uk
+      remote_dir: /persist/srv/http/barrucadu.co.uk/memo
+      private_key: ((carcosa-ssh-private-key))
 
 jobs:
   - name: update-pipeline
