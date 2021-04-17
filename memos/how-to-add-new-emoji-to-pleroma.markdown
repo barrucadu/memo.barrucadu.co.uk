@@ -2,10 +2,10 @@
 title: "How to: add new emoji to Pleroma"
 taxon: techdocs-runbooks
 published: 2020-02-05
-modified: 2020-08-30
+modified: 2021-04-17
 ---
 
-Pleroma is an ActivityPub server running on both dunwich and
+Pleroma is an ActivityPub server running on both carcosa and
 lainon.life:
 
 - [ap.barrucadu.co.uk](https://ap.barrucadu.co.uk)

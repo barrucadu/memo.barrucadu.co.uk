@@ -2,6 +2,7 @@
 title: "How to: set up the user environment"
 taxon: techdocs-runbooks
 published: 2020-02-20
+modified: 2021-04-17
 ---
 
 ## Initial set-up for non-NixOS machines
@@ -54,7 +55,7 @@ published: 2020-02-20
     ```bash
     cd ~
 
-    git clone git@dunwich.barrucadu.co.uk:secrets.git
+    git clone ssh://git@git.barrucadu.co.uk:222/private/secrets.git
 
     cd secrets
     stow dotfiles

@@ -2,7 +2,7 @@
 title: Backups
 taxon: techdocs-practices
 tags: aws
-date: 2021-03-16
+date: 2021-04-17
 ---
 
 I take automatic full and incremental off-site backups using
@@ -238,11 +238,12 @@ could also take out my backups themselves, which are in Ireland.
 These aren't terribly interesting, or useful to anyone other than me,
 so I'll just give an example rather than go through each one.
 
-The script for dunwich, one of my VPSes, backs up:
+The script for carcosa, my VPS, backs up:
 
 - All my public github repositories (I don't have any private ones)
 - All my self-hosted repositories
 - My [syncthing][] directory
+- A few databases
 
 Here's the git repository step:
 
@@ -250,7 +251,7 @@ Here's the git repository step:
 #! /usr/bin/env nix-shell
 #! nix-shell -i bash -p jq
 
-source ~/secrets/backup-scripts/dreamlands-git-token.sh
+source ~/secrets/backup-scripts/gitea-token.sh
 
 # I have no private github repos, and under 100 public ones; so this
 # use of the public API is fine.
@@ -262,16 +263,16 @@ function clone_public_github_repos() {
     done
 }
 
-function clone_all_private_dreamlands_repos() {
-  curl -H "Authorization: token ${DREAMLANDS_GIT_TOKEN}" https://git.barrucadu.dev/api/v1/orgs/private/repos 2>/dev/null | \
+function clone_all_private_gitea_repos() {
+  curl -H "Authorization: token ${GITEA_TOKEN}" https://git.barrucadu.dev/api/v1/orgs/private/repos 2>/dev/null | \
     jq -r '.[].ssh_url' | \
     while read url; do
       git clone --bare "$url"
     done
 }
 
-function clone_all_public_dreamlands_repos() {
-  curl -H "Authorization: token ${DREAMLANDS_GIT_TOKEN}" https://git.barrucadu.dev/api/v1/users/barrucadu/repos 2>/dev/null | \
+function clone_all_public_gitea_repos() {
+  curl -H "Authorization: token ${GITEA_TOKEN}" https://git.barrucadu.dev/api/v1/users/barrucadu/repos 2>/dev/null | \
     jq -r '.[].ssh_url' | \
     while read url; do
       git clone --bare "$url"
@@ -280,16 +281,16 @@ function clone_all_public_dreamlands_repos() {
 
 set -e
 
-mkdir -p git/dreamlands/private
-mkdir -p git/dreamlands/public
+mkdir -p git/git.barrucadu.dev/private
+mkdir -p git/git.barrucadu.dev/public
 mkdir -p git/github.com
 
-pushd git/dreamlands/private
-clone_all_private_dreamlands_repos
+pushd git/git.barrucadu.dev/private
+clone_all_private_gitea_repos
 popd
 
-pushd git/dreamlands/public
-clone_all_public_dreamlands_repos
+pushd git/git.barrucadu.dev/public
+clone_all_public_gitea_repos
 popd
 
 pushd git/github.com

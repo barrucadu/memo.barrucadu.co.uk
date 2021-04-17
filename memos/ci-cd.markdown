@@ -1,6 +1,7 @@
 ---
 title: Continuous Integration and Continuous Deployment
-date: 2021-03-20
+published: 2021-03-20
+modified: 2021-04-17
 tags: tech
 ---
 
@@ -339,7 +340,7 @@ also makes it easy to upgrade to a newer version, without needing to
 wait for an official package to be updated.
 
 [an official docker image for Concourse]: https://hub.docker.com/r/concourse/concourse
-[concourse.docker-compose.nix]: https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/concourse.docker-compose.nix
+[concourse.docker-compose.nix]: https://github.com/barrucadu/nixfiles/blob/master/services/docker-compose-files/concourse.docker-compose.nix
 
 
 Future Work
