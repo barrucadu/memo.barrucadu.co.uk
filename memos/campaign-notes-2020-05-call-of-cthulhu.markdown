@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-04-04
+modified: 2021-04-18
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -3245,3 +3245,81 @@ And then list the leads:
 - 27th of April
 - The first night of the Full Moon
 - An earlier dinner at Plum Castle
+
+
+MoN England session 3, 2021-04-17
+---------------------------------
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Dinner at Plum Castle
+
+- Arrive at 2PM, food at 3PM
+- A storm is brewing all morning
+- The storm arrives just before they set off to the castle: dramatic
+  thunder and lightning, torrential rain, etc
+- See Eloise Vane reading and humming cheerfully in the library, with
+  a grim-looking maid standing behind her
+- Meet Lord Vane in the study
+  - As he turns to greet them, big flash of lightning silhouettes him
+    against the window
+- Eloise does not join the gang for dinner
+  - If asked, Lord Vane says that his daughter is feeling unwell
+
+#### Lawrence Vane
+
+- Is a desperate young man who thinks that if the story has spread far
+  enough to draw the gang, then the situation is rapidly becoming
+  untenable
+- Charmed by Cassie, he thinks they could be potential allies
+- The gang may notice he looks like he wants to say something, but
+  then glances at his father and remains silent, a few times during
+  the meal
+- If he walks them back to the village he looks troubled
+
+#### The Curse of the Vanes
+
+- Ghoul-form Eloise is a rabid beast
+  - Emphasise things like "furious snarl", "ferocious beast",
+    "aggressive", etc---want them to think of the calming smoke
+  - Can be calmed with the magic smoke
+  - Somewhat intelligent when calm
+  - Will signal she wants raw meat
+- If the gang think to use the magic smoke and Lord Vane or Lawrence
+  see the effects, they want it
+- If they give the magic smoke over Lord Vane tells them that the
+  family is in their debt
+
+### Notes
+
+- **27th of April**
+  - Morning before dinner:
+    - Cassie chills out
+    - Rachel takes both drugs at once and has a vision of the Carlyle
+      Expedition entering the Bent Pyramid and going through a secret
+      passage to the throne room
+    - Kints visits John Parkins and gets a lecture about classism and
+      that Lawrence Vane is involved with this whole beast thing
+  - Go to dinner:
+    - Cassie spots some meaningful looks between Lawrence and Arthur
+  - Lawrence walks them back to the village:
+    - Cassie gets him to open up
+  - Enact the plan to de-ghoul Eloise with an Elder Sign pendant:
+    - Other than Rachel shooting Eloise in a bout of madness, goes
+      well
+    - Arthur says the family is in their debt
+- **28th of April**
+  - Rachel finds Edgar Vane's diary in the library
+  - The gang ask Arthur for SAN treatment, exchange contact details,
+    and ask him to look into the Penhew Foundation
+
+### Next time
+
+- 29th of April
+- London
+- Offer of SAN treatment (a few weeks of high quality private care)
+- SAN rewards for sidetrack scenario
