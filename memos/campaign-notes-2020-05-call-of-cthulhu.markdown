@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-04-18
+modified: 2021-04-29
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -55,6 +55,9 @@ Player characters
 
   *Known spells:*
   - Contact Deity Nodens
+
+- **Rosalind Moedes:** Engineer (Grease Monkey).  Red shoulder-length
+  hair, rash, and with a desire to topple butter statues of royalty.
 
 ### Retired
 
@@ -3319,7 +3322,148 @@ Who wants to give it?
 
 ### Next time
 
-- 29th of April
+- A timeskip of a few days to rest at Plum Castle
+- 3rd of May
 - London
 - Offer of SAN treatment (a few weeks of high quality private care)
 - SAN rewards for sidetrack scenario
+
+
+MoN England session 4, 2021-04-29
+---------------------------------
+
+We changed to playing on Thursdays so a new player could join.
+
+### Recap
+
+> The story so far, in brief, is that you are all the good friends of
+> Jackson Elias, an author who made his living infiltrating cults and
+> publishing their secrets.  His last job was looking into the Carlyle
+> Expedition, an archaeological expedition where all the members were
+> gruesomely killed in Kenya.  Jackson thought it was a conspiracy,
+> and that they were all still alive and involved in some sort of
+> global plot.
+>
+> But unfortunately, someone got wind of Jackson's attentions, and on
+> the day you were supposed to meet him in his New York hotel room,
+> you instead found his freshly butchered body.
+>
+> Charged by Jackson's will to continue his investigation and to
+> avenge him, you've spied on the cult in New York, disrupted a mining
+> operation in an alien city in Australia, and are now in England
+> looking into the Penhew Foundation, which supported the Carlyle
+> Expedition.
+>
+> You've just returned from Lesser Edale, a village in the north of
+> England, where you looked into reports of a werewolf, but instead
+> found that a curse lay upon the bloodline of the noble Vane family,
+> and their daughter was transforming into something beastly.  You
+> managed to deal with the situation, at the cost of Rachel's sanity,
+> who is spending some time in a mental institution.  Lawrence Vane,
+> son and heir of Lord Vane, is accompanying you in Rachel's place.
+>
+> But Lawrence isn't the only new friend.  Arriving back at your hotel
+> you met our new Player Character, another good friend of Jackson
+> Elias, who has been sent in response to your request for aid, which
+> I've just retconned into existence.
+>
+> It's now the 3rd of May 1925, and it's another damp and foggy London
+> afternoon.
+>
+> Rachel, Kints, and Cassie can all gain `1d4` sanity points for
+> resolving the Lesser Edale situation, and Rachel can make three POW
+> improvement checks, as we've been missing those and you've probably
+> withered the flesh of three people.  And let's make a new character.
+
+### Prep
+
+#### The other cults
+
+- Edward Gavigan knows their names (they sent the Penhew Foundation a
+  telegram asking about Jackson)
+- Aubrey Penhew knows about Australia.
+- A telegram will reach all the other cults **tomorrow**.
+
+#### Mickey Mahoney
+
+- "You call that a scoop?" he yells after a flustered journalist
+  fleeing the office, crumpled papers in hand.
+  - If asked, he says the story was about fog that smells of burning
+    hair, a sure sign of dangerous chemicals!
+  - "Well of course there are dangerous chemicals in the fog!  You
+    think fog is naturally brown?  Some people..."
+- He offers the party whiskey again, and asks what they learned in
+  Lesser Edale.
+  - Remind Rakka that Lawrence Vane probably doesn't want his family
+    called our as werewolves by the tabloids.
+- He shares his information about Gavigan:
+  - He has a squeaky clean reputation, nobody has dirt on the guy. If
+    he's involved in anything nefarious it happens behind closed
+    doors.
+  - His daily routine is to walk from his flat in Mayfair to the
+    Penhew Foundation, work there all day, and go to a club for dinner
+    on the way home.
+  - His usual haunts are the Diamondback Club, a fashionable and
+    expensive restaurant; and the Blue Pyramid Club, a private
+    Egyptian-themed club popular amongst artistic and intellectual
+    types, with membership available for a fee to people of good
+    character.
+  - He has a country house out in Essex called Misr House ("Misr" is
+    Arabic for "Egypt") which he drives out to a few times a month.
+  - He bought the house dirt cheap from an occultist called Neville
+    Lloyd-Price, who squandered his fortune, and disappeared from
+    London society after the sale.
+  - He seems to have business interests in Derby, getting a train up
+    there once a month.
+  - Remember the story!
+
+#### Egyptian Murders
+
+- Lawrence Vane can easily secure an interview with Inspector
+  Barrington.
+
+### Notes
+
+- **3rd of May**
+  - Visit Mickey Mahoney and get his info on Gavigan
+  - Check out the Blue Pyramid Club:
+    - Use disguises and fake names
+    - Spot a cultist telling Abdul that they'll have need of the
+      basement again, and Abdul bending over backwards to please the
+      guy
+    - Check out the basement (by tampering with the lift controls):
+      - Find Inspector Gregory Munden's old dented badge
+    - Try questioning Abdul
+      - He deflects questions and persuades Cassie to back down, but
+        is clearly distressed
+      - Doesn't recognise the Inspector's name
+    - Get note and meet Yalesha:
+      - Get her info
+      - Descriptions of Zahra Shafik and Edward Gavigan
+      - Escape the cultists
+      - Spirit her away out of London
+- **4th of May**
+  - **Aubrey Penhew's telegram arrives: the cults know about Australia**
+  - Learn that Inspector Munden was succeeded by Inspector Barrington
+  - Learn that Zahra Shafik has acted as a consultant for the Penhew
+    Foundation
+  - Arrange to get aerial photos of Misr House (will be available on
+    the **6th**)
+  - Tail Gavigan to the exhibition and listen in on the meeting with
+    Zahra Shafik:
+    - He shares the telegram from Aubrey Penhew (signed "AP" and
+      "Shanghai")
+    - Says it's probably those people who inquired about "that awful
+      journalist" a while ago
+    - Knows Rachel's name
+    - Zahra Shafik says there was some commotion at The Blue Pyramid
+      Club the previous night, and that "unfortunately, the dancer got
+      away"
+    - Both agree something needs to be done.
+    - Rosalind causes a distraction, Kints pickpockets the telegram
+  - **That night:** the moon blinks.
+
+### Next time
+
+- 5th of May
+- An attack by The Thing in the Fog
