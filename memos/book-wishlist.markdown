@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-04-05
+modified: 2021-05-02
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -480,7 +480,6 @@ Computer Science, Programming, + Digital Culture
 | `9780521513388` | Pearls of Functional Algorithm Design                                       | Richard Bird           |
 | `9780521663502` | Purely Functional Data Structures                                           | Chris Okasaki          |
 | `9781732265189` | An Elegant Puzzle: Systems of Engineering Management                        | Will Larson            |
-| `9781736417911` | Staff Engineer: Leadership beyond the management track                      | Will Larson            |
 | `9781732102200` | A Philosophy of Software Design                                             | John Ousterhout        |
 | `9780321125217` | Domain-Driven Design: Tackling Complexity in the Heart of Software          | Eric Evans             |
 

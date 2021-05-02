@@ -2,7 +2,7 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2021-03-16
+modified: 2021-05-02
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -86,13 +86,6 @@ Generally I only buy studio albums.
 - Puritanical Euphoric Misanthropia
 - In Sorte Diaboli
 - Abrahadabra
-
-### [Eluveitie](https://en.wikipedia.org/wiki/Eluveitie_discography)
-
-- Spirit
-- Slania
-- Everything Remains (As It Never Was)
-- Helvetios
 
 ### [Epica](https://en.wikipedia.org/wiki/Epica_discography)
 
@@ -186,10 +179,6 @@ Generally I only buy studio albums.
 ### [The Sisters of Mercy](https://en.wikipedia.org/wiki/The_Sisters_of_Mercy_discography)
 
 - Vision Thing
-
-### [Tyr](https://en.wikipedia.org/wiki/T%C3%BDr_(band)#Discography)
-
-- Hel
 
 ### [Ulver](https://en.wikipedia.org/wiki/Ulver_discography)
 
