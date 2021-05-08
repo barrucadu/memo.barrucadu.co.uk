@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-05-02
+modified: 2021-05-08
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -429,6 +429,7 @@ Roleplaying Games
 |              | [Traveller Companion][]     | Mongoose Publishing           |
 |              | [The Pirates of Drinax][]   | Mongoose Publishing           |
 |              | [Shadows of Sindal][]       | Mongoose Publishing           |
+| Whitehack    | [Whitehack][]               | Christian Mehrstam            |
 
 [Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/
 [Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/
@@ -443,6 +444,7 @@ Roleplaying Games
 [Traveller Companion]: https://www.mongoosepublishing.com/uk/traveller-companion.html
 [The Pirates of Drinax]: https://www.mongoosepublishing.com/uk/the-pirates-of-drinax.html
 [Shadows of Sindal]: https://www.mongoosepublishing.com/uk/shadowsofsindal.html.html
+[Whitehack]: https://whitehackrpg.wordpress.com/buy/
 
 ### Settings & Lore
 
