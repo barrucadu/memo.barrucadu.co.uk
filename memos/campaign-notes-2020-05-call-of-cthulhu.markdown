@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-04-29
+modified: 2021-05-09
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -56,9 +56,6 @@ Player characters
   *Known spells:*
   - Contact Deity Nodens
 
-- **Rosalind Moedes:** Engineer (Grease Monkey).  Red shoulder-length
-  hair, rash, and with a desire to topple butter statues of royalty.
-
 ### Retired
 
 - **Alton "Dill" Dillinger:** Assistant Secretary for Fish, Wildlife
@@ -96,6 +93,26 @@ Resources
 
 MoN Lore
 --------
+
+### Score
+
+**Total: 5 points---The Horror Averted.**
+
+#### America
+
+**Total: 4 points.**
+
+- Mukunga M'Dari remains alive and able to support the performance of
+  the Great Rite at the Ju Ju House: **4 points**.
+
+#### Australia
+
+**Total: 1 point.**
+
+- Robert Huston is eliminated from play.  One of Huston's lesser
+  acolytes performs the Great Rite: **2 points.**
+- The marine chronometer is destroyed or tampered with: **deduct 1
+  point.**
 
 ### Cosmology
 
@@ -3379,10 +3396,12 @@ We changed to playing on Thursdays so a new player could join.
 
 #### The other cults
 
+![A.P.'s telegram about Australia.](campaign-notes-2020-05-call-of-cthulhu/ap-telegram.jpg)
+
 - Edward Gavigan knows their names (they sent the Penhew Foundation a
   telegram asking about Jackson)
 - Aubrey Penhew knows about Australia.
-- A telegram will reach all the other cults **tomorrow**.
+- A telegram (above) will reach all the other cults **tomorrow**.
 
 #### Mickey Mahoney
 
@@ -3467,3 +3486,111 @@ We changed to playing on Thursdays so a new player could join.
 
 - 5th of May
 - An attack by The Thing in the Fog
+
+
+MoN England session 5, 2021-05-09
+---------------------------------
+
+The new player dropped out, so we changed back to Sundays and Rosalind
+became an NPC.
+
+### Recap
+
+> Before the recap, I'll just say that Rosalind is still around, but
+> now she's an NPC who won't accompany you beyond England.  Unless
+> someone dies and decides to use her as their new character.  Also,
+> small retcon, the Brotherhood's monthly trip out of London isn't on
+> the night of the full moon, it's the night of the new moon.  Which
+> is in 19 days.
+
+Who wants to give it?
+
+### Prep
+
+#### General points
+
+- Make sure they find references to Port Darwin, Australia---to
+  reinforce the importance of their victory in Australia.
+
+#### The Schemes of Zahra Shafik
+
+- Gavigan will send the Thing in the Fog after the gang next
+  nightfall, and a few goons.
+- Zahra Shafik's cultists will swoop in to rescue the gang, "come with
+  me if you want to live" style, and take them to Empire Spices.
+- Zahra Shafik will spin a tale of how Gavigan is a violent dictator
+  using the Brotherhood for his own gains and they just want to be
+  free of him:
+  - He rules through fear.
+  - He uses magic to track Zahra, she can't just escape.
+  - He'll kill her when her usefulness runs out.
+  - He drains people for their magic power.
+  - The law can't touch him due to his social standing and well-paid
+    lawyers.
+  - Even if incontrovertible evidence were brought up, he could take
+    Zahra down with him, by revealing the crimes he's made her commit.
+  - Throw in a genuine-sounding religious reference too: "I think
+    Allah has brought you to me to escape him."
+- The plan to strike:
+  - The best time to strike is at the Brotherhood's monthly gathering
+    at Misr House.
+  - Zahra has a recruited a small number of members loyal to her over
+    Gavigan, but they're very outnumbered so there's been no
+    opportunity to make a move yet.
+  - Zahra will place her trusted members as guards, so the gang can
+    get in without being seen.
+  - Cause a commotion and make Gavigan feel threatened, he'll expect
+    the Brotherhood to unite against outsiders, so he'll be more
+    susceptible to treachery.
+- But she fully intends to rule the Brotherhood, rather than disband
+  it, once Gavigan is dead; and to immediately kill off the gang too.
+
+#### Misr House
+
+- Lawrence can tell that Gavigan doesn't spend much time at the house:
+  it lacks the comfort that you'd expect of a man in his position.
+- Inspector Barrington will be reluctant to raid it without hard
+  evidence, but Lawrence Vane could use his social standing to force
+  the inspector's hand.
+
+### Notes
+
+- **5th of May**
+  - They prepare police disguises and a fake warrant to break into
+    Gavigan's flat.
+- **6th of May**
+  - Break into Gavigan's flat:
+    - Get Dr. Clive's telegram.
+    - Leave a "Rachel is watching you" card.
+    - Confirm with a neighbour that Gavigan's schedule matches what
+      Mickey Mahoney said.
+  - Kints sneaks into Empire Spices (Cassie distracting Edjo):
+    - Find the hidden room in the cellar (no club).
+    - Find the robes, mirror, powders, and scroll.
+  - Visit Inspector Barrington:
+    - Lawrence "do you know who I am?"s his way to an immediate
+      meeting.
+    - Share evidence, but claim Inspector Gregory Munden's badge was
+      found in Zahra Shafik's cellar.
+    - Get Zahra Shafik taken into custody.
+    - Get support for a raid on the Brotherhood's monthly event, when
+      they know where that is.
+  - Examine Zahra's scepters:
+    - An alien alloy.
+    - Grants temporary magic points & glow when crossed.
+- **7th of May**
+  - Aerial photos of Misr House arrive, including the obelisk.
+- **Some time before the 23rd**
+  - Continue watching / tailing Gavigan:
+    - Nothing obvious has changed in his routine.
+  - Get a translation of the scroll:
+  - Rosalind goes back to smash the mirror.
+    - Fights Edjo, escapes mildly wounded.
+
+### Next time
+
+- **18th of May**, New Moon is on the **23rd of May**.
+- Gavigan visits Henson Manufacturing:
+  - Which has additional security since he knows the gang are looking
+    into things.
+- There are now three Things in the Fog acting as Misr House guards.
