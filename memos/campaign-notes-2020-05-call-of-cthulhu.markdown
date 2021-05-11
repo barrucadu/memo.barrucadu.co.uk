@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-05-09
+modified: 2021-05-11
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -25,6 +25,8 @@ Player characters
   graduate, who was inspired to a love of books by her school's
   librarian.  Rachel is a bit of a bookworm, particularly focussing on
   nonfiction, with a good working knowledge of Latin and biology.
+
+  Has a cat allergy.
 
   *1921 update:* Rachel has suppressed the memory of freeing Gla'aki
   and causing the destruction of Scotland, and is a bit unstable
