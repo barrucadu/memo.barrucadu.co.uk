@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-05-11
+modified: 2021-05-19
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -3596,3 +3596,282 @@ Who wants to give it?
   - Which has additional security since he knows the gang are looking
     into things.
 - There are now three Things in the Fog acting as Misr House guards.
+
+
+MoN England session 6, 2021-05-19
+---------------------------------
+
+Moved to the 19th due to scheduling conflicts.
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Combat tactics for Fogspawn
+
+Inspired by [The Monsters Know What They're Doing][][^monknow].
+
+[^monknow]: If this works out well, start a series of posts on the RPG
+  blog about CoC monster tactics.
+
+[The Monsters Know What They're Doing]: https://www.themonstersknow.com/why-these-tactics/
+
+The Fogspawn is from another dimension, so to understand its tactics
+in *our* dimension we have to figure out something of its tactics in
+its *home* dimension:
+
+- It has very low intelligence, but it *does have* an intelligence
+  stat, so it's more than just a beast of pure instinct.
+- It doesn't *need* to feed (at least, by Earthly timescales), so it's
+  probably not an active hunter.
+- It's invisible, so it's probably an ambush hunter.
+- It has six tentacles, and can attack with all of them independently,
+  so when prey *are* present it probably tries to take them all out at
+  once.
+- It's pretty fast, so it can chase after any victims which escape.
+- It has a high **POW**, but doesn't know any spells, meaning it can
+  resist spells easily.
+
+So, the Fogspawn comes from a world of dark suns (or lives
+underground), waiting silently and invisibly in an out-of-the-way
+place for victims to approach, whereupon it grabs and starts choking
+the whole group (if no more than 6); if less than 6 approach it uses
+the left-over tentacles to restrain, starting with the biggest victim
+and working its way down.  After killing the victims it's currently
+holding, it can chase after any which escaped (or which it couldn't
+first grab), choking and killing them too.  But it won't chase very
+far if it's already made a kill, and it won't chase *before* killing
+the victims it's currently holding as that would risk losing them too.
+It then eats its fill, and sits around waiting for a few more
+centuries.
+
+This strategy would work in our dimension too, especially as we're not
+used to invisible tentacle monsters.  But there are two extra things
+it's got to contend with:
+
+- Its tentacles are very weak compared to human strength.
+
+  A tentacle has 25 **STR**, and the average investigator has 52.5.
+  So even when grappled by two tentacles, an investigator is still
+  slightly more likely to escape.
+
+  Prey in the Fogspawn's home dimension must be pretty weak if a
+  single tentacle is a viable threat, so it's used to being able to
+  just add a tentacle or two to restrain larger victims.  So as
+  investigators start breaking free, it'll concentrate its tentacles
+  on the largest one.  Only when that investigator is fully restrained
+  will it start grabbing the *smallest* one, recognising that these
+  victims are unusually strong.
+
+  It's possible that the Fogspawn normally only eats small animals and
+  suchlike, but in that case they wouldn't be a useful summoned
+  monster, as they'd have a natural aversion to bigger creatures (like
+  people).  No, it must be used to human-sized prey, and normally be
+  able to overpower them with one or two tentacles.
+
+- Bright light sends it back to its home dimension.
+
+  This could be a purely magical effect, relating to the means of
+  summoning it into our dimension, but in that case if a spellcaster
+  could overcome this one issue the Fogspawn would be totally
+  invulnerable!
+
+  No, I think it's more likely that bright light *hurts* the Fogspawn.
+  Enough bright light would kill it but, since it doesn't *need* to
+  feed, it has very little tolerance for pain and will retreat as soon
+  as it takes even a little damage.
+
+  Since the Fogspawn has a high **POW**, and cannot come back from its
+  native dimension unaided, it seems likely that this tactic is a
+  combination of an instinctive tactic (quickly fleeing from pain) and
+  magical effect (the Fogspawn is able to resist the summoning /
+  binding spell when desperate to retreat).
+
+The Fogspawn's **INT** is interesting: it's really low, so this is
+almost a beast of pure instinct, but it's smarter than, say, a dog.
+It has a miniscule chance of solving a puzzle, or doing some other
+reasoning-based task.
+
+I think that its intelligence isn't enough for it to significantly
+adjust its combat tactics---it's got one trick, and it works well in
+its home dimension---but it is enough to somewhat train it, and give
+it simple commands like to hunt down and attack a particular
+investigator.  Though I think it would have to do that hunting based
+on clearly apparent information, like colour or smell, and the
+Fogspawn would be easily confused by even changing your coat.  But
+this means that a Fogspawn is a viable guard, if you don't have any
+instructions more complex than "kill anyone not wearing robes."
+
+#### Combat tactics for Shantaks
+
+The Shantak is a large scaly bird bigger than an elephant with big
+claws at the end of its wings and a long tail.  They're commonly used
+as mounts, and can fly through interstellar space.
+
+Looking at its stats:
+
+- It's got 15 intelligence, which in human terms is a "slow learner,
+  able to undertake only the most basic math, or read beginner-level
+  books" - but that *does* mean it can evaluate its situation and
+  adjust if the tide turns against it, though it may not be able to
+  see through clever tactics.
+- It can soak up a lot of damage with its 31 HP and *9* armour -
+  revolvers and melee weapons are unlikely to harm it at all.
+- It's slow on the ground and fast flying, and has average dexterity;
+  so it's kind of lumbering when on the ground.
+- It's got a whopping 170 strength and `+4d6` damage bonus, it hits
+  *hard*.
+- It can hit with its claws and tail, but can't grab with them, so
+  it's likely not got very fine motor control.
+- They *don't* know any spells and, unlike the Fogspawn, they only
+  have average **POW**.
+
+And some of the flavour:
+
+- They live in cavernous holes.
+- They're loud.
+- They fear and retreat from Nightgaunts.
+
+So, I think the Shantaks naturally roost in vast caves, hanging from
+the ceiling like huge bats.  When coming out to hunt, they swoop down
+on their prey, relying on speed over surprise; and then pummel them
+into submission with their claws, tail, and jaws.  They'll then fly
+off with their victim held in their jaws.  If they realise they're in
+a poor position, they can quickly fly up and retreat, or just relocate
+to a different part of the battlefield.
+
+As they're accustomed to carrying riders, when summoned they'll defer
+to their summoner, but not to the point of seriously risking their
+life.  If reduced to 10HP or fewer they'll flee.
+
+One change I'm going to make is to its wing and tail bash attacks:
+since the Shantak is so large, I'll let these attacks hit two
+characters if they're close together, rather than just one.  A "bigger
+than an elephant" creature feels very small if it can only hit one
+thing at a time with its huge wings.
+
+#### Combat tactics for Edward Gavigan
+
+First and foremost, Gavigan values his own skin above all else.  But
+he also knows that, if in custody, strong evidence could lead to him
+spending life in jail.  So when he is weakened he will try to escape
+rather than surrender.
+
+When significantly wounded (7HP or fewer left):
+
+- If there is no Shantak or vehicle, he'll try to slip away
+  unfollowed.
+
+When majorly wounded (5HP or fewer left):
+
+- If there is a Shantak, he'll fly off on it.
+- Otherwise if there's a vehicle, he'll use it.
+- Otherwise he'll flee.
+
+His combat-useful spells are:
+
+- **Mindblast** (10MP; KR260): target loses 5 SAN and has a bout of
+  madness on failing an opposed POW roll.
+- **Pharaoh's Breath** (3MP; MoN#636): `1d8` damage (choking) to a
+  target and any stood next to them within 30m unless they dodge.
+- **Pharaoh's Wrath** (4MP; MoN#636): `1d6` damage (lightning) to a
+  target within 100m.
+- **Shrivelling** (vMP; KR262): target loses 1HP per MP spent on
+  failing an opposed POW roll.
+
+(Flesh Ward is not a combat-useful spell because it's way too slow).
+
+His combat-useful Pulp Talents are:
+
+- **Tough Guy**: spend 10 luck to shrug off 5 points of damage.
+- **Fleet Footed**: spend 10 luck to avoid being outnumbered for one
+  combat encounter.
+- **Look Out, Master!**: spend all luck (at least 30) to have a mook
+  take an otherwise fatal blow instead.
+
+Gavigan will tend to keep his distance and Pharaoh's Breath as his
+main offensive weapon, so long as he won't hit any of his allies, as
+it has the best expected damage-per-MP.  If the investigators are
+engaged with melee with Gavigan's goons, or are dodging the breath, he
+will switch to Shrivelling.  If he needs to hit someone far away he'll
+use Pharaoh's Wrath.  If he needs to hit someone up close he'll use a
+knife or saber (or even his magical sceptres as an improvised club).
+
+If things are turning against him and he needs to escape, he'll
+Mindblast as many of the investigators as he can before retreating, so
+the rest are too busy dealing with the bouts of madness to pursue.
+
+At a Grand Rite he will have his two sceptres, which, when held
+crossed in front of the body:
+
+- Once per day, grant 20 temporary MP.
+- Absorb `1d10` points of magical damage.
+
+Before a Grant Rite he will have cast Voice of Ra (6MP; MoN#638)
+enhancing his appearance to an almost otherworldly beauty and giving a
+bonus die to social skill rolls.
+
+At a Grand Rite he will throw his cultists and summoned monsters at
+the investigators, preferring to keep a greater distance.  He will
+ride a Shantak, if present, and use its melee attacks against any
+investigators who come too close.  If the Shantak would flee, instead
+Gavigan will make it travel further away: out of danger, but close
+enough to watch the battle.  If the Shantak, or Gavigan, seems in
+severe danger, he'll fly away.
+
+#### Henson Manufacturing
+
+- Gavigan suspects he will be followed, and hopes he is; this is bait.
+- At night there are two watchmen and one Fogspawn as guards.  The
+  Fogspawn knows the cultists and won't attack them.
+- The guards will attempt to capture the investigators, tie them up,
+  and bundle them into a van to be taken to Misr House for
+  interrogation and the upcoming ritual.
+  - They want all the investigators ideally, but will settle for only
+    some of them if need be.
+  - As soon as they're alerted to a break-in at night one guard will
+    run to the boarding house to fetch two more and Frank Marshall.
+  - If tied up in the van the investigators can roll to undo their
+    ropes: success means they did so stealthily, failure means they
+    did so but a guard noticed: begin combat!
+  - If in combat with some tied up investigators, let a random
+    investigator roll to escape their ties once a round.
+- By day the Fogspawn lives in the sewer, and won't come out for any
+  reason.
+
+#### Misr House
+
+- At night there are two Fogspawn acting as guards.  They know the
+  staff and the cult robes, so an investigator wearing robes is safe.
+- Inspector Barrington can bring 12 officers (mooks) for the raid.
+- The ritual will have 50 cultists (mooks), 10 high ranking cultists,
+  and summon 4 Shantaks.
+  - Depending on when in the ritual the investigators make themselves
+    known, many of the cultists might be too overcome by adoration to
+    immediately respond.
+- Barrington will be unwilling to intervene until something clearly
+  illegal is about to happen: there's no law against wearing weird
+  robes and chanting.
+  - Finding the captives or the torture room are also enough.
+
+### Notes
+
+- **18th of May**
+  - Follow Gavigan to Henson Manufacturing.
+  - Hear the War Office rumour, and that workers are tight-lipped +
+    well paid.
+  - Sneak in at night:
+    - Fight the Fogspawn, and drive it off with light.
+    - Kill one guard, subdue & tie up the other.
+    - Steal:
+      - The blueprints
+      - The originals
+      - The replicas
+    - Set the building on fire
+
+### Next time
+
+- **23rd of May**, the night of the New Moon.
+- Police raid on Misr House.
