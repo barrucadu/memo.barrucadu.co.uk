@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-05-08
+modified: 2021-05-28
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -37,12 +37,6 @@ thought, I settled on a list of *some* classics:
 
 | ISBN            | Title                                           | Author                               |
 |----------------:+-------------------------------------------------+--------------------------------------|
-| `1857988116`    | Cities in Flight                                | James Blish                          |
-| `1857988140`    | The Stars My Destination                        | Alfred Bester                        |
-| `1857988051`    | Babel-17                                        | Samuel R. Delany                     |
-| `1857988205`    | Lord of Light                                   | Roger Zelazny                        |
-| `1857988175`    | The Fifth Head of Cerberus                      | Gene Wolfe                           |
-| `1857988183`    | Gateway                                         | Frederik Pohl                        |
 | `1857988191`    | The Rediscovery of Man                          | Cordwainer Smith                     |
 | `1857988213`    | Earth Abides                                    | George R. Stewart                    |
 | `185798837X`    | Martian Time-Slip                               | Philip K. Dick                       |
@@ -365,6 +359,17 @@ Book Series
 
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
 
+### Candidate series
+
+- [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss)
+- [That Time I Got Reincarnated as a Slime](https://en.wikipedia.org/wiki/List_of_That_Time_I_Got_Reincarnated_as_a_Slime_volumes)
+- [Mars Trilogy](https://en.wikipedia.org/wiki/Mars_trilogy)
+- [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
+- [The Kharkanas Trilogy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#The_Kharkanas_Trilogy)
+- [Path to Ascendancy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Path_to_Ascendancy)
+- [Novels of the Malazan Empire](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Novels_of_the_Malazan_Empire)
+- [The Witness Trilogy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#The_Witness_Trilogy)
+
 ### Out of print
 
 I might have to give up on these and buy a different printing:
@@ -380,33 +385,6 @@ I might have to give up on these and buy a different printing:
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
-
-### Candidate series
-
-| Series                                    | ISBN            | Title                                           |
-|------------------------------------------:+----------------:+-------------------------------------------------|
-| [Liveship Traders][]                      | `9780008117450` | Ship of Magic                                   |
-|                                           | `9780008117467` | The Mad Ship                                    |
-|                                           | `9780008117474` | Ship of Destiny                                 |
-| [Made in Abyss][]                         | `9781626927735` | Volume 1                                        |
-|                                           | `9781626927742` | Volume 2                                        |
-|                                           | `9781626928275` | Volume 3                                        |
-|                                           | `9781626929197` | Volume 4                                        |
-|                                           | `9781626929920` | Volume 5                                        |
-|                                           | `9781642750942` | Volume 6                                        |
-|                                           | `9781642756982` | Volume 7                                        |
-|                                           | `9781645052173` | Volume 8                                        |
-| [Mars Trilogy][]                          | `9780007310166` | Red Mars                                        |
-|                                           | `9780007310173` | Green Mars                                      |
-|                                           | `9780007310180` | Blue Mars                                       |
-| [The Elric Saga][]                        | `9781534445680` | Elric of Melniboné                              |
-|                                           | `9781534445710` | Stormbringer                                    |
-|                                           | `9781534445741` | The White Wolf                                  |
-
-[Liveship Traders]: https://en.wikipedia.org/wiki/Liveship_Traders_Trilogy
-[Made in Abyss]: https://en.wikipedia.org/wiki/Made_in_Abyss
-[Mars Trilogy]: https://en.wikipedia.org/wiki/Mars_trilogy
-[The Elric Saga]: https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/
 
 
 Roleplaying Games
@@ -427,9 +405,6 @@ Roleplaying Games
 |              | [Microscope Explorer][]     | Ben Robbins                   |
 | Traveller    | [Traveller Core Rulebook][] | Mongoose Publishing           |
 |              | [Traveller Companion][]     | Mongoose Publishing           |
-|              | [The Pirates of Drinax][]   | Mongoose Publishing           |
-|              | [Shadows of Sindal][]       | Mongoose Publishing           |
-| Whitehack    | [Whitehack][]               | Christian Mehrstam            |
 
 [Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/
 [Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/
@@ -442,22 +417,21 @@ Roleplaying Games
 [Microscope Explorer]: http://www.lamemage.com/store.html
 [Traveller Core Rulebook]: https://www.mongoosepublishing.com/uk/traveller-core-rulebook.html
 [Traveller Companion]: https://www.mongoosepublishing.com/uk/traveller-companion.html
-[The Pirates of Drinax]: https://www.mongoosepublishing.com/uk/the-pirates-of-drinax.html
-[Shadows of Sindal]: https://www.mongoosepublishing.com/uk/shadowsofsindal.html.html
-[Whitehack]: https://whitehackrpg.wordpress.com/buy/
 
 ### Settings & Lore
 
-| Title                                   | Author                                      |
-|-----------------------------------------+---------------------------------------------|
-| Yoon-Suin                               | David McGrogan                              |
-| The Stygian Library                     | Emmy Allen                                  |
-| Guide to Glorantha                      | Greg Stafford, Jeff Richard, Sandy Petersen |
-| Ultraviolet Grasslands                  | Luka Rejec                                  |
-| Fungi of the Far Realms                 | Melsonian Arts Council                      |
-| Magical Industrial Revolution           | Skerples                                    |
-| Trilemma Adventures Compendium Volume I | Trilemma Adventures                         |
-| Lorn Song of the Bachelor               | Zedeck Siew                                 |
+| System      | Title                                   | Author                                      |
+|------------:+-----------------------------------------+---------------------------------------------|
+| Traveller   | The Pirates of Drinax                   | Mongoose Publishing                         |
+|             | Shadows of Sindal                       | Mongoose Publishing                         |
+| RuneQuest   | Guide to Glorantha                      | Greg Stafford, Jeff Richard, Sandy Petersen |
+| Generic OSR | Yoon-Suin                               | David McGrogan                              |
+|             | The Stygian Library                     | Emmy Allen                                  |
+|             | Ultraviolet Grasslands                  | Luka Rejec                                  |
+|             | Fungi of the Far Realms                 | Melsonian Arts Council                      |
+|             | Magical Industrial Revolution           | Skerples                                    |
+|             | Trilemma Adventures Compendium Volume I | Trilemma Adventures                         |
+|             | Lorn Song of the Bachelor               | Zedeck Siew                                 |
 
 ### Advice
 
@@ -475,9 +449,7 @@ Computer Science, Programming, + Digital Culture
 | ISBN            | Title                                                                       | Author                 |
 |----------------:+-----------------------------------------------------------------------------+------------------------|
 | `9780321842688` | Hacker's Delight                                                            | Henry S. Warren        |
-| `9781568842035` | UNIX-hater's Handbook                                                       | Garfinkel              |
 | `9780201835953` | The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition | Frederick P. Brooks Jr |
-| `9781449335946` | Parallel and Concurrent Programming in Haskell                              | Simon Marlow           |
 | `9781881526919` | Selected Papers on Computer Science                                         | Donald E. Knuth        |
 | `9780521513388` | Pearls of Functional Algorithm Design                                       | Richard Bird           |
 | `9780521663502` | Purely Functional Data Structures                                           | Chris Okasaki          |
@@ -512,12 +484,9 @@ Miscellaneous
 
 | ISBN            | Title                                                                | Author                |
 |----------------:+----------------------------------------------------------------------+-----------------------|
-| `9781974717477` | Remina                                                               | Junji Ito             |
 | `9780356506142` | The Wheel of Time Companion                                          | Robert Jordan         |
 | `9780199549740` | The Old English Baron                                                | Clara Reeve           |
 | `9780343546373` | An Encyclopædia Of Occultism                                         | Lewis Spence          |
-| `9781614982173` | Lovecraft's Library: A Catalogue (Fourth Revised Edition)            | S. T. Joshi           |
-| `9780262528917` | Building Successful Online Communities: Evidence-Based Social Design | Ribert E. Kraut       |
 | `9781447263401` | Last Days                                                            | Adam Nevill           |
 | `9780765318145` | Anvil of Stars                                                       | Greg Bear             |
 | `9780586217467` | The Mote in God's Eye                                                | Larry Niven           |
@@ -551,10 +520,8 @@ Miscellaneous
 | `0749386428`    | The Magic Mountain                                                   | Thomas Mann           |
 | `9780007528417` | The Space Trilogy                                                    | C. S. Lewis           |
 | `9780374175412` | Infinite Detail                                                      | Tim Maughan           |
-| `9781878580351` | The Beak Doctor: Short Fiction 1972-1976                             | Eric Basso            |
 | `9780553382914` | The Etched City                                                      | K. J. Bishop          |
 | `9781590176689` | The Black Spider                                                     | Jeremias Gotthelf     |
-| `9780553383157` | Viriconium                                                           | M. John Harrison      |
 | `9780947757984` | Malpertuis                                                           | Jean Ray              |
 | `9781596061330` | The Best of Lucius Shepard                                           | Lucius Shepard        |
 | `9780743417358` | Weaveworld                                                           | Clive Barker          |
