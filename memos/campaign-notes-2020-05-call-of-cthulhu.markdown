@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-05-19
+modified: 2021-06-06
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -3846,7 +3846,7 @@ severe danger, he'll fly away.
 - At night there are two Fogspawn acting as guards.  They know the
   staff and the cult robes, so an investigator wearing robes is safe.
 - Inspector Barrington can bring 12 officers (mooks) for the raid.
-- The ritual will have 50 cultists (mooks), 10 high ranking cultists,
+- The ritual will have 40 cultists (mooks), 10 high ranking cultists,
   and summon 4 Shantaks.
   - Depending on when in the ritual the investigators make themselves
     known, many of the cultists might be too overcome by adoration to
@@ -3875,3 +3875,83 @@ severe danger, he'll fly away.
 
 - **23rd of May**, the night of the New Moon.
 - Police raid on Misr House.
+
+
+MoN England session 7, 2021-06-06
+---------------------------------
+
+### Recap
+
+Who wants to give it?
+
+### Prep
+
+#### Gaining access to the estate
+
+- Begin with the investigators and police concealed in the trees and
+  swamp, looking at the stone wall with the 4 cult guards.  The gate
+  is open, but the guards are talking to anyone who comes through.
+  There's a small guardhouse with a telephone to the manor.
+- From the aerial photographs, the gang know that beyond the gate is a
+  river and a bridge.  The surrounding terrain is dense forest, swamp,
+  and small rivers.
+- When the ritual is due to begin (at midnight), the gate will be
+  locked and the guards leave.
+- There's an old rowboat on the mainland side of the river, if they
+  search for another entry point.
+
+#### Rooms of interest
+
+Ensure they search!  Have Inspector Barrington suggest searching the
+house while everyone is distracted outside.
+
+- **Great Hall:** two fireplaces, each hiding a secret entrance: one
+  to an Elizabethian priest hole, one to Gavigan's workroom.
+  - The first hidden door they find is to the workroom.
+  - Hint there's a secret by saying the room is very dusty, but
+    there's a trail through the dust to the fireplace.
+  - If the gang arrive late (eg, they waited for the guards to leave
+    the gate) they may see captives being removed.
+- **Servant's Quarters:** one has lots of spare robes.
+- **Master Bedroom:** various neat items and another marine
+  chronometer.
+  - If the gang arrive early Gavigan will be here getting ready.
+- **Gavigan's Workroom:** lots of strange items.
+- **Dungeon:** three captives from London.
+  - If the gang arrive late, the captives might be gone (or be being
+    taken!)
+
+#### The ritual
+
+- See notes for previous section
+
+### Notes
+
+- **23rd of May**
+  - Find the boat and sneak onto the island
+  - Drive off the fogspawn
+  - Find a cult bat (Inspector Barrington *very* interested)
+  - Spot the gathering at the obelisk, go back to the house
+  - Find the hidden workroom
+  - Find the captives in the dungeon
+    - Send them with Inspector Barrington and some officers to
+      Walton-on-the-Naze, who will call for backup
+  - Find the spare cult robes
+  - Spot Gavigan
+  - Kints goes to Naze Tower ready to contact Nodens if shit gets real
+  - Cassie, Lawrence, Rosalind, and remaining officers participate in the ritual
+    - Manage to be sufficiently disguised and stealthy to not be noticed
+    - Backup police zeppelin arrives: shantaks take it down, it blows up
+    - Kints spots the fire, contacts Nodens
+      - He says he's no friend of Nyarlathotep and will help this one time without a price
+      - Shantaks get struck by lightning
+    - Gavigan escapes somewhere
+    - The gang escape, Cassie dragging the newly-mad
+- **24th of May**
+  - Thoroughly search the rest of the manor
+
+### Next time
+
+- Handle tracking down Gavigan as an asynchronous chase over chat
+- Godbound!
+- Shanghai!
