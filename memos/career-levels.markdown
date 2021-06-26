@@ -1,6 +1,6 @@
 ---
 title: Career Levels
-date: 2021-04-05
+date: 2021-06-26
 taxon: self
 ---
 
@@ -74,7 +74,8 @@ I've used the following abbreviations below:
   - upgrading Elasticsearch 2 to 5,
   - productionising Tensorflow Ranking.
 - [GOV.UK accounts][], specifically:
-  - monitoring and scaling.
+  - monitoring and scaling,
+  - service level objectives (SLOs).
 
 #### Practitioner (M3, M4, M5)
 
@@ -101,6 +102,8 @@ No evidence.
 > You can identify process optimisation opportunities with guidance
 > and contribute to the implementation of proposed solutions.
 
+- [GOV.UK support][], specifically:
+  - developing a tool to generate the support rota.
 - [GOV.UK accounts][], specifically:
   - the testing strategy.
 
@@ -112,7 +115,8 @@ No evidence.
 > establish requirements for the implementation of changes by setting
 > policy and standards.
 
-No evidence.
+- [GOV.UK accounts][], specifically:
+  - service level objectives (SLOs).
 
 #### Expert (M5)
 
@@ -155,6 +159,8 @@ No evidence.
 > mitigation against security threats as a core part of the solutions
 > and services.
 
+- [GOV.UK practices][], specifically:
+  - IT healthchecks (pentests).
 - [GOV.UK accounts][], specifically:
   - collaboration with cybersecurity colleagues & the [NCSC][],
   - collaboration with privacy colleagues,
@@ -276,7 +282,8 @@ See evidence for Practitioner.
 > You will know when to use a specific prototyping technique or
 > method.  You can show the value of prototyping to your team.
 
-See evidence for Practitioner.
+- [Ph.D][], specifically:
+  - prototyping and developing a new testing tool for concurrent Haskell.
 
 #### Practitioner (D2, D3, D4, M3, M4)
 
@@ -329,7 +336,8 @@ See evidence for Practitioner.
   - maintaining internet-connected infrastructure.
 - [GOV.UK support][], specifically:
   - being on the in-hours support rota,
-  - being on the on-call support rota.
+  - being on the on-call support rota,
+  - developing a tool to generate the support rota.
 - [GOV.UK accounts][], specifically:
   - responding to reported vulnerabilities.
 
@@ -543,12 +551,15 @@ See evidence for IC3.
 > Expert in our processes, also helping to define them. Keeps tests up
 > to date.
 
-- Some example PRs:
+- Some example PRs from GOV.UK:
   - [Add 'attachments' and 'featured_attachments' fields to content items](https://github.com/alphagov/whitehall/pull/5353)
   - [Use lazy enumerators in LTR training data generation](https://github.com/alphagov/search-api/pull/1903)
   - [Add HTTP endpoint to fetch bigquery data, generate SVM files, and upload to S3](https://github.com/alphagov/search-api/pull/1881)
   - [Switch to the account-api attribute endpoints & remove OAuth / OIDC code](https://github.com/alphagov/finder-frontend/pull/2459)
   - [Remove detect-secrets](https://github.com/alphagov/govuk-account-manager-prototype/pull/613)
+  - [Fix subscriber lists report tests using a too-old date](https://github.com/alphagov/email-alert-api/pull/1637)
+  - [Add an endpoint to authenticate a subscriber using a GOV.UK Account](https://github.com/alphagov/email-alert-api/pull/1638)
+  - [Add smoke tests for signing in to the GOV.UK account](https://github.com/alphagov/smokey/pull/833)
 
 #### IC4
 
@@ -576,10 +587,11 @@ See evidence for IC3.
 
 > Writes meaningful code reviews.
 
-- Some example PRs:
+- Some example PRs from GOV.UK:
   - [Add GOV.UK sessions](https://github.com/alphagov/frontend/pull/2668)
   - [Update Learning to Rank documentation](https://github.com/alphagov/search-api/pull/2029)
   - [Learning To Rank](https://github.com/alphagov/search-api/pull/1768)
+  - [Single content notifications](https://github.com/alphagov/email-alert-api/pull/1640)
 
 #### IC4
 
@@ -850,7 +862,8 @@ See evidence for IC2 & IC3.
 > operations and monitoring.
 
 - [GOV.UK accounts][], specifically:
-  - monitoring and alerting.
+  - monitoring and alerting,
+  - service level objectives (SLOs).
 
 #### IC3
 
@@ -880,7 +893,8 @@ See evidence for IC2 & IC3.
 
 - [GOV.UK accounts][], specifically:
   - use of CI and CD,
-  - monitoring and alerting.
+  - monitoring and alerting,
+  - service level objectives (SLOs).
 
 #### IC4
 
@@ -1173,6 +1187,8 @@ See evidence for IC3 & IC4.
 
 - [Ph.D][], specifically:
   - developing a new testing tool for concurrent Haskell.
+- [GOV.UK accounts][], specifically:
+  - running a discussion on testing practices.
 
 #### IC4
 
@@ -1184,7 +1200,6 @@ See evidence for IC3 & IC4.
   - participating in a regular Tech Debt Review.
 - [GOV.UK accounts][], specifically:
   - building consensus with ADRs and RFCs,
-  - running a discussion on testing practices,
   - I am the tech lead.
 
 #### IC5
@@ -1275,8 +1290,8 @@ See evidence for IC2.
 
 > Analyzes and improves upon interview and onboarding practices.
 
-No evidence yet.  I have been interview trained, but not sat on any
-panels yet.
+No evidence.  I have been interview trained, but not sat on any panels
+yet.
 
 #### IC5
 
@@ -1438,6 +1453,7 @@ Evidence
   - [User research](career-levels.html#user-research)
 - [GOV.UK support][]
   - [Dealing with incidents](career-levels.html#dealing-with-incidents)
+  - [Generating the rota](career-levels.html#generating-the-rota)
   - [Reviewing documentation](career-levels.html#reviewing-documentation)
 - [GOV.UK platform health][]
   - [Load testing](career-levels.html#load-testing)
@@ -1454,6 +1470,7 @@ Evidence
   - [Pair working](career-levels.html#pair-working)
   - [Prototyping](career-levels.html#prototyping-1)
   - [Security and privacy](career-levels.html#security-and-privacy)
+  * [Service level objectives (SLOs)](career-levels.html#service-level-objectives-slos)
   - [Testing practices](career-levels.html#testing-practices)
 
 [Personal experience]: career-levels.html#personal-experience
@@ -1657,6 +1674,13 @@ just individual contributions:
 - I am on the [GOV.UK support](career-levels.html#gov.uk-support)
   rotas.
 
+I have also helped out with GOV.UK's regular IT healthcheck (pentest),
+working with external pentesters by:
+
+- giving them the access they need,
+- answering technical questions,
+- reviewing discovered issues.
+
 #### Tech practices
 
 GOV.UK is built out of Rails microservices, and there are some
@@ -1730,6 +1754,16 @@ I have also been a Comms Lead, the developer tasked with updating
 non-technical stakeholders, some of whom are in other parts of
 Government, and with drafting the incident report to form the basis
 for discussion at the incident review.
+
+#### Generating the rota
+
+I wrote a tool, based on [integer linear programming][], to generate
+the in-hours and on-call support rotas, as producing these by hand
+used to take the delivery manager overseeing support hours of manual
+work.  The tool has gone through multiple iterations as the rota
+requirements have changed, and is still in use over two years later.
+
+[integer linear programming]: https://en.wikipedia.org/wiki/Linear_programming#Integer_unknowns
 
 #### Reviewing documentation
 
@@ -1950,10 +1984,13 @@ auto-scaling, involving:
 - exporting our application logs to [Splunk][],
 - setting up [additional logging][] of relevant events.
 
+See also my comments on [service level objectives (SLOs)][].
+
 [Prometheus]: https://prometheus.io/
 [Grafana]: https://grafana.com/
 [Splunk]: https://www.splunk.com/
 [additional logging]: https://github.com/alphagov/govuk-account-manager-prototype/pull/491
+[service level objectives (SLOs)]: career-levels.html#service-level-objectives-slos
 
 #### Pair working
 
@@ -2017,13 +2054,42 @@ subject identifier behind a pairwise one, so that different services
 can retrieve data on the same user, even though they each know the
 user under a different identifier.
 
-GOV.UK has a quarterly IT Healthcheck (pentest).  This identified
+GOV.UK has a quarterly IT healthcheck (pentest).  This identified
 issues in our code, which I worked to resolve, or to mitigate where
 full resolution was not possible.  I also received a report, from an
 ex-GOV.UK colleague, of an authentication vulnerability which I fixed.
 
 [NCSC]: https://www.ncsc.gov.uk/
 [pairwise subject identifiers]: https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg
+
+#### Service level objectives (SLOs)
+
+GOV.UK does not have an SLO culture, our alerting thresholds are
+almost entirely set by developers with little input from, or
+understanding by, non-technical colleagues.
+
+For this team, I decided to work with the product and delivery
+managers to introduce, and get buy-in for, some basic SLIs and SLOs
+around latency and availability for the personalisation microservice
+we are developing.
+
+I wrote an SLO document, detailing:
+
+- our SLIs, and why they are good indicators of user experience,
+- our SLOs, and why we should use those thresholds,
+- our error budget policy,
+- our review policy for this document.
+
+GOV.UK can be no more reliable than the services which make it up, so
+if personalisation is going to spread to more and more of GOV.UK, it's
+important that the mechanism for personalisation is reliable.  As this
+is a new team working on a new area, I thought it a good chance to
+adopt a more modern approach to monitoring and alerting than just
+using traditional machine metrics.
+
+Since writing the SLO document, other teams have expressed interest in
+the approach, and there is some appetite for rolling out SLOs across
+GOV.UK as a whole.
 
 #### Testing practices
 
