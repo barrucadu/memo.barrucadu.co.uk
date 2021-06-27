@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-05-28
+modified: 2021-06-27
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -390,50 +390,30 @@ I might have to give up on these and buy a different printing:
 Roleplaying Games
 -----------------
 
-### Game systems and supplements
+| System    | Type                   | Title                                         |
+|----------:|-----------------------:|-----------------------------------------------|
+| RuneQuest | Sourcebooks            | The Guide to Glorantha                        |
+| Traveller | Core Rulebooks         | High Guard                                    |
+|           |                        | Central Supply Catalogue                      |
+|           |                        | Vehidle Handbook                              |
+|           | Sourcebooks            | The Great Rift                                |
+|           |                        | Behind the Claw                               |
+|           |                        | Aliens of Charted Space vol. 2                |
+|           |                        | Journal of the Traveller's Aid Society vol. 1 |
+|           |                        | Journal of the Traveller's Aid Society vol. 2 |
+|           |                        | Journal of the Traveller's Aid Society vol. 3 |
+|           |                        | Journal of the Traveller's Aid Society vol. 4 |
+|           |                        | Journal of the Traveller's Aid Society vol. 5 |
+|           |                        | Journal of the Traveller's Aid Society vol. 6 |
+|           | Adventures & Campaigns | Shadows of Sindal                             |
+| OSR       | Sourcebooks            | Yoon-Suin                                     |
+|           |                        | Fungi of the Far Realms                       |
+|           |                        | Magical Industrial Revolution                 |
+|           |                        | Trilemma Adventures Compendium Volume I       |
+|           |                        | Lorn Song of the Bachelor                     |
+|           |                        |                                               |
 
-| System       | Title                       | Author                        |
-|-------------:+-----------------------------+-------------------------------|
-| Mythras      | [Mythras][]                 | Pete Nash & Lawrence Whitaker |
-|              | [Mythras Companion][]       | Pete Nash et al.              |
-| Ars Magica   | [Ars Magica][]              | Atlas Games                   |
-|              | [Covenants][]               | Atlas Games                   |
-|              | [The Mysteries][]           | Atlas Games                   |
-|              | [Lords of Men][]            | Atlas Games                   |
-|              | [The Church][]              | Atlas Games                   |
-| Microscope   | [Microscope][]              | Ben Robbins                   |
-|              | [Microscope Explorer][]     | Ben Robbins                   |
-| Traveller    | [Traveller Core Rulebook][] | Mongoose Publishing           |
-|              | [Traveller Companion][]     | Mongoose Publishing           |
-
-[Mythras]: http://www.aeongamespublishing.co.uk/product/mythras-core-rules/39121/
-[Mythras Companion]: http://www.aeongamespublishing.co.uk/product/mythras-companion/94483/
-[Ars Magica]: https://www.atlas-games.com/product_tables/AG0205
-[Covenants]: https://www.atlas-games.com/product_tables/AG0280
-[The Mysteries]: https://www.atlas-games.com/product_tables/AG0279
-[Lords of Men]: https://www.atlas-games.com/product_tables/AG0293
-[The Church]: https://www.atlas-games.com/product_tables/AG0296
-[Microscope]: http://www.lamemage.com/store.html
-[Microscope Explorer]: http://www.lamemage.com/store.html
-[Traveller Core Rulebook]: https://www.mongoosepublishing.com/uk/traveller-core-rulebook.html
-[Traveller Companion]: https://www.mongoosepublishing.com/uk/traveller-companion.html
-
-### Settings & Lore
-
-| System      | Title                                   | Author                                      |
-|------------:+-----------------------------------------+---------------------------------------------|
-| Traveller   | The Pirates of Drinax                   | Mongoose Publishing                         |
-|             | Shadows of Sindal                       | Mongoose Publishing                         |
-| RuneQuest   | Guide to Glorantha                      | Greg Stafford, Jeff Richard, Sandy Petersen |
-| Generic OSR | Yoon-Suin                               | David McGrogan                              |
-|             | The Stygian Library                     | Emmy Allen                                  |
-|             | Ultraviolet Grasslands                  | Luka Rejec                                  |
-|             | Fungi of the Far Realms                 | Melsonian Arts Council                      |
-|             | Magical Industrial Revolution           | Skerples                                    |
-|             | Trilemma Adventures Compendium Volume I | Trilemma Adventures                         |
-|             | Lorn Song of the Bachelor               | Zedeck Siew                                 |
-
-### Advice
+### Miscellaneous
 
 | ISBN            | Title                                                          | Author                   |
 |----------------:+----------------------------------------------------------------+--------------------------|
