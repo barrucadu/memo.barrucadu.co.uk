@@ -2,7 +2,7 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2021-05-02
+modified: 2021-06-30
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -57,7 +57,6 @@ Generally I only buy studio albums.
 - Belus
 - Fallen
 - The Ways of Yore
-- Thulêan Mysteries
 
 ### [Cradle Of Filth](https://en.wikipedia.org/wiki/Cradle_of_Filth_discography)
 
@@ -66,7 +65,6 @@ Generally I only buy studio albums.
 - Nymphetamine
 - Thornography
 - Hammer of the Witches
-- Cryptoriana – The Seductiveness of Decay
 
 ### [Dark Sanctuary](https://en.wikipedia.org/wiki/Dark_Sanctuary#Discography)
 
@@ -112,6 +110,17 @@ Generally I only buy studio albums.
 ### [GUNSHIP](https://en.wikipedia.org/wiki/Gunship_(band)#Discography)
 
 - Dark All Day
+
+### [The Lord Weird Slough Feg](https://en.wikipedia.org/wiki/Slough_Feg)
+
+- The Lord Weird Slough Feg
+- Twilight of the Idols
+- Down Among the Deadmen
+- Hardworlder
+- The Slay Stack Grows
+- Ape Uprising!
+- The Animal Spirits
+- Made in Poland
 
 ### [Mortiis](https://en.wikipedia.org/wiki/Mortiis#Discography)
 
@@ -216,6 +225,8 @@ Generally I only buy studio albums.
 
 Artists I have no CDs of
 ------------------------
+
+**This needs reviewing.**
 
 Rather than list every CD of every artist in this list, here's just
 the artists:
