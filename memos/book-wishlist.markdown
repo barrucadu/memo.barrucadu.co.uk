@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-06-27
+modified: 2021-07-05
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -393,18 +393,8 @@ Roleplaying Games
 | System    | Type                   | Title                                         |
 |----------:|-----------------------:|-----------------------------------------------|
 | RuneQuest | Sourcebooks            | The Guide to Glorantha                        |
-| Traveller | Core Rulebooks         | High Guard                                    |
-|           |                        | Central Supply Catalogue                      |
-|           |                        | Vehidle Handbook                              |
-|           | Sourcebooks            | The Great Rift                                |
+| Traveller | Sourcebooks            | The Great Rift                                |
 |           |                        | Behind the Claw                               |
-|           |                        | Aliens of Charted Space vol. 2                |
-|           |                        | Journal of the Traveller's Aid Society vol. 1 |
-|           |                        | Journal of the Traveller's Aid Society vol. 2 |
-|           |                        | Journal of the Traveller's Aid Society vol. 3 |
-|           |                        | Journal of the Traveller's Aid Society vol. 4 |
-|           |                        | Journal of the Traveller's Aid Society vol. 5 |
-|           |                        | Journal of the Traveller's Aid Society vol. 6 |
 |           | Adventures & Campaigns | Shadows of Sindal                             |
 | OSR       | Sourcebooks            | Yoon-Suin                                     |
 |           |                        | Fungi of the Far Realms                       |
