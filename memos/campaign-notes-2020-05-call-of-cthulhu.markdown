@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-06-06
+modified: 2021-07-08
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -98,7 +98,7 @@ MoN Lore
 
 ### Score
 
-**Total: 5 points---The Horror Averted.**
+**Total: 6 points---The Horror Averted.**
 
 #### America
 
@@ -116,111 +116,19 @@ MoN Lore
 - The marine chronometer is destroyed or tampered with: **deduct 1
   point.**
 
-### Cosmology
+#### England
 
-*This is a combination of Malazan magic and Cthulhu cosmology.*
+**Total: 1 points.**
 
-There is a physical world of houses and cars, planets and stars.
-Inhabited by animals, humans, aliens, and all living things.  You are
-here.
-
-Coterminous with the physical world, and yet separate to it, are a
-multitude of other realms, called warrens.  Spirit worlds, you could
-say.  Other dimensions.  Other planes.  These are the realms which
-magic comes from and which gods inhabit.
-
-Some warrens represent primal, elemental, forces.  These were formed
-out of the primal chaos of the early multiverse, and are called Elder
-Warrens.
-
-The Necronomicon speaks of:
-
-- **Denaeth Rusen:** water (or non-solid matter in general)
-- **Kaschan:** gravity
-- **Kurald Galain:** darkness
-- **Kurald Thyrllan:** light
-- **Kurald Emurlahn:** shadow
-- **Omtose Phellack:** ice (or the absence of heat in general)
-- **Starvald Demelain:** life
-- **Telann:** fire (or heat in general)
-
-Each Elder Warren is ruled by an Elder God, a being with absolute
-power over what its warren governs.
-
-Only some of the Elder Gods are known:
-
-- **Denaeth Rusen:** Nodens, the Lord of the Great Abyss
-- **Kurald Galain:** Nyarlathotep, the God of a Thousand Forms
-- **Starvald Demelain:** Shub-Niggurath, the Black Goat of the Woods with a Thousand Young
-- **Telann:** Cthugha, the Living Conflagration
-
-Some warrens are younger, hewn out of the Elder Warrens by great
-sorcerors and their rituals.  They are the most common way for magic
-to be accessed by mortal beings.  These are called Paths.
-
-The Necronomicon speaks of:
-
-- **Meanas:** illusion
-- **Mockra:** mind
-- **Ruse:** the sea
-- **Serc:** the sky
-- **Tennes:** the land
-- **Verdith'anan:** death
-
-The King in Yellow, also called Hastur, once a mortal (though not
-human) sorceror, holds the thrones of both Meanas and Mockra.
-
-In addition there are Paths representing the same power as an Elder
-Warren, but not directly a part of the same other-world:
-
-- **Rashan:** darkness
-- **Telas:** fire
-- **Thyr:** light
-
-A warren is simultaneously another world---which can be travelled to
-and journeyed through---and power over some aspect of the physical
-world.  For example, Withering is an application of Verdith'anan, the
-Path of Death.  The warrens move around relative to the physical world
-and to each other, such that if a sorceror opens a gateway into a
-warren, steps through, waits, and steps back out, they may end up in a
-different place to where they started.  Magic is used by opening a
-gateway to a warren and drawing some of its power through.
-
-It is rumoured that a warren can be "unveiled", a permanent
-manifestation such that some region of the physical world becomes just
-as much a part of the warren.
-
-Each Path is connected to the Elder Warren it splintered from.  In
-turn, each Elder Warren is connected to Chaos, the primal force of the
-early universe, the source of all things, ruled over by the Elder God
-Azathoth.  Mercifully, Azathoth is an idiot god in truth, and does not
-often exercise His power over all existence.
-
-But Azathoth is not quite the end.
-
-Beyond Azathoth, beyond Chaos, is Yog-Sothoth, the All-in-One and
-One-in-All, the Gate and the Key, the god who reaches across not just
-space and time, who steps between not just every warren in our
-multiverse, but even between the multiverses themselves.  Pray there
-is nothing beyond even Yog-Sothoth.
-
-#### So what?
-
-Kurald Galain has difficulty manifesting where the influence of Kurald
-Thyrllan is present, without large rituals.  Magic and creatures can
-slip through, but a god is much more a part of their warren than is a
-creature which lives there.  So Nyarlathotep cannot step from Kurald
-Galain into the physical world, where Kurald Thyrllan is active.
-
-This is why Nyarlathotep has to work through visions, dreams, and
-manifestations in sanctified places (like the Bent Pyramid).
+- Edward Gavigan, Zahra Shafik, and the London Brotherhood of the
+  Black Pharaoh are eliminated: **1 point.**
 
 ### Character motivations
 
 #### Gods
 
-- **Nyarlathotep:** to create a permanent unveiling of Kurald Galain,
-  giving a gateway between his elder warren and the physical world.
+- **Nyarlathotep:** to create a permanent gateway between the stars,
+  allowing travel between Earth and more distant realms.
 
 - **Nodens:** the desire to mess up Nyarlathotep's plans, consequences
   be damned.
@@ -2165,7 +2073,7 @@ who pass:
 America!
 
 
-Break 1: Traveller, 2020-09-06
+Break 1: Traveller
 ------------------------------
 
 I ran a Traveller one-shot based on the classic Annic Nova scenario.
@@ -2731,12 +2639,12 @@ a chair and looking terrified.
   - Doors on the upper landing lead to rooms with exterior windows
 
 
-Break 2: Magister Lor, 2020-11-29
+Break 2: Magister Lor
 ---------------------------------
 
 Yuyu ran a game of Magister Lor.
 
-Break 3: Lord Scurlock, 2020-12-13
+Break 3: Lord Scurlock
 ----------------------------------
 
 Pets ran a game of Lord Scurlock.
@@ -3091,7 +2999,7 @@ The gang has:
 - All the cults are aware of the gang and what they did in America
 
 
-Break 4: Troika, 2021-03-07
+Break 4: Troika
 ---------------------------
 
 I ran a Troika one-shot using the Gardens of Ynn and a heist.
@@ -3955,3 +3863,88 @@ house while everyone is distracted outside.
 - Handle tracking down Gavigan as an asynchronous chase over chat
 - Godbound!
 - Shanghai!
+
+
+Break 5: Godbound
+-------------------------------
+
+I ran a Godbound one-shot with the players assaulting the stronghold
+of an evil wizard.
+
+
+MoN Interlude 1
+---------------
+
+Between England session 7 and China session 1, done asynchronously
+over chat.  The players could set off immediately on the 22-day voyage
+to Shanghai, and roll as Detective Inspector John Craig (as in the
+book, but also with Intimidate 45) or Lawrence Vane (if he's staying
+behind); or stay behind and participate in the investigation.
+
+Staying behind to participate delays the Shanghai departure by 3 days
+for each skill check.
+
+If the gang stay in England for the maximum amount of time (*i.e.*,
+attempt all the rolls), Rachel gets 1d3 bonus Sanity points for being
+able to spend more time in the hospital.
+
+Having Lord Vane in their debt gives a bonus die to one check.
+
+The checks:
+
+1. At least one of:
+   1. Find out about Gavigan's plans, for example, by:
+      - Interrogating a captured cultist
+      - Questioning his associates
+      - Searching his properties for clues
+
+   2. Look for unusual activity by the Penhew Foundation, for example, by:
+      - Combing through records and accounts
+      - Watching the building
+
+   **On double success:** as on success, but the gang get a bonus die to use in a later check.
+
+   **On success:** the gang learn about the Limehouse Docks connection.
+
+   **On double failure:** the trail is cold, he's lost in the confusion of that night.
+
+2. **Optional:** Find out what's going on at the docks, for example, by:
+   - Questioning the locals
+   - Questioning the owner
+   - Spying on the building
+   - Breaking in and searching
+
+   **On success:** the gang learn about the Ivory Wind and its illicit cargo supplied by the Penhew Foundation, check #3 is **normal**.
+
+   **On failure:** the gang raise suspicious, which make it back to Gavigan, and get a penalty die on a later check.
+
+   **On skip:** check #3 is **hard** difficulty because of Gavigan's social standing.
+
+3. Convince a judge that Gavigan is a menace to society and needs locking up, for example, by:
+   - Showing clear evidence of wrongdoing by Gavigan
+   - Showing clear evidence of wrongdoing by the Penhew Foundation
+   - Arguing that, even without clear evidence of wrongdoing, Gavigan is very suspicious
+
+   **On success:** the gang get a warrant.
+
+   **On failure:** the gang don't get a warrant; they can bring Gavigan in for questioning, but can't arrest him.
+
+4. Capture Gavigan at the Limehouse Docks, for example, by:
+   - Seeing through the disguise he travels in
+   - Subduing the staff beforehand
+   - Intimidating Captain Torvak into helping you
+
+   **On success:** Gavigan is taken into custody!  If a warrant wasn't granted, Gavigan's very well paid lawyers prevent you from questioning him, and he gets out a few days later.
+
+   **On failure:** Gavigan makes his getaway!
+
+### Result
+
+Successfully caught Gavigan, having made all the rolls (spending 15
+days), so the gang will arrive in Shanghai on the 30th of June.
+
+
+MoN China session 1, 2021-07-18
+-------------------------------
+
+Watch this space!
