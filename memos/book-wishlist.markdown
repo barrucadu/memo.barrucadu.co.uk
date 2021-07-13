@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-07-05
+modified: 2021-07-13
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -393,7 +393,8 @@ Roleplaying Games
 | System    | Type                   | Title                                         |
 |----------:|-----------------------:|-----------------------------------------------|
 | RuneQuest | Sourcebooks            | The Guide to Glorantha                        |
-| Traveller | Sourcebooks            | The Great Rift                                |
+| Traveller | Sourcebooks            | The Glorious Empire                           |
+|           |                        | The Great Rift                                |
 |           |                        | Behind the Claw                               |
 |           | Adventures & Campaigns | Shadows of Sindal                             |
 | OSR       | Sourcebooks            | Yoon-Suin                                     |
