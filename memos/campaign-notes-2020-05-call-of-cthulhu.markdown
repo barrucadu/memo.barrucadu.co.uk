@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-07-08
+modified: 2021-07-21
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -130,8 +130,7 @@ MoN Lore
 - **Nyarlathotep:** to create a permanent gateway between the stars,
   allowing travel between Earth and more distant realms.
 
-- **Nodens:** the desire to mess up Nyarlathotep's plans, consequences
-  be damned.
+- **Nodens:** to maintain the celestial balance.
 
 #### Major cult leaders
 
@@ -174,6 +173,10 @@ sociopaths, only seeing other people as tools.
 
 - **Zahra Shafik:** loyalty to Omar, and the desire to wrest control
   of the branch cult from Edward.
+
+#### Other
+
+- **Penelope Temple:** to get the Seven Cryptical Books of Hsan.
 
 ### Travel times (days) & costs ($)
 
@@ -3944,7 +3947,197 @@ Successfully caught Gavigan, having made all the rolls (spending 15
 days), so the gang will arrive in Shanghai on the 30th of June.
 
 
-MoN China session 1, 2021-07-18
+MoN China session 1, 2021-07-21
 -------------------------------
 
-Watch this space!
+### Recap
+
+> You've arrived in Shanghai, after an eventful couple of months in
+> England.  You followed the trail from New York and the Australian
+> desert to Edward Gavigan, the protege of Aubrey Penhew and now
+> director of the Penhew Foundation.  You found that he was mixed up
+> in some culty business with the Brotherhood of the Black Pharaoh,
+> and was receiving ancient alien technology from Robert Huston in
+> Australia, reverse engineering it in a factory in Derby, and sending
+> replicas to Ho Fang Import/Export in Shanghai.
+>
+> Your actions in Australia and England have massively delayed the
+> cults' plans.  Can they even complete their work in time for the
+> solar eclipse they intend to use?  It's starting to look unlikely.
+> But what's to stop them trying again in the future?  You haven't put
+> a permanent solution in place yet.
+>
+> You know that Aubrey Penhew is alive, and in Shanghai.  So is Jack
+> Brady, though Brady seems to be opposing the cults.  Huston's crazed
+> manuscript talked about both the Mountain of the Black Wind and Gray
+> Dragon Island.  The Mountain is in Kenya, but where's the Island?
+>
+> It's now the 30th of June.  Good luck!
+
+### England Rewards
+
+- For eliminating Edward Gavigan: `1d6` SAN
+- For eliminating Zahra Shafik: `1d4` SAN
+- For breaking up the Brotherhood: `1d4` SAN
+- For defeating some Mythos monsters: `2d6` SAN
+- Rachel's stay in care: `3d3` SAN and makes a SAN roll to try to cure her indefinite insanity
+- 10 Luck
+
+### Prep
+
+#### Nodens
+
+Nodens is like a Discworld auditor.  What does he want?  Rocks moving
+in circles around larger rocks.  What's his opinion regarding
+Nyarlathotep?  Disapproval, because Nyarlathotep is an agent of chaos.
+
+Does Nodens care about humanity and Earth?
+
+Not one bit.  Useful tools to further his aims only.
+
+While he still has bigger fish to fry, Nodens is content to use lesser
+beings (like humans), rather than obliterate them.  But the day of
+reckoning will come, and he won't shed a tear if someone else gets to
+them first.
+
+- In humanoid form, Nodens is an imposing (10 foot tall) Greek God
+  looking guy.
+- He could also manifest as a swirling vortex of cold, cloud, and
+  energy, with a deep booming voice, so loud it can deafen.
+- Known as the "God of Balance" and the "Lord of the Great Abyss".
+- Has temples in the cities of the Dreamlands:
+  - Can be reached by casting Contact Nodens and going to sleep.
+  - The temples are Greek-looking, but with celestial imagery and
+    giant scales.
+  - The priesthood are all old, grey-haired, men, who will reassure
+    Kints that she is fortunate she didn't *truly* meet Nodens in the
+    flesh that night, only a projection
+  - Nyarlathotep is strong in the Dreamlands:
+    - Speaking his name makes a shadow pass over the sun.
+    - Children in masks, representing Nyarlathotep's avatars, chase
+      the speaker.
+    - If they catch her, they grab on to her arm and say "found you!",
+      and start to remove the mask: Kints wakes up with a handprint
+      branded into her arm (`2/1d6` SAN) and is a magic beacon to the
+      cults (unless suppressed by an Elder Sign).
+- Kints has been marked by Nodens:
+  - She now bleeds seawater instead of blood (`2/1d6` SAN first time)
+  - Future assistance will require paying a price (eg, dedicating
+    herself to Nodens' cult).
+
+#### Honourable Ho Fang
+
+Ho Fang (also Omar al-Shakti and M'Weru) knows that there are "three
+Americans, friends of that journalist" interfering.  He has ordered
+the deaths of the investigators: he'd like to interrogate them, but
+not so much that he's willing to risk escape.  Any unknown Americans
+seeming to poke their nose into cult business will be assumed to be
+the gang.
+
+He has told his non-cultist secretary that if some Americans come to
+the warehouse, they *must* be given an appointment ASAP and tailed.
+
+#### The Pale Viper, Aubrey Penhew
+
+Aubrey Penhew is your standard mad scientist.  He wears a robotic
+exoskeleton (with a clear face-shield):
+
+- Armour 8
+- Move 4 (slow and clanking)
+- Jet pack allowing 4 100 metre jumps per day; explodes on critical
+  hit with a bullet, if there are any rocket jumps remaining:
+  - `3d10` damage to the wearer
+  - `2d10` damage to all engaged in melee
+  - `1d10` damage to all nearby
+
+#### Penelope Temple
+
+Penelope, erstwhile player character, is in Shanghai in place of Carl
+Stanford.  She's come to retrieve the Seven Cryptical Books for the
+Silver Twilight Lodge, and is very disappointed with Ho Fang for not
+knowing where Jack Brady is.
+
+Penelope will be friendly towards Rachel and Kints.
+
+She will not be the one torturing Choi Mei-ling, Ho Fang is doing
+that, though she's not going to stop him.
+
+#### Making It Pulpy!
+
+- Rooftop chases!
+  - Cultists: CON 55, DEX 65, MOX 8, Climb 45%, Jump 55%, Listen 65%, Spot Hidden 35%, Stealth 60%
+  - Lin Yenyu's agents: CON 65, DEX 60, MOX 9, Climb 60%, Jump 70%, Listen 65%, Spot Hidden 50%, Stealth 75%, Track 50%
+- Lin Yenyu's giant apes!
+- Aubrey Penhew's mecha!
+
+#### Sections
+
+- **The Stumbling Tiger Bar** (p537)
+  - *Link:* Recommended as a place where information can be bought and sold
+  - Isoge Taro present
+  - Fergus McChum present
+  - Lin Yenyu's agents present (will follow westerners)
+- **The Shanghai Courier** (p540)
+  - *Link:* The offices of an available daily newspaper
+  - Anthony Chang present
+  - Has relevant stories in its archives:
+    - **Seamen's Club** (p542)
+    - **Chin-Ling Road** (p542)
+    - **Lantern Street** (p543)
+- **The Demon Cabinet of Mr. Lung** (sidetrack) (p545)
+  - *Link:* Advertised in the Shanghai Courier
+  - Mr. Lung present
+- **Ho Fang Import/Export** (p553)
+  - *Link:* Where Gavigan ships the alien machine part replicas to
+  - Ho Fang present
+  - Lin Yenyu's agents present (will follow westerners)
+  - **The Luxuriant Goddess** (p555) is moored nearby
+- **Ho Fang's Mansion** (p558)
+  - *Link:* Ho Fang is connected
+  - Ho Fang present
+  - Penelope Temple present
+- **The Dark Mistress** (p565)
+  - *Link:* Jack Brady's statement, also seen loading at Ho Fang Import/Export
+  - Jules Savoyard present
+  - Deep One Hybrids present
+- **The Shanghai Museum** (p567)
+  - *Link:* Recommended as a source of information; Choi Mei-link can introduce the gang to Mu Hsien
+- **Madam Swallow** (p568)
+  - *Link:* agents may bring the gang; the Shanghai Museum can recommend Lin Yenyu as a scholar
+  - Lin Yenyu present
+- **Mr. Mu** (p573)
+  - *Link:* the Shanghai Museum can recommend Mu Hsien as a scholar; Choi Mei-ling can introduce the gang
+  - Mu Hsien present
+  - Jack Brady present (maybe)
+- **New China / Firm Action** (p576)
+  - *Link:* Isoge Taro, Mu Hsien, Jack Brady, Choi Mei-ling
+  - Jack Brady present
+  - Chu Min present
+- **Gray Dragon Island** (p585)
+  - *Link:* Huston, Lin Yenyu, Ho Fang, the yachts, Firm Action, Jack Brady
+  - The climax!
+
+### Notes
+
+- **30th of June:**
+  - Get a comprador and a hotel room
+  - Check out the Seamen's Club:
+    - Not seepage
+    - Fish creatures
+    - Jack Brady was there
+  - Check out the temple:
+    - The European was Jack Brady, asking about translating / updating old (2nd century) texts
+  - Check out 88 Lantern Street:
+    - Learn about Choi-Mei Ling and the American
+    - And the girl who saw the bat
+  - Check out 120 Lantern Street:
+    - Learn Choi-Mei Ling disappeared
+    - And possibly in a hurry: money and clothes left, discarded slipper in the alley
+- **1st of July:**
+  - Visit Mr. Lung:
+    - Break out of the demon cabinet and save him from Wu
+    - Get free horoscopes in return
+
+### Next time
+
+- Mr. Lung's horoscopes
