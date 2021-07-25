@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-07-21
+modified: 2021-07-25
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -4021,7 +4021,6 @@ them first.
       branded into her arm (`2/1d6` SAN) and is a magic beacon to the
       cults (unless suppressed by an Elder Sign).
 - Kints has been marked by Nodens:
-  - She now bleeds seawater instead of blood (`2/1d6` SAN first time)
   - Future assistance will require paying a price (eg, dedicating
     herself to Nodens' cult).
 
@@ -4141,3 +4140,58 @@ that, though she's not going to stop him.
 ### Next time
 
 - Mr. Lung's horoscopes
+- 1st of July
+
+
+MoN China session 2, 2021-07-25
+-------------------------------
+
+### Recap
+
+We probably don't need one.
+
+### Prep
+
+#### Delusions for Rachel
+
+- Mistaking an ally for an enemy
+- Spot Hidden to notice a crumpled piece of paper (an old horoscope)
+  in Mr. Lung's bin with "Roger Carlyle" scrawled on it.  It's
+  actually a totally different name.
+- A Deep One in the river or in the shadows
+
+#### Mr. Lung's Horoscopes
+
+- **[To Kints specifically]** Your future is shrouded, some
+  otherworldly influence already holds sway over your destiny, and
+  Mr. Lung senses that there is an important choice in your future.
+- Two ogres hunt in the streets of Shanghai, both trying to trap the
+  same prey, while watching each other warily.  One of the ogres is
+  also looking for you.  Be careful not to attract its attention.
+- A stumbling tiger will point the way to a most auspicious meeting
+  that you seek.
+- Help may arrive from an unexpected source.
+
+### Notes
+
+- **1st of July**
+  - Get the horoscopes
+  - Visit the Stumbling Tiger Bar
+    - Cassie talks to Lin Yenyu's agents, impresses them with her intellect, and gets invited to meet the boss
+    - Kints talks to Isoge Taro and tells him that she knows he's acting, he gives her an address
+  - Visit the museum
+    - Get the list of scholars --- one is Lin Yenyu
+    - Learn Grey Dragon Island is a volcanic rock 300 miles away
+  - Visit Lin Yenyu
+    - Spot Tun-tun and Ping
+    - A "troublesome American", who visits the Stumbling Tiger Bar, stole her precious scrolls
+    - Offers Cassie a job
+    - Advises to stay away from Ho Fang
+  - Visit Isoge Taro
+    - Win him over
+    - He says that Jack Brady *is* developing some sort of weapon, even if it's not the rocket which Ho Fang is connected to
+  - Chase!  Escape!
+
+### Next time
+
+- 2nd of July
