@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-07-13
+modified: 2021-08-01
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -304,13 +304,11 @@ thought, I settled on a list of *some* classics:
 | `79`   | Speaking of Śiva                                                             |                            |
 | `80`   | The Dhammapada                                                               |                            |
 | `81`   | Lady Susan                                                                   | Jane Austen                |
-| `83`   | The World is Full of Foolish Men                                             | Jean de la Fontaine        |
 | `84`   | The Sea Raiders                                                              | H.G. Wells                 |
 | `85`   | Hannibal                                                                     | Livy                       |
 | `86`   | To Be Read at Dusk                                                           | Charles Dickens            |
 | `87`   | The Death of Ivan Ilyich                                                     | Leo Tolstoy                |
 | `88`   | The Stolen White Elephant                                                    | Mark Twain                 |
-| `89`   | Tyger, Tyger                                                                 | William Blake              |
 | `91`   | The Yellow Book                                                              |                            |
 | `92`   | Kidnapped                                                                    | Olaudah Equiano            |
 | `93`   | A Modern Detective                                                           | Edgar Allan Poe            |
@@ -318,7 +316,6 @@ thought, I settled on a list of *some* classics:
 | `95`   | How To Be a Medieval Woman                                                   | Margery Kempe              |
 | `96`   | Typhoon                                                                      | Joseph Conrad              |
 | `97`   | The Nun of Murano                                                            | Giacomo Casanova           |
-| `98`   | A terrible beauty is born                                                    | W.B. Yeats                 |
 | `99`   | The Withered                                                                 | Arm Thomas Hardy           |
 | `100`  | Nonsense                                                                     | Edward Lear                |
 | `101`  | The Frogs                                                                    | Aristophanes               |
@@ -332,7 +329,6 @@ thought, I settled on a list of *some* classics:
 | `110`  | The Queen of Spades                                                          | Alexander Pushkin          |
 | `111`  | A Nervous Breakdown                                                          | Anton Chekhov              |
 | `112`  | The Book of Tea                                                              | Kakuzo Okakura             |
-| `113`  | Is this a dagger which I see before me?                                      | William Shakespeare        |
 | `114`  | My life had stood a loaded gun                                               | Emily Dickinson            |
 | `115`  | Daphnis and Chloe                                                            | Longus                     |
 | `116`  | Matilda                                                                      | Mary Shelley               |
@@ -341,7 +337,6 @@ thought, I settled on a list of *some* classics:
 | `121`  | Lot No. 249                                                                  | Arthur Conan Doyle         |
 | `123`  | Rip Van Winkle                                                               | Washington Irving          |
 | `125`  | Waterloo                                                                     | Victor Hugo                |
-| `126`  | Stancliffe’s Hotel                                                           | Charlotte Brontë           |
 
 
 Book Series
@@ -412,6 +407,7 @@ Roleplaying Games
 | `9780981884042` | Beating the Story                                              | Robin D. Laws            |
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
 | `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
+| `9781982171322` | MOAR! Monsters Know What They're Doing                         | Keith Ammann             |
 
 
 Computer Science, Programming, + Digital Culture
@@ -438,8 +434,6 @@ Politics, Philosophy, Economics, + History
 | `9781297565090` | An Account of the Cultivation and Manufacture of tea in China                   | Samuel Ball     |
 | `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy             | Neville Morley  |
 | `9780521634168` | Trade in Classical Antiquity                                                    | Neville Morley  |
-| `9781577315933` | The Hero with A Thousand Faces                                                  | Joseph Campbell |
-| `9780691208015` | 1177 B.C.: The Year Civilization Collapsed                                      | Eric H. Cline   |
 
 
 Design

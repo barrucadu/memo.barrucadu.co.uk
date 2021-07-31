@@ -2,7 +2,7 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2021-06-30
+modified: 2021-08-01
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -167,8 +167,6 @@ Generally I only buy studio albums.
 - Ghost Reveries
 - Watershed
 - Pale Communion
-- Sorceress
-- In Cauda Venenum
 
 ### [Perturbator](https://en.wikipedia.org/wiki/Perturbator#Discography)
 
