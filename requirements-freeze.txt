@@ -8,7 +8,7 @@ graphviz==0.17
 idna==3.2
 Jinja2==3.0.1
 MarkupSafe==2.0.1
-panflute==2.0.5
+panflute==2.1.0
 Pygments==2.9.0
 pypandoc==1.6.3
 PyYAML==5.4.1
