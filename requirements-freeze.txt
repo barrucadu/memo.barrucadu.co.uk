@@ -10,7 +10,7 @@ Jinja2==2.11.3
 MarkupSafe==2.0.1
 panflute==2.0.5
 Pygments==2.8.1
-pypandoc==1.5
+pypandoc==1.6.3
 PyYAML==5.4.1
 requests==2.25.1
 sgmllib3k==1.0.0
