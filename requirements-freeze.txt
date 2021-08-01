@@ -9,7 +9,7 @@ idna==2.10
 Jinja2==2.11.3
 MarkupSafe==2.0.1
 panflute==2.0.5
-Pygments==2.8.1
+Pygments==2.9.0
 pypandoc==1.6.3
 PyYAML==5.4.1
 requests==2.26.0
