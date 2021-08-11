@@ -4,7 +4,10 @@ taxon: weeknotes-2021
 date: 2021-08-09
 ---
 
-This came a day late as I was away visiting friends this weekend.
+This was written a day late as I was away visiting friends this
+weekend, and then deployed a few days late due to a problem with my
+Concourse set-up.  Oh well, only two late posts in nearly three years
+isn't bad.
 
 ## Work
 
