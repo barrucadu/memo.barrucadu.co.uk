@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-07-25
+modified: 2021-08-22
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -4195,3 +4195,69 @@ We probably don't need one.
 ### Next time
 
 - 2nd of July
+
+
+MoN China session 3, 2021-08-22
+-------------------------------
+
+### Recap / Intro
+
+> You're in Shanghai, looking into the operations of the cult here,
+> and trying to track down Jack Brady, who may be the only sane man
+> left who can tell you what exactly happened on the fateful Carlyle
+> Expedition of 1919.
+>
+> You know that the cult is digging up ancient alien artefacts in
+> Australia, reverse-engineering and reproducing them in England, and
+> shipping them over here to Shanghai, to a man named Ho Fang.  You've
+> significantly disrupted the operations in both Australia and
+> England... but is it enough?
+>
+> So far, you've looked into three strange stories, which all seem to
+> point to Jack Brady being pursued by the cult, and who seems to be
+> trying to get some ancient scrolls translated.  You've met Lin
+> Yenyu, a wealthy collector of occult artefacts, and previous owner
+> of those scrolls, who Jack Brady robbed.  You've gained the trust of
+> Isoge Taro, an officer of the Imperial Japanese Navy, who thinks
+> that the cult is connected to some sort of new weapon, and who has
+> men watching a warehouse which Jack Brady frequents.
+>
+> Last session, you fled your hotel room in the middle of the night,
+> pursued by cultists and by fish people.  It's now a week later:
+> you've managed to get some new clothes and lodgings, and have been
+> watching Ho Fang's comings and goings.
+>
+> It's the 9th of July, 1925.  A sunny Thursday afternoon.  You're
+> watching Ho Fang's mansion, which is in the French Concession; an
+> imposing walled compound with 13 foot high walls topped with barbed
+> wire, and two guards outside the gate.  Suddenly you hear a
+> commotion from inside: Ho Fang arguing with someone, heading towards
+> the gate.
+>
+> The second voice is an American voice, one which is very familiar to
+> Rachel, and it's telling Ho Fang off for not finding those scrolls
+> yet---"Jack Brady's one man, Ho Fang, how could he cause such
+> trouble?  The Lodge *really* wants the Seven Cryptical Books
+> ASAP."---and with that, Penelope Temple steps through the door,
+> followed by a companion, and heads into the street leaving Ho Fang
+> behind.
+
+### Prep
+
+Nothing in particular.
+
+### Notes
+
+- Met Penelope
+  - She was secretive about her exact business in Shanghai, other than that she wanted the Seven Cryptical Books
+- Visited Mu Hsien
+  - Got into a shooting match with Jack Brady
+  - Defused the situation by talking about the Carlyle Expedition
+  - Taken to the Firm Action warehouse:
+    - Met Chu Min
+    - Learned Jack's stuff
+    - Told him about Isoge Taro
+
+### Next time
+
+- 9th of July, with Jack Brady in the Firm Action warehouse
