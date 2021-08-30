@@ -3,7 +3,7 @@ title: Call of Cthulhu (2020-05 to ?) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-08-22
+modified: 2021-08-30
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -4261,3 +4261,94 @@ Nothing in particular.
 ### Next time
 
 - 9th of July, with Jack Brady in the Firm Action warehouse
+
+
+MoN China session 4, 2021-08-30
+-------------------------------
+
+### Recap
+
+We probably don't need one.
+
+### Prep
+
+#### State of the major Shanghai NPCs
+
+- Hostile:
+  - **Ho Fang:**
+    - Has people watching Penelope Temple, and so now knows that the
+      gang and Jack Brady are at the Firm Action warehouse.
+    - Will attack as soon as an opportunity presents itself, doesn't
+      care much about destroying any lead to the *Seven Cryptical
+      Books*.
+  - **Aubrey Penhew:**
+    - Aware of the gang in Shanghai, but leaving that to Ho Fang.
+- Undecided:
+  - **Jack Brady:**
+    - Aware that by bringing the gang here he has potentially ignited
+      a powder keg: will quickly move to get Isoge Taro on his side
+      now that he knows whose men are watching the warehouse (and that
+      it's not Ho Fang or Lin Yenyu).
+    - Keen to determine if the party are telling the truth about their
+      spell (Mu Hsien can compare Rachel's notes to the *Seven
+      Cryptical Books* to determine) and to team up if they are.
+  - **Penelope Temple:**
+    - Wants the *Seven Cryptical Books* from Jack, and is willing to
+      play nice if he'll be done with them soon, but she will want to
+      know where they are and what Jack's plans are.
+- Uninvolved:
+  - **Isoge Taro:**
+    - Has people watching the Firm Action warehouse, and so now knows
+      that the gang and Jack Brady are at the Firm Action warehouse.
+    - Can be brought over by Jack Brady's side with solid evidence.
+  - **Lin Yenyu:**
+    - Has people watching the gang, and so now knows that the gang and
+      Jack Brady are at the Firm Action warehouse.
+    - Will attempt to capture Jack as soon as an opportunity presents
+      itself, but will not risk direct confrontation with Ho Fang.
+
+#### Jack Brady's plans
+
+1. **Ho Fang:**
+   - Secretly move Firm Action to another warehouse (travelling
+     through tunnels).
+   - Rig the old warehouse with explosives and station a few defenders
+     there (on a likely suicide mission).
+   - Wait for Ho Fang's forces to attack, lure them in, and kill as
+     many as possible.
+2. **Gray Dragon Island:**
+   - Secretly get Isoge Taro on-side, to provide support if possible,
+     but at least to not interfere.
+   - Go to the island at night in two boats:
+     - One to cause a distraction.
+     - The other to creep to an out-of-the-way place and create the
+       Eye.
+   - Taking out the cult activity there is a nice extra but not a
+     priority: if the Eye is established, the effectiveness of the
+     Shanghai cult will be greatly hampered.
+
+#### Mu's translation of the Seven Cryptical Books
+
+- Will take **4 days**
+- Or **2 days** if he can use Rachel's notes as a reference
+
+### Notes
+
+- **9th of July:**
+  - Evacuate to the new base
+  - Get Isoge Taro on-board (artillery bombardment)
+  - Overhear Ho Fang's assault that night
+- **A couple of days later:**
+  - Translation is done
+- **17th of July:**
+  - Assault on Gray Dragon Island
+    - Ritual Team: Mu, Rachel, Jack, 4 Firmies
+    - Distraction Team: Kints, Cassie, 5 Firmies
+    - Two Deep Ones killed
+    - Jack eaten by a Shoggoth
+    - Penhew's rocket jump blown up
+    - Ended with Penhew and the Shoggoth escaping, and the ships arriving
+
+### Next time
+
+- The aftermath of the fight
