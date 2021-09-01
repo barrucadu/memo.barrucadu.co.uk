@@ -63,6 +63,7 @@ TAXA = [
     {"name": "Tech Docs", "slug": "techdocs", "tags": ["tech"]},
     {"name": "Practices", "slug": "techdocs-practices", "parent": "techdocs"},
     {"name": "Runbooks", "slug": "techdocs-runbooks", "parent": "techdocs"},
+    {"name": "Incident Reports", "slug": "techdocs-incidents", "parent": "techdocs"},
     {"name": "Self", "slug": "self"},
     {"name": "Koans", "slug": "self-koans", "parent": "self", "tags": ["koan"]},
     {"name": "Possessions", "slug": "self-possessions", "parent": "self", "tags": ["possessions"]},
