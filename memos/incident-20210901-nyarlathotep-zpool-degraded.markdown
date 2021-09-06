@@ -14,7 +14,7 @@ was still in the `ONLINE` state, with the specific device
 `(repairing)`.
 
 As there were no SMART errors, and no further errors occurred (during
-X hours of monitoring) after cleaning dust out of nyarlathotep and
+four hours of monitoring) after cleaning dust out of nyarlathotep and
 checking the SATA cable connections, I judged that this was a physical
 connectivity issue, and not an indication of impending drive failure.
 
