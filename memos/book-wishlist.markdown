@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-08-01
+modified: 2021-09-08
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -351,6 +351,7 @@ Book Series
 |                                               | `9781597809603` | Volume 5: The Dream of X and Other Fantastic Visions              |
 | The Best Short Fiction of Darrell Schweitzer  | `9781786364425` | Volume 1: The Mysteries of the Faceless King                      |
 |                                               | `9781786364449` | Volume 2: The Last Heretic                                        |
+| The Kharkanas Trilogy                         |                 | Walk in Shadow                                                    |
 
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
 
@@ -360,7 +361,6 @@ Book Series
 - [That Time I Got Reincarnated as a Slime](https://en.wikipedia.org/wiki/List_of_That_Time_I_Got_Reincarnated_as_a_Slime_volumes)
 - [Mars Trilogy](https://en.wikipedia.org/wiki/Mars_trilogy)
 - [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
-- [The Kharkanas Trilogy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#The_Kharkanas_Trilogy)
 - [Path to Ascendancy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Path_to_Ascendancy)
 - [Novels of the Malazan Empire](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Novels_of_the_Malazan_Empire)
 - [The Witness Trilogy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#The_Witness_Trilogy)
@@ -483,7 +483,6 @@ Miscellaneous
 | `9780199536733` | No Name                                                              | Wilkie Collins        |
 | `9781857231793` | Against A Dark Background                                            | Iain M. Banks         |
 | `0749386428`    | The Magic Mountain                                                   | Thomas Mann           |
-| `9780007528417` | The Space Trilogy                                                    | C. S. Lewis           |
 | `9780374175412` | Infinite Detail                                                      | Tim Maughan           |
 | `9780553382914` | The Etched City                                                      | K. J. Bishop          |
 | `9781590176689` | The Black Spider                                                     | Jeremias Gotthelf     |
@@ -499,7 +498,6 @@ Miscellaneous
 | `9780345524256` | Midnight Riot                                                        | Ben Aaronovitch       |
 | `9780809500314` | The Beckoning Fair One                                               | Oliver Onions         |
 | `9781840226409` | The Dead of Night                                                    | Oliver Onions         |
-| `1594745269`    | Horrorstör                                                           | Grady Hendrix         |
 | `1594748624`    | My Best Friend's Exorcism                                            | Grady Hendrix         |
 | `9781683691433` | The Southern Book Club's Guide to Slaying Vampires                   | Grady Hendrix         |
 | `9780843948448` | Black Butterflies                                                    | John Shirley          |
@@ -511,7 +509,6 @@ Miscellaneous
 | `9781906120597` | Murmurations: An Anthology of Uncanny Stories About Birds            | Nicholas Royle        |
 | `9780982843697` | Ugly Behaviour                                                       | Steve Rasnic Tem      |
 | `9781566892254` | Fugue State                                                          | Brian Evenson         |
-| `9780715653739` | World War Z                                                          | Max Brooks            |
 | `9781616963026` | The Very Best of Caitlín R. Kiernan                                  | Caitlín R. Kiernan    |
 | `9781505602562` | The Horror Society Presents: Forgotten Places                        | Henry Snider et al.   |
 | `9781906652173` | Songs from Spider Street                                             | Mark Howard Jones     |

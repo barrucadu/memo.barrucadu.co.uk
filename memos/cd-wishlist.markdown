@@ -2,7 +2,7 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2021-08-01
+modified: 2021-09-08
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -30,12 +30,6 @@ Artists I am missing some CDs of
 --------------------------------
 
 Generally I only buy studio albums.
-
-### [Amorphis](https://en.wikipedia.org/wiki/Amorphis_discography)
-
-- The Karelian Isthmus
-- Tuonela
-- Am Universum
 
 ### [Blind Guardian](https://en.wikipedia.org/wiki/Blind_Guardian_discography)
 
@@ -129,9 +123,7 @@ Generally I only buy studio albums.
 - Keiser Av En Dimensjon Ukjent
 - Blood and Thunder EP
 - Perfectly Defect
-- The Great Deceiver
 - The Unraveling Mind
-- Spirit of Rebellion
 
 ### [Nightwish](https://en.wikipedia.org/wiki/Nightwish_discography)
 
@@ -178,14 +170,6 @@ Generally I only buy studio albums.
 
 - Liebe ist für alle da
 - Untitled
-
-### [Royksopp](https://en.wikipedia.org/wiki/R%C3%B6yksopp_discography)
-
-- The Inevitable End
-
-### [The Sisters of Mercy](https://en.wikipedia.org/wiki/The_Sisters_of_Mercy_discography)
-
-- Vision Thing
 
 ### [Ulver](https://en.wikipedia.org/wiki/Ulver_discography)
 
