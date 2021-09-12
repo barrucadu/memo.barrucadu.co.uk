@@ -2,38 +2,14 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-09-08
+modified: 2021-09-12
 ---
 
 This memo contains a big list of books I want.  It's probably not very
 thrilling reading.
 
-I intend to get all the books in the "reading plan" and "book series"
-sections, the others are more mutable.
-
-Reading Plan
-------------
-
-A while ago I read a blog post about [why you should have a reading
-plan][], and so I decided to put one together.  Many people read the
-classics, or biographies of statesmen, or histories of a certain
-period: these are all well-defined categories. So I felt that my
-reading plan should be more structured than just a list of books I
-happened to like the sound of.
-
-I didn't much like the idea of reading *the* classics and, after some
-thought, I settled on a list of *some* classics:
-
-- The [SF Masterworks][] collection
-- The [Fantasy Masterworks][] collection
-- The [Penguin Little Black Classics][] collection
-
-[why you should have a reading plan]: https://www.artofmanliness.com/articles/why-you-need-a-reading-plan/
-[SF Masterworks]: https://en.wikipedia.org/wiki/SF_Masterworks
-[Fantasy Masterworks]: https://en.wikipedia.org/wiki/Fantasy_Masterworks
-[Penguin Little Black Classics]: http://www.littleblackclassics.com/
-
-### SF Masterworks
+SF Masterworks
+--------------
 
 | ISBN            | Title                                           | Author                               |
 |----------------:+-------------------------------------------------+--------------------------------------|
@@ -173,172 +149,6 @@ thought, I settled on a list of *some* classics:
 | `9781473228375` | Deathworld (omnibus)                            | Harry Harrison                       |
 | `9781473227392` | Sidewise in Time                                | Murray Leinster                      |
 
-### Fantasy Masterworks
-
-| ISBN            | Title                                                            | Author                                |
-|----------------:+------------------------------------------------------------------+---------------------------------------|
-| `9781857987119` | Little, Big                                                      | John Crowley                          |
-| `9781857987263` | The Chronicles of Amber                                          | Roger Zelazny                         |
-| `9781857989953` | Viriconium                                                       | M. John Harrison                      |
-| `9781857989991` | The Land of Laughs                                               | Jonathan Carroll                      |
-| `9781857987577` | The Compleat Enchanter: The Magical Misadventures of Harold Shea | L. Sprague de Camp and Fletcher Pratt |
-| `9781857987676` | Lud-in-the-Mist                                                  | Hope Mirrlees                         |
-| `9781857983319` | Fevre Dream                                                      | George R. R. Martin                   |
-| `9781857987225` | Beauty                                                           | Sheri S. Tepper                       |
-| `9781857987430` | Elric                                                            | Michael Moorcock                      |
-| `9781857983272` | The First Book of Lankhmar                                       | Fritz Leiber                          |
-| `9781857987966` | The Riddle-Master's Game                                         | Patricia A. McKillip                  |
-| `9780575073609` | Time and Again                                                   | Jack Finney                           |
-| `9780575072848` | Mistress of Mistresses                                           | E.R. Eddison                          |
-| `9780575073593` | Gloriana                                                         | Michael Moorcock                      |
-| `9780575072671` | The Well of the Unicorn                                          | Fletcher Pratt                        |
-| `9780575073586` | The Second Book of Lankhmar                                      | Fritz Leiber                          |
-| `9780575073678` | Voice of Our Shadow                                              | Jonathan Carroll                      |
-| `9780575073739` | The Emperor of Dreams                                            | Clark Ashton Smith                    |
-| `9780575073746` | Lyonesse I: Suldrun's Garden                                     | Jack Vance                            |
-| `9780575073760` | Peace                                                            | Gene Wolfe                            |
-| `9780575073784` | The Dragon Waiting                                               | John M. Ford                          |
-| `9780575073661` | Chronicles of Corum                                              | Michael Moorcock                      |
-| `9780575074170` | Black Gods and Scarlet Dreams                                    | C. L. Moore                           |
-| `9780575074255` | The Broken Sword                                                 | Poul Anderson                         |
-| `9780575073722` | The House on the Borderland and Other Novels                     | William Hope Hodgson                  |
-| `9780575074262` | The Drawing of the Dark                                          | Tim Powers                            |
-| `9780575075177` | Lyonesse II and III: The Green Pearl and Madouc                  | Jack Vance                            |
-| `9780575074699` | The History of the Runestaff                                     | Michael Moorcock                      |
-| `9780575074835` | A Voyage to Arcturus                                             | David Lindsay                         |
-| `9780575075467` | Darker Than You Think                                            | Jack Williamson                       |
-| `9780575074989` | Three Hearts & Three Lions                                       | Poul Anderson                         |
-| `9780575075825` | Grendel                                                          | John Gardner                          |
-| `9780575076051` | The Iron Dragon's Daughter                                       | Michael Swanwick                      |
-| `9780575076693` | Was                                                              | Geoff Ryman                           |
-| `9780575076594` | Song of Kali                                                     | Dan Simmons                           |
-| `9780575075597` | Replay                                                           | Ken Grimwood                          |
-| `9780575076891` | Sea-Kings of Mars and Otherworldly Stories                       | Leigh Brackett                        |
-| `9780575077256` | The Anubis Gates                                                 | Tim Powers                            |
-| `9780575077652` | The Forgotten Beasts of Eld                                      | Patricia A. McKillip                  |
-| `9780575077911` | The Mark of the Beast and Other Fantastical Tales                | Rudyard Kipling                       |
-| `9780575083004` | Aegypt                                                           | John Crowley                          |
-| `9780575089921` | The Dragon Griaule                                               | Lucius Shepard                        |
-| `9780575116818` | Last Call                                                        | Tim Powers                            |
-| `9780575133143` | The Falling Woman                                                | Pat Murphy                            |
-| `9780575130388` | The Phoenix and the Mirror                                       | Avram Davidson                        |
-| `9781473201040` | Lord Darcy                                                       | Randall Garrett                       |
-| `9780575105508` | Votan and Other Novels                                           | John James                            |
-| `9781473205741` | Ombria in Shadow                                                 | Patricia A. McKillip                  |
-| `9781473205451` | Mythago Wood                                                     | Robert Holdstock                      |
-| `9781473211988` | Expiration Date                                                  | Tim Powers                            |
-| `9781473211995` | Lavondyss                                                        | Robert Holdstock                      |
-| `9781473212053` | Earthquake Weather                                               | Tim Powers                            |
-| `9781473211629` | Thomas the Rhymer                                                | Ellen Kushner                         |
-| `9780575092211` | The Anvil of Ice                                                 | Michael Scott Rohan                   |
-| `9781473211698` | Elleander Morning                                                | Jerry Yulsman                         |
-| `9781473213678` | The Circus of Dr. Lao                                            | Charles G. Finney                     |
-
-### Penguin Little Black Classics
-
-| Number | Title                                                                        | Author                     |
-|-------:+------------------------------------------------------------------------------+----------------------------|
-| `1`    | Mrs Rosie and the Priest                                                     | Giovanni Boccaccio         |
-| `2`    | As kingfishers catch fire                                                    | Gerard Manley Hopkins      |
-| `3`    | The Saga of Gunnlaug Serpenttongue                                           |                            |
-| `5`    | Aphorisms on Love and Hate                                                   | Friedrich Nietzsche        |
-| `6`    | Traffic                                                                      | John Ruskin                |
-| `8`    | A Modest Proposal                                                            | Jonathan Swift             |
-| `9`    | Three Tang Dynasty Poets                                                     |                            |
-| `10`   | On the Beach at Night Alone                                                  | Walt Whitman               |
-| `13`   | The Eve of St Agnes                                                          | John Keats                 |
-| `14`   | Woman Much Missed                                                            | Thomas Hardy               |
-| `15`   | Femme Fatale                                                                 | Guy de Maupassant          |
-| `17`   | Caligula                                                                     | Suetonius                  |
-| `18`   | Jason and Medea                                                              | Apollonius of Rhodes       |
-| `19`   | Olalla                                                                       | Robert Louis Stevenson     |
-| `23`   | The Tinder Box                                                               | Hans Christian Andersen    |
-| `24`   | The Gate of the Hundred Sorrows                                              | Rudyard Kipling            |
-| `25`   | Circles of Hell                                                              | Dante                      |
-| `26`   | Of Street Piemen                                                             | Henry Mayhew               |
-| `27`   | The nightingales are drunk                                                   | Hafez                      |
-| `28`   | The Wife of Bath                                                             | Geoffrey Chaucer           |
-| `29`   | How We Weep and Laugh at the Same Thing                                      | Michel de Montaigne        |
-| `30`   | The Terrors of the Night                                                     | Thomas Nashe               |
-| `31`   | The TellTale Heart                                                           | Edgar Allan Poe            |
-| `32`   | A Hippo Banquet                                                              | Mary Kingsley              |
-| `33`   | The Beautifull Cassandra                                                     | Jane Austen                |
-| `34`   | Gooseberries                                                                 | Anton Chekhov              |
-| `35`   | Well, they are gone, and here must I remain                                  | Samuel Taylor Coleridge    |
-| `36`   | Sketchy, Doubtful, Incomplete Jottings                                       | Johann Wolfgang von Goethe |
-| `37`   | The Great Winglebury                                                         | Duel Charles Dickens       |
-| `38`   | The Maldive Shark                                                            | Herman Melville            |
-| `39`   | The Old Nurse’s Story                                                        | Elizabeth Gaskell          |
-| `40`   | The Steel Flea                                                               | Nikolay Leskov             |
-| `42`   | The Yellow WallPaper                                                         | Charlotte Perkins Gilman   |
-| `43`   | Remember, Body...                                                            | C.P. Cavafy                |
-| `44`   | The Meek One                                                                 | Fyodor Dostoevsky          |
-| `45`   | A Simple Heart                                                               | Gustave Flaubert           |
-| `46`   | The Nose                                                                     | Nikolai Gogol              |
-| `47`   | The Great Fire of London                                                     | Samuel Pepys               |
-| `48`   | The Reckoning                                                                | Edith Wharton              |
-| `49`   | The Figure in the Carpet                                                     | Henry James                |
-| `50`   | Anthem for Doomed Youth                                                      | Wilfred Owen               |
-| `51`   | My Dearest Father                                                            | Wolfgang Amadeus Mozart    |
-| `53`   | Goblin Market                                                                | Christina Rossetti         |
-| `55`   | Antigone                                                                     | Sophocles                  |
-| `58`   | Leonardo da Vinci                                                            | Giorgio Vasari             |
-| `59`   | Lord Arthur Savile’s Crime                                                   | Oscar Wilde                |
-| `60`   | The Old Man of the Moon                                                      | Shen Fu                    |
-| `61`   | The Dolphins, the Whales and the Gudgeon                                     | Aesop                      |
-| `62`   | Lips too chilled                                                             | Matsuo Bashō               |
-| `63`   | The Night is Darkening Round Me                                              | Emily Brontë               |
-| `64`   | Tomorrow                                                                     | Joseph Conrad              |
-| `65`   | The Voyage of Sir Francis Drake Around the Whole Globe                       | Richard Hakluyt            |
-| `66`   | A Pair of Silk Stockings                                                     | Kate Chopin                |
-| `68`   | The Robber Bridegroom                                                        | Brothers Grimm             |
-| `69`   | I Hate and I Love                                                            | Catullus                   |
-| `70`   | Circe and the Cyclops                                                        | Homer                      |
-| `71`   | Il Duro                                                                      | D. H. Lawrence             |
-| `72`   | Miss Brill                                                                   | Katherine Mansfield        |
-| `74`   | Come Close                                                                   | Sappho                     |
-| `75`   | Kasyan from the Beautiful Lands                                              | Ivan Turgenev              |
-| `76`   | O Cruel                                                                      | Alexis Virgil              |
-| `77`   | A Slip under the Microscope                                                  | H. G. Wells                |
-| `78`   | The Madness of Cambyses                                                      | Herodotus                  |
-| `79`   | Speaking of Śiva                                                             |                            |
-| `80`   | The Dhammapada                                                               |                            |
-| `81`   | Lady Susan                                                                   | Jane Austen                |
-| `84`   | The Sea Raiders                                                              | H.G. Wells                 |
-| `85`   | Hannibal                                                                     | Livy                       |
-| `86`   | To Be Read at Dusk                                                           | Charles Dickens            |
-| `87`   | The Death of Ivan Ilyich                                                     | Leo Tolstoy                |
-| `88`   | The Stolen White Elephant                                                    | Mark Twain                 |
-| `91`   | The Yellow Book                                                              |                            |
-| `92`   | Kidnapped                                                                    | Olaudah Equiano            |
-| `93`   | A Modern Detective                                                           | Edgar Allan Poe            |
-| `94`   | The Suffragettes                                                             |                            |
-| `95`   | How To Be a Medieval Woman                                                   | Margery Kempe              |
-| `96`   | Typhoon                                                                      | Joseph Conrad              |
-| `97`   | The Nun of Murano                                                            | Giacomo Casanova           |
-| `99`   | The Withered                                                                 | Arm Thomas Hardy           |
-| `100`  | Nonsense                                                                     | Edward Lear                |
-| `101`  | The Frogs                                                                    | Aristophanes               |
-| `103`  | Letters to a Young Poet                                                      | Rainer Maria Rilke         |
-| `104`  | Seven Hanged                                                                 | Leonid Andreyev            |
-| `105`  | Oroonoko                                                                     | Aphra Behn                 |
-| `106`  | O frabjous day!                                                              | Lewis Carroll              |
-| `107`  | Trivia: or, the Art of Walking the Streets of London                         | John Gay                   |
-| `108`  | The Sandman                                                                  | E. T. A. Hoffmann          |
-| `109`  | Love that moves the sun and other stars                                      | Dante                      |
-| `110`  | The Queen of Spades                                                          | Alexander Pushkin          |
-| `111`  | A Nervous Breakdown                                                          | Anton Chekhov              |
-| `112`  | The Book of Tea                                                              | Kakuzo Okakura             |
-| `114`  | My life had stood a loaded gun                                               | Emily Dickinson            |
-| `115`  | Daphnis and Chloe                                                            | Longus                     |
-| `116`  | Matilda                                                                      | Mary Shelley               |
-| `117`  | The Lifted Veil                                                              | George Eliot               |
-| `120`  | Flush                                                                        | Virginia Woolf             |
-| `121`  | Lot No. 249                                                                  | Arthur Conan Doyle         |
-| `123`  | Rip Van Winkle                                                               | Washington Irving          |
-| `125`  | Waterloo                                                                     | Victor Hugo                |
-
-
 Book Series
 -----------
 
@@ -391,9 +201,7 @@ Roleplaying Games
 | Traveller | Sourcebooks            | The Glorious Empire                           |
 |           |                        | The Great Rift                                |
 |           |                        | Behind the Claw                               |
-|           | Adventures & Campaigns | Shadows of Sindal                             |
 | OSR       | Sourcebooks            | Yoon-Suin                                     |
-|           |                        | Fungi of the Far Realms                       |
 |           |                        | Magical Industrial Revolution                 |
 |           |                        | Trilemma Adventures Compendium Volume I       |
 |           |                        | Lorn Song of the Bachelor                     |
@@ -408,80 +216,68 @@ Roleplaying Games
 | `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
 | `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
 | `9781982171322` | MOAR! Monsters Know What They're Doing                         | Keith Ammann             |
-
-
-Computer Science, Programming, + Digital Culture
--------------------------------------------------
-
-| ISBN            | Title                                                                       | Author                 |
-|----------------:+-----------------------------------------------------------------------------+------------------------|
-| `9780321842688` | Hacker's Delight                                                            | Henry S. Warren        |
-| `9780201835953` | The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition | Frederick P. Brooks Jr |
-| `9781881526919` | Selected Papers on Computer Science                                         | Donald E. Knuth        |
-| `9780521513388` | Pearls of Functional Algorithm Design                                       | Richard Bird           |
-| `9780521663502` | Purely Functional Data Structures                                           | Chris Okasaki          |
-| `9781732265189` | An Elegant Puzzle: Systems of Engineering Management                        | Will Larson            |
-| `9781732102200` | A Philosophy of Software Design                                             | John Ousterhout        |
-| `9780321125217` | Domain-Driven Design: Tackling Complexity in the Heart of Software          | Eric Evans             |
+| `9781907222740` | Appendix N: The Eldritch Roots of Dungeons and Dragons         | Peter Bebergal           |
 
 
 Politics, Philosophy, Economics, + History
 ------------------------------------------
 
-| ISBN            | Title                                                                           | Author          |
-|----------------:+---------------------------------------------------------------------------------+-----------------|
-| `9781540622402` | Cyropaedia                                                                      | Xenophon        |
-| `9781297565090` | An Account of the Cultivation and Manufacture of tea in China                   | Samuel Ball     |
-| `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy             | Neville Morley  |
-| `9780521634168` | Trade in Classical Antiquity                                                    | Neville Morley  |
-
-
-Design
-------
-
-| ISBN            | Title                                                                                                  | Author                  |
-|----------------:+--------------------------------------------------------------------------------------------------------+-------------------------|
-| `9783721201451` | Grid Systems in Graphic Design: A Handbook for Graphic Artists, Typographers, and Exhibition Designers | Josef Mülller-Brockmann |
+| ISBN            | Title                                                               | Author          |
+|----------------:+---------------------------------------------------------------------+-----------------|
+| `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy | Neville Morley  |
+| `9780521634168` | Trade in Classical Antiquity                                        | Neville Morley  |
 
 
 Miscellaneous
 -------------
 
+### Shortlist
+
+
 | ISBN            | Title                                                                | Author                |
 |----------------:+----------------------------------------------------------------------+-----------------------|
 | `9780356506142` | The Wheel of Time Companion                                          | Robert Jordan         |
-| `9780199549740` | The Old English Baron                                                | Clara Reeve           |
-| `9780343546373` | An Encyclopædia Of Occultism                                         | Lewis Spence          |
 | `9781447263401` | Last Days                                                            | Adam Nevill           |
 | `9780765318145` | Anvil of Stars                                                       | Greg Bear             |
 | `9780586217467` | The Mote in God's Eye                                                | Larry Niven           |
 | `9780141191447` | The Haunting of Hill House                                           | Shirley Jackson       |
 | `9780575082373` | House of Suns                                                        | Alastair Reynolds     |
-| `9781771481595` | Wild Fell                                                            | Michael Rowe          |
-| `9781511536738` | The Turn of the Screw                                                | Henry James           |
-| `9780099908807` | The Snows Of Kilimanjaro And Other Stories                           | Ernest Hemingway      |
-| `9780156306300` | Fiasco                                                               | Stanislaw Lem         |
 | `9780552101233` | Logan's Run                                                          | William Nolan         |
-| `9780575082090` | Diaspora                                                             | Greg Egan             |
-| `9780575082076` | Permutation City                                                     | Greg Egan             |
-| `9780967321547` | Eyes of the God: The Weird Fiction and Poetry of R. H. Barlow        | S. T. Joshi           |
 | `9780199552351` | The Last Man                                                         | Mary Shelley          |
-| `9781609807450` | Things to Do When You're Goth in the Country And Other Stories       | Chavisa Woods         |
 | `9780765333629` | The Weird                                                            | Jeff VanderMeer       |
 | `9781892391551` | The New Weird                                                        | Jeff VanderMeer       |
-| `9781585678259` | Islandia                                                             | Austin Tappan Wright  |
 | `9781402780035` | The Sign of the Four                                                 | I. N. J. Culbard      |
 | `9781906838058` | The Valley of Fear                                                   | I. N. J. Culbard      |
 | `9781402770005` | The Hound of the Baskervilles                                        | I. N. J. Culbard      |
 | `9781906838355` | The Case of Charles Dexter Ward                                      | I. N. J. Culbard      |
 | `9781906838683` | Shadow Out of Time                                                   | I. N. J. Culbard      |
+| `9781857231793` | Against A Dark Background                                            | Iain M. Banks         |
+| `1594748624`    | My Best Friend's Exorcism                                            | Grady Hendrix         |
+| `9781683691433` | The Southern Book Club's Guide to Slaying Vampires                   | Grady Hendrix         |
+| `9781616963026` | The Very Best of Caitlín R. Kiernan                                  | Caitlín R. Kiernan    |
+| `9780312863944` | The Urth of the New Sun                                              | Gene Wolfe            |
+
+### The Rest
+
+| ISBN            | Title                                                                | Author                |
+|----------------:+----------------------------------------------------------------------+-----------------------|
+| `9780199549740` | The Old English Baron                                                | Clara Reeve           |
+| `9780343546373` | An Encyclopædia Of Occultism                                         | Lewis Spence          |
+| `9781771481595` | Wild Fell                                                            | Michael Rowe          |
+| `9781511536738` | The Turn of the Screw                                                | Henry James           |
+| `9780099908807` | The Snows Of Kilimanjaro And Other Stories                           | Ernest Hemingway      |
+| `9780156306300` | Fiasco                                                               | Stanislaw Lem         |
+| `9780575082090` | Diaspora                                                             | Greg Egan             |
+| `9780575082076` | Permutation City                                                     | Greg Egan             |
+| `9780967321547` | Eyes of the God: The Weird Fiction and Poetry of R. H. Barlow        | S. T. Joshi           |
+| `9781609807450` | Things to Do When You're Goth in the Country And Other Stories       | Chavisa Woods         |
+| `9781585678259` | Islandia                                                             | Austin Tappan Wright  |
 | `9780330534239` | Perdido Street Station                                               | China Mieville        |
 | `9780099529040` | Planet of the Apes                                                   | Pierre Boulle         |
 | `9781447263210` | Wicker Man                                                           | Hardy                 |
 | `9780143107651` | Perchance to Dream: Selected Stories                                 | Charles Beaumont      |
 | `9781590179062` | The Rim Of Morning                                                   | William Sloane        |
 | `9780199536733` | No Name                                                              | Wilkie Collins        |
-| `9781857231793` | Against A Dark Background                                            | Iain M. Banks         |
 | `0749386428`    | The Magic Mountain                                                   | Thomas Mann           |
 | `9780374175412` | Infinite Detail                                                      | Tim Maughan           |
 | `9780553382914` | The Etched City                                                      | K. J. Bishop          |
@@ -498,8 +294,6 @@ Miscellaneous
 | `9780345524256` | Midnight Riot                                                        | Ben Aaronovitch       |
 | `9780809500314` | The Beckoning Fair One                                               | Oliver Onions         |
 | `9781840226409` | The Dead of Night                                                    | Oliver Onions         |
-| `1594748624`    | My Best Friend's Exorcism                                            | Grady Hendrix         |
-| `9781683691433` | The Southern Book Club's Guide to Slaying Vampires                   | Grady Hendrix         |
 | `9780843948448` | Black Butterflies                                                    | John Shirley          |
 | `9781849161350` | The Leaping                                                          | Tom Fletcher          |
 | `9781849161367` | The Thing on the Shore                                               | Tom Fletcher          |
@@ -509,7 +303,6 @@ Miscellaneous
 | `9781906120597` | Murmurations: An Anthology of Uncanny Stories About Birds            | Nicholas Royle        |
 | `9780982843697` | Ugly Behaviour                                                       | Steve Rasnic Tem      |
 | `9781566892254` | Fugue State                                                          | Brian Evenson         |
-| `9781616963026` | The Very Best of Caitlín R. Kiernan                                  | Caitlín R. Kiernan    |
 | `9781505602562` | The Horror Society Presents: Forgotten Places                        | Henry Snider et al.   |
 | `9781906652173` | Songs from Spider Street                                             | Mark Howard Jones     |
 | `9780970400031` | The Womb of Time                                                     | Brian Stableford      |
@@ -522,4 +315,3 @@ Miscellaneous
 | `9781566894166` | Last Days                                                            | Brian Evenson         |
 | `9781786361998` | The Ceremonies                                                       | T. E. D. Klein        |
 | `9781946154330` | The Cipher                                                           | Kathe Koja            |
-| `9780312863944` | The Urth of the New Sun                                              | Gene Wolfe            |
