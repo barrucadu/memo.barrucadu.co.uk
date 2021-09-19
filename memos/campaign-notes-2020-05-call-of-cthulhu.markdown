@@ -1,12 +1,12 @@
 ---
-title: Call of Cthulhu (2020-05 to ?) notes
+title: Call of Cthulhu (2020-05 to 2021-09) notes
 taxon: general-games
 tags: call of cthulhu
 published: 2020-05-20
-modified: 2021-08-30
+modified: 2021-09-19
 ---
 
-<aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+<aside class="highlight">This campaign has ended.</aside>
 
 
 Lines & veils
@@ -4352,3 +4352,63 @@ We probably don't need one.
 ### Next time
 
 - The aftermath of the fight
+
+
+MoN China session 5, 2021-09-19
+-------------------------------
+
+### Recap
+
+> The sun is rising over Gray Dragon Island.  The Eye of Light and
+> Darkness has been created.  Jack Brady has been killed, digested by
+> a blob monster, which itself burrowed into the ground to escape your
+> lightning guns.  The cultists have fled or been killed.  And Aubrey
+> Penhew, the fuel tank on his robotic exoskeleton destroyed by a
+> stray bullet, flees up the volcano.
+
+### Prep
+
+This is planned to be the final session of the campaign, bar perhaps
+the occasional flashback session.
+
+#### The Climax!
+
+- Fight with Aubrey Penhew:
+  - He only has 9HP left, and no luck.
+  - He's fleeing towards a hatch and staircase leading down to his
+    rooms in the volcano.
+  - He will use *Fist of Yog-Sothoth* to drive off anyone who gets too
+    close.
+- Destroying the rocket:
+  - All but one of the girders have been destroyed already
+
+#### Grand Conclusion
+
+- Flash-forward to the 14th of January, 1926.
+- Are the characters together?  Where are they?  What are they doing?
+  Vignette each.
+- **The Lesser Horror:**
+  - A total solar eclipse darkens the Indian Ocean
+  - The Great Gate opens, a twisted triangular rent in space, beyond
+    which is a pulsing red star.
+  - The world trembles.  The Mythos is active.  Psychics fall to the
+    floor clutching their heads.
+  - The Great Gate... snaps shut again, and the tremor passes.
+- One of the PCs sees a newspaper article with dates of more eclipses
+  this decade.  Perhaps it's *not* all over?
+
+#### Q&A
+
+- End with a Q&A / tying up loose ends
+
+### Notes
+
+- Penhew blown up with dyamite
+- The rocket dropped into the magma
+- Penhew's diaries found
+- **Vignettes:**
+  - *Cassie:* travelling, dealing with the cult remnants, anxious: "what if there's a backup plan?"
+  - *Kints:* eager to return home and visit old friends.
+  - *Rachel:* studying Yithian, magic, and the occult.  Curious and hopes something interesting happens on eclipse day.
+
+<aside class="highlight">The end.</aside>
