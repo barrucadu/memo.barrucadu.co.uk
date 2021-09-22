@@ -15,4 +15,4 @@ PyYAML==5.4.1
 requests==2.26.0
 sgmllib3k==1.0.0
 soupsieve==2.2.1
-urllib3==1.26.6
+urllib3==1.26.7
