@@ -41,7 +41,7 @@ that's not happened yet.
 
 This week I read:
 
-- [Forge of Darkness][] by Steven Erikson, the second of the [Kharkanas Trilogy][].
+- [Forge of Darkness][] by Steven Erikson, the first of the [Kharkanas Trilogy][].
 
   It's been really great to get back into some High Fantasy, and to
   learn more about the origins of the Malazan world.  While reading
