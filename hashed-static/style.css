@@ -179,23 +179,31 @@ a[aria-current="page"] {
     margin-top: 0;
 }
 
-.markdown h2 {
+.markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
     font-family: Staatliches, serif;
+    margin-bottom: 16px;
+}
+
+.markdown h2 {
     font-size: 2.5rem;
-    margin: 32px 0 16px 0;
+    margin-top: 32px;
     border-bottom: 5px solid var(--heading-underline);
 }
 
 .markdown h3 {
-    font-family: Staatliches, serif;
     font-size: 2rem;
-    margin-bottom: 16px;
 }
 
 .markdown h4 {
-    font-family: Staatliches, serif;
     font-size: 1.5rem;
-    margin-bottom: 16px;
+}
+
+.markdown h5 {
+    font-size: 1.25rem;
+}
+
+.markdown h6 {
+    font-size: 1.1rem;
 }
 
 .markdown ul, .markdown ol {
