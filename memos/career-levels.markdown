@@ -1,6 +1,7 @@
 ---
 title: Career Levels
-date: 2021-06-26
+published: 2021-04-05
+modified: 2021-10-12
 taxon: self
 ---
 
@@ -382,7 +383,8 @@ See evidence for Practitioner.
   - choosing appropriate standards & open-source code to bootstrap our work,
   - designing an approach to cross-domain analytics,
   - designing the technical implementation of authentication UX designs,
-  - proposed & built consensus on GOV.UK site-wide sign-in.
+  - proposed & built consensus on GOV.UK site-wide sign-in,
+  - developing the caching & progressive enhancement strategy.
 
 #### Expert (D5, M5)
 
@@ -648,7 +650,8 @@ See evidence for IC3 & IC4.
 > Can do critical R&D.  Anticipates technical challenges, exploring
 > alternatives and tradeoffs thoroughly.
 
-No evidence.
+- [GOV.UK accounts][], specifically:
+  - designing the caching & progressive enhancement strategy.
 
 ### Technical: Oncall
 
@@ -696,6 +699,10 @@ See evidence for IC3.
   - being a team expert on Elasticsearch.
 - [GOV.UK accounts][], specifically:
   - I am the tech lead.
+- [GOV.UK practices][], specifically:
+  - being a technical point of contact for external pentesters.
+- [GOV.UK support][], specifically:
+  - being approached to help with complex incidents.
 
 #### IC5
 
@@ -1284,14 +1291,14 @@ See evidence for IC2.
 
 - [GOV.UK practices][], specifically:
   - sifting CVs,
+  - giving phone interviews,
   - line-managing mid-level developers.
 
 #### IC4
 
 > Analyzes and improves upon interview and onboarding practices.
 
-No evidence.  I have been interview trained, but not sat on any panels
-yet.
+No evidence.
 
 #### IC5
 
@@ -1464,6 +1471,7 @@ Evidence
   - [TensorFlow Ranking](career-levels.html#tensorflow-ranking)
 - [GOV.UK accounts][]
   - [ADRs and RFCs](career-levels.html#adrs-and-rfcs)
+  - [Caching and progressive enhancement](career-levels.html#caching-and-progressive-enhancement)
   - [CI and CD](career-levels.html#ci-and-cd)
   - [Documentation](career-levels.html#documentation)
   - [Monitoring and scaling](career-levels.html#monitoring-and-scaling)
@@ -1670,7 +1678,8 @@ just individual contributions:
   things like patching our dev tools or updating documentation,
 - I give presentations at our Tech Fortnightly event, sharing
   knowledge and progress with the wider community,
-- I sift CVs and have been trained to participate in interview panels,
+- I sift CVs, conduct phone screening interviews, and have been
+  trained to participate in interview panels,
 - I am on the [GOV.UK support](career-levels.html#gov.uk-support)
   rotas.
 
@@ -1754,6 +1763,12 @@ I have also been a Comms Lead, the developer tasked with updating
 non-technical stakeholders, some of whom are in other parts of
 Government, and with drafting the incident report to form the basis
 for discussion at the incident review.
+
+Furthermore, there have been times where I've been asked by technical
+leadership to help with a complex incident where the current support
+team are having a hard time finding a resolution.  One such incident
+involved an external supplier, who I worked with over email and video
+call until the problem was resolved a week later.
 
 #### Generating the rota
 
@@ -1945,6 +1960,39 @@ accounts work.  The proposal ended up changing in response to
 feedback, and benefited from it.
 
 [build consensus for how to implement a GOV.UK-wide login]: https://github.com/alphagov/govuk-rfcs/pull/134
+
+#### Caching and progressive enhancement
+
+GOV.UK is mostly a static website, with a CDN handling something like
+97% of the millions of daily requests.  Introducing personalised
+content on pages would potentially ruin this, which would have
+significant performance and cost impacts.
+
+I realised we could mitigate much of the problem by recognising that
+there are three different ways in which a page could depend on the
+user's session:
+
+- There's **core functionality:** things like authenticating,
+  credential management, resuming things you’ve saved, and so on.
+  This is best rendered entirely server-side (or in the CDN), as it
+  has to work for all users, and plain HTML and CSS with no JavaScript
+  is good for that.  This stuff is typically uncacheable.
+
+- There's **navigation:** things like showing the appropriate "sign
+  in" or "sign out" link in the header.  The defining feature here is
+  that this depends on whether the user has a session or not, but not
+  on who the user is.
+
+- There's **everything else:** which is a fuzzy category for things
+  which depend on who the user is, but which aren’t core
+  functionality, and so could potentially be implemented in more
+  cache-friendly ways, like by JavaScript.  This can be implemented
+  with progressive enhancement.
+
+This is a helpful way to think about the problem, because it
+transforms a hard technical problem ("how do we rearchitect GOV.UK for
+a world where almost nothing is cacheable?") to a few less hard
+technical and design problems.
 
 #### CI and CD
 
