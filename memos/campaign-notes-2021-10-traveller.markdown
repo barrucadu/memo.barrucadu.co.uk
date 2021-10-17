@@ -3,6 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
+modified: 2021-10-17
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -274,70 +275,294 @@ them.
 Player characters
 -----------------
 
-### (Name TBD)
+### Orcan March
+
+<img src="campaign-notes-2021-10-traveller/orcan-march.png" width="64" style="float: right; border: 1px solid black;">
 
 - **Age:** 38
 - **Homeworld:** [Dolberg](https://wiki.travellerrpg.com/Dolberg_(world))
 - **Connections:**
-  - Ally (marine corps, love interest, member of an opposing
-    organisation): 2 (positively inclined) / 0 (no enmity) / 1 (weak)
-    / 6 (kingmaker)
-  - Ally (drifter): 1 (vaguely well inclined) / -1 (mistrustful) / 0
-    (powerless) / 2 (some influence)
-  - Enemy (drifter): 0 (no affinity) / -4 (hatred) / 1 (weak) / 0 (no
-    influence)
+  - **Theresa Sprout** (ally, marine corps, love interest, member of
+    an opposing organisation): 2 (positively inclined) / 0 (no enmity)
+    / 1 (weak) / 6 (kingmaker)
+  - **Walden Springs** (ally, drifter): 1 (vaguely well inclined) / -1
+    (mistrustful) / 0 (powerless) / 2 (some influence)
+  - **Wallace Triker** (enemy, drifter): 0 (no affinity) / -4 (hatred)
+    / 1 (weak) / 0 (no influence)
 
 ### Lynette Hershey
+
+<img src="campaign-notes-2021-10-traveller/lynette-hershey.png" width="64" style="float: right; border: 1px solid black;">
 
 - **Age:** 34
 - **Homeworld:** [Orsasch](https://wiki.travellerrpg.com/Orsasch_(world))
 - **Connections:**
-  - Contact (merchant marines): 2 (positively inclined) / -2
-    (negatively inclined) / 1 (weak) / 1 (little influence)
+  - **Felix Vazquez** (contact, merchant marines): 2 (positively
+    inclined) / -2 (negatively inclined) / 1 (weak) / 1 (little
+    influence)
 
-### (Name TBD)
+### Ilijah Veryn
+
+<img src="campaign-notes-2021-10-traveller/ilijah-veryn.png" width="64" style="float: right; border: 1px solid black;">
 
 - **Age:** 42
 - **Homeworld:** [Tanith](https://wiki.travellerrpg.com/Tanith_(TR_2721)_(world))
 - **Connections:**
-  - Enemy (merchant marines, old coworker): 0 (no affinity) / -6
-    (blinded by hate) / 1 (weak) / 2 (some influence)
+  - **Crayg** (enemy, merchant marines, old coworker): 0 (no affinity)
+    / -6 (blinded by hate) / 1 (weak) / 2 (some influence)
 
-### Astraea
+### Astraea Filipovna
+
+<img src="campaign-notes-2021-10-traveller/astraea-filipovna.png" width="64" style="float: right; border: 1px solid black;">
 
 - **Age:** 34
 - **Homeworld:** [Dostoevsky](https://wiki.travellerrpg.com/Dostoevsky_(world))
 - **Connections:**
-  - Enemy (rogue, police force): 0 (no affinity) / -1 (mistrustful) /
-    0 (powerless) / 5 (extremely influential)
+  - **?** (enemy, rogue, police force): 0 (no affinity) / -1
+    (mistrustful) / 0 (powerless) / 5 (extremely influential)
+  - **Xavier Echithilei** (ally, scavenger): 4 (loyal friend) / 0 (no
+    enmity) / 0 (powerless) / 4 (highly influential)
 
 Ships
 -----
 
-### (Name TBD)'s Type-S Scout / Courier
+### Ilijah's Type-S Scout / Courier
+
+<img src="campaign-notes-2021-10-traveller/scout-courier.png" width="128" style="float: right">
 
 - **Hooks:**
   - Scout Services will call in favours
 - **Quirks:**
   - Ship is a bit old and banged up: `DM -1` to all repair attempts
   - Library computer contains secret or unusual information
+- **Upgrades:**
+  - 2x pulse lasers
 
 ### Astraea's Type-A2 Far Trader
 
- - **Upgrades:**
+<img src="campaign-notes-2021-10-traveller/far-trader.png" width="128" style="float: right">
+
+- **Upgrades:**
    - An ion cannon
 
 
 Factions
 --------
 
-No relevant factions yet.
+### General Development Corporation (GeDeCo)
+
+GeDeCo does a bit of everything:
+
+- It built and operates many of the class C and B starports in the
+  sector,
+- It operates bank branches in its starports, and all the class A
+  starports in Imperium space,
+- It has cargo and passenger fleets, both within the Imperium and
+  beyond,
+- It's an arms dealer to the Imperial Navy and other lesser human
+  states,
+- It does research and development into all sorts of things.
+
+The mortgage for the Far Trader is through the GeDeCo Bank, and they
+may allow late or missing payments to slip by in exchange for
+questionable favours.
+
+#### Missions
+
+##### In Progress
+
+- Take a research team to 971-852 and pick them back up a month later.
+  No steward required.
+
+  **Reward:** fuel credits for four J-2s, plus Cr 250,000 (half in
+  advance, half afterwards; a bit more than middle passage for 4
+  people for 4 parsecs, twice).
+
+### Scout Services
+
+Ilijah was a scout for four terms, and has a ship on loan from them.
+
+At starports with a Scout Base, they can receive
+
+- Free maintenance for the Scout / Courier Type-S
+- Information, rumours, missions (etc)
+- Rewards for completing scout missions
+
+#### Missions
+
+- Survey non-Imperium worlds in the Reach, confirming or denying
+  current survey data.
+
+  **Reward:** fuel costs and salaries, with proportional rewards for
+  discovering discrepancies.
+
+- Explore empty regions of space and report any newly-discovered
+  systems.
+
+  **Reward:** MCr 1 for each confirmed discovery.
+
+##### Done
+
+- Take some secured cargo to the scout base at New.
+
+  **Reward:** fuel credits for the J-2, plus Cr 5,000 each.
 
 
 NPCs
 ----
 
-No relevant NPCs yet.
+### Xavier Echithilei (Crew member, outcast minor noble)
+
+> Xavier is from a noble family which makes their money from operating
+> a large interstellar trading firm (as many of them do), but the
+> family keeps a fairly hands-off approach to management: the company
+> know they have to follow any edicts passed down from the family, but
+> mostly it's up to their competent administrators to run the thing.
+>
+> Xavier took advantage of this to direct several of the largest ships
+> in the fleet to help with evacuating human slaves from worlds
+> liberated from the Glorious Empire, and resettling them elsewhere in
+> the Dpres and Sindal subsectors. This would likely have gone
+> unnoticed, and indeed did for some months, until their intel was
+> wrong: the fleet jumped into an active warzone, and got
+> destroyed. Xavier couldn't cover this up, and the family was
+> outraged: he had cost them hundreds of millions of credits for the
+> lost ships, the crews had perished, and, even worse, he, a member of
+> Imperial nobility, had been actively interfering in a conflict
+> between two other interstellar empires, which could have provoked a
+> war. They had to make a big show of casting him out to avoid
+> consequences for the rest of the family.
+>
+> So, Xavier found himself with no money, no resources, and not really
+> any skills beyond administration. He ended up becoming a drifter,
+> signing on to work on whatever ships would take him, eventually
+> becoming a competent engineer. The family still hate his guts, the
+> other nobility and influential players treat him with amused
+> condescension, but there are still some who think of him as a hero,
+> who risked it all to save people.
+
+- **Connections:**
+  - **ABR (Albe--Boronu Route) Shipping Incorporated:** a shipping
+    business mostly operating between the Imperium and the Florian
+    League, founded and majority-owned by the House Echithilei.
+  - **House Echithilei:** a noble family with holdings on Albe and
+    Realgan in the Sindal Subsector.
+  - **Duke Verner Echithilei of Albe:** Xavier's first cousin twice
+    removed.
+
+- **Roleplaying notes:**
+  - Equally comfortable in high society and with the common folk.
+  - Holds a grudge against the Imperium, saying that he was only cast
+    out because the family needed to make a show of loyalty.
+
+- **Competencies:**
+  - Admin
+  - Advocate
+  - Diplomat
+  - Engineer
+  - Mechanic
+  - Steward
+  - Vacc Suit
+  - plus any other skills that fit his noble upbringing and spacer
+    background.
+
+Hooks
+-----
+
+### Missions
+
+- Weird space-themed cult want transporting to a starport in a nearby
+  system, and will pay very well for basic passage, but demand
+  evidence that the Traveller's ship hasn't touched the surface of a
+  planet.
+
+- A naval officer would like the Travellers to transport some supplies
+  to a warship patrolling the system.
+
+- A merchant with ties to the underworld needs to secretly transport
+  computer data to a contact on a ship hiding at one of the Tobia gas
+  giants.
+
+- A researcher wants the Travellers to capture a whale calf from
+  Dolberg, and deliver it to a lab ship in orbit.
+
+#### In Progress
+
+- An Aslan would like transport to Vume, to see the Ancient artefacts.
+
+### Rumours
+
+- Pirate attacks on the trade route between the Imperium and the
+  Hierate have increased lately, both sides are having to send larger
+  escort fleets.
+
+- The Florian League has made a formal complaint to the Ya'soisthea
+  about ihatei raiding bands.  The Aslan response was, essentially,
+  "boys will be boys."
+
+- Retired naval officers are being encouraged to colonise the world of
+  Empire.
+
+- The civil war on Simok shows no signs of ending.  The Duke of Tobia
+  has given the two sides a year to sort ouf their differences: if
+  they don't, he'll send in the fleet.
+
+#### Known
+
+- The Hierate has taken the Glorious Empire worlds of Keawoaw and Alr.
+
+- There have been protests by the human population of Hradus against
+  the Imperium's technology restrictions, claiming that the Aslan
+  population have proven themselves honourable and trustworthy time
+  and time again over the centuries.  The Aslan themselves have not
+  become involved.
+
+- The royal house of the Sindalian Empire never went extinct.  The
+  current Emperor of Sindal and Protector of the Reach still lives on
+  the old capital world of Noricum and gives the Imperial Blessing of
+  the Star Dragon to all who perform a service for him.
+
+- A new archaeological site has been found at Vume, it seems to be
+  some sort of Ancient factory.
+
+
+Resources (for use in-session)
+------------------------------
+
+### Online
+
+- [Word generator](http://traveller5.net/tools/vilanitools.html)
+- [Travel time calculator](https://www.cyborgprime.com/traveller-rpg-blog/traveller-rpg-ship-travel-time-calculator)
+- [The Traveller Map](https://travellermap.com/?p=-93.964!25.5!7&options=41983)
+- [The Traveller Wiki](https://wiki.travellerrpg.com/Main_Page)
+
+### Books
+
+- **Patrons and missions:**
+  - Traveller Core Rulebook, page 88
+  - Traveller Core Rulebook, "The Sindal Subsector" chapter
+
+- **NPCs:**
+  - Traveller Core Rulebook, pages 86 and 87
+  - Traveller Core Rulebook, page 209 (passengers)
+
+- **Starport encounters:**
+  - Traveller Core Rulebook, page 89
+
+- **Planetary encounters:**
+  - Traveller Core Rulebook, page 89 (rural)
+  - Traveller Core Rulebook, page 90 (urban)
+
+- **Space encounters:**
+  - Traveller Core Rulebook, pages 145 and 146
+  - Drinaxian Companion, "Ship Encounters" chapter
+
+- **Quick lore:**
+  - Traveller Core Rulebook, "The Sindal Subsector" chapter
+  - The Trojan Reach, subsector chapters
+  - Aliens of Charted Space vol 1, "Aslan Glossary" chapter
+  - Aliens of Charted Space vol 1, page 12 (Aslan words)
+  - The Glorious Empire, "Glossary of Aslan Words & Terms" chapter
 
 
 2021-10-10 --- Session 0
@@ -490,3 +715,65 @@ No relevant NPCs yet.
 
 - Both captains receiving their ships
 - Some sort of introductory adventure
+
+
+2021-10-17 --- The Beginning
+----------------------------
+
+### Prep
+
+#### Receiving the ships
+
+- **Scout Ship:**
+  - Tors Mallier, a Scout captain slouching back in his chair in a
+    messy office in the naval base, hands over the key fob and
+    explains the quirks.
+  - He jokes about how up-tight the Navy are compared to the Scouts.
+  - "Say hi to any other Scouts on Detached Duty you see out there.
+    Some of them haven't come back to a base in years, but we still
+    think about them."
+  - Give missions.
+
+- **Far Trader:**
+  - Claire Waynhim, a bureaucrat from the GeDeCo Bank, hands over
+    several key fobs in a busy hangar next to the ship.
+  - She explains the mortgage and running costs, where the mortgage
+    can be paid, the transponder, and to arrange beforehand if needing
+    to delay payments.
+  - Politely inquires what Astraea's plans are, and says that GeDeCo
+    has a small task that needs doing right now, and may be able to
+    offer more work in the future.
+
+### Notes
+
+- **Tobia:**
+  - Take the Scout mission
+  - Take the GeDeCo mission
+  - Get a leaflet for the Church of Starry Wisdom
+- **New:**
+  - Complete the Scout mission
+  - Blow up an asteroid for the Scouts
+- **Imisaa:**
+  - Learn rumours:
+    - The Emperor of Sindal still lives on Noricum
+    - There's unrest on Hradus
+    - The Hierate have conquered Alr and Keawoar
+  - Find new jobs:
+    - Ktuarlaiaoaei (male) and Hwawyouayu (female) (those are the
+      simplified-for-humans names) to Vume
+    - A noble son in his yacht went missing on the way to Vume,
+      Cr100,000 reward for information, Cr200,000 for finding and
+      returning it
+- **971-852:**
+  - Calm down one of the scientists who was panicking about giant sea
+    monsters
+  - Drop them off for their month-long research expedition
+
+### Next time
+
+- Come up with more faction missions, random missions, and rumours
+- Figure out how to pronounce Aslan names
+- At Hradus
+- Deal with freight and mail
+- A few small jobs in the local area, as they need to return the
+  scientists in a month
