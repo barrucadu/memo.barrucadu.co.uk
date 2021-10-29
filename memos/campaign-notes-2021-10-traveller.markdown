@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2021-10-17
+modified: 2021-10-29
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -369,6 +369,14 @@ questionable favours.
 
 #### Missions
 
+1. Survey the star at Pandora for solar flare activity.  A survey by
+   an actual scout would do wonders to convince people that this
+   GeDeCo colony is safe to relocate to.
+
+2. ?
+
+3. ?
+
 ##### In Progress
 
 - Take a research team to 971-852 and pick them back up a month later.
@@ -390,6 +398,16 @@ At starports with a Scout Base, they can receive
 
 #### Missions
 
+1. Survey the star at Pandora for solar flare activity.  GeDeCo have
+   been trying to recruit colonists again, but we have our doubts that
+   it's safe.
+
+2. ?
+
+3. ?
+
+##### In Progress
+
 - Survey non-Imperium worlds in the Reach, confirming or denying
   current survey data.
 
@@ -406,6 +424,10 @@ At starports with a Scout Base, they can receive
 - Take some secured cargo to the scout base at New.
 
   **Reward:** fuel credits for the J-2, plus Cr 5,000 each.
+
+- Blow up a rogue asteroid at New.
+
+  **Reward:** salvage rights.
 
 
 NPCs
@@ -466,64 +488,102 @@ NPCs
   - plus any other skills that fit his noble upbringing and spacer
     background.
 
-Hooks
------
 
-### Missions
+Rumours
+-------
 
-- Weird space-themed cult want transporting to a starport in a nearby
-  system, and will pay very well for basic passage, but demand
-  evidence that the Traveller's ship hasn't touched the surface of a
-  planet.
+1. *No rumour, roll a random encounter!*
 
-- A naval officer would like the Travellers to transport some supplies
-  to a warship patrolling the system.
+2. **[job]** *Roll a random Patron / Mission / Target.*
 
-- A merchant with ties to the underworld needs to secretly transport
-  computer data to a contact on a ship hiding at one of the Tobia gas
-  giants.
+3. **[job]** *Roll a random Patron / Mission / Target.*
 
-- A researcher wants the Travellers to capture a whale calf from
-  Dolberg, and deliver it to a lab ship in orbit.
+4. *Roll a random Starport or Planetary encounter for the current
+   location: the Traveller learns about this.*
 
-#### In Progress
+5. *Roll a random Space encounter for the current or a nearby system:
+   the Traveller learns about this.*
 
-- An Aslan would like transport to Vume, to see the Ancient artefacts.
+6. **[aslan, politics]** The Florian League has made formal complaint
+    to the Ya'soisthea about ihatei raiding bands.  The Aslan response
+    was, essentially, "boys will be boys."
 
-### Rumours
+7. **[imperium, politics]** The civil war on Simok shows no signs of
+    ending. The Duke of Tobia has given the two sides a year to sort
+    out their differences: if they don't, he'll send in the fleet.
 
-- Pirate attacks on the trade route between the Imperium and the
-  Hierate have increased lately, both sides are having to send larger
-  escort fleets.
+8. **[aslan, imperium, piracy]** Pirate attacks on the trade route
+    between the Imperium and the Hierate have increased lately, both
+    sides are having to send larger escort fleets.
 
-- The Florian League has made a formal complaint to the Ya'soisthea
-  about ihatei raiding bands.  The Aslan response was, essentially,
-  "boys will be boys."
+9. **[piracy]** Somewhere on Theev is a city of pirates, where only
+   the strong survive.
 
-- Retired naval officers are being encouraged to colonise the world of
-  Empire.
+10. Wildeman has a reputation for ghost ships and mysterious
+    breakdowns.
 
-- The civil war on Simok shows no signs of ending.  The Duke of Tobia
-  has given the two sides a year to sort ouf their differences: if
-  they don't, he'll send in the fleet.
+11. **[aslan, politics]** The king of Drinax is plotting revenge
+    against the Aslan for destroying the kingdom two centuries ago.
 
-#### Known
+12. **[treasure]** There's an old space station at The World, falling
+    apart with age, but it's still got power and the defence turrets
+    fire on any ship that gets close.
 
-- The Hierate has taken the Glorious Empire worlds of Keawoaw and Alr.
+13. **[aslan, gedeco]** Aslan assassins blew up the class A starport
+    at Vorito and killed the GeDeCo executives, plunging the planet to
+    its current low-tech state.
 
-- There have been protests by the human population of Hradus against
-  the Imperium's technology restrictions, claiming that the Aslan
-  population have proven themselves honourable and trustworthy time
-  and time again over the centuries.  The Aslan themselves have not
-  become involved.
+14. **[treasure]** Miners on Argona say there's a giant crystal
+    covered in intricate carvings somewhere in the glacier-tunnels,
+    but everyone who's seen it has died or gone mad.
 
-- The royal house of the Sindalian Empire never went extinct.  The
-  current Emperor of Sindal and Protector of the Reach still lives on
-  the old capital world of Noricum and gives the Imperial Blessing of
-  the Star Dragon to all who perform a service for him.
+15. **[sindal]** Most of Noricum is uninhabitable, due to the
+    bioweapons which felled the empire.
 
-- A new archaeological site has been found at Vume, it seems to be
-  some sort of Ancient factory.
+16. **[sindal, treasure]** 200 years ago, a ship stumbled upon an old
+    cache of Sindalian tech while on the run from another three ships.
+    With the new equipment, they crushed their pursuers and spent the
+    rest of their days pillaging trade routes.  Nobody knows where
+    that cache was or what else could be in there.
+
+17. **[ancients, imperium]** Scientists say that the black hole at
+    627-301 is clearly artificial, and nobody since the Ancients has
+    had the technology to create something like that.
+
+18. **[imperium]** Kidnapping / slaving rings operate on some of the
+    border worlds.
+
+19. **[politics]** Zhodani scout ships have been seen in the sector in
+    recent months.  Why are they here?  They have no colonies or
+    starports.
+
+20. **(VUME)** There's been no news out of Vume for a while...
+
+### Known
+
+- **[aslan, politics]** The Hierate has taken the Glorious Empire
+  worlds of Keawoaw and Alr.
+
+- **[aslan, imperium, politics]** There have been protests by the
+  human population of Hradus against the Imperium's technology
+  restrictions, claiming that the Aslan population have proven
+  themselves honourable and trustworthy time and time again over the
+  centuries.  The Aslan themselves have not become involved.
+
+- **[imperium, job]** A noble son in his yacht went missing on the way
+  to Vume, Cr100,000 reward for information, Cr200,000 for finding and
+  returning it.
+
+- **[sindal]** The royal house of the Sindalian Empire never went
+  extinct.  The current Emperor of Sindal and Protector of the Reach
+  still lives on the old capital world of Noricum and gives the
+  Imperial Blessing of the Star Dragon to all who perform a service
+  for him.
+
+- **[ancients]** A new archaeological site has been found at Vume, it
+  seems to be some sort of Ancient factory.
+
+- **[imperium]** Sea monsters killed all the humans on 971-852.
 
 
 Resources (for use in-session)
@@ -531,6 +591,7 @@ Resources (for use in-session)
 
 ### Online
 
+- [Name generator](https://www.fantasynamegenerators.com/)
 - [Word generator](http://traveller5.net/tools/vilanitools.html)
 - [Travel time calculator](https://www.cyborgprime.com/traveller-rpg-blog/traveller-rpg-ship-travel-time-calculator)
 - [The Traveller Map](https://travellermap.com/?p=-93.964!25.5!7&options=41983)
@@ -556,6 +617,7 @@ Resources (for use in-session)
 - **Space encounters:**
   - Traveller Core Rulebook, pages 145 and 146
   - Drinaxian Companion, "Ship Encounters" chapter
+  - The Pirates of Drinax, pages 14, 19, and 20
 
 - **Quick lore:**
   - Traveller Core Rulebook, "The Sindal Subsector" chapter
@@ -717,7 +779,7 @@ Resources (for use in-session)
 - Some sort of introductory adventure
 
 
-2021-10-17 --- The Beginning
+2021-10-17 --- Week 0, Tobia
 ----------------------------
 
 ### Prep
@@ -768,6 +830,7 @@ Resources (for use in-session)
   - Calm down one of the scientists who was panicking about giant sea
     monsters
   - Drop them off for their month-long research expedition
+- Pay mortgage and maintenance
 
 ### Next time
 
@@ -777,3 +840,125 @@ Resources (for use in-session)
 - Deal with freight and mail
 - A few small jobs in the local area, as they need to return the
   scientists in a month
+
+
+2021-10-29 --- Week 6, Hradus
+-----------------------------
+
+### State
+
+- Ktuarl.ai.a.o.a.ei (M) and Hwaw.yo.u.a.yu (F), Aslan archaeologists
+  who have paid Cr500,000 to go to Vume.
+
+- Htu.i.ea.a (M), very minor Aslan noble (an ekhoko) going to Hradus
+  to try to encourage some distant relations to return to the Hierate.
+
+- Freight to Hradus
+
+- Mail to Hradus
+
+### Prep
+
+#### Hradus
+
+- Small, a little under half the surface area of Earth, but a similar
+  population
+- Almost all the surface area is habitable due to terraforming
+  (kusyuforming), so there's lots of wilderness, and settlements are
+  very spread out with a lot of integrated nature.  Light rail systems
+  link together the distant parts of the cities.  Buildings are
+  curved, unique, and well spaced out.  Natural lighting is preferred.
+  Herds of aua wander the garssy "streets".  In the wilderness, khekha
+  and stii can be found.
+- Use of Boundary Boxes is encouraged, though the Aslan here are quite
+  tolerant.
+- Government is impersonal, bureaucratic, oppressive, controlling:
+  - Appointed by the Imperium, due to special status
+  - TL7+ items, weapons, armour, and drugs are all prohibited
+- Political unrest over the treatment of the Aslan:
+  - Human factions, some more militant than others
+  - Aslan not getting involved, only one or two disgruntled outcasts
+    participating
+  - Players should see the mistreatment of the protestors and the
+    disdain of the government
+  - **job:** help the protestors (raid kusyuforming plant)
+  - **job:** help the government deal with the protestors (infiltrate
+  - **job:** GeDeCo would like the TL restrictions on Hradus to be
+    lifted, and think helping the protestors is the most efficient way
+    the rebels who plan to raid the kusyuforming plant)
+
+##### The Rebels
+
+- Ghoul (6H0UL), human male:
+  - **STR** 7 **DEX** 8 **END** 6 **INT** 7 **EDU** 7 **SOC** 5
+  - **Melee** 0 **Gun Combat** 1
+  - Armed with **Stunner** (Range 5, Damage 2D+3, Stun)
+  - Armed with **Laser Pistol** (Range 20, Damage 3D)
+- Memento (M3M3N70), human female:
+  - **STR** 7 **DEX** 8 **END** 6 **INT** 9 **EDU** 7 **SOC** 5
+  - **Melee** 0 **Gun Combat** 0 **Electronics (Computers)** 2
+  - Armed with **Stunner** (Range 5, Damage 2D+3, Stun)
+- Sphinx (5PH1NX), aslan male:
+  - **STR** 12 **DEX** 8 **END** 11 **INT** 9 **EDU** 6 **SOC** 6
+  - **Gun Combat** 1 **Melee** 2
+  - Armed with **Laser Pistol** (Range 20, Damage 3D)
+  - Armed with **Dewclaw** (Damage 1D+2)
+- These are all edgy hacker types
+
+##### Kusyuforming Plant
+
+- Geomorphs V06, 110, 114, 145, 146
+- Surroundings heavily forested, with a clear area immediately around
+  the plant
+- A tall white square building, with some big steaming pipes sticking
+  out of the walls, two on each side, about three quarters of the way
+  up the building.  On one side is a rectangular shaft which looks
+  like it could be a stairwell or for elevators.
+- 4 kind of bored human guards outside, 2 inside:
+  - **STR** 7 **DEX** 8 **END** 6 **INT** 7 **EDU** 7 **SOC** 5
+  - **Gun Combat** 1 **Melee** 1
+  - Armed with **Assault Rifle** (Range 200, Damage 3D, Auto 2)
+- Hacking the plant is INT / Electronics (Computers) taking 1D*10
+  minutes:
+  - Difficult to immediately shut it off or otherwise change its
+    operation in some big way
+  - Very Difficult to subtly change its operation, or to put a delay
+    on an obvious change, allowing escape before detection
+- Undoing a hack is an opposed roll with the hacker
+
+#### 971-852
+
+- Scientists have captured an amphibious xenomorph.
+- The only clue is two of the scientists struggling with a bulky case
+  of equipment, which they didn't have so much trouble with when they
+  arrived (because it wasn't full of water and monster then), and
+  which they will prevent the Travellers from helping with.
+- It will escape during the jump.
+- Xenomorph:
+  - **Hits** 12 **Armour** 3 **Speed** 12m
+  - **Stealth** 2 **Melee (natural)** 1
+  - **Bite** 3D
+  - Acid Blood
+
+### Notes
+
+- **Hradus:**
+  - Freight, deal with Htu.i.ea.a, refuel
+  - Scout Ship maintenance
+- **Jump Hradus to Saurus**
+- **Saurus:**
+  - Far Trader mortgage and maintenance
+- **Jump Saurus to 971-852**
+- **971-852**
+  - Scientists have an unusually heavy crate, hmm...
+- **Jump 971-852 to Pichot:**
+  - Xenomorph escapes!  Hurts Astraea, Lynette kills it.
+- **Pichot:**
+  - Pirate attack!  Black Jack's Patrol Corvette!
+  - Scout Ship: 29 HP, Cargo 1, M-Drive 1
+  - Far Trader: 61 HP, Cargo 1, Fuel 1
+
+### Next time
+
+- Week 11
+- Time-skip to Vume (deal with freight & passengers & repairs between sessions)
