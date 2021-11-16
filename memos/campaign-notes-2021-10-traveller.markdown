@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2021-10-29
+modified: 2021-11-16
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -596,6 +596,7 @@ Resources (for use in-session)
 - [Travel time calculator](https://www.cyborgprime.com/traveller-rpg-blog/traveller-rpg-ship-travel-time-calculator)
 - [The Traveller Map](https://travellermap.com/?p=-93.964!25.5!7&options=41983)
 - [The Traveller Wiki](https://wiki.travellerrpg.com/Main_Page)
+- [Random event tables --- a week in jumpspace](https://mytravelleruniverse.com/2017/05/11/random-event-tables-a-week-in-jumpspace/)
 
 ### Books
 
@@ -625,6 +626,69 @@ Resources (for use in-session)
   - Aliens of Charted Space vol 1, "Aslan Glossary" chapter
   - Aliens of Charted Space vol 1, page 12 (Aslan words)
   - The Glorious Empire, "Glossary of Aslan Words & Terms" chapter
+
+
+Miscellaneous
+-------------
+
+### House Rule: Healing
+
+An injured Traveller who does not seek medical treatment or bed rest
+must, at the end of every day, roll `1D + END DM`:
+
+- On a 0 or higher, nothing happens.
+- On a -1 or lower, they lose that many characteristic points.
+
+Furthermore, if the Traveller has a characteristic at 0 points, they
+are too injured to do anything but rest.
+
+### Htoua
+
+<img src="campaign-notes-2021-10-traveller/htoua.jpg" width="256" style="float: right">
+
+Htoua is an Aslan game similar to shogi.
+
+The pieces are named after Aslan clan roles, thus, you have to defeat
+the Clan Head, who is protected by his Clan Lords, Pride Heads, Family
+Heads, First Sons, and Second Sons.  It's played over three phases,
+with each having slightly different allowable moves.  When a piece is
+lost, the player immediately chooses one from the next rank down to
+promote to their place (and then so on to replace the promoted piece).
+Captured pieces can be brought back into play as Second Sons.
+
+The game ends when the Clan Head has been captured.
+
+1. In secret, both sides choose a playstyle:
+   - **Aggressive:** both sides get a boon on the final opposed check
+   - **Defensive:** both sides get a bane on the final opposed check
+   - **Neutral:** no additional effect
+2. In secret, both sides choose a strategy:
+   - **Misdirection:**
+     - Attempt to pull your opponent's defences in one direction, so
+       you can attack from the other.
+     - **Skill:** Int / Deception
+     - **Bonus:** +2 against a defensive playstyle
+   - **Entrapment:**
+     - Attempt to lure your opponent's attacking pieces into a trap,
+       so you can capture them.
+     - **Skill:** Int / Persuade
+     - **Bonus:** +2 against an aggressive playstyle
+   - **Overwhelming force:**
+     - Attempt to overwhelm your opponent quickly, before they can
+       develop their strategy.
+     - **Skill:** Int / Tactics
+     - **Bonus:** +2 against a neutral playstyle
+   - **Luck:**
+     - Use your innate knowledge of games to improvise a strategy as
+       you go.
+     - **Skill:** Int / Gambler
+     - **Bonus:** +1
+3. Both sides try to guess the opponent's strategy, and then start a
+   task chain by making the relevant skill check (with +2 for guessing
+   correctly).
+4. Make an opposed Int / Htoua check (or Edu / Htoua, if drawing upon
+   the study of past games), with the appropriate strategy bonus and
+   task chain bonus.
 
 
 2021-10-10 --- Session 0
@@ -962,3 +1026,207 @@ Resources (for use in-session)
 
 - Week 11
 - Time-skip to Vume (deal with freight & passengers & repairs between sessions)
+
+
+2021-11-28 --- Week 8, Tobia
+----------------------------
+
+### State
+
+- Ktuarl.ai.a.o.a.ei (M) and Hwaw.yo.u.a.yu (F), Aslan archaeologists
+  who have paid Cr500,000 to go to Vume.
+  - **Ktuarl.ai.a.o.a.ei**: STR 12 (+2) DEX 8 (0) END 11 (+1) INT 9 (+1) EDU 6 (0)
+    - Crescent Blade: damage 2D+3; skill 1
+  - **Hwaw.yo.u.a.yu**: STR 7 (0) DEX 7 (0) END 8 (0) INT 10 (+1) EDU 7 (0)
+    - Stunner: damage 2D; skill 1
+  - Vacc Suit: armour +6, 50 rads
+  - Dewclaw: 1D+2 damage; skill 2
+
+- Far Trader damage:
+  - **Hull Points:** 61 / 80
+  - **Critical Hits:** Fuel 1
+
+- Scout / Courier damage:
+  - **Hull Points:** 29 / 40
+  - **Critical Hits:** M-Drive 1
+
+- Scientist job:
+  - 125,000 Cr
+  - 93,750 Cr hazard pay
+  - = 218 750 cr
+
+### Prep
+
+#### Rules
+
+- Injury house rule
+
+- Lynette's flamethrower: swap to range 10 / blast 3, or a different
+  weapon, or keep it (and hit self).
+
+- Spare parts overspend:
+  - I think I misread the spare parts price as 1,000,000 Cr (supposed
+    to be 100,000 Cr).
+  - Retroactively buy more spare parts at the cheap price that
+    merchant was offering (50,000 Cr/ton), up to another 450,000 Cr
+    worth; or just add 450,000 Cr to the party finances.
+
+#### Bookkeeping
+
+- Spend spare parts to repair the ships.
+  - They have to at least repair the Fuel critical hit before they can
+    jump to Tobia.
+  - Assuming Astraea rests, she heals in the couple of weeks it takes
+    to patch up their ships and jump to Tobia.
+  - Shipyard maintenance will cost 80,000 Cr and 4 hours per ton of
+    spare parts needed.
+
+- It's mortgage and maintenance time again.
+
+- Give Far Trader to the bank:
+  - Monthly fee of 50,000 Cr + 15% of profit; 460,177.56 Cr left for you per trip.
+  - Every 60 days (2 months; 8.5 weeks) trade income will be deposited
+    in their bank account on Tobia (there's no FTL comms, so where the
+    money is is very important!).
+  - Income won't be consistent, I'll work out some sort of roll to
+    determine if a trip is unusually good or bad.
+
+- Route to Vume
+  - Those without Vacc Suits may want to get one.
+
+#### Travel to Vume
+
+- Roll **once** for interesting events during the journey:
+  - Make a jump check: if misjump, roll to see which jump it was.
+  - Make a "a week in jumpspace" roll: if something happens, roll to
+    see which jump it was.
+  - Make a space encounter roll: if something happens, roll to see
+    which system it was in.
+  - Make a rumour check, with a bonus die if the PC is trying in
+    multiple stops.
+  - Character interactions:
+    - Make Astraea and one of Ktuarl.ai.a.o.a.ei or Hwaw.yo.u.a.yu
+      interact (try for Htoua)
+    - For others, roll:
+      - Orcan
+      - Lynette
+      - Ilijah
+      - Xavier
+      - The other of Ktuarl.ai.a.o.a.ei and Hwaw.yo.u.a.yu
+
+- At the stop before Vume (likely Chalchiutlicue), they get the "no
+  recent news from Vume" rumour
+
+- Check for completed study periods.
+
+#### Vume
+
+- **On approach:**
+  - On the bridge, alarms blare and all the screens display "EMERGENCY
+    / QUARANTINE" in flashing bold red letters.  If an NPC is on duty,
+    they run to get Ilijah.
+  - Difficult Sensors check will pick up a lab ship dangerously close
+    to the star.
+  - If the players decide to immediately leave, Ktuarl.ai.a.o.a.ei
+    reminds them that there's supposed to be about 20,000 people
+    living on Vume --- it would be dishonourable and cowardly to leave
+    without providing what emergency assistance we can.  If they
+    press, more to the point, he'll want his money back.
+
+- **Externally visible:**
+  - A planet-covering network of roughly circular semi-independent
+    bases, connected by hundreds of metres of tunnels.  Only four are
+    inhabited: Sisho, Nuffo, Drozib, and Tibi.
+  - If they come up with a way to survey this big irregular structure:
+    - Low light level visible through windows, suggesting reduced power.
+    - Some explosion holes: the station has internal airlocks, but at
+      least part of it will be in vacuum.
+  - A Very Difficult Recon check will spot a wild-eyed face briefly
+    peering at them through a window, and then disappear.
+
+- **Getting access:**
+  - The main landing area
+  - Various access ports around the exterior which connect to
+    corridors
+
+- **Internally:**
+  - It's cold, but not dangerously so; and the air quality is poor, as
+    if the CO2 scrubbers haven't been changed for a few weeks, but not
+    yet at toxic levels.  Spending days here would be dangerous, but
+    hours would not.
+  - There is only emergency lighting.
+  - There are several cannibal rage monsters active, *many* sleeping.
+  - Booby traps: spikes on a stick, tripwires, heavy objects above
+    doors, etc (1D damage).
+
+  - **Locations:**
+    - **Landing area:** a flat plane exposed to space with docking
+      clamps to hold a ship in place despite the low gravity.  There
+      are extendable airlocks, but nobody is around to operate them:
+      access to the station is a walk through vacuum.  A few small
+      ships are here, dark, clearly unoccupied.
+    - **Main airlock:** a large open space with seating areas and big
+      cargo doors, almost like an airport terminal.  Slumped against
+      the airlock door, not visible from the outside, is a corpse.  It
+      looks like a suicide.
+    - **Cafeteria / Kitchen:** 12 people dead, hanging off meat hooks.
+      They've been gnawed on by human-looking teeth.
+    - **Bridge:** lots of seats, screens, computers, all showing the
+      "EMERGENCY / QUARANTINE" signal.  One entrance barricaded shut.
+      There is an awake cannibal range monster here (25% chance of
+      being in rage mode).
+    - **Emergency shelter:** thousands of occupied low berths, bio
+      monitors, etc.  Medic check can pick out what identifies the
+      infected.  About 10% are: hundreds, maybe even a few thousand
+      people.
+    - **Corridors:** long, dark, spooky; the occasional sleeping
+      cannibal rage monster, blood on their face and hands.
+    - **Residential area:** mostly empty, some rooms locked shut, with
+      movement inside...
+    - **Lab:** exposed to vacuum, a mysterious black cube surrounded
+      by corpses in hazmat suits.
+
+- **Ship's records, security camera logs, etc:**
+  - Newly-discovered Ancient factory appears to be a bioengineering
+    facility --- with some samples still intact!
+  - Heavy machinery bringing a large black cube into a lab, scientists
+    in bright orange hazmat suits watching on.
+  - Two scientists opening the cube, a thick purple mist billows out
+    and engulfs them: "oh god, it's eating through the suits!"
+  - The scientists stagger out of the fog and collapse.
+  - Three run up to help them, and as they're picking the bodies up,
+    they lurch forward, and start tearing at the suits of their
+    helpers, trying to open them.
+  - Someone pulls a stunner, fires, and the electricity ignites the
+    purple mist: it explodes, blows a big hole in the station, and
+    pressure doors slam shut.
+  - Command log: "we now believe some of the mist which affected those
+    scientists must have been blown into the station by the blast and
+    been pulled into the life support system" "reports of aggression
+    in all four sectors" "tried to send a ship for help, but there was
+    an outbreak on board and contact was lost" "decided to engage
+    emergency protocols and broadcast a quarantine signal"
+  - System logs: unknown agent in the air detected on the day of the
+    explosion, filtered out over a week ago; CO2 filters need
+    replacing ASAP.
+
+- **Cannibal rage monsters:**
+  - **Rage mode:** STR 14 (+2) DEX 15 (+3) END 14 (+2) INT 4 (-1) EDU 8 (0)
+  - **Fatigued mode:** STR 4 (-1) DEX 5 (-1) END (-1) 3 INT 4 (-1) EDU 8 (0)
+  - About 1 in 10 should be wearing some cobbled-together
+    post-apocalyptic armour (+4 protection)
+  - Some will be armed with a club (1D damage) or a knife (1D+2 damage); skill 1
+  - All will insist that it was the *others* who killed and ate
+    people; not *them*.
+  - They will scurry around beneath the floor.
+  - Roll 1d6 as the Travellers move around: 1 means there is an active
+    cannibal rage monster in the vicinity!
+
+- **Cannibal rage lab animals:**
+  - **Swarm of rats:** hits 20; attack 0 (+ boon); damage 1d2; small (-4)
+  - **Badger:** hits 7; attack 1; damage 1d3; small (-2)
+  - **Chimpanzee:** hits 13; attack 2; damage 1d6; dmall (-1)
+
+### Notes
+
+### Next time
