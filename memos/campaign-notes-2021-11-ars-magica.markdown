@@ -2,7 +2,7 @@
 title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
-published: 2021-11-09
+published: 2021-11-16
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -26,17 +26,128 @@ Player characters
 
 ### Magi
 
-See pinned Magi sheets.  No GM notes yet.
+#### Brennus Tagall
+
+> Raised in a Alnwick near the English border with Scotland by stable
+> owners, at a young age he found a fondness for animals as they
+> didn't seem to mind him unlike most humans.
+>
+> Due to the geographic closeness of Loch Leglean he was taken into
+> the Scottish Tribunal, and picked up a very basic conversational
+> grasp of Scots.
+>
+> During his studies it was identified that he is completely unable to
+> combine Perdo with Ignam or Corpus but has a strong ability with
+> Creo and thus he focussed on the study of healing.
+
+#### Neste Chladach
+
+> A Welsh Orphan who was driven out of her hometown and made her way
+> up the west coast to Carlisle surviving off coastal forage.  Adopted
+> by an innskeep, took strangely to the drinking culture until a
+> traveller figured out her Fae heritage and pressured the innskeep to
+> send her to the order.
+
+#### Tighànaidh (Tiffany) NicGlas
+
+> Tighànaidh grew up in a small village of only a few dozen people.
+> The town's population is devoutly Roman Catholic, church life being
+> a mainstay of events throughout the week.  In her childhood,
+> Tighànaidh took well to religion and spent much of her time working
+> in the church, until her Gift grew discomforting to the
+> congregation, and she was asked to leave.  At the age of 8, her
+> father agreed to send her away to apprentice with the Order, where
+> her religion did not wane and has guided her studies and relations.
+> Tighànaidh is bubbly happy, often quiet, and finds herself invited
+> to most parties, for which her entertainments are greatly sought by
+> her friends.
 
 ### Companions
 
-No companions yet.
+#### Eun
+
+> In many ways closer to an animal the skinchanger Eun is perhaps one
+> of the few people who could find Brennus Tagall non offensive.
+> Raised, metaphorically, by wolves, Eun has little in the way of
+> language, although far more now than when they met 9 years ago.
+> Considered a poacher and a thief by the local Scots, any and all
+> attempts Tagall has made to properly civilise her have been swiftly
+> put to rest, although some progress has been made.  Eun obviously
+> disdains the concept of gender roles and largely dresses in what
+> medieval society considers mens clothing, but she's also socially
+> aware enough to disguise her gender and identity when passing near
+> settled areas.  She no longer steals from the peasentfolk, although
+> whether this is just due to a lack of need has never been tested,
+> and she's proven receptive to learning, although only things that
+> can be directly applied to her hunting and wilderness survival.
+
+**Companion of Brennus.**
+
+#### Marvenus
+
+> Marvenis father was a merchant immigrant from the mainland.  When he
+> was young, they moved across Scotland when times became tough.
+> While his parents resettled, the journey made an impression on
+> Marvenis, and when he became old enough he began travelling all
+> across Scotland with a small pony and cart, taking goods from town
+> to town.
+>
+> Marvenis is well spoken, friendly, and enjoys a good night out,
+> though he keeps his own faculties in check.  He is happy to lend a
+> kind ear to anyone who needs it.  As a merchant he keeps himself
+> fed, but leads a simple life, as most of what he makes he uses to
+> help those in greater need, often to his own detriment.
+>
+> Marvenis met Neste in a bar in Carlisle, just in time to agree to
+> transport her to the order to begin her apprenticeship.  He
+> continued to travel while she studied, dropping in on her every few
+> seasons as he passed through.  Now, as his arthiritis begins to set
+> in and his eyesight begins to fail, he's looking to settle down in
+> one place and create a small market where he can make a family
+> before he runs out of time.  The port village on the road still has
+> cheap land to set up on, an important road to bring clients, and of
+> course, Neste.
+
+**Companion of Neste.**
+
+#### Friar Alban
+
+> Born in england, Alban joined the crusades and fought in the Holy
+> Land for years.
+>
+> After returning from the crusades, he joined the Franciscan Order
+> giving up all of his possessions (except for his sword which he kept
+> as both a reminder of the depths of man's sin) and devoting his life
+> to the will of god.
+>
+> He met Tighànaidh during her apprenticeship, whilst he doesn't speak
+> Scots they were able to converse in Latin.
+>
+> He has a calm and friendly demeanour with a focus on helping those
+> in need.
+
+**Companion of Tighànaidh**
 
 
 Covenant
 --------
 
-See pinned Covenant sheet.  No GM notes yet.
+```asciiart
+R              +-----------------------------+   +-------------------+
+R              | FARM                        |   | COVENANT          |
+R    +-----+   |                             |   |                   |
+R    | INN |   |                             |   +-----+             |
+R    |     |   |                             |         |             |
+R    |     |   |                             |         |             |
+R    |     |   |                             |   +-----+             |
+R    +-----+   |                             |   |                   |
+R              |                             |   |                   |
+R              +-----------------------------+   +-------------------+
+```
+
+- In Auchmithie, Scotland; 3 miles NE of Arbroath Abbey; 20 miles NE
+  of Dundee.
+- 200 Build Points of Hidden Resources remaining.
 
 
 2021-11-09 --- Session 0
@@ -113,3 +224,154 @@ See pinned Covenant sheet.  No GM notes yet.
 
 - Walk through lab work
 - Introductory adventure
+
+
+2021-11-16 --- Spring 1220
+--------------------------
+
+### Prep
+
+#### Outline
+
+1. Local things:
+   - In Auchmithie, a small fishing village
+   - 20 miles NE of Dundee (the seat of the Mormaer of Angus)
+   - 3 miles NE of Arbroath Abbey (Benedictine)
+   - Signs of fairies nearby:
+     - A circle of ancient pagan standing stones on a hill overlooking
+       the village, with stories of strange things happening at the
+       equinoxes and solstices
+     - Fairy weavers sometimes join the old women
+     - Local stories of it not being a good idea to be out on the
+       coastal road at the winter solstice
+2. **Discussion:** the Covenant's relationship to the village:
+   - Do they know the magi are magi?  Or are they posing as something
+     else?
+     - If it helps, the Order of Hermes is not very widely known: the
+       powerful know about it, the well connected will have an inkling
+       that there's some sort of network of magi, but everyone else
+       doesn't known about it.
+   - What's the attitude of the villagers to the Covenant and its
+     inhabitants?  Different magi may be viewed differently, this is
+     fine!
+   - How do the magi treat the grogs?  Are they kept at a distance, or
+     are things fairly familiar?
+   - What's your source of income?
+3. **Spring 1220:**
+   - Everyone's plans
+   - Kelpie Kidnaps Children
+4. **Summer 1220:**
+   - Everyone's plans
+5. **Autumn 1220:**
+   - Everyone's plans
+   - Invitation to Arbroath
+6. **Winter 1220:**
+   - Everyone's plans
+7. **Discussion:** what are the PC's goals and plans? (for future
+   proactive stories)
+
+#### Kelpie Kidnaps Children
+
+On the night of the vernal equinox (start of spring), the village
+children are stolen away by a kelpie to be drowned and eaten, with one
+spared to return home and tell the tale.
+
+- **Preamble:**
+  - If the magi have good relations with their grogs, one will ask who
+    the "noble guest" is, and that there is a "very fine" new horse in
+    the stables.
+  - There is no noble guest.
+  - Upon investigation, the horse has gone, and the floor of the
+    stable is soaked with salt water.
+
+- **5-Node Mystery:**
+  1. The PCs discover the children are missing:
+     - Villagers are out at night with torches yelling, this is kind
+       of obvious to anyone not cooped up in their lab.
+     - If the Covenant has good relations with the village, they will
+       ask for help.
+  2. Villagers are searching the road:
+     - In case the children were taken away.  If shared, a missing
+       horse is taken as a bad sign.
+     - **Fairy clue:** hoofprints going into the stable, but there is
+       no extra horse, and there are bare footprints coming out
+     - **Fairy clue:** loose seaweed
+  3. Villagers are searching the shore:
+     - In case the children got into difficulty and can't get back.
+     - **Fairy clue:** baskets weaving themselves
+     - **Fairy clue:**
+  4. Villagers are searching the forest:
+     - In case the children got lost in the dark.
+     - **Fairy clue:** sounds of children playing in the distance,
+       which lead up to the standing stones
+     - **Fairy clue:** a vague sense of there being something else in
+       the dark with you
+  5. The PCs realise fairies stole away the children.
+
+- **5-Room Dungeon:**
+  1. **Entrance:** The Circle of Standing Stones
+     - On the hill overlooking the village
+     - The stars look slightly wrong through it (as if they're seen
+       through a lens or a heat shimmer)
+     - Entering the regio requires running around it anticlockwise
+       three times and then stepping into the middle.
+  2. **Puzzle:** The Fairy Forest
+     - **Faerie Aura:** 5 (casting +3, botch dice +5)
+     - Clearly very close to being in Faerie
+     - Intense feeling of being not alone
+     - Sounds of children playing and adults calling out to be careful
+       and not get lost
+     - Trees seem to move around, thorns suddenly appear, the adult
+       voices get louder deeper, and it's easy to get turned around
+       and come back to the entrance
+  3. **Red Herring:** The Dead Marshes
+     - **Faerie Aura:** 5 (casting +3, botch dice +5)
+     - A large, barren, misty, marsh extending as far as the eye can
+       see
+     - The water is full of corpses; but these are items of glamour,
+       bringing one out of faerie makes it revert to scraps of cloth
+       and tangled roots
+  4. **Climax:** The Kelpie and the Children
+     - Back in the mundane world, on an inaccessible bit of the
+       shoreline, children stumble towards the sea with vacant eyes,
+       while one stands back trying to bring them to their senses
+     - The kelpie is present (p89 Faerie sourcebook)
+  5. **Plot Twist:** Returning Home
+     - There is no route back into Faerie, and this bit of the shore
+       is cut off from the rest.
+
+#### Invitation to Arbroath
+
+The abbot of Arbroath would like to meet the rich nobles who settled
+near the village several months ago and who helped to rescue the
+children from the kelpie.  And so, an invitation to visit the abbey
+for a few days is sent.
+
+Upon discovering that the characters are magi (the abbot will realise
+if one without the Gentle Gift goes, or it may come up in conversation
+about how exactly they saved the children), the abbot's attitude
+sours.  He thinks they are likely heretics on the path to evil, but
+will refrain from denouncing them if they exemplify the virtues,
+perform good services for the community, render assistance to the
+abbey, and pay a generous tithe (this is the introduction of the
+**Minor Beholden** hook).
+
+### Notes
+
+- **Discussion:**
+  - They're keeping the fact that they're magi quiet: not exactly
+    hiding it, but not talking about it without need either
+  - The villagers think they're kind of weird
+  - Neste has tried to make a good impression
+  - Grogs are just normal peons, the magi are fairly hands-off
+  - There's one head grog
+  - Income is from the inn, and also from selling excess crops
+
+- **Spring 1220:**
+  - Children saved
+  - Kelpie driven off but not killed
+  - They created a mocking InVi(Co) fairy with a botch
+
+### Next time
+
+- Summer 1220
