@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2021-11-16
+modified: 2021-11-28
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -435,6 +435,8 @@ NPCs
 
 ### Xavier Echithilei (Crew member, outcast minor noble)
 
+<img src="campaign-notes-2021-10-traveller/xavier-echithilei.png" width="64" style="float: right; border: 1px solid black;">
+
 > Xavier is from a noble family which makes their money from operating
 > a large interstellar trading firm (as many of them do), but the
 > family keeps a fairly hands-off approach to management: the company
@@ -557,7 +559,7 @@ Rumours
     recent months.  Why are they here?  They have no colonies or
     starports.
 
-20. **(VUME)** There's been no news out of Vume for a while...
+20. ?
 
 ### Known
 
@@ -1136,7 +1138,7 @@ The game ends when the Clan Head has been captured.
 - **Externally visible:**
   - A planet-covering network of roughly circular semi-independent
     bases, connected by hundreds of metres of tunnels.  Only four are
-    inhabited: Sisho, Nuffo, Drozib, and Tibi.
+    inhabited: Tibi, Jolly-Jolly, Shisho, and Drozib.
   - If they come up with a way to survey this big irregular structure:
     - Low light level visible through windows, suggesting reduced power.
     - Some explosion holes: the station has internal airlocks, but at
@@ -1156,35 +1158,61 @@ The game ends when the Clan Head has been captured.
     hours would not.
   - There is only emergency lighting.
   - There are several cannibal rage monsters active, *many* sleeping.
-  - Booby traps: spikes on a stick, tripwires, heavy objects above
-    doors, etc (1D damage).
 
-  - **Locations:**
-    - **Landing area:** a flat plane exposed to space with docking
-      clamps to hold a ship in place despite the low gravity.  There
-      are extendable airlocks, but nobody is around to operate them:
-      access to the station is a walk through vacuum.  A few small
-      ships are here, dark, clearly unoccupied.
-    - **Main airlock:** a large open space with seating areas and big
-      cargo doors, almost like an airport terminal.  Slumped against
-      the airlock door, not visible from the outside, is a corpse.  It
-      looks like a suicide.
-    - **Cafeteria / Kitchen:** 12 people dead, hanging off meat hooks.
-      They've been gnawed on by human-looking teeth.
+  - **Obstacles:**
+    - Booby traps: spikes on a stick, tripwires, heavy objects above
+      doors, etc (1D damage).
+    - Collapsed sections
+    - Depressurised sections
+
+  - **Zones:**
     - **Bridge:** lots of seats, screens, computers, all showing the
       "EMERGENCY / QUARANTINE" signal.  One entrance barricaded shut.
       There is an awake cannibal range monster here (25% chance of
       being in rage mode).
-    - **Emergency shelter:** thousands of occupied low berths, bio
-      monitors, etc.  Medic check can pick out what identifies the
-      infected.  About 10% are: hundreds, maybe even a few thousand
-      people.
     - **Corridors:** long, dark, spooky; the occasional sleeping
       cannibal rage monster, blood on their face and hands.
-    - **Residential area:** mostly empty, some rooms locked shut, with
-      movement inside...
-    - **Lab:** exposed to vacuum, a mysterious black cube surrounded
-      by corpses in hazmat suits.
+    - **Views:** lots of glass, showing off space and the planet's
+      landscape.
+    - **"Port":** (orange)
+      - **Landing area:** a flat plane exposed to space with docking
+        clamps to hold a ship in place despite the low gravity.  There
+        are extendable airlocks, but nobody is around to operate them:
+        access to the station is a walk through vacuum.  A few small
+        ships are here, dark, clearly unoccupied.
+      - **Terminal:** a large open space with seating areas and big
+        cargo doors, like an airport terminal.  Slumped against the
+        airlock door, not visible from the outside, is a corpse.  It
+        looks like a suicide.  Signs pointing the way to RESIDENTIAL /
+        EMERGENCY SHELTERS and RESEARCH.  Doors are sealed.
+      - **Flight control:** above the terminal, a few blood-stained
+        sleeping cannibal rage monsters.
+      - **Warehouse:** big storage rooms full of spare parts, imported
+        food and medicines, tools, machines, etc; the refrigeration
+        has shut down and the food has spoiled.
+    - **Residential:** (green) there are 5000 people in each base, so
+      these rooms should be big and repeated.
+      - **Residences:** mostly empty, some rooms locked shut, with
+        movement inside...
+      - **Cafeteria / Kitchen:** 12 people dead, hanging off meat
+        hooks.  They've been gnawed on by human-looking teeth.
+      - **Hydroponics:** some with food crops, some just grass, trees,
+        and flowers; overgrown as if they've not been tended in a few
+        weeks.
+      - **Emergency shelter:** thousands of occupied low berths, bio
+        monitors, etc.  Medic check can pick out what identifies the
+        infected.  About 10% are: hundreds, maybe even a few thousand
+        people.
+    - **Science:** (blue)
+      - **Hydroponics:** like the residential ones, but mostly alien
+        plants.
+      - **Small Labs:** little offices with connected labs, holding a
+        variety of things: animals in cages (some escaped), colourful
+        liquids in vials, weird machinery, etc.
+      - **Main Lab:** exposed to vacuum, a mysterious black cube
+        surrounded by corpses in hazmat suits.
+        - Examining the rubble will reveal that it's in fact a
+          disguised Sindalian bioweapon.
 
 - **Ship's records, security camera logs, etc:**
   - Newly-discovered Ancient factory appears to be a bioengineering
@@ -1229,4 +1257,30 @@ The game ends when the Clan Head has been captured.
 
 ### Notes
 
+- **Pichot:**
+  - Hide the Far Trader in a cave, with Lynette and the Aslan
+- **Tobia:**
+  - Buy spare parts (**todo: how much did this cost?**)  and fuel
+    transfer gear
+  - Drop off the scientists
+- **Pichot**
+  - Fix Far Trader
+- **Imisaa:**
+  - Hand over Far Trader & Xavier to the bank
+  - Sell fuel transfer gear (for half purchace price)
+- Travel to Vume via Hexx, Nekrino, and Chalciutlicue:
+  - Not gathering rumours on the way
+- **Vume:**
+  - Lab ship:
+    - See video footage of departure & subsequent cannibal rage monsterisation
+    - Find note saying that the plague had been brought abroad
+    - Set it heading towards Vume
+  - Jolly-Jolly:
+    - Find a dormant rage-mode cannibal
+    - Find the shelter
+    - Find a survivor
+    - See survivor enter rage-mode when another person is found
+
 ### Next time
+
+- Exploring Vume
