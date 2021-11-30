@@ -2,7 +2,7 @@
 title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
-published: 2021-11-16
+published: 2021-11-30
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -375,3 +375,82 @@ abbey, and pay a generous tithe (this is the introduction of the
 ### Next time
 
 - Summer 1220
+
+
+2021-11-30 --- Summer 1220
+--------------------------
+
+### Prep
+
+- **Rules:** spellcasting in combat (p174)
+  - Initiative modifier for spellcasting in combat is just Quickness
+  - Fast Casting is done as a reaction to something else
+- **Summer 1220:**
+  - Everyone's plans
+  - Harvesting the Muto vis
+    - Nobody knows the exact day, the field is 20 miles away, and
+      there are a lot of cocoons to harvest.
+  - Lord Boyd (Minor Beholden) wants the covenant to tutor his son,
+    Mason
+    - Lord Boyd owns the lands along this coastal area: a few
+      villages, and the area with the covenant
+    - He's boisterous and doesn't listen
+    - He'll send a letter announcing this arrangement at short notice,
+      and Mason + some servants will just show up if nothing is done
+      to stop it
+    - A season is 3 months, and a magus can spend at most 10 days away
+      from their lab if they want to spend it doing lab work; also the
+      Gift will likely affect who can tutor Mason
+- **Autumn 1220:**
+  - Everyone's plans
+  - Invitation to Arbroath
+    - Abbot Montgomery would like to meet the rich scholars who
+      settled nearby recently and who helped to save the village
+      children (ask the players how much of the truth they told about
+      that)
+    - He has strong connections to the rest of the Church, and in
+      particular is a close personal friend of the Bishop.
+    - If he realises they're magi, he will think them heretics far
+      down the path of sin, unless they are outstandingly virtuous
+  - Succubus takes up residence in the inn
+    - Traffic increases, which is good for money, but there are some
+      strange visitors: they arrive, spend a night, and then depart
+      back in the direction whence they came; and some even come to
+      blows over having specific rooms.
+    - There's a faint infernal aura in one room in particular.
+      - Friar Alban and any other Divine-affiliated people feel
+        disgust when in the room
+- **Winter 1220:**
+  - Everyone's plans
+  - Fairies stealing money
+    - Money is disappearing from the covenant's stores
+    - Fairies are taking it in the night in exchange for tending the
+      field
+- What are the PC's goals and plans? (for future proactive stories)
+
+### Notes
+
+- **Summer 1220:**
+  - Marvenus sets up a shop and starts making connections
+  - Send grogs to harvest Muto Vis
+  - Appoint Friar Alban to teach Mason
+  - Might Friar Alban be concerned that Eun can't speak, and therefore
+    can't confess her sins?
+- **Autumn 1220** (first half):
+  - Neste starts looking for a scribe or a bookbinder to bring to the
+    covenant
+  - Brennus starts looking for vis source leads
+  - Notice demon at the inn:
+    - We decide the inn has a corridor, so rooms can be reached
+      without going through the common room
+    - Friar Alban spots the smell
+    - Tiffany detects the aura, and leans that it's level 1
+    - Brennus tries DEO on Room target, but nothing happens
+      - Demon isn't in the room, and the aura needs exorcising or just leaving to fade
+
+### Next time
+
+- How does Demon's Eterenal Oblivion levelling work?
+- Second half of Autumn 1220
+- Adventure to find a vis source near the covenant (hidden resources)
+- Getting demon help from the Church
