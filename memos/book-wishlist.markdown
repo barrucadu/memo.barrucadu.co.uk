@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-10-16
+modified: 2021-12-04
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -40,7 +40,6 @@ SF Masterworks
 | `1857983408`    | The Complete Roderick                           | John Sladek                          |
 | `1857983416`    | Flow My Tears, the Policeman Said               | Philip K. Dick                       |
 | `1857987985`    | Grass                                           | Sheri S. Tepper                      |
-| `0575073179`    | A Fall of Moondust                              | Arthur C. Clarke                     |
 | `0575073160`    | Eon                                             | Greg Bear                            |
 | `0575074639`    | The Shrinking Man                               | Richard Matheson                     |
 | `0575074809`    | The Three Stigmata of Palmer Eldritch           | Philip K. Dick                       |

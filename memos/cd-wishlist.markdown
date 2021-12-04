@@ -2,7 +2,7 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2021-09-08
+modified: 2021-12-04
 ---
 
 This memo contains a big list of CD I want.  It's probably not very
@@ -193,7 +193,6 @@ Generally I only buy studio albums.
 - Tribe of Force
 - Break the Silence
 - Dawn of the Brave
-- Trust in Rust
 
 ### [Within Temptation](https://en.wikipedia.org/wiki/Within_Temptation_discography)
 
