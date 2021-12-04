@@ -1,8 +1,11 @@
 ---
 title: Time Tracking
 taxon: self-systems
-published: 2021-01-05
+published: 2021-12-04
+superseded_by: time-tracking
 ---
+
+<aside class="highlight">I've decided this system isn't working out, and ended the experiment.</aside>
 
 ![My time tracking dashboard](time-tracking-dashboard.png)
 
