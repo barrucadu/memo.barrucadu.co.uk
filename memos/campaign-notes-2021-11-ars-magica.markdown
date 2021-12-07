@@ -2,7 +2,8 @@
 title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
-published: 2021-11-30
+published: 2021-11-09
+modified: 2021-12-07
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -377,8 +378,8 @@ abbey, and pay a generous tithe (this is the introduction of the
 - Summer 1220
 
 
-2021-11-30 --- Summer 1220
---------------------------
+2021-11-30 --- Summer 1220 (1)
+------------------------------
 
 ### Prep
 
@@ -446,7 +447,8 @@ abbey, and pay a generous tithe (this is the introduction of the
     - Friar Alban spots the smell
     - Tiffany detects the aura, and leans that it's level 1
     - Brennus tries DEO on Room target, but nothing happens
-      - Demon isn't in the room, and the aura needs exorcising or just leaving to fade
+      - Demon isn't in the room, and the aura needs exorcising or just
+        leaving to fade
 
 ### Next time
 
@@ -454,3 +456,120 @@ abbey, and pay a generous tithe (this is the introduction of the
 - Second half of Autumn 1220
 - Adventure to find a vis source near the covenant (hidden resources)
 - Getting demon help from the Church
+
+
+2021-12-07 --- Summer 1220 (2)
+------------------------------
+
+### Prep
+
+#### Exorcising the demon
+
+- Abroath Abbey (3 miles away) can send a monk knowing the exorcism
+  rite.
+- The abbey itself is a collection of impressive red brick buildings
+  with stained glass windows, and a towering gatehouse set into the
+  outer walls.  The buildings are surrounded by fields and orchards,
+  and inside the walls are decorative and medicinal gardens.
+- Upon arrival a monk, Brother Matthew, will greet them, wash their
+  feet, and taken to the gardens to rest from their journey until the
+  abbot will see them.  If there are magi with The Gift present, he
+  will greet them warily, skip the feet washing, and get another monk
+  to keep an eye on them as he goes to the abbot.
+- The abbot will be skeptical of claims of demonic activity, saying
+  that that sort of thing happens in *other* parishes, but will be
+  convinced if Friar Alban is there to describe the effects.  He will
+  distrust the magi if he recognises them as such, and will dismiss
+  talk of an "infernal aura" as magi-babble.
+- A monk sent out will want to return the same day, and will reject
+  any food offered to them.
+- **The exorcism:**
+  - The exorcist will dispel the infernal aura by reading loudly from
+    a Latin scroll while ringing a bell.  This will attract
+    considerable attention if guests are still at the inn.
+  - He will say that he felt no opposition, and the fiend must have
+    fled the room.  But it will be hiding nearby---may even have
+    possessed someone, likely a woman given the sin involved---as
+    demons are weak-minded and compulsive, they cannot easily give up
+    a course of action.
+  - One of the maids is possessed.
+  - Eventually the exorcist will suggest testing everyone: having them
+    hold a cross and recite a short prayer.  This will *certainly*
+    generate talk if the guests are involved.
+  - The maid will try to escape, the exorcist will command the PCs to
+    hold the maid still and will start reading the rite and ringing
+    the bell, the demon (a cloud of black smoke) will pour out of her
+    mouth and the room will be filled with a foul stench of rot and
+    decay---"Friar, the Lord's Prayer!"---and it will be banished back
+    to Hell.
+  - The exorcist will comment that it was a weak demon.
+
+#### Finding a vis source
+
+This is *The Broken Covenant of Calebais*.
+
+Brennus finds tales of a Two Crag Hill, a cursed location, home to a
+dragon and haunted by restless spirits.  This sounds like a good
+candidate for vis sources:
+
+- Ghosts, if they can be convinced to pass on, typically leave behind
+  Mentem vis.  This is tricky though as most ghosts don't know they're
+  dead, and just repeat their last days, so convincing them of their
+  fate and having them make peace with it can be hard.
+
+- A dragon will certainly have some sort of raw vis in its body.
+
+- Dragons and ghosts could indicate a magical regio, which tend to
+  have other sources of raw vis.
+
+Two Crag Hill is a week's journey inland: this means a magi who
+travels there likely cannot do lab work that season.  There are a
+couple of small villages in the area, but no significant towns.
+
+Begin with Sir Gilbert's Camp, on page 20.  Calebais is not widely
+known, though a magi may make an Order of Hermes Lore check at 15+
+when they learn the location and 12+ when they learn the name to see
+if they know anything, in which case they'll get some of the
+backstory.
+
+### Notes
+
+- **Demon:**
+  - Friar, Tiffany, and Angus go to the abbey
+  - Tiffany makes them suspicious, Angus is loud and obnoxious
+  - Conversation with abbot:
+    - Friar explains situation and convinces him that they need to
+      send an exorcist
+    - Abbot comments on the potential sinfulness of magi, and muses
+      that he should send another letter to the Pope asking for an
+      official decree on whether it is sinful
+    - Abbot sends them back with Brother Mark
+  - Return to the inn:
+    - Angus loudly announces that a monk is here to fix some evil,
+      causing a panic
+    - Brother Mark exorcises the infernal aura, says that the demon is
+      somewhere
+    - They start testing people: who are *very* suspicious that Friar
+      Alban is saying everything is fine, while Brother Mark is making
+      them recite the Lord's Prayer.
+    - Neste doesn't know the Lord's Prayer, but Brother Mark leads her
+      through it, and afterwards mutters about "godless heathens"
+    - Find the possessed serving girl, catch her on the road, do the
+      exorcism.
+- **Vis source:**
+  - Brennus, Marvenus, Eun, and a grog, arrive at Sir Gilbert's camp.
+  - Tell Sir Gilbert that they are here to take something from the
+    dragon, and reassure him that they're not here to kill it (he can
+    still do that).
+  - Get his dreams.
+  - Eun gets lots in the forest at night and meets some of the
+    animals, but can't understand them.
+  - Brennus translate plinth.
+  - Find all animals and figure out what the order is.
+
+### Next time
+
+- The rest of the *Broken Covenant* (note: play the dryad as desperate
+  for company, and very encouraging of their efforts to solve the
+  riddle)
+- Give the covenant a reputation from the whole demon shenanigans
