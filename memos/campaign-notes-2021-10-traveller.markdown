@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2021-11-28
+modified: 2021-12-12
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -294,6 +294,8 @@ Player characters
 
 <img src="campaign-notes-2021-10-traveller/lynette-hershey.png" width="64" style="float: right; border: 1px solid black;">
 
+*Retired*
+
 - **Age:** 34
 - **Homeworld:** [Orsasch](https://wiki.travellerrpg.com/Orsasch_(world))
 - **Connections:**
@@ -341,6 +343,8 @@ Ships
 ### Astraea's Type-A2 Far Trader
 
 <img src="campaign-notes-2021-10-traveller/far-trader.png" width="128" style="float: right">
+
+*On loan to GeDeCo generating income every two months: [trade route sheet](https://docs.google.com/spreadsheets/d/1Gz6TP-AXO2UfiZuQgAiG1c_ruDmF62FWiC4oJun9vC8/edit?usp=sharing).*
 
 - **Upgrades:**
    - An ion cannon
@@ -465,6 +469,8 @@ NPCs
 > condescension, but there are still some who think of him as a hero,
 > who risked it all to save people.
 
+*With the Far Trader*
+
 - **Connections:**
   - **ABR (Albe--Boronu Route) Shipping Incorporated:** a shipping
     business mostly operating between the Imperium and the Florian
@@ -524,8 +530,7 @@ Rumours
 10. Wildeman has a reputation for ghost ships and mysterious
     breakdowns.
 
-11. **[aslan, politics]** The king of Drinax is plotting revenge
-    against the Aslan for destroying the kingdom two centuries ago.
+11. ?
 
 12. **[treasure]** There's an old space station at The World, falling
     apart with age, but it's still got power and the defence turrets
@@ -539,8 +544,7 @@ Rumours
     covered in intricate carvings somewhere in the glacier-tunnels,
     but everyone who's seen it has died or gone mad.
 
-15. **[sindal]** Most of Noricum is uninhabitable, due to the
-    bioweapons which felled the empire.
+15. ?
 
 16. **[sindal, treasure]** 200 years ago, a ship stumbled upon an old
     cache of Sindalian tech while on the run from another three ships.
@@ -587,6 +591,11 @@ Rumours
 
 - **[imperium]** Sea monsters killed all the humans on 971-852.
 
+- **[aslan, politics]** The king of Drinax is plotting revenge against
+  the Aslan for destroying the kingdom two centuries ago.
+
+- **[sindal]** Most of Noricum is uninhabitable, due to the bioweapons
+  which felled the empire.
 
 Resources (for use in-session)
 ------------------------------
@@ -1284,3 +1293,92 @@ The game ends when the Clan Head has been captured.
 ### Next time
 
 - Exploring Vume
+
+
+2021-12-12 --- Week 16, Vume
+----------------------------
+
+**Lynette's player dropped out due to real-life priorities.**
+
+### Recap
+
+> Last time, you patched your ships up from the pirate attack, and
+> handed over the Far Trader, and Astraea's good friend Xavier, to the
+> General Development Corporation Bank, for them to run trading
+> missions for you, for a modest fee of course.
+>
+> Then you travelled on to Vume.  It was a peaceful and uneventful
+> journey.
+>
+> On arrival, your ship's alarm started blaring, screens flashing
+> "EMERGENCY" and "QUARANTINE" in bold, red, letters!  You couldn't
+> pick up any comms chatter.  Flight Control didn't answer your hails.
+> You only just picked up a lab ship, drifting powerless dangerously
+> close to the system's star, and when you investigated it you found
+> signs of, well, space zombies and word of a plague.  Video footage
+> of people collapsing, convulsing, and then lunging at, attacking,
+> *eating*, others.  You considered turning away, but Ktuarl reminded
+> you that there are 20,000 people on that planet, and it would be
+> cowardly to not see if there was *any* help you could render.
+>
+> Vume Station, a network of tunnels and dome-shaped buildings
+> criss-crossing the planet's surface, is cold, and mostly empty.  The
+> first thing you saw inside was a corpse, its head blown open by the
+> gun in its cold hands.  Later you found a corpse which wasn't so
+> dead: as you examined it, it woke up and lunged at you, catching you
+> by surprise, but you managed to put it down.  Orcan thought it
+> wasn't dead, just asleep due to the cold, and you'd woken it up.
+> Later you found a survivor: heard them crawling beneath the floor,
+> and spotted them through a vent.  He was weak, hungry, slow, and he
+> told you what he knew.
+>
+> It was quick, he said.  There was panic.  No time to investigate the
+> pathogen.  And it all happened just after they brought back an
+> ancient alien artefact from the ruins discovered a few months ago.
+> You decided to head to the control centre, to see if you could find
+> out more about what happened here.
+>
+> Then you saw another figure, standing across the room beyond some
+> office cubicles.  You froze.  Suddenly, the silence was broken by
+> your survivor's cry of bestial rage, as he sprinted, wild-eyed and
+> slavering, towards the other!
+
+### Prep
+
+- Vume: as for previous session.
+- Fuel siphon gear cost Cr100,000.
+- Need to pay 2x Scout Ship maintenance.
+
+### Notes
+
+- **Vume:**
+  - See that the survivor calms down eventually after the fight, and
+    is really lethargic.
+  - Find The Lab, and see the explosion.  Decide to try to use main
+    station systems to learn what happened, since any data here is
+    gone.
+  - Meet Korin, security guy
+  - Break into control room, download data
+  - Get story
+  - Decide to go to Realgar to get help, since it has a navy base.
+- **Realgar:**
+  - Persuade them not to just wait for the infected to die before
+    sending a medical team.
+  - **Vume temporarily designated a Red Zone.**
+  - Get collapsible fuel tank, for 3-parsec jumps
+  - Play Htoua (it's a tie)
+  - **Rumour:** The king of Drinax is plotting revenge against the
+    Aslan for destroying the kingdom two centuries ago.
+  - **Rumour:** Most of Noricum is uninhabitable, due to the
+    bioweapons which felled the empire.
+  - Ilijah gets scammed with some "genuine whale artefacts from
+    Dolberg"
+- **Theev:**
+  - Astraea knows the code words to use and the comms channel to send
+    them on, and the heading to fly on, to get to the Pirate City.
+
+### Next time
+
+- After Christmas & New Year: 9th of January probably
+- Week 20
+- Space pirates!
