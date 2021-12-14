@@ -3,7 +3,7 @@ title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
 published: 2021-11-09
-modified: 2021-12-07
+modified: 2021-12-14
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -378,8 +378,8 @@ abbey, and pay a generous tithe (this is the introduction of the
 - Summer 1220
 
 
-2021-11-30 --- Summer 1220 (1)
-------------------------------
+2021-11-30 --- Summer 1220
+--------------------------
 
 ### Prep
 
@@ -458,8 +458,8 @@ abbey, and pay a generous tithe (this is the introduction of the
 - Getting demon help from the Church
 
 
-2021-12-07 --- Summer 1220 (2)
-------------------------------
+2021-12-07 --- Autumn 1220
+--------------------------
 
 ### Prep
 
@@ -573,3 +573,27 @@ backstory.
   for company, and very encouraging of their efforts to solve the
   riddle)
 - Give the covenant a reputation from the whole demon shenanigans
+
+
+2021-12-14 --- Autumn 1220 (2)
+------------------------------
+
+### Prep
+
+Continue the *Broken Covenant*
+
+### Notes
+
+- Meet the Dryad
+- Kill Iglack and take his Ignem Vis
+- Find the water Creo Vis source and take 3 pawns of it
+  - The Grog drank some, he was left behind at the knight's camp to
+    recover, and will do so unusually quickly
+  - They can work out how long it takes to refill when they return
+- Return to covenant
+- Tiffany recalls some backstory: probably demons.
+- Eun, Brennus, and Marvenus get adventure exp.
+
+### Next time
+
+- Winter
