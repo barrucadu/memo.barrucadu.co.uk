@@ -2,61 +2,42 @@
 title: Self Organisation
 taxon: self-systems
 published: 2018-09-24
-modified: 2020-09-11
+modified: 2021-12-19
 ---
 
-My memory is good for *facts* but poor for *tasks* and *experiences*.
-I can recall obscure details about a programming project months or
-years after-the-fact with a little thought, but would forget to do the
-laundry every weekend if I didn't have it written down, and I
-certainly won't remember promising to do something.
+I'm good at remembering facts and details, but not so good at
+remembering tasks and experiences.  I'd forget to do the laundry every
+weekend if I didn't have it written down: so I wrote it down.
 
-I've given up on improving my recall, and instead have developed a
-system to organise myself and make sure I get around to doing things
-I've said I would.  Much like my [personal finance][] system, this
-system has evolved over the years based on what's made noticeable
-improvements to my life.
-
-My ideas may not work as-is for you, but I hope they'll prompt you to
-think about how you organise yourself, and what you can do to improve.
+I've developed a system to organise myself and make sure I get around
+to doing the things I need to do.  Like my [personal finance][]
+system, this system has evolved over the years based on what's made
+noticeable improvements to my life, and this memo describes what I
+currently put into practice, and not some aspirational system I can
+only hope to achieve
 
 [personal finance]: personal-finance.html
 
 
-"Scrumban" for to-do lists
---------------------------
+Trello for to-do lists
+----------------------
 
 I've worked at a few different programming jobs now, and I've noticed
-programmers on small agile teams have a tendency to adopt a style of
-development I've heard called "scrumban":
+programmers on small agile teams tend to adopt a process like this:
 
-- Like scrum, there are fixed-length sprints, but like kanban work
-  gets added to the backlog at any time.  The sprint cadence is mostly
-  to review the pending work and prune the backlog, it's not a target
-  to get everything done by.
+- There's a Trello board with various lists: some are lists for work
+  not yet started, some are for work in progress, and one is for work
+  which is done.
 
-- Like scrum, there is a product manager who is ultimately in charge
-  of the backlog, and a delivery manager (or scrum master) who leads
-  the ceremonies.
+- We regularly review the lists: to make sure work is progressing, to
+  make sure we don't have too much in progress at once, and to decide
+  what to pick up next.
 
-- Like kanban, work is delivered continuously, but like scrum there is
-  usually an end-of-sprint show-and-tell.
+- Once every week or two, there's a more in-depth review in which new
+  work gets prioritised, and old work might be changed or removed.
 
-- Like kanban, we use a kanban board with a WIP limit.
-
-So scrumban is mostly kanban, but the backlog has an owner who
-regularly reviews it.  I view scrumban as close to the minimal amount
-of process needed to work in an effective development team: there's
-regular product oversight of the work (the sprint cadence), and
-everyone knows what everyone else is working on (the daily standup).
-
-I use a form of scrumban to keep on top of my to-do list.  I am the
-"product manager" for my life, making sure I only do relevant things,
-I suppose I'm also the "delivery manager" for my life, ensuring I get
-things done and resolve blockers, but so far I've not felt the need to
-have a daily standup of just me.
-
-So, onto how I implement this.
+I think this works really well.  So I use this system to manage my
+life as well.
 
 ### Trello
 
@@ -68,11 +49,15 @@ if it's a particularly important email or GitHub issue I want to make
 sure I don't forget about, and I can't deal with it straight away,
 I'll make a card for it anyway.
 
-I've found Trello works better for me for this than [org-mode][] did:
-the latter is very powerful, which makes it hard to use consistently;
-Trello is much more limited, so consistency is easy.  It's also nice
-to have the board visualisation, so I can see at a glance how much
-stuff I have to do.
+I used to use [org-mode][] for this, but I've found I personally am
+more productive with Trello.  [org-mode][] is very powerful, and so I
+felt I needed to tinker with it to come up with a *perfect* system,
+which in practice just meant I spent more time fiddling with *how I
+tracked things* than *actually doing things*.  Trello is much more
+limited.
+
+It's also nice to have the board visualisation, so I can see the state
+of everything at a glance.
 
 The rest of my process is now more complex than it was when I first
 started, but even just having "To Do", "Doing", "Waiting / Blocked",
@@ -95,25 +80,25 @@ digraph {
 
   "Routines"
   "Has Prerequisites"
-  "Backlog"
-  "Upcoming"
-  "This Sprint"
+  "Nice To Have"
+  "Priority"
+  "Near Future"
   "Doing"
   "Waiting / Blocked"
   "Done"
 
   "Normal tasks"    -> "Has Prerequisites" [style=dashed];
-  "Normal tasks"    -> "Backlog"           [style=dashed];
-  "Normal tasks"    -> "Upcoming"          [style=dashed];
+  "Normal tasks"    -> "Nice To Have"      [style=dashed];
+  "Normal tasks"    -> "Priority"          [style=dashed];
   "Urgent tasks"    -> "Doing"             [style=dashed];
   "Recurring tasks" -> "Routines"          [style=dashed];
 
   "Routines"          -> "Doing"
-  "Has Prerequisites" -> "Backlog"
-  "Has Prerequisites" -> "Upcoming"
-  "Backlog"           -> "This Sprint"
-  "Upcoming"          -> "This Sprint"
-  "This Sprint"       -> "Doing"
+  "Has Prerequisites" -> "Nice To Have"
+  "Has Prerequisites" -> "Priority"
+  "Nice To Have"      -> "Near Future"
+  "Priority"          -> "Near Future"
+  "Near Future"       -> "Doing"
   "Doing"             -> "Waiting / Blocked"
   "Doing"             -> "Done"
   "Waiting / Blocked" -> "Doing"
@@ -121,21 +106,19 @@ digraph {
 }
 ```
 
-Each task I need to do is in one of these states:
+Each task is in one of these states:
 
-- **Routines**---a backlog of regular, time-based, tasks (see
-  [routines](self-organisation.html#calendars-for-routines) section).
+- **Routines**---regular, time-based, tasks.
 
-- **Has Prerequisites**---a backlog of things I can't do until I do
-  something else.
+- **Has Prerequisites**---things I can't do until I do something else.
 
-- **Backlog**---a backlog of things which would be nice to do, but
-  aren't particularly important or urgent.
+- **Nice To Have**---things which would be nice to do, but aren't
+  particularly important or urgent.
 
-- **Upcoming**---a backlog of important, but non-urgent, things.
+- **Priority**---important, but non-urgent, things.
 
-- **This Sprint**---a to-do list of tasks from **Backlog** and
-  **Upcoming** which I've decided to get done this sprint.
+- **Near Future**---tasks regularly taken from **Nice To Have** and
+  **Priority** which I've decided to get done soon.
 
 - **Doing**---things I'm actively doing at the moment (this list is
   very small).
@@ -143,63 +126,59 @@ Each task I need to do is in one of these states:
 - **Waiting / Blocked**---things where I've done my part, and need to
   wait on something or someone else.
 
-- **Done** - things I've done.
+- **Done**---things I've done.
 
 Each of these is a list on my Trello board.
 
-### Sprints
+### The "Near Future" state
 
-I used to not have the **This Sprint** list, and would just pick up
-tasks from **Backlog** and **Upcoming** based on whatever I felt like
-doing.  But one day I realised that some of the **Upcoming** tasks had
-been there for over a year.  They were important, but I was putting
-them off, and still feeling good about myself because I was getting
-through lots of unimportant tasks instead.
+I used to pick up tasks from **Nice To Have** and **Priority** as I
+felt like it.  But one day I realised that some of the **Priority**
+tasks had been there for over a year.  They were important, but I was
+putting them off, and still feeling good about myself because I was
+getting through lots of unimportant tasks instead.
 
 This is standard procrastination behaviour.
 
 So I decided to have a fortnightly "sprint planning" session where I
 would prioritise a small number of tasks, ensuring that nothing got
-neglected too much.
+neglected too much.  I moved these into a **This Sprint** list, which
+I aimed to get through in that fortnight.
 
-I'm not terribly strict on myself: if I get through all the sprint
-tasks, great; if not, no big deal, they can either remain for the
-following sprint, or move back into a different list.  On the whole
-this change has helped me get through things.
+But, actually, I still found myself slipping a lot.  The separate list
+of short-term priorities definitely helped out, but some things hung
+around in there for a while, or got moved back into a different list.
+
+So I renamed it to **Near Future**.  It does the same thing as **This
+Sprint** did, but it's more honest.
 
 
 Calendars for routines
 ----------------------
 
-I manage routines using [Google Calendar][], another integral
-component of my self-organisation system.
+I track routines as recurring events in [Google Calendar][], another
+integral component of my self-organisation system.
 
-Routines are recurring calendar events, for example I've got an event
-every Saturday morning called "weekly chores", and another every
-Sunday evening called "weeknotes".
-
-The routines which have multiple things to do (like my chores) have a
-corresponding card in the **Routines** list on my Trello board, which
-has a deadline.  When the time to do the routine arrives I make a copy
-of the card in **Doing**, update the deadline of the template card,
-and work through the checklist.
-
-Those routines which just have a single task, like "sprint planning",
-just have a calendar entry.
+Those routines which have multiple things to do (like my chores) have
+a corresponding card in the **Routines** list on my Trello board.
+When the time to do the routine arrives I move a copy of the template
+card to **Doing** and work through its checklist.  Those which just
+have a single task, like "Near Future prioritisation", just have a
+calendar entry.
 
 Routines which I've got cards for are:
 
 - **Weekly chores**---household maintenance (cleaning, laundry, etc)
   and checking my [ledger][personal finance] is up to date.
 
-- **Prepare game**---preparation for my [fortnightly Call of Cthulhu
-  game][].
+- **Prepare game**---preparation for my regular RPG sessions
+  (currently [Ars Magica][] and [Traveller][]).
 
 - **Monthly chores**---more intense household maintenance (cleaning
   the oven, emptying the hoover, etc), updating computers, and
   reviewing the lists.
 
-- **Quarterly chores**---updating my CV and website and checking my
+- **Quarterly chores**---updating my CV and website, and checking my
   credit report.
 
 - **Annual chores**---reviewing my habits and preparing for the next
@@ -207,23 +186,24 @@ Routines which I've got cards for are:
 
 Routines on my calendar which I don't have cards for are:
 
-- **Sprint planning** and **Mid-sprint review**---alternating Sundays,
-  populate and review the **This Sprint** list.
+- **Near Future prioritisation**---every Sunday, review and move cards
+  into and out of the **Near Future** list.
 
-- **Write up session notes**---every other Sunday evening, write up
-  notes from the game I prepared and ran.
+- **Write up session notes**---after my RPG sessions, write up notes
+  from the game I prepared and ran.
 
 - **Weeknotes**---every Sunday evening, write my [weeknotes][].
 
 I find having the Trello cards, rather than just putting the steps to
-be done in the calendar event, helps.  I'm quite visual with this sort
-of data, I like being able to look at the calendar and see when
-everything needs to be done; but I prefer the Trello card interface
-for text and checkboxes.  It's nice having everything in its place:
-temporal data on a calendar, procedural data in a card.
+be done in the calendar event, helps.  I like being able to look at
+the calendar and see when everything needs to be done; but I prefer
+the Trello card interface for text and checkboxes.  It's nice having
+everything in its place: temporal data on a calendar, procedural data
+in a card.
 
 [Google Calendar]: https://calendar.google.com/
-[fortnightly Call of Cthulhu game]: campaign-notes-2020-05-call-of-cthulhu.html
+[Ars Magica]: campaign-notes-2021-11-ars-magica.html
+[Traveller]: campaign-notes-2021-10-traveller.html
 [weeknotes]: taxon/weeknotes.html
 
 
@@ -240,9 +220,8 @@ and add a comment to a card.
 I also use the whiteboard for meal planning.  I have a simple 5-week
 calendar on the board, with rows labelled "Monday" to "Sunday" and
 columns labelled "1" to "5", and the first cell of each column
-labelled with the day number (the "week 1" column may not start with
-the "Monday" cell).  I tend to cook large portions of meals so I can
-freeze some of it for later, and I note down meals for future days as
-my freezer fills up.  This has all but eliminated getting to the
-evening and realising I have nothing in, which has cut down on
+labelled with the day number.  I tend to cook large portions of meals
+so I can freeze some of it for later, and I note down meals for future
+days as my freezer fills up.  This has all but eliminated getting to
+meal time and realising I have nothing in, which has cut down on
 takeaways and helped to optimise my food budget.
