@@ -3,7 +3,7 @@ title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
 published: 2021-11-09
-modified: 2021-12-14
+modified: 2021-12-21
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -148,7 +148,56 @@ R              +-----------------------------+   +-------------------+
 
 - In Auchmithie, Scotland; 3 miles NE of Arbroath Abbey; 20 miles NE
   of Dundee.
-- 200 Build Points of Hidden Resources remaining.
+- 102 Build Points of Hidden Resources remaining.
+
+### Reputations
+
+- **Local:** Haunted by demons, purified by a churchman (+1)
+
+### Hidden Resources in Calebais (88 BP)
+
+- **Hrools** (22 BP total):
+  - Hofot: 2 Animal vis
+    - wearing 2 satyr horns: 10 Corpus vis per horn
+  - 25 normal adults: 1 Animal vis each
+  - 10 warriors: 1 Animal vis each
+    - each wearing 2 satyr horns: 2 Corpus vis per horn
+  - 3 ermine: 3 Rego vis each
+
+- **Ghosts** (16 BP total):
+  - Dargaud: 2 Mentem vis
+  - Paulo: 4 Mentem vis
+  - Josephine: 3 Mentem vis
+  - David: 6 Mentem vis
+  - Ferdina: 5 Mentem vis
+  - Mormulus: 12 Imaginem vis
+  - Ierimyra: 8 Creo vis
+  - Pitsdim: 7 Ignem vis
+  - Althea: 3 Corpus vis
+  - Granorda: 9 Corpus vis
+  - Crenvalus: 10 Rego vis
+  - Uderzus: 9 Vim vis
+
+- **Creatures** (3 BP total):
+  - Igack: 3 Ignem vis *(taken)*
+  - 2 earth elementals: 4 Terram vis each
+
+- **Magi Laboratories** (7 BP total):
+  - 6 small coloured glass balls: 1 Vim vis each
+  - 8 small crystals: 1 Vim vis each
+  - 5 glass jars full of dark blue smoke: 1 Auram vis each
+  - satyr bones and horns: 8 Corpus vis
+  - otter corpse: 1 Aquam vis
+  - giant worm corpse: 2 Terram vis
+  - horned dog: 2 Muto vis
+  - boar with golden tusks: 2 Perdo vis
+
+- **Sources** (40 BP total):
+  - moss: 4 Terram vis per year *(taken)*
+  - garden spring: 4 Creo vis per year
+
+Finally, 11 fragmentary maps to sources of raw vis and other nearby
+magical things.
 
 
 2021-11-09 --- Session 0
@@ -433,7 +482,7 @@ abbey, and pay a generous tithe (this is the introduction of the
 
 - **Summer 1220:**
   - Marvenus sets up a shop and starts making connections
-  - Send grogs to harvest Muto Vis
+  - Send grogs to harvest Muto vis
   - Appoint Friar Alban to teach Mason
   - Might Friar Alban be concerned that Eun can't speak, and therefore
     can't confess her sins?
@@ -556,7 +605,7 @@ backstory.
       through it, and afterwards mutters about "godless heathens"
     - Find the possessed serving girl, catch her on the road, do the
       exorcism.
-- **Vis source:**
+- **vis source:**
   - Brennus, Marvenus, Eun, and a grog, arrive at Sir Gilbert's camp.
   - Tell Sir Gilbert that they are here to take something from the
     dragon, and reassure him that they're not here to kill it (he can
@@ -585,8 +634,8 @@ Continue the *Broken Covenant*
 ### Notes
 
 - Meet the Dryad
-- Kill Iglack and take his Ignem Vis
-- Find the water Creo Vis source and take 3 pawns of it
+- Kill Iglack and take his Ignem vis
+- Find the water Creo vis source and take 3 pawns of it
   - The Grog drank some, he was left behind at the knight's camp to
     recover, and will do so unusually quickly
   - They can work out how long it takes to refill when they return
@@ -597,3 +646,35 @@ Continue the *Broken Covenant*
 ### Next time
 
 - Winter
+
+
+2021-12-21 --- Winter 1220
+--------------------------
+
+### Prep
+
+- Neste finds a scribe & bookbinder (as hidden resources)
+
+### Notes
+
+- 10 BP for scribe & bookbinder
+- **Winter 1220**
+- **Spring 1221:**
+  - Tribunal, at Loch an Eilein.  Meet some new magi:
+    - Seamus: from a rich covenant in Northumbria
+    - Solomon: old magus / priest who knew the demon reputation, from St. Andrews
+    - Fiona: Tiffany's mentor
+- **Summer 1221:**
+  - Money disappearing:
+    - Marvenus investigates, thinks it may be something magical
+    - Neste and Brennus decide it's not enough money to be worth the effort
+- **Autumn 1221**
+- **Winter 1221**
+- **Spring 1222:**
+  - Cast Aegis of the Hearth (level 25) on the first day
+
+### Next time
+
+- Spring 1222
+- Tribunal
+- Broken Covenant
