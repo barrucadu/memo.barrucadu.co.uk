@@ -3,119 +3,429 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2020-12-31
+modified: 2021-12-28
 ---
 
-I manage my money using [plain-text accounting][] (specifically,
-[hledger][]; though the choice of tool is unimportant), following a
-[YNABish][ynab] approach.  The four YNAB rules are:
+I care a lot about my finances, and I put a lot of effort into
+tracking things, making goals, and improving my financial health.
 
-1. **Give every dollar a job:** money is split into named categories,
-   don't have any "general savings".
-2. **Embrace your true expenses:** large expenses (like a rental
-  deposit, or Christmas gifts) are planned and allocated for in
-  advance, as a regular monthly contribution.
-3. **Roll with the punches:** if things aren't working out, adjust the
-   plan rather than lie to yourself.
-4. **Age your money:** try to save more of each regular expense (rent,
-   travel, etc) than you spend in a given period.
+Once upon a time, I didn't: within a few years of university, I
+managed to blow through all my savings, loans, grants, parental
+support, and overdraft.  There were times where I couldn't withdraw
+money from a cash machine because I had less than £5 to my name (well,
+less than -£1995 to my name, if you exclude the overdraft).  I had to
+carefully plan around the monthly income my parents gave me, and
+sometimes had to delay rent payments.  And then I decided to do a
+Ph.D: which I didn't get funding for, and would have to pay for
+myself.
 
-Why track my finances at all?
+The situation was untenable, things had to change: I started tracking
+all my spending.  Then, when I knew where the money was going, I
+started to budget and to rein my spending in.
 
-- Makes me more conscious of my spending.
-- Lets me see how my spending has changed over time.
-- Lets me plan for the future with some degree of confidence.
-
-This memo is concerned with my mechanism for implementing this
-approach.  It could serve as a starting point for your financial
-planning; but working out what your savings categories are and how to
-allocate your income to them requires introspection.
+I've now been tracking my finances, down to the penny, with entirely
+manual data entry, since 2016.  And I couldn't imagine doing it any
+other way.
 
 
-High-level metrics
-------------------
+Principles
+----------
+
+I've essentially adopted the [You Need A Budget (YNAB)][YNAB]
+principles, though I don't use the actual YNAB software (more on that
+later).  I've also drawn inspiration from the [/r/ukpersonalfinance
+flowchart][].
+
+My personal finance principles are:
+
+1. **Track everything, by hand.**
+
+   Every transaction I make, I note down in my journal.  Having the
+   data lets me analyse it and establish goals, and doing it by hand
+   gives me a greater appreciation of where my money is going (as well
+   as adding a *little* extra friction per-transaction, which
+   sometimes is enough to avoid an impulse-purchase).
+
+2. **Use envelope budgeting for short-term money.**
+
+   I consider my bank account "empty", in a sense: there's no money in
+   the account itself, all the money is in subaccounts allocated to
+   specific purposes, like rent or food or web servers.  And those
+   purposes *are* specific: there's no "savings" category, for
+   instance.  My bank doesn't actually provide these subaccounts,
+   they're just something in my tracking, but some banks (like Monzo
+   and Starling) do.
+
+   I've specified "short-term" here because I don't envelope-budget my
+   long-term investments: I'm not going to touch those for 5 to 10
+   years, or longer, so there's no way I can predict how I'll want to
+   use them.
+
+3. **Budget everything monthly.**
+
+   Like most people in the UK, I get paid once a month.  So It's easy
+   to budget for monthly expenses like rent or utilities. There's a
+   consistent amount spent every month, so I can just allocate that
+   much of my monthly income to pay for it.  Somewhat harder are the
+   expenses which occur less frequently: it's easy to forget about
+   these, not budget for them in advance, and then rush to find the
+   money to pay for them.
+
+   But these infrequent expenses can be treated as a monthly expense,
+   by dividing the cost by 12 (or by however many months are between
+   payments on average) and budgeting that much every month.  Then
+   when the expense comes around, the money has been put aside.
+
+4. **A model is only useful if it reflects reality.**
+
+   If I'm consistently over- or under-spending in a budget category,
+   the budget needs to change.  For example, there is absolutely no
+   use in budgeting £200 for food every month if I always overshoot
+   that by getting a bunch of takeaways and have to make up the
+   difference elsewhere: much better to budget the *actual* amount,
+   and then work to reduce how many takeaways I get until I'm
+   consistently spending under £200.
+
+   The purpose of tracking everything and of making budgets is so that
+   I can make predictions about the future.  But those predictions are
+   worthless if the data used to produce them is unrealistically
+   optimistic or just downright wrong.
+
+5. **Save more than you spend.**
+
+   Every month, I should save (as cash or by investing) more than I
+   spend.  If I spend all my income, I'm living paycheque to
+   paycheque, and that means any disruption or reduction in my income
+   could be dangerous; and if I spend all my income and then some, I'm
+   gradually running out of money.
+
+These principles have lifted me out of financial ruin (or close to
+it), and set me on the path to wealth.  Sure, I also have a
+high-paying job, which helps a lot; but if I had the same spending
+habits now that I did in my university days, I would have almost no
+savings and would be living in fear of how I would survive if I were
+to lose my job.
+
+[YNAB]: https://www.youneedabudget.com/the-four-rules/
+[/r/ukpersonalfinance flowchart]: https://ukpersonal.finance/flowchart/
+
+
+Tracking, metrics, and SMART goals
+-----------------------------------
+
+Lots of people use [YNAB][], or Excel, or Google Sheets to track their
+spending.  I use [plain-text accounting][], specifically, [hledger][].
+The tool you use doesn't actually matter, so long as it works for you.
+Nor do you need to track down to the penny, as I do.  Some people
+round all their spending to the nearest pound, or even larger amounts,
+and track that.  Some people don't track cash, and just mark any money
+they withdraw as "spent".
+
+It's more important that you do *enough* tracking to help you meet
+your goals.  Don't let the perfect be the enemy of the good.
+
+[plain-text accounting]: http://plaintextaccounting.org/
+[hledger]: http://hledger.org/
+
+### Metrics
 
 While the most straightforward metric of financial health is the
-balance of my budget, and that's the main thing I look at when making
-day-to-day spending decisions, there are a few other high-level
-metrics I keep an eye on.  These are:
+monthly change to my assets (positive is good: I'm saving more than I
+spend; negative is bad: I'm spending more than I save; zero is kind of
+bad: I'm spending everything), there are a few other metrics I look
+at.
 
-- **Net Worth:** if I paid off all my liabilities right now, how much
-  of my assets would I have left?
+Firstly, there are two metrics which I don't generally see mentioned
+online, but they're valuable to me because I can use them to compute
+other, more directly useful, metrics:
 
-  `net worth = assets + liabilities`
+- **Average daily expense:**
 
-  With plain-text double-entry accounting, assets are positive and
-  liabilities are negative, so you get your net worth by adding them.
+  This is the total money spent over the period (excluding anything
+  taken before income hits my bank account: like income tax or my
+  student loan), divided by the number of days in the period.
 
-  *What good looks like:* this metric is red below 0, green otherwise.
+   ```raw
+   \[
+   \frac{\text{total expenses over period} - \text{paycheque deductions over period}}{\text{days in period}}
+   \]
+   ```
 
-- **Savings Rate:** how much of my income am I saving?
+   If you don't track paycheque deductions, or don't count those in
+   your expenses, then this is just total expenses divided by number
+   of days.
 
-  `savings_rate = (net_income - expenses) / net_income`
+- **Average daily income:**
 
-  I plot the savings rate for each month on a graph, and use the mean
-  monthly savings rate as the high-level metric.
+  This is the total income over the period (excluding gifts), divided
+  by the number of days in the period.
 
-  *What good looks like:* this metric is red below zero, yellow below
-  33%, and green otherwise.
+   ```raw
+   \[
+   \frac{\text{total income over period} - \text{gifted income over period}}{\text{days in period}}
+   \]
+   ```
 
-- **Runway:** if my income stopped *right now*, how long would I be
-  able to survive?
+Now we can compute some more interesting metrics.
 
-  `runway = assets / average_daily_expense`
+- **Net worth:**
 
-  I use two versions of this metric:
+  If you paid off all your debts right now, how much money would you
+  have left?
 
-  - **Short Runway:** only considering my bank accounts and emergency
-    savings (in Premium Bonds).
+  ```raw
+  \[
+  \text{total assets} - \text{total liabilities}
+  \]
+  ```
 
-  - **Long Runway:** taking all my assets into account, as if I sold
-    all my investments in one go at their current price.
+  You could exclude things that aren't "real" debts here, like a
+  student loan, if you wanted.  But I include it.
 
-  *What good looks like:* these metrics are red below 60 days, yellow
-  below 90 days, and green otherwise.
+- **Savings rate:**
 
-- **Student Loan:** I want to get this down (or up, since it's a
-  liability) to zero.
+  This is a little tricky to calculate.  For every payment period
+  (monthly for me), divide the amount of money saved by the net
+  income.  This tells you your savings rate for each payment period.
+  Then average all those values.
 
-  *What good looks like:* this metric is red below -£10k, yellow below
-  0, and green otherwise.
+  ```raw
+  \[
+  \left(
+      \sum^{\text{period}}
+      \frac{\text{net income over period} - \text{total expenses over period} + \text{paycheque deductions over period}}{\text{net income over period}}
+  \right) \div \text{number of periods}
+  \]
+  ```
 
-- **House Deposit:** I've decided to start saving for a house from the
-  2021-22 tax year.  This'll be a very long term thing.
+  Paycheque deductions are *added* here because I don't want income
+  tax (or similar things) to reduce my savings rate: I can only save
+  what I actually receive.  Again, if you don't track those, or don't
+  track them as an expense, you can ignore that term here.
 
-  *What good looks like:* this metric is red below £25k, yellow below
-  £50k, and green otherwise.
+- **Runway:**
 
+  I'm sure there's a better name for this, but this is the metric
+  which tells me how many days I could survive with my current assets
+  with no income.  So, if I lost my job today with no severance pay,
+  how long would I have to find a new one, assuming I keep my spending
+  habits the same?
 
-Dashboard
----------
+  This comes in two forms: a "short runway" and a "long runway".
+
+  The **short runway** only considers cash (whether physical cash or a
+  bank account) and an emergency fund (if you have one of those):
+
+  ```raw
+  \[
+  \frac{\text{cash} + \text{emergency fund}}{\text{average daily expense}}
+  \]
+  ```
+
+  The **long runway** considers all assets, including investments, as
+  if they were sold today:
+
+  ```raw
+  \[
+  \frac{\text{all assets at today's market value}}{\text{average daily expense}}
+  \]
+  ```
+
+  In practice, if I did suddenly lose my job, I'd change my spending
+  habits.  So these are pessimistic estimates.  In general though I
+  prefer financial estimates to be pessimistic, and not optimistic.
+
+- **FIRE number:**
+
+  [Financial Indepence, Retire Early (FIRE)][] is a movement with the
+  goal of aggressively saving and investing enough money so that you
+  can live off the returns indefinitely, meaning you no longer *need*
+  to work (though some choose to).  It's something that appeals to me:
+  I like my job and my lifestyle, but I would like having the same
+  lifestyle *without* a job significantly more.
+
+  The rule of thumb is that if you have 25 years worth of expenses
+  invested, you can withdraw one year's expenses (4%) every year
+  without the value of your investments decreasing, assuming an annual
+  7% growth and 3% inflation.
+
+  ```raw
+  \[
+  \text{average daily expense} \times 365 \times 25
+  \]
+  ```
+
+- **AAW / PAW thresholds:**
+
+  [The Millionaire Next Door][], a study of wealthy Americans,
+  proposed a metric for wealth: if a person aged `N` years old has an
+  annual income of `$D` (excluding any inheritance), then they should
+  have a net worth of `$D * N / 10`.
+
+  Someone with under half that is an "under-accumulator of wealth"
+  (UAW) and someone with more than double that is a "prodigious
+  accumulator of wealth" (PAW).
+
+  So, the **AAW threshold** is the amount of money at which you are no
+  longer a UAW:
+
+  ```raw
+  \[
+  \frac{\text{average daily income} \times 365 \times \text{age}}{\text{10}} \div 2 + \text{gifted or inherited income} + \text{liabilities}
+  \]
+  ```
+
+  And the **PAW threshold** is the amount of money at which you are no
+  longer an AAW:
+
+  ```raw
+  \[
+  \frac{\text{average daily income} \times 365 \times \text{age}}{\text{10}} \times 2 + \text{gifted or inherited income} + \text{liabilities}
+  \]
+  ```
+
+  It turns out that the PAW threshold is below the FIRE number.  This
+  makes some degree of intuitive sense: becoming financially
+  independent requires a prodigious amount of money!  But, since the
+  FIRE number does not exclude gifts, it's possible to become
+  financially independent by receiving a large inheritance which you
+  then invest, but you may still be a UAW if you're otherwise not very
+  good at saving.
+
+[Financial Indepence, Retire Early (FIRE)]: https://en.wikipedia.org/wiki/FIRE_movement
+[The Millionaire Next Door]: https://en.wikipedia.org/wiki/The_Millionaire_Next_Door
+
+### SMART goals
+
+Once you're tracking your finances and have some metrics of interest,
+even if it's only something very simple like "total value of assets"
+or "net worth", you can start to make goals.  The best goals are SMART
+goals:
+
+- Specific
+- Measurable
+- Achievable
+- Relevant
+- Time-limited
+
+In the past I've set goals like:
+
+- Pay off my overdraft
+- Save 3 months expenses in cash
+- Increase emergency fund balance to £5k
+- Increase savings rate to 33%
+
+And so on.  I currently have a long-term goal of saving for a house
+deposit, but that will take a few more years to complete.
+
+I also have targets for all the key metrics I track, and display those
+on a dashboard:
 
 ![My personal finance dashboard](personal-finance-dashboard.png)
 
-I import my hledger data into influxdb [with a script which runs
-nightly][], to power [a grafana dashboard on my home server][].  There
-are a few parts to it:
+I wrote [a script which imports the data every evening][].  Sometimes
+I'll also make some plans for the future, mock up some data, and
+import that into the dashboard, so I can try out different savings
+plans, or think about how to allocate an expected payrise or bonus.
 
-1. **High-level metrics:** as explained in the section above.
-
-2. **Overview:** statistics on my hledger journal; my asset
-   allocation; a graph of my net worth; a graph of my credit card
-   balance; and a graph of my cash flow / savings rate.
-
-3. **Savings targets:** red up to 50%, yellow up to 75%, and then
-   green.  I'll hit most of these targets by the end of March 2021.
-
-4. **Commodity values:** scraped daily from the Financial Times and
-   the Coinbase API.
-
-[with a script which runs nightly]: https://github.com/barrucadu/hledger-scripts
-[a grafana dashboard on my home server]: https://github.com/barrucadu/nixfiles/tree/master/hosts/nyarlathotep/grafana-dashboards
+[a script which imports the data every evening]: https://github.com/barrucadu/hledger-scripts
 
 
-Journal files
--------------
+A high level view of the system
+-------------------------------
+
+I have one main bank account, and everything is driven by activity in
+there.  This bank account is where I do the bulk of my envelope
+budgeting, it's where my income arrives, and it's where standing
+orders transfer money from into other accounts and investments.
+
+This is my **Nationwide FlexDirect**.  I picked it because it had a
+good introductory interest rate.
+
+It has three "types" of envelope, and many envelopes of each of these
+types:
+
+- **Goal envelopes** are for specific future expenses, like renewing
+  my passport or visiting Japan.
+
+- **Pending envelopes** are to briefly hold cash between it arriving
+  in my bank account on payday, and it being sent elsewhere by a
+  standing order a few days later.
+
+- **Saved envelopes** are my regular budget categories: things like
+  food, rent, discretionary spending, travel, and so on.
+
+I also have a few other accounts:
+
+- A **Starling** bank account, for foreign currency transactions (as
+  it doesn't charge a conversion fee).
+- A **Fidelity** stocks and shares ISA, holding my long-term
+  investments for the future.
+- An **AJ Bell** stocks and shares LISA, holding half of my house
+  deposit savings.
+- A **Premium Bonds** account, holding the other half of my house
+  deposit savings.
+
+Both my ISA and LISA are invested in a low-cost Vanguard index fund.
+
+### Income allocation
+
+On payday, money arrives in the Nationwide account.  It's split up
+between goal envelopes, pending envelopes, and saved envelopes as
+appropriate.  The allocations are fairly static, usually only changing
+when I intentionally change something in my process.
+
+However, my income doesn't necessarily exactly match my budget.
+There's usually some excess income, which I allocate to three special
+accounts:
+
+- I add up to £125 to a "saved goals" envelope, if I don't have any
+  specific goal envelopes right now, to be made available to any
+  future goals.
+
+- I add up to £75 to a "saved discretionary" envelope, to spend on
+  whatever I want during the month.
+
+- I add any remainder to a "saved invest" envelope, which I'll
+  manually invest in my ISA when it reaches a reasonable amount (say,
+  £100 or more).
+
+### Tracking transactions
+
+As I spend or move money, I note down the transactions.  I check all
+my statements once a week, on Saturday mornings, to reconcile and fix
+any inconsistencies.  This only takes a few minutes.
+
+I'm now very good at not having inconsistencies.
+
+### Credit card
+
+I have an **American Express** credit card, because it gives me some
+cashback.  There is a £25 annual fee, but the cashback more than
+covers it.
+
+When I buy something with the card, I note that down as two
+transactions: one spending money from the card, and one transferring
+money from the relevant saved or goal envelope into a "pending amex"
+envelope.  The card is paid off in full, from that envelope, by a
+direct debit around the start of each month.
+
+### And that's it!
+
+It's fairly straightforward.  I think it's important to keep things
+simple if you plan to stick to it.  Most of the complexity in my
+personal finance system comes from manually entering all the data, and
+using the right envelopes.
+
+
+Implementation details
+----------------------
+
+As said earlier, I use [hledger][], which is a [plain-text
+accounting][] tool.  This section covers how I use hledger: it's
+pretty conventional, but has lots of examples.
+
+### Journal files
 
 I log all my financial transactions for the current year in a file
 called `current.journal`.  There are `$YEAR.journal` files for
@@ -125,9 +435,11 @@ historic data.  I also have two files which all my journals include:
   cryptocurrencies, funds) I deal with.
 - `prices`, end-of-day exchange rates for all of my commodities.
 
-Rather than importing transactions from my bank or something, I enter
-all data manually.  This may sound tedious, but I feel that the
-awareness I get from doing so is worth it.
+Finally, I have a `combined.journal` file, which includes the journal
+files from 2020 onwards (as the start of 2020 marked the last big
+change to how I tracked things), along with appropriate closing
+transactions for each year so that they fit together.  This file is
+used as the data source for the dashboard.
 
 This is the template for a new journal file:
 
@@ -137,12 +449,6 @@ include prices
 
 * Starting balances
 YYYY-01-01 ! Opening balances
-  ...
-
-* Forecast
-~ monthly  Expenses
-  ...
-~ monthly  Income
   ...
 
 * Ledger
@@ -160,44 +466,26 @@ YYYY-01-01 ! Opening balances
 ** December
 ```
 
-[hledger]: http://hledger.org/
-[plain-text accounting]: http://plaintextaccounting.org/
-[ynab]: https://www.youneedabudget.com/method/
+For each month, I fill in expected expenses, transfers, and income
+allocation based on previous months and my budget:
+
+```
+YYYY-MM-30 Expenses
+    # expected expenses (from previous months) go here
+    expenses:virtual
+YYYY-MM-30 Transfers
+    # expected transfers (from budget) go here
+YYYY-MM-30 Job
+    # expected income allocations (from budget) go here
+    income:job
+```
+
+I then comment out these expected transactions.  They're there to
+uncomment if I want to forecast, but for every-day use they're hidden
+away.
 
 
-Financial institutions
-----------------------
-
-For current accounts I use:
-
-- **Nationwide Flexdirect**, my main bank account.  Pay goes in,
-  direct debits and standing orders go out.  I don't do much
-  unscheduled spending from this account.
-
-- **Starling**, my backup account.  I use this to store cash to be
-  withdrawn and for foreign currency transactions, as Starling doesn't
-  charge currency conversion fees.
-
-For investment accounts I use:
-
-- **Cavendish Online**, for my stocks & shares ISA (invested in a
-  passive Vanguard fund).
-
-- **Coinbase**, for a very small amount of cryptocurrency.
-
-- **NS&I**, for my emergency fund (invested in Premium Bonds).
-
-For credit cards I use:
-
-- **American Express**, for a cashback card.  There is a small annual
-  fee (£25), but my annual cashback covers that.
-
-Almost all of my spending goes on the Amex card, with that paid off in
-full every month from the Nationwide account.
-
-
-Chart of accounts
------------------
+### Chart of accounts
 
 The set of accounts I use is fairly stable: sometimes I'll add one, or
 one will cease to be useful, but that's a rare event.  Here are all
@@ -215,16 +503,18 @@ the regular accounts, which are mostly self-explanatory:
             - `flexdirect`
                 - `goal`
                     - *subaccounts for specific future expenses, like renewing my passport*
-                - `float`---cash which can be withdrawn
+                - `float`---cash which can be withdrawn or moved into another category if there's a shortfall
                 - `pending`
-                    - *subaccounts for money to be transferred outside of the flexdirect*
+                    - *subaccounts for money to be transferred to other accounts*
                 - `saved`
                     - `discretionary`
                     - `food`
                     - `gift`
+                    - `goals`---money to allocate to future goals, if I don't have any right now
                     - `graze`---monthly [Graze](https://www.graze.com/uk/) subscription
                     - `health`
                     - `household`
+                    - `invest`---money to invest, outside of my regular scheduled investments
                     - `phone`
                     - `rent`
                     - `social`
@@ -238,8 +528,8 @@ the regular accounts, which are mostly self-explanatory:
             - `roll20`---monthly [Roll20](https://roll20.net/) subscription (charged in USD)
             - `web`---AWS, domain names, and hosting (all charged in foreign currencies)
     - `investments`
-        - `cavendish`
-        - `coinbase`
+        - `ajbell`
+        - `fidelity`
         - `nsi`
     - `receivable`
         - `deposit`---the deposit on my flat
@@ -247,9 +537,7 @@ the regular accounts, which are mostly self-explanatory:
 - `expenses`
     - *subaccounts for various things*
 - `income`
-    - `amex`---cashback offers and similar
-    - `interest`
-    - `job`
+    - *subaccounts for various things*
 - `liabilities`
     - `creditcard`
         - `amex`
@@ -262,242 +550,180 @@ An account name is the path to it through the tree, separated by
 colons.  For example, `assets:cash`, or
 `expenses:utilities:electricity`.
 
-Many of these accounts do not correspond to any real-world bank or
-brokerage account, they are used to track the flow of money in more
-detail than if I just recorded which bank accounts things came from or
-went to.
-
 Money (and other commodities) is only stored in leaf accounts.
 
-### The emergency fund
-
-The emergency fund, stored in Premium Bonds, is used for any
-surprising emergency which isn't covered by any other category: for
-example, if I suddenly needed to replace my computer, or move to a new
-flat.
-
-It's not something I intend to use.
-
-Some people advocate investing your emergency fund into stocks and
-shares, as long-term cash savings lose value due to inflation.  But I,
-and many others, don't agree with that.  If an emergency struck, it
-could be catastrophic if the value of your fund had halved because the
-market was down.
-
-So I store mine in Premium Bonds, where it is still likely to lose
-value against inflation, but it won't have any sudden losses.  Premium
-Bonds can be withdrawn from with about a week's notice, so I make sure
-to have enough cash in my bank account (and credit on my credit card)
-to cover any emergency for at least that long.
-
-
-!-transactions
---------------
+### Marking transactions
 
 [hledger][] allows transactions to be marked with a `!` or a `*`.  The
 traditional meaning of these is "pending" and "cleared".
 
-I use `!` slightly differently.  I use it for transactions which are
-just an artefact of the way I track my finances, which don't involve
-any balance changes to a real-world account.  For example,
-reallocating my savings:
+I use `!` slightly differently.  I use it to indicate a transaction
+which is just an artefact of the way I track my finances, which
+doesn't involve any balance changes to a real-world account.
+
+For example, putting aside money to pay off credit card expenses:
 
 ```
-2019-08-25 ! Allocation
-    assets:cash:nationwide:flexdirect:saved:gift                         -£14.00
-    assets:cash:nationwide:flexdirect:saved:tea                          -£20.00
-    assets:cash:nationwide:flexdirect:saved:discretionary
-    assets:cash:nationwide:flexdirect:saved:food
+2021-12-02 ! Bookkeeping
+    assets:cash:nationwide:flexdirect:saved:food                         -£29.35
+    assets:cash:nationwide:flexdirect:saved:household                     -£8.63
+    assets:cash:nationwide:flexdirect:saved:health                        -£5.20
+    assets:cash:nationwide:flexdirect:saved:gift                        -£119.00
+    assets:cash:nationwide:flexdirect:saved:gift                         -£22.43
+    assets:cash:nationwide:flexdirect:pending:amex
 ```
 
-I use `*` as normal, although I usually only consider cash
-transactions "cleared" after I check that the cash in my wallet
-matches what hledger thinks it should be.
-
-
-Modelling income
-----------------
+### Income
 
 Income is recorded as the pre-tax amount coming from `income:$source`,
 and is split across `assets:*`, `expenses:*`, and `liabilities:*`.
 All amounts are included.
 
 ```
-2019-08-30 * Cabinet Office
-    assets:cash:nationwide:flexdirect:goal:move                          £500.00
-    assets:cash:nationwide:flexdirect:pending:cavendish                  £150.00
-    assets:cash:nationwide:flexdirect:pending:flexsaver                  £250.00
-    assets:cash:nationwide:flexdirect:pending:starling:patreon             £3.00
+2021-11-30 * Cabinet Office
+    assets:cash:nationwide:flexdirect:float                               £32.46
+    assets:cash:nationwide:flexdirect:goal:phone                         £250.00
+    assets:cash:nationwide:flexdirect:goal:clothes                        £25.00
+    assets:cash:nationwide:flexdirect:goal:upgrades                       £25.00
+    assets:cash:nationwide:flexdirect:goal:monitor                        £25.00
+    assets:cash:nationwide:flexdirect:pending:fidelity                   £500.00
+    assets:cash:nationwide:flexdirect:pending:ajbell                     £400.00
+    assets:cash:nationwide:flexdirect:pending:premium_bonds              £150.00
+    assets:cash:nationwide:flexdirect:pending:starling:patreon             £8.00
     assets:cash:nationwide:flexdirect:pending:starling:protonmail          £5.00
-    assets:cash:nationwide:flexdirect:pending:starling:roll20              £5.00
-    assets:cash:nationwide:flexdirect:pending:starling:web                £45.00
-    assets:cash:nationwide:flexdirect:saved:discretionary                £101.42
+    assets:cash:nationwide:flexdirect:pending:starling:roll20             £10.00
+    assets:cash:nationwide:flexdirect:pending:starling:web                £80.00
+    assets:cash:nationwide:flexdirect:saved:discretionary                  £2.66
     assets:cash:nationwide:flexdirect:saved:food                         £200.00
-    assets:cash:nationwide:flexdirect:saved:gift                         £139.66
-    assets:cash:nationwide:flexdirect:saved:graze                         £15.16
-    assets:cash:nationwide:flexdirect:saved:health                         £0.00
-    assets:cash:nationwide:flexdirect:saved:household                     £75.00
-    assets:cash:nationwide:flexdirect:saved:insurance                     £11.49
-    assets:cash:nationwide:flexdirect:saved:phone                         £13.00
-    assets:cash:nationwide:flexdirect:saved:rent                        £1400.00
-    assets:cash:nationwide:flexdirect:saved:social                        £50.00
-    assets:cash:nationwide:flexdirect:saved:tea                           £41.40
-    assets:cash:nationwide:flexdirect:saved:travel                        £41.40
-    assets:cash:nationwide:flexdirect:saved:utilities                     £71.50
-    expenses:tax:income                                                  £839.00
-    expenses:tax:ni                                                      £431.83
-    liabilities:loan:slc                                                 £314.00
-    expenses:pension                                                     £367.50
-    income:job                                                         -£5070.36
-    expenses:pension                                                    £1395.00
-    income:job                                                         -£1395.00
+    assets:cash:nationwide:flexdirect:saved:gift                           £0.00
+    assets:cash:nationwide:flexdirect:saved:graze                         £18.95
+    assets:cash:nationwide:flexdirect:saved:health                         £0.94
+    assets:cash:nationwide:flexdirect:saved:household                     £70.99
+    assets:cash:nationwide:flexdirect:saved:phone                         £13.92
+    assets:cash:nationwide:flexdirect:saved:rent                        £1406.21
+    assets:cash:nationwide:flexdirect:saved:social                        £30.00
+    assets:cash:nationwide:flexdirect:saved:tea                           £30.00
+    assets:cash:nationwide:flexdirect:saved:travel                         £0.00
+    assets:cash:nationwide:flexdirect:saved:utilities                    £237.67
+    expenses:gross:tax:income                                           £1145.27
+    expenses:gross:tax:ni                                                £439.80
+    liabilities:loan:slc                                                 £375.00
+    expenses:gross:pension                                               £345.09
+    income:job                                                         -£5826.96
+    expenses:gross:pension                                              £1309.93
+    income:job                                                         -£1309.93
 ```
 
 Some income transactions may not have anything to do with expenses or
 liabilities:
 
 ```
-2019-07-31 * Nationwide
-    assets:cash:nationwide:flexdirect:saved:discretionary                  £8.89
+2021-12-01 * Starling
+    assets:cash:starling:web                                               £0.05
     income:interest
 ```
 
+### Investments
 
-Modelling investments
----------------------
-
-The `@@` form is used to exactly specify the overall price.  Trading
-fees, if any go to `expenses:fees:$broker`.  Transferring the cash to
-the investment account and then investing it may be two separate
-steps:
+I use the `@@` form to exactly specify the overall price:
 
 ```
-2019-07-01 * Cavendish
-    assets:investments:cavendish                                         £150.00
-    assets:cash:nationwide:flexdirect:pending:cavendish
-
-2019-07-09 * Cavendish
-    assets:investments:cavendish                                            0.65 VANEA @@ £150.00
-    assets:investments:cavendish
+2021-08-10 * AJ Bell
+    assets:investments:ajbell                                             1.6458 VANEA @@ £473.51
+    expenses:fees                                                          £1.50
+    assets:investments:ajbell
 ```
 
-A broker will typically charge a management fee:
+Transferring the cash to the investment account and then investing it
+may be two separate steps:
 
 ```
-2019-07-01 * Cavendish
-    expenses:fees:cavendish                                                £0.06
-    assets:investments:cavendish
+2021-08-02 * Fidelity
+    assets:investments:fidelity                                          £500.00
+    assets:cash:nationwide:flexdirect:pending:fidelity
+
+2021-08-09 * Fidelity
+    assets:investments:fidelity                                             1.75 VANEA @@ £500.00
+    assets:investments:fidelity
 ```
 
-If there isn't enough cash in the account to pay for it, some other
-asset will be sold.  That's bad, so I always make sure there's some
-cash.
+If there isn't enough cash in the account to pay for any fees, some
+other asset will be sold.  That's bad, so I always make sure there's
+some cash.
 
-
-Modelling expenses
-------------------
+### Expenses
 
 There are three types of expenses: expenses from a bank account,
 expenses on a credit card, and cash expenses.  The former are
 straightforward:
 
 ```
-2019-07-01 * Graze
-    expenses:food                                                          £3.79
-    assets:cash:nationwide:flexdirect:saved:graze
+2021-09-06 * Three Rivers District Council
+    expenses:tax:council                                                 £128.00
+    assets:cash:nationwide:flexdirect:saved:rent
 ```
 
 Foreign currency expenses are recorded like so:
 
 ```
-2019-08-05 * Hetzner
-    expenses:web                                                           19.08 EUR @@ £17.60
+2021-01-04 * Hetzner
+    expenses:web                                                           38.16 EUR @@ £34.52
     assets:cash:starling:web
 ```
 
-Sometimes I'll add a transaction note, which comes after a vertical
-bar:
+#### Spending physical cash
 
-```
-2019-01-06 * Steam | 1644277325735538856
-    expenses:fun                                                           £9.29
-    liabilities:creditcard:amex
-```
-
-
-### Cash
-
-Cash that can be withdrawn lives in `flexdirect:float` and
-`starling:float`.  This is because it's useful to have cash on hand
-without necessarily having decided up front what it's for, but it's
-also good to bound the amount of unallocated money I have.
+Physical cash generally involves three transactions: a withdrawal from
+the bank account (which may be long before the actual expense), the
+expense, and a bookkeeping transaction to move the money back into the
+float:
 
 ```
 2019-01-25 * Withdraw
     assets:cash:petty:hand:budgeted                                       £10.00
-    assets:cash:starling:float
-```
+    assets:cash:nationwide:flexdirect:float
 
-Cash can also be withdrawn in a foreign currency, which will have an
-exchange rate and may impose an additional fee:
-
-```
-2018-05-11 Withdraw
-    assets:cash:petty:hand:budgeted                                        10000 JPY @@ £70.41
-    expenses:fees:currency                                                 £1.99
-    assets:cash:starling:float
-```
-
-Cash expenses require an adjustment to the appropriate budget
-category, transferring money back to the float to represent that that
-money has been allocated and spent:
-
-```
 2019-01-25 * Post Office
     expenses:other                                                         £1.01
     assets:cash:petty:hand:budgeted
+
 2019-01-25 ! Bookkeeping
     assets:cash:nationwide:flexdirect:saved:discretionary                 -£1.01
-    assets:cash:nationwide:flexdirect:pending:starling:float
+    assets:cash:nationwide:flexdirect:float
 ```
 
-The money in `pending` will be transferred to the appropriate account
-at some point.
-
-This could be done in one transaction, but I think it's clearer with
-two.  If I'm using cash I was gifted, the expense comes from
-`hand:unbudgeted` and there's no transaction updating the float.
-
 Foreign currency cash transactions require picking an appropriate
-exchange rate when removing the money from the budget category:
+exchange rate when taking the money from the budget category:
 
 ```
 2018-05-08 * FamilyMart
     expenses:food                                                            548 JPY
     assets:cash:petty:hand:budgeted
+
 2018-05-08 ! Bookkeeping
     assets:cash:nationwide:flexdirect:saved:food                          -£4.60 ; -548 JPY
-    assets:cash:nationwide:flexdirect:pending:starling:float
+    assets:cash:nationwide:flexdirect:float
 ```
 
 The exchange rate is kind of arbitrary, as it's only being used for
 budgeting purposes here.  An `@@` posting isn't used, because the bank
-operates entirely in GBP.
+operates entirely in GBP: in the example above I'm not moving 548 JPY
+to the `float`, I'm moving £4.60, and I arrived at that number by
+approximating the value of the 548 JPY.
 
-### Credit cards
+#### Using a credit card
 
 When I pay for something on my credit card I add a transaction from
 `liabilities` to track the debt, and also remove the money from the
 budget category:
 
 ```
-2019-08-04 * Morrisons
-    expenses:food                                                          £4.65
-    expenses:tea                                                          £11.70
-    liabilities:creditcard:amex                                          -£16.35
-2019-08-04 ! Bookkeeping
-    assets:cash:nationwide:flexdirect:saved:food                          -£4.65
-    assets:cash:nationwide:flexdirect:saved:tea                          -£11.70
+2021-12-06 * Tesco
+    expenses:food                                                         £24.73
+    liabilities:creditcard:amex
+
+2021-12-06 ! Bookkeeping
+    assets:cash:nationwide:flexdirect:saved:food                         -£24.73
     assets:cash:nationwide:flexdirect:pending:amex
 ```
 
@@ -505,162 +731,31 @@ I pay off my credit card in full every month automatically via direct
 debit:
 
 ```
-2019-08-05 * American Express
-    liabilities:creditcard:amex                                          £378.34
+2021-12-03 * American Express
+    liabilities:creditcard:amex                                          £520.97
     assets:cash:nationwide:flexdirect:pending:amex
 ```
 
 Every year, I get cashback.  As the cashback goes to the balance on
 the card, rather than being paid into my bank account, I treat it as
-an pair of an income transaction and an allocation-style transaction:
+a pair of an income transaction and a bookkeeping transaction:
 
 ```
-2019-08-14 * American Express | cashback
-    liabilities:creditcard:amex                                          £181.41
+2021-08-14 * American Express | cashback
+    liabilities:creditcard:amex                                          £105.64
     income:amex
-2019-08-14 ! Allocation | cashback
-    assets:cash:nationwide:flexdirect:goal:move                          £100.00
-    assets:cash:nationwide:flexdirect:saved:tea                           £80.00
-    assets:cash:nationwide:flexdirect:pending:amex
+
+2021-08-14 ! Allocation | cashback
+    assets:cash:nationwide:flexdirect:goal:amex_membership                £25.00
+    assets:cash:nationwide:flexdirect:saved:health                        £80.64
+    assets:cash:nationwide:flexdirect:pending:amex                      -£105.64
 ```
 
+### Maintenance
 
-Special transactions
---------------------
+#### Weekly
 
-There are three sorts of "special" transactions which show up in my
-journal.
-
-1. One transaction at the start of the year to initialise all the
-   accounts.
-2. One transaction at the end of the year to discard any small amounts
-   of money owed between friends.
-3. Possibly multiple transactions during the year to correct balance
-   errors.
-
-These all come out of `equity`, because I'm not really sure where else
-they should go, specifically:
-
-1. `equity:opening/closing`
-2. `equity:writeoff`
-3. `equity:adjustment`
-
-I don't really care about the balance of `equity`, so having these
-special transactions use that is fine.
-
-Forecasting
------------
-
-I do some basic forecasting in my ledger, but be wary!  Predicting the
-future can be the downfall of an otherwise-sound financial plan!  I am
-always pessimistic in my forecasting[^assump], and I never make
-spending decisions based on a forecast, it's purely to get an estimate
-of what my account balances will become based on my current income
-allocation and to see how sensible my savings goals are.
-
-[^assump]: The only income I forecast is from my job (though I do
-  assume I won't lose my job), and I forecast spending my entire
-  budget every month.
-
-Firstly, I forecast my monthly expenses:
-
-```
-~ monthly  Expenses
-    (assets:cash:nationwide:flexdirect:saved:food)                      -£200.00
-    (assets:cash:nationwide:flexdirect:saved:household)                  -£50.00
-    (assets:cash:nationwide:flexdirect:saved:tea)                        -£25.00
-    ;
-    (assets:cash:nationwide:flexdirect:saved:graze)                      -£15.16 ; graze
-    (assets:cash:nationwide:flexdirect:saved:phone)                      -£13.92 ; ee
-    (assets:cash:nationwide:flexdirect:saved:rent)                      -£122.17 ; three rivers DC
-    (assets:cash:nationwide:flexdirect:saved:rent)                     -£1200.00 ; hamptons
-    (assets:cash:nationwide:flexdirect:saved:utilities)                  -£40.00 ; affinity water
-    (assets:cash:nationwide:flexdirect:saved:utilities)                  -£52.00 ; virgin media
-    (assets:cash:nationwide:flexdirect:saved:utilities)                  -£72.00 ; eon energy
-    (assets:cash:starling:patreon)                                        -£8.00 ; patreon
-    (assets:cash:starling:roll20)                                         -£5.00 ; roll20
-    (assets:cash:starling:web)                                            -£7.00 ; aws
-    (assets:cash:starling:web)                                           -£20.00 ; ovh
-    (assets:cash:starling:web)                                           -£35.00 ; hetzner
-```
-
-Each of those numbers is based on experience and some of them are
-rounded up where prices aren't exact, or are in a foreign currency (so
-the exchange rate may vary).
-
-Secondly, I have some regular account transfers:
-
-```
-~ monthly  Transfers
-    assets:cash:nationwide:flexdirect:pending:cavendish                 -£200.00
-    assets:cash:nationwide:flexdirect:pending:starling:patreon            -£8.00
-    assets:cash:nationwide:flexdirect:pending:starling:protonmail         -£5.00
-    assets:cash:nationwide:flexdirect:pending:starling:roll20             -£5.00
-    assets:cash:nationwide:flexdirect:pending:starling:web               -£55.00
-    assets:cash:starling:patreon                                           £8.00
-    assets:cash:starling:protonmail                                        £5.00
-    assets:cash:starling:roll20                                            £5.00
-    assets:cash:starling:web                                              £55.00
-    assets:investments:cavendish                                         £200.00
-```
-
-I know the exact amounts of these as they're set up as standing
-orders.
-
-Thirdly, I have an allocation of my income:
-
-```
-~ monthly  Cabinet Office
-    assets:cash:nationwide:flexdirect:unallocated
-    assets:cash:nationwide:flexdirect:pending:cavendish                  £200.00
-    assets:cash:nationwide:flexdirect:pending:starling:patreon             £8.00
-    assets:cash:nationwide:flexdirect:pending:starling:protonmail          £5.00
-    assets:cash:nationwide:flexdirect:pending:starling:roll20              £5.00
-    assets:cash:nationwide:flexdirect:pending:starling:web                £55.00
-    assets:cash:nationwide:flexdirect:saved:discretionary                  £0.00
-    assets:cash:nationwide:flexdirect:saved:food                         £200.00 ;= £1000.00
-    assets:cash:nationwide:flexdirect:saved:gift                           £0.00 ;=  £150.00
-    assets:cash:nationwide:flexdirect:saved:graze                         £15.16 ;=   £50.00
-    assets:cash:nationwide:flexdirect:saved:health                         £0.00 ;=   £50.00
-    assets:cash:nationwide:flexdirect:saved:household                     £50.00 ;=  £300.00
-    assets:cash:nationwide:flexdirect:saved:phone                         £13.92 ;=  £100.00
-    assets:cash:nationwide:flexdirect:saved:rent                        £2000.00 ;= £4000.00
-    assets:cash:nationwide:flexdirect:saved:social                         £0.00
-    assets:cash:nationwide:flexdirect:saved:tea                           £25.00
-    assets:cash:nationwide:flexdirect:saved:travel                       £200.00 ;=  £750.00
-    assets:cash:nationwide:flexdirect:saved:utilities                    £364.00 ;= £1000.00
-    expenses:tax:income                                                  £910.60
-    expenses:tax:ni                                                      £427.02
-    liabilities:loan:slc                                                 £328.00
-    expenses:pension                                                     £387.22
-    income:job                                                         -£5268.25
-    expenses:pension                                                    £1469.84
-    income:job                                                         -£1469.84
-```
-
-I tweak this over time depending on what my savings targets are, and
-my actual income transactions don't include that `unallocated`
-account: that's just so I don't have to forecast every penny up front.
-
-Finally, I may sometimes know a particular expense is coming up, and
-so note it down ahead of time:
-
-```
-~ 2018-03-08  Dentist
-    expenses:health                                                       £18.80
-    assets:cash:nationwide:flexdirect:saved:health
-```
-
-
-Maintenance
------------
-
-In addition to simply recording transactions, there is some
-bookkeeping I do occasionally, to keep my records easy to process.
-
-### Weekly
-
-Once a week (or more) I check my financial statements and reconcile
+Every Saturday I check my financial statements and reconcile
 transactions in the journal:
 
 1. For every transaction in the statement, find the corresponding
@@ -675,8 +770,8 @@ transactions in the journal:
 2. Check the balance in my wallet and mark all `hand` transactions.
 
 If any of the account balances are incorrect, and I can't find the
-mistake, give up and fix it with a transaction to/from `equity`.  For
-example:
+mistake, give up and fix it with a transaction to/from
+`equity:adjustment`.  For example:
 
 ```
 2020-12-04 ! Adjustment
@@ -684,7 +779,12 @@ example:
     equity:adjustment
 ```
 
-### Annually
+I don't like making these adjustment transactions, and I'm pretty good
+at avoiding them now.
+
+#### Annually
+
+At the end of December, I finish up the journal to start the new year:
 
 1. Reconcile transactions.
 2. Write off any small amounts owed between friends with a transaction
@@ -692,8 +792,10 @@ example:
 3. Rename the current journal file from `current.journal` to
    `$YEAR.journal`.
 4. Create a new `current.journal`.
-5. Initialise all accounts on the first of January by transferring from equity.
-6. Identify financial goals for the upcoming year.
+5. Generate opening / closing transactions with `hledger close`:
+   1. Add the old journal file and the closing transaction to
+      `combined.journal`
+   2. Add the opening transaction to the new journal
 
 Here's an example of a (2) transaction:
 
@@ -704,12 +806,52 @@ Here's an example of a (2) transaction:
     equity:writeoff
 ```
 
-Here's an example of a (5) transaction:
+Here's an example of a (5.1) transaction:
+
+```
+2021-01-01 ! Closing balances
+    assets:cash:nationwide:flexdirect:pending:amex                      £-598.01 = £0.00
+    assets:cash:nationwide:flexdirect:pending:cavendish                 £-200.00 = £0.00
+    assets:cash:nationwide:flexdirect:pending:starling:patreon            £-8.00 = £0.00
+    assets:cash:nationwide:flexdirect:pending:starling:protonmail         £-5.00 = £0.00
+    assets:cash:nationwide:flexdirect:pending:starling:roll20             £-5.00 = £0.00
+    assets:cash:nationwide:flexdirect:pending:starling:web               £-55.00 = £0.00
+    assets:cash:nationwide:flexdirect:saved:food                        £-200.57 = £0.00
+    assets:cash:nationwide:flexdirect:saved:graze                        £-50.00 = £0.00
+    assets:cash:nationwide:flexdirect:saved:health                      £-500.00 = £0.00
+    assets:cash:nationwide:flexdirect:saved:household                   £-300.00 = £0.00
+    assets:cash:nationwide:flexdirect:saved:phone                       £-100.00 = £0.00
+    assets:cash:nationwide:flexdirect:saved:rent                       £-2475.86 = £0.00
+    assets:cash:nationwide:flexdirect:saved:travel                      £-523.69 = £0.00
+    assets:cash:nationwide:flexdirect:saved:utilities                   £-800.00 = £0.00
+    assets:cash:petty:hand:budgeted                                      £-19.05 = £0.00
+    assets:cash:petty:hand:unbudgeted                                     £-2.00 = £0.00
+    assets:cash:petty:home                                                 -3.35 EUR = 0.00 EUR
+    assets:cash:petty:home                                              -1853.00 JPY = 0.00 JPY
+    assets:cash:starling:patreon                                         £-21.79 = £0.00
+    assets:cash:starling:protonmail                                      £-42.43 = £0.00
+    assets:cash:starling:roll20                                          £-37.33 = £0.00
+    assets:cash:starling:web                                            £-283.38 = £0.00
+    assets:investments:cavendish                                          -19.66 VANEA = 0.00 VANEA
+    assets:investments:cavendish                                         £-36.08 = £0.00
+    assets:investments:coinbase                                           -10.00 EUR = 0.00 EUR
+    assets:investments:fundingcircle                                      £-0.03 = £0.00
+    assets:investments:nsi:premium_bonds:emergency                     £-4475.00 = £0.00
+    assets:investments:nsi:premium_bonds:move                          £-3775.00 = £0.00
+    assets:receivable:deposit                                          £-1384.62 = £0.00
+    assets:receivable:refund                                            £-161.00 = £0.00
+    assets:pension:alpha                                           -2653.00 £/yr = 0.00 £/yr
+    liabilities:creditcard:amex                                          £598.01 = £0.00
+    liabilities:loan:slc                                               £20468.52 = £0.00
+    equity:opening/closing
+```
+
+And here's an example of a (5.2) transaction:
 
 ```
 2021-01-01 ! Opening balances
     assets:cash:nationwide:flexdirect:pending:amex                        £598.01
-    assets:cash:nationwide:flexdirect:pending:cavendish                   £200.00
+    assets:cash:nationwide:flexdirect:pending:fidelity                    £200.00
     assets:cash:nationwide:flexdirect:pending:starling:patreon              £8.00
     assets:cash:nationwide:flexdirect:pending:starling:protonmail           £5.00
     assets:cash:nationwide:flexdirect:pending:starling:roll20               £5.00
@@ -719,7 +861,7 @@ Here's an example of a (5) transaction:
     assets:cash:nationwide:flexdirect:saved:health                        £500.00
     assets:cash:nationwide:flexdirect:saved:household                     £300.00
     assets:cash:nationwide:flexdirect:saved:phone                         £100.00
-    assets:cash:nationwide:flexdirect:saved:rent                         £2475.54
+    assets:cash:nationwide:flexdirect:saved:rent                         £2475.86
     assets:cash:nationwide:flexdirect:saved:travel                        £523.69
     assets:cash:nationwide:flexdirect:saved:utilities                     £800.00
     ;
@@ -733,14 +875,18 @@ Here's an example of a (5) transaction:
     assets:cash:starling:roll20                                            £37.33
     assets:cash:starling:web                                              £283.38
     ;
-    assets:investments:cavendish                                      19.66 VANEA
-    assets:investments:cavendish                                           £36.08
+    assets:investments:fidelity                                             19.66 VANEA
+    assets:investments:fidelity                                            £36.08
     assets:investments:coinbase                                         10.00 EUR
-    assets:investments:fundingcircle                                       £21.29
+    assets:investments:fundingcircle                                        £0.03
     assets:investments:nsi:premium_bonds:emergency                       £4475.00
     assets:investments:nsi:premium_bonds:move                            £3775.00
     ;
     assets:receivable:deposit                                            £1384.62
+    assets:receivable:refund                                              £161.00
+    ;
+    assets:pension:alpha                                                 2653.00 £/yr
+    ;
     liabilities:creditcard:amex                                          -£598.01
     liabilities:loan:slc                                               -£20468.52
     ;
