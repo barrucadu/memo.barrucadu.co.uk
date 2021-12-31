@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-12-04
+modified: 2021-12-31
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -19,13 +19,11 @@ SF Masterworks
 | `1857988221`    | The Demolished Man                              | Alfred Bester                        |
 | `1857988361`    | Stand on Zanzibar                               | John Brunner                         |
 | `1857988833`    | The Drowned World                               | J. G. Ballard                        |
-| `185798885X`    | Emphyrio                                        | Jack Vance                           |
 | `1857989147`    | The Book of Skulls                              | Robert Silverberg                    |
 | `1857988531`    | Ubik                                            | Philip K. Dick                       |
 | `185798935X`    | Timescape                                       | Gregory Benford                      |
 | `1857988523`    | More Than Human                                 | Theodore Sturgeon                    |
 | `1857989244`    | A Case of Conscience                            | James Blish                          |
-| `185798997X`    | The Centauri Device                             | M. John Harrison                     |
 | `185798952X`    | Dr. Bloodmoney                                  | Philip K. Dick                       |
 | `1857989988`    | Non-Stop                                        | Brian Aldiss                         |
 | `1857987217`    | The Fountains of Paradise                       | Arthur C. Clarke                     |
@@ -43,7 +41,6 @@ SF Masterworks
 | `0575073160`    | Eon                                             | Greg Bear                            |
 | `0575074639`    | The Shrinking Man                               | Richard Matheson                     |
 | `0575074809`    | The Three Stigmata of Palmer Eldritch           | Philip K. Dick                       |
-| `0575075287`    | The Space Merchants                             | Frederik Pohl and Cyril M. Kornbluth |
 | `0575074582`    | Time Out of Joint                               | Philip K. Dick                       |
 | `0575074604`    | The Simulacra                                   | Philip K. Dick                       |
 | `0575075252`    | Dying Inside                                    | Robert Silverberg                    |
@@ -60,7 +57,6 @@ SF Masterworks
 | `9780575082106` | Inverted World                                  | Christopher Priest                   |
 | `9780575094994` | The Female Man                                  | Joanna Russ                          |
 | `9780575095014` | Arslan                                          | M. J. Engh                           |
-| `9780575099401` | The Difference Engine                           | William Gibson and Bruce Sterling    |
 | `9780575099418` | The Prestige                                    | Christopher Priest                   |
 | `9780575071131` | Greybeard                                       | Brian Aldiss                         |
 | `9780575105232` | City                                            | Clifford D. Simak                    |
@@ -98,7 +94,6 @@ SF Masterworks
 | `9780575129627` | Half Past Human                                 | T. J. Bass                           |
 | `9781473203242` | Her Smoke Rose Up Forever                       | James Tiptree Jr                     |
 | `9781473208292` | Hard to Be a God                                | Arkady and Boris Strugatsky          |
-| `9781473208926` | Night Lamp                                      | Jack Vance                           |
 | `9781473205765` | The Wind's Twelve Quarters and The Compass Rose | Ursula K. Le Guin                    |
 | `9781473212527` | Dying of the Light                              | George R. R. Martin                  |
 | `9781473211957` | A Fire Upon the Deep                            | Vernor Vinge                         |
