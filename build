@@ -48,6 +48,7 @@ TAXA = [
     {"name": "General", "slug": "general"},
     {"name": "Games", "slug": "general-games", "parent": "general"},
     {"name": "Weeknotes", "slug": "weeknotes", "tags": ["weeknotes"]},
+    {"name": "2022", "slug": "weeknotes-2022", "parent": "weeknotes"},
     {"name": "2021", "slug": "weeknotes-2021", "parent": "weeknotes"},
     {"name": "2020", "slug": "weeknotes-2020", "parent": "weeknotes"},
     {"name": "2019", "slug": "weeknotes-2019", "parent": "weeknotes"},
