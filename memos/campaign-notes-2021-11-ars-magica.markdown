@@ -3,7 +3,7 @@ title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
 published: 2021-11-09
-modified: 2021-12-21
+modified: 2022-01-04
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -148,7 +148,7 @@ R              +-----------------------------+   +-------------------+
 
 - In Auchmithie, Scotland; 3 miles NE of Arbroath Abbey; 20 miles NE
   of Dundee.
-- 102 Build Points of Hidden Resources remaining.
+- 80 Build Points of Hidden Resources remaining.
 
 ### Reputations
 
@@ -678,3 +678,73 @@ Continue the *Broken Covenant*
 - Spring 1222
 - Tribunal
 - Broken Covenant
+
+
+2022-01-04 --- Spring 1222
+--------------------------
+
+### Prep
+
+#### Broken Covenant
+
+- Sir Gilbert and the men he took with him through the forest have
+  been missing for a few weeks, the camp is on the verge of breaking
+  up and returning home.
+
+#### Tribunal
+
+- Debate on baiting and magical defences:
+  - Darius of Flambeau is the accused, and believes any magical
+    defences are justified
+  - The aging Ornath of Guernicus is the Quaesitor arguing the
+    opposition
+
+- The Bonum Magicae Ossa covenant in the highlands has been destroyed,
+  seemingly by divine intervention:
+  - Its magi were researching the Limit of the Divine, a fairly
+    unpopular move.
+  - The covenant is now just a lush overgrown crater, as if it were
+    demolished and then abandoned to nature for a century.
+  - A lingering Divine Aura has wiped out any magical residue, so the
+    quaesitores have been unable to figure out what was being done in
+    the covenant immediately before the destruction.
+  - There were sightings from nearby villages of a winged figure
+    holding a flaming sword hovering above the covenant.
+
+#### Events
+
+- **Spring 1222:**
+  - Tribunal
+  - Sociopathic knight-heir baby left at the covenant
+- **Summer 1222:**
+  - Harvesting the Muto vis
+- **Autumn 1222:**
+  - Lord Boyd visits
+- **Winter 1222**
+- **Spring 1223:**
+  - Aegis of the Hearth expires
+  - Tribunal
+
+### Notes
+
+- **Spring 1222:**
+  - Tribunal:
+    - Trade some books with Philberta of Bonisagus
+    - Covenant destroyed by an angel
+  - Sociopathic Baby:
+    - Eun finds it
+    - Leave with Eilidh, kitchen grog, after deciding it's not magical
+- **Summer 1222:**
+  - Send grogs to collect Muto vis
+  - Recruit a teacher
+- **Autumn 1222:**
+  - Lord Boyd visits
+    - Throw a party and get him drunk
+    - He takes Mason off to Oxford
+
+### Next time
+
+- Winter 1222
+- Next Spring: return to the Broken Covenant
+- Players want Broken Covenant to end the campaign, so stretch or
+  shrink it as appropriate to cover the next 3 sessions.
