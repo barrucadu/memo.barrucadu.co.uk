@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2021-12-12
+modified: 2022-01-09
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -371,17 +371,15 @@ The mortgage for the Far Trader is through the GeDeCo Bank, and they
 may allow late or missing payments to slip by in exchange for
 questionable favours.
 
+GeDeCo is currently **Neutral** towards the Travellers.
+
 #### Missions
 
 1. Survey the star at Pandora for solar flare activity.  A survey by
    an actual scout would do wonders to convince people that this
    GeDeCo colony is safe to relocate to.
 
-2. ?
-
-3. ?
-
-##### In Progress
+##### Done
 
 - Take a research team to 971-852 and pick them back up a month later.
   No steward required.
@@ -390,9 +388,40 @@ questionable favours.
   advance, half afterwards; a bit more than middle passage for 4
   people for 4 parsecs, twice).
 
+### Pirates of Theev
+
+The pirates are not a unified bunch, with many belonging to a specific
+pirate lord's faction.
+
+The Pirates of Theev are currently **Suspicious** towards the Travellers:
+
+- Currency exchange has a 30% surchage
+- Prices are inflated by 20%
+- TL 13 and above goods are not available
+
+#### Pirate Lord Vekshan (Vargr)
+
+**Mission:** raiding and war profiteering
+
+1. Support the revolution on Acrid *(Revolution on Acrid --- Drinaxian Companion)*
+
+#### Pirate Lord Ruk (Human)
+
+**Mission:** smuggling
+
+1. Smuggle medical supplies Baroness Lux *(The Cordan Conflict --- Drinaxian Companion)*
+
+#### Pirate Lord Gibbs (Human)
+
+**Mission:** espionage, information trading, and blackmail
+
+1. Install a tracking device in their ship and travel around.
+
 ### Scout Services
 
 Ilijah was a scout for four terms, and has a ship on loan from them.
+
+Scout Services is currently **Friendly** towards the Travellers.
 
 At starports with a Scout Base, they can receive
 
@@ -405,10 +434,6 @@ At starports with a Scout Base, they can receive
 1. Survey the star at Pandora for solar flare activity.  GeDeCo have
    been trying to recruit colonists again, but we have our doubts that
    it's safe.
-
-2. ?
-
-3. ?
 
 ##### In Progress
 
@@ -512,9 +537,8 @@ Rumours
 5. *Roll a random Space encounter for the current or a nearby system:
    the Traveller learns about this.*
 
-6. **[aslan, politics]** The Florian League has made formal complaint
-    to the Ya'soisthea about ihatei raiding bands.  The Aslan response
-    was, essentially, "boys will be boys."
+6. **[aslan, politics]** Attacks from ihatei raiding bands have
+   increased in the last few months.
 
 7. **[imperium, politics]** The civil war on Simok shows no signs of
     ending. The Duke of Tobia has given the two sides a year to sort
@@ -524,13 +548,13 @@ Rumours
     between the Imperium and the Hierate have increased lately, both
     sides are having to send larger escort fleets.
 
-9. **[piracy]** Somewhere on Theev is a city of pirates, where only
-   the strong survive.
+9. ?
 
-10. Wildeman has a reputation for ghost ships and mysterious
-    breakdowns.
+10. There's been an unusual number of misjumps in the last few months.
 
-11. ?
+11. **[sindal, treasure]** There are old caches of treasure left over
+    from the Sindalian Empire scattered on worlds around the Trojan
+    Reach.
 
 12. **[treasure]** There's an old space station at The World, falling
     apart with age, but it's still got power and the defence turrets
@@ -550,7 +574,8 @@ Rumours
     cache of Sindalian tech while on the run from another three ships.
     With the new equipment, they crushed their pursuers and spent the
     rest of their days pillaging trade routes.  Nobody knows where
-    that cache was or what else could be in there.
+    that cache was or what else could be in there. *(Captain Envai's
+    Cavern --- Drinaxian Companion)*
 
 17. **[ancients, imperium]** Scientists say that the black hole at
     627-301 is clearly artificial, and nobody since the Ancients has
@@ -1382,3 +1407,105 @@ The game ends when the Clan Head has been captured.
 - After Christmas & New Year: 9th of January probably
 - Week 20
 - Space pirates!
+
+
+2022-01-09 --- Week 20, Theev
+-----------------------------
+
+### Intro
+
+Talk through Asset & Faction handouts, and then:
+
+> Your ship pops out of jump space next to Theev, the pirate world.
+> Astraea quickly broadcasts the passphrase over the appropriate comms
+> channel, and puts the ship into the right approach vector.
+>
+> You fly over the barren, dusty, world where no life evolved beyond
+> the single-cellular.  It's a planet with vast mountain ranges
+> stabbing into the sky, deep canyons and cave systems burrowing into
+> the surface, and vast deserts of black sand.
+>
+> Your ship dives down to what looks like a desert but, just before
+> you crash, the surface shimmers and a large hatch opens to let you
+> through.  You find yourself in a huge canyon, covered by an
+> artificial and disguised roof---transparent from this side---with
+> hundreds of skyscrapers rising up from the floor far beneath,
+> connected by glass walkways, and hundreds of small ships and grav
+> vehicles flitting to and fro.
+>
+> A male voice comes through your ship's speakers: "Welcome to Theev,
+> please proceed to docking bay 2460-A and come to the Port Authority
+> to register your vehicle.  An escort will be waiting for you."
+>
+> You head to the docking bay, set into the side of a skyscraper, like
+> an elevated car park but for spacecraft, and the hangar doors close
+> behind you.  There's a hiss of air, a large sign saying "ATMOSPHERE
+> OK" flashes on, and the interior doors open as a woman dressed in a
+> black robe strides through to meet you.
+
+### Prep
+
+#### Entering Theev
+
+- The party will be guided by a Blacksand Widow: a tall, pale woman
+  dressed in a black robe with one clearly artificial eye (glowing red
+  iris).  She doesn't speak.  Any other Widows they see will look
+  and behave identically.
+
+- **Immigration:**
+  - Standard questions like:
+    - "Have you all visited Theev before?"
+    - "What is the purpose of your visit?"
+    - "How long do you intend to stay?"
+  - Weapons check: nothing that could breach the environment
+    (discovery of such a weapon will be dealt with seriously)
+  - Brief explanation of the Law of the Lords and Law of the Streets,
+    and the currency, since there are new visitors in the party
+
+- **Port Authority:**
+  - "How did you know the passphrase and approach vector?"
+  - (to Astraea) "Who was the captain of your previous ship?"
+  - "Whose ship is it?"
+  - (to Ilijah, with a suspicious look at Astraea) "So you are an Imperial Scout on detached duty?"
+  - "I strongly recommend you switch your transponder to Passive or Covert mode if you intend to visit Theev again."
+
+- **Currency Exchange:**
+  - Credit chips log transactions, so it's easier to fake one large
+    currency exchange transaction for some backwater system which
+    still uses its own currency, or a withdrawal transaction for one
+    which uses physical credit notes, than faking every transaction
+    you make on Theev.
+  - Hence, merchants on Theev will only accept Theev credits or
+    Imperial credit notes.
+  - Exchange rate is 1:1 with a 30% surcharge
+
+### Notes
+
+- **Theev:**
+  - Astraea's old captain was Isabella of the Green Reaches
+  - Switch transponder to passive
+  - Visit The Claw, a vargr-owned bar in the lower city:
+    - Human bartender
+    - Get told about the 30% surcharge, TL restriction, and extra
+      charge due to being new
+    - Offer of changing money with a 10% fee
+  - Meet Drax the Knifer (asset)
+    - Agree to take some fake info to a class B starport
+- Jump to Noricum (2 jumps)
+- **Noricum:**
+  - Meet Donus
+- Jump to Oghma
+- **Oghma:**
+  - Scout ship maintenance
+  - Hear about the raiders and see one band on the station trying to
+    get passage to Theev
+  - Rumour: lots of misjumps across the Sindalian Main recently
+- Jump to Torpol
+- Jump to Drinax
+- **Drinax:**
+  - Start the Pirates of Drinax campaign
+
+### Next time
+
+- Week 26
+- Pirates of Drinax
