@@ -3,7 +3,7 @@ title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
 published: 2021-11-09
-modified: 2022-01-04
+modified: 2022-01-12
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -748,3 +748,39 @@ Continue the *Broken Covenant*
 - Next Spring: return to the Broken Covenant
 - Players want Broken Covenant to end the campaign, so stretch or
   shrink it as appropriate to cover the next 3 sessions.
+
+
+
+2022-01-11 --- Winter 1222
+--------------------------
+
+### Prep
+
+#### Broken Covenant
+
+- Sir Gilbert and the men he took with him through the forest have
+  been missing for a few weeks, the camp is on the verge of breaking
+  up and returning home.
+  - They ate dryad food and will sleep for a century.
+  - The dryad sees nothing wrong with this and, in fact, is delighted
+    to have company!
+
+### Notes
+
+- Various research activities until Summer 1223
+- Tiffany makes a charged item to destroy ghosts
+- **Summer 1223:**
+  - Visit the Broken Covenant
+  - Knight camp gone
+  - Knight & company asleep at the dryad's table
+  - Trade Marvenus for the knight
+  - Find Paulo
+    - Gets enraged at mention of Mormulus
+    - Tiffany destroys him
+  - Find Josephine
+    - Told about her son
+    - Pickpockets Tiffany's poetry book
+
+### Next time
+
+- Level 3
