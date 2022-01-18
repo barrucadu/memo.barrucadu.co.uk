@@ -3,7 +3,7 @@ title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
 published: 2021-11-09
-modified: 2022-01-12
+modified: 2022-01-18
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -157,12 +157,12 @@ R              +-----------------------------+   +-------------------+
 ### Hidden Resources in Calebais (88 BP)
 
 - **Hrools** (22 BP total):
-  - Hofot: 2 Animal vis
+  - Hofot: 2 Animal vis *(taken)*
     - wearing 2 satyr horns: 10 Corpus vis per horn
-  - 25 normal adults: 1 Animal vis each
-  - 10 warriors: 1 Animal vis each
+  - 25 normal adults: 1 Animal vis each *(6 taken)*
+  - 10 warriors: 1 Animal vis each *(5 taken)*
     - each wearing 2 satyr horns: 2 Corpus vis per horn
-  - 3 ermine: 3 Rego vis each
+  - 3 ermine: 3 Rego vis each *(1 taken)*
 
 - **Ghosts** (16 BP total):
   - Dargaud: 2 Mentem vis
@@ -170,7 +170,7 @@ R              +-----------------------------+   +-------------------+
   - Josephine: 3 Mentem vis
   - David: 6 Mentem vis
   - Ferdina: 5 Mentem vis
-  - Mormulus: 12 Imaginem vis
+  - Mormulus: 12 Imaginem vis *(taken)*
   - Ierimyra: 8 Creo vis
   - Pitsdim: 7 Ignem vis
   - Althea: 3 Corpus vis
@@ -750,7 +750,6 @@ Continue the *Broken Covenant*
   shrink it as appropriate to cover the next 3 sessions.
 
 
-
 2022-01-11 --- Winter 1222
 --------------------------
 
@@ -784,3 +783,31 @@ Continue the *Broken Covenant*
 ### Next time
 
 - Level 3
+
+
+2022-01-18 --- Summer 1223
+--------------------------
+
+### Prep
+
+### Notes
+
+- Kill Hofot & take his sword (knight has it)
+- Harvest hrool vis:
+  - 1x ermine
+  - 1x hofot
+  - 6x adult
+  - 5x warrior
+- Catch a rock with legs
+- Talk to Ferdina, she thinks it's 1170
+- Harvest magic water
+- Meet Pitsdim, learn that ghostly fire doesn't cause real hurt
+- Visit Mormulus' lab:
+  - Make him realise he's a ghost
+  - Tells them about the Veil
+  - He moves on
+  - Leaves behind his vis
+
+### Next time
+
+- Broken Covenant
