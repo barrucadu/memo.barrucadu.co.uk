@@ -3,7 +3,7 @@ title: Ars Magica (2021-11 to ?) notes
 taxon: general-games
 tags: ars-magica
 published: 2021-11-09
-modified: 2022-01-18
+modified: 2022-01-25
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -788,8 +788,6 @@ Continue the *Broken Covenant*
 2022-01-18 --- Summer 1223
 --------------------------
 
-### Prep
-
 ### Notes
 
 - Kill Hofot & take his sword (knight has it)
@@ -810,4 +808,29 @@ Continue the *Broken Covenant*
 
 ### Next time
 
-- Broken Covenant
+- Level 6
+
+
+2022-01-25 --- Summer 1223 (2)
+------------------------------
+
+### Notes
+
+- Summer 1223:
+  - Brennus gets smashed by an undertaker, retreat to surface
+  - Reunite Gemeric with Josephine
+    - She'll disappear when the rock spell wears off
+  - Neste rescues people from the dryad
+  - Return to Covenant
+- Spend rest of summer and autumn recovering
+- Spend winter preparing
+- Spring 1224:
+  - Tiffany recovers her stolen book from Josephine
+  - Gemeric has an arm now (kind of creepy)
+  - Take 3 creo vis from the garden
+  - Fight hrools outside Ierimyra's room: kill one and capture the
+    rest, and she appears!
+
+### Next time
+
+- Level 6
