@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-01-09
+modified: 2022-01-27
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -349,6 +349,21 @@ Ships
 - **Upgrades:**
    - An ion cannon
 
+### The Harrier
+
+<img src="campaign-notes-2021-10-traveller/harrier.png" width="128" style="float: right">
+
+- **Quirks:** (see *The Trojan Reach*, page 12)
+  - Inoperable ventral turret
+  - Damaged holographic hull
+  - Increased maintenance costs
+  - Reduced hull points
+  - Reduced military countermeasures suite
+  - Reduced power plant
+  - Unreliable jump drive
+  - Unreliable manoeuvre drive
+  - Increased repair costs
+
 
 Factions
 --------
@@ -521,6 +536,12 @@ NPCs
   - plus any other skills that fit his noble upbringing and spacer
     background.
 
+### Crew of the Harrier
+
+- **Shayra Ventassen** (good engineer): ran away from home to become a spacer
+- **Opal Twice-Vacced** (good marine): demands his own room
+- **Cerdic** (good marine): covered in prison tattoos
+
 
 Rumours
 -------
@@ -548,47 +569,50 @@ Rumours
     between the Imperium and the Hierate have increased lately, both
     sides are having to send larger escort fleets.
 
-9. ?
-
-10. There's been an unusual number of misjumps in the last few months.
-
-11. **[sindal, treasure]** There are old caches of treasure left over
+9. **[sindal, treasure]** There are old caches of treasure left over
     from the Sindalian Empire scattered on worlds around the Trojan
     Reach.
 
-12. **[treasure]** There's an old space station at The World, falling
+10. **[treasure]** There's an old space station at The World, falling
     apart with age, but it's still got power and the defence turrets
     fire on any ship that gets close.
 
-13. **[aslan, gedeco]** Aslan assassins blew up the class A starport
+11. **[aslan, gedeco]** Aslan assassins blew up the class A starport
     at Vorito and killed the GeDeCo executives, plunging the planet to
     its current low-tech state.
 
-14. **[treasure]** Miners on Argona say there's a giant crystal
+12. **[treasure]** Miners on Argona say there's a giant crystal
     covered in intricate carvings somewhere in the glacier-tunnels,
     but everyone who's seen it has died or gone mad.
 
-15. ?
-
-16. **[sindal, treasure]** 200 years ago, a ship stumbled upon an old
+13. **[sindal, treasure]** 200 years ago, a ship stumbled upon an old
     cache of Sindalian tech while on the run from another three ships.
     With the new equipment, they crushed their pursuers and spent the
     rest of their days pillaging trade routes.  Nobody knows where
     that cache was or what else could be in there. *(Captain Envai's
     Cavern --- Drinaxian Companion)*
 
-17. **[ancients, imperium]** Scientists say that the black hole at
+14. **[ancients, imperium]** Scientists say that the black hole at
     627-301 is clearly artificial, and nobody since the Ancients has
     had the technology to create something like that.
 
-18. **[imperium]** Kidnapping / slaving rings operate on some of the
+15. **[imperium]** Kidnapping / slaving rings operate on some of the
     border worlds.
 
-19. **[politics]** Zhodani scout ships have been seen in the sector in
-    recent months.  Why are they here?  They have no colonies or
-    starports.
+16. **[imperium]** There are secret Imperial refuelling stations in
+    empty hexes.
 
-20. ?
+17. **[piracy]** There's an old woman who runs the starport bar on
+    Falcon who knows more about freighter schedules than anyone else.
+
+18. **[piracy]** Every ship from the Tobia Commerce Guild carries at
+    least six trained marines on board to repel pirates.
+
+19. **[imperium, piracy]** The Imperium's navy can track you through
+    jump space if you jump away within 5000km of one of their ships.
+
+20. **[piracy]** It's good luck to leave behind a cargo container
+    after looting a ship.
 
 ### Known
 
@@ -622,8 +646,11 @@ Rumours
 - **[sindal]** Most of Noricum is uninhabitable, due to the bioweapons
   which felled the empire.
 
-Resources (for use in-session)
-------------------------------
+- There's been an unusual number of misjumps along the Sindalian Main
+  in the last few months.
+
+Resources
+---------
 
 ### Online
 
@@ -633,6 +660,7 @@ Resources (for use in-session)
 - [The Traveller Map](https://travellermap.com/?p=-93.964!25.5!7&options=41983)
 - [The Traveller Wiki](https://wiki.travellerrpg.com/Main_Page)
 - [Random event tables --- a week in jumpspace](https://mytravelleruniverse.com/2017/05/11/random-event-tables-a-week-in-jumpspace/)
+- [Map of adventures in the Trojan Reach](https://www.dropbox.com/s/1oyw6rjl690wpod/trojan_reach_adventures_hirez.png?dl=0)
 
 ### Books
 
@@ -655,6 +683,10 @@ Resources (for use in-session)
   - Traveller Core Rulebook, pages 145 and 146
   - Drinaxian Companion, "Ship Encounters" chapter
   - The Pirates of Drinax, pages 14, 19, and 20
+
+- **Piracy response:**
+  - Drinaxian Companion, pages 70 and 71
+  - Drinaxian Companion, page 74
 
 - **Quick lore:**
   - Traveller Core Rulebook, "The Sindal Subsector" chapter
@@ -1509,3 +1541,120 @@ Talk through Asset & Faction handouts, and then:
 
 - Week 26
 - Pirates of Drinax
+
+
+2022-01-27 --- Week 30, Drinax
+------------------------------
+
+### Intro
+
+- Four-week time skip
+  - Outfit the Harrier
+  - Pay once for scout ship maintenance
+  - The Floating Palace is ludicrously opulent but also overcrowded,
+    where even the humblest maintenance worker has inherited noble
+    titles.
+  - Get some more details of King Oleb's plan:
+    - Part 1 is to create a significant pirate threat in the region:
+      attack shipping, raid starports, blow up fuel depots; but always
+      leave survivors to spread the story.  Keep it secret that Drinax
+      is backing you.
+    - Part 2 is to make the nearby worlds allies and bring them back
+      under the banner of Drinax.
+    - The goal is to make the Imperium and the Hierate decide the most
+      cost-effective way to stop the piracy is to recognise the reborn
+      interstellar Kingdom of Drinax as the protector of trade in the
+      region.
+    - At the end, you're richly rewarded with noble titles and high
+      positions in the new Kingdom, and your crimes forgiven: you
+      never were filthy pirates, you were always licensed privateers
+      carrying out the king's commands!
+    - 10% of your spoils go to the King, and the Harrier is returned
+      at the end.
+  - Get to know some key Drinax figures (introduce these with a short
+    scene each):
+    - King Oleb, the patron
+    - Princess Rao, the mastermind and heir to the throne
+    - Prince Harrick, never the same since his resurrection
+    - Lord Wrax, commander of the Star Guard and *not* in favour of
+      using the Harrier like this
+    - Scholar Voha, master of the Scholar's Tower
+    - Kasiyl of the Ahroay'if, exiled prince of the clan which bombed
+      Drinax
+    - Imperial Consul Thao Poloc, historian of Sindal, and neglected
+      Imperial ambassador
+    - Cleon Hardy, ombudsman of Asim
+    - Rachando, trader
+  - Get to know some key Floating Palace locations:
+    - The Scholar's Tower, best university in the subsector and
+      preservers of knowledge.
+    - Rachando's Bazaar, supplier of anything and everything, for the
+      low price of Drinaxi & Sindalian artefacts.
+
+### Prep
+
+- *First Prize* (Drinaxian Companion)
+  - Introduce players to the reality of piracy (through Margaret
+    Blaine's advice and stories).  Advice to give (ideally roleplay
+    the players figuring this out with hints from Margaret, don't just
+    infodump):
+    - It's expensive to hunt down a pirate.  A pirate who is just a
+      nuisance and steals a bit of cargo now and then, but doesn't
+      destroy ships or kill crew, won't provoke a large response.
+    - System defences tend to be concentrated around the starport and
+      its jump point, whereas other in-system traffic may be barely
+      protected at all.
+    - Smugglers and other pirates are ideal targets: a criminal can't
+      exactly report their ill-gotten gains stolen, and you might even
+      be able to take protection money from them in response for not
+      turning them in.
+    - Always have an escape plan.
+    - Starports generally dislike pirates and dealing with stolen
+      goods, but they'll often look the other way if you don't bring
+      trouble and offer the occasional bribe.  Some ports may even
+      openly defend you if you're on good enough terms.
+    - Crew morale is essential.  Many a captain has been deposed
+      because he didn't divide the spoils fairly, or because he failed
+      one too many times.
+    - Starports share watch lists of suspected pirate vessels, so you
+      should get a legitimate-seeming merchant ship as a fleet tender,
+      or establish a safe base where you can rest and resupply without
+      needing to hide your identity **(GM Note: constructing a base on
+      an appropriate large asteroid or moon costs tens of millions of
+      credits and would take a single person with hand tools over 50
+      years: so you'll need lots of money, materials, workers, and
+      tools.)**
+    - Don't pirate too close to your base, but also don't leave a
+      conspicuous gap on the map were someone to plot your activities.
+    - Indulge your bank balance, not your ego.  People who show off
+      attract unwanted attention.
+  - Practice a small pirate run: ambushing a ship, boarding, taking
+    cargo, fencing it.
+
+- *Honour Among Thieves* (Pirates of Drinax)
+  - Start this towards the end of the session, aiming to stop after
+    gathering information on Torpol and Clarke (give the players some
+    time to pirate by themselves after *First Prize*
+
+### Notes
+
+- **Drinax:**
+  - Hire Shayra Ventassen (good engineer)
+  - Hire Opal Twice-Vacced (good marine)
+  - Hire Cerdic (good marine)
+  - Take on the mission
+- **Marduk:**
+  - Do the job
+  - Steal the legitimate cargo too (no change to PRI)
+- **Exocet:**
+  - Sell the goods
+- **Tanith:**
+  - Hear rumour of Zhodani spies
+- **Acrid:**
+  - Decide to wait for a suitable ship to ambush
+
+### Next time
+
+- Week 32
+- Acrid
+- Shayra, Opal, and Cerdic demand their fair share
