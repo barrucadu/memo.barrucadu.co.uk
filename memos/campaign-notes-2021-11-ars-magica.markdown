@@ -1,12 +1,12 @@
 ---
-title: Ars Magica (2021-11 to ?) notes
+title: Ars Magica (2021-11 to 2022-02) notes
 taxon: general-games
 tags: ars-magica
 published: 2021-11-09
-modified: 2022-01-25
+modified: 2022-02-03
 ---
 
-<aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+<aside class="highlight">This campaign has ended.</aside>
 
 Pitch
 -----
@@ -834,3 +834,20 @@ Continue the *Broken Covenant*
 ### Next time
 
 - Level 6
+
+2022-02-01 --- Spring 1224
+--------------------------
+
+### Notes
+
+- Spring 1224:
+  - Escape from hrools and Ierimyra, but Sir Gilbert, Friar Alban, and
+    a grog die in the process
+  - Encounter Pitsdim:
+    - In his ranting, Pitsdam says "it was all *his fault!*" pointing
+      to the empty space at the council table
+    - Defeat him with the skull
+  - Drop a boulder on the dragon statue and steal its head
+  - Escape with the charred letter
+
+**The End.**
