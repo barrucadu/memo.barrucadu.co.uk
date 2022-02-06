@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-01-27
+modified: 2022-02-06
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -538,9 +538,9 @@ NPCs
 
 ### Crew of the Harrier
 
-- **Shayra Ventassen** (good engineer): ran away from home to become a spacer
-- **Opal Twice-Vacced** (good marine): demands his own room
-- **Cerdic** (good marine): covered in prison tattoos
+- **Shayra Ventassen** (average engineer): ran away from home to become a spacer
+- **Opal Twice-Vacced** (average marine): demands his own room
+- **Cerdic** (average marine): covered in prison tattoos
 
 
 Rumours
@@ -602,17 +602,15 @@ Rumours
 16. **[imperium]** There are secret Imperial refuelling stations in
     empty hexes.
 
-17. **[piracy]** There's an old woman who runs the starport bar on
-    Falcon who knows more about freighter schedules than anyone else.
-
-18. **[piracy]** Every ship from the Tobia Commerce Guild carries at
-    least six trained marines on board to repel pirates.
-
-19. **[imperium, piracy]** The Imperium's navy can track you through
+17. **[imperium, piracy]** The Imperium's navy can track you through
     jump space if you jump away within 5000km of one of their ships.
 
-20. **[piracy]** It's good luck to leave behind a cargo container
+18. **[piracy]** It's good luck to leave behind a cargo container
     after looting a ship.
+
+19. ?
+
+20. ?
 
 ### Known
 
@@ -648,6 +646,17 @@ Rumours
 
 - There's been an unusual number of misjumps along the Sindalian Main
   in the last few months.
+
+- **[politics]** Zhodani scout ships have been seen in the sector in
+   recent months.  Why are they here?  They have no colonies or
+   starports.
+
+- **[piracy]** There's an old woman who runs the starport bar on
+   Falcon who knows more about freighter schedules than anyone else.
+
+- **[piracy]** Every ship from the Tobia Commerce Guild carries at
+   least six trained marines on board to repel pirates.
+
 
 Resources
 ---------
@@ -1655,6 +1664,92 @@ Talk through Asset & Faction handouts, and then:
 
 ### Next time
 
-- Week 32
+- Week 42
 - Acrid
 - Shayra, Opal, and Cerdic demand their fair share
+- Next Drinax visit:
+  - See someone arriving to be treated for the fungal parasite
+  - Encounter Kasiyl of the Ahroay'if
+
+
+2022-02-06 --- Week 42, Acrid
+------------------------------
+
+### State
+
+- Shayra, Opal, and Cerdic need paying.  And will demand their fair
+  share of the profits.
+
+### Prep
+
+- Drinax:
+  - Someone stumbles upon the balcony Kasiyl has claimed as his
+    territory: a small tent and some roasting meat over a fire.
+  - Someone sees a person infected with the fungal parasite being
+    taken to the Scholar's Tower for treatment: it's a common parasite
+    in the Trojan Reach, but people are usually inoculated in
+    childhood.
+
+- *Honour Among Thieves* (Pirates of Drinax)
+  - **Keeper Malos:**
+    - A dour-looking middle-aged man with short white hair and a
+      beard, wearing black robes and on his back a ceremonial
+      freezer-tank.
+    - "Half a million credits is the reward we are willing to pay, if
+      you survive.  It will not last forever, but nor does life."
+    - "Death comes to all, but through our efforts, our people rarely
+      fall into the True Death.  I do not wish those raiders to be so
+      fortunate."
+  - **Provost Falx:**
+    - Early 30s, very friendly and welcoming, always smiling, makes
+      sure his guests are comfortable and have drinks and
+      refreshments.  Tall, bald, wearing bright orange robes and
+      wearing a golden fez with a scale model of the starport on top.
+    - "Would you like drinks?  Or perhaps other refreshments?" he
+      snaps his fingers to call over men with serving trays without
+      waiting for a response.
+    - "It's such a shame your first visit to Torpol was under such
+      unfortunate circumstances, you'll have to come back again some
+      time!"
+
+### Notes
+
+- **Acrid:**
+  - Agree to share profits with crew, persuade them this is instead of
+    a salary (they might leave if profits are too low however).
+  - Jump to Tanith
+- **Tanith:**
+  - Spot an Aslan trader, but it's too far away to catch
+  - Befriend Toni, shift supervisor in Flight Control, a racist who
+    smuggles rare ore
+  - Rumour: Falcon bar
+  - Rumour: Tobia Commerce Guild marines
+  - Jump to Acrid
+- **Acrid:**
+  - Jump to Inurin
+- **Inurin:**
+  - Jump to Falcon
+- **Falcon:**
+  - Go to The Kestrel (the bar)
+  - Learn of 6 small freighters going through Argona:
+    - It's now week 46
+    - Week 50 (+4)
+    - Week 53 (+3)
+    - Week 57 (+4)
+    - Week 61 (+4)
+    - Week 65 (+4)
+    - Week 69 (+4)
+  - Jump to Exe
+- **Exe:**
+  - Jump to Cordan
+- **Cordan:**
+  - Jump to Argona
+- **Argona:**
+  - Attack first ship
+  - Jump to empty hex up
+
+### Next time
+
+- Week 51
+- Maintenance x2 (weeks 46 & 50; next due in week 54)
+- Empty hex between Argona and Umemii
