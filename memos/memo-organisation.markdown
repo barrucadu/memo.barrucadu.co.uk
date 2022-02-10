@@ -1,7 +1,8 @@
 ---
 title: Memo Organisation
 tags: meta
-date: 2020-02-04
+published: 2020-02-04
+modified: 2022-02-10
 important: yes
 ---
 
@@ -36,23 +37,6 @@ Currently there aren't feeds for just the memos in that taxon
 know.
 
 
-Tagging
--------
-
-Memos are also associated with a tags.  A memo can have any number of
-tags, and tags aren't hierarchical.
-
-Unlike the taxa, there isn't really a fixed list of tags: I'll
-introduce a new one when I feel like it, whereas a new taxon only
-comes about when I spot a pattern in the existing memos.  The full
-list of tags can be seen in the sidebar on list pages.
-
-A tag page gives you:
-
-- A link to an atom feed of all the memos tagged to it
-- A list of memos tagged to it
-
-
 Feeds
 -----
 
@@ -60,4 +44,3 @@ There are three sorts of atom feeds:
 
 - The feed for all memos, at `/feed.xml`
 - The feed for all memos in a taxon and its subtaxa, at `/taxon/<name>.xml`
-- The feed for all memos in a tag, at `/tag/<name>.xml`

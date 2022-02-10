@@ -9,8 +9,4 @@
   <url><loc>{{ taxon.permalink }}</loc></url>
   <url><loc>{{ taxon.feed_permalink }}</loc></url>
   {% endfor %}
-  {% for tag in tags %}
-  <url><loc>{{ tag.permalink }}</loc></url>
-  <url><loc>{{ tag.feed_permalink }}</loc></url>
-  {% endfor %}
 </urlset>

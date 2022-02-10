@@ -21,14 +21,6 @@
 {%- endif %}
       <dt class="memo-metadata__label">Taxon</dt>
       <dd class="memo-metadata__value"><a class="link link--notice" href="{{ memo.taxon.link }}">{{ memo.taxon.long_name }}</a></dd>
-{%- if memo.has_tags %}
-      <dt class="memo-metadata__label">Tags</dt>
-      <dd class="memo-metadata__value">
-{%- for tag in memo.tags %}
-        <a class="link link--notice" href="{{ tag.link }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
-{%- endfor %}
-      </dd>
-{%- endif %}
     </dl>
   </section>
 

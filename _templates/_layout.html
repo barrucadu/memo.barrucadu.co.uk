@@ -23,9 +23,6 @@
 
     <link rel="stylesheet preload" href="{{ hashed_links['style.css'] }}" as="style" type="text/css">
 
-    {% if tag is defined %}
-    <link rel="alternate" type="application/atom+xml" title="{{ title }}" href="{{ tag.feed_link }}">
-    {% endif %}
     {% if taxon is defined %}
     <link rel="alternate" type="application/atom+xml" title="{{ title }}" href="{{ taxon.feed_link }}">
     {% endif %}

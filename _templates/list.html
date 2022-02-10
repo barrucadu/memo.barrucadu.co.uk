@@ -5,9 +5,6 @@
 {% block body %}
 <p>
   Atom feed
-  {% if tag is defined %}
-  for memos tagged <a class="link" href="{{ tag.feed_link }}">'{{ tag.name }}'</a> or
-  {% endif %}
   {% if taxon is defined %}
   for <a class="link" href="{{ taxon.feed_link }}">{{ taxon.long_name }}</a> or
   {% endif %}
@@ -23,8 +20,6 @@
   {% else %}
     <p>Back to <a class="link" href="{{ taxon.parent_link }}">{{ taxon.parent_name }}</a>.</p>
   {% endif %}
-{% elif tag is defined %}
-  <p>Back to <a class="link" href="">all memos</a>.</p>
 {% else %}
     <p>Restrict to{% for t in taxa %}{% if t.parent == '' %} <a class="link" href="{{ t.link }}">{{ t.name }}</a>{% endif %}{% endfor %}.</p>
 {% endif %}
