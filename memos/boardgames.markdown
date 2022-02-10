@@ -2,11 +2,12 @@
 title: Boardgames
 taxon: self-possessions
 published: 2017-03-03
-modified: 2020-01-28
+modified: 2022-02-10
 ---
 
 Game                                  1    2    3    4    5    6    7    8    9    10
 -----------------------------------  ---  ---  ---  ---  ---  ---  ---  ---  ---  ----
+6 nimmt!                              1    2    3    4    5    6    7    8    9    10
 Arkham Horror                         1    2    3    4    5    6    7    8
 --- *The Black Goat of the Woods*     1    2    3    4    5    6    7    8
 --- *The King in Yellow*              1    2    3    4    5    6    7    8
