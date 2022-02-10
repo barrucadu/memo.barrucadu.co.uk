@@ -1,0 +1,43 @@
+{% extends "_layout.html" %}
+{% block sidebar %}
+{% include "_list_sidebar.html" %}
+{% endblock %}
+{% block body %}
+<h2 class="heading heading--first">Weeknotes</h2>
+
+<p>A new entry every Sunday.  Subscribe to the <a class="link" href="taxon/weeknotes.xml">Atom feed</a>.</p>
+
+<div class="weeknotes">
+  {% for memo in memos %}
+    {% if memo.title.startswith("Weeknotes: ") %}
+      <div class="weeknote-card">
+        <h3 class="weeknote-card__heading"><a class="link link--no-underline" href="{{ memo.link }}">
+            #{{ memo.link.split("weeknotes-")[1].split(".")[0] }}
+        </a></h3>
+        <time class="weeknote-card__time" datetime="{{ memo.published_iso }}">{{ memo.published_pp }}</time>
+      </div>
+    {% elif memo.title.startswith("Weeknote Special: ") %}
+      <div class="weeknote-card weeknote-card--special">
+        <h3 class="weeknote-card__heading"><a class="link link--no-underline" href="{{ memo.link }}">
+            #{{ memo.link.split("weeknotes-")[1].split(".")[0] }} — End of {{ memo.title.removeprefix("Weeknote Special: ") }} Special
+        </a></h3>
+        <time class="weeknote-card__time" datetime="{{ memo.published_iso }}">{{ memo.published_pp }}</time>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2 class="heading">Everything Else</h2>
+
+<p>Atom feed for <a class="link" href="atom.xml">all memos</a> (includes weeknotes).</p>
+
+<ol class="navigation-list navigation-list--index">
+{% for memo in memos %}
+  {% if memo.title.startswith("Weeknotes: ") %}
+  {% elif memo.title.startswith("Weeknote Special: ") %}
+  {% else %}
+     <li class="navigation-list__item"><a class="link link--no-underline" href="{{ memo.link }}">{{ memo.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ol>
+{% endblock %}

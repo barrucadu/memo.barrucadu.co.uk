@@ -308,7 +308,7 @@ def render_memo_list(memos, tag=None, taxon=None, tags=[], taxa=[]):
     else:
         raise Exception(f"no memos (tag={tag}, taxon={taxon})")
 
-    render(link, "list.html", **metadata)
+    render(link, "index.html" if link == "index.html" else "list.html", **metadata)
 
 
 def render_memo_feed(memos, tag=None, taxon=None, num=10):

@@ -1,0 +1,20 @@
+<section class="sidebar-box">
+  <ul class="navigation-list">
+    <li class="navigation-list__item">
+      <a class="link" href=""{% if taxon is not defined and tag is not defined %} aria-current="page"{% endif %}>All Memos</a>
+      <ul class="navigation-list">
+        {% with parent = "" %}{% include "_taxon_tree.html" %}{% endwith %}
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section class="sidebar-box">
+  <ul class="navigation-list">
+    {% for t in tags %}
+    <li class="navigation-list__item">
+      <a class="link" href="{{ t.link }}"{% if tag is defined and tag == t %} aria-current="page"{% endif %}>{{ t.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

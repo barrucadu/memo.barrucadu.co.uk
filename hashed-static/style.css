@@ -144,6 +144,10 @@ a[aria-current="page"] {
     font-size: 0.8rem;
 }
 
+.navigation-list--index {
+    padding-top: 16px;
+}
+
 .navigation-list__item {
     list-style-type: none;
 }
@@ -175,34 +179,54 @@ a[aria-current="page"] {
     border: none !important;
 }
 
-.markdown > :first-child {
+.weeknotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.weeknote-card {
+    padding: 16px;
+    text-align: center;
+}
+
+.weeknote-card--special {
+    grid-column: 1/-1;
+}
+
+.weeknote-card__heading {
+    font-size: 2rem;
+    display: block;
+    font-weight: normal;
+}
+
+.markdown > :first-child, .heading--first {
     margin-top: 0;
 }
 
-.markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+.markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6, .heading {
     font-family: Staatliches, serif;
     margin-bottom: 16px;
 }
 
-.markdown h2 {
+.markdown h2, h2.heading {
     font-size: 2.5rem;
     margin-top: 32px;
     border-bottom: 5px solid var(--heading-underline);
 }
 
-.markdown h3 {
+.markdown h3, h3.heading {
     font-size: 2rem;
 }
 
-.markdown h4 {
+.markdown h4, h4.heading {
     font-size: 1.5rem;
 }
 
-.markdown h5 {
+.markdown h5, h5.heading {
     font-size: 1.25rem;
 }
 
-.markdown h6 {
+.markdown h6, h6.heading {
     font-size: 1.1rem;
 }
 
