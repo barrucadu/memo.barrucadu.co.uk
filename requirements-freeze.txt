@@ -4,7 +4,7 @@ chardet==4.0.0
 click==8.0.3
 docopt==0.6.2
 feedparser==6.0.8
-graphviz==0.17
+graphviz==0.19.1
 idna==3.2
 Jinja2==3.0.1
 MarkupSafe==2.0.1
