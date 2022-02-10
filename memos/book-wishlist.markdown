@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2021-12-31
+modified: 2022-02-10
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -54,7 +54,6 @@ SF Masterworks
 | `9780575082410` | The Moon Is a Harsh Mistress                    | Robert A. Heinlein                   |
 | `0575072202`    | A Canticle for Leibowitz                        | Walter M. Miller Jr.                 |
 | `9780575090996` | Dhalgren                                        | Samuel R. Delany                     |
-| `9780575082106` | Inverted World                                  | Christopher Priest                   |
 | `9780575094994` | The Female Man                                  | Joanna Russ                          |
 | `9780575095014` | Arslan                                          | M. J. Engh                           |
 | `9780575099418` | The Prestige                                    | Christopher Priest                   |
@@ -95,7 +94,6 @@ SF Masterworks
 | `9781473203242` | Her Smoke Rose Up Forever                       | James Tiptree Jr                     |
 | `9781473208292` | Hard to Be a God                                | Arkady and Boris Strugatsky          |
 | `9781473205765` | The Wind's Twelve Quarters and The Compass Rose | Ursula K. Le Guin                    |
-| `9781473212527` | Dying of the Light                              | George R. R. Martin                  |
 | `9781473211957` | A Fire Upon the Deep                            | Vernor Vinge                         |
 | `9781473212534` | Norstrilia                                      | Cordwainer Smith                     |
 | `9781473202214` | Monday Begins on Saturday                       | Arkady and Boris Strugatsky          |
@@ -118,7 +116,6 @@ SF Masterworks
 | `9781473227569` | Native Tongue                                   | Suzette Haden Elgin                  |
 | `9781473228283` | The Snail on the Slope                          | Arkady and Boris Strugatsky          |
 | `9781473228306` | The Shockwave Rider                             | John Brunner                         |
-| `9781473229228` | Lord Valentine's Castle                         | Robert Silverberg                    |
 | `9781473229501` | River of Gods                                   | Ian McDonald                         |
 | `9781473229235` | A Time of Changes                               | Robert Silverberg                    |
 | `9781473230118` | The Andromeda Anthology                         | Fred Hoyle and John Elliot           |
