@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-02-06
+modified: 2022-02-20
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -585,28 +585,23 @@ Rumours
     covered in intricate carvings somewhere in the glacier-tunnels,
     but everyone who's seen it has died or gone mad.
 
-13. **[sindal, treasure]** 200 years ago, a ship stumbled upon an old
-    cache of Sindalian tech while on the run from another three ships.
-    With the new equipment, they crushed their pursuers and spent the
-    rest of their days pillaging trade routes.  Nobody knows where
-    that cache was or what else could be in there. *(Captain Envai's
-    Cavern --- Drinaxian Companion)*
-
-14. **[ancients, imperium]** Scientists say that the black hole at
+13. **[ancients, imperium]** Scientists say that the black hole at
     627-301 is clearly artificial, and nobody since the Ancients has
     had the technology to create something like that.
 
-15. **[imperium]** Kidnapping / slaving rings operate on some of the
+14. **[imperium]** Kidnapping / slaving rings operate on some of the
     border worlds.
 
-16. **[imperium]** There are secret Imperial refuelling stations in
+15. **[imperium]** There are secret Imperial refuelling stations in
     empty hexes.
 
-17. **[imperium, piracy]** The Imperium's navy can track you through
+16. **[imperium, piracy]** The Imperium's navy can track you through
     jump space if you jump away within 5000km of one of their ships.
 
-18. **[piracy]** It's good luck to leave behind a cargo container
+17. **[piracy]** It's good luck to leave behind a cargo container
     after looting a ship.
+
+18. ?
 
 19. ?
 
@@ -656,6 +651,13 @@ Rumours
 
 - **[piracy]** Every ship from the Tobia Commerce Guild carries at
    least six trained marines on board to repel pirates.
+
+- **[sindal, treasure]** 200 years ago, a ship stumbled upon an old
+   cache of Sindalian tech while on the run from another three ships.
+   With the new equipment, they crushed their pursuers and spent the
+   rest of their days pillaging trade routes.  Nobody knows where that
+   cache was or what else could be in there. *(Captain Envai's Cavern
+   --- Drinaxian Companion)*
 
 
 Resources
@@ -1753,3 +1755,175 @@ Talk through Asset & Faction handouts, and then:
 - Week 51
 - Maintenance x2 (weeks 46 & 50; next due in week 54)
 - Empty hex between Argona and Umemii
+
+
+2022-02-20 --- Week 51, [Empty Hex]
+-----------------------------------
+
+### State
+
+- 2 months behind on maintenance (next due in week 54)
+
+### Prep
+
+- **Admin:**
+  - **Time:**
+    - I've been tracking time when writing up my session notes, but am
+      going to start tracking time in sessions too, because:
+      - You're 2 months behind on your ship's maintenance.  Being
+        behind on maintenance gives a penalty to jumping, so I don't
+        want to handwave that away by saying "oh, the characters did
+        maintenance at some point"
+      - You often dock at a starport, but then fly out to a gas giant
+        to refuel.  Flying from the mainworld to a gas giant takes a
+        couple of days, and also your ship's fuel processors can only
+        do 40 tons/day, so it'll take just over a day to fill your
+        tanks with unrefined fuel and then process it.  Which you
+        might want to not do if you're in a hurry.
+      - Also when at a starport, you generally do things from the
+        moment you arrive to the moment you leave.  When do you sleep?
+    - I'm not going to track time at the level of hours and minutes,
+      but will do at the level of days and weeks.
+    - It's now the start of week 51, you're in an empty hex (so, a
+      week away from anywhere) with enough fuel for a J-1 in your
+      tanks, you're two months behind on maintenance so you get a -2
+      penalty to your Engineer (J-Drive) checks, and the next
+      maintenance is due in 3 weeks time.
+  - **Jumps:**
+    - You can jump into a system anywhere, it doesn't have to be at
+      the jump limit of the mainworld.
+
+- **Freighters:**
+  - Retcon: they're separated by days, not weeks (next arriving in
+    week 53 still)
+  - **Week 53 Wednesday:** Type-A Free Trader (HG120); Out of Control; MOR 8; Very Long
+    - 70 tons pharmaceuticals
+    - 20 tons common manufactured goods
+  - **Week 53 Sunday:** Aoa'iw-class Light Trader (SR72); Duel of Honour; MOR 10; Very Long
+    - Aslan Captain: 30 hits, STR +2 DEX +1; Crescent Blade (damage 2D+3; skill 1); Stunner (damage 3d6; skill 1); Aua-leather (armour +1)
+    - 65 tons spices
+    - 20 tons textiles
+  - **Week 54 Thursday:** Type-A2 Far Trader (HG118); Hot Cargo; Solar Flares; MOR 7; Very Long
+    - 64 tons precious metals
+  - **Week 55 Monday:** Empress Marava-class Far Trader (HG116); Berserker; MOR 8; Distant
+    - Berserker: 30 hits, STR +1 DEX +1 END +1; Cryojet (damage 4d6 (freezes vacc suited targets for 1d6 rounds instead), skill 1); Battle Dress (armour +22, STR +4, DEX +4)
+    - 5 tons radioactives (in a hidden compartment)
+    - 5 tons luxury goods
+    - 45 tons crystals and gems
+  - **Week 55 Friday:** Type-A2 Far Trader (HG118); Noble; MOR 8; Very Long
+    - Noble: Lord Penford Ffarnham Blinderby of Pichot; SOC +2; convinced this is all entertainment organised by the captain
+    - 32 tons textiles
+    - 20 tons common electronics
+    - 10 tons common ore
+
+- **Drinax:**
+  - Someone stumbles upon the balcony Kasiyl has claimed as his
+    territory: a small tent and some roasting meat over a fire.
+  - Someone sees a person infected with the fungal parasite being
+    taken to the Scholar's Tower for treatment: it's a common parasite
+    in the Trojan Reach, but people are usually inoculated in
+    childhood.
+
+- **Honour Among Thieves** (Pirates of Drinax)
+  - Sal Dancet will come to Argona to find the Travellers in week 53
+    with a (now 18-week-old) message from King Oleb commanding them to
+    solve this issue *before* anyone else, and to present the captured
+    pirates as "gifts from ME".
+  - **Keeper Malos:**
+    - A dour-looking middle-aged man with short white hair and a
+      beard, wearing black robes and on his back a ceremonial
+      freezer-tank.
+    - "Half a million credits is the reward we are willing to pay, if
+      you survive.  It will not last forever, but nor does life."
+    - "Death comes to all, but through our efforts, our people rarely
+      fall into the True Death.  I do not wish those raiders to be so
+      fortunate."
+    - "Others once stood where you stand now.  None have returned."
+  - **Provost Falx:**
+    - Early 30s, very friendly and welcoming, always smiling, makes
+      sure his guests are comfortable and have drinks and
+      refreshments.  Tall, bald, wearing bright orange robes and
+      wearing a golden fez with a scale model of the starport on top.
+    - "Would you like drinks?  Or perhaps other refreshments?" he
+      snaps his fingers to call over men with serving trays without
+      waiting for a response.
+    - "It's such a shame your first visit to Torpol was under such
+      unfortunate circumstances, you'll have to come back again some
+      time!"
+  - Due to the time since the attacks, there are only recordings.
+    Physical signs have been removed or repaired.
+  - The Sarcomond is expected to return to Torpol in the next few
+    weeks.  Another crew are waiting to talk to him about the attack.
+  - A Type-J Seeker Mining Ship (HG112) with pop-up double Pulse Laser
+    arrives at the Borite station after the players: pirate hunters.
+
+### Notes
+
+- Week 51: Empty Hex
+  - **Monday:**
+    - Jump to Cordan
+
+- Week 52: Cordan
+  - **Monday:**
+    - Refuel
+    - Maintenance
+  - **Tuesday:**
+    - Jump to Argona
+
+- Week 53: Argona
+  - **Tuesday:**
+    - Refuel
+  - **Sunday:**
+    - Pirate spices from Aslan
+    - Get message from Sol Dancet
+    - Jump to Inurin
+
+- Week 54: Inurin
+  - **Sunday:**
+    - Refuel
+    - Jump to Tech World
+
+- Week 55: Tech World
+  - **Monday:**
+    - Refuel
+    - Jump to Hilfer
+
+- Week 56: Hilfer
+  - **Monday:**
+    - Refuel
+    - Jump to Drinax
+
+- Week 57: Drinax
+  - **Tuesday:**
+    - Sell spices to Rochando (Cr5000/ton)
+    - Maintenance
+    - See fungus man (a minor noble from Fist)
+  - **Wednesday:**
+    - Rumour: Captain Envai's Cavern
+    - Discover Kasiyl's balcony
+    - Jump to Torpol
+
+- Week 58: Torpol
+  - **Wednesday:**
+    - See news bulletin saying the Council of Provosts approved an
+      increased planetary defence budget
+    - Talk to Provost Falk
+    - Learn Captain Vlaw will be back in a week or two
+    - Give crew shore leave
+
+- Week 59: Torpol
+  - **Wednesday:**
+    - Talk to Captain Vlaw
+    - Decode intel
+    - Jump to Borite
+
+- Week 60: Borite
+  - **Wednesday:**
+    - Find distress signal at ancient space station
+
+### Next time
+
+- Honour Among Thieves
+  - Other pirate hunter ship arrives a day after the Travellers
+- Week 60, Wednesday, Borite
+- Maintenance due in week 61
