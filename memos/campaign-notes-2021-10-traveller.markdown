@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-02-20
+modified: 2022-03-03
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -538,9 +538,57 @@ NPCs
 
 ### Crew of the Harrier
 
+All crew members save a portion of their income, fritter away 50% of
+the rest, and the remainder is available for equipment.
+
+A new average crewmember comes with:
+
+- A TL10 Vacc Suit (+8, 60rad) or Emergency Softsuit (+0, 0rad)
+- Basic weapon (two for marines)
+- Basic tools of their trade (not listed here)
+
+If a crewmember needs an item and it's likely for them to have it and
+they can afford it, add it to their list and deduct the money.  If
+it's reasonable but unlikely for them to have it, roll Luck.  If it's
+unreasonable for them to have it, they don't have it.
+
+If a crewmember needs a skill and it's reasonable but unlikely for
+them to have it, roll Luck for them to have it at DM+0.
+
 - **Shayra Ventassen** (average engineer): ran away from home to become a spacer
+  - Hits: 21 (unconscious at 7)
+  - Money:
+    - Shares:  1
+    - Salary:  Cr 0
+    - Saves:   10%
+    - Balance: Cr 33,750
+  - Gear:
+    - Emergency Softsuit
+    - Stunner (TL10, 2D+3, Range 5, Stun / Zero-G)
+
 - **Opal Twice-Vacced** (average marine): demands his own room
+  - Hits: 21 (unconscious at 7)
+  - Money:
+    - Shares:  1
+    - Salary:  Cr 0
+    - Saves:   25%
+    - Balance: Cr 28,125
+  - Gear:
+    - Vacc Suit (TL10)
+    - Cutlass (3D)
+    - Laser Pistol (TL9, 3D, Range 20, Zero-G)
+
 - **Cerdic** (average marine): covered in prison tattoos
+  - Hits: 21 (unconscious at 7)
+  - Money:
+    - Shares:  1
+    - Salary:  Cr 0
+    - Saves:   80%
+    - Balance: Cr 7,500
+  - Gear:
+    - Vacc Suit (TL10)
+    - Knife (1D)
+    - Laser Rifle (TL9, 5D, Zero-G)
 
 
 Rumours
@@ -1927,3 +1975,47 @@ Talk through Asset & Faction handouts, and then:
   - Other pirate hunter ship arrives a day after the Travellers
 - Week 60, Wednesday, Borite
 - Maintenance due in week 61
+
+
+2022-03-03 --- Week 60, Borite
+------------------------------
+
+### Prep
+
+- **Honour Among Thieves** (Pirates of Drinax)
+  - A Type-J Seeker Mining Ship (HG112) with pop-up double Pulse Laser
+    arrives at the Borite station after the players: pirate hunters.
+  - Emphasise changes in gravity, radiation, lack of visibility, radio
+    static, etc.
+
+### Notes
+
+- Week 60: Borite
+  - **Wednesday:**
+    - Get Krrsh
+      - He shares intel
+      - Joins crew (but needs to negotiate payment)
+      - Can get 5% surcharge on Theev Credits, until his old crew next
+        visit Theev and trash his reputation
+    - Jump to the refuelling point
+
+- Week 61: [Refuelling]
+  - **Wednesday:**
+    - Refuel
+    - Wait for it to be processed
+  - **Thursday:**
+    - Jump to Theev
+
+- Week 62: Theev
+  - **Thursday:**
+    - Maintenance
+    - Talk to Lowen, a Vargr and contact of Krrsh:
+      - Ferrik is not on Theev, he'd be killed if he set foot here
+      - Miria is on Theev and has been talking to Petyr and Hroal
+      - She's hiding somewhere and communicating through messengers
+
+### Next time
+
+- Honour Among Thieves
+- Week 62, Thursday, Theev
+- Maintenance due in week 65
