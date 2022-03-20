@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-03-03
+modified: 2022-03-20
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -2019,3 +2019,50 @@ Talk through Asset & Faction handouts, and then:
 - Honour Among Thieves
 - Week 62, Thursday, Theev
 - Maintenance due in week 65
+
+
+2022-03-20 --- Week 62, Theev
+------------------------------
+
+### Notes
+
+- Week 62: Theev
+  - **Thursday:**
+    - Fence goods
+    - Send a message to Admiral Darokyn
+  - **Friday:**
+    - Visit Drax the Knifer
+      - Learn about Petyr (psychopathic Aslan hater)
+      - Learn about Hroal (Aslan)
+      - Get Vii Lon
+- Week 63: Theev
+  - **Wednesday:**
+    - See Admiral Darokyn
+      - Dinner at the restaurant
+      - Fail to impress him
+  - **Thursday:**
+    - Visit Hroal
+      - Offer him land on Asim: he'll help
+      - Tells the Travellers to wait a few weeks
+- Week 64: Theev
+  - **Sunday:**
+    - Finish gathering info about Captain Envai's Cavern: it's
+      somewhere in the outer asteroid belt of the Thebus system
+- Week 65: Theev
+- Week 66: Vume
+- Week 67: Realgar
+  - **Wednesday:**
+    - Maintenance
+    - Vii departs
+- Week 68: Vume
+- Week 69: Theev
+  - **Friday:**
+    - Hroal hands over Ferrik Redthane and an Aslan female who will
+      pick out an appropriate patch of land on Asim
+
+### Next time
+
+- Captain Envai's Cavern
+- Honour Among Thieves
+- Week 69, Friday, Theev
+- Maintenance due in week 71
