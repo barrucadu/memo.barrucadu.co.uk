@@ -3,12 +3,13 @@
 """build
 
 Usage:
-  build [--drafts] [--out=<dir>] [--root=<url>]
+  build [--drafts] [--cache=<dir>] [--out=<dir>] [--root=<url>]
   build (-h | --help)
 
 Options:
   -h --help       Show this screen.
   --drafts        Include draft memos as well.
+  --cache=<dir>   Directory to cache generated HTML in [default: _cache]
   --out=<dir>     Directory to generate site in [default: _site]
   --root=<url>    Root of the website [default: https://memo.barrucadu.co.uk/]
 
@@ -30,6 +31,7 @@ args = docopt(__doc__)
 OUT_DIR = args["--out"]
 BASE_HREF = args["--root"]
 DRAFT_MODE = args["--drafts"]
+CACHE_DIR = args["--cache"]
 
 JINJA2_ENV = jinja2.Environment(
     autoescape=jinja2.select_autoescape(["html", "xml"]),
@@ -99,23 +101,33 @@ def title_for(taxon=None):
 def pandocise_memo(fname, text):
     """Render a memo's content using pandoc."""
 
-    _, fmt = os.path.splitext(fname)
-    fmt = fmt[1:]
-    if fmt == "lhs":
-        fmt = "markdown+literate_haskell"
+    text_hash = hashlib.sha256()
+    text_hash.update(text.encode())
+    cache_file = os.path.join(CACHE_DIR, f"sha256-{text_hash.hexdigest()}.html")
+    try:
+        rendered = open(cache_file).read()
+    except OSError:
+        _, fmt = os.path.splitext(fname)
+        fmt = fmt[1:]
+        if fmt == "lhs":
+            fmt = "markdown+literate_haskell"
 
-    rendered = pypandoc.convert_text(
-        text,
-        "html",
-        format=fmt,
-        filters=[
-            "pandoc-filter-sidenote",
-            "pandoc-filter-transform-code",
-        ],
-        extra_args=[
-            "--no-highlight",
-        ],
-    )
+        rendered = pypandoc.convert_text(
+            text,
+            "html",
+            format=fmt,
+            filters=[
+                "pandoc-filter-sidenote",
+                "pandoc-filter-transform-code",
+            ],
+            extra_args=[
+                "--no-highlight",
+            ],
+        )
+        try:
+            open(cache_file, "w").write(rendered)
+        except OSError as err:
+            print(f"could not cache generated HTML for {fname}: {err.strerror}")
 
     toc = []
     for h2 in BeautifulSoup(rendered, features="html.parser").find_all("h2"):
