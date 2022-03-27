@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-02-10
+modified: 2022-03-27
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -145,7 +145,37 @@ Book Series
 
 | Series                                        | ISBN            | Title                                                             |
 |----------------------------------------------:+----------------:+-------------------------------------------------------------------|
-| [Overlord][]                                  |                 | Volume 14: The Witch of the Falling Kingdom                       |
+| [Delicious in Dungeon][]                      | `9780316412797` | Volume 3                                                          |
+|                                               | `9780316446402` | Volume 4                                                          |
+|                                               | `9781975326449` | Volume 5                                                          |
+|                                               | `9781975328054` | Volume 6                                                          |
+|                                               | `9781975358587` | Volume 7                                                          |
+|                                               | `9781975399405` | Volume 8                                                          |
+|                                               | `9781975320164` | Volume 9                                                          |
+|                                               | `9781975335588` | Volume 10                                                         |
+|                                               | `9781975346720` | Volume 11                                                         |
+| [Overlord][]                                  | `9781975323806` | Volume 14: The Witch of the Falling Kingdom                       |
+|                                               |                 | Volume 15: The Half Wood Elf God-kin (Part 1)                     |
+|                                               |                 | Volume 16: The Half Wood Elf God-kin (Part 2)                     |
+| [So I'm a Spider, So What?][]                 | `9781975341756` | Volume 14                                                         |
+|                                               |                 | Volume 15                                                         |
+|                                               |                 | Volume 16                                                         |
+| [That Time I Got Reincarnated As A Slime][]   | `9781975301149` | Volume 4                                                          |
+|                                               | `9781975301163` | Volume 5                                                          |
+|                                               | `9781975301187` | Volume 6                                                          |
+|                                               | `9781975301200` | Volume 7                                                          |
+|                                               | `9781975312992` | Volume 8                                                          |
+|                                               | `9781975314385` | Volume 9                                                          |
+|                                               | `9781975314392` | Volume 10                                                          |
+|                                               | `9781975314415` | Volume 11                                                          |
+|                                               | `9781975314439` | Volume 12                                                          |
+|                                               | `9781975314453` | Volume 13                                                          |
+|                                               | `9781975314477` | Volume 14                                                          |
+|                                               |                 | Volume 15                                                          |
+|                                               |                 | Volume 16                                                          |
+|                                               |                 | Volume 17                                                          |
+|                                               |                 | Volume 17                                                          |
+|                                               |                 | Volume 19                                                          |
 | The Collected Fiction of William Hope Hodgson | `9781597809214` | Volume 2: The House on the Borderland and Other Mysterious Places |
 |                                               | `9781597809412` | Volume 3: The Ghost Pirates and Other Revenants of the Sea        |
 |                                               | `9781597809597` | Volume 4: The Night Land and Other Perilous Romances              |
@@ -154,12 +184,14 @@ Book Series
 |                                               | `9781786364449` | Volume 2: The Last Heretic                                        |
 | The Kharkanas Trilogy                         |                 | Walk in Shadow                                                    |
 
+[Delicious in Dungeon]: https://en.wikipedia.org/wiki/Delicious_in_Dungeon
 [Overlord]: https://en.wikipedia.org/wiki/Overlord_(novel_series)
+[So I'm a Spider, So What?]: https://en.wikipedia.org/wiki/So_I%27m_a_Spider,_So_What%3F
+[That Time I Got Reincarnated as a Slime]: https://en.wikipedia.org/wiki/List_of_That_Time_I_Got_Reincarnated_as_a_Slime_volumes
 
 ### Candidate series
 
 - [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss)
-- [That Time I Got Reincarnated as a Slime](https://en.wikipedia.org/wiki/List_of_That_Time_I_Got_Reincarnated_as_a_Slime_volumes)
 - [Mars Trilogy](https://en.wikipedia.org/wiki/Mars_trilogy)
 - [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
 - [Path to Ascendancy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Path_to_Ascendancy)
