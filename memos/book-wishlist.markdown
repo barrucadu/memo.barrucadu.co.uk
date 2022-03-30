@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-03-27
+modified: 2022-03-30
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -218,27 +218,42 @@ I might have to give up on these and buy a different printing:
 Roleplaying Games
 -----------------
 
-| System    | Type                   | Title                                         |
-|----------:|-----------------------:|-----------------------------------------------|
-| RuneQuest | Sourcebooks            | The Guide to Glorantha                        |
-| Traveller | Sourcebooks            | The Great Rift                                |
-|           |                        | Behind the Claw                               |
-| OSR       | Sourcebooks            | Yoon-Suin                                     |
-|           |                        | Magical Industrial Revolution                 |
-|           |                        | Trilemma Adventures Compendium Volume I       |
-|           |                        | Lorn Song of the Bachelor                     |
-|           |                        |                                               |
+| System          | Title                                   |
+|----------------:|-----------------------------------------|
+| Call of Cthulhu | [Cults of Cthulhu][]                    |
+|                 | [Keeper Tips][]                         |
+| RuneQuest       | [The Glorantha Sourcebook][]            |
+|                 | [The Guide to Glorantha][]              |
+| Traveller       | [Mercenary Box Set][]                   |
+|                 | [The Third Imperium][]                  |
+|                 | [The Great Rift][]                      |
+|                 | [Behind the Claw][]                     |
+| OSR             | [The Dark of Hot Springs Island][]      |
+|                 | [A Field Guide to Hot Springs Island][] |
+|                 | [Fungi of the Far Realms][]             |
+
+[Cults of Cthulhu]: https://www.chaosium.com/blogcults-of-cthulhu-is-coming-this-halloween/
+[Keeper Tips]: https://www.chaosium.com/keeper-tips/
+
+[The Glorantha Sourcebook]: https://www.chaosium.com/the-glorantha-sourcebook-hardcover/
+[The Guide to Glorantha]: https://www.chaosium.com/the-guide-to-glorantha-slipcase-set/
+
+[Mercenary Box Set]: https://www.mongoosepublishing.com/products/mercenary-box-set-1
+[The Third Imperium]: https://www.mongoosepublishing.com/products/the-third-imperium-2
+[The Great Rift]: https://www.mongoosepublishing.com/products/the-great-rift
+[Behind the Claw]: https://www.mongoosepublishing.com/products/behind-the-claw-2
+
+[The Dark of Hot Springs Island]: https://shop.swordfishislands.com/the-dark-of-hot-springs-island/
+[A Field Guide to Hot Springs Island]: https://shop.swordfishislands.com/a-field-guide-to-hot-springs-island/
+[Fungi of the Far Realms]: https://www.melsonia.com/fungi-of-the-far-realms-69-p.asp
 
 ### Miscellaneous
 
-| ISBN            | Title                                                          | Author                   |
-|----------------:+----------------------------------------------------------------+--------------------------|
-| `9781556346293` | Robin's Laws of Good Game Mastering                            | Robin D. Laws            |
-| `9780981884042` | Beating the Story                                              | Robin D. Laws            |
-| `9781138632059` | The Art of Game Design: A Book of Lenses                       | Jesse Schell             |
-| `9780134667607` | Advanced Game Design: A Systems Approach                       | Michael Sellers          |
-| `9781982171322` | MOAR! Monsters Know What They're Doing                         | Keith Ammann             |
-| `9781907222740` | Appendix N: The Eldritch Roots of Dungeons and Dragons         | Peter Bebergal           |
+| ISBN            | Title                                  | Author        |
+|----------------:+----------------------------------------+---------------|
+| `9781556346293` | Robin's Laws of Good Game Mastering    | Robin D. Laws |
+| `9780981884042` | Beating the Story                      | Robin D. Laws |
+| `9781982171322` | MOAR! Monsters Know What They're Doing | Keith Ammann  |
 
 
 Politics, Philosophy, Economics, + History
