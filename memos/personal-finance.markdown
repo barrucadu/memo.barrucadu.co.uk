@@ -3,7 +3,7 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2021-12-28
+modified: 2022-03-31
 ---
 
 I care a lot about my finances, and I put a lot of effort into
@@ -63,7 +63,7 @@ My personal finance principles are:
 
 3. **Budget everything monthly.**
 
-   Like most people in the UK, I get paid once a month.  So It's easy
+   Like most people in the UK, I get paid once a month.  So it's easy
    to budget for monthly expenses like rent or utilities. There's a
    consistent amount spent every month, so I can just allocate that
    much of my monthly income to pay for it.  Somewhat harder are the
@@ -84,7 +84,7 @@ My personal finance principles are:
    that by getting a bunch of takeaways and have to make up the
    difference elsewhere: much better to budget the *actual* amount,
    and then work to reduce how many takeaways I get until I'm
-   consistently spending under £200.
+   consistently spending under my target.
 
    The purpose of tracking everything and of making budgets is so that
    I can make predictions about the future.  But those predictions are
@@ -145,63 +145,153 @@ other, more directly useful, metrics:
   taken before income hits my bank account: like income tax or my
   student loan), divided by the number of days in the period.
 
-   ```raw
-   \[
-   \frac{\text{total expenses over period} - \text{paycheque deductions over period}}{\text{days in period}}
-   \]
-   ```
+  As a [Prometheus][] time series, this is:
 
-   If you don't track paycheque deductions, or don't count those in
-   your expenses, then this is just total expenses divided by number
-   of days.
+  ```
+  (
+    sum(hledger_balance{account="expenses"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    - on(target_currency)
+    sum(hledger_balance{account="expenses"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    - on(target_currency)
+    sum(hledger_balance{account="expenses:gross"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    + on(target_currency)
+    sum(hledger_balance{account="expenses:gross"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+  ) / $agg_window
+  ```
+
+   Let's break that down:
+
+   - `hledger_balances` is a time series of end-of-day account
+     balances.  It has labels `account` and `currency`.
+
+   - `hledger_fx_rate` is a time series of daily currency exchange
+     rates, which [I collect at 9PM UK time][].  It has labels
+     `currency` (so it can be combined easily with `hledger_balances`)
+     and `target_currency`.
+
+   - `{account="expenses"}` is the parent account of all other expense
+     accounts, so it contains their balances too.  All expense
+     accounts are strictly positive: money moves *into* `expenses`
+     from other accounts.
+
+   - `{account="expenses:gross"}` is the account I use to track
+     deductions from my gross pay.
+
+   - `$currency` is a Grafana dashboard variable, defining the
+     currency I want to see the result in, usually that's `GBP`.[^fx]
+
+   - `$agg_window` is another dashboard variable, defining the number
+     of days to look at to work out that average, usually 365.
+
+   So this is saying "take the expenses (excluding pay deductions) now
+   and `$agg_window` days ago, subtract them to work out how much I've
+   spent over that entire time, and divide by `$agg_window` to work
+   out the average daily spend."
+
+   [^fx]: You might be wondering why I do the currency conversion one
+    at a time for each account, rather than once at the end.  This is
+    because `FOO +on(FIELD) BAR` (or any binary operator) will discard
+    those entries of `FOO` for which there isn't a corresponding entry
+    of `BAR`, it won't assume `BAR` to be 0 in those cases.  So this
+    means that binary operators are *lossy* in PromQL!  So to get
+    around that issue, I convert all the series to the same currency
+    before doing arithmetic on them.
 
 - **Average daily income:**
 
   This is the total income over the period (excluding gifts), divided
   by the number of days in the period.
 
-   ```raw
-   \[
-   \frac{\text{total income over period} - \text{gifted income over period}}{\text{days in period}}
-   \]
-   ```
+  The Prometheus expression is pretty similar to the average daily
+  expense:
+
+  ```
+  (
+    sum(hledger_balance{account="income"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    - on(target_currency)
+    sum(hledger_balance{account="income"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    - on(target_currency)
+    sum(hledger_balance{account="income:gift"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    + on(target_currency)
+    sum(hledger_balance{account="income:gift"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+  ) / $agg_window * -1
+  ```
+
+  The `* -1` at the end is because all the `income` accounts are
+  strictly negative (money moves *out of* `income` into other
+  accounts).
+
+[Prometheus]: https://prometheus.io/
+[I collect at 9PM UK time]: https://github.com/barrucadu/nixfiles/blob/ba59fce93c1bf615fde1a7556d39b5faebe29914/hosts/nyarlathotep/configuration.nix#L403-L423
 
 Now we can compute some more interesting metrics.
 
 - **Net worth:**
 
-  If you paid off all your debts right now, how much money would you
-  have left?
+  If I paid off all my debts right now, how much money would I have
+  left?
 
-  ```raw
-  \[
-  \text{total assets} - \text{total liabilities}
-  \]
   ```
+  sum(hledger_balance{account="assets"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+  + on(target_currency)
+  sum(hledger_balance{account="liabilities"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+  ```
+
+  For the same reason as `income`, `liabilities` here is strictly
+  negative.
 
   You could exclude things that aren't "real" debts here, like a
   student loan, if you wanted.  But I include it.
 
 - **Savings rate:**
 
-  This is a little tricky to calculate.  For every payment period
-  (monthly for me), divide the amount of money saved by the net
-  income.  This tells you your savings rate for each payment period.
-  Then average all those values.
+  For every calendar month (since I get paid monthly) divide the saved
+  income by the net income, then take the average of all those values.
 
-  ```raw
-  \[
-  \left(
-      \sum^{\text{period}}
-      \frac{\text{net income over period} - \text{total expenses over period} + \text{paycheque deductions over period}}{\text{net income over period}}
-  \right) \div \text{number of periods}
-  \]
+  ```
+  # saved income
+  (
+    sum(hledger_monthly_decrease{account="income"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    - on(target_currency)
+    sum(hledger_monthly_increase{account="expenses"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+  )
+
+  / on(target_currency)
+
+  # net income
+  (
+    sum(hledger_monthly_decrease{account="income"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    - on(target_currency)
+    sum(hledger_monthly_increase{account="expenses:gross"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+  )
   ```
 
-  Paycheque deductions are *added* here because I don't want income
-  tax (or similar things) to reduce my savings rate: I can only save
-  what I actually receive.  Again, if you don't track those, or don't
-  track them as an expense, you can ignore that term here.
+  There's no explicit averaging in this expression because Grafana
+  does that for me.
+
+  This uses a couple of new metrics:
+
+  - `hledger_monthly_decrease` is the amount of money moved out of the
+    account (as a non-negative number) in that calendar month.
+
+  - `hledger_monthly_increase` is the amount of money moved in to the
+    account (as a non-negative number) in that calendar month.
+
+  Unfortunately I can't just use `hledger_balances` for this because
+  Prometheus doesn't allow aggregating data by calendar month, and
+  months are not all the same length.  But even if it could, I think
+  this approach would still end up being more straightforward.  Before
+  migrating to Prometheus, I used [a significantly more complicated
+  InfluxDB-based dashboard][], which did attempt to work out savings
+  rate from the balances.  It was pretty complex, and also would
+  wrongly count receiving a loan (a liability) as income.
+
+  So this is saying that my saved income is the amount `income` has
+  gone down by (remember: money moves *from* `income` into other
+  accounts) minus the amount `expenses` has gone up by.  Whereas my
+  net income is the amount `income` has gone down by (i.e., gross
+  income) minus the amount `expenses:gross` (pay deductions) has gone
+  up by.
 
 - **Runway:**
 
@@ -214,26 +304,61 @@ Now we can compute some more interesting metrics.
   This comes in two forms: a "short runway" and a "long runway".
 
   The **short runway** only considers cash (whether physical cash or a
-  bank account) and an emergency fund (if you have one of those):
+  bank account) and an emergency fund (if you have one of those)[^ef]:
 
-  ```raw
-  \[
-  \frac{\text{cash} + \text{emergency fund}}{\text{average daily expense}}
-  \]
+  ```
+  # total available cash and emergency fund
+  (
+    sum(hledger_balance{account="assets:cash"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    + on (target_currency)
+    sum(hledger_balance{account="assets:investments:nsi:premium_bonds:emergency"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+  )
+
+  / on (target_currency)
+
+  # average daily expense
+  (
+    (
+      sum(hledger_balance{account="expenses"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="expenses"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="expenses:gross"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      + on(target_currency)
+      sum(hledger_balance{account="expenses:gross"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    ) / $agg_window
+  )
   ```
 
   The **long runway** considers all assets, including investments, as
   if they were sold today:
 
-  ```raw
-  \[
-  \frac{\text{all assets at today's market value}}{\text{average daily expense}}
-  \]
+  ```
+  sum(hledger_balance{account="assets"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+  / on (target_currency)
+
+  # average daily expense
+  (
+    (
+      sum(hledger_balance{account="expenses"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="expenses"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="expenses:gross"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      + on(target_currency)
+      sum(hledger_balance{account="expenses:gross"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    ) / $agg_window
+  )
   ```
 
   In practice, if I did suddenly lose my job, I'd change my spending
   habits.  So these are pessimistic estimates.  In general though I
   prefer financial estimates to be pessimistic, and not optimistic.
+
+  [^ef]: I've got rid of my dedicated emergency fund, since I have
+    both a credit card and a few months regular expenses saved up.
+    But I did have one in the past, so it's taken into account in the
+    short runway so that historic data works correctly.
 
 - **FIRE number:**
 
@@ -249,11 +374,24 @@ Now we can compute some more interesting metrics.
   without the value of your investments decreasing, assuming an annual
   7% growth and 3% inflation.
 
-  ```raw
-  \[
-  \text{average daily expense} \times 365 \times 25
-  \]
   ```
+  # average daily expense
+  (
+    sum(hledger_balance{account="expenses"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    - on(target_currency)
+    sum(hledger_balance{account="expenses"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    - on(target_currency)
+    sum(hledger_balance{account="expenses:gross"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    + on(target_currency)
+    sum(hledger_balance{account="expenses:gross"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+  ) / $agg_window
+
+  # $fire_annual_factor years worth
+  * 365 * $fire_annual_factor
+  ```
+
+  Here `$fire_annual_factor` is 25.  I just made it a variable so I
+  could give it a clear name.
 
 - **AAW / PAW thresholds:**
 
@@ -269,19 +407,63 @@ Now we can compute some more interesting metrics.
   So, the **AAW threshold** is the amount of money at which you are no
   longer a UAW:
 
-  ```raw
-  \[
-  \frac{\text{average daily income} \times 365 \times \text{age}}{\text{10}} \div 2 + \text{gifted or inherited income} + \text{liabilities}
-  \]
+  ```
+  (
+    # average daily income
+    (
+      sum(hledger_balance{account="income"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="income"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="income:gift"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      + on(target_currency)
+      sum(hledger_balance{account="income:gift"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    ) / $agg_window * -1
+
+    # $age/10 years worth
+    * 365 * $age / 10
+  ) / 2
+
+  # ignore gifted income
+  - on(target_currency)
+  sum(hledger_balance{account="income:gift"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+
+  # add (subtract) liabilities, other than student loan
+  - on(target_currency)
+  sum(hledger_balance{account="liabilities"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+  + on(target_currency)
+  sum(hledger_balance{account="liabilities:loan:slc"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
   ```
 
   And the **PAW threshold** is the amount of money at which you are no
   longer an AAW:
 
-  ```raw
-  \[
-  \frac{\text{average daily income} \times 365 \times \text{age}}{\text{10}} \times 2 + \text{gifted or inherited income} + \text{liabilities}
-  \]
+  ```
+  (
+    # average daily income
+    (
+      sum(hledger_balance{account="income"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="income"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      - on(target_currency)
+      sum(hledger_balance{account="income:gift"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+      + on(target_currency)
+      sum(hledger_balance{account="income:gift"} offset ${agg_window}d * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+    ) / $agg_window * -1
+
+    # $age/10 years worth
+    * 365 * $age / 10
+  ) * 2
+
+  # ignore gifted income
+  - on(target_currency)
+  sum(hledger_balance{account="income:gift"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+
+  # add (subtract) liabilities, other than student loan
+  - on(target_currency)
+  sum(hledger_balance{account="liabilities"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
+  + on(target_currency)
+  sum(hledger_balance{account="liabilities:loan:slc"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by (target_currency)
   ```
 
   It turns out that the PAW threshold is below the FIRE number.  This
@@ -292,6 +474,7 @@ Now we can compute some more interesting metrics.
   then invest, but you may still be a UAW if you're otherwise not very
   good at saving.
 
+[a significantly more complicated InfluxDB-based dashboard]: https://github.com/barrucadu/hledger-scripts
 [Financial Indepence, Retire Early (FIRE)]: https://en.wikipedia.org/wiki/FIRE_movement
 [The Millionaire Next Door]: https://en.wikipedia.org/wiki/The_Millionaire_Next_Door
 
@@ -328,7 +511,7 @@ I'll also make some plans for the future, mock up some data, and
 import that into the dashboard, so I can try out different savings
 plans, or think about how to allocate an expected payrise or bonus.
 
-[a script which imports the data every evening]: https://github.com/barrucadu/hledger-scripts
+[a script which imports the data every evening]: https://github.com/barrucadu/nixfiles/blob/master/hosts/nyarlathotep/jobs/hledger-export-to-promscale.py
 
 
 A high level view of the system
@@ -607,12 +790,21 @@ All amounts are included.
     assets:cash:nationwide:flexdirect:saved:utilities                    £237.67
     expenses:gross:tax:income                                           £1145.27
     expenses:gross:tax:ni                                                £439.80
-    liabilities:loan:slc                                                 £375.00
+    expenses:gross:liabilities:loan:slc                                  £375.00
     expenses:gross:pension                                               £345.09
     income:job                                                         -£5826.96
     expenses:gross:pension                                              £1309.93
     income:job                                                         -£1309.93
+2021-11-30 ! Student Loan
+    expenses:gross:liabilities:loan:slc                                 -£375.00 = £0.00
+    liabilities:loan:slc
 ```
+
+All the postings in an income transaction should be for `assets`,
+`expenses:gross`, or `income`, so that my net income can be easily
+calculated as "decrease in `income` - increase in `expenses:gross`",
+as in the metrics above.  So student loan repayments are handled
+slightly awkwardly, but the ease of calculation is worth it.
 
 Some income transactions may not have anything to do with expenses or
 liabilities:
