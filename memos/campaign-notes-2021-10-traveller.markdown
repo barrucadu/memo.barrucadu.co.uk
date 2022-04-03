@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-03-20
+modified: 2022-04-03
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -555,28 +555,41 @@ unreasonable for them to have it, they don't have it.
 If a crewmember needs a skill and it's reasonable but unlikely for
 them to have it, roll Luck for them to have it at DM+0.
 
-- **Shayra Ventassen** (average engineer): ran away from home to become a spacer
-  - Hits: 21 (unconscious at 7)
-  - Money:
-    - Shares:  1
-    - Salary:  Cr 0
-    - Saves:   10%
-    - Balance: Cr 33,750
-  - Gear:
-    - Emergency Softsuit
-    - Stunner (TL10, 2D+3, Range 5, Stun / Zero-G)
-
 - **Opal Twice-Vacced** (average marine): demands his own room
   - Hits: 21 (unconscious at 7)
   - Money:
     - Shares:  1
     - Salary:  Cr 0
     - Saves:   25%
-    - Balance: Cr 28,125
+    - Balance: Cr 142,000
   - Gear:
     - Vacc Suit (TL10)
     - Cutlass (3D)
     - Laser Pistol (TL9, 3D, Range 20, Zero-G)
+
+- **Black Jack** (average gunner): collects alien curios
+  - Hits: 21 (unconscious at 7)
+  - Money:
+    - Shares:  1
+    - Salary:  Cr 0
+    - Saves:   50%
+    - Balance: Cr 0
+  - Gear:
+    - Vacc Suit (TL10)
+    - Laser Pistol (TL9, 3D, Range 20, Zero-G)
+
+#### Retired
+
+- **Shayra Ventassen** (average engineer): ran away from home to become a spacer
+  - Hits: 21 (unconscious at 7)
+  - Money:
+    - Shares:  1
+    - Salary:  Cr 0
+    - Saves:   10%
+    - Balance: Cr 79,250
+  - Gear:
+    - Emergency Softsuit
+    - Stunner (TL10, 2D+3, Range 5, Stun / Zero-G)
 
 - **Cerdic** (average marine): covered in prison tattoos
   - Hits: 21 (unconscious at 7)
@@ -584,7 +597,7 @@ them to have it, roll Luck for them to have it at DM+0.
     - Shares:  1
     - Salary:  Cr 0
     - Saves:   80%
-    - Balance: Cr 7,500
+    - Balance: Cr 371,500
   - Gear:
     - Vacc Suit (TL10)
     - Knife (1D)
@@ -2066,3 +2079,122 @@ Talk through Asset & Faction handouts, and then:
 - Honour Among Thieves
 - Week 69, Friday, Theev
 - Maintenance due in week 71
+
+
+2022-04-03 --- Week 69, Theev
+------------------------------
+
+### Prep
+
+- **Captain Envai's Cavern:**
+  - It's in the outer asteroid belt of the Thebus system, which is
+    9,000,000,000km long and 150,000,000km wide
+  - It's deep inside a large asteroid, connected to the outside by a
+    narrow canyon, with big ship doors and a smaller airlock.
+  - **Specs:**
+    - Docking space for up to 1,200 tons of ships
+    - Refuelling gear
+    - 6 regular staterooms
+    - Luxury suite made of 3 staterooms and a common area
+    - Two well-equipped workshops (treat as ship's locker but for
+      tools)
+    - TL15 15-ton starship fusion reactor modified to run on unrefined
+      fuel (200 power, consumes 1.5 tons of fuel/4 weeks):
+      - Docking area: 1200 tons
+      - Staterooms: 9*4 = 36 tons
+      - Corridors & other rooms: 300 tons
+      - 1536 tons => 154 power needed
+    - Fuel tanks for 400 tons
+    - No fuel refiners
+    - No weapons
+    - No external sensors
+    - No separate cargo hold (use unoccupied docking space)
+  - **Current state:**
+    - No fuel
+    - No power
+    - No life support
+    - Big doors seized shut and need an overhaul
+    - Sindalian glory stripped and sold
+    - 25 tons of construction supplies (high-quality steel and copper
+      alloys, kilometres of cabling and piping, tools)
+    - 5 tons stolen government currency ingots (gold, silver,
+      platinum) worth 4MCr
+- **Honour Among Thieves:**
+  - Ferrik will try to sell out Admiral Darokyn to save his skin
+  - Giving land on Asim to Hroal Irontooth:
+    - Aslan female is called Iy.e.wakh.ea
+    - Hroal wants 20 km^2
+    - King Oleb will grumble and tell the Travellers to ask before
+      giving away parts of his kingdom in the future, but secretly
+      he's pleased to be able to influence Torpol and Clarke, and get
+      a contact with an established pirate band, for a bit of space on
+      a sparsely-populated planet
+    - The Asimen won't be too happy about giving away part of their planet
+
+### Notes
+
+- Week 69: Theev
+  - **Friday:**
+    - Get Ferrik and the Aslan
+- Week 71: Secret Refuelling Station
+  - **Monday:**
+    - Refuel
+- Week 72: Marduk
+- Week 73: Torpol
+  - **Sunday:**
+    - Maintenance
+- Week 74: Torpol
+  - **Monday:**
+    - Hand over Ferrik
+    - Collect 2.5MCr bounty
+- Week 75: Drinax
+  - **Tuesday:**
+    - Get King Oleb's approval for Hroal's land
+    - The Aslan continues on to Asim
+- Week 76: Torpol
+- Week 78: Marduk
+- Week 79: Thebus:
+  - **Friday:**
+    - Maintenance
+  - **Sunday:**
+    - Start searching for Captain Envai's cavern
+- Week 80: Thebus
+- Week 81: Thebus
+- Week 82: Thebus
+- Week 83: Thebus
+- Week 84: Thebus
+- Week 85: Thebus
+  - **Saturday:**
+    - Find cavern
+    - Begin careful examination
+- Week 86: Thebus:
+  - **Monday:**
+    - Finish examination
+    - Take ingots
+    - Maintenance
+- Week 87: Marduk
+- Week 88: Marduk
+- Week 89: Torpol
+- Week 90: Drinax
+  - **Sunday:**
+    - Fix ventral turret
+    - Cerdic retires
+    - Shayra retires
+- Week 91: Drinax
+  - **Sunday:**
+    - Black Jack hired as an average gunner: collects alien curios,
+      had his ship blown up by the Aslan
+- Week 92: Torpol
+- Week 93: Blue
+- Week 94: Arunisiir
+- Week 95: Arunisiir
+- Week 96: Tanith
+  - **Wednesday:**
+    - Maintenance
+    - Accept volay job
+
+### Next time
+
+- Check trade income: is the price for a single jump?
+- Volay job (p264)
+- Maintenance due week 100
