@@ -64,7 +64,6 @@ TAXA = [
     {"name": "Self", "slug": "self"},
     {"name": "Koans", "slug": "self-koans", "parent": "self"},
     {"name": "Possessions", "slug": "self-possessions", "parent": "self"},
-    {"name": "Recipes", "slug": "self-recipes", "parent": "self"},
     {"name": "Systems", "slug": "self-systems", "parent": "self"},
 ]
 
