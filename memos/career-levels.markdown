@@ -5,6 +5,8 @@ modified: 2021-10-12
 taxon: self
 ---
 
+<aside class="highlight">The competency framework for my current job isn't public, so this memo is no longer being updated.</aside>
+
 This memo is an attempt to judge myself against software development
 career levels I've found online.  Even if I never apply to a
 particular company whose criteria I've examined, by thinking about
