@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-03-31
+modified: 2022-04-14
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -260,17 +260,20 @@ Roleplaying Games
 | `9781982171322` | MOAR! Monsters Know What They're Doing | Keith Ammann  |
 
 
-Politics, Philosophy, Economics, + History
-------------------------------------------
+Miscellaneous Nonfiction
+------------------------
 
 | ISBN            | Title                                                               | Author          |
 |----------------:+---------------------------------------------------------------------+-----------------|
 | `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy | Neville Morley  |
 | `9780521634168` | Trade in Classical Antiquity                                        | Neville Morley  |
+| `9780343546373` | An Encyclopædia Of Occultism                                        | Lewis Spence    |
+| `9780201835953` | The Mythical Man-Month                                              | Fred Brooks     |
+| `9781603582865` | The Art of Fermentation                                             | Sandor Katz     |
 
 
-Miscellaneous
--------------
+Miscellaneous Fiction
+---------------------
 
 ### Shortlist
 
@@ -303,7 +306,6 @@ Miscellaneous
 | ISBN            | Title                                                                | Author                |
 |----------------:+----------------------------------------------------------------------+-----------------------|
 | `9780199549740` | The Old English Baron                                                | Clara Reeve           |
-| `9780343546373` | An Encyclopædia Of Occultism                                         | Lewis Spence          |
 | `9781771481595` | Wild Fell                                                            | Michael Rowe          |
 | `9781511536738` | The Turn of the Screw                                                | Henry James           |
 | `9780099908807` | The Snows Of Kilimanjaro And Other Stories                           | Ernest Hemingway      |
