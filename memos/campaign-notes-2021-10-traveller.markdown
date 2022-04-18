@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-04-03
+modified: 2022-04-18
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -349,12 +349,14 @@ Ships
 - **Upgrades:**
    - An ion cannon
 
+- **Crew:**
+  - Xavier Echithilei, outcast minor noble
+
 ### The Harrier
 
 <img src="campaign-notes-2021-10-traveller/harrier.png" width="128" style="float: right">
 
 - **Quirks:** (see *The Trojan Reach*, page 12)
-  - Inoperable ventral turret
   - Damaged holographic hull
   - Increased maintenance costs
   - Reduced hull points
@@ -364,244 +366,25 @@ Ships
   - Unreliable manoeuvre drive
   - Increased repair costs
 
-
-Factions
---------
-
-### General Development Corporation (GeDeCo)
-
-GeDeCo does a bit of everything:
-
-- It built and operates many of the class C and B starports in the
-  sector,
-- It operates bank branches in its starports, and all the class A
-  starports in Imperium space,
-- It has cargo and passenger fleets, both within the Imperium and
-  beyond,
-- It's an arms dealer to the Imperial Navy and other lesser human
-  states,
-- It does research and development into all sorts of things.
-
-The mortgage for the Far Trader is through the GeDeCo Bank, and they
-may allow late or missing payments to slip by in exchange for
-questionable favours.
-
-GeDeCo is currently **Neutral** towards the Travellers.
-
-#### Missions
-
-1. Survey the star at Pandora for solar flare activity.  A survey by
-   an actual scout would do wonders to convince people that this
-   GeDeCo colony is safe to relocate to.
-
-##### Done
-
-- Take a research team to 971-852 and pick them back up a month later.
-  No steward required.
-
-  **Reward:** fuel credits for four J-2s, plus Cr 250,000 (half in
-  advance, half afterwards; a bit more than middle passage for 4
-  people for 4 parsecs, twice).
-
-### Pirates of Theev
-
-The pirates are not a unified bunch, with many belonging to a specific
-pirate lord's faction.
-
-The Pirates of Theev are currently **Suspicious** towards the Travellers:
-
-- Currency exchange has a 30% surchage
-- Prices are inflated by 20%
-- TL 13 and above goods are not available
-
-#### Pirate Lord Vekshan (Vargr)
-
-**Mission:** raiding and war profiteering
-
-1. Support the revolution on Acrid *(Revolution on Acrid --- Drinaxian Companion)*
-
-#### Pirate Lord Ruk (Human)
-
-**Mission:** smuggling
-
-1. Smuggle medical supplies Baroness Lux *(The Cordan Conflict --- Drinaxian Companion)*
-
-#### Pirate Lord Gibbs (Human)
-
-**Mission:** espionage, information trading, and blackmail
-
-1. Install a tracking device in their ship and travel around.
-
-### Scout Services
-
-Ilijah was a scout for four terms, and has a ship on loan from them.
-
-Scout Services is currently **Friendly** towards the Travellers.
-
-At starports with a Scout Base, they can receive
-
-- Free maintenance for the Scout / Courier Type-S
-- Information, rumours, missions (etc)
-- Rewards for completing scout missions
-
-#### Missions
-
-1. Survey the star at Pandora for solar flare activity.  GeDeCo have
-   been trying to recruit colonists again, but we have our doubts that
-   it's safe.
-
-##### In Progress
-
-- Survey non-Imperium worlds in the Reach, confirming or denying
-  current survey data.
-
-  **Reward:** fuel costs and salaries, with proportional rewards for
-  discovering discrepancies.
-
-- Explore empty regions of space and report any newly-discovered
-  systems.
-
-  **Reward:** MCr 1 for each confirmed discovery.
-
-##### Done
-
-- Take some secured cargo to the scout base at New.
-
-  **Reward:** fuel credits for the J-2, plus Cr 5,000 each.
-
-- Blow up a rogue asteroid at New.
-
-  **Reward:** salvage rights.
-
-
-NPCs
-----
-
-### Xavier Echithilei (Crew member, outcast minor noble)
-
-<img src="campaign-notes-2021-10-traveller/xavier-echithilei.png" width="64" style="float: right; border: 1px solid black;">
-
-> Xavier is from a noble family which makes their money from operating
-> a large interstellar trading firm (as many of them do), but the
-> family keeps a fairly hands-off approach to management: the company
-> know they have to follow any edicts passed down from the family, but
-> mostly it's up to their competent administrators to run the thing.
->
-> Xavier took advantage of this to direct several of the largest ships
-> in the fleet to help with evacuating human slaves from worlds
-> liberated from the Glorious Empire, and resettling them elsewhere in
-> the Dpres and Sindal subsectors. This would likely have gone
-> unnoticed, and indeed did for some months, until their intel was
-> wrong: the fleet jumped into an active warzone, and got
-> destroyed. Xavier couldn't cover this up, and the family was
-> outraged: he had cost them hundreds of millions of credits for the
-> lost ships, the crews had perished, and, even worse, he, a member of
-> Imperial nobility, had been actively interfering in a conflict
-> between two other interstellar empires, which could have provoked a
-> war. They had to make a big show of casting him out to avoid
-> consequences for the rest of the family.
->
-> So, Xavier found himself with no money, no resources, and not really
-> any skills beyond administration. He ended up becoming a drifter,
-> signing on to work on whatever ships would take him, eventually
-> becoming a competent engineer. The family still hate his guts, the
-> other nobility and influential players treat him with amused
-> condescension, but there are still some who think of him as a hero,
-> who risked it all to save people.
-
-*With the Far Trader*
-
-- **Connections:**
-  - **ABR (Albe--Boronu Route) Shipping Incorporated:** a shipping
-    business mostly operating between the Imperium and the Florian
-    League, founded and majority-owned by the House Echithilei.
-  - **House Echithilei:** a noble family with holdings on Albe and
-    Realgan in the Sindal Subsector.
-  - **Duke Verner Echithilei of Albe:** Xavier's first cousin twice
-    removed.
-
-- **Roleplaying notes:**
-  - Equally comfortable in high society and with the common folk.
-  - Holds a grudge against the Imperium, saying that he was only cast
-    out because the family needed to make a show of loyalty.
-
-- **Competencies:**
-  - Admin
-  - Advocate
-  - Diplomat
-  - Engineer
-  - Mechanic
-  - Steward
-  - Vacc Suit
-  - plus any other skills that fit his noble upbringing and spacer
-    background.
-
-### Crew of the Harrier
-
-All crew members save a portion of their income, fritter away 50% of
-the rest, and the remainder is available for equipment.
-
-A new average crewmember comes with:
-
-- A TL10 Vacc Suit (+8, 60rad) or Emergency Softsuit (+0, 0rad)
-- Basic weapon (two for marines)
-- Basic tools of their trade (not listed here)
-
-If a crewmember needs an item and it's likely for them to have it and
-they can afford it, add it to their list and deduct the money.  If
-it's reasonable but unlikely for them to have it, roll Luck.  If it's
-unreasonable for them to have it, they don't have it.
-
-If a crewmember needs a skill and it's reasonable but unlikely for
-them to have it, roll Luck for them to have it at DM+0.
-
-- **Opal Twice-Vacced** (average marine): demands his own room
-  - Hits: 21 (unconscious at 7)
-  - Money:
-    - Shares:  1
-    - Salary:  Cr 0
-    - Saves:   25%
-    - Balance: Cr 142,000
-  - Gear:
-    - Vacc Suit (TL10)
-    - Cutlass (3D)
-    - Laser Pistol (TL9, 3D, Range 20, Zero-G)
-
-- **Black Jack** (average gunner): collects alien curios
-  - Hits: 21 (unconscious at 7)
-  - Money:
-    - Shares:  1
-    - Salary:  Cr 0
-    - Saves:   50%
-    - Balance: Cr 0
-  - Gear:
-    - Vacc Suit (TL10)
-    - Laser Pistol (TL9, 3D, Range 20, Zero-G)
-
-#### Retired
-
-- **Shayra Ventassen** (average engineer): ran away from home to become a spacer
-  - Hits: 21 (unconscious at 7)
-  - Money:
-    - Shares:  1
-    - Salary:  Cr 0
-    - Saves:   10%
-    - Balance: Cr 79,250
-  - Gear:
-    - Emergency Softsuit
-    - Stunner (TL10, 2D+3, Range 5, Stun / Zero-G)
-
-- **Cerdic** (average marine): covered in prison tattoos
-  - Hits: 21 (unconscious at 7)
-  - Money:
-    - Shares:  1
-    - Salary:  Cr 0
-    - Saves:   80%
-    - Balance: Cr 371,500
-  - Gear:
-    - Vacc Suit (TL10)
-    - Knife (1D)
-    - Laser Rifle (TL9, 5D, Zero-G)
+- **Crew:**
+  - Opal Twice-Vacced (average marine):
+    - Demands his own room
+    - Hits 21 (unconscious at 7)
+    - Shares 1
+    - Salary 0
+    - Gear: Vacc Suit (TL10), Cutlass (3D), Laser Pistol (TL9, 3D, range 20, zero-g)
+  - Black Jack (average gunner):
+    - Collects alien curios
+    - Hits 21 (unconscious at 7)
+    - Shares 1
+    - Salary 0
+    - Gear: Vacc Suit (TL10), Laser Pistol (Tl9, 3D, range 20, zero-g)
+  - Krrsh (average pilot):
+    - Not that bright
+    - Hits 21 (unconscious at 7)
+    - Shares 1
+    - Salary 0
+    - Gear: Vacc Suit (TL10), Cutlass (3D)
 
 
 Rumours
@@ -609,116 +392,120 @@ Rumours
 
 1. *No rumour, roll a random encounter!*
 
-2. **[job]** *Roll a random Patron / Mission / Target.*
+2. *Roll a random Patron / Mission / Target.*
 
-3. **[job]** *Roll a random Patron / Mission / Target.*
+3. *Roll a random Patron / Mission / Target.*
 
-4. *Roll a random Starport or Planetary encounter for the current
-   location: the Traveller learns about this.*
 
-5. *Roll a random Space encounter for the current or a nearby system:
-   the Traveller learns about this.*
+4. ?
 
-6. **[aslan, politics]** Attacks from ihatei raiding bands have
-   increased in the last few months.
+5. Miners on Argona say there’s a giant crystal covered in intricate
+   carvings somewhere in the glacier-tunnels, but everyone who’s seen
+   it has died or gone mad.
 
-7. **[imperium, politics]** The civil war on Simok shows no signs of
-    ending. The Duke of Tobia has given the two sides a year to sort
-    out their differences: if they don't, he'll send in the fleet.
+6. **Lions of Thebus:** Lord Ftahkaiw was recently in the area, he
+   caused a big commotion, showered people with money, and eventually
+   left to oversee business elsewhere.
 
-8. **[aslan, imperium, piracy]** Pirate attacks on the trade route
-    between the Imperium and the Hierate have increased lately, both
-    sides are having to send larger escort fleets.
+7. **Shadows of Sindal:** Prince Richter Grehai claims to be the
+   legitimate heir to the Sindalian throne, the Grehai Movement is a
+   gathering of well-meaning but not-very-competent followers who aim
+   to deter Aslan expansion into the Trojan Reach.
 
-9. **[sindal, treasure]** There are old caches of treasure left over
-    from the Sindalian Empire scattered on worlds around the Trojan
-    Reach.
+8. A hidden enclave of the Cult of the Traveller was found recently on
+   [nearby world].  The security forces tried to take them into
+   custody, but the cultists turned it into a bloodbath.  Apparently
+   they laugh and sing as they kill...
 
-10. **[treasure]** There's an old space station at The World, falling
-    apart with age, but it's still got power and the defence turrets
-    fire on any ship that gets close.
+9. Someone on Sperle is trying to set up a smuggling route to get past
+   the GeDeCo-owned shipping lanes.
 
-11. **[aslan, gedeco]** Aslan assassins blew up the class A starport
-    at Vorito and killed the GeDeCo executives, plunging the planet to
-    its current low-tech state.
+10. Umemii wants more trade ships to stop off there, but all the
+    traffic in the region goes through the better-equipped ports at
+    Tanith, Acrid, or Cordan instead.
 
-12. **[treasure]** Miners on Argona say there's a giant crystal
-    covered in intricate carvings somewhere in the glacier-tunnels,
-    but everyone who's seen it has died or gone mad.
+11. ?
 
-13. **[ancients, imperium]** Scientists say that the black hole at
-    627-301 is clearly artificial, and nobody since the Ancients has
-    had the technology to create something like that.
+12. The Psychopomps of Clarke seem to consider Prince Harrick of
+    Drinax a figure of religious significance, and keep petitioning
+    him for a state visit.
 
-14. **[imperium]** Kidnapping / slaving rings operate on some of the
-    border worlds.
+13. Apparently some large corporation has been pushing for the
+    Imperium to remove the red travel zone restriction on Vume, and is
+    interested in how exactly that restriction came about.
 
-15. **[imperium]** There are secret Imperial refuelling stations in
-    empty hexes.
+14. The government of Paal is paying above-market rates for high-tech
+    goods.
 
-16. **[imperium, piracy]** The Imperium's navy can track you through
-    jump space if you jump away within 5000km of one of their ships.
+15. There's a large ihatei camp on Kteiroa.  World governments near
+    the border are nervous, but some are making a killing selling
+    weapons.  Of course, they prefer Aslan weapons.
 
-17. **[piracy]** It's good luck to leave behind a cargo container
-    after looting a ship.
+16. Thalassa has, once again, rejected Torpol's request for genetic
+    material from their floating plant-cities, which the Provosts of
+    Torpol want to replicate.  Unofficially, Torpol would pay a lot
+    for seeds and information, and even more for the famous Thalassan
+    geneticist Dr. Thorkan.
 
-18. ?
-
-19. ?
-
-20. ?
+17. There's a mad scientist on Exocet who thinks he can shut down the
+    planet's volcanoes, making the terraforming go much faster, with
+    high-yield atomic bombs.  Which are incredibly illegal in all
+    civilised space.
 
 ### Known
 
-- **[aslan, politics]** The Hierate has taken the Glorious Empire
-  worlds of Keawoaw and Alr.
+- The Hierate has taken the Glorious Empire worlds of Keawoaw and Alr.
 
-- **[aslan, imperium, politics]** There have been protests by the
-  human population of Hradus against the Imperium's technology
-  restrictions, claiming that the Aslan population have proven
-  themselves honourable and trustworthy time and time again over the
-  centuries.  The Aslan themselves have not become involved.
+- There have been protests by the human population of Hradus against
+  the Imperium's technology restrictions, claiming that the Aslan
+  population have proven themselves honourable and trustworthy time
+  and time again over the centuries.  The Aslan themselves have not
+  become involved.
 
-- **[imperium, job]** A noble son in his yacht went missing on the way
-  to Vume, Cr100,000 reward for information, Cr200,000 for finding and
-  returning it.
+- A noble son in his yacht went missing on the way to Vume, Cr100,000
+  reward for information, Cr200,000 for finding and returning it.
 
-- **[sindal]** The royal house of the Sindalian Empire never went
-  extinct.  The current Emperor of Sindal and Protector of the Reach
-  still lives on the old capital world of Noricum and gives the
-  Imperial Blessing of the Star Dragon to all who perform a service
-  for him.
+- The royal house of the Sindalian Empire never went extinct.  The
+  current Emperor of Sindal and Protector of the Reach still lives on
+  the old capital world of Noricum and gives the Imperial Blessing of
+  the Star Dragon to all who perform a service for him.
 
-- **[ancients]** A new archaeological site has been found at Vume, it
-  seems to be some sort of Ancient factory.
+- A new archaeological site has been found at Vume, it seems to be
+  some sort of Ancient factory.
 
-- **[imperium]** Sea monsters killed all the humans on 971-852.
+- Sea monsters killed all the humans on 971-852.
 
-- **[aslan, politics]** The king of Drinax is plotting revenge against
-  the Aslan for destroying the kingdom two centuries ago.
+- **Pirates of Drinax:** The king of Drinax is plotting revenge
+  against the Aslan for destroying the kingdom two centuries ago.
 
-- **[sindal]** Most of Noricum is uninhabitable, due to the bioweapons
-  which felled the empire.
+- Most of Noricum is uninhabitable, due to the bioweapons which felled
+  the empire.
 
 - There's been an unusual number of misjumps along the Sindalian Main
   in the last few months.
 
-- **[politics]** Zhodani scout ships have been seen in the sector in
-   recent months.  Why are they here?  They have no colonies or
-   starports.
+- Zhodani scout ships have been seen in the sector in recent months.
+  Why are they here?  They have no colonies or starports.
 
-- **[piracy]** There's an old woman who runs the starport bar on
-   Falcon who knows more about freighter schedules than anyone else.
+- There's an old woman who runs the starport bar on Falcon who knows
+  more about freighter schedules than anyone else.
 
-- **[piracy]** Every ship from the Tobia Commerce Guild carries at
-   least six trained marines on board to repel pirates.
+- Every ship from the Tobia Commerce Guild carries at least six
+  trained marines on board to repel pirates.
 
-- **[sindal, treasure]** 200 years ago, a ship stumbled upon an old
-   cache of Sindalian tech while on the run from another three ships.
-   With the new equipment, they crushed their pursuers and spent the
-   rest of their days pillaging trade routes.  Nobody knows where that
-   cache was or what else could be in there. *(Captain Envai's Cavern
-   --- Drinaxian Companion)*
+- **Captain Envai's Cavern:** 200 years ago, a ship stumbled upon an
+  old cache of Sindalian tech while on the run from another three
+  ships.  With the new equipment, they crushed their pursuers and
+  spent the rest of their days pillaging trade routes.  Nobody knows
+  where that cache was or what else could be in there.
+
+- There's been a discovery of new and very valuable ore deposits on
+  Number One, but for some reason they're not entering the local
+  markets.
+
+- **Revolution on Acrid:** PRQ are sending in union-busters, output
+  has fallen, someone needs a shipment of pro-worker leaflets
+  delivering, the Workers' Revolution needs weapons, etc.
 
 
 Resources
@@ -770,6 +557,15 @@ Resources
 
 Miscellaneous
 -------------
+
+### House Rule: Passengers & Freight
+
+The costs in the "Passenger and Freight Costs" table on page 207 are
+for a single jump, not a full route.
+
+If you want to get passengers and freight to cover a multi-jump route,
+each the number of jumps after the first is a negative DM on the
+traffic roll.
 
 ### House Rule: Healing
 
@@ -2198,3 +1994,116 @@ Talk through Asset & Faction handouts, and then:
 - Check trade income: is the price for a single jump?
 - Volay job (p264)
 - Maintenance due week 100
+
+
+2022-04-18 --- Week 96, Tanith
+------------------------------
+
+### State
+
+- Need to cover passengers & freight ruling
+- Maintenance due in week 100
+
+### Prep
+
+#### The Borderland Run
+
+- Toni (Tanith Port Authority guy) directs the Travellers to Joachim
+  Streussen on Argona, for a job which needs someone trustworthy
+
+- **Finding Heteitoirl on Hernon's Claim:**
+  - Looking up the deportation ship's details:
+    - Traded some ores and dropped off an Aslan
+  - Asking around:
+    - A "big surly Aslan, keeps to himself" arrives a couple of days
+      ago
+    - There are a few Aslan families on the planet
+    - Where those Aslan work
+  - Uilr:
+    - Will watch the Travellers
+    - If caught, will ask why they came and where they're going
+    - Won't say anything about Hteleitoirl until he gives his approval
+  - The Aslan will be suspicious of outsiders asking about the new
+    arrival
+
+- **Hteletoirl:**
+  - Surly and taciturn
+  - Very relieved to get off Hernon's Claim
+  - Tight-lipped about why he needs to get home, just says that he
+    must
+  - Suggests caution and routes to disguise their destination
+  - Says he needs to stop at Sink and The World, and if asked if he
+    can do that later, grimly says "there will be no opportunity
+    later"
+  - Desperately needs companionship and will warm to the Travellers if
+    they treat him well.
+
+- **Misdirection Index:**
+  - +2 for every Voidsedge system visited pre-Gibraltar
+  - +1 for every Voidsedge system visited post-Gibraltar
+
+### Notes
+
+- Week 96:
+  - **Wed:**
+    - Hear about Arunisiir attack
+    - Jump to Cordan
+
+- Week 97:
+  - **Wed:**
+    - Refuel
+  - **Fri:**
+    - Jump to Argona
+
+- Week 98:
+  - **Fri:**
+    - Arrive
+    - Talk to Joachim Streussen
+    - Accept job
+    - Get Ore Deposits rumour
+  - **Sat:**
+    - Refuel
+
+- Week 99:
+  - **Mon:**
+    - Jump to Inurin
+
+- Week 100:
+  - **Mon:**
+    - Sam's Leaky Bucket
+    - Maintenance
+    - Refuel
+    - Private investigators
+    - Get Revolution on Acrid rumour
+  - **Tue:**
+    - Gas giant hazard gets a ship
+    - Learn that Planetside Security Services coincidentally showed up
+      a couple of days before the attack on Arunisiir
+    - Amaldae gets in touch
+  - **Wed:**
+    - Talk to Amaldae
+    - Get belongings: inspect them and find Aslan clothes
+    - Jump to Hernon's Claim (+1 MI)
+
+- Week 101:
+  - **Wed:**
+    - Arrive at Hernon's Claim
+    - Lie, badly (-1 MI)
+    - Learn that an Aslan showed up recently and is staying with one
+      of the Aslan families
+    - Find Clan Communicator in the stuff
+    - Contact all Aslan to ask about Ergneuel, all are suspicious and
+      ignorant
+  - **Fri:** (afternoon)
+    - Hack clan communicator, learn Hteleitoirl's name and clan
+    - Contact all Aslan again, asking about Hteleitoirl, all are
+      suspicious and ignorant
+    - Uilr approaches
+
+### Next time
+
+- Deadline: Monday, week 115
+- Misdirection: 0
+- Friday week 101
+- Meeting Hteleitoirl
+- Next maintenance due in week 104
