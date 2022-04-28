@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-04-14
+modified: 2022-04-28
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -257,7 +257,6 @@ Roleplaying Games
 |----------------:+----------------------------------------+---------------|
 | `9781556346293` | Robin's Laws of Good Game Mastering    | Robin D. Laws |
 | `9780981884042` | Beating the Story                      | Robin D. Laws |
-| `9781982171322` | MOAR! Monsters Know What They're Doing | Keith Ammann  |
 
 
 Miscellaneous Nonfiction
