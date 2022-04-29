@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-04-28
+modified: 2022-04-29
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -225,9 +225,15 @@ Roleplaying Games
 | RuneQuest       | [The Glorantha Sourcebook][]            |
 |                 | [The Guide to Glorantha][]              |
 | Traveller       | [Mercenary Box Set][]                   |
+|                 | [Field Catalogue][]                     |
 |                 | [The Third Imperium][]                  |
+|                 | [The Spinward Extents][]                |
 |                 | [The Great Rift][]                      |
 |                 | [Behind the Claw][]                     |
+|                 | [Solomani Front][]                      |
+|                 | [Sword Worlds][]                        |
+|                 | [Deepnight Revelation Core Set][]       |
+|                 | [Secrets of the Ancients][]             |
 | OSR             | [The Dark of Hot Springs Island][]      |
 |                 | [A Field Guide to Hot Springs Island][] |
 |                 | [Fungi of the Far Realms][]             |
@@ -241,9 +247,15 @@ Roleplaying Games
 [The Guide to Glorantha]: https://www.chaosium.com/the-guide-to-glorantha-slipcase-set/
 
 [Mercenary Box Set]: https://www.mongoosepublishing.com/products/mercenary-box-set-1
+[Field Catalogue]: https://www.mongoosepublishing.com/products/field-catalogue
 [The Third Imperium]: https://www.mongoosepublishing.com/products/the-third-imperium-2
+[The Spinward Extents]: https://www.mongoosepublishing.com/products/the-spinward-extents
 [The Great Rift]: https://www.mongoosepublishing.com/products/the-great-rift
 [Behind the Claw]: https://www.mongoosepublishing.com/products/behind-the-claw-2
+[Solomani Front]: https://www.mongoosepublishing.com/products/solomani-front
+[Sword Worlds]: https://www.mongoosepublishing.com/products/sword-worlds
+[Deepnight Revelation Core Set]: https://www.mongoosepublishing.com/products/deepnight-revelation-core-set
+[Secrets of the Ancients]: https://www.mongoosepublishing.com/products/secrets-of-the-ancients
 
 [The Dark of Hot Springs Island]: https://shop.swordfishislands.com/the-dark-of-hot-springs-island/
 [A Field Guide to Hot Springs Island]: https://shop.swordfishislands.com/a-field-guide-to-hot-springs-island/
