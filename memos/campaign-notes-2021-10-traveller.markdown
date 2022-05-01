@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-04-18
+modified: 2022-05-01
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -396,8 +396,11 @@ Rumours
 
 3. *Roll a random Patron / Mission / Target.*
 
-
-4. ?
+4. There's a guy called Omicron, or maybe an organisation, who make
+   exceptional custom weapons.  There's a certain safety deposit box
+   at the Tobia highport, if you leave some money and a description of
+   what you want, they'll either make it for you or give you your
+   money back.  But it sometimes takes months.
 
 5. Miners on Argona say there’s a giant crystal covered in intricate
    carvings somewhere in the glacier-tunnels, but everyone who’s seen
@@ -508,13 +511,62 @@ Rumours
   delivering, the Workers' Revolution needs weapons, etc.
 
 
+Things to find in a Space Bazaar
+--------------------------------
+
+In addition to anything from the Central Supply Catalogue and alien
+sourcebooks appropriate for the world's tech level, law level, and
+culture.
+
+### Animals
+
+1. Bush Runner (JTAS 1 p11) infant, the proprieter will not say how
+   big they grow
+2. Luugir (JTAS 1 p15)
+3. Land Squid (JTAS 1 p18)
+4. Seedspitter (JTAS 1 p22)
+5. Curas Worm (JTAS 2 p6)
+6. Daskaryn (JTAS 2 p7) egg
+7. Auwoil (JTAS 4 p117)
+8. Cat (JTAS 4 p126)
+9. Beaker (JTAS 5 p10)
+10. Preenyok (JTAS 12 p2)
+
+### Items
+
+1. Remotely Piloted Reconnaissance Unit (JTAS 1 p42)
+2. Interpreter (JTAS 2 p10)
+3. Collection of historical knick-knacks (coins, badges, medals, etc)
+4. Autohack Unit (JTAS 3 p108)
+5. Comspotter (JTAS 3 p109)
+6. Stickams (JTAS 3 p111)
+7. "Go" Cases (JTAS 7 p31)
+8. Introsion Decks (JTAS 10 p75)
+9. Fancy clothes (JTAS 12 p38)
+
+### Armour
+
+1. Crysalis Armour (JTAS 2 p13)
+2. Rhino V Assault Shield (JTAS 2 p13)
+
+### Weapons
+
+1. Mercurial Staff (JTAS2 p15)
+2. Bio-Gloop Gun (JTAS 2 p17)
+3. Nova Gun (JTAS 2 p17)
+4. Cartridge Laser Carbine / Rifle (JTAS 3 p29)
+5. Grav Rifle (JTAS 4 p32)
+6. Grav Pistol (JTAS 4 p33)
+7. ZT weaponry (JTAS 9 p51)
+8. Specialist bladed weapons (see materials in JTAS 10 p34)
+
+
 Resources
 ---------
 
 ### Online
 
 - [Name generator](https://www.fantasynamegenerators.com/)
-- [Word generator](http://traveller5.net/tools/vilanitools.html)
 - [Travel time calculator](https://www.cyborgprime.com/traveller-rpg-blog/traveller-rpg-ship-travel-time-calculator)
 - [The Traveller Map](https://travellermap.com/?p=-93.964!25.5!7&options=41983)
 - [The Traveller Wiki](https://wiki.travellerrpg.com/Main_Page)
@@ -555,10 +607,10 @@ Resources
   - The Glorious Empire, "Glossary of Aslan Words & Terms" chapter
 
 
-Miscellaneous
--------------
+House rules
+-----------
 
-### House Rule: Passengers & Freight
+### Passengers & Freight
 
 The costs in the "Passenger and Freight Costs" table on page 207 are
 for a single jump, not a full route.
@@ -567,7 +619,7 @@ If you want to get passengers and freight to cover a multi-jump route,
 each the number of jumps after the first is a negative DM on the
 traffic roll.
 
-### House Rule: Healing
+### Healing
 
 An injured Traveller who does not seek medical treatment or bed rest
 must, at the end of every day, roll `1D + END DM`:
@@ -625,6 +677,34 @@ The game ends when the Clan Head has been captured.
 4. Make an opposed Int / Htoua check (or Edu / Htoua, if drawing upon
    the study of past games), with the appropriate strategy bonus and
    task chain bonus.
+
+
+Mook stats
+----------
+
+Hits: 21 (unconscious at 7)
+
+Skills:
+
+- **Green:** +0 for key skills, -2 for other skills
+- **Average:** +1 for key skills, +0 for other skills
+- **Good:** +2 for key skills, +1 for other skills
+- **Excellent:** +3 for key skills, +2 for other skills
+- **Legendary:** +4 for key skills, +2 for other skills
+
+Armour:
+
+- **Protec Suit:** +4
+- **Battle Dress:** +22
+
+Weapons:
+
+- **Dagger / Dewclaw:** 1D+2
+- **Cutlass:** 3D
+- **Autopistol:** 3D-3
+- **Laser Pistol:** 3D+3
+- **Rifle:** 3D
+- **Laser Rifle:** 5D
 
 
 2021-10-10 --- Session 0
@@ -2107,3 +2187,175 @@ Talk through Asset & Faction handouts, and then:
 - Friday week 101
 - Meeting Hteleitoirl
 - Next maintenance due in week 104
+
+
+2022-05-01 --- Week 101, Inurin
+-------------------------------
+
+### State
+
+- At Hernon's Claim
+- Deadline: Monday week 115
+- Misdirection: 0
+- Maintenance due in week 104
+
+### Prep
+
+#### The Borderland Run
+
+- **Meeting Uilr:**
+  - Uilr is a child, not a teenager
+  - She'll ask who the Travellers are, and give them an address to go
+    to (Hernon Robotics and Electronics) if they seem ok
+
+- **Meeting Hteletoirl:**
+  - Khtiiyaheieao will try to get a feel for the passengers before
+    Hteleitoirl shows up
+  - He will also make the meeting at the shop look like an authentic
+    product demonstration / consultation, as cover
+  - Hteletoirl is suspicious of the Travellers and asks how they knew
+    his real name, and is surprised that Amaldae sent people after him
+  - Knowing they have his stuff will lead him to conclude they were
+    sent by Amaldae, and so are either allies or managed to deceive
+    her
+  - He will need a day to sort out his affairs, and to be taken off
+    the planet discretely
+
+- **Hteletoirl:**
+  - A very *Aslan* Aslan:
+    - Tall, muscular, powerful
+    - Walks as if he owns the place
+    - Looks down at the Travellers
+    - Watches them silently and unblinkingly, as if deciding whether
+      to pounce
+    - Interrupts
+  - Tight-lipped about why he needs to get home, just says that he
+    must
+  - Suggests caution and routes to disguise their destination
+  - Says he needs to stop at Sink and The World, and if asked if he
+    can do that later, grimly says "there will be no opportunity
+    later" (will also say he needs to stop at Sink if players bring up
+    potential betrayal)
+  - Desperately needs companionship and will warm to the Travellers if
+    they treat him well.
+  - **Interactions:**
+    - Being found sitting alone in the darkened ship at night
+    - Asking about expected arrival dates, but not seeming happy with
+      knowing everything is going to plan
+    - Punching a wall in the cargo hold
+
+- **Mercenary Encounter:**
+  - There's a patrol ship at the port and some very rude mercenaries
+    asking people's business and looking for an Aslan criminal who
+    they heard might be here
+  - One of them is Crayg, Ilijah's hateful contact
+  - They have the Planetside Security Services logo on their jackets
+  - Have them catch Uilr sneaking around
+
+- **Aslan on Tyokh:**
+  - I'm thinking tabards with the clan livery?
+  - Need to come up with descriptions: this place needs to feel
+    *alien*
+  - Hit them with some Aslan bureaucracy at the highport
+
+- **Misdirection Index:**
+  - +1 for every Voidsedge system visited
+
+- **Events:**
+  - Giant Scuttlefish (JTAS 8 p127) in a gas giant
+  - Opal suggests sending another ship pirating
+  - Patrol looking for pirates
+
+### Notes
+
+- Week 101:
+  - **Fri:**
+    - Uilr gives the address
+    - Astraea sees mercs at the starport and leaves
+  - **Sat:**
+    - Meet Hteleitoirl
+  - **Sun:**
+    - Encounter mercs (MI -5)
+      - Crayg gets knocked out and abducted
+      - Hteleitoirl disapproves and tells Ilijah that he had already
+        proven himself the better warrior
+    - Jump to Exe
+      - Change route to go via Sink and The World
+
+- Week 102:
+  - **Sun:**
+    - Arrive in Exe (MI -4)
+    - Refuel
+
+- Week 103:
+  - **Mon:**
+    - Jump to Cordan
+    - Orcan finds Hteleitoirl punching a wall
+
+- Week 104:**
+  - **Mon:**
+    - Arrive in Cordan (MI -3)
+    - Refuel
+  - **Tue:**
+    - Jump to Tanith
+    - Ilijah gets pestered by an unhappy Hteleitoirl about the route
+      and timings
+
+- Week 105:
+  - **Tue:**
+    - Arrive in Tanith (MI -2)
+    - Ilijah buys a Luugir
+    - Maintenance
+    - Refuel
+  - **Thu:**
+    - Jump to Exocet
+    - Astraea gets Hteleitoirl to open up
+
+- Week 106:
+  - **Thu:**
+    - Arrive in Exocet (MI -1)
+    - Refuel
+    - Giant Scuttlefish latches on to ship
+  - **Fri:**
+    - Jump to Blue
+
+- Week 107:
+  - **Fri:**
+    - Arrive in Blue (MI 0)
+    - Refuel
+    - Drop off the Giant Scuttlefish
+  - **Sat:**
+    - Jump to Torpol
+
+- Week 108:
+  - **Sat:**
+    - Arrive in Torpol (MI +1)
+    - See royal Drinax visit (a painted trader)
+    - Refuel
+    - Kick out Crayg
+    - Jump to Drinax (MI -5)
+
+- Week 109:
+  - **Sat:**
+    - Arrive in Drinax (MI -4)
+    - Maintenance
+    - Switch to Scout Ship (MI +10)
+    - Jump to Hilfer
+
+- Week 110:
+  - **Sat:**
+    - Arrive in Hilfer (MI +10)
+    - Refuel
+  - **Sun:**
+    - Jump to Sink
+
+- Week 111:
+  - **Sun:**
+    - Arrive in Sink (MI +10)
+
+### Next time
+
+- At Sink
+- Deadline: Monday week 115
+- Misdirection: 10
+- Maintenance due in week 113
