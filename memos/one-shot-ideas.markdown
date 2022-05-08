@@ -3,6 +3,7 @@ title: One-shot ideas
 taxon: general-games
 published: 2020-12-05
 modified: 2021-01-17
+superseded_by: campaign-ideas
 ---
 
 This is a collection of ideas for one-shots, which I think would all
