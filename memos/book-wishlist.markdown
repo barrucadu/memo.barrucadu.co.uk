@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-04-29
+modified: 2022-05-09
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -54,7 +54,6 @@ SF Masterworks
 | `9780575082410` | The Moon Is a Harsh Mistress                    | Robert A. Heinlein                   |
 | `0575072202`    | A Canticle for Leibowitz                        | Walter M. Miller Jr.                 |
 | `9780575090996` | Dhalgren                                        | Samuel R. Delany                     |
-| `9780575094994` | The Female Man                                  | Joanna Russ                          |
 | `9780575095014` | Arslan                                          | M. J. Engh                           |
 | `9780575099418` | The Prestige                                    | Christopher Priest                   |
 | `9780575071131` | Greybeard                                       | Brian Aldiss                         |
@@ -92,13 +91,10 @@ SF Masterworks
 | `9780575120723` | The Door Into Summer                            | Robert A. Heinlein                   |
 | `9780575129627` | Half Past Human                                 | T. J. Bass                           |
 | `9781473203242` | Her Smoke Rose Up Forever                       | James Tiptree Jr                     |
-| `9781473208292` | Hard to Be a God                                | Arkady and Boris Strugatsky          |
 | `9781473205765` | The Wind's Twelve Quarters and The Compass Rose | Ursula K. Le Guin                    |
-| `9781473211957` | A Fire Upon the Deep                            | Vernor Vinge                         |
 | `9781473212534` | Norstrilia                                      | Cordwainer Smith                     |
 | `9781473202214` | Monday Begins on Saturday                       | Arkady and Boris Strugatsky          |
 | `9781473215160` | Fairyland                                       | Paul J. McAuley                      |
-| `9781473213111` | The Man Who Fell to Earth                       | Walter Tevis                         |
 | `9781473205802` | Always Coming Home                              | Ursula K. Le Guin                    |
 | `9781473211964` | A Deepness in the Sky                           | Vernor Vinge                         |
 | `9781473214668` | Swastika Night                                  | Murray Constantine                   |
@@ -226,12 +222,6 @@ Roleplaying Games
 |                 | [The Guide to Glorantha][]              |
 | Traveller       | [Mercenary Box Set][]                   |
 |                 | [Field Catalogue][]                     |
-|                 | [The Third Imperium][]                  |
-|                 | [The Spinward Extents][]                |
-|                 | [The Great Rift][]                      |
-|                 | [Behind the Claw][]                     |
-|                 | [Solomani Front][]                      |
-|                 | [Sword Worlds][]                        |
 |                 | [Deepnight Revelation Core Set][]       |
 |                 | [Secrets of the Ancients][]             |
 | OSR             | [The Dark of Hot Springs Island][]      |
@@ -248,12 +238,6 @@ Roleplaying Games
 
 [Mercenary Box Set]: https://www.mongoosepublishing.com/products/mercenary-box-set-1
 [Field Catalogue]: https://www.mongoosepublishing.com/products/field-catalogue
-[The Third Imperium]: https://www.mongoosepublishing.com/products/the-third-imperium-2
-[The Spinward Extents]: https://www.mongoosepublishing.com/products/the-spinward-extents
-[The Great Rift]: https://www.mongoosepublishing.com/products/the-great-rift
-[Behind the Claw]: https://www.mongoosepublishing.com/products/behind-the-claw-2
-[Solomani Front]: https://www.mongoosepublishing.com/products/solomani-front
-[Sword Worlds]: https://www.mongoosepublishing.com/products/sword-worlds
 [Deepnight Revelation Core Set]: https://www.mongoosepublishing.com/products/deepnight-revelation-core-set
 [Secrets of the Ancients]: https://www.mongoosepublishing.com/products/secrets-of-the-ancients
 
