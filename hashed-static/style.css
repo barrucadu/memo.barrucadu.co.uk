@@ -60,6 +60,7 @@ html {
     min-height: 100%;
     font-size: 18px;
     counter-reset: sidenote-counter;
+    overflow-y: scroll;
 }
 
 body {
