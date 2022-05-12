@@ -2,10 +2,10 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2021-12-04
+modified: 2022-05-12
 ---
 
-This memo contains a big list of CD I want.  It's probably not very
+This memo contains a big list of CDs I want.  It's probably not very
 thrilling reading.
 
 
@@ -24,12 +24,12 @@ Audio books / dramas / etc
 - [Bad Medicine](https://www.hplhs.org/dartbam.php)
 - [The Lurking Fear](https://www.hplhs.org/darttlf.php)
 - [Mad Science](https://www.hplhs.org/dartmas.php)
+- [The Curse of Yig](https://www.hplhs.org/dartcoy.php)
+- [The Horror in the Museum](https://www.hplhs.org/darthim.php)
 
 
-Artists I am missing some CDs of
---------------------------------
-
-Generally I only buy studio albums.
+Artists
+-------
 
 ### [Blind Guardian](https://en.wikipedia.org/wiki/Blind_Guardian_discography)
 
@@ -50,7 +50,6 @@ Generally I only buy studio albums.
 - Hvis lyset tar oss
 - Belus
 - Fallen
-- The Ways of Yore
 
 ### [Cradle Of Filth](https://en.wikipedia.org/wiki/Cradle_of_Filth_discography)
 
@@ -58,7 +57,7 @@ Generally I only buy studio albums.
 - Dusk and Her Embrace
 - Nymphetamine
 - Thornography
-- Hammer of the Witches
+- Existence is Futile
 
 ### [Dark Sanctuary](https://en.wikipedia.org/wiki/Dark_Sanctuary#Discography)
 
@@ -87,6 +86,7 @@ Generally I only buy studio albums.
 - Design Your Universe
 - The Quantum Enigma
 - The Holographic Principle
+- Omega
 
 ### [Gost](https://gost1980s.bandcamp.com/music)
 
@@ -147,6 +147,8 @@ Generally I only buy studio albums.
 - Ebonshire
 - The Cabinets of Doctor Arcana (Game Soundtrack)
 - The Haunted Symphony
+- Excelsior
+- Winter Songs
 
 ### [Opeth](https://en.wikipedia.org/wiki/Opeth_discography)
 
@@ -160,16 +162,34 @@ Generally I only buy studio albums.
 - Watershed
 - Pale Communion
 
+### [The Orion Experience](https://en.wikipedia.org/wiki/The_Orion_Experience#Discography)
+
+- Cosmicandy
+- Children of the Stars
+- Fever Dream
+
 ### [Perturbator](https://en.wikipedia.org/wiki/Perturbator#Discography)
 
 - Terror 404
 - I Am the Night
 - Dangerous Days
+- Lustful Sacraments
 
 ### [Rammstein](https://en.wikipedia.org/wiki/Rammstein_discography)
 
 - Liebe ist für alle da
 - Untitled
+- Zeit
+
+### [Summoning](https://en.wikipedia.org/wiki/Summoning_(band)#Discography)
+
+- Lugburz
+- Minas Morgul
+- Dol Guldur
+- Stronghold
+- Let Mortal Heroes Sing Your Fame
+- Oath Bound
+- With Doom We Come
 
 ### [Ulver](https://en.wikipedia.org/wiki/Ulver_discography)
 
@@ -184,7 +204,8 @@ Generally I only buy studio albums.
 - Messe I.X-VI.X
 - ATGCLVLSSCAP
 - The Assassination of Julius Caesar
-- Drone Activity
+- Flowers of Evil
+- Scary Muzak
 
 ### [Van Canto](https://en.wikipedia.org/wiki/Van_Canto#Discography)
 
@@ -193,6 +214,7 @@ Generally I only buy studio albums.
 - Tribe of Force
 - Break the Silence
 - Dawn of the Brave
+- To the Power of Eight
 
 ### [Within Temptation](https://en.wikipedia.org/wiki/Within_Temptation_discography)
 
@@ -202,226 +224,3 @@ Generally I only buy studio albums.
 - The Unforgiving
 - Hydra
 - Resist
-
-
-Artists I have no CDs of
-------------------------
-
-**This needs reviewing.**
-
-Rather than list every CD of every artist in this list, here's just
-the artists:
-
-- 42DE
-- Aerial M
-- Agalloch
-- Akatsuki Records
-- All Them Witches
-- Alstroemeria Records
-- Amberian Dawn
-- Aural Method
-- BABYMETAL
-- BAND-MAID
-- Balmorhea
-- Bathory
-- Bear Ghost
-- Black Hill
-- Black Moth Super Rainbow
-- Black Mountain Transmitter
-- Black Sabbath
-- Boards of Canada
-- Boney M
-- Brothers of Metal
-- CHVRCHES
-- Caravan Palace
-- Carbon Based Lifeforms
-- Carpenter Brut
-- Castle
-- Crown The Empire
-- Cryo Chamber
-- Crywolf
-- DANCE WITH THE DEAD
-- Daigo Hanada
-- Dan Terminus
-- Danheim
-- Daniel Deluxe
-- Datach'i
-- Dead Astronauts
-- Degree of Arc
-- Delta Funktionen
-- Dexter Britain
-- Die Verbannten Kinder Evas
-- Distant Dream
-- Disturbed
-- Dragonforce
-- Duster
-- Dzivia
-- Dûrga
-- Earth
-- Earthless
-- Electric Octopus
-- Emancipator
-- Evanescence
-- Exhorder
-- Explosions in the Sky
-- FLESH
-- FalKKonE
-- False Horizon
-- Frozen Starfall
-- GHOST DATA
-- GOD IS AN ASTRONAUT
-- Genesis
-- Ghost
-- Gnome
-- Gorgoroth
-- Gregory Alan Isakov
-- Gregory and the Hawk
-- HOLY FAWN
-- Halocraft
-- Hela
-- Hinkstep
-- Hugo Kant
-- Human Factor
-- Hyakkei
-- Ieavv
-- If These Trees Could Talk
-- In The Nursery
-- Infected Mushroom
-- Iron Maiden
-- Jet Plane
-- Juno Reactor
-- Justice
-- Jyc Row
-- KAUAN
-- KOKIA
-- Kalafina
-- King Buffalo
-- Kinski
-- LazerHawk
-- Lemon's Chair
-- Loreena McKennitt
-- Man Or Astroman?
-- Manowar
-- Markus Junnikkala
-- Mass Of Fermenting Dregs
-- Mercyful Fate
-- Mesarthim
-- Message To Bears
-- Metallica
-- Mili
-- Misha Mishenko
-- Moe Shop
-- Mono
-- Movement Of Static
-- Musk Ox
-- Nanowar of Steel
-- Naomi & Her Handsome Devils
-- Nebelung
-- Nord Skin
-- OGRE
-- ORAX
-- Oak
-- Oh Hiroshima
-- Old Solar
-- Organic Dreamers
-- Osi and The Jupiter
-- Paint the Sky Red
-- Patient, Patient
-- Pelican
-- Perfume
-- Pictures from Nadira
-- Pierre Hantaï
-- Plastic Girl in Closet
-- Powerwolf
-- Proton Kinoun
-- Psyclopean
-- Pyrior
-- Qualia
-- Raflum
-- Realm of Wolves
-- Reol
-- RichaadEB
-- Rob Hubbard
-- Rush
-- Ryo Fukui
-- SIAMÉS
-- Sabaton
-- Scandroid
-- Scott Snee
-- Shadow Universe
-- She
-- Shibayan Records
-- Shigeaki Saegusa
-- Shigeru Umebayashi
-- Ships Fly Up
-- Shojoskip
-- Sigur Rós
-- Silent Island
-- Sirenia
-- Snail's House
-- Sowulo
-- Stars Of The Lid
-- Stellardrone
-- Stvannyr
-- Susumu Hirasawa
-- Swing Growers
-- System of a Down
-- Sōtaisei Riron
-- Taishi
-- TesseracT
-- The Black Heart Death Cult
-- The Cranberries
-- The Doors
-- The End Of The Ocean
-- The Glitch Mob
-- The HU
-- The Last Sighs Of The Wind
-- The Mountain Goats
-- The Outsider
-- The Pillows
-- The Re-Stoned
-- The Sound Defects
-- There's A Light
-- Theres A Light
-- Those Who Ride With Giants
-- Thy Art Is Murder
-- Tides of Man
-- Tokyo Rose
-- Tommy Guerrero
-- Toriena
-- Totorro
-- Trivium
-- Two Steps From Hell
-- Ujico
-- Ulrich Schnauss
-- Unleash The Archers
-- Valium Aggelein
-- Vector Hold
-- Vergissmeinnicht
-- Vonsnake
-- Vulta
-- Vàli
-- Wardruna
-- We Lost The Sea
-- Whale Fall
-- Wind Rose
-- Yousei Teikoku
-- Zombie Hyperdrive
-- city girl
-- heklAa
-
-
-Ideas
------
-
-Finally, a list of places to get music ideas from:
-
-- [666MrDoom YouTube channel](https://www.youtube.com/channel/UC7eKF0lPY8LNwfczq9UFlxg)
-- [Asian Shoegaze YouTube channel](https://www.youtube.com/channel/UCWubfmD-UY92kgCct3PXvZQ)
-- [NRW Records YouTube channel](https://www.youtube.com/channel/UCAZ77vdqYbuGbCAWB62WbqQ)
-- [NewRetroWave YouTube channel](https://www.youtube.com/channel/UCD-4g5w1h8xQpLaNS_ghU4g)
-- [The '80s Guy YouTube channel](https://www.youtube.com/channel/UC6ghlxmJNMd8BE_u1HR-bTg)
-- [The Psychadelic Muse YouTube channel](https://www.youtube.com/channel/UCAepXw94EhaO0CZV9f5D3fQ)
-- [WherePostRockDwells YouTube channel](https://www.youtube.com/user/Nemron28)
-
-Just in case I run out of other artists.
