@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-05-12
+modified: 2022-05-13
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -249,6 +249,7 @@ Roleplaying Games
 |                 | [The Guide to Glorantha][]              |
 | Traveller       | [Mercenary Box Set][]                   |
 |                 | [Field Catalogue][]                     |
+|                 | [Specialist Forces][]                   |
 |                 | [Deepnight Revelation Core Set][]       |
 |                 | [Secrets of the Ancients][]             |
 | OSR             | [The Dark of Hot Springs Island][]      |
@@ -268,6 +269,7 @@ Roleplaying Games
 
 [Mercenary Box Set]: https://www.mongoosepublishing.com/products/mercenary-box-set-1
 [Field Catalogue]: https://www.mongoosepublishing.com/products/field-catalogue
+[Specialist Forces]: https://www.mongoosepublishing.com/products/specialist-forces
 [Deepnight Revelation Core Set]: https://www.mongoosepublishing.com/products/deepnight-revelation-core-set
 [Secrets of the Ancients]: https://www.mongoosepublishing.com/products/secrets-of-the-ancients
 
