@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-05-01
+modified: 2022-05-17
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -572,6 +572,7 @@ Resources
 - [The Traveller Wiki](https://wiki.travellerrpg.com/Main_Page)
 - [Random event tables --- a week in jumpspace](https://mytravelleruniverse.com/2017/05/11/random-event-tables-a-week-in-jumpspace/)
 - [Map of adventures in the Trojan Reach](https://www.dropbox.com/s/1oyw6rjl690wpod/trojan_reach_adventures_hirez.png?dl=0)
+- [Vargr Language & Naming](https://imgur.com/a/AGoIARD)
 
 ### Books
 
@@ -2359,3 +2360,105 @@ Talk through Asset & Faction handouts, and then:
 - Deadline: Monday week 115
 - Misdirection: 10
 - Maintenance due in week 113
+
+
+2022-05-17 --- Week 111, Sink
+-----------------------------
+
+### State
+
+- At Sink
+- Sunday, Week 111
+- Deadline: Monday week 115
+- Misdirection: 10
+- Maintenance due in week 113
+
+### Prep
+
+#### The Borderland Run
+
+- Retcon: do they want to have talked to Hteleitoirl about anything
+  during their journey?
+
+- No opposition (roll of 18 on misdirection table): the round-about
+  route and change of ship completely fooled Hteleitoirl's enemies.
+  - Hteleitoirl will comment on this, approving of their wisdom
+
+- **Sink:**
+  - Seskahalen encounter: they're on their way out of Sink
+  - Hteleitoirl asks for their help in investigating Ehfyo
+  - Hteleitoirl will call the travellers his friends if they help him
+  - Ehfyo / Hteleitoirl hand-clasping
+  - Ehfyo is respectful to the Travellers and treats Hteleitoirl like
+    an old comrade.  He won't admit to anything.
+
+- **The World:**
+  - Hand-clasping
+  - Governor Olc (a timid woman afraid of space) gives the reactor
+    part job.
+  - Awkward reunion with Elehasei
+  - Feast, everyone wearing formal regalia (what do the Travellers
+    wear?)
+  - One of them calls Hteleitoirl "prince", which the players will
+    hopefully latch onto
+
+- **Tyokh:**
+  - Hteleitoirl explains that: he won't be able to speak, the
+    Travellers may be able to if they impress the clan, and his people
+    are impressed by achievement and ostentation.
+  - Honour guard of 16 males in ceremonial armour
+  - Has huge densely-populated sprawling cities which give way to
+    forest and very spread-out settlements
+  - Walk to the palace is in a zone of silence, as Aslan fall silent
+    and watch the group go by
+  - Rumour of The Treasure Ship
+  - Rumour that the Htyowao / Hkaaiheir war seems to be coming to an
+    end, many ihatei of those clans will be looking elsewhere for
+    glory
+
+- **Aslan:**
+  - Furniture is big
+  - Everything is painted in clan colours with stories of great deeds
+    written on them, even the armour they're wearing
+  - Buildings and rooms asymmetrical, natural curves which blend in
+    with the landscape, hedges, bushes, low walls, multiple doorways,
+    bridges, lots of routes between things
+  - Kind of traditional-Japanese-mansion-style buildings: one big
+    "building" composed of lots of smaller buildings connected by
+    paths and intermixed with nature
+
+### Notes
+
+- Week 111:
+  - **Sun:**
+    - Get evidence from Ehfyo's computer
+
+- Week 112:
+  - **Mon:**
+    - Refuel
+    - Share evidence with Hteleitoirl
+  - **Tue:**
+    - Hteleitoirl suggests them being an honour guard so they may speak
+    - Jump to The World
+
+- Week 113:
+  - **Tue:**
+    - Get mission from Governor Olc (nervous lady who doesn't like to
+      think about space)
+    - Feast
+    - Learn Hteleitoirl is the Iuwoiko's son
+    - Half-heartedly try to convince Hteleitoirl to run, but fail
+    - Jump to Tyokh
+
+- Week 114:
+  - **Tue:**
+    - Present evidence
+    - Defuse threat of war
+    - Orcan fails to defeat the executioner
+    - Hteleitoirl is executed
+    - Iuwoiko thanks them for trying and says the clan may have work
+      for honourable and trustworthy humans in the future
+
+### Next time
+
+- Forbidden Lands one-shot
