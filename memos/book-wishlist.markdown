@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-05-13
+modified: 2022-05-22
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -241,25 +241,38 @@ I might have to give up on these and buy a different printing:
 Roleplaying Games
 -----------------
 
-| System          | Title                                   |
-|----------------:|-----------------------------------------|
-| Call of Cthulhu | [Cults of Cthulhu][]                    |
-|                 | [Keeper Tips][]                         |
-| RuneQuest       | [The Glorantha Sourcebook][]            |
-|                 | [The Guide to Glorantha][]              |
-| Traveller       | [Mercenary Box Set][]                   |
-|                 | [Field Catalogue][]                     |
-|                 | [Specialist Forces][]                   |
-|                 | [Deepnight Revelation Core Set][]       |
-|                 | [Secrets of the Ancients][]             |
-| OSR             | [The Dark of Hot Springs Island][]      |
-|                 | [A Field Guide to Hot Springs Island][] |
-|                 | [Fungi of the Far Realms][]             |
-|                 | [Rackham Vale][]                        |
-|                 | [Gradient Descent][]                    |
-|                 | [Witchburner][]                         |
-|                 | [Longwinter (Referee's Book)][]         |
-|                 | [Longwinter (Visitor's Book)][]         |
+| System                | Title                                   |
+|----------------------:|-----------------------------------------|
+| Call of Cthulhu       | [Cults of Cthulhu][]                    |
+|                       | [Keeper Tips][]                         |
+| RuneQuest             | [The Glorantha Sourcebook][]            |
+|                       | [The Guide to Glorantha][]              |
+| Traveller             | [Mercenary Box Set][]                   |
+|                       | [Field Catalogue][]                     |
+|                       | [Specialist Forces][]                   |
+|                       | [Deepnight Revelation Core Set][]       |
+|                       | [Secrets of the Ancients][]             |
+|                       | [Pirates of Drinax soundtrack][]        |
+| Forbidden Lands       | [Raven Bundle][]                        |
+|                       | [Raven's Purge VTT module][]            |
+|                       | [The Bitter Reach VTT module][]         |
+|                       | [Dice Set][fldice] (x2)                 |
+| Old School Essentials | [Advanced Fantasy Referee's Tome][]     |
+|                       | [Advanced Fantasy Player's Tome][]      |
+|                       | [Referee's Screen][]                    |
+|                       | [Dolmenwood Player's Book][]            |
+|                       | [Dolmenwood Campaign Book][]            |
+|                       | [Dolmenwood Monster Book][]             |
+|                       | [Winter's Daughter][]                   |
+|                       | [The Fungus That Came to Blakeswell][]  |
+| OSR                   | [The Dark of Hot Springs Island][]      |
+|                       | [A Field Guide to Hot Springs Island][] |
+|                       | [Fungi of the Far Realms][]             |
+|                       | [Rackham Vale][]                        |
+|                       | [Gradient Descent][]                    |
+|                       | [Witchburner][]                         |
+|                       | [Longwinter (Referee's Book)][]         |
+|                       | [Longwinter (Visitor's Book)][]         |
 
 [Cults of Cthulhu]: https://www.chaosium.com/blogcults-of-cthulhu-is-coming-this-halloween/
 [Keeper Tips]: https://www.chaosium.com/keeper-tips/
@@ -272,6 +285,21 @@ Roleplaying Games
 [Specialist Forces]: https://www.mongoosepublishing.com/products/specialist-forces
 [Deepnight Revelation Core Set]: https://www.mongoosepublishing.com/products/deepnight-revelation-core-set
 [Secrets of the Ancients]: https://www.mongoosepublishing.com/products/secrets-of-the-ancients
+[Pirates of Drinax soundtrack]: https://www.mongoosepublishing.com/products/pirates-of-drinax-original-soundtrack
+
+[Raven Bundle]: https://freeleaguepublishing.com/en/store/?product_id=2164877295664
+[Raven's Purge VTT module]: https://freeleaguepublishing.com/en/store/?product_id=6514525896853
+[The Bitter Reach VTT module]: https://freeleaguepublishing.com/en/store/?product_id=6514510135445
+[fldice]: https://freeleaguepublishing.com/en/store/?product_id=2164853768240
+
+[Advanced Fantasy Referee's Tome]: https://necroticgnome.com/collections/rules/products/old-school-essentials-advanced-fantasy-referees-tome
+[Advanced Fantasy Player's Tome]: https://necroticgnome.com/collections/rules/products/old-school-essentials-advanced-fantasy-players-tome
+[Referee's Screen]: https://necroticgnome.com/collections/rules/products/old-school-essentials-deluxe-referees-screen
+[Dolmenwood Player's Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-players-book
+[Dolmenwood Campaign Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-campaign-book
+[Dolmenwood Monster Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-monster-book-1
+[Winter's Daughter]: https://necroticgnome.com/collections/adventures/products/dolmenwood-winters-daughter
+[The Fungus That Came to Blakeswell]: https://necroticgnome.com/collections/adventures/products/the-fungus-that-came-to-blackeswell
 
 [The Dark of Hot Springs Island]: https://shop.swordfishislands.com/the-dark-of-hot-springs-island/
 [A Field Guide to Hot Springs Island]: https://shop.swordfishislands.com/a-field-guide-to-hot-springs-island/
