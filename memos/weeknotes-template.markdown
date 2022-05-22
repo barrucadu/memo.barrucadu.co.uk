@@ -2,7 +2,7 @@
 title: Template for Weeknotes
 taxon: weeknotes
 published: 2019-02-09
-modified: 2020-12-06
+modified: 2022-05-22
 ---
 
 Remove any sections which don't apply:
@@ -21,6 +21,8 @@ date: YYYY-MM-DD
 This week I read:
 
 ## ...
+
+## Roleplaying Games
 
 ## Miscellaneous
 
