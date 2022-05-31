@@ -1,4 +1,4 @@
-FROM nixos/nix:2.6.0
+FROM nixos/nix:2.9.0
 
 RUN nix-channel --add https://nixos.org/channels/nixos-21.11 nixpkgs && \
     nix-channel --add https://nixos.org/channels/nixos-unstable unstable && \
