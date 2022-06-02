@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-05-22
+modified: 2022-06-02
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -174,11 +174,9 @@ Book Series
 |                                             | `9781975335588` | Volume 10                                     |
 |                                             | `9781975346720` | Volume 11                                     |
 | [The Kharkanas Trilogy][]                   |                 | Walk in Shadow                                |
-| [Overlord][]                                | `9781975323806` | Volume 14: The Witch of the Falling Kingdom   |
-|                                             |                 | Volume 15: The Half Wood Elf God-kin (Part 1) |
+| [Overlord][]                                |                 | Volume 15: The Half Wood Elf God-kin (Part 1) |
 |                                             |                 | Volume 16: The Half Wood Elf God-kin (Part 2) |
-| [So I'm a Spider, So What?][]               | `9781975341756` | Volume 14                                     |
-|                                             |                 | Volume 15                                     |
+| [So I'm a Spider, So What?][]               |                 | Volume 15                                     |
 |                                             |                 | Volume 16                                     |
 | [The Solar Cycle][]                         | `9780312863944` | The Urth of the New Sun                       |
 |                                             | `9780312872915` | Litany of the Long Sun                        |
@@ -186,9 +184,7 @@ Book Series
 |                                             | `9780312872571` | On Blue's Waters                              |
 |                                             | `9780312873639` | In Green's Jungles                            |
 |                                             | `9780312873646` | Return to the Whorl                           |
-| [That Time I Got Reincarnated As A Slime][] | `9781975301149` | Volume 4                                      |
-|                                             | `9781975301163` | Volume 5                                      |
-|                                             | `9781975301187` | Volume 6                                      |
+| [That Time I Got Reincarnated As A Slime][] | `9781975301187` | Volume 6                                      |
 |                                             | `9781975301200` | Volume 7                                      |
 |                                             | `9781975312992` | Volume 8                                      |
 |                                             | `9781975314385` | Volume 9                                      |
@@ -216,9 +212,10 @@ Book Series
 
 - [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss)
 - [Mars Trilogy](https://en.wikipedia.org/wiki/Mars_trilogy)
-- [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
-- [Path to Ascendancy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Path_to_Ascendancy)
+- [Monthly Girls' Nozaki-kun](https://en.wikipedia.org/wiki/Monthly_Girls%27_Nozaki-kun#Volume_list)
 - [Novels of the Malazan Empire](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Novels_of_the_Malazan_Empire)
+- [Path to Ascendancy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Path_to_Ascendancy)
+- [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
 - [The Witcher](https://en.wikipedia.org/wiki/The_Witcher)
 
 ### Out of print
@@ -257,14 +254,9 @@ Roleplaying Games
 |                       | [Raven's Purge VTT module][]            |
 |                       | [The Bitter Reach VTT module][]         |
 |                       | [Dice Set][fldice] (x2)                 |
-| Old School Essentials | [Advanced Fantasy Referee's Tome][]     |
-|                       | [Advanced Fantasy Player's Tome][]      |
-|                       | [Referee's Screen][]                    |
-|                       | [Dolmenwood Player's Book][]            |
+| Old School Essentials | [Dolmenwood Player's Book][]            |
 |                       | [Dolmenwood Campaign Book][]            |
 |                       | [Dolmenwood Monster Book][]             |
-|                       | [Winter's Daughter][]                   |
-|                       | [The Fungus That Came to Blakeswell][]  |
 | OSR                   | [The Dark of Hot Springs Island][]      |
 |                       | [A Field Guide to Hot Springs Island][] |
 |                       | [Fungi of the Far Realms][]             |
@@ -292,14 +284,9 @@ Roleplaying Games
 [The Bitter Reach VTT module]: https://freeleaguepublishing.com/en/store/?product_id=6514510135445
 [fldice]: https://freeleaguepublishing.com/en/store/?product_id=2164853768240
 
-[Advanced Fantasy Referee's Tome]: https://necroticgnome.com/collections/rules/products/old-school-essentials-advanced-fantasy-referees-tome
-[Advanced Fantasy Player's Tome]: https://necroticgnome.com/collections/rules/products/old-school-essentials-advanced-fantasy-players-tome
-[Referee's Screen]: https://necroticgnome.com/collections/rules/products/old-school-essentials-deluxe-referees-screen
 [Dolmenwood Player's Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-players-book
 [Dolmenwood Campaign Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-campaign-book
 [Dolmenwood Monster Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-monster-book-1
-[Winter's Daughter]: https://necroticgnome.com/collections/adventures/products/dolmenwood-winters-daughter
-[The Fungus That Came to Blakeswell]: https://necroticgnome.com/collections/adventures/products/the-fungus-that-came-to-blackeswell
 
 [The Dark of Hot Springs Island]: https://shop.swordfishislands.com/the-dark-of-hot-springs-island/
 [A Field Guide to Hot Springs Island]: https://shop.swordfishislands.com/a-field-guide-to-hot-springs-island/
