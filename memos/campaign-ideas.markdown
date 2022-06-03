@@ -1,7 +1,7 @@
 ---
 title: Campaign ideas
 taxon: general-games
-published: 2022-05-08
+published: 2022-06-03
 ---
 
 This memo lists campaigns I'd be interested in running.  Each idea is
@@ -90,6 +90,33 @@ more than just humans.
 
 
 ## OSR
+
+### Dolmenwood
+
+Dolmenwood is a mystical fairy-tale forest setting inspired by British
+folklore and stories like *The King of Elfland's Daughter*.  It's a
+large dense forest with threads of civilisation, roads and towns and
+inns, running through it.
+
+But if you move off those threads, the forest becomes dark and
+magical: fearsome frost elves prowl the forest glades, looking for
+ways to open the doors to Fairyland and begin their dominion once
+more; pagan cults venerate the many standing stones, and jealously
+guard their secrets; and the corrupted forces of the Nag Lord, chaos
+godling from the north, expand their reach bit by bit.
+
+- **Politics:** Low
+- **Roleplaying:** Medium
+- **Self Direction:** High
+
+**Player buy-in:** The player characters are Dolmenwood natives, who
+have decided to leave behind the safe towns and fields that we know to
+head off in search of adventure.  They're typical loot-motivated
+adventurers.  Practically, this would be a hexcrawl, where you start
+off with an incomplete and inaccurate map of things people generally
+know of, but will need to explore to get concrete information.
+There'll be plenty of rumours and strange happenings to give you
+ideas.
 
 ### Veinscrawl
 
