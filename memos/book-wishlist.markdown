@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-06-02
+modified: 2022-06-05
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -250,13 +250,12 @@ Roleplaying Games
 |                       | [Deepnight Revelation Core Set][]       |
 |                       | [Secrets of the Ancients][]             |
 |                       | [Pirates of Drinax soundtrack][]        |
-| Forbidden Lands       | [Raven Bundle][]                        |
-|                       | [Raven's Purge VTT module][]            |
-|                       | [The Bitter Reach VTT module][]         |
-|                       | [Dice Set][fldice] (x2)                 |
 | Old School Essentials | [Dolmenwood Player's Book][]            |
 |                       | [Dolmenwood Campaign Book][]            |
 |                       | [Dolmenwood Monster Book][]             |
+|                       | [Carcass Crawler #1][]                  |
+|                       | [Carcass Crawler #2][]                  |
+|                       | [Carcass Crawler #3][]                  |
 | OSR                   | [The Dark of Hot Springs Island][]      |
 |                       | [A Field Guide to Hot Springs Island][] |
 |                       | [Fungi of the Far Realms][]             |
@@ -279,14 +278,12 @@ Roleplaying Games
 [Secrets of the Ancients]: https://www.mongoosepublishing.com/products/secrets-of-the-ancients
 [Pirates of Drinax soundtrack]: https://www.mongoosepublishing.com/products/pirates-of-drinax-original-soundtrack
 
-[Raven Bundle]: https://freeleaguepublishing.com/en/store/?product_id=2164877295664
-[Raven's Purge VTT module]: https://freeleaguepublishing.com/en/store/?product_id=6514525896853
-[The Bitter Reach VTT module]: https://freeleaguepublishing.com/en/store/?product_id=6514510135445
-[fldice]: https://freeleaguepublishing.com/en/store/?product_id=2164853768240
-
 [Dolmenwood Player's Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-players-book
 [Dolmenwood Campaign Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-campaign-book
 [Dolmenwood Monster Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-monster-book-1
+[Carcass Crawler #1]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-1
+[Carcass Crawler #2]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-2
+[Carcass Crawler #3]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-3
 
 [The Dark of Hot Springs Island]: https://shop.swordfishislands.com/the-dark-of-hot-springs-island/
 [A Field Guide to Hot Springs Island]: https://shop.swordfishislands.com/a-field-guide-to-hot-springs-island/
