@@ -1,6 +1,6 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
-published: 2022-06-11
+published: 2022-06-13
 taxon: general-games
 ---
 
@@ -224,9 +224,15 @@ mishap.
 Resources
 ---------
 
+### In-session
+
 - **Random Table:** Assorted goblin weirdness: Knock! issue 2, page 83
 - **Random Table:** Lesser stones of Dolmenwood: Wormskin issue 4, page 17
 - **Random Table:** Common names in Dolmenwood: Wormskin issue 7, page 2
+- [Medieval musical instruments](https://en.wikipedia.org/wiki/List_of_medieval_musical_instruments)
+
+### Prep
+
 - [Trilemma Adventures](http://blog.trilemma.com/search/label/adventure)
 
 
