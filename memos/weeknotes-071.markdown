@@ -1,7 +1,8 @@
 ---
 title: "Weeknotes: 071"
 taxon: weeknotes-2020
-date: 2020-01-26
+published: 2020-01-26
+modified: 2022-06-14
 ---
 
 ## Work
@@ -252,7 +253,7 @@ session; I've not actually done it yet.  I'll be able to report on
 that in the next weeknote instalment.
 
 [I switched to ProtonMail]: weeknotes-046.html
-[ProtonMail announced that they were making a calendar]: https://protonmail.com/blog/protoncalendar-beta-announcement/
+[ProtonMail announced that they were making a calendar]: https://proton.me/news/protoncalendar-beta-announcement
 [/r/rpg]: https://old.reddit.com/r/rpg
 [Notion]: https://www.notion.so
 
