@@ -291,14 +291,28 @@ def render_memo_feed(memos, taxon=None, num=10):
     render(link, "atom.xml", **metadata)
 
 
+def memo_sort_key(memo, sort_important=True):
+    timestamp = memo["modified"]
+
+    # weeknotes are in publication order even if they've since been
+    # modified
+    if "weeknotes" in memo["taxon"]["slug"]:
+        timestamp = memo["published"]
+
+    # bump up important memos (should I retire this field, perhaps?)
+    if sort_important and "important" in memo:
+        timestamp += timedelta(days=365 * 1000)
+
+    return timestamp
+
 memos_for_lists = sorted(
     [memo for memo in ALL_MEMOS if "superseded_by" not in memo],
-    key=lambda memo: memo["modified"] + timedelta(days=(365 * 1000 if "important" in memo else 0)),
+    key=lambda memo: memo_sort_key(memo, True),
     reverse=True,
 )
 
 memos_for_feeds = sorted(
-    [memo for memo in memos_for_lists], key=lambda memo: memo["modified"], reverse=True
+    [memo for memo in memos_for_lists], key=lambda memo: memo_sort_key(memo, False), reverse=True
 )
 
 dir_util.copy_tree("static", OUT_DIR)
