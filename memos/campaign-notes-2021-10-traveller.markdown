@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-05-17
+modified: 2022-06-14
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -706,6 +706,46 @@ Weapons:
 - **Laser Pistol:** 3D+3
 - **Rifle:** 3D
 - **Laser Rifle:** 5D
+
+
+Traveller Map data
+------------------
+
+[Poster](campaign-notes-2021-10-traveller/poster.png)
+
+[Traveller Map poster maker](https://travellermap.com/make/poster), options:
+
+- **Format:** Bitmap
+- **Show:** Whole Sector
+- **Style:** Black background (Color)
+- **Image Rotation:** None
+- **Map Rotation:** None
+- **Scale:** 128 pixels/parsec - uwp
+- **Hex Numbers:** Sector (3240)
+- Sector / Subsector Names
+- Subsector Grid
+- Routes
+- Labels
+- Borders
+- Force Hexes
+- Ignore Errors
+
+### Sector data
+
+[Data](campaign-notes-2021-10-traveller/sector-data.txt)
+
+- Make Vume a Red Zone
+
+### Metadata
+
+[Data](campaign-notes-2021-10-traveller/metadata.xml)
+
+- Add `Dx` allegiance code
+- Add `DxI` allegiance code
+- Add `Dx` border
+- Add `DxI` border
+- Add Florian League route
+- Add Aslan Hierate route
 
 
 2021-10-10 --- Session 0
