@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-06-05
+modified: 2022-06-15
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -256,9 +256,7 @@ Roleplaying Games
 |                       | [Carcass Crawler #1][]                  |
 |                       | [Carcass Crawler #2][]                  |
 |                       | [Carcass Crawler #3][]                  |
-| OSR                   | [The Dark of Hot Springs Island][]      |
-|                       | [A Field Guide to Hot Springs Island][] |
-|                       | [Fungi of the Far Realms][]             |
+| OSR                   | [Fungi of the Far Realms][]             |
 |                       | [Rackham Vale][]                        |
 |                       | [Gradient Descent][]                    |
 |                       | [Witchburner][]                         |
@@ -285,8 +283,6 @@ Roleplaying Games
 [Carcass Crawler #2]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-2
 [Carcass Crawler #3]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-3
 
-[The Dark of Hot Springs Island]: https://shop.swordfishislands.com/the-dark-of-hot-springs-island/
-[A Field Guide to Hot Springs Island]: https://shop.swordfishislands.com/a-field-guide-to-hot-springs-island/
 [Fungi of the Far Realms]: https://www.melsonia.com/fungi-of-the-far-realms-69-p.asp
 [Rackham Vale]: https://www.crwbr.com/shop
 [Gradient Descent]: https://shop.tuesdayknightgames.com/collections/mothership/products/gradient-descent
