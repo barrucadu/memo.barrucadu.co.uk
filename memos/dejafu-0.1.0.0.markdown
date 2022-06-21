@@ -46,7 +46,7 @@ abstract over Control.Monad.STM.
 [MonadConc]: https://barrucadu.github.io/dejafu/Control-Monad-Conc-Class.html
 [MonadSTM]:  https://barrucadu.github.io/dejafu/Control-Monad-STM-Class.html
 
-### How to use it
+## How to use it
 
 If you're not making use of any IO in your code other than for
 concurrency, the transition to using `MonadConc` and `MonadSTM` will
