@@ -161,7 +161,7 @@ thread and everyone else is a separate thread:
 Because these are people, not just threads, I've given them names.
 The leader is just called "main" though, how unfortunate for them.
 
-<h3>Testing</h3>
+<h3 id="testing">Testing</h3>
 
 Now we can try out our system and see if it works:
 
@@ -307,7 +307,7 @@ work.  This is probably as good as we can do without adding some extra
 primitives to dejafu to optimise the case where we have an `Eq`
 instance available, unfortunately.
 
-<h3>A Silver Lining</h3>
+<h3 id="a-silver-lining">A Silver Lining</h3>
 
 In concurrency testing terms, six threads is actually quite a lot.
 
