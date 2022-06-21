@@ -17,6 +17,7 @@ Options:
 
 import hashlib
 import jinja2
+import json
 import os
 import pypandoc
 import subprocess
@@ -102,16 +103,17 @@ def pandocise_memo(fname, text):
 
     text_hash = hashlib.sha256()
     text_hash.update(text.encode())
-    cache_file = os.path.join(CACHE_DIR, f"sha256-{text_hash.hexdigest()}.html")
+    cache_file = os.path.join(CACHE_DIR, f"sha256-{text_hash.hexdigest()}.json")
     try:
-        rendered = open(cache_file).read()
-    except OSError:
+        cached = json.load(open(cache_file))
+        return cached["html"], cached["toc"]
+    except (OSError, json.decoder.JSONDecodeError):
         _, fmt = os.path.splitext(fname)
         fmt = fmt[1:]
         if fmt == "lhs":
             fmt = "markdown+literate_haskell"
 
-        rendered = pypandoc.convert_text(
+        html = pypandoc.convert_text(
             text,
             "html",
             format=fmt,
@@ -123,21 +125,40 @@ def pandocise_memo(fname, text):
                 "--no-highlight",
             ],
         )
+
+        toc_stack = []
+        level = None
+        toc = []
+        for tag in BeautifulSoup(html, features="html.parser").find_all(
+            ["h2", "h3", "h4"]
+        ):
+            tag_level = int(tag.name[1:])
+            if level is None:
+                pass
+            elif tag_level > level:
+                child_toc = []
+                toc[-1]["children"] = child_toc
+                toc_stack.append(toc)
+                toc = child_toc
+            elif tag_level < level:
+                for _ in range(0, level - tag_level):
+                    toc = toc_stack.pop()
+            level = tag_level
+            toc.append(
+                {
+                    "title": tag.text,
+                    "anchor": tag["id"],
+                }
+            )
+        if toc_stack:
+            toc = toc_stack[0]
+
         try:
-            open(cache_file, "w").write(rendered)
+            json.dump({"html": html, "toc": toc}, open(cache_file, "w"))
         except OSError as err:
             print(f"could not cache generated HTML for {fname}: {err.strerror}")
 
-    toc = []
-    for h2 in BeautifulSoup(rendered, features="html.parser").find_all("h2"):
-        toc.append(
-            {
-                "title": h2.text,
-                "anchor": h2["id"],
-            }
-        )
-
-    return rendered, toc
+        return html, toc
 
 
 ALL_MEMOS = []
@@ -170,7 +191,9 @@ for fname in os.listdir("memos"):
                 ]
             )
             try:
-                memo["published"] = datetime.strptime(datestr.decode("utf-8").strip(), "%Y-%m-%d")
+                memo["published"] = datetime.strptime(
+                    datestr.decode("utf-8").strip(), "%Y-%m-%d"
+                )
             except Exception:
                 # this will be reached if the file hasn't been committed
                 memo["published"] = datetime.now()
@@ -188,9 +211,15 @@ for fname in os.listdir("memos"):
         memo["published_iso"] = memo.get(
             "published_iso", memo["published"].strftime(DATE_ISO_FORMAT)
         )
-        memo["published_pp"] = memo.get("published_pp", memo["published"].strftime(DATE_PP_FORMAT))
-        memo["modified_iso"] = memo.get("modified_iso", memo["modified"].strftime(DATE_ISO_FORMAT))
-        memo["modified_pp"] = memo.get("modified_pp", memo["modified"].strftime(DATE_PP_FORMAT))
+        memo["published_pp"] = memo.get(
+            "published_pp", memo["published"].strftime(DATE_PP_FORMAT)
+        )
+        memo["modified_iso"] = memo.get(
+            "modified_iso", memo["modified"].strftime(DATE_ISO_FORMAT)
+        )
+        memo["modified_pp"] = memo.get(
+            "modified_pp", memo["modified"].strftime(DATE_PP_FORMAT)
+        )
         memo["link"] = f"{memo['slug']}.html"
         memo["permalink"] = f"{BASE_HREF}{memo['slug']}.html"
 
@@ -305,6 +334,7 @@ def memo_sort_key(memo, sort_important=True):
 
     return timestamp
 
+
 memos_for_lists = sorted(
     [memo for memo in ALL_MEMOS if "superseded_by" not in memo],
     key=lambda memo: memo_sort_key(memo, True),
@@ -312,7 +342,9 @@ memos_for_lists = sorted(
 )
 
 memos_for_feeds = sorted(
-    [memo for memo in memos_for_lists], key=lambda memo: memo_sort_key(memo, False), reverse=True
+    [memo for memo in memos_for_lists],
+    key=lambda memo: memo_sort_key(memo, False),
+    reverse=True,
 )
 
 dir_util.copy_tree("static", OUT_DIR)
@@ -321,7 +353,9 @@ dir_util.copy_tree("MathJax/es5", os.path.join(OUT_DIR, "mathjax"))
 dir_util.mkpath(os.path.join(OUT_DIR, TAXON_DIR))
 
 for source, target in HASHED_LINKS.items():
-    file_util.copy_file(os.path.join("hashed-static", source), os.path.join(OUT_DIR, target))
+    file_util.copy_file(
+        os.path.join("hashed-static", source), os.path.join(OUT_DIR, target)
+    )
 
 render("robots.txt", "robots.txt")
 render("sitemap.xml", "sitemap.xml", memos=ALL_MEMOS, taxa=TAXA)
