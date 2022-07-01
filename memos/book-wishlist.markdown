@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-06-15
+modified: 2022-07-01
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -164,8 +164,7 @@ Book Series
 
 | Series                                      | ISBN            | Title                                         |
 |--------------------------------------------:+----------------:+-----------------------------------------------|
-| [Delicious in Dungeon][]                    | `9780316412797` | Volume 3                                      |
-|                                             | `9780316446402` | Volume 4                                      |
+| [Delicious in Dungeon][]                    | `9780316446402` | Volume 4                                      |
 |                                             | `9781975326449` | Volume 5                                      |
 |                                             | `9781975328054` | Volume 6                                      |
 |                                             | `9781975358587` | Volume 7                                      |
@@ -176,7 +175,7 @@ Book Series
 | [The Kharkanas Trilogy][]                   |                 | Walk in Shadow                                |
 | [Overlord][]                                |                 | Volume 15: The Half Wood Elf God-kin (Part 1) |
 |                                             |                 | Volume 16: The Half Wood Elf God-kin (Part 2) |
-| [So I'm a Spider, So What?][]               |                 | Volume 15                                     |
+| [So I'm a Spider, So What?][]               | `9781975352165` | Volume 15                                     |
 |                                             |                 | Volume 16                                     |
 | [The Solar Cycle][]                         | `9780312863944` | The Urth of the New Sun                       |
 |                                             | `9780312872915` | Litany of the Long Sun                        |
@@ -193,7 +192,7 @@ Book Series
 |                                             | `9781975314439` | Volume 12                                     |
 |                                             | `9781975314453` | Volume 13                                     |
 |                                             | `9781975314477` | Volume 14                                     |
-|                                             |                 | Volume 15                                     |
+|                                             | `9781975314491` | Volume 15                                     |
 |                                             |                 | Volume 16                                     |
 |                                             |                 | Volume 17                                     |
 |                                             |                 | Volume 17                                     |
@@ -215,21 +214,25 @@ Book Series
 - [Monthly Girls' Nozaki-kun](https://en.wikipedia.org/wiki/Monthly_Girls%27_Nozaki-kun#Volume_list)
 - [Novels of the Malazan Empire](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Novels_of_the_Malazan_Empire)
 - [Path to Ascendancy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Path_to_Ascendancy)
+- [The Black Company](https://en.wikipedia.org/wiki/The_Black_Company)
+- [The Chanur novels](https://en.wikipedia.org/wiki/The_Chanur_novels)
 - [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
+- [The Third Reich Trilogy](https://en.wikipedia.org/wiki/The_Third_Reich_Trilogy)
 - [The Witcher](https://en.wikipedia.org/wiki/The_Witcher)
 
 ### Out of print
 
 I might have to give up on these and buy a different printing:
 
-| Series                | ISBN            | Title                              |
-|----------------------:+----------------:+------------------------------------|
-| [20th Century Boys][] | `9781421535357` | Volume 17: Cross-counter           |
-|                       | `9781421535364` | Volume 18: Everybody's Song        |
-|                       | `9781421535371` | Volume 19: The man who came back   |
-|                       | `9781421535388` | Volume 20: Humanity in the Balance |
-| [21st Century Boys][] | `9781421543260` | Volume 1: The Death of "Friend"    |
-|                       | `9781421543277` | Volume 2: 20th Century Boys        |
+| Series                   | ISBN            | Title                              |
+|-------------------------:+----------------:+------------------------------------|
+| [20th Century Boys][]    | `9781421535357` | Volume 17: Cross-counter           |
+|                          | `9781421535364` | Volume 18: Everybody's Song        |
+|                          | `9781421535371` | Volume 19: The man who came back   |
+|                          | `9781421535388` | Volume 20: Humanity in the Balance |
+| [21st Century Boys][]    | `9781421543260` | Volume 1: The Death of "Friend"    |
+|                          | `9781421543277` | Volume 2: 20th Century Boys        |
+| [Delicious in Dungeon][] | `9780316412797` | Volume 3                           |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
@@ -306,7 +309,6 @@ Miscellaneous Nonfiction
 | `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy | Neville Morley  |
 | `9780521634168` | Trade in Classical Antiquity                                        | Neville Morley  |
 | `9780201835953` | The Mythical Man-Month                                              | Fred Brooks     |
-| `9781603582865` | The Art of Fermentation                                             | Sandor Katz     |
 
 
 Miscellaneous Fiction
@@ -337,3 +339,5 @@ Miscellaneous Fiction
 | `9780099529040` | Planet of the Apes              | Pierre Boulle     |
 | `9781447263210` | Wicker Man                      | Hardy             |
 | `9780345497529` | The City & The City             | China Mieville    |
+| `9780006513902` | The Dice Man                    | Luke Rhinehart    |
+|                 | Le Morte d'Arthur               | Sir Thomas Malory |
