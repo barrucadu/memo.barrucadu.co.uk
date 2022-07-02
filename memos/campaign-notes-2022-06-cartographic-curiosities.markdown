@@ -1,6 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
+modified: 2022-07-02
 taxon: general-games
 ---
 
@@ -229,6 +230,7 @@ Resources
 - **Random Table:** Assorted goblin weirdness: Knock! issue 2, page 83
 - **Random Table:** Lesser stones of Dolmenwood: Wormskin issue 4, page 17
 - **Random Table:** Common names in Dolmenwood: Wormskin issue 7, page 2
+- Hirelings: Wormskin issue 7, page 8
 - [Medieval musical instruments](https://en.wikipedia.org/wiki/List_of_medieval_musical_instruments)
 
 ### Prep
@@ -342,3 +344,112 @@ Character descriptions & introductions, then 1407.
 
 - Evening, 29 Harchment
 - Arriving in Prigwort
+
+
+2022-07-02 --- Session 1
+------------------------
+
+### Intro
+
+- Session recap
+- Discuss variable weapon damage rule
+- Create character with Taneb
+  - During this, other players add their birthdays to the calendar:
+    - Birthday tag
+    - Repeat yearly
+
+### State
+
+- 29 Harchment
+- Warm, sunny
+  - Was pouring rain, but we forgot this in the session; do better in
+    the future
+- About 6PM
+- Party arrive in Prigwort (1106) after 8 hours of travel (including
+  stops)
+  - For timekeeping purposes, I'm assuming "a day's travel" is 12
+    hours
+
+### Prep
+
+- Arcane scent for Taneb's magic-user
+
+#### Stories in Prigwort
+
+- Some noble woman (Hilda Harrowmoor, unknown to the gossips) has
+  taken up residence in the Swinney Tower
+  - She's got some servants, but they all look to be fighting-men playing at being servants
+  - The tower's close to the new barracks Lady Harrowmoor is building
+  - She's been exchanging messengers with Harrowmoor Keep and the Elevated Council of Brewers
+
+- Drune spotted to the north east of Prigwort
+  - "I was just off the Harrow Road, hunting a pair of red deer, and all of a sudden one of them Drune stepped out of the trees and just watched me until I went back to the road"
+    - "He didn't say anything, just stood there, looking, but I could tell he didn't want me going in them woods"
+
+- Violet Harrowmoor has gone missing
+  - It happened a few days ago, maybe a week at most
+  - Lady Harrowmoor is besides herself
+  - It was probably them brigands at the ruined abbey
+    - Oh, you don't know the ruined abbey of St. Clewd?  Bad stuff there man, bad stuff.
+    - Well ok, nobody's actually *seen* brigands at the abbey, but it's the sort of place they'd hide out at, right?
+
+- Any of the Prigwort rumours
+
+### Notes
+
+- No Taneb, create character next time.
+- Not using variable weapon damage
+- Decide it's raining
+
+- 29 Harchment: pouring rain
+  - **1106---Prigwort:**
+    - Go to the Wrinkled Medlar
+      - Meet Sprewdiman Kneeve
+      - He offers a fair rate (5gp/night?) for Maybelle to perform
+      - Get food and drink from him
+    - Go to the Clashed Antler (a cheaper place to sleep)
+      - Rumour: Violet Harrowmoor
+      - Learn about the baker's stall at the Frisk market
+
+- 1 Iggwyld: bright, fresh
+  - **1106---Prigwort:**
+    - Maybelle hires a retainer: Wennew
+    - Rumour: Drune north-east
+
+- 2 Iggwyld: warm, sunny
+  - **1106---Prigwort:**
+    - Set off first thing in the morning to the abbey
+  - **1005---Shub's Finger and Stirge Isle:**
+    - Don't stop, just keep following the road
+  - **0906---The Ruined Abbey of St Clewyd:**
+    - See the kids
+    - See the crows atop the bell tower
+    - Squire Tolmen tries to talk them out, but they are unwilling to
+      leave
+    - Brother Stoker confronts the children about desecrating graves
+    - Mr Rag-and-bone drives the PCs off, they hide in the mausoleum
+    - Meet a skeleton, Subprior Pontyth:
+      - He tells them about the ritual to contact the spirit of St
+        Clewyd, and the Clewyd / Sallowbryg monstrosity that got
+        pulled through into this world
+      - He begs to be destroyed, but they cannot
+      - He doesn't know who Mr Rag-and-bone is, but says that evil
+        attracts evil
+    - Venture out again:
+      - See a kid digging for teeth and Mr Rag-and-bone watching
+      - Maybelle tries to charm them
+      - Mr Rag-and-bone attacks!
+      - **Maybelle struck by death rot, 2 weeks to live (17th
+        Iggwyld).**
+
+### Next time
+
+- 3 Iggwyld, morning (need to roll weather)
+- See Wyrmspittle about Maybelle
+  - Knobbled Mandrake
+  - Divine miracle
+- Visit Harrowmoor Keep about Violet
+  - 1000gp reward for info, another 1000gp for bringing Violet back
+  - Protection Scroll vs Undead
+  - Divine Scroll of Dispel Evil
+- Give hook for Winter's Daughter
