@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-07-01
+modified: 2022-07-05
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -209,6 +209,7 @@ Book Series
 
 ### Candidate series
 
+- [Lyonesse](https://en.wikipedia.org/wiki/Lyonesse_Trilogy)
 - [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss)
 - [Mars Trilogy](https://en.wikipedia.org/wiki/Mars_trilogy)
 - [Monthly Girls' Nozaki-kun](https://en.wikipedia.org/wiki/Monthly_Girls%27_Nozaki-kun#Volume_list)
@@ -217,6 +218,7 @@ Book Series
 - [The Black Company](https://en.wikipedia.org/wiki/The_Black_Company)
 - [The Chanur novels](https://en.wikipedia.org/wiki/The_Chanur_novels)
 - [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
+- [The History of Middle-earth](https://en.wikipedia.org/wiki/The_History_of_Middle-earth)
 - [The Third Reich Trilogy](https://en.wikipedia.org/wiki/The_Third_Reich_Trilogy)
 - [The Witcher](https://en.wikipedia.org/wiki/The_Witcher)
 
@@ -314,30 +316,36 @@ Miscellaneous Nonfiction
 Miscellaneous Fiction
 ---------------------
 
-| ISBN            | Title                           | Author            |
-|----------------:+---------------------------------+-------------------|
-| `9781447263401` | Last Days                       | Adam Nevill       |
-| `9780765318145` | Anvil of Stars                  | Greg Bear         |
-| `9780586217467` | The Mote in God's Eye           | Larry Niven       |
-| `9780141191447` | The Haunting of Hill House      | Shirley Jackson   |
-| `9780575082373` | House of Suns                   | Alastair Reynolds |
-| `9780552101233` | Logan's Run                     | William Nolan     |
-| `9780199552351` | The Last Man                    | Mary Shelley      |
-| `9780765333629` | The Weird                       | Jeff VanderMeer   |
-| `9781892391551` | The New Weird                   | Jeff VanderMeer   |
-| `9781402780035` | The Sign of the Four            | I. N. J. Culbard  |
-| `9781906838058` | The Valley of Fear              | I. N. J. Culbard  |
-| `9781402770005` | The Hound of the Baskervilles   | I. N. J. Culbard  |
-| `9781906838355` | The Case of Charles Dexter Ward | I. N. J. Culbard  |
-| `9781906838683` | Shadow Out of Time              | I. N. J. Culbard  |
-| `9781906838768` | Celeste                         | I. N. J. Culbard  |
-| `9781857231793` | Against A Dark Background       | Iain M. Banks     |
-| `9780156306300` | Fiasco                          | Stanislaw Lem     |
-| `9780575082090` | Diaspora                        | Greg Egan         |
-| `9780575082076` | Permutation City                | Greg Egan         |
-| `9780330534239` | Perdido Street Station          | China Mieville    |
-| `9780099529040` | Planet of the Apes              | Pierre Boulle     |
-| `9781447263210` | Wicker Man                      | Hardy             |
-| `9780345497529` | The City & The City             | China Mieville    |
-| `9780006513902` | The Dice Man                    | Luke Rhinehart    |
-|                 | Le Morte d'Arthur               | Sir Thomas Malory |
+| ISBN            | Title                                       | Author             |
+|----------------:+---------------------------------------------+--------------------|
+| `9781447263401` | Last Days                                   | Adam Nevill        |
+| `9780765318145` | Anvil of Stars                              | Greg Bear          |
+| `9780586217467` | The Mote in God's Eye                       | Larry Niven        |
+| `9780141191447` | The Haunting of Hill House                  | Shirley Jackson    |
+| `9780575082373` | House of Suns                               | Alastair Reynolds  |
+| `9780552101233` | Logan's Run                                 | William Nolan      |
+| `9780199552351` | The Last Man                                | Mary Shelley       |
+| `9780765333629` | The Weird                                   | Jeff VanderMeer    |
+| `9781892391551` | The New Weird                               | Jeff VanderMeer    |
+| `9781402780035` | The Sign of the Four                        | I. N. J. Culbard   |
+| `9781906838058` | The Valley of Fear                          | I. N. J. Culbard   |
+| `9781402770005` | The Hound of the Baskervilles               | I. N. J. Culbard   |
+| `9781906838355` | The Case of Charles Dexter Ward             | I. N. J. Culbard   |
+| `9781906838683` | Shadow Out of Time                          | I. N. J. Culbard   |
+| `9781906838768` | Celeste                                     | I. N. J. Culbard   |
+| `9781857231793` | Against A Dark Background                   | Iain M. Banks      |
+| `9780156306300` | Fiasco                                      | Stanislaw Lem      |
+| `9780575082090` | Diaspora                                    | Greg Egan          |
+| `9780575082076` | Permutation City                            | Greg Egan          |
+| `9780330534239` | Perdido Street Station                      | China Mieville     |
+| `9780099529040` | Planet of the Apes                          | Pierre Boulle      |
+| `9781447263210` | Wicker Man                                  | Hardy              |
+| `9780345497529` | The City & The City                         | China Mieville     |
+| `9780006513902` | The Dice Man                                | Luke Rhinehart     |
+| `9780241303061` | Goblin Market and Other Poems               | Rossetti Christina |
+| `9781590177785` | Krabat and the Sorcerer's Mill              | Otfried Preussler  |
+| `9780747592402` | The Ladies of Grace Adieu and Other Stories | Susanna Clarke     |
+| `9781473225565` | Lud-in-the-Mist                             | Hope Mirrlees      |
+| `9780007557288` | Smith of Wootton Major                      | J. R. R. Tolkien   |
+|                 | Le Morte d'Arthur                           | Sir Thomas Malory  |
+|                 | The Charwoman's Shadow                      | Lord Dunsany       |
