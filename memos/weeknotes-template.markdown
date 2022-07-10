@@ -2,7 +2,7 @@
 title: Template for Weeknotes
 taxon: weeknotes
 published: 2019-02-09
-modified: 2022-05-22
+modified: 2022-07-10
 ---
 
 Remove any sections which don't apply:
@@ -14,17 +14,23 @@ taxon: weeknotes-YYYY
 date: YYYY-MM-DD
 ---
 
-## Work
+## [Work]
 
 ## Books
 
 This week I read:
 
-## ...
+## [Roleplaying Games]
 
-## Roleplaying Games
+## [...]
 
 ## Miscellaneous
 
 ## Link Roundup
+
+### [Roleplaying games]
+
+### [Software engineering]
+
+### [Miscellaneous]
 ```
