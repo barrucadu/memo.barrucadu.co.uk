@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-06-14
+modified: 2022-07-10
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -429,9 +429,7 @@ Rumours
 
 11. ?
 
-12. The Psychopomps of Clarke seem to consider Prince Harrick of
-    Drinax a figure of religious significance, and keep petitioning
-    him for a state visit.
+12. ?
 
 13. Apparently some large corporation has been pushing for the
     Imperium to remove the red travel zone restriction on Vume, and is
@@ -440,9 +438,7 @@ Rumours
 14. The government of Paal is paying above-market rates for high-tech
     goods.
 
-15. There's a large ihatei camp on Kteiroa.  World governments near
-    the border are nervous, but some are making a killing selling
-    weapons.  Of course, they prefer Aslan weapons.
+15. ?
 
 16. Thalassa has, once again, rejected Torpol's request for genetic
     material from their floating plant-cities, which the Provosts of
@@ -510,6 +506,9 @@ Rumours
   has fallen, someone needs a shipment of pro-worker leaflets
   delivering, the Workers' Revolution needs weapons, etc.
 
+- The Psychopomps of Clarke seem to consider Prince Harrick of Drinax
+  a figure of religious significance, and keep petitioning him for a
+  state visit.
 
 Things to find in a Space Bazaar
 --------------------------------
@@ -2333,7 +2332,7 @@ Talk through Asset & Faction handouts, and then:
     - Jump to Cordan
     - Orcan finds Hteleitoirl punching a wall
 
-- Week 104:**
+- Week 104:
   - **Mon:**
     - Arrive in Cordan (MI -3)
     - Refuel
@@ -2502,3 +2501,352 @@ Talk through Asset & Faction handouts, and then:
 ### Next time
 
 - Forbidden Lands one-shot
+
+
+Break 1: Forbidden Lands
+------------------------
+
+We played a [Forbidden Lands][] conversion of [Winter's Daughter][],
+as a way to try out both the system and the Dolmenwood setting.  This
+took 2 sessions.
+
+Impressions:
+
+- Dolmenwood has a lot of potential, I definitely want to explore it
+  further.
+- Winter's Daughter is a great little adventure suitable for low-level
+  characters, without much combat (though more can certainly be
+  injected), and a nice fairy-tale feel to it.
+- Forbidden Lands is alright, but I didn't much like the hexcrawl
+  mechanics, and those seem the main reason to use this system over
+  another:
+  - Each action taking a full 6 hours feels way too punishing for some
+    things, like setting up camp.
+  - There's a lot of rolling, which is a big contrast to the rest of
+    the system.
+  - The "getting lost" mechanic is very underwhelming: you can't
+    actually get lost, you always end up in the hex you intended.
+  - There's no mechanic for exploring!
+
+That last point is pretty bizarre.  I can only assume it's because
+non-hidden adventure sites work with the standard Forbidden Lands
+setting, in which people have only just become able to leave their
+villages again: so having all these secrets lying in plain site, and
+somehow unplundered, makes sense; nobody has got there to plunder them
+yet.
+
+[Forbidden Lands]: https://freeleaguepublishing.com/en/games/forbidden-lands/
+[Winter's Daughter]: https://necroticgnome.com/products/dolmenwood-winters-daughter
+
+
+Arc 2: The Aslan Threat
+-----------------------
+
+Trying something different for this bit of the campaign: a more
+structured narrative "arc" which ends with Torpol and Clarke either
+joining Drinax, or leaving its sphere of influence, depending on the
+performance of the Travellers.
+
+The central tension is the Aslan threat:
+
+1. On returning to Drinax (make this happen soon):
+   - Run the opening of *Ihatei!*
+   - The talk of the court is the rumoured Hierate / Imperium treaty
+     allowing the Hierate to claim more worlds in the Reach.
+   - **Rao's briefing:**
+     - Rao knows of the ihatei threat on Kteiroa, briefed by Kasiyl:
+       she briefs the Travellers and gets them to agree to sort it
+       out, she doesn't care *how*, just make sure the ihatei don't
+       attack Drinax, Asim, Torpol, or Clarke.
+     - She also asks what the Travellers have been up to, and will be
+       quite impressed by their new friendship with the Iuwoi, should
+       they reveal that.
+   - **Oleb's show:**
+     - Oleb holds a garden party, in attendance are Drinaxi nobles,
+       the Travellers, Provost Falx of Torpol (who remembers the
+       Travellers fondly and thanks them for his rapid rise to power),
+       a Psychopomp of Clarke (not Keeper Malos), Chieftan Galx, and
+       Kasiyl (who everyone is avoiding but watching carefully).
+     - Oleb announces that things are worse than just rumours: there's
+       an ihatei threat!  He shares what Kasiyl has told him, grandly
+       promises that "his capable agents" (gesturing at the
+       Travellers) will "solve this little problem, as they have so
+       many others", and even brag about their "friendship with the
+       clans of Tyokh" if they told Rao about the Iuwoi.
+     - Use [Game Structure: Party Planning][].
+2. Run *Ihatei!*
+   - On success, ambassadors very impressed, musings of potentially
+     sharing military intelligence in some kind of joint security
+     arrangement.
+   - On failure, reaction depends on what the ihatei did.  Could range
+     from mild disappointment to outright fury or loss of confidence.
+3. **TODO:** some other Aslan adventure, maybe *Lions of Thebus* or
+   *The Prodigal Outcast*.  Try to involve the Iuwoi.  Something which
+   will show the Travellers, and so by extension Drinax, is capable of
+   dealing with a different sort of Aslan problem (ideally by
+   befriending the Aslan involved): a valuable skill to have in this
+   region of space.
+4. Result:
+   - If successful with both, Torpol decides to join a mutual defence
+     & information-sharing alliance with Drinax.  Clarke still
+     skeptical, but falls into place shortly afterwards following
+     Torpol's lead.  Both worlds added to the Kingdom.  Oleb overcome
+     with glee having Torpol, a rich world on the Florial League
+     Route, under his thumb.
+   - Otherwise, reaction depends on the nature of the failures, but at
+     the very least means that Torpol and Clarke won't be entering
+     into an alliance with Drinax.
+
+[Game Structure: Party Planning]: https://thealexandrian.net/wordpress/37995/roleplaying-games/game-structure-party-planning
+
+
+2022-07-10 --- Week 115, Tyokh
+------------------------------
+
+### Intro
+
+> Welcome back to /tea/raveller.  Let's recap our story so far...
+>
+> Way back in week 30, you signed on with King Oleb of Drinax as
+> privateers and agents, fulfilling missions and disrupting shipping
+> to help rebuild support for the old Kingdom of Drinax, once a mighty
+> interstellar power, but bombed into oblivion by the Ahroay'if clan
+> two centuries ago for being too greedy with tax on trade passing
+> through the Kingdom's borders.
+>
+> To that end, you helped out the worlds of Torpol and Clarke,
+> catching a pirate who dared attack their worlds, presenting him as a
+> gift from King Oleb.  This has brought Torpol and Clarke into
+> Drinax's sphere of influence, and the three worlds have been
+> exchanging ambassadors, gifts, and information ever since.  King
+> Oleb is very pleased... but it's not enough!  Neither world has
+> formally joined an alliance with Drinax yet!  Oleb demands more!
+>
+> You've also got up to various other missions around the Trojan
+> Reach, making new friends, bumping into old enemies, and making a
+> bit of a name for yourselves.  Most recently, you delivered
+> Hteleitoirl, second son of the Iuwoi clan lord, to the clan palace
+> on Tyokh for his execution.  You managed to uncover evidence of a
+> traitor in the Iuwoi ranks, masterminded by agents of clan Htyowao,
+> but you weren't able to save Hteleitoirl.  You conducted yourselves
+> well, though, and Iuwoiko, the clan lord, has expressed his thanks
+> and his respect for you.  You now have some friends in the Hierate.
+>
+> And that's where we left off last time.
+>
+> In the week since the execution, you've remained on Tyokh.  Astraea
+> gave the poem she composed about Hteleitoirl to Iuwoiko, who was
+> appreciative and politely commented that it was good for a human.
+> And two interesting things have happened.
+>
+> Firstly, you've been contacted by an Aslan claiming to be the leader
+> of the Rea'a Hrillkhir, some kind of organised crime syndicate.  He
+> knew all about your connections with Drinax and the whole space
+> piracy thing, and offered you a deal: access to the Aslan black
+> markets to fence goods in this sector, if you capture and bring him
+> a shipment of high-quality dustspice.  Apparently the very best
+> stuff is imported by the Tyeyo Fteahrao Yolr corporation.
+>
+> Secondly, you've heard rumours than an Imperial Treasure Ship was
+> captured by the Aslan pirate Hroal Irontooth.  The general mood was
+> a kind of grudging approval.  The Aslan don't like pirates at all,
+> considering them dishonourable thieves, but they couldn't help but
+> be impressed by someone who took on one of the Imperium's famed and
+> well-guarded Treasure Ships, defeating its escorts, and making off
+> with the credits, precious metals, and diplomatic papers within.
+>
+> It's now Monday of week 115.  Orcan's bruises, from his duel with
+> the Aslan executioner, have healed.  You're all on Tyokh, with the
+> scout ship.  The Harrier is parked at Drinax.  And the Far Trader is
+> still doing its thing over at Tobia.  Both the Harrier and Scout
+> Ship need maintenance.
+>
+> What do you do?
+
+### Prep
+
+#### Ihatei! / Friends in Dry Places
+
+- "Word from the Hierate":
+  - Rao gives the briefing (Oleb isn't present)
+    - Send the Aslan anywhere but Drinax, Asim, Torpol, or Clarke
+  - She also asks what the Travellers have been up to, and is
+    impressed if they reveal their friendship with the Iuwoi
+  - Anything said here is communicated back to Oleb, who may reveal
+    things publicly at the garden party
+- Kteiroa:
+  - Utea is a male (for consistency with *Friends in Dry Places*)
+  - If the Travellers arrive in an Aslan ship, they're hailed by
+    several ihatei leaders from the camp (as well as by one of Utea's
+    wives from the port).  In Trokh, naturally.
+  - Routine INT / Streetwise to recognise Utea as being open to
+    dealing with pirates and stolen goods.
+  - Show "Utea's Banner" handout
+  - **In Orbit:**
+    - Hundreds of ships of various sizes
+    - Mostly 100-ton ihateisho scouts, but there are bigger ships all
+      the way up to 2000-ton Sakhai-class assault carriers.
+  - **Friends in Dry Places:**
+    - Utea will seize the opportunity to have some outsiders do his
+      work for him, and will treat the Travellers to dinner and make
+      his proposal if they impress him.
+    - He wants this all completing as soon as possible since he is
+      expecting another wave of ihatei and their leaders to arrive in
+      a matter of weeks.
+      - If asked why, he can share the tale of the war
+  - **Timeline:**
+    - Week +0: Travellers get their mission on Drinax
+    - Week +7: Iykhi, Toihoi, and 50 new ships of Htyowao and
+      Hkaaiheir ihatei arrive
+    - Week +9: Iykhi joins Eihei and plans to attack Drinax
+    - Week +25: Aslan attack Drinax
+- Approaching the Iuwoi:
+  - The Iuwoi can't be seen to be helping humans against the Hierate,
+    but they do know the political situation and can send along an
+    advisor to help the Travellers navigate the camp.
+  - The advisor will not suggest courses of action in the open where
+    other Aslan may overhear, but can do so from the privacy of the
+    Traveller's ship.
+
+#### Garden Party
+
+- Locations:
+  - **Hedge maze:**
+    - A knee-high hedge maze, which at the press of a button can
+      project an opaque leafy barrier to twice human height.  Even
+      when the barrier is down, the maze is something of an obstacle,
+      as the hedges are too large to gracefully step over.
+  - **Fountains:**
+    - A pair of marble fountains, water spewing from the gun turrets
+      of carven spacecraft.
+  - **Stage:**
+    - A small wooden stage, erected for the party, with several
+      musicians playing classical music from the golden age of Drinax.
+  - **Lawns:**
+    - A wide open expanse of well-kept greenery.
+
+- Guests:
+  - **King Oleb:**
+    - King of Drinax
+    - Acts like a buffoon, but is more cunning than he lets on
+  - **Prince Harrick:**
+    - Elder son of King Oleb, but not heir to the throne
+    - Doesn't seem all there, since his injury and subsequent 20-year
+      regeneration in a tank
+  - **Princess Rao:** (start)
+    - Younger daughter of King Oleb, heir to the throne
+    - Cunning diplomat, the mastermind behind the plan
+  - **Lord Wrax:** (start)
+    - Commander of the Star Guard
+    - Proud Prussian general type, wants to build Drinax's navy
+  - **Scholar Voha:** (start)
+    - Elderly master of the Scholar's Tower
+    - A senile doddery old man at first appearance, his sharp mind
+      reveals itself when he gets engaged in a topic
+  - **Thao Poloc:** (start)
+    - Consul from the Third Imperium
+    - A historian, spends his time studying at the Scholar's Tower,
+      dealing with the occasional trade paperwork, and incompetently
+      engaging in light spying
+  - **Lady Hil:** (start)
+    - Influential noble
+    - Very status-conscious, has no time for anyone who cannot trace
+      their lineage back to the Sindalian Empire; popular amongst
+      other nobles
+  - **Provost Falx:** (start)
+    - Administrator of the Torpol Starport and provisional ambassador
+      to Drinax
+    - Obsessed with improving his position, even at the cost of his
+      world
+  - **Keeper Neblitt:**
+    - Minor bureaucrat of Clarke and ambassador to Drinax
+    - Dour, pale, unhealthy-looking, not talkative
+  - **Chieftain Galx:** (start)
+    - Leader of the Vespexers
+    - Completely encased in an encounter suit, muffled female voice,
+      tests all food and liquids before consuming
+  - **Kasiyl of the Ahroay'if:** (start)
+    - Exiled Aslan prince, living like a tramp at Drinax
+    - Proud and mighty warrior, wants to prove himself and regain his
+      place, but restrains himself around humans
+
+- Conversations:
+  - The captured treasure ship
+  - The leaked Imperium / Aslan treaty
+    - In exchange for favourable trade terms, the Hierate can annex
+      any independent world in the Dpres, Sindal, Tliowaha, and
+      Borderland subsectors, provided they do not come within six
+      parsecs of the Imperial border.
+    - Both Hierate and Impreium claim it's a fake, but it's *very*
+      well made if so
+  - Upcoming diplomatic visit from the Hierate to the Imperium
+  - The ihateisho seen on Drinax
+  - Piracy hasn't been so bad lately
+  - Torpolian water polo (King Oleb is quite taken by it)
+  - Rumour 6
+  - Rumour 7
+  - Rumour 12
+  - Rumour 16
+
+- Events:
+  - Provost Falx approaches the travellers
+  - Prince Harrick arrives with Keeper Neblitt discussing a visit to
+    Clarke (rumour 12)
+  - King Oleb arrives
+  - King Oleb announces the travellers will solve the ihatei problem
+    - Chieftain Galx comments that some vespexers were taken ("no
+      doubt killed and eaten")
+
+- Groups / conversations (start):
+  - Lord Wrax / with some officers of the Star Guard, discussing the ihateisho & treaty
+  - Scholar Voha, Thao Poloc / sindalian artefacts
+  - Lady Hil / with her ladies, will not deign to speak to anyone other than royalty or an ambassador
+  - Chieftain Galx / examining the punch bowl carefully, being watched by a servant
+  - Kasiyl of the Ahroay'if / being studiously ignored and eyed by all
+
+### Notes
+
+- Week 115:
+  - **Monday:**
+    - Jump to Kteiroa
+
+- Week 116:
+  - **Monday:**
+    - Arrive in Kteiroa
+    - Agree to do job for Utea (*Friends in Dry Places*)
+    - Refuel
+    - Jump to Drinax
+
+- Week 117:
+  - **Monday:**
+    - Arrive in Drinax
+    - Blow up ihateisho
+    - Rao's briefing
+    - Order part for The World from the Scholar's Tower (and pay for
+      delivery)
+    - Talk to Kasiyl
+    - Attend the garden party:
+      - Learn about the treaty
+      - Learn about the Vespexers
+      - Learn about the Psychopomps and Prince Harrick (rumour 12)
+      - Oleb announces the Travellers will solve this ihatei problem
+    - Buy piping for Utea
+  - **Thursday:**
+    - Maintenance
+    - Refuel
+    - Jump to Kteiroa
+
+- Week 118:
+  - **Thursday:**
+    - Arrive in Kteiroa
+    - Talk to Utea:
+      - Learn about Eihei
+      - Learn about Elyo
+      - Learn about Teaw
+
+### Next time
+
+- Week 118, Thursday
+- Kteiroa
+- Go to Tyokh for the power plant and water reclamation plant for Utea
+- Return to Kteiroa to influence the clans to attack another world
