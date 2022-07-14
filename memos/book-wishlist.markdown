@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-07-05
+modified: 2022-07-14
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -247,6 +247,8 @@ Roleplaying Games
 |----------------------:|-----------------------------------------|
 | Call of Cthulhu       | [Cults of Cthulhu][]                    |
 |                       | [Keeper Tips][]                         |
+|                       | [A Time to Harvest][]                   |
+|                       | [Cthulhu Dark Ages][]                   |
 | RuneQuest             | [The Glorantha Sourcebook][]            |
 |                       | [The Guide to Glorantha][]              |
 | Traveller             | [Mercenary Box Set][]                   |
@@ -268,8 +270,10 @@ Roleplaying Games
 |                       | [Longwinter (Referee's Book)][]         |
 |                       | [Longwinter (Visitor's Book)][]         |
 
-[Cults of Cthulhu]: https://www.chaosium.com/blogcults-of-cthulhu-is-coming-this-halloween/
+[Cults of Cthulhu]: https://www.chaosium.com/cults-of-cthulhu-hardcover/
 [Keeper Tips]: https://www.chaosium.com/keeper-tips/
+[A Time to Harvest]: https://www.chaosium.com/a-time-to-harvest-hardcover/
+[Cthulhu Dark Ages]: https://www.chaosium.com/cthulhu-dark-ages-3rd-edition-hardcover/
 
 [The Glorantha Sourcebook]: https://www.chaosium.com/the-glorantha-sourcebook-hardcover/
 [The Guide to Glorantha]: https://www.chaosium.com/the-guide-to-glorantha-slipcase-set/
