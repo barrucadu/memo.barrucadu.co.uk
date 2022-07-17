@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-07-02
+modified: 2022-07-17
 taxon: general-games
 ---
 
@@ -453,3 +453,59 @@ Character descriptions & introductions, then 1407.
   - Protection Scroll vs Undead
   - Divine Scroll of Dispel Evil
 - Give hook for Winter's Daughter
+
+
+2022-07-30 --- Session 2
+------------------------
+
+### Intro
+
+- Session recap
+- Create character with Taneb
+
+### State
+
+- 3 Iggwyld
+- Roll weather
+- Morning
+- Party in the Clashed Antler
+
+### Prep
+
+- Arcane scent for Taneb's magic-user
+
+#### Kidnapped Violet Harrowmoor
+
+- See Wyrmspittle about Maybelle:
+  - He can identify the death rot and how long she has to live
+  - Gives possible cures:
+    - Knobbled Mandrake
+    - Divine miracle
+
+- Visit Harrowmoor Keep to give the news of Violet:
+  - 1000gp reward for info, another 1000gp for bringing Violet back
+  - Castle is sad and dour, comes to life with the news
+  - A dozen knights dispatched
+  - Reverend Unctio hands over scrolls:
+    - Protection Scroll vs Undead
+    - Divine Scroll of Dispel Evil
+
+- Golden Wood for knobbled mandrake:
+  - [Adventure](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
+
+#### Stories in Prigwort
+
+- One of Mostlemyre Drouge's servitors puts up a "help wanted" sign to retrieve an object
+  - Hook for *Winter's Daughter*
+
+- Some noble woman (Hilda Harrowmoor, unknown to the gossips) has
+  taken up residence in the Swinney Tower
+  - She's got some servants, but they all look to be fighting-men playing at being servants
+  - The tower's close to the new barracks Lady Harrowmoor is building
+  - She's been exchanging messengers with Harrowmoor Keep and the Elevated Council of Brewers
+
+- Any of the Prigwort rumours
+
+### Notes
+
+### Next time
