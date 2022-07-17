@@ -3,7 +3,7 @@ title: Traveller (2021-10 to ?) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-07-10
+modified: 2022-07-17
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -410,15 +410,9 @@ Rumours
    caused a big commotion, showered people with money, and eventually
    left to oversee business elsewhere.
 
-7. **Shadows of Sindal:** Prince Richter Grehai claims to be the
-   legitimate heir to the Sindalian throne, the Grehai Movement is a
-   gathering of well-meaning but not-very-competent followers who aim
-   to deter Aslan expansion into the Trojan Reach.
+7. ?
 
-8. A hidden enclave of the Cult of the Traveller was found recently on
-   [nearby world].  The security forces tried to take them into
-   custody, but the cultists turned it into a bloodbath.  Apparently
-   they laugh and sing as they kill...
+8. ?
 
 9. Someone on Sperle is trying to set up a smuggling route to get past
    the GeDeCo-owned shipping lanes.
@@ -509,6 +503,17 @@ Rumours
 - The Psychopomps of Clarke seem to consider Prince Harrick of Drinax
   a figure of religious significance, and keep petitioning him for a
   state visit.
+
+- **Shadows of Sindal:** Prince Richter Grehai claims to be the
+  legitimate heir to the Sindalian throne, the Grehai Movement is a
+  gathering of well-meaning but not-very-competent followers who aim
+  to deter Aslan expansion into the Trojan Reach.
+
+- A hidden enclave of the Cult of the Traveller was found recently on
+  Byrni.  The security forces tried to take them into custody, but the
+  cultists turned it into a bloodbath.  Apparently they laugh and sing
+  as they kill...
+
 
 Things to find in a Space Bazaar
 --------------------------------
@@ -2850,3 +2855,103 @@ The central tension is the Aslan threat:
 - Kteiroa
 - Go to Tyokh for the power plant and water reclamation plant for Utea
 - Return to Kteiroa to influence the clans to attack another world
+
+
+2022-07-17 --- Week 118, Kteiroa
+--------------------------------
+
+### State
+
+- At Kteiroa
+- Week 118, Thursday
+- Maintenance due in week 121
+- **Timeline:**
+  - Week 124: Iykhi, Toihoi, and 50 new ships of Htyowao and Hkaaiheir
+    ihatei arrive
+  - Week 126: Iykhi joins Eihei and plans to attack Drinax
+  - Week 142: Aslan attack Drinax
+
+### Prep
+
+#### Ihatei! / Friends in Dry Places
+
+- Approaching the Iuwoi:
+  - The Iuwoi can't be seen to be helping humans against the Hierate
+    or to be working with an exile (Kasiyl), but they do know the
+    political situation and can explain that.
+
+- Tyokh scrap yard:
+  - Availability: see *Ships of the Reach*
+  - All are demilitarised, with easy-to-access spare or valuable parts
+    stripped out: shells of ships really, in bad condition for flying.
+  - **Buying:**
+    - Office looks like a bridge (eg, seat is a pilot's chair)
+    - Run by a Vargr (ksae.gueng.tnek, "jim") & station bureaucracy
+      android ("andy")
+    - Station won't allow entire Aslan ships sold to non-Aslan
+    - Sell for d6 * 10% of the original value
+      - Water reclamation is priced as the power plant * 2 (due to
+        difficulty of removing just that part)
+    - Takes 6 days + (d6 hours per 100 tons of ship)
+  - **Stealing:**
+    - Ships are in a holding orbit around a rockball
+    - Guarded by an automated missile launcher which sends a distress
+      message (re-roll 5- on PHR table) if an approaching ship is not
+      recognised.
+
+### Notes
+
+- Week 118:
+  - **Thursday:**
+    - Find Eihei's camp
+    - Hear the tale of the war
+    - Meet teaw
+    - Jump to Tyokh
+
+- Week 119:
+  - **Thursday:**
+    - Buy stuff from Jim
+  - **Friday:**
+    - Learn the political situation from an Iuwoi agent
+      - Toihoi
+      - Iykhi
+    - Buy gifts
+
+- Week 120:
+  - **Wednesday:**
+    - Grehai Movement rumour (on Paal)
+    - Cult of the Traveller rumour (on Byrni)
+    - Refuel at gas giant
+  - **Sunday:**
+    - Jump to Kteiroa
+
+- Week 121:
+  - **Sunday:**
+    - Set up power plant (until Sunday)
+    - Set up water recycling plant (until Wednesday)
+
+- Week 122:
+  - **Monday:**
+    - Eihei advocates attacking Drinax for the floating palace
+  - **Tuesday:**
+    - Learn Utea wants to delay the ihatei leaving
+  - **Wednesday:**
+    - Finish water recycling plant
+    - Win honour duel: take +1 going forwards (social checks only)
+  - **Thursday:**
+    - Political shenanigans: take +6 going forwards (htyowao social
+      checks only)
+  - **Friday:**
+    - Meet Fyukh
+  - **Saturday:**
+    - Elyo wants to attack Paal
+  - **Sunday:**
+    - Finish power plant
+
+### Next time
+
+- Sunday, week 122 (evening)
+- Kteiroa
+- Harrier maintenance due
+- *Friends in Dry Places* power failure & solutions
+- *Ihatei!* Htyowao / Hkaaiheir arrival
