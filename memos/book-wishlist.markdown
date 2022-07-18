@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-07-14
+modified: 2022-07-18
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -249,6 +249,9 @@ Roleplaying Games
 |                       | [Keeper Tips][]                         |
 |                       | [A Time to Harvest][]                   |
 |                       | [Cthulhu Dark Ages][]                   |
+|                       | [Fear's Sharp Little Needles][]         |
+|                       | [The Things We Leave Behind][]          |
+|                       | [Viral][]                               |
 | RuneQuest             | [The Glorantha Sourcebook][]            |
 |                       | [The Guide to Glorantha][]              |
 | Traveller             | [Mercenary Box Set][]                   |
@@ -274,6 +277,9 @@ Roleplaying Games
 [Keeper Tips]: https://www.chaosium.com/keeper-tips/
 [A Time to Harvest]: https://www.chaosium.com/a-time-to-harvest-hardcover/
 [Cthulhu Dark Ages]: https://www.chaosium.com/cthulhu-dark-ages-3rd-edition-hardcover/
+[Fear's Sharp Little Needles]: https://www.drivethrurpg.com/product/245289/Fears-Sharp-Little-Needles
+[The Things We Leave Behind]: https://www.drivethrurpg.com/product/191250/The-Things-We-Leave-Behind--An-Anthology-of-Modern-Day-Call-of-Cthulhu-Scenarios
+[Viral]: https://www.drivethrurpg.com/product/391974
 
 [The Glorantha Sourcebook]: https://www.chaosium.com/the-glorantha-sourcebook-hardcover/
 [The Guide to Glorantha]: https://www.chaosium.com/the-guide-to-glorantha-slipcase-set/
