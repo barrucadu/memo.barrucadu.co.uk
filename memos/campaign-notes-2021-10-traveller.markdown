@@ -1,12 +1,12 @@
 ---
-title: Traveller (2021-10 to ?) notes
+title: Traveller (2021-10 to 2022-07) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-07-17
+modified: 2022-07-23
 ---
 
-<aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+<aside class="highlight">This campaign is on hiatus and this memo contains spoilers.</aside>
 
 Pitch
 -----
