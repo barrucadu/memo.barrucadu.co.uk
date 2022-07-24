@@ -2,7 +2,7 @@
 title: Backups
 taxon: techdocs-practices
 tags: aws
-date: 2021-04-17
+date: 2022-07-24
 ---
 
 I take automatic full and incremental off-site backups using
@@ -114,90 +114,63 @@ Backup script: duplicity and shell
 Because I don't take full filesystem backups I have two parts to my
 backup scripts.  The main script:
 
-1. Checks for a host-specific backup script (not all hosts take
-   backups)
-2. Creates a temporary directory for the backup to be generated in
-3. Runs the host-specific script
+1. Creates a temporary directory for the backup to be generated in
+2. Runs a collection of host-specific scripts (defined in my NixOS
+   configuration)
 4. Uses duplicity to generate a full or incremental backup, targetting
    the S3 bucket
 
 It looks like this:
 
-```bash
-#!/bin/sh
+```nix
+let
+  runScript = cmd: name: source: ''
+    echo "${name}"
+    mkdir "${name}"
+    pushd "${name}"
+    if ! time ${cmd} "${pkgs.writeText "${name}.backup-script" source}"; then
+      fail "Backup failed in ${name}"
+    fi
+    popd
+  '';
 
-set -e
+  script = pkgs.writeShellScript "backup.sh" ''
+    set -e
 
-# location of scripts
-BACKUP_SCRIPT_DIR=$HOME/backup-scripts
+    function fail(){
+      export AWS_ACCESS_KEY_ID=$ALERT_AWS_ACCESS_KEY_ID
+      export AWS_SECRET_ACCESS_KEY=$ALERT_AWS_SECRET_ACCESS_KEY
+      echo "Backup failed: $1"
+      aws sns publish --topic-arn "$TOPIC_ARN" --subject "Alert: ${hostname}" --message "$1"
+      exit 1
+    }
 
-# hostname
-MY_HOST=`hostname`
-
-BACKUP_TYPE=$1
-if [[ -z "$BACKUP_TYPE" ]]; then
-  echo 'specify a backup type!'
-  exit 1
-fi
-
-if [[ -d "${BACKUP_SCRIPT_DIR}/host-scripts/${MY_HOST}" ]]; then
-  DIR=`mktemp -d`
-  trap "rm -rf $DIR" EXIT
-  cd $DIR
-
-  mkdir "$MY_HOST"
-  pushd "$MY_HOST"
-  for script in "${BACKUP_SCRIPT_DIR}/host-scripts/${MY_HOST}"/*.sh; do
-    echo "$(basename $script)"
-    if ! time "$script"; then
-      send-host-alert "Backup failed in ${script}"
+    BACKUP_TYPE=$1
+    if [[ -z "$BACKUP_TYPE" ]]; then
+      echo 'specify a backup type!'
       exit 1
     fi
-  done
-  popd
 
-  if ! time $BACKUP_SCRIPT_DIR/duplicity.sh $BACKUP_TYPE $MY_HOST; then
-    send-host-alert "Backup upload failed"
-    exit 1
-  fi
-else
-  echo 'nothing to do!'
-fi
-```
+    DIR=`mktemp -d`
+    trap "rm -rf $DIR" EXIT
+    cd $DIR
 
-The `duplicity.sh` script sets some environment variables and common
-parameters:
+    mkdir "${hostname}"
+    pushd "${hostname}"
 
-```bash
-#!/usr/bin/env nix-shell
-#!nix-shell -i bash -p duplicity "python3.withPackages (ps: [ps.boto3])"
+    ${concatStringsSep "\n" (mapAttrsToList (runScript "bash -e -o pipefail") cfg.scripts)}
+    ${concatStringsSep "\n" (mapAttrsToList (runScript "python3") cfg.pythonScripts)}
 
-set -e
+    popd
 
-# location of scripts
-BACKUP_SCRIPT_DIR=$HOME/backup-scripts
+    export AWS_ACCESS_KEY_ID=$DUPLICITY_AWS_ACCESS_KEY_ID
+    export AWS_SECRET_ACCESS_KEY=$DUPLICITY_AWS_SECRET_ACCESS_KEY
+    if ! time duplicity --s3-european-buckets --s3-use-multiprocessing --s3-use-new-style --verbosity notice "$BACKUP_TYPE" "${hostname}" "boto3+s3://barrucadu-backups/${hostname}"; then
+      fail "Backup upload failed"
+    fi
+  '';
 
-# aws config
-AWS_PROFILE="backup"
-AWS_S3_BUCKET="barrucadu-backups"
-
-if [[ ! -e $BACKUP_SCRIPT_DIR/passphrase.sh ]]; then
-  echo 'missing passphrase file!'
-  exit 1
-fi
-
-source $BACKUP_SCRIPT_DIR/passphrase.sh
-
-export AWS_PROFILE=$AWS_PROFILE
-export PASSPHRASE=$PASSPHRASE
-
-duplicity                  \
-  --s3-european-buckets    \
-  --s3-use-multiprocessing \
-  --s3-use-new-style       \
-  --verbosity notice       \
-  "$@"                     \
-  "boto3+s3://${AWS_S3_BUCKET}/$(hostname)"
+  # ...
 ```
 
 Duplicity's incremental backups are based on hashing chunks of files,
@@ -207,13 +180,9 @@ anew every time) since the last full backup.
 
 ### Alerting
 
-The main backup script calls a `send-host-alert` script on failure,
-which sends me an email and a text message using [Amazon SNS][].
-
-This is documented more in the [monitoring memo][].
+The main backup script sends me an email and a text message using [Amazon SNS][] on failure.
 
 [Amazon SNS]: https://aws.amazon.com/sns/
-[monitoring memo]: monitoring.html
 
 ### Encryption
 
@@ -233,73 +202,6 @@ succession would probably give me big enough problems that not having
 a backup of my git repositories or RPG PDFs is a small concern---it
 could also take out my backups themselves, which are in Ireland.
 
-### Host-specific scripts
-
-These aren't terribly interesting, or useful to anyone other than me,
-so I'll just give an example rather than go through each one.
-
-The script for carcosa, my VPS, backs up:
-
-- All my public github repositories (I don't have any private ones)
-- All my self-hosted repositories
-- My [syncthing][] directory
-- A few databases
-
-Here's the git repository step:
-
-```bash
-#! /usr/bin/env nix-shell
-#! nix-shell -i bash -p jq
-
-source ~/secrets/backup-scripts/gitea-token.sh
-
-# I have no private github repos, and under 100 public ones; so this
-# use of the public API is fine.
-function clone_public_github_repos() {
-  curl 'https://api.github.com/users/barrucadu/repos?per_page=100' 2>/dev/null | \
-    jq -r '.[].clone_url' | \
-    while read url; do
-      git clone --bare "$url"
-    done
-}
-
-function clone_all_private_gitea_repos() {
-  curl -H "Authorization: token ${GITEA_TOKEN}" https://git.barrucadu.dev/api/v1/orgs/private/repos 2>/dev/null | \
-    jq -r '.[].ssh_url' | \
-    while read url; do
-      git clone --bare "$url"
-    done
-}
-
-function clone_all_public_gitea_repos() {
-  curl -H "Authorization: token ${GITEA_TOKEN}" https://git.barrucadu.dev/api/v1/users/barrucadu/repos 2>/dev/null | \
-    jq -r '.[].ssh_url' | \
-    while read url; do
-      git clone --bare "$url"
-    done
-}
-
-set -e
-
-mkdir -p git/git.barrucadu.dev/private
-mkdir -p git/git.barrucadu.dev/public
-mkdir -p git/github.com
-
-pushd git/git.barrucadu.dev/private
-clone_all_private_gitea_repos
-popd
-
-pushd git/git.barrucadu.dev/public
-clone_all_public_gitea_repos
-popd
-
-pushd git/github.com
-clone_public_github_repos
-popd
-```
-
-[syncthing]: https://syncthing.net/
-
 
 Backup automation: systemd timers
 ---------------------------------
@@ -313,43 +215,32 @@ The backups are taken by two systemd services which are defined in my
 NixOS configuration:
 
 ```nix
-#############################################################################
-## Backups
-#############################################################################
-
 systemd.timers.backup-scripts-full = {
   wantedBy = [ "timers.target" ];
-  timerConfig = {
-    OnCalendar = config.services.backup-scripts.OnCalendarFull;
-  };
+  timerConfig.OnCalendar = cfg.onCalendarFull;
 };
 
 systemd.timers.backup-scripts-incr = {
   wantedBy = [ "timers.target" ];
-  timerConfig = {
-    OnCalendar = config.services.backup-scripts.OnCalendarIncr;
-  };
+  timerConfig.OnCalendar = cfg.onCalendarIncr;
 };
 
 systemd.services.backup-scripts-full = {
   description = "Take a full backup";
-  serviceConfig.WorkingDirectory = config.services.backup-scripts.WorkingDirectory;
-  serviceConfig.ExecStart = "${pkgs.zsh}/bin/zsh --login -c './backup.sh full'";
-  serviceConfig.User = config.services.backup-scripts.User;
-  serviceConfig.Group = config.services.backup-scripts.Group;
+  path = servicePath;
+  environment.PYTHONPATH = servicePythonPath;
+  serviceConfig = serviceConfig "full";
 };
 
 systemd.services.backup-scripts-incr = {
   description = "Take an incremental backup";
-  serviceConfig.WorkingDirectory = config.services.backup-scripts.WorkingDirectory;
-  serviceConfig.ExecStart = "${pkgs.zsh}/bin/zsh --login -c './backup.sh incr'";
-  serviceConfig.User = config.services.backup-scripts.User;
-  serviceConfig.Group = config.services.backup-scripts.Group;
+  path = servicePath;
+  environment.PYTHONPATH = servicePythonPath;
+  serviceConfig = serviceConfig "incr";
 };
 ```
 
-The working directory, user, group, and frequencies are all
-configurable---but so far no host overrides them.  I thought about
-having a separate backup user, but---as everything I want to back up
-is owned by user anyway---decided that it didn't gain any security and
-made everything more awkward.
+The units run as my user.  I thought about having a separate backup
+user, but---as everything I want to back up is owned by my user
+anyway---decided that it didn't gain any security and made everything
+more awkward.
