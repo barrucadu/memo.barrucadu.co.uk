@@ -2,8 +2,14 @@
 title: Backups
 taxon: techdocs-practices
 tags: aws
-date: 2022-07-24
+date: 2022-07-25
+superseded_by: backups
 ---
+
+<aside class="highlight">
+This is out of date.  See [my NixOS configuration](https://github.com/barrucadu/nixfiles) instead.
+</aside>
+
 
 I take automatic full and incremental off-site backups using
 [duplicity][].  I don't need to take full filesystem backups, because

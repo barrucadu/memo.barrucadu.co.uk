@@ -2,8 +2,13 @@
 title: Monitoring
 taxon: techdocs-practices
 tags: aws
-date: 2021-03-16
+date: 2022-07-25
+superseded_by: monitoring
 ---
+
+<aside class="highlight">
+This is out of date.  See [my NixOS configuration](https://github.com/barrucadu/nixfiles) instead.
+</aside>
 
 I have basic monitoring for my servers, checking for availability and
 hardware failure.  A monitoring failure sends me a text message and an
