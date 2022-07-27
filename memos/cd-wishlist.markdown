@@ -2,7 +2,7 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2022-05-12
+modified: 2022-07-27
 ---
 
 This memo contains a big list of CDs I want.  It's probably not very
@@ -190,6 +190,12 @@ Artists
 - Let Mortal Heroes Sing Your Fame
 - Oath Bound
 - With Doom We Come
+
+### [Thangorodrim](https://www.spirit-of-metal.com/en/band/Thangorodrim)
+
+- Taur nu Fuin
+- Gil-Estel
+- Prologue
 
 ### [Ulver](https://en.wikipedia.org/wiki/Ulver_discography)
 
