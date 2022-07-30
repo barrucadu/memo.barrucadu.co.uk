@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-07-17
+modified: 2022-07-30
 taxon: general-games
 ---
 
@@ -163,63 +163,62 @@ entry.
 
 If the amount of gold spent is more than the PC has, and the party
 cannot (or won't) cover it, the PC is now in debt to someone nefarious
-and must also roll for a mishap.
+and must Save vs Poison or roll for a mishap.
 
 If the die result is higher than the PC's level, they must roll for a
 mishap.
 
-#### Mishaps (1d20)
+#### Mishaps (3d6)
 
-1. **Make a fool of yourself in public.**  Gain no XP.  Check CHA or
-   gain reputation in this settlement as a drunken lout.
-2. **Involved in random brawl.**  Check STR or lose d3 HP.
-3. **Minor misunderstanding with local authorities.**  Check CHA: on
-   success, pay a fine of 2d6 * 25 gold; on failure (or inability to
-   pay the fine), 1d6 days in prison.
-4. **Romantic entanglement.**  Check WIS to avoid nuptials.
-   Otherwise: 1--3 scorned lover; 4--6 angered parents.
-5. **Gambling losses.**  Roll the dice as if you caroused again to see
-   how much is lost (no additional XP).
-6. **Gain local reputation as the life of the party.**  Check CHA: on
-   failure, all future carousing in this settlement costs double due
-   to hangers-on.
-7. **Insult local person of rank.**  Check CHA: on success, they are
-   amenable to some sort of apology and reparations.
-8. **Venereal disease.**  Check CON or contract a venereal disease.
-9. **New tattoo.**  1--3 it's actually pretty cool; 4 it's lame; 5 it
-   could have been cool, but something is goofed up or misspelled; 6
-   it says something insulting, stupid, or crude in an unknown
-   language.
-10. **Beaten and robbed.**  Lose all your personal effects, and are
-    reduced to half HP.
-11. **Gambling binge.**  Lose all your gold, gems, jewellery.  Check
-    WIS for each magic item in your possession: on failure, it is
-    gone.
-12. **Hangover.**  -2 penalty to attack rolls and saving throws for
-    the next day.
-13. **Target of lewd advances turns out to be a witch.**  Save versus
-    spells or be turned into a pig.
-14. **Initiated into some sort of secret society or weird cult.**
-    Check INT to remember the signs and passes.
-15. **Invested in a "sure-fire" scheme.**  Lose all spare cash (3-in-6
-    chance of all gems and jewellery too).  1--4 it's bogus; 5 it's
-    bogus and the authorities think you're in on it; 6 it's a winner,
-    returns investment and d% profits in 3d4 months.
-16. **Wake up stark naked in a random local building.**  1--3 the
-    inhabitants aren;t happy; 4--6 they smile and thank you for
-    stopping by.
-17. **Major misunderstanding with local authorities.**  Imprisoned
-    until fines and bribes totalling 1d6 * 1000 gold paid.  All
-    weapons, armour, and magic items confiscated.
-18. **Fall head-over-heels in love.**  5-in-6 chance your beloved is
-    already married.
-19. **Get in way over your head and pray for salvation.**  God
-    listens, and now you're under the effects of a quest spell.
-20. **Accidentally start a fire!**  Roll 1d6: 1--2 burn down your
-    favourite inn; 3--4 some other den of ill repute reduced to ash;
-    5--6 a big chunk of town goes up in smoke.  Roll 1d6 again: 1--2
-    nobody knows it was you; 3--4 your fellow carousers know you did
-    it; 5 someone else knows; 6 everyone knows.
+3. **Get in way over your head and pray for salvation.**  God listens, and now you're under the effects of a quest spell.
+4. **Wake up in the forest.** GM secretly rolls to determine which adjacent hex you end up in.
+5. **Late-night caterwauling.** Unable to speak coherently for 3 1d3 days, this prevents spellcasting.
+6. **Minor misunderstanding with local authorities.**  Check CHA: on success, pay a fine of 2d6 * 25 gold; on failure (or inability to pay the fine), 1d6 days in prison.
+7. **Insult local person of rank.**  Check CHA: on success, they are amenable to some sort of apology and reparations.
+8. **Gambling losses.**  Roll the dice as if you caroused again to see how much is lost (no additional XP).
+9. **Gain local reputation as the life of the party.**  Check CHA: on failure, all future carousing in this settlement costs double due to hangers-on.
+10. **Hangover.**  First day of adventuring is at -2 to all rolls.  Casters must roll Int or Wis checks with each spell to avoid casting failure.
+11. **Make a fool of yourself in public.**  Gain half XP.  Check CHA or gain reputation in this settlement as a drunken lout.
+12. **Involved in random brawl.**  Check STR or lose d6 HP (to a minimum of 1).
+13. **Gambling binge.**   Lose all your gold, gems, jewellery.  Check WIS for each magic item in your possession: on failure, it is gone.
+14. **Whisked away to Fairy.** Consult the A Night in Fairy table.
+15. **Beaten and robbed.** Lose all your gold, gems, jewellery, and are reduced to half hit points.
+16. **Major misunderstanding with local authorities.**  Imprisoned until fines and bribes totalling 1d6 * 1000 gold paid.  All weapons, armour, and magic items confiscated.
+17. **Wake up in the forest.** GM secretly rolls to determine which adjacent hex you end up in.
+18. **Get in way over your head and pray for salvation.**  God listens, and now you're under the effects of a quest spell.
+
+#### A Night in Fairy (1d12)
+
+1. **Diuthurna** (Duke Mai-Fleur)
+   - 1 to 3: +2 to Hunting rolls for 1 week.  Yield is doubled.
+   - 4 to 6: Marked by the Duke.  Penalty to interaction with his servants.
+2. **Hypnagogia** (Duke Who Cherishes Dreams)
+   - 1 to 3: Gain a Trinket.
+   - 4 to 6: Fall into an unwakeable sleep for 1d3 days.
+3. **Whyforth** (Earl of Yellow)
+   - 1 to 3: Teleport to Prigwort in 1d8-1 days.
+   - 4 to 6: Exile from Prigwort for 1 month unless double Carousing value is gifted to the Earl.
+4. **Whyforth** (Earl of Yellow)
+5. **Goblinhold** (Goblin King
+   - 1 to 3: Gain a Trinket.
+   - 4 to 6: 1d4+1 children are taken by the Goblin King.
+6. **Baths of Astralon** (Hag Thorn-Rosy)
+   - 1 to 3: +1 to random stat.
+   - 4 to 6: -1 to random stat.
+7. **Baths of Astralon** (Hag Thorn-Rosy)
+8. **Gladding-Gloam** (Lord Gladhand)
+   - 1 to 3: +2 to all plant-related rolls for 1 week.
+   - 4 to 6: Visible plant growth on body.
+9. **Blossom Fields** (Princess Andromethia)
+   - 1 to 3: Gain 1d10 temporary HP.
+   - 4 to 6: Unwilling to leave the realm for 1d6 days.
+10. **Blossom Fields** (Princess Andromethia)
+11. **Tallowspire** (Queen-King Hathor)
+    - 1 to 3: Cast *Charm Person* once within 1 week.  Victim has -1 to the saving throw.
+    - 4 to 6: Contract a venereal disease/
+12. **Absynthe** (Queen of Blackbirds)
+    - 1 to 3: Summon the Queen's Barge anywhere along the Lower Hameth within 1 week.  Safe passage to any hex along its route, instantaneously.
+    - 4 to 6: Only offal and viscera can be stomached for 1 week, other food is repulsive and provides no sustenance.
 
 
 Resources
@@ -452,7 +451,7 @@ Character descriptions & introductions, then 1407.
   - 1000gp reward for info, another 1000gp for bringing Violet back
   - Protection Scroll vs Undead
   - Divine Scroll of Dispel Evil
-- Give hook for Winter's Daughter
+- Give hook for *Winter's Daughter*
 
 
 2022-07-30 --- Session 2
@@ -508,4 +507,50 @@ Character descriptions & introductions, then 1407.
 
 ### Notes
 
+- 3 Iggwyld: warm, sunny
+  - **1106---Prigwort:**
+    - Lillibeth character joins the party
+    - Maybelle & Arfred see Wyrmspittle
+    - Arfred sends message to Harrowmoor Keep
+  - **1206---The Baker's Dozen**
+  - **1306---The Dung Heap:**
+    - Explore: see Dung Heap and Vorpal Monolith
+  - **1406---The Golden Wood**
+
+- 4 Iggwyld: blustery, drizzle
+  - **1406---The Golden Wood:**
+    - Random encounter:
+      - Save a dying elf, Black-Heart-of-the-Restless
+      - It was probably the Drune who lives in this hex
+      - Hear that the Gorthstone, the convergence of Ywyr and Hoad, is
+        in hex 1205
+    - Visit Azeria
+    - Tell stories in exchange for the location of the knobbled mandrake
+  - **1307---The Refuge of St Keye:**
+    - Get rope
+    - Molly and Paulo pray
+  - **1406---The Golden Wood:**
+    - Get 2x knobbled mandrake
+  - **1307---The Refuge of St Keye:**
+    - Explore
+
+- 5 Iggwyld: clement, cheery
+  - **1307---The Refuge of St Keye**
+  - **1206---The Baker's Dozen:**
+    - Explore: see the bakery and the gingerbread golems
+  - **1106---Prigwort:**
+    - Explore: see the construction site and the Swinney Tower off the road
+    - Cure Maybelle
+    - Sell 1x knobbled mandrake & 1x arrowhame
+    - Hear that Harrowmoor knights and a cleric rescued the children,
+      and Lady Harrowmoor wants to see the sender of the letter
+    - Get hook for *Winter's Daughter*
+
 ### Next time
+
+- 6 Iggwyld (morning, roll weather)
+- Investigate *Winter's Daughter*
+- Visit Harrowmoor Keep
+  - Hint that the gloam may have treasure
+- Owe Wennew 3 gold
+  - In the future, pay her in advance to avoid this
