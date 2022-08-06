@@ -3,7 +3,7 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2022-03-31
+modified: 2022-08-06
 ---
 
 I care a lot about my finances, and I put a lot of effort into
@@ -525,8 +525,12 @@ orders transfer money from into other accounts and investments.
 This is my **Nationwide FlexDirect**.  I picked it because it had a
 good introductory interest rate.
 
-It has three "types" of envelope, and many envelopes of each of these
+It has four "types" of envelope, and many envelopes of each of these
 types:
+
+- **Discretionary envelopes** are for money I can spend however I
+  want, and I usually spend the entire contents of these within a
+  month, rather than building up savings.
 
 - **Goal envelopes** are for specific future expenses, like renewing
   my passport or visiting Japan.
@@ -536,7 +540,7 @@ types:
   standing order a few days later.
 
 - **Saved envelopes** are my regular budget categories: things like
-  food, rent, discretionary spending, travel, and so on.
+  food, rent, travel, and so on.
 
 I also have a few other accounts:
 
@@ -554,9 +558,10 @@ Both my ISA and LISA are invested in a low-cost Vanguard index fund.
 ### Income allocation
 
 On payday, money arrives in the Nationwide account.  It's split up
-between goal envelopes, pending envelopes, and saved envelopes as
-appropriate.  The allocations are fairly static, usually only changing
-when I intentionally change something in my process.
+between discretionary envelopes, goal envelopes, pending envelopes,
+and saved envelopes as appropriate.  The allocations are fairly
+static, usually only changing when I intentionally change something in
+my process.
 
 However, my income doesn't necessarily exactly match my budget.
 There's usually some excess income, which I allocate to three special
@@ -565,9 +570,6 @@ accounts:
 - I add up to £125 to a "saved goals" envelope, if I don't have any
   specific goal envelopes right now, to be made available to any
   future goals.
-
-- I add up to £75 to a "saved discretionary" envelope, to spend on
-  whatever I want during the month.
 
 - I add any remainder to a "saved invest" envelope, which I'll
   manually invest in my ISA when it reaches a reasonable amount (say,
@@ -684,13 +686,16 @@ the regular accounts, which are mostly self-explanatory:
             - `home`---physical cash, not in my wallet
         - `nationwide`
             - `flexdirect`
+                - `discretionary`
+                    - `other`
+                    - `social`
+                    - `tea`
                 - `goal`
                     - *subaccounts for specific future expenses, like renewing my passport*
                 - `float`---cash which can be withdrawn or moved into another category if there's a shortfall
                 - `pending`
                     - *subaccounts for money to be transferred to other accounts*
                 - `saved`
-                    - `discretionary`
                     - `food`
                     - `gift`
                     - `goals`---money to allocate to future goals, if I don't have any right now
@@ -700,8 +705,6 @@ the regular accounts, which are mostly self-explanatory:
                     - `invest`---money to invest, outside of my regular scheduled investments
                     - `phone`
                     - `rent`
-                    - `social`
-                    - `tea`
                     - `travel`
                     - `utilities`
         - `starling`
@@ -765,18 +768,20 @@ All amounts are included.
 ```
 2021-11-30 * Cabinet Office
     assets:cash:nationwide:flexdirect:float                               £32.46
-    assets:cash:nationwide:flexdirect:goal:phone                         £250.00
+    assets:cash:nationwide:flexdirect:discretionary:other                  £2.66
+    assets:cash:nationwide:flexdirect:discretionary:social                £30.00
+    assets:cash:nationwide:flexdirect:discretionary:tea                   £30.00
     assets:cash:nationwide:flexdirect:goal:clothes                        £25.00
-    assets:cash:nationwide:flexdirect:goal:upgrades                       £25.00
     assets:cash:nationwide:flexdirect:goal:monitor                        £25.00
-    assets:cash:nationwide:flexdirect:pending:fidelity                   £500.00
+    assets:cash:nationwide:flexdirect:goal:phone                         £250.00
+    assets:cash:nationwide:flexdirect:goal:upgrades                       £25.00
     assets:cash:nationwide:flexdirect:pending:ajbell                     £400.00
+    assets:cash:nationwide:flexdirect:pending:fidelity                   £500.00
     assets:cash:nationwide:flexdirect:pending:premium_bonds              £150.00
     assets:cash:nationwide:flexdirect:pending:starling:patreon             £8.00
     assets:cash:nationwide:flexdirect:pending:starling:protonmail          £5.00
     assets:cash:nationwide:flexdirect:pending:starling:roll20             £10.00
     assets:cash:nationwide:flexdirect:pending:starling:web                £80.00
-    assets:cash:nationwide:flexdirect:saved:discretionary                  £2.66
     assets:cash:nationwide:flexdirect:saved:food                         £200.00
     assets:cash:nationwide:flexdirect:saved:gift                           £0.00
     assets:cash:nationwide:flexdirect:saved:graze                         £18.95
@@ -784,8 +789,6 @@ All amounts are included.
     assets:cash:nationwide:flexdirect:saved:household                     £70.99
     assets:cash:nationwide:flexdirect:saved:phone                         £13.92
     assets:cash:nationwide:flexdirect:saved:rent                        £1406.21
-    assets:cash:nationwide:flexdirect:saved:social                        £30.00
-    assets:cash:nationwide:flexdirect:saved:tea                           £30.00
     assets:cash:nationwide:flexdirect:saved:travel                         £0.00
     assets:cash:nationwide:flexdirect:saved:utilities                    £237.67
     expenses:gross:tax:income                                           £1145.27
@@ -880,7 +883,7 @@ float:
     assets:cash:petty:hand:budgeted
 
 2019-01-25 ! Bookkeeping
-    assets:cash:nationwide:flexdirect:saved:discretionary                 -£1.01
+    assets:cash:nationwide:flexdirect:discretionary:other                 -£1.01
     assets:cash:nationwide:flexdirect:float
 ```
 
