@@ -3,7 +3,7 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2022-08-06
+modified: 2022-08-09
 ---
 
 I care a lot about my finances, and I put a lot of effort into
@@ -546,6 +546,7 @@ I also have a few other accounts:
 
 - A **Starling** bank account, for foreign currency transactions (as
   it doesn't charge a conversion fee).
+- A **Marcus** bank account, for cash savings.
 - A **Fidelity** stocks and shares ISA, holding my long-term
   investments for the future.
 - An **AJ Bell** stocks and shares LISA, holding half of my house
@@ -684,6 +685,9 @@ the regular accounts, which are mostly self-explanatory:
                 - `budgeted`---...which was withdrawn from my bank account
                 - `unbudgeted`---...which was a gift
             - `home`---physical cash, not in my wallet
+        - `marcus`
+          - `savings`
+              - *subaccounts for specific categories*
         - `nationwide`
             - `flexdirect`
                 - `discretionary`
@@ -692,7 +696,7 @@ the regular accounts, which are mostly self-explanatory:
                     - `tea`
                 - `goal`
                     - *subaccounts for specific future expenses, like renewing my passport*
-                - `float`---cash which can be withdrawn or moved into another category if there's a shortfall
+                - `float`---cash which can be withdrawn
                 - `pending`
                     - *subaccounts for money to be transferred to other accounts*
                 - `saved`
@@ -709,10 +713,11 @@ the regular accounts, which are mostly self-explanatory:
                     - `utilities`
         - `starling`
             - `float`---cash which can be withdrawn
-            - `patreon`---monthly [Patreon](https://www.patreon.com/) subscriptions (charged in USD)
-            - `protonmail`---annual [ProtonMail](https://protonmail.com/) fee (charged in EUR)
-            - `roll20`---monthly [Roll20](https://roll20.net/) subscription (charged in USD)
-            - `web`---AWS, domain names, and hosting (all charged in foreign currencies)
+            - `saved`
+              - `patreon`---monthly [Patreon](https://www.patreon.com/) subscriptions (charged in USD)
+              - `protonmail`---annual [ProtonMail](https://protonmail.com/) fee (charged in EUR)
+              - `roll20`---monthly [Roll20](https://roll20.net/) subscription (charged in USD)
+              - `web`---AWS, domain names, and hosting (all charged in foreign currencies)
     - `investments`
         - `ajbell`
         - `fidelity`
@@ -814,7 +819,7 @@ liabilities:
 
 ```
 2021-12-01 * Starling
-    assets:cash:starling:web                                               £0.05
+    assets:cash:starling:saved:web                                         £0.05
     income:interest
 ```
 
@@ -863,7 +868,7 @@ Foreign currency expenses are recorded like so:
 ```
 2021-01-04 * Hetzner
     expenses:web                                                           38.16 EUR @@ £34.52
-    assets:cash:starling:web
+    assets:cash:starling:saved:web
 ```
 
 #### Spending physical cash
@@ -1023,10 +1028,10 @@ Here's an example of a (5.1) transaction:
     assets:cash:petty:hand:unbudgeted                                     £-2.00 = £0.00
     assets:cash:petty:home                                                 -3.35 EUR = 0.00 EUR
     assets:cash:petty:home                                              -1853.00 JPY = 0.00 JPY
-    assets:cash:starling:patreon                                         £-21.79 = £0.00
-    assets:cash:starling:protonmail                                      £-42.43 = £0.00
-    assets:cash:starling:roll20                                          £-37.33 = £0.00
-    assets:cash:starling:web                                            £-283.38 = £0.00
+    assets:cash:starling:saved:patreon                                   £-21.79 = £0.00
+    assets:cash:starling:saved:protonmail                                £-42.43 = £0.00
+    assets:cash:starling:saved:roll20                                    £-37.33 = £0.00
+    assets:cash:starling:saved:web                                      £-283.38 = £0.00
     assets:investments:cavendish                                          -19.66 VANEA = 0.00 VANEA
     assets:investments:cavendish                                         £-36.08 = £0.00
     assets:investments:coinbase                                           -10.00 EUR = 0.00 EUR
@@ -1065,10 +1070,10 @@ And here's an example of a (5.2) transaction:
     assets:cash:petty:home                                               3.35 EUR
     assets:cash:petty:home                                            1853.00 JPY
     ;
-    assets:cash:starling:patreon                                           £21.79
-    assets:cash:starling:protonmail                                        £42.43
-    assets:cash:starling:roll20                                            £37.33
-    assets:cash:starling:web                                              £283.38
+    assets:cash:starling:saved:patreon                                     £21.79
+    assets:cash:starling:saved:protonmail                                  £42.43
+    assets:cash:starling:saved:roll20                                      £37.33
+    assets:cash:starling:saved:web                                        £283.38
     ;
     assets:investments:fidelity                                             19.66 VANEA
     assets:investments:fidelity                                            £36.08
