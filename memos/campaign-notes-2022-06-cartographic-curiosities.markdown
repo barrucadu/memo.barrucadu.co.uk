@@ -554,3 +554,5 @@ Character descriptions & introductions, then 1407.
   - Hint that the gloam may have treasure
 - Owe Wennew 3 gold
   - In the future, pay her in advance to avoid this
+- Owe everyone 50xp for overcoming a hidden thing (finding &
+  retrieving the knobbled mandrake)
