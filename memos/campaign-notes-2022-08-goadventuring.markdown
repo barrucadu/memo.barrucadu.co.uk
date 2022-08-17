@@ -144,6 +144,7 @@ possible, to lower the barrier to entry.
 
 ### Next time
 
+- XP & levelling up
 - Lore for Lord Mantle-of-Runes & the war against the Cold Prince
 - Meeting the wizard
 - Next adventure
