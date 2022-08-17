@@ -2,31 +2,33 @@
 title: Campaign ideas
 taxon: general-games
 published: 2022-06-03
+modified: 2022-08-17
 ---
-
-This memo lists campaigns I'd be interested in running.  Each idea is
-ranked against three axes:
-
-- **Politics:** how much will you get involved with different
-  factions, which scheme and have non-obvious goals and motivations?
-
-- **Roleplaying:** how important is, and how often will you be,
-  interacting and negotiating with NPCs?
-
-- **Self Direction:** how much does the campaign rely on you
-  developing your own goals?
-
-I also list published campaigns here.  They're a bit different in that
-they're inherently less flexible than something I'm entirely making
-up, but that doesn't mean they're totally inflexible and that player
-agency is an illusion.
 
 
 ## Call of Cthulhu / Pulp Cthulhu
 
-### Masks of Nyarlathotep
+### Don't forget to like and subscribe!
 
-<aside class="highlight">This is a published nonlinear campaign for Call of Cthulhu / Pulp Cthulhu.</aside>
+It's the modern day, and you are all paranormal investigation /
+conspiracy theorist youtubers.  You uncover the truth that *the man*
+doesn't want people to know!  Sure, many of your "ghost" tips turn out
+to be teens doing drugs in an abandoned building at night, or similar
+mundane explanations, but a little video editing can solve that
+problem.  And sometimes---sometimes---you stumble upon something real.
+
+This campaign is about the real ones.
+
+**Player buy-in:** The player characters are a bunch of obnoxious
+youtubers who'll willingly put their lives and sanity at risk just to
+increase that view count.  No playing it safe here.  I also strongly
+encourage you to really get into it, to narrate what you're doing as
+if you're presenting a video to a skeptical audience, and to have
+over-the-top reactions to things.  The campaign will be a very
+episodic mystery-of-the-week style game with little in the way of an
+overall plot.
+
+### Masks of Nyarlathotep
 
 Your good friend Jackson Elias, an author who infiltrates and writes
 about cults, contacts you out of the blue in a panic.  He says he's
@@ -41,10 +43,6 @@ other murders.  There's more here than meets the eye, you don't know
 what's going on, but you do know that Jackson found something.  And
 now he's dead.
 
-- **Politics:** Low
-- **Roleplaying:** Medium
-- **Self Direction:** Low
-
 **Player buy-in:** The player characters have to be motivated to solve
 the mystery their friend left behind, even at risk of their own lives
 and sanity.  This is a nonlinear campaign which has several major
@@ -56,14 +54,6 @@ discoveries, or you just won't know what's going on, and you can
 expect it to last somewhere between 1 and 2 years.
 
 ### The Two-Headed Serpent
-
-<aside class="highlight">
-This is a published campaign for Pulp Cthulhu.  I've only skimmed
-through the book so far, so I can't fully describe it here.  It sounds
-pretty linear, but with some scope for doing parts of it in different
-orders, and is a mixture of assigned missions and independent
-investigation.
-</aside>
 
 The year is 1933.  In South America, the Chaco War between Bolivia and
 Paraguay is in full swing.  You've been employed by a humanitarian
@@ -79,19 +69,15 @@ Mythos.  For now, the player characters are just heroes who have
 volunteered to help a humanitarian charity, but soon they will be
 pulled into combatting the mythos.
 
-- **Politics:** ?
-- **Roleplaying:** ?
-- **Self Direction:** ?
-
 **Player buy-in:** The player characters are a heroic bunch who
 volunteered to help civilians caught in a war, but don't bat an eye
 when it turns out the organisation they joined is actually fighting
 more than just humans.
 
 
-## OSR
+## Old School Essentials
 
-### Dolmenwood
+### Dolmenwood Hexcrawl
 
 Dolmenwood is a mystical fairy-tale forest setting inspired by British
 folklore and stories like *The King of Elfland's Daughter*.  It's a
@@ -105,69 +91,76 @@ more; pagan cults venerate the many standing stones, and jealously
 guard their secrets; and the corrupted forces of the Nag Lord, chaos
 godling from the north, expand their reach bit by bit.
 
-- **Politics:** Low
-- **Roleplaying:** Medium
-- **Self Direction:** High
-
 **Player buy-in:** The player characters are Dolmenwood natives, who
 have decided to leave behind the safe towns and fields that we know to
 head off in search of adventure.  They're typical loot-motivated
-adventurers.  Practically, this would be a hexcrawl, where you start
-off with an incomplete and inaccurate map of things people generally
-know of, but will need to explore to get concrete information.
-There'll be plenty of rumours and strange happenings to give you
-ideas.
-
-### Veinscrawl
-
-The dwarves tunneled into a vast chasm leading deep, deep, down, into
-a realm which has never seen the light of the sun, and is home to
-strange peoples and monsters.
-
-Now, months later, a bustling town of adventurers and profiteers has
-formed along its side.  Some trading with the inhabitants, others
-sending out parties in search of treasure.  It's a new gold rush, who
-knows what this strange underworld will bring?
-
-- **Politics:** Low
-- **Roleplaying:** Low
-- **Self Direction:** High
-
-**Player buy-in:** The player characters are adventurers from the
-surface who now live in the town, making their living by heading out,
-exploring, finding new things, and returning triumphant.  They are
-self-directed, interested in exploring for the sake of exploring, and
-motivated by treasure and discovery.
+adventurers.  You'll start off with an incomplete and inaccurate map
+of things people generally know of, but will need to explore to get
+concrete information.  There'll be plenty of rumours and strange
+happenings to give you ideas.
 
 
 ## Traveller
 
-### The Traveller Campaign
+### The Annililik Run
 
-A sandbox campaign set in the standard Traveller setting.  This will
-probably be in a border region like the Spinward Marches or the Trojan
-Reach just because I think being set entirely within one of the vast
-space empires reduces the scope for small-scale interstellar politics:
-it's either big-scale dukes-plotting-against-the-emperor kind of thing
-or power-tripping planetary governments, with nothing in between.
+Every four years, there's a race along the old trade route between
+Vland and Capital: contestants gather in their thousands, flying old
+fashioned ships (limited to jump-2) and complying with stringent rules
+(must jump only to inhabited systems, may not use collapsible fuel
+tanks, may not engage in space combat with other contestants, etc) to
+make the Annililik Run in honour of those traders who provided a
+much-needed service during the turbulent beginnings of the Third
+Imperium.
 
-You will have a ship and a mortgage to pay off, or maybe a free ship
-from someone you owe favours to, and will need to do whatever it takes
-to meet those obligations.  Carrying freight and passengers is easy
-but kind of dull, seeking out patrons to undertake missions for pay
-can be better but also risky.  You'll occasionally unintentionally
-stumble into trouble or adventure.  You can follow rumours to find
-wealth, or maybe just disaster.
+But that's just the surface.  The Annililik Run is anything but a
+peaceful and safe race: it lasts 75 weeks, the prize for first place
+(judged on a combination of travel time and trade profit) is enough to
+set a crew up for life, and even in inhabited systems there's always
+time for something to go wrong, or be *made* to go wrong.  Greed,
+sabotage, outright cheating, and the hijinks of world governments and
+corporate sponsors create trouble and danger at every stop.
 
-- **Politics:** ?
-- **Roleplaying:** ?
-- **Self Direction:** High
+**Player buy-in:** The whole campaign is about getting from point A to
+point B, it's pretty linear.  The fun comes from figuring out how to
+do that in a reasonable timeframe while making money on the way, while
+also dealing with people who try to mislead or otherwise stop you.  Of
+course, you can *also* cheat and try to thin out the competition.
 
-**Player buy-in:** This is essentially a job- or planet-of-the-week /
-"do what you want" campaign: I'll prepare interesting locations,
-people, rumours, and opportunities, and you engage with whatever seems
-fun.  This campaign can easily transform into a more focussed one if
-we want.
+### The Pirates of Drinax
+
+Drinax, once a mighty interstellar kingdom but now a bombed-out
+radioactive husk of a world, lies along two major trade routes and is
+close to two of the most significant interstellar empires in all of
+Charted Space: the Aslan Hierate and the Third Imperium.
+
+The current king has a daring plan to recover some of Drinax's lost
+glory: he needs a band of privateers and agents, who can curry favour
+with worlds once part of the kingdom, and also cause trouble along the
+trade routes between the Hierate and the Imperium.  No empire is
+willing to allow another to establish a large permanent military force
+close to their borders, but they may be willing to delegate the job of
+policing the space lanes to a newly-reformed kingdom which they could
+easily squash if it starts trouble.
+
+The king's plan is to bring the old worlds of the kingdom back under
+the banner of Drinax, stir up piracy in the region enough that the
+empires agree something needs to be done, and then use that to get
+their blessing for a new interstellar state.  Of course, if they learn
+too soon that *Drinax* is behind the upsurge in piracy, it'll all fall
+apart...
+
+**Player buy-in:** The player characters have two very different
+roles: negotiators and space pirates.  Both of those have to sound
+fun.  You will be able to (and are encouraged to!) play the faction
+game to some degree, making allies (or enemies) of powerful NPCs and
+groups, and so could delegate one side of the campaign entirely to
+some trusted aides, but it will take a while to get the resources to
+do that, so you'll be doing both in the beginning.  Furthermore, this
+is a sandbox-style campaign: there are several key adventures and
+missions, but player characters are expected to go above and beyond
+just those, and will need to think about how to curry favour with
+factions and cause trouble on the trade routes themselves.
 
 ### To Boldly Go
 
@@ -194,50 +187,31 @@ and ruins from ancient civilisations.  Nobody has found a living
 intelligent alien species yet, but First Contact is the dream of every
 explorer.
 
-- **Politics:** Low
-- **Roleplaying:** Medium
-- **Self Direction:** High
-
 **Player buy-in:** The player characters are brave (or perhaps just
 foolhardy) space adventurers.  They risk death every time they jump
 into uncharted space, and are motivated by the thrill of the unknown.
+Whatever you do and wherever you go, chances are you're the first
+humans to do so.
 
-### The Pirates of Drinax
+### The Traveller Campaign
 
-<aside class="highlight">This is a published sandbox campaign for Traveller.</aside>
+A sandbox campaign set in the standard Traveller setting.  This will
+probably be in a border region like the Spinward Marches or the Trojan
+Reach just because I think being set entirely within one of the vast
+space empires reduces the scope for small-scale interstellar politics:
+it's either big-scale dukes-plotting-against-the-emperor kind of thing
+or power-tripping planetary governments, with nothing in between.
 
-Drinax, once a mighty interstellar kingdom but now a bombed-out
-radioactive husk of a world, lies along two major trade routes and is
-close to two of the most significant interstellar empires in all of
-Charted Space: the Aslan Hierate and the Third Imperium.
+You will have a ship and a mortgage to pay off, or maybe a free ship
+from someone you owe favours to, and will need to do whatever it takes
+to meet those obligations.  Carrying freight and passengers is easy
+but kind of dull, seeking out patrons to undertake missions for pay
+can be better but also risky.  You'll occasionally unintentionally
+stumble into trouble or adventure.  You can follow rumours to find
+wealth, or maybe just disaster.
 
-The current king has an idea to recover some of Drinax's lost glory.
-He needs a band of privateers and agents, who can curry favour with
-worlds once part of the kingdom, and also cause trouble along the
-trade routes between the Hierate, the Imperium, and the (much smaller)
-Florian League.  No empire is willing to allow another to establish a
-large permanent military force close to their borders, but they may be
-willing to delegate the job of policing the space lanes to a
-newly-reformed kingdom which they could easily squash if it starts
-trouble.
-
-The king's plan is to bring the old worlds of the kingdom back under
-the banner of Drinax, stir up piracy in the region enough that the
-empires agree something needs to be done, and then use that to get
-their blessing for a new interstellar state.  Of course, if they learn
-too soon that *Drinax* is behind the upsurge in piracy, it'll all fall
-apart...
-
-- **Politics:** High
-- **Roleplaying:** High
-- **Self Direction:** Medium
-
-**Player buy-in:** The player characters have two very different
-roles: negotiators and space pirates.  Both of those have to sound
-fun.  You will be able to (and are encouraged to!) hire other pirates
-and so could delegate that side of the campaign entirely to others,
-but it will take a while to get the resources (ships, funds, and crew)
-to do that.  Furthermore, this is a sandbox-style campaign: there are
-several adventures, but player characters are expected to go above and
-beyond just those, and will need to think about how to curry favour
-with factions and cause trouble on the trade routes themselves.
+**Player buy-in:** This is essentially a job- or planet-of-the-week /
+"do what you want" campaign: I'll prepare interesting locations,
+people, rumours, and opportunities, and you engage with whatever seems
+fun.  This campaign can easily transform into a more focussed one if
+we want.
