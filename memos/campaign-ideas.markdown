@@ -2,7 +2,7 @@
 title: Campaign ideas
 taxon: general-games
 published: 2022-06-03
-modified: 2022-08-17
+modified: 2022-08-20
 ---
 
 
@@ -161,6 +161,40 @@ is a sandbox-style campaign: there are several key adventures and
 missions, but player characters are expected to go above and beyond
 just those, and will need to think about how to curry favour with
 factions and cause trouble on the trade routes themselves.
+
+### Sylea Rising
+
+The Ziru Sirka, the great interstellar empire of the Vilani, lasted
+for two thousand years.  But inability to manage such a large expanse
+of territory caused a slow decline, which ultimately led to its
+conquest by the Terrans, and the establishment of their great
+interstellar empire: the Rule of Man.
+
+But the Rule of Man lasted a scant few centuries before it, too,
+collapsed under its own weight.  This time, nothing replaced it.  The
+galaxy fell into anarchy, worlds were cut off from one another,
+technologies were lost, and many civilisations simply failed to
+survive: this is the Long Night, and this is when our game is set.
+
+In the Long Night many small pocket empires rose, and fell.  You are
+all scouts, ex-military, and similar sorts, employed by the government
+of the Sylean Federation, one of the larger pocket empires of the Long
+Night.  The Sylean Federation is a group of systems all within about
+30 parsecs of the planet Sylea.  It's survived for 650 years now, but
+Sylea, too, is feeling the strain of administration at interstellar
+distances, and is also currently at war with two other pocket empires:
+the Interstellar Confederacy and the Chanestin Kingdom.  Can Sylea
+solve its problems, or will it perish like so many others?
+
+**Player buy-in:** The player characters are all explorers working
+government contracts to reach out to worlds not heard from in
+centuries (or millennia), to establish peaceful relations where
+possible, or maybe just to plunder them if the world is dead---after
+all, who's to say you handed in *everything* you found to the
+government inspectors?  It's post-apocalypse in space.  There will be
+space dungeons.  But it's also about the rise of the Sylean Federation
+into something even greater, so there's plenty of scope for this to
+turn into a more political game if you want.
 
 ### To Boldly Go
 
