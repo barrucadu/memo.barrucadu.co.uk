@@ -2,7 +2,7 @@
 title: Campaign ideas
 taxon: general-games
 published: 2022-06-03
-modified: 2022-08-20
+modified: 2022-08-25
 ---
 
 
@@ -126,6 +126,73 @@ point B, it's pretty linear.  The fun comes from figuring out how to
 do that in a reasonable timeframe while making money on the way, while
 also dealing with people who try to mislead or otherwise stop you.  Of
 course, you can *also* cheat and try to thin out the competition.
+
+### The Fall of the Imperium
+
+It's the year 1125.  Emperor Strephon, once a fit and handsome man,
+now pale and thin, consumed by stress, sits in a chair, resting his
+head in his hands as he studies the latest report from the front.
+This report, now over half a year old, confirms one thing: the Aslan
+are winning the war.  Pax Rulin, the fortress world of the Trojan
+Reach, has fallen, the Reach itself is all but lost, and who knows how
+much further they'll advance?
+
+The other sector fleets have been displaced to assist, leaving
+skeleton defences elsewhere, and the Imperium's other neighbours have
+been quick to take advantage.  Incursions by the Zhodani Consulate,
+the Solomani Confederation, the Sword Worlds Confederation, and the
+Vargr, have resulted in the losses of dozens of worlds.  Terra once
+more belongs to the Solomani.
+
+Strephon reflects on how all this began, two years ago.  It was
+supposed to be a great day, the highest ranking Aslan ever to make the
+trip to Capital: a representative not just for his clan, but for all
+the clans.  One who could speak with the voice of the Tlaukhu.  But
+there was a bomb.  The ambassador immediately, bravely, honourably,
+selflessly, threw himself between Strephon and the explosion.  The
+ambassador died in the blast, Strephon survived with only minor
+injuries.  When the news made it back to the Hierate, they accused the
+Imperium of some sort of human trickery.  It was the spark that
+ignited the powder keg, the fragile peace was shattered, and tens of
+thousands of territory-hungry ihatei poured over the border.
+
+The independent worlds of the Trojan Reach were taken in a few months.
+The reborn Kingdom of Drinax put up a good fight, but was also lost.
+The imperial border was overrun, and it's just been worse news since
+then.  Eventually the Aslan will tire of war, and settle down to rule
+the worlds they've conquered, but how many more will they take before
+then?
+
+Strephon sighs, and leans back with his eyes closed, massaging his
+creased forehead.
+
+Then the door bursts open, a naval intelligence officer rushes in,
+glances around to make sure there's nobody else in the room, and says
+"your majesty, it's Project Longbow, it's picked something up!"
+
+Strephon's mind turns to Project Longbow.  A highly classified, beyond
+top secret, project to use a series of detectors spread across the
+whole Imperium, and all pointing at the same patch of sky, to make a
+single satellite dish dozens of parsecs wide.  All to investigate some
+anomaly deep in space, close to the galactic core.
+
+"Your Majesty!" the officer snaps, drawing Strephon out of his
+memories, "It's a ship.  A ship unlike any design we've ever seen
+before, coming from the core.  And sir, it's travelling at a speed of
+jump-10."
+
+**Player buy-in:** There are at least two campaign ideas here, both
+set against a backdrop of the collapse of the Third Imperium.  We
+should decide what we want and flesh it out some more.  Option 1 is a
+naval campaign where you're fighting against one of the hostile
+forces, either the Aslan themselves, or one of the other factions
+taking advantage of the chaos.  Option 2 is a scientific campaign
+where you're part of a research crew sent by Imperial Naval
+Intelligence to investigate this mysterious high-tech ship coming from
+deep space.  I guess there are some more options too, eg you could
+play a crew of regular people trying to get by in this societal
+collapse; or you could even play members of the invading forces, like
+a ship of Aslan seeking to make their names.
 
 ### The Pirates of Drinax
 
