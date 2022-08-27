@@ -2,7 +2,7 @@
 title: CD Wishlist
 taxon: self-possessions
 published: 2020-07-04
-modified: 2022-07-27
+modified: 2022-08-27
 ---
 
 This memo contains a big list of CDs I want.  It's probably not very
@@ -12,7 +12,7 @@ thrilling reading.
 Audio books / dramas / etc
 --------------------------
 
-### Dark Adventure Radio Theatre
+### [Dark Adventure Radio Theatre](https://www.hplhs.org/dart.php)
 
 - [The Dreams in the Witch House](https://www.hplhs.org/dartdwh.php)
 - [Imprisoned with the Pharaohs](https://www.hplhs.org/dartiwp.php)
@@ -164,7 +164,6 @@ Artists
 
 ### [The Orion Experience](https://en.wikipedia.org/wiki/The_Orion_Experience#Discography)
 
-- Cosmicandy
 - Children of the Stars
 - Fever Dream
 
@@ -172,7 +171,6 @@ Artists
 
 - Terror 404
 - I Am the Night
-- Dangerous Days
 - Lustful Sacraments
 
 ### [Rammstein](https://en.wikipedia.org/wiki/Rammstein_discography)
@@ -187,9 +185,7 @@ Artists
 - Minas Morgul
 - Dol Guldur
 - Stronghold
-- Let Mortal Heroes Sing Your Fame
 - Oath Bound
-- With Doom We Come
 
 ### [Thangorodrim](https://www.spirit-of-metal.com/en/band/Thangorodrim)
 
