@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-07-18
+modified: 2022-08-27
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -164,14 +164,14 @@ Book Series
 
 | Series                                      | ISBN            | Title                                         |
 |--------------------------------------------:+----------------:+-----------------------------------------------|
-| [Delicious in Dungeon][]                    | `9780316446402` | Volume 4                                      |
-|                                             | `9781975326449` | Volume 5                                      |
+| [Delicious in Dungeon][]                    | `9781975326449` | Volume 5                                      |
 |                                             | `9781975328054` | Volume 6                                      |
 |                                             | `9781975358587` | Volume 7                                      |
 |                                             | `9781975399405` | Volume 8                                      |
 |                                             | `9781975320164` | Volume 9                                      |
 |                                             | `9781975335588` | Volume 10                                     |
 |                                             | `9781975346720` | Volume 11                                     |
+|                                             |                 | Volume 12                                     |
 | [The Kharkanas Trilogy][]                   |                 | Walk in Shadow                                |
 | [Overlord][]                                |                 | Volume 15: The Half Wood Elf God-kin (Part 1) |
 |                                             |                 | Volume 16: The Half Wood Elf God-kin (Part 2) |
@@ -197,7 +197,8 @@ Book Series
 |                                             |                 | Volume 17                                     |
 |                                             |                 | Volume 17                                     |
 |                                             |                 | Volume 19                                     |
-| [The Witness Trilogy][]                     | `9781787632868` | The God is Not Willing                        |
+|                                             |                 | Volume 20                                     |
+| [The Witness Trilogy][]                     |                 | No Life Forsaken                              |
 
 [Delicious in Dungeon]: https://en.wikipedia.org/wiki/Delicious_in_Dungeon
 [The Kharkanas Trilogy]: https://en.wikipedia.org/wiki/The_Kharkanas_Trilogy
@@ -234,7 +235,6 @@ I might have to give up on these and buy a different printing:
 |                          | `9781421535388` | Volume 20: Humanity in the Balance |
 | [21st Century Boys][]    | `9781421543260` | Volume 1: The Death of "Friend"    |
 |                          | `9781421543277` | Volume 2: 20th Century Boys        |
-| [Delicious in Dungeon][] | `9780316412797` | Volume 3                           |
 
 [20th Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#20th_Century_Boys
 [21st Century Boys]: https://en.wikipedia.org/wiki/List_of_20th_Century_Boys_chapters#21st_Century_Boys
