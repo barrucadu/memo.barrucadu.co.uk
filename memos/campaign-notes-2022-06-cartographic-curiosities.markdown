@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-07-30
+modified: 2022-08-27
 taxon: general-games
 ---
 
@@ -221,6 +221,27 @@ mishap.
     - 4 to 6: Only offal and viscera can be stomached for 1 week, other food is repulsive and provides no sustenance.
 
 
+Hexes & Secrets
+---------------
+
+- **0906---The Ruined Abbey of St Clewyd** (explored)
+- **0907---Bafflestone** (explored)
+- **1005---Shub's Finger and Stirge Isle** (explored)
+  - Shrine of St Hollyhock
+- **1006---The Witch Glade** (explored)
+- **1007---The Tower of Frost** (explored)
+- **1106---Prigwort** (explored)
+- **1107---The Wyrm Cave** (explored)
+  - Chaosbrithe's Cave
+- **1108---Louper's Luncheon** (explored)
+  - Cave mouth
+- **1206---The Baker's Dozen** (explored)
+- **1306---The Dung Heap and The Grey Monolith** (explored)
+- **1307---The Refuge of St Keye** (explored)
+- **1406---The Golden Wood**
+  - Knobbled mandrake
+- **1407---The Wenchgate**
+
 Resources
 ---------
 
@@ -329,12 +350,12 @@ Character descriptions & introductions, then 1407.
 ### Notes
 
 - 29 Harchment: pouring rain
-  - **1407:**
+  - **1407---The Wenchgate:**
     - Carve names on trees
-  - **1307:**
+  - **1307---The Refuge of St Keye:**
     - Abbot Spatulard hints he wants the secrets of the brewmasters of
       Prigwort
-  - **1206:**
+  - **1206---The Baker's Dozen:**
     - Ambushed by the Baker's Dozen
     - Get them to swear an oath to not rob any more (which they all
       but said they would ignore)
@@ -513,7 +534,7 @@ Character descriptions & introductions, then 1407.
     - Maybelle & Arfred see Wyrmspittle
     - Arfred sends message to Harrowmoor Keep
   - **1206---The Baker's Dozen**
-  - **1306---The Dung Heap:**
+  - **1306---The Dung Heap and The Grey Monolith:**
     - Explore: see Dung Heap and Vorpal Monolith
   - **1406---The Golden Wood**
 
@@ -556,3 +577,90 @@ Character descriptions & introductions, then 1407.
   - In the future, pay her in advance to avoid this
 - Owe everyone 50xp for overcoming a hidden thing (finding &
   retrieving the knobbled mandrake)
+
+
+2022-08-27 --- Session 3
+------------------------
+
+### Intro
+
+- Session recap
+
+### State
+
+- 6 Iggwyld
+- Roll weather
+- Morning
+- Party in the Clashed Antler
+- Party owes Wennew 3 gold (in the future, pay in advance)
+- Everyone gets 50xp for finding the knobbled mandrake
+
+### Prep
+
+#### Harrowmoor Keep
+
+- 1000gp reward from Lady Harrowmoor for providing information that led to Violet's rescue
+- There's, like, a lot of cats
+
+#### Stories in Prigwort
+
+- Some noble woman (Hilda Harrowmoor, unknown to the gossips) has
+  taken up residence in the Swinney Tower
+  - She's got some servants, but they all look to be fighting-men playing at being servants
+  - The tower's close to the new barracks Lady Harrowmoor is building
+  - She's been exchanging messengers with Harrowmoor Keep and the Elevated Council of Brewers
+
+- Any of the Prigwort rumours
+
+### Notes
+
+- 6 Iggwyld: bright, fresh
+  - **1106---Prigwort:**
+    - Pay Wennew
+    - Get *Winter's Daughter* hook from Mostlemyre Drouge
+  - **1107---The Wyrm Cave:**
+    - Explore: find Chasobrithe's cave and escape
+  - **1108---Louper's Luncheon:**
+    - See arch
+    - See burial mount & hear iron owls
+    - Explore: find Witch's Cave (do not enter)
+
+- 7 Iggwyld: pouring rain
+  - **1108---Louper's Luncheon:**
+    - Be seen by iron owls
+    - See blocked door
+  - **1007---The Tower of Frost:**
+    - See tower
+    - Explore
+  - **0907---Bafflestone:**
+    - See Bafflestone (do not approach)
+    - See zombies
+    - Explore
+
+- 8 Iggwyld: brisk, clear
+  - **1006---The Witch Glade:**
+    - Experience sex differences
+    - Find glade
+    - Explore
+  - **0906---The Ruined Abbey of St Clewyd:**
+    - Explore
+    - Find ghost crows in chapel
+    - Find the destroyed skeleton of Subprior Pontyth
+    - Get Mr Rag-and-bone's treasure
+
+- 9 Iggwyld: brisk, clear
+  - **1005---Shub's Finger and Stirge Isle:**
+    - See Shub's Finger
+    - See Stirge Isle
+    - See the Groaning Lock
+    - Explore: find Shrine of St Hollyhock
+  - **1106---Prigwort:**
+    - Level up!
+    - Commission iron dagger: 15 Iggwyld
+    - Commission iron mace: 19 Iggwyld
+
+### Next time
+
+- Level up Arfred & Maybelle
+- Visit Harrowmoor Keep
+- Winter's Daughter
