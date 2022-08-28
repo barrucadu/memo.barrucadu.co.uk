@@ -46,10 +46,6 @@ Artists
 ### [Burzum](https://en.wikipedia.org/wiki/Burzum#Discography)
 
 - Burzum
-- Det som engang var
-- Hvis lyset tar oss
-- Belus
-- Fallen
 
 ### [Cradle Of Filth](https://en.wikipedia.org/wiki/Cradle_of_Filth_discography)
 
@@ -122,7 +118,6 @@ Artists
 - Ånden som Gjorde Opprør
 - Keiser Av En Dimensjon Ukjent
 - Blood and Thunder EP
-- Perfectly Defect
 - The Unraveling Mind
 
 ### [Nightwish](https://en.wikipedia.org/wiki/Nightwish_discography)
@@ -164,14 +159,12 @@ Artists
 
 ### [The Orion Experience](https://en.wikipedia.org/wiki/The_Orion_Experience#Discography)
 
-- Children of the Stars
 - Fever Dream
 
 ### [Perturbator](https://en.wikipedia.org/wiki/Perturbator#Discography)
 
 - Terror 404
 - I Am the Night
-- Lustful Sacraments
 
 ### [Rammstein](https://en.wikipedia.org/wiki/Rammstein_discography)
 
@@ -185,7 +178,6 @@ Artists
 - Minas Morgul
 - Dol Guldur
 - Stronghold
-- Oath Bound
 
 ### [Thangorodrim](https://www.spirit-of-metal.com/en/band/Thangorodrim)
 
@@ -205,8 +197,6 @@ Artists
 - Wars of the Roses
 - Messe I.X-VI.X
 - ATGCLVLSSCAP
-- The Assassination of Julius Caesar
-- Flowers of Evil
 - Scary Muzak
 
 ### [Van Canto](https://en.wikipedia.org/wiki/Van_Canto#Discography)
