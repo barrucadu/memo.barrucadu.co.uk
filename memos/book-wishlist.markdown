@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-08-27
+modified: 2022-08-29
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -164,29 +164,18 @@ Book Series
 
 | Series                                      | ISBN            | Title                                         |
 |--------------------------------------------:+----------------:+-----------------------------------------------|
-| [Delicious in Dungeon][]                    | `9781975326449` | Volume 5                                      |
-|                                             | `9781975328054` | Volume 6                                      |
-|                                             | `9781975358587` | Volume 7                                      |
-|                                             | `9781975399405` | Volume 8                                      |
-|                                             | `9781975320164` | Volume 9                                      |
-|                                             | `9781975335588` | Volume 10                                     |
-|                                             | `9781975346720` | Volume 11                                     |
-|                                             |                 | Volume 12                                     |
+| [Delicious in Dungeon][]                    |                 | Volume 12                                     |
 | [The Kharkanas Trilogy][]                   |                 | Walk in Shadow                                |
 | [Overlord][]                                |                 | Volume 15: The Half Wood Elf God-kin (Part 1) |
 |                                             |                 | Volume 16: The Half Wood Elf God-kin (Part 2) |
 | [So I'm a Spider, So What?][]               | `9781975352165` | Volume 15                                     |
 |                                             |                 | Volume 16                                     |
-| [The Solar Cycle][]                         | `9780312863944` | The Urth of the New Sun                       |
-|                                             | `9780312872915` | Litany of the Long Sun                        |
+| [The Solar Cycle][]                         | `9780312872915` | Litany of the Long Sun                        |
 |                                             | `9780312860721` | Epiphany of the Long Sun                      |
 |                                             | `9780312872571` | On Blue's Waters                              |
 |                                             | `9780312873639` | In Green's Jungles                            |
 |                                             | `9780312873646` | Return to the Whorl                           |
-| [That Time I Got Reincarnated As A Slime][] | `9781975301187` | Volume 6                                      |
-|                                             | `9781975301200` | Volume 7                                      |
-|                                             | `9781975312992` | Volume 8                                      |
-|                                             | `9781975314385` | Volume 9                                      |
+| [That Time I Got Reincarnated As A Slime][] | `9781975314385` | Volume 9                                      |
 |                                             | `9781975314392` | Volume 10                                     |
 |                                             | `9781975314415` | Volume 11                                     |
 |                                             | `9781975314439` | Volume 12                                     |
@@ -263,8 +252,6 @@ Roleplaying Games
 | Old School Essentials | [Dolmenwood Player's Book][]            |
 |                       | [Dolmenwood Campaign Book][]            |
 |                       | [Dolmenwood Monster Book][]             |
-|                       | [Carcass Crawler #1][]                  |
-|                       | [Carcass Crawler #2][]                  |
 |                       | [Carcass Crawler #3][]                  |
 | OSR                   | [Fungi of the Far Realms][]             |
 |                       | [Rackham Vale][]                        |
