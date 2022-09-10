@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-08-27
+modified: 2022-09-10
 taxon: general-games
 ---
 
@@ -230,11 +230,13 @@ Hexes & Secrets
   - Shrine of St Hollyhock
 - **1006---The Witch Glade** (explored)
 - **1007---The Tower of Frost** (explored)
+- **1105---Harrowmoor Keep** (explored)
 - **1106---Prigwort** (explored)
 - **1107---The Wyrm Cave** (explored)
   - Chaosbrithe's Cave
 - **1108---Louper's Luncheon** (explored)
   - Cave mouth
+- **1205---Gorthstone** (explored)
 - **1206---The Baker's Dozen** (explored)
 - **1306---The Dung Heap and The Grey Monolith** (explored)
 - **1307---The Refuge of St Keye** (explored)
@@ -616,7 +618,7 @@ Character descriptions & introductions, then 1407.
 
 - 6 Iggwyld: bright, fresh
   - **1106---Prigwort:**
-    - Pay Wennew
+    - Pay Wennew for 7 more days (& back pay)
     - Get *Winter's Daughter* hook from Mostlemyre Drouge
   - **1107---The Wyrm Cave:**
     - Explore: find Chasobrithe's cave and escape
@@ -662,5 +664,106 @@ Character descriptions & introductions, then 1407.
 ### Next time
 
 - Level up Arfred & Maybelle
+- Note on the wyrm: I didn't telegraph danger, that is my bad, and a
+  particularly egregious bad given the style of play we're going for;
+  in the future, it'll be obvious if you're going into a monster's
+  lair, and indeed if you return to the wyrm, the entrance cave will
+  be more menacing next time
+- Arfred's knight tutor
 - Visit Harrowmoor Keep
 - Winter's Daughter
+- Wennew paid until 13th
+
+
+2022-09-10 --- Session 4
+------------------------
+
+### Intro
+
+- Session recap
+- Note on the wyrm & telegraphing danger
+- Level up Arfred & Maybelle
+
+### State
+
+- 9 Iggwyld
+- Brisk, clear
+- Afternoon
+- Party in the Clashed Antler
+- 13 Iggwyld: pay Wennew
+- 15 Iggwyld: iron dagger ready
+- 19 Iggwyld: iron mace ready
+
+### Prep
+
+#### Harrowmoor Keep
+
+- In the courtyard is a very grand carriage bearing the arms of House Malbleat
+  with four longhorn knights slovenly lounging nearby.
+- Party are ushered into a receiving room, where **Sir Abygail Twinsor** comes
+  to reunite with her squire.
+- After several minutes, **Lord Gryphius Malbleat** is seen through the window
+  leaving, visibly frustrated (his knights snap to attention).
+- Then **Lady Theatrice Harrowmoor** arrives to thank them, talk, and give a
+  reward (1000gp).
+- There's, like, a lot of cats
+
+- **Sir Abygail Twinsor, Arfred's Tutor Knight**
+  - 33 year old muscular woman with a prominent facial scar and (new) missing an
+    arm, kindly, suspicious of the Drune and the fey
+  - 3rd level Dolmenwood Knight of House Harrowmoor
+  - Stats as Noble (OSE)
+
+- **Lord Gryphius Malbleat**
+  - Was attempting to convince Lady Harrowmoor to gift or sell him some very old
+    books from her library (about the occult, folklore, and history).
+
+### Notes
+
+- 9 Iggwyld: brisk, clear (evening)
+  - **1106---Prigwort:**
+    - Lillibeth goes to learn *Read Magic* from Drouge (15th)
+    - Austache and the bounders act like they own the Clashed Antler
+
+- 10 Iggwyld: chill mist
+  - **1205---Gorthstone:**
+    - Explore
+    - Meet the phantom: Staff of the Apostle, Drune bound her here, unknown
+      religious clothes
+    - Be driven off by two Drune
+  - **1105---Harrowmoor Keep:**
+    - See Malbleat
+    - Drune faction relations:
+      - No open conflict with between the nobility, but the Drune are a
+        potential problem
+      - Church actively dislikes them
+    - Get reward
+    - Get horses
+
+- 11 Iggwyld: bright, fresh
+  - **1105---Harrowmoor Keep:**
+    - Explore
+    - See cove but can't reach it
+  - **1106---Prigwort:**
+    - Shopping
+
+- 12 Iggwyld: windy, cloudy
+  - **1108---Louper's Luncheon:**
+    - Enter Sir Chyde's tomb
+    - Dungeon turn 5
+
+### Next time
+
+- 12 Iggwyld (afternoon): windy, cloudy
+- Party (other than Lillibeth) at 1108 in Sir Chyde's tomb at dungeon turn 5
+- Lillibeth in Prigwort
+- Possible investigation of Sir Chyde in the libraries of Castle Brackenwold
+- Stuff Lillibeth learns about Drouge
+- Upcoming:
+  - 13 Iggwyld: pay Wennew
+  - 15 Iggwyld: iron dagger ready
+  - 16 Iggwyld: Lillibeth learns Read Magic
+  - 19 Iggwyld: iron mace ready
+- Review gazetteer for prep
+- Consider death & dismemberment rules
+- Handout for hex travel & exploration times
