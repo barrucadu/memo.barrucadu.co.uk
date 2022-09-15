@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-08-29
+modified: 2022-09-15
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -232,72 +232,68 @@ I might have to give up on these and buy a different printing:
 Roleplaying Games
 -----------------
 
-| System                | Title                                   |
-|----------------------:|-----------------------------------------|
-| Call of Cthulhu       | [Cults of Cthulhu][]                    |
-|                       | [Keeper Tips][]                         |
-|                       | [A Time to Harvest][]                   |
-|                       | [Cthulhu Dark Ages][]                   |
-|                       | [Fear's Sharp Little Needles][]         |
-|                       | [The Things We Leave Behind][]          |
-|                       | [Viral][]                               |
-| RuneQuest             | [The Glorantha Sourcebook][]            |
-|                       | [The Guide to Glorantha][]              |
-| Traveller             | [Mercenary Box Set][]                   |
-|                       | [Field Catalogue][]                     |
-|                       | [Specialist Forces][]                   |
-|                       | [Deepnight Revelation Core Set][]       |
-|                       | [Secrets of the Ancients][]             |
-|                       | [Pirates of Drinax soundtrack][]        |
-| Old School Essentials | [Dolmenwood Player's Book][]            |
-|                       | [Dolmenwood Campaign Book][]            |
-|                       | [Dolmenwood Monster Book][]             |
-|                       | [Carcass Crawler #3][]                  |
-| OSR                   | [Fungi of the Far Realms][]             |
-|                       | [Rackham Vale][]                        |
-|                       | [Gradient Descent][]                    |
-|                       | [Witchburner][]                         |
-|                       | [Longwinter (Referee's Book)][]         |
-|                       | [Longwinter (Visitor's Book)][]         |
+| System                | Title |
+|----------------------:|-------|
+| Call of Cthulhu       | [Cults of Cthulhu](https://www.chaosium.com/cults-of-cthulhu-hardcover/) |
+|                       | [Keeper Tips](https://www.chaosium.com/keeper-tips/) |
+|                       | [A Time to Harvest](https://www.chaosium.com/a-time-to-harvest-hardcover/) |
+|                       | [Cthulhu Dark Ages](https://www.chaosium.com/cthulhu-dark-ages-3rd-edition-hardcover/) |
+|                       | [Fear's Sharp Little Needles](https://www.drivethrurpg.com/product/245289/Fears-Sharp-Little-Needles) |
+|                       | [The Things We Leave Behind](https://www.drivethrurpg.com/product/191250/The-Things-We-Leave-Behind--An-Anthology-of-Modern-Day-Call-of-Cthulhu-Scenarios) |
+|                       | [Viral](https://www.drivethrurpg.com/product/391974) |
+| Traveller             | [Mercenary Box Set](https://www.mongoosepublishing.com/products/mercenary-box-set-1) |
+|                       | [Mercenaries of Charted Space](https://www.mongoosepublishing.com/products/mercenaries-of-charted-space) |
+|                       | [Field Catalogue](https://www.mongoosepublishing.com/products/field-catalogue) |
+|                       | [Specialist Forces](https://www.mongoosepublishing.com/products/specialist-forces) |
+|                       | [Robot Handbook](https://www.mongoosepublishing.com/products/robot-handbook) |
+|                       | [Deepnight Revelation Core Set](https://www.mongoosepublishing.com/products/deepnight-revelation-core-set) |
+|                       | [Secrets of the Ancients](https://www.mongoosepublishing.com/products/secrets-of-the-ancients) |
+| Old School Essentials | [Dolmenwood Player's Book](https://necroticgnome.com/collections/settings/products/dolmenwood-players-book) |
+|                       | [Dolmenwood Campaign Book](https://necroticgnome.com/collections/settings/products/dolmenwood-campaign-book) |
+|                       | [Dolmenwood Monster Book](https://necroticgnome.com/collections/settings/products/dolmenwood-monster-book-1) |
+|                       | [Carcass Crawler #3](https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-3) |
+|                       | [The Fungus That Came to Blackeswell](https://necroticgnome.com/collections/adventures/products/the-fungus-that-came-to-blackeswell) |
+|                       | [The Ruined Abbey of St Clewyd](https://necroticgnome.com/collections/adventures/products/the-ruined-abbey-of-st-clewyd) |
+| OSR (Adventures)      | [Where the Wheat Grows Tall](https://www.allrolledup.co.uk/product/where-the-wheat-grows-tall-rpg-adventure/) |
+|                       | [Witchburner](https://www.exaltedfuneral.com/products/witchburner) |
+|                       | [Longwinter (Referee's Book)](https://www.exaltedfuneral.com/products/longwinter) |
+|                       | [Longwinter (Visitor's Book)](https://www.exaltedfuneral.com/products/longwinter-visitors-book) |
+| OSR (Settings)        | [Rackham Vale](https://www.crwbr.com/shop) |
+|                       | [The Halls of Arden Vul](https://www.drivethrurpg.com/product/307787/Arden-Vul-Bundle-BUNDLE) |
+|                       | [HighFell](https://www.drivethrurpg.com/product/277804/HighFell-The-Drifting-Dungeon) |
+|                       | [Barrowmaze](https://www.drivethrurpg.com/product/139762/Barrowmaze-Complete) |
+|                       | [Dwarrowdeep](https://www.drivethrurpg.com/product/384269/Dwarrowdeep) |
+|                       | [The Forbidden Caverns of Archaia](https://www.drivethrurpg.com/product/399432/The-Forbidden-Caverns-of-Archaia) |
+|                       | [Castle Xyntillan](https://emdt.bigcartel.com/product/castle-xyntillan) |
+|                       | [The Stygian Library](https://www.allrolledup.co.uk/product/the-stygian-library/) |
+| OSR (Supplements)     | [Fungi of the Far Realms](https://www.melsonia.com/fungi-of-the-far-realms-69-p.asp) |
+|                       | [As the Gods Demand](https://www.drivethrurpg.com/product/389148/As-the-Gods-Demand) |
+|                       | [Wonder & Wickedness](https://www.drivethrurpg.com/product/145647/Wonder--Wickedness) |
+|                       | [Marvels & Malisons](https://www.drivethrurpg.com/product/211911/Marvels--Malisons) |
+|                       | [Hamsterish Hoard of Hexes](https://www.drivethrurpg.com/product/342067/Hamsterish-Hoard-of-Hexes) |
+|                       | [Chthonic Codex](https://www.drivethrurpg.com/product/166076/Chthonic-Codex) |
+|                       | [Theorems & Thaumaturgy](https://www.drivethrurpg.com/product/198548/Theorems--Thaumaturgy-Revised-Edition) |
+|                       | [The Complete Vivimancer](https://www.drivethrurpg.com/product/128029/The-Complete-Vivimancer) |
+|                       | [Kefitzat Haderech](https://www.lulu.com/shop/paolo-greco/kefitzat-haderech-incunabulum-of-the-uncanny-gates-and-portals/paperback/product-1re6km94.html) |
+|                       | [The Nameless Grimoire](https://www.lulu.com/shop/johnstone-metzger/the-nameless-grimoire/hardcover/product-8jz94p.html) |
+| Miscellaneous         | [Dread](https://www.tiltingatwindmills.net/buy-stuff/) |
+|                       | [Robin's Laws of Good Game Mastering](https://www.amazon.co.uk/Robins-Laws-Good-Game-Mastering/dp/1556346298/) |
+|                       | [Beating the Story](https://www.amazon.co.uk/Beating-Story-Understand-Elevate-Narrative/dp/0981884040/) |
 
-[Cults of Cthulhu]: https://www.chaosium.com/cults-of-cthulhu-hardcover/
-[Keeper Tips]: https://www.chaosium.com/keeper-tips/
-[A Time to Harvest]: https://www.chaosium.com/a-time-to-harvest-hardcover/
-[Cthulhu Dark Ages]: https://www.chaosium.com/cthulhu-dark-ages-3rd-edition-hardcover/
-[Fear's Sharp Little Needles]: https://www.drivethrurpg.com/product/245289/Fears-Sharp-Little-Needles
-[The Things We Leave Behind]: https://www.drivethrurpg.com/product/191250/The-Things-We-Leave-Behind--An-Anthology-of-Modern-Day-Call-of-Cthulhu-Scenarios
-[Viral]: https://www.drivethrurpg.com/product/391974
+### Candidates
 
-[The Glorantha Sourcebook]: https://www.chaosium.com/the-glorantha-sourcebook-hardcover/
-[The Guide to Glorantha]: https://www.chaosium.com/the-guide-to-glorantha-slipcase-set/
-
-[Mercenary Box Set]: https://www.mongoosepublishing.com/products/mercenary-box-set-1
-[Field Catalogue]: https://www.mongoosepublishing.com/products/field-catalogue
-[Specialist Forces]: https://www.mongoosepublishing.com/products/specialist-forces
-[Deepnight Revelation Core Set]: https://www.mongoosepublishing.com/products/deepnight-revelation-core-set
-[Secrets of the Ancients]: https://www.mongoosepublishing.com/products/secrets-of-the-ancients
-[Pirates of Drinax soundtrack]: https://www.mongoosepublishing.com/products/pirates-of-drinax-original-soundtrack
-
-[Dolmenwood Player's Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-players-book
-[Dolmenwood Campaign Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-campaign-book
-[Dolmenwood Monster Book]: https://necroticgnome.com/collections/settings/products/dolmenwood-monster-book-1
-[Carcass Crawler #1]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-1
-[Carcass Crawler #2]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-2
-[Carcass Crawler #3]: https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-3
-
-[Fungi of the Far Realms]: https://www.melsonia.com/fungi-of-the-far-realms-69-p.asp
-[Rackham Vale]: https://www.crwbr.com/shop
-[Gradient Descent]: https://shop.tuesdayknightgames.com/collections/mothership/products/gradient-descent
-[Witchburner]: https://www.exaltedfuneral.com/products/witchburner
-[Longwinter (Referee's Book)]: https://www.exaltedfuneral.com/products/longwinter
-[Longwinter (Visitor's Book)]: https://www.exaltedfuneral.com/products/longwinter-visitors-book
-
-### Miscellaneous
-
-| ISBN            | Title                                  | Author        |
-|----------------:+----------------------------------------+---------------|
-| `9781556346293` | Robin's Laws of Good Game Mastering    | Robin D. Laws |
-| `9780981884042` | Beating the Story                      | Robin D. Laws |
+- Call of Cthulhu
+  - [Bayt al Azif](https://baytalazif.com/)
+- Cepheus
+  - [Hostile](https://www.drivethrurpg.com/product/388160/HOSTILE-Mega-BUNDLE)
+  - [Old School Role Playing](https://www.drivethrurpg.com/browse/pub/11948/Old-School-Role-Playing)
+- Mothership
+  - [Gradient Descent](https://www.mothershiprpg.com/gradient-descent)
+- [Mountain Home](https://www.drivethrurpg.com/product/370421/Mountain-Home)
+- [No Country for Old Kobolds](https://nocountryforoldkobolds.com/)
+- RuneQuest: Roleplaying in Glorantha
+  - [The Glorantha Sourcebook](https://www.chaosium.com/the-glorantha-sourcebook-hardcover/)
+  - [The Guide to Glorantha](https://www.chaosium.com/the-guide-to-glorantha-slipcase-set/)
 
 
 Miscellaneous Nonfiction
