@@ -77,18 +77,16 @@ a[aria-current="page"] {
 }
 
 #outer-wrapper {
-    margin: 32px 25vw 32px 3em;
+    margin: 32px 3em 32px 3em;
 }
 
 #inner-wrapper {
-    max-width: 1364px;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 1000px;
-    grid-column-gap: 64px;
+    grid-column-gap: 3em;
+    grid-template-columns: 300px calc(75vw - 300px - 9em) calc(25vw - 3em);
     grid-template-areas:
-        "header header"
-        "sidebar main";
+        "header header header"
+        "sidebar main notes";
 }
 
 #header {
@@ -102,6 +100,7 @@ a[aria-current="page"] {
 #main {
     grid-area: main;
 }
+
 .link, .markdown a {
     color: var(--link);
     text-decoration: underline;
@@ -286,10 +285,11 @@ a[aria-current="page"] {
 }
 
 .markdown .sidenote {
+    /* float into the "notes" column, because css subgrids aren't well supported */
     float: right;
     clear: right;
-    width: 20vw;
-    margin-right: -25vw;
+    width: calc(25vw - 3em);
+    margin-right: calc(-25vw);
     margin-top: 0;
     margin-bottom: 0;
     vertical-align: baseline;
@@ -346,54 +346,15 @@ a[aria-current="page"] {
     background-color: transparent;
 }
 
-@media (max-width: 800px) {
-    html {
-        font-size: 16px;
-    }
-
-    #outer-wrapper {
-        margin: 16px;
-    }
-
-    #inner-wrapper.wrapper-for-list {
-        grid-template-columns: 200px minmax(min-content, 1300px);
-    }
-
-    #inner-wrapper.wrapper-for-memo {
-        grid-template-columns: 100%;
-        grid-template-areas:
-            "header"
-            "sidebar"
-            "main";
-    }
-
-    .wrapper-for-memo #sidebar {
-        border-bottom: 1px solid var(--border);
-        margin-bottom: 16px;
-        padding-bottom: 24px;
-    }
-
-    .main-heading {
-        font-size: 2rem;
-        margin-bottom: 16px;
-    }
-
-    .sidebar__sticky {
-        position: static;
-    }
-}
  @media (max-width: 600px) {
-    #inner-wrapper.wrapper-for-list {
+    #inner-wrapper {
+        display: grid;
+        grid-row-gap: 3em;
         grid-template-columns: 100%;
         grid-template-areas:
             "header"
             "sidebar"
-            "main";
-    }
-
-    .wrapper-for-list #sidebar {
-        border-bottom: 1px solid var(--border);
-        margin-bottom: 16px;
-        padding-bottom: 24px;
+            "main"
+            "notes";
     }
 }
