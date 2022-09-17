@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-09-10
+modified: 2022-09-17
 taxon: general-games
 ---
 
@@ -65,6 +65,10 @@ Player's Book**.
 Furthermore, **Clerics** and **Friars** all belong to the Church of
 the One True God, the state religion of the Empire, of which the local
 religious head is the Bishop of Brackenwold.
+
+#### Hit Points
+
+Take the maximum.
 
 #### Alignments
 
@@ -138,7 +142,71 @@ only the rules which directly affect players.
   - Smoking
   - Camping
 
-### XP for exploration
+### Hit Points
+
+When you level up, take the maximum.
+
+### Death and Dismemberment
+
+If a hit takes you to 0 HP or below, fall unconscious and roll 1d6 and 1d12 + |HP after hit|:
+
+|     | 1 Arm | 2 Leg | 3, 4 Torso | 5, 6 Head |
+|-|-|-|-|-|
+| 1+  | Arm disabled | Leg disabled | Blood Loss | Concussed |
+| 11+ | Save vs Death: arm mangled on pass | Save vs Death: leg mangled on pass | Save vs Death: crushed on pass | Save vs Death: skullcracked on pass |
+| 16+ | Dead | Dead | Dead | Dead |
+
+#### Arm / Leg Disabled
+
+For the rest of the day: limb unusable.
+
+#### Blood Loss
+
+For the rest of the day: max HP reduced by your level.
+
+#### Concussed
+
+For the rest of the day: act last in a combat round.
+
+#### Arm / Leg Mangled
+
+Save vs Death:
+
+- Pass: lose a finger / toe.
+- Fail: limb is hacked off.
+
+#### Crushed
+
+Save vs Death:
+
+- Pass: get a cool scar.
+- Fail: roll 1d6:
+  1. Lose 1 STR
+  2. Lose 1 DEX
+  3. Lose 1 CON
+  4. Crushed throat: cannot speak louder than a whisper
+  5. Crushed ribs: must save to hold breath
+  6. Broken spine: make a CON check after 1d6 days and again after 1d6 weeks on failure, if both fail, this is permanent
+  
+#### Skullcracked
+
+Save vs Death:
+
+- Pass: get a cool scar.
+- Fail: roll 1d6:
+  1. Lose 1 INT
+  2. Lose 1 WIS
+  3. Lose 1 CHA
+  4. Lose an eye: -1 to ranged attacks
+  5. Lose an eye: -1 to ranged attacks
+  6. Coma: make a CON check after 1d6 days and again after 1d6 weeks on failure, if both fail, this is permanent
+
+### Shields
+
+If a physical hit takes you to 0HP or less, and you have a shield equipped, then
+instead the shield is destroyed and you remain at 1HP.
+
+### XP for Exploration
 
 - Exploring a hex gives 100xp (each) for the first hex, 200xp for the
   second, 300xp for the third (etc), resetting when you return to a
@@ -148,7 +216,7 @@ only the rules which directly affect players.
 
 Exploration XP, like gold XP, is gained upon returning to a town.
 
-### Carousing
+### XP for Carousing
 
 Once per session in a civilised settlement, a PC may choose to Carouse
 to gain additional XP.  A PC who goes carousing must choose to spend a
@@ -243,6 +311,7 @@ Hexes & Secrets
 - **1406---The Golden Wood**
   - Knobbled mandrake
 - **1407---The Wenchgate**
+
 
 Resources
 ---------
@@ -767,3 +836,138 @@ Character descriptions & introductions, then 1407.
 - Review gazetteer for prep
 - Consider death & dismemberment rules
 - Handout for hex travel & exploration times
+
+
+2022-09-17 --- Session 5
+------------------------
+
+### Intro
+
+- Session recap
+- Rules:
+  - Handout for hex travel & exploration times
+  - Shield house rule
+
+### State
+
+- 12 Iggwyld (afternoon): windy, cloudy
+- Party (other than Lillibeth) at 1108 in Sir Chyde's tomb at dungeon turn 5
+- Lillibeth in Prigwort
+- Upcoming:
+  - 13 Iggwyld: pay Wennew
+  - 15 Iggwyld: iron dagger ready
+  - 16 Iggwyld: Lillibeth learns Read Magic
+  - 19 Iggwyld: iron mace ready
+
+### Prep
+
+#### Arfred's knighthood ceremony
+
+- Squire spends the night in a vigil in the chapel
+- The following day, in front of other knights as witness, has to explain:
+  - To the reverend: how he has served the One True God
+  - To Lady Harrowmoor: how he has served the House
+  - To a party member: how he has served the people
+- Same event can be used in multiple cases, so long as it's appropriate
+  emphasised.
+- Reward is knighthood and a shield emblazoned with the Harrowmoor arms.
+
+#### Lillibeth's observations of Drouge
+
+- Friendly, easy to get along with
+- Interested in the arcane secrets of Dolmenwood
+  - Standing offer of payment for information
+- Family
+- Inhabitants of Bag Manor: Drouge, the servitors, the book spirit, and some
+  unseen servants which ensure everything is convenient and where you want it
+- Work:
+  - Services & consultations
+  - Gets a few customers a day, all fairly wealthy (or servants of the fairly
+    wealthy) from across Dolmenwood and the surrounding area
+  - Even non-humans: one evening a grimalkin comes by
+  - In correspondance with more people
+- One day three ducal knights arrive, middle aged woman (Sir Iris) and man (Sir
+  Justus) and older man (Sir Clayton), to ask about a rogue Prismist.  Lillibeth
+  is called into this meeting and questioned.  They warn to stay away from this
+  Prismist, a mage who specialises in light and illusion, who could have taken
+  on any form, and to report anything she discovers to them.  (prep for
+  Incandescent Grottoes)
+
+#### Researching Sir Chyde
+
+- Can be researched in a large settlement or library (eg, Harrowmoor Keep,
+  Prigwort, Castle Brackenwold)
+- A day spent doing suitable research gives all the common folklore
+- Every 5gp spent gives one piece of deeper information
+
+#### Researching the Staff of the Apostle
+
+- A day spent doing research in a large library or church archive (eg,
+  Harrowmoor Keep, Castle Brackenwold) reveals the following:
+  - The Staff of the Apostle is a relic in the possession of the church, said to
+    have the power to vanquish demons.
+  - It was traditionally used as part of the ritual for burning heretics at the
+    stake, with the evil drawn from them (only if they repented, of course) into
+    the staff, so that their souls would merely go to purgatory and not to hell.
+  - But witch burning has fallen out of favour these past 500 years.
+- Additional research with a suitable scholar or in church archives reveals:
+  - The staff has been missing for 500 years, and that's why witch burning has
+    died off in Dolmenwood (can't do the proper ritual).
+  - The last burning was of all the members, including the high priestess, a
+    woman with shining blue eyes, of a heretical sect which combined church
+    doctrine with pagan beliefs.
+  - Most repented, out of fear of eternal damnation, but this high priestess was
+    unrepentent to the very end, saying that her only crime was to worship the
+    Gwyrigons, the three mighty archangels which God had appointed to watch over
+    His creation, and that worshipping the power of God is no sin.
+  - (religious player characters don't know of any "three mighty archangels" or
+    "Gwyrigons")
+
+### Notes
+
+- 12 Iggwyld (afternoon): windy, cloudy
+  - **1106---Prigwort:**
+    - Spend the time until the 16th looking into things
+
+- 16 Iggwyld: warm, sunny
+  - **1106---Prigwort:**
+    - Paulo looks into gossip about Drouge:
+      - House Oberon
+      - Bag Wall / Nag Lord rumour
+      - Enchanted drinks rumour
+    - Molly asks at the church about Sir Chyde:
+      - He defeated the Cold Prince with the power of love (fairytale)
+    - Arfred gets knighted
+    - Arfred and Maybelle look into Sir Chyde at the Harrormoow library:
+      - Get all lore
+    - Lillibeth observes stuff about Drouge
+    - Pay Wennew to 23rd
+  - **1107---The Wyrm Cave:**
+    - Encounter 12 Redcaps about to push 3 Moss Dwarfs down the chasm:
+      - Lillibeth knocked out
+      - Wennew killed
+      - Horses eaten
+      - One Moss Dwarf saved
+    - Return to Prigwort to recover
+
+- 17 Iggwyld: blustery, drizzle
+  - **1106---Prigwort:**
+    - Hire new retainers
+    - Recover
+
+- 18 Iggwyld: clement, cheery
+  - **1108---Louper's Luncheon:**
+    - Enter Sir Chyde's tomb
+    - Remove the religious objects
+    - Dungeon turn 7
+
+### Next time
+
+- 18 Iggwyld (afternoon): clement, cheery
+- In Sir Chyde's tomb at dungeon turn 7
+- Upcoming:
+  - 19 Iggwyld: iron mace ready
+- Write up house rules:
+  - Death & Dismemberment
+  - Max HP
+- Character sheets for retainers
