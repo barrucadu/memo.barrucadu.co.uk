@@ -2,7 +2,7 @@
 title: Campaign ideas
 taxon: general-games
 published: 2022-06-03
-modified: 2022-08-25
+modified: 2022-09-17
 ---
 
 
@@ -101,31 +101,6 @@ happenings to give you ideas.
 
 
 ## Traveller
-
-### The Annililik Run
-
-Every four years, there's a race along the old trade route between
-Vland and Capital: contestants gather in their thousands, flying old
-fashioned ships (limited to jump-2) and complying with stringent rules
-(must jump only to inhabited systems, may not use collapsible fuel
-tanks, may not engage in space combat with other contestants, etc) to
-make the Annililik Run in honour of those traders who provided a
-much-needed service during the turbulent beginnings of the Third
-Imperium.
-
-But that's just the surface.  The Annililik Run is anything but a
-peaceful and safe race: it lasts 75 weeks, the prize for first place
-(judged on a combination of travel time and trade profit) is enough to
-set a crew up for life, and even in inhabited systems there's always
-time for something to go wrong, or be *made* to go wrong.  Greed,
-sabotage, outright cheating, and the hijinks of world governments and
-corporate sponsors create trouble and danger at every stop.
-
-**Player buy-in:** The whole campaign is about getting from point A to
-point B, it's pretty linear.  The fun comes from figuring out how to
-do that in a reasonable timeframe while making money on the way, while
-also dealing with people who try to mislead or otherwise stop you.  Of
-course, you can *also* cheat and try to thin out the competition.
 
 ### The Fall of the Imperium
 
