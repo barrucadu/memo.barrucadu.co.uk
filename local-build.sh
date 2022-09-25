@@ -10,4 +10,5 @@ docker run -it --rm -v $(pwd):/src -v $HOME/http/_site:/build -w /src registry.b
   virtualenv venv
   source venv/bin/activate
   pip install -r requirements.txt
+  git config --global --add safe.directory /src
   ./build --drafts --root=$ROOT --out=/build"
