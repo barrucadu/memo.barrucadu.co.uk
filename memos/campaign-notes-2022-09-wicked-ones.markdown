@@ -1,7 +1,7 @@
 ---
 title: Wicked Ones (2022-09 to ?) notes
 published: 2022-09-11
-modified: 2022-09-18
+modified: 2022-09-25
 taxon: general-games
 ---
 
@@ -76,7 +76,7 @@ Dungeon Invasions
 ### State
 
 - Banked: minor blowback
-- 1d loot
+- Lurking
 
 ### Prep
 
@@ -117,5 +117,59 @@ Dungeon Invasions
 - Raiding
 - Banked:
   - -2d calamity
-  - New Wicked One: 3d loot
-  - Torrak: 2d loot
+
+
+2022-09-25 --- Session 3
+------------------------
+
+### Intro
+
+- Session recap
+- Run through faction goals
+
+### State
+
+- Banked: minor blowback
+- Raiding
+
+### Notes
+
+- **Raiding:**
+  - Pillaging raid on Castleford: stealth, strike
+  - Succeed
+    - Get meat for Roost
+    - Take out all adventurers
+    - Dungeon: +tier
+    - Castleford: -tier
+    - Loot: 6d
+  - Agents of Chaos: complete River Rats "Conquer Castleford" clock
+    - River Rats: +tier
+
+- **Lurking:**
+  - Tier up:
+    - Discover a friendly vampire (Merlin, party-wide vile friend)
+    - Skeleton lair
+  - Loot:
+    - Moordred: break locked door
+    - Slikidlorbin: -1d calamity
+    - Torrak: attract attention of Zaheen
+  - Downtime:
+    - Moordred: minions
+    - Torrak: minions
+    - Slikidlorbin: complete Roost
+      - Owe Zilith a favour
+    - Imps: start Prison
+
+- **Calamity:**
+  - Minor: unprepared villagers invade, run away after skeletons
+
+### Next time
+
+- Advance factions
+- Think about how to give out more stress
+  - Harsher consequences they're more likely to resist?
+- Raiding
+- Banked:
+  - Minor blowback
+  - Slikidlorbin owes Zilith a favour
+  - Torrak has the attention of Zaheen
