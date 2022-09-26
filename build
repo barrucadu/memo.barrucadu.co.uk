@@ -208,18 +208,11 @@ for fname in os.listdir("memos"):
             )
         if memo["published"] > memo["modified"]:
             memo["published"] = memo["modified"]
-        memo["published_iso"] = memo.get(
-            "published_iso", memo["published"].strftime(DATE_ISO_FORMAT)
-        )
-        memo["published_pp"] = memo.get(
-            "published_pp", memo["published"].strftime(DATE_PP_FORMAT)
-        )
-        memo["modified_iso"] = memo.get(
-            "modified_iso", memo["modified"].strftime(DATE_ISO_FORMAT)
-        )
-        memo["modified_pp"] = memo.get(
-            "modified_pp", memo["modified"].strftime(DATE_PP_FORMAT)
-        )
+
+        memo["published_iso"] = memo["published"].strftime(DATE_ISO_FORMAT)
+        memo["published_pp"] = memo["published"].strftime(DATE_PP_FORMAT)
+        memo["modified_iso"] = memo["modified"].strftime(DATE_ISO_FORMAT)
+        memo["modified_pp"] = memo["modified"].strftime(DATE_PP_FORMAT)
         memo["link"] = f"{memo['slug']}.html"
         memo["permalink"] = f"{BASE_HREF}{memo['slug']}.html"
 
