@@ -2,7 +2,7 @@
 title: Campaign ideas
 taxon: general-games
 published: 2022-06-03
-modified: 2022-09-17
+modified: 2022-09-26
 ---
 
 
@@ -218,14 +218,12 @@ galaxy fell into anarchy, worlds were cut off from one another,
 technologies were lost, and many civilisations simply failed to
 survive: this is the Long Night, and this is when our game is set.
 
-In the Long Night many small pocket empires rose, and fell.  You are
-all scouts, ex-military, and similar sorts, employed by the government
-of the Sylean Federation, one of the larger pocket empires of the Long
-Night.  The Sylean Federation is a group of systems all within about
-30 parsecs of the planet Sylea.  It's survived for 650 years now, but
-Sylea, too, is feeling the strain of administration at interstellar
-distances, and is also currently at war with two other pocket empires:
-the Interstellar Confederacy and the Chanestin Kingdom.  Can Sylea
+In the Long Night many small pocket empires rose, and fell.  You are all scouts,
+ex-military, and similar sorts, employed by the government of the Sylean
+Federation, one of the larger pocket empires of the Long Night.  It's survived
+for 650 years now, but Sylea, too, is feeling the strain of administration at
+interstellar distances, and is also currently at war with two other pocket
+empires: the Interstellar Confederacy and the Chanestin Kingdom.  Can Sylea
 solve its problems, or will it perish like so many others?
 
 **Player buy-in:** The player characters are all explorers working
