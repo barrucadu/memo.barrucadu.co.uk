@@ -3,10 +3,10 @@ title: Traveller (2021-10 to 2022-07) notes
 taxon: general-games
 tags: traveller
 published: 2021-10-12
-modified: 2022-07-23
+modified: 2022-09-29
 ---
 
-<aside class="highlight">This campaign is on hiatus and this memo contains spoilers.</aside>
+<aside class="highlight">This campaign has ended.</aside>
 
 Pitch
 -----
