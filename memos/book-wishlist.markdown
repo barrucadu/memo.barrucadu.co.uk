@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-09-15
+modified: 2022-09-30
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -248,6 +248,7 @@ Roleplaying Games
 |                       | [Robot Handbook](https://www.mongoosepublishing.com/products/robot-handbook) |
 |                       | [Deepnight Revelation Core Set](https://www.mongoosepublishing.com/products/deepnight-revelation-core-set) |
 |                       | [Secrets of the Ancients](https://www.mongoosepublishing.com/products/secrets-of-the-ancients) |
+|                       | [Aliens of Charted Space vol. 3](https://www.mongoosepublishing.com/products/aliens-of-charted-space-vol-3) |
 | Old School Essentials | [Dolmenwood Player's Book](https://necroticgnome.com/collections/settings/products/dolmenwood-players-book) |
 |                       | [Dolmenwood Campaign Book](https://necroticgnome.com/collections/settings/products/dolmenwood-campaign-book) |
 |                       | [Dolmenwood Monster Book](https://necroticgnome.com/collections/settings/products/dolmenwood-monster-book-1) |
