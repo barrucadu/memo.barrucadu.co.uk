@@ -80,23 +80,3 @@ jobs:
           path: site/memo
           rsync_args:
             - --delete
-      - task: notify
-        params:
-          PLEROMA_PASSWORD: ((pleroma-user-memo-password))
-        config:
-          platform: linux
-          image_resource:
-            type: docker-image
-            source:
-              repository: python
-              tag: 3.9.2
-          inputs:
-            - name: memo-git
-          run:
-            dir: memo-git
-            path: sh
-            args:
-              - -cex
-              - |
-                pip install -r requirements.txt
-                ./post-pleroma-status
