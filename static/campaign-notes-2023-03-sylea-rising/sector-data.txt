@@ -37,14 +37,14 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 1009 Luumiiliiplen        B536433-9 Lo                                  - - - 313   -- K4 V
 1101 Kiimi Di             E420000-7 Po De Ba                            - - - 002   -- M2 V
 1102 Gipirkash            C594122-8 Lo                                  - - - 124   -- M1 V
-1104 Rae                  E580544-3 Ni De                               - - - 923   -- G1 V M9 V
+1104 Rae                  E580544-3 Ni De                               - N - 923   -- G1 V M9 V
 1108 Uurruu E             B7657AA-7 Ag Ni                               - - - 414   -- M2 V
 1109 Uuruun Kuu           D987000-5 Ba                                  - - - 014   -- M0 V
 1202 Kargi                C569411-9 Lo                                  - - - 805   -- M3 V G8 V
 1204 Limashimii           C547000-9 Ba                                  - - - 002   -- M2 V
 1205 Miilapkhas           B590477-7 De Lo                               - - - 404   -- K3 V
 1302 Uumaad Nurir         C778000-8 Ba                                  - - - 004   -- K0 V
-1307 Ashduuma             C88A6AA-8 Ni Wa                               - - - 310   -- M0 V M1 V
+1307 Ashduuma             C88A6AA-8 Ni Wa                               - N - 310   -- M0 V M1 V
 1308 Akpussagna           E557000-2 Ba                                  - S - 004   -- M4 V M9 V
 1309 Uuniluu              B94A566-9 Ni Wa                               - - - 401   -- M2 V M7 V M8 V
 1403 Gag                  E896000-3 Ba                                  - - - 021   -- G1 V
@@ -192,36 +192,36 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 1717 Kasdaga              D9B7444-7 Lo Fl                               - - - 724   -- M2 V
 1812 Khiidkar             B583688-9 Ni Ri                               - - - 605   -- M2 V
 1813 Gaadvlu Ki           E554544-3 Ag Ni                               - - - 400   -- M2 V M1 V
-1815 Unrair               C510111-7 Lo {Full Data}                      - - - 413   -- M3 V
-1819 Unkuu                B505144-8 Va Ic Lo {Full Data}                - - - 300   -- M1 V
+1815 Unrair               C510181-7 Lo {Full Data}                      - - - 413   -- M3 V
+1819 Unkuu                B505184-8 Va Ic Lo {Full Data}                - - - 300   -- M1 V
 1912 Khamiila             A430300-C Po De Lo                            - - - 912   -- M0 V
-1916 Irurk                A544644-9 Ag Ni {Full Data}                   - - - 614   -- M3 V
-1917 Aggii Ganaan         E422417-4 Po Lo {Full Data}                   - - - 804   -- K4 V
-1918 Irmap Muu            C624422-7 Lo {Full Data}                      - - - 204   -- K1 V M4 V
+1916 Irurk                A544684-9 Ag Ni {Full Data}                   - - - 614   -- M3 V
+1917 Aggii Ganaan         E422487-4 Po Lo {Full Data}                   - - - 804   -- K4 V
+1918 Irmap Muu            C624482-7 Lo {Full Data}                      - - - 204   -- K1 V M4 V
 1919 Nirinirk             E776000-6 Ba {Full Data}                      - - - 000   -- G2 V
 1920 Kuma As              D410000-1 Ba                                  - S - 003   -- M0 V M9 V
 2011 Kikamaa              D544000-4 Ba                                  - - - 003   -- G1 V M7 V
 2012 Biin                 E651233-4 Po Lo                               - - - 733   -- M3 V M7 V
-2014 Bala                 C62A333-8 Wa Lo {Full Data}                   - - - 414   -- M0 V M7 V
-2016 Zuarkri              C877599-8 Ag Ni {Full Data}                   - - - 504   -- M2 V
-2017 Kain                 E576244-4 Lo {Full Data}                      - S - 821   -- M1 V
+2014 Bala                 C62A383-8 Wa Lo {Full Data}                   - N - 414   -- M0 V M7 V
+2016 Zuarkri              C877589-8 Ag Ni {Full Data}                   - - - 504   -- M2 V
+2017 Kain                 E576284-4 Lo {Full Data}                      - S - 821   -- M1 V
 2020 Kan                  D200000-1 Va Ba An                            - - - 013   -- G4 V
 2111 Kiikagaiir           C546455-9 Lo                                  - - - 600   -- M3 V M3 V
 2112 Nappar               C428255-7 Lo                                  - - - 720   -- M3 V
-2115 Zimiin               A431744-B Na Ni Po {Full Data}                - - - 304   -- M2 V
-2118 Sylea                A586A98-C Hi {Full Data}                      - - - 305   -- G2 V
+2115 Zimiin               A431784-B Na Ni Po {Full Data}                - - - 304   -- M2 V
+2118 Sylea                A586AC8-C Hi {Full Data}                      - N - 305   -- G2 V
 2211 Gid                  B655555-B Ag Ni Chir?                         - - - 224   -- K2 V M8 V
 2213 Kiirri               B541000-5 Po Ba {Full Data}                   - - - 014   -- G9 V
-2214 Lauursha             E849555-6 Ni {Full Data}                      - - - 904   -- M1 V
+2214 Lauursha             E849585-6 Ni {Full Data}                      - - - 904   -- M1 V
 2216 Khash                B8A6000-7 Fl Ba {Full Data}                   - - - 023   -- F4 V
 2218 Shaaak               B436999-9 In Hi                               - - - 304   -- K0 V M5 V
 2219 Ase                  B420488-C Po De Lo                            - - - 610   -- M2 V M5 V
 2220 Khishnar             E562255-0 Lo                                  - - - 313   -- M2 V M0 V
 2312 Giikkala             B79A755-B Ni Wa Ab                            - - - 103   -- K3 V
-2314 Laairer              B559111-8 Lo {Full Data}                      - - - 904   -- M1 V
-2316 Idmum                C5447AA-7 Ag Ni {Full Data}                   - - - 802   -- M0 V M5 V
-2317 Gikuu                E571344-1 Lo {Full Data}                      - - - 910   -- M2 V M8 V
-2318 Kuunen Ish           B310666-8 Na Ni {Full Data}                   - - - 413   -- M2 V M7 V M5 V
+2314 Laairer              B559181-8 Lo {Full Data}                      - - - 904   -- M1 V
+2316 Idmum                C54478A-7 Ag Ni {Full Data}                   - - - 802   -- M0 V M5 V
+2317 Gikuu                E571384-1 Lo {Full Data}                      - - - 910   -- M2 V M8 V
+2318 Kuunen Ish           B310686-8 Na Ni {Full Data}                   - - - 413   -- M2 V M7 V M5 V
 2319 Ipduu In             D979577-7 Ni                                  - - - 914   -- K1 V
 2320 Uunli                B6B5000-2 Fl Ba                               - - - 022   -- M3 III
 2413 Kiur                 E651000-0 Po Ba                               - - - 001   -- M3 V M2 V M7 V
@@ -252,7 +252,7 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 3211 Zikhi                D427211-9 Lo                                  - - - 902   -- M0 V M7 V M6 V
 3216 Shand                C964111-7 Lo                                  - - - 713   -- K4 V M0 V
 3218 Kaskii               B300766-E Na Ni Va                            - - - 904   -- G4 V
-0125 Larsaluu             B664133-9 Lo                                  - - - 110   -- M0 V M1 V
+0125 Larsaluu             B664133-9 Lo                                  - N - 110   -- M0 V M1 V
 0126 Danke Es             B541644-8 Ni Po An                            - - - 413   -- G7 V M4 V
 0127 Emshi                B578733-8 Ag Ni                               - - - 514   -- M1 V
 0128 Sheki                C559344-9 Lo Chir?                            - - - 923   -- K0 V
@@ -268,22 +268,22 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 0326 Dindma Eshgi         B540000-9 Po De Ba                            - - - 004   -- M2 V M7 V
 0328 Baamlaa Maa          C553277-9 Po Lo                               - - - 111   -- M3 V
 0421 Murda                B887211-B Lo                                  - - - 722   -- G8 V
-0423 Gig                  B400322-B Va Lo                               - - - 600   -- K4 V
-0428 Irlu                 C5358AA-B                                     - - - 113   -- K2 V M4 V
+0423 Gig                  B400322-B Va Lo                               - N - 600   -- K4 V
+0428 Irlu                 C5358AA-B                                     - N - 113   -- K2 V M4 V
 0429 Diid                 C9B9000-8 Fl Ba                               - S - 004   -- G4 V
 0522 Amkhiikhaki          E562755-5 Ni Ri An                            - - - 324   -- G2 V
-0523 Uniimvlu             B590100-9 De Lo                               - - - 403   -- K1 IV
+0523 Uniimvlu             B5901B0-9 De Lo                               - N - 403   -- K1 IV
 0526 Uumkhi               B200000-A Va Ba                               - - - 021   -- M2 V
 0527 Urguu                A557000-9 Ba                                  - - - 015   -- G9 V M3 V
 0529 Iirkaa Gaasar        B586666-9 Ag Ni Ri                            - - - 512   -- M2 V M5 V
 0530 Mien Puuruu          D433322-5 Po Lo                               - - - 304   -- M2 V M4 V
-0622 Uurgigi              B647488-B Lo                                  - - - 404   -- M1 V
+0622 Uurgigi              B647468-B Lo                                  - - - 404   -- M1 V
 0624 Giirud               A100266-C Va Lo                               - - - 904   -- M1 V
 0721 Shika                E551466-6 Po Lo                               - - - 501   -- M0 V M0 V
-0722 Kuuda I              B561333-8 Lo                                  - - - 302   -- M0 V
+0722 Kuuda I              B561363-8 Lo                                  - - - 302   -- M0 V
 0725 Khag                 C411266-A Ic Lo                               - - - 103   -- M8 II
 0727 Dral                 C7288DD-A                                     - - - 312   -- G3 V M3 V
-0821 Lakhia               B000411-C Va Lo As                            - - - 504   -- G6 V
+0821 Lakhia               B000461-C Va Lo As                            - - - 504   -- G6 V
 0822 Siirduu              C540366-9 Po De Lo                            - - - 814   -- G9 V M9 V
 0827 Iirla                B550444-A Po De Lo                            - - - 713   -- M2 V
 0921 Umda                 E6A7422-4 Lo Fl                               - - - 310   -- M2 V
@@ -311,24 +311,24 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 1330 Shidkar              B685200-6 Lo                                  - - - 200   -- F3 V M7 V
 1421 Angar                B436766-8 Ni                                  - - - 222   -- M0 V M0 V
 1422 Ashbikuu             C7C2000-7 Fl Ba                               - - - 011   -- G7 V M1 V M8 V
-1424 Khusgurlu            B652566-9 Ni Po                               - - - 614   -- M1 V
+1424 Khusgurlu            B652566-9 Ni Po                               - N - 614   -- M1 V
 1428 Vlaarvla Akha        A656544-9 Ag Ni Chir?                         - - - 100   -- K6 V M9 V M2 V
 1430 Uukzi Giish          B100000-B Va Ba                               - - - 003   -- F1 V M1 V
 1522 Gaashi Ash           C7C2133-7 Lo Fl                               - - - 200   -- M1 V M0 V
-1523 Laus                 A596122-A Lo                                  - - - 213   -- M3 V M4 V
-1524 Shibashliim          A626A88-C In Hi                               - - - 912   -- K4 V
+1523 Laus                 A596122-A Lo                                  - N - 213   -- M3 V M4 V
+1524 Shibashliim          A626A88-C In Hi                               - N - 912   -- K4 V
 1526 Gikakhii             E403211-6 Va Ic Lo                            - - - 923   -- M1 V
 1529 Niin                 D310000-6 Ba                                  - - - 024   -- F8 V M5 V
 1530 Arvli Khaan          B563000-9 Ba                                  - - - 002   -- M1 V M6 V
-1622 Genkaaa              C420555-A Ni Po De                            - - - 201   -- M2 V M8 V M7 V
-1623 Aggaa Irpu           A567122-7 Lo                                  - - - 824   -- K4 V
+1622 Genkaaa              C420555-A Ni Po De                            - N - 201   -- M2 V M8 V M7 V
+1623 Aggaa Irpu           A567122-7 Lo                                  - N - 824   -- K4 V
 1625 Gakirvli             C885333-7 Lo                                  - - - 114   -- K4 IV
 1628 Amshakshe            C633655-8 Na Ni Po                            - - - 904   -- M3 V
 1630 Kuusuu Uur           C430377-B Po De Lo                            - - - 203   -- M1 V
 1721 Duusikiim            C565555-8 Ag Ni Ab                            - - - 304   -- G0 V M4 V
 1724 Guurma Sa            A675322-A Lo                                  - - - 524   -- M2 III
 1725 Angairkshak          B545788-8 Ag Ni                               - - - 503   -- M0 V
-1726 Demla                C000233-9 Va Lo As                            - - - 104   -- M1 V M2 V
+1726 Demla                C000233-9 Va Lo As                            - N - 104   -- M1 V M2 V
 1727 Khirar               B8B3111-A Lo Fl                               - - - 605   -- M0 II
 1730 Laik Girkki          BAB5499-8 Lo Fl                               - - - 504   -- M2 V M0 V
 1821 Shar                 B78A200-D Wa Lo                               - - - 402   -- M2 V M5 V
@@ -356,7 +356,7 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 2223 Muun                 A866000-8 Ba                                  - - - 002   -- M2 V
 2224 Kuula Iish           B560322-B De Lo                               - - - 203   -- K2 V
 2225 Duur                 C512111-9 Ic Lo                               - - - 711   -- K4 V
-2226 Skeen                B591A88-C In Hi                               - - - 722   -- K1 V
+2226 Skeen                B591A88-C In Hi                               - N - 722   -- K1 V
 2227 Lider                C557100-6 Lo Chir?                            - - - 703   -- K3 V M6 V
 2322 Shusa                B581899-A Ri                                  - - - 804   -- M2 V M5 V
 2323 Lezaar               B423A88-8 Na In Po Hi                         - - - 803   -- K4 V
@@ -462,14 +462,14 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 1533 Zagi Uu              C647255-6 Lo                                  - - - 702   -- M3 V M0 V
 1534 Gid                  B76A533-B Ni Wa                               - - - 103   -- K1 V M6 V
 1536 Shueshlar            D435266-7 Lo                                  - - - 102   -- M3 V M3 V
-1538 Uurme                A543211-9 Po Lo                               - - - 401   -- K0 V
+1538 Uurme                A543211-9 Po Lo                               - N - 401   -- K0 V
 1539 Dimanaam             A583355-C Lo                                  - - - 104   -- K6 V M1 V
 1633 Reshi Uun            C300877-9 Na Va Ab                            - - - 501   -- K4 III
 1635 Khasherliguu         D627599-7 Ni                                  - - - 714   -- K0 V
 1638 Malaaash             E759122-3 Lo Chir?                            - - - 312   -- K2 V M2 V
 1732 Maasaanin            C758322-9 Lo                                  - - - 804   -- M2 V M7 V
 1733 Riid                 B865133-8 Lo                                  - - - 614   -- K3 V
-1736 Mished               B4208A7-C Na Po De                            - - - 900   -- M1 V M6 V
+1736 Mished               B4208A7-C Na Po De                            - N - 900   -- M1 V M6 V
 1737 Irkhar Kirk          C574466-8 Lo                                  - - - 700   -- M2 V
 1738 Ginna                C8A6000-8 Fl Ba                               - - - 013   -- M1 V M6 V
 1739 Enshuuar             B6A6300-8 Lo Fl                               - - - 812   -- M2 V
@@ -482,7 +482,7 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 1840 Saruumdiiush         E743655-3 Ni Po                               - - - 400   -- M1 V
 1933 Uushruu              C599322-9 Lo                                  - - - 604   -- M1 V M5 V
 1934 Zishma Kha           C886233-5 Lo                                  - - - 200   -- M2 V
-1938 Keshi                B566200-7 Lo                                  - - - 114   -- K3 V M1 V M0 V
+1938 Keshi                B5662B0-7 Lo                                  - N - 114   -- K3 V M1 V M0 V
 1940 Nii                  B548A88-8 In Hi                               - - - 420   -- K6 V
 2034 Daindkhara           C424355-B Lo                                  - - - 703   -- M1 V
 2036 Uundi Zi             A410977-C Na In Hi                            - - - 804   -- G8 III D
@@ -490,7 +490,7 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 2038 Gimmi Uussha         C576333-A Lo                                  - - - 202   -- K0 V
 2040 Gikhii Iis           A540511-8 Ni Po De                            - - - 102   -- M3 V M2 V
 2133 Degkak Uun           E88A455-5 Wa Lo                               - - - 210   -- K4 V
-2135 Diliig               D749000-4 Ba                                  - - - 013   -- K6 V
+2135 Diliig               D749000-4 Ba                                  - N - 013   -- K6 V
 2136 Kiir                 A77A000-D Wa Ba                               - - - 004   -- M3 V M6 V
 2138 Adkhi                E888244-3 Lo                                  - - - 400   -- M3 V M3 V
 2139 Nig                  C565344-9 Lo An                               - - - 802   -- M2 V M5 V
@@ -501,7 +501,7 @@ Hex  Name                 UWP       Remarks              {Ix} (Ex) [Cx] N B Z PB
 2334 Busirkher            B433000-A Po Ba                               - - - 003   -- G7 V
 2335 Gish                 B555388-9 Lo                                  - - - 403   -- M1 V
 2336 Adan                 D661411-3 Lo                                  - - - 903   -- K1 V M2 V
-2338 Shinzarkan           B555211-9 Lo                                  - - - 614   -- M2 V M0 V
+2338 Shinzarkan           B555211-9 Lo                                  - N - 614   -- M2 V M0 V
 2431 Kim                  D7A8333-3 Lo Fl                               - - - 512   -- M1 V M1 V
 2433 Uumad                D794400-5 Lo                                  - - - 714   -- M2 V
 2435 Iidkek               BAB5333-7 Lo Fl                               - - - 900   -- M1 V M3 V

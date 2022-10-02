@@ -40,55 +40,217 @@ Pitch
 > a more political game if you want.
 
 
-Traveller Map data
-------------------
+Setting
+-------
 
-[Poster](campaign-notes-2023-03-sylea-rising/poster.png)
+### Traveller Map data
 
-[Traveller Map poster maker](https://travellermap.com/make/poster), options:
+- [Poster](campaign-notes-2023-03-sylea-rising/poster.png) ([poster maker](https://travellermap.com/make/poster))
+- [Sector data](campaign-notes-2023-03-sylea-rising/sector-data.txt)
+  - Based on Core (M0)
+  - Remove all allegiance codes (the borders show that)
+  - Government types:
+    - Sylean Federation: Sylea is C, other core worlds (other than 0 pop ones) are 8.
+    - Sylean-occupied Territory: Uniimvlu is B, worlds spinward of Guba Ak are
+      6, worlds trailing are self-governing again
+    - Chanestin Kingdom: Keshi is B
+  - Add bases to border systems
+  - Add Kala Station at 2230
+- [Metadata](campaign-notes-2023-03-sylea-rising/metadata.xml)
+  - Based on Core (M0)
+  - Names:
+    - Rename sector to Ukan
+    - Rename Core subsector to Sylea subsector
+    - Fill in modern subsector names for missing ones
+  - Borders:
+    - Remove all unknown borders
+    - Add modern Sylean Worlds to Sylean Federation
+    - Extend Sylean Federation into Chant
+    - Add Chanestin Kingdom (from Mongoose Third Imperium)
+    - Add Interstellar Confederacy (from Mongoose Third Imperium)
+    - Progress Sylean Federation / Interstellar Confederacy war
+    - Add pocket empires
+    - Add trade corridor to Vland
 
-- **Format:** Bitmap
-- **Show:** Whole Sector
-- **Style:** White background (Color)
-- **Image Rotation:** None
-- **Map Rotation:** None
-- **Scale:** 128 pixels/parsec - uwp
-- **Hex Numbers:** Sector (3240)
-- Sector / Subsector Names
-- Subsector Grid
-- Routes
-- Labels
-- Borders
-  - Filled
-- Force Hexes
-- Ignore Errors
+### Handout
 
-### Sector data
+300,000 years ago, a mysterious race now called "the Ancients" took primitive
+humans from their home planet, and seeded them throughout the galaxy.  This has
+made a lot of people very angry and has been widely regarded as a bad move.
 
-[Data](campaign-notes-2023-03-sylea-rising/sector-data.txt)
+About 7,000 years ago, the Vilani people from the planet of Vland were the first
+humans to discover jump technology.  They gained the ability to travel between
+the stars.  Over those 7,000 years, they built up a vast empire, called the Ziru
+Sirka, which means Grand Empire of the Stars.  At its height, it controlled over
+15,000 worlds spread across 27 sectors of space.
 
-- Based on Core (M0)
-- Remove all allegiance codes (the borders show that)
-- Add Kala Station at 2230
+In about 60 years, the Terrans from the planet of Earth will discover jump
+technology.
 
-### Metadata
+In about 75 years, first contact will be made between the Terrans and the
+Vilani.
 
-[Data](campaign-notes-2023-03-sylea-rising/metadata.xml)
+And in about 100 years, war will break out between the Terran Confederation and
+the Ziru Sirka.  The Ziru Sirka is far, far bigger, but it's also in decline.
+Vilani society is very centralised, their culture is incredibly rigid, they've
+stagnated technologically, and with only jump-2 ships they simply can't
+effectively manage their vast territory.
 
-- Based on Core (M0)
-- Names:
-  - Rename sector to Ukan
-  - Rename Core subsector to Sylea subsector
-  - Fill in modern subsector names for missing ones
-- Borders:
-  - Remove all unknown borders
-  - Add modern Sylean Worlds to Sylean Federation
-  - Extend Sylean Federation into Chant
-  - Add Chanestin Kingdom (from Mongoose Third Imperium)
-  - Add Interstellar Confederacy (from Mongoose Third Imperium)
-  - Progress Sylean Federation / Interstellar Confederacy war
-  - Add pocket empires
-  - Add trade corridor to Vland
+The war lasts about 200 years, and ends with the surrender of the Ziru Sirka.
+One imperium comes to an end, and another begins.  The Terrans---now calling
+themselves Solomani after our star---proclaim the Rule of Man, a kind of
+military state run by hereditary fleet admirals.
+
+But the Solomani couldn't halt the decline of the empire they'd inherited.
+After a scant 500 years, the Rule of Man collapsed.  And nothing replaced it.
+
+That began the Long Night, a period of galactic anarchy which saw the collapse
+of interstellar trade, diplomacy, and communication.  Many worlds couldn't
+maintain their high technology levels, or even feed their populations, with the
+overarching bureaucracy gone.  Some worlds reverted to barbarism or died out
+entirely.  Space became a lawless place where pirates and reavers preyed on
+those few brave enough to still travel between the stars.  And over a thousand
+years passed before interstellar civilisation began to re-emerge.
+
+One of those lights in the darkness is the Sylean Federation, now 650 years old,
+and that is where our game is set.
+
+#### Sylean Federation
+
+**Governance:** Worlds are largely self-governing, with each appointing a
+senator to the Grand Senate on Sylea, which has the hereditary Grand Duke of
+Sylea as its president.
+
+The Grand Senate determines laws for both Sylea and the whole Federation, there
+isn't a separate Sylean government.  While Sylea is the only world directly
+ruled by the Grand Senate, the nearby worlds of Unrair, Unkuu, Irurk, Aggii
+Ganaan, Irmap Muu, Bala, Zuarkri, Kain, Zimiin, Lauursha, Laairer, Idmum, Gikuu,
+and Kuunen Ish, which have been members of the Federation since the beginning,
+are civil service bureaucracies ruled by their senators.  Other worlds are more
+varied.
+
+The current Grand Duke is the 56-year-old Cleon Zhunatsu, a very popular leader
+who has overseen rapid expansion of the Federation.
+
+**Society:** The core worlds are diverse and well integrated, with Syleans,
+Solomani, and Vilani all mixing together in all tiers of society, though ethnic
+Syleans are over-represented in the Senate.
+
+Many of the worlds further afield are old Vilani and Solomani colonies which
+haven't seen much immigration.
+
+**Recent history:** The recent history of the Sylean Federation is the recent
+history of the current ruling dynasty, the Zhunastu family.  Felix Zhunastu, the
+previous Grand Duke, persuaded the Grand Senate to grant the president broad and
+expansive powers.  He also used the Zhunastu family fortune to acquire several
+key corporations and merge them into the Zhunastu Industries megacorporation,
+which mostly deals with research and development, and holds several military
+contracts.
+
+When Felix died, he left behind his heir the 27-year-old Cleon Zhunastu, who
+assumed the roles of Grand Duke of Sylea, president of the Grand Senate, and
+chairman of Zhunastu Industries.
+
+Cleon began a rapid expansion of territory, a mixture of recruitment and
+conquest.  He established the Sylean Federation Scout Service.  And he's
+introduced the first prototype jump-3 ships into the navy, that technology newly
+developed by Zhunastu Industries.  Some of these high tech ships have been
+deployed to the war with the Interstellar Confederacy, and have allowed rapid
+advances and surprise attacks against the less technologically advanced
+Confederates.
+
+Cleon has been president for 30 years now, and shows no sign of slowing down.
+People are generally optimistic for the future, and look forward to seeing what
+change he brings next.
+
+#### Other polities
+
+##### Apge Free Trade Zone
+
+This jump-1 main survived the Long Night by fostering tariff-free trade.  The
+worlds are all independent and there is no overarching government or culture,
+but each has signed a treaty to waive taxes when importing or exporting goods.
+
+Mechanically speaking:
+
+- When buying goods in the Zone, pay the normal price.
+- When selling goods in the Zone which were bought *inside* the Zone, the sale
+  price is 5% higher (this reflects sale taxes not being taken).
+- When selling goods in the Zone which were bought *outside* the Zone, use the
+  normal sale price.
+
+**Relationship with the Sylean Federation:** As the Free Trade Zone is a
+collection of independent worlds, it has no formal relationship as a whole with
+the Sylean Federation.
+
+##### Chanestin Kingdom
+
+During the time of the Ziru Sirka, Keshi was a rich agricultural world,
+exporting produce to many other nearby worlds.  So when the collapse came, it
+retained a fleet of jump-1 starships and huge stockpiles of produce and
+material.  About 1300 years ago, the king of Keshi used the remnants of the
+fleet to conquer the nearby worlds, forming the interstellar Chanestin Kingdom.
+The monarchs were not very oppressive, so no worlds have broken away over the
+centuries.
+
+**Relationship with the Sylean Federation:** Contact was established a little
+over a century ago by a trade convoy, but the ruling monarch executed the
+merchants for inciting sedition (or so they say).  War broke out.  At the moment
+there is officially peace, but it's more like a cold war, with both polities
+trying to influence the Kuusuun Federation, which lies between the two, to their
+side.
+
+##### Interstellar Confederacy
+
+The worlds of the Confederacy survived the Long Night relatively intact by
+forming a union to restore interstellar trade, provide for mutual self-defence,
+and preserve the technology of their most advanced worlds.  At its peak, it had
+32 member worlds.
+
+**Relationship with the Sylean Federation:** There is an active war between the
+Confederacy and the Sylean Federation, and has been almost since first contact
+300 years ago.  The Syleans have captured over half of it, including recently
+its capital of Uniimvlu.  The worlds closer to the frontier are ruled by Sylean
+military governors, but many of the other worlds have had a limited self-rule
+restored (though there are frequent check-ups by the Sylean navy).  Ultimately,
+the Syleans plan to conquer and absorb the entire Confederacy.
+
+##### Kuusuun Federation
+
+The Kuusuun are a fragmented people, even their capital world of Kuusuu Uur has
+a balkanised government.  They are slow to trust, quick to anger, and family
+ties are very important: some say the quickest way to befriend a Kuusuun is to
+marry his sister; but if you insult a Kuusuun, the blood feud will last for
+generations.
+
+The Kuusuun Federation is also home to Kala Station, an aging Vilani wreck
+constructed during the Ziru Sirka.  It's falling apart, but it forms an
+essential bridge between Iruies and Raami, as the Kuusuun have very few jump-2
+ships and little capacity to make more.
+
+**Relationship with the Sylean Federation:** Both Sylean and Chanestin diplomats
+are trying to persuade the Kuusuun to join their respective side, and Sylean and
+Chanestin intelligence agents are trying to stop the other side from getting
+there first.  The Kuusuun Federation is the unwitting site of a proxy war
+between these two greater powers.
+
+##### Mishaar Cluster
+
+The relatively high-tech but resource-poor Mishaar saved itself from starvation
+by seizing the resource-rich asteroid belts of Dis and establishing automated
+farms on Gipirkash.  Now, most of the population live on the worlds of Kargi and
+Uumaad Nurir, but the beating heart is still the automation and shipping run
+from Mishaar.
+
+**Relationship with the Sylean Federation:** The Cluster is on the Sylea / Vland
+trade route and has profited greatly from passing ships.  They are considering
+applying for membership of the Federation.
+
+#### Independent worlds
+
+In addition to these larger polities, there are many independent worlds.  These
+are intentionally not fleshed out.  Dead worlds, archaeological finds, hostile
+aliens, strange facilities, caches of technology... anything could be out there.
 
 
 2023-03-05 --- Session 0
@@ -96,15 +258,59 @@ Traveller Map data
 
 ### Prep
 
-- Session 0 topics to discuss
-- History & setting
-  - Choose a group of 4 subsectors we'll play in
-- Character creation
+#### Setting overview
+
+Go through handout.
+
+#### Discussion
+
+- **In this campaign:**
+  - I don't have an overarching story or an end goal in mind.  Things will
+    definitely happen around you, you're in a tumultous period of history,
+    you're not the drivers of everything.  So we'll play until we want to do
+    something else.
+  - I'll make use of time skips to get straight to the action, we'll often start
+    a session with you already on a mission.  So we're not going to play out
+    every moment of the game in session, we did that in the previous Traveller
+    campaign, and I think it made that campaign less exciting than it could have
+    been.
+    - If time passes at the table, players want to optimise it, which led to you
+      spending time picking up cargo and passengers on every journey.  You still
+      can pick up passengers and cargo, but I want that to be because you want
+      to, not because you feel you have to.
+  - By default the campaign will be pretty episodic with me giving you
+    adventures and rumours and that sort of thing, but I'm definitely open to
+    you coming up with your own goals and steering the campaign in new
+    directions.
+
+#### Session 0 topics to discuss
+
+- **Same Page Tool:**
+
+- **Time skips:** I think a weakness of the previous Traveller campaign was
+  doing everything in "real-time".
+
+- **Focus:** War?  Espionage?  Politics?  Exploration?  Contact?  All of those?
+  In what proportions?
+
+- **Tone:** Is everyone outside the Sylean Federation suspicious of you and it's
+  an uphill struggle to form friendships, or are people generally happy to see
+  the potential end of anarchy?
+
+#### Start!
+
+1. Choose a group of 4 subsectors we'll play in
+2. Create characters
 
 ### Notes
 
 ### Next time
 
+- Prepare local region:
+  - Upload Foundry map
+  - Flesh out major factions, worlds, and NPCs
+- Murder on Arcturus Station:
+  - Pick a border world and tie it into Sylean politics
 
 2023-MM-DD --- Session N
 ------------------------
