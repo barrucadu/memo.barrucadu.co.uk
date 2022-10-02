@@ -1,7 +1,7 @@
 ---
 title: Wicked Ones (2022-09 to ?) notes
 published: 2022-09-11
-modified: 2022-09-25
+modified: 2022-10-02
 taxon: general-games
 ---
 
@@ -173,3 +173,58 @@ Dungeon Invasions
   - Minor blowback
   - Slikidlorbin owes Zilith a favour
   - Torrak has the attention of Zaheen
+
+
+2022-10-02 --- Session 4
+------------------------
+
+### Intro
+
+- Session recap
+- River Rats now control both sides of the crossing, but are still tier 1
+- Slikidlorbin's favour
+
+### State
+
+- Slikidlorbin owes Zilith a favour (which scales with the dungeon tier)
+  - Pay 1 gold
+  - Craft a tier 1 contraption or concotion
+  - Pay cost
+  - **If dungeon reaches tier 2:** lose Zilith as a vile friend and take -1d
+    calamity
+- Raiding
+
+### Notes
+
+- **Raiding:**
+  - Negotiation, get a "Littleplace was here" note written in the Light Tongue
+    from River Rats
+
+- **Blowback:**
+  - Encounter a bear
+
+- **Lurking:**
+  - Expand dungeon
+  - Slikidlorbin makes a hot air balloon
+  - Slikidlorbin pays Zilith
+
+- **Calamity:**
+  - A single tier 4 / 6 move thief enters the dungeon, gets taken out in the
+    sanctum
+  - Slikidlorbin's silverware used up
+
+- **Raiding:**
+  - Assault on Jeff, aiming to kill him and use the note to frame Littleplace,
+    riling up Truffle Hollow
+  - Bypass the dogs and sneak to Jeff's bedroom, but wake him up (racing clocks
+    worked well for this)
+
+### Next time
+
+- Between sessions:
+  - XP (and remember to do it in following sessions)
+  - Factions
+- Finish off Jeff raid:
+  - At the door to Jeff's bedroom
+  - Jeff is awake, but unarmed
+  - Jeff has called for dogs (clock?)
