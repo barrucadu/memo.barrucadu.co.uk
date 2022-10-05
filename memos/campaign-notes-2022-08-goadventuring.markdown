@@ -1,7 +1,7 @@
 ---
 title: GoAdventuring (2022-08 to ?) notes
 published: 2022-08-16
-modified: 2022-09-07
+modified: 2022-10-05
 taxon: general-games
 ---
 
@@ -24,9 +24,60 @@ to the action to keep new players hooked.
 **Golden rule #2:** require as little mechanical knowledge as
 possible, to lower the barrier to entry.
 
+### Structure
 
-2022-08-03 --- Winter's Daughter 1
-----------------------------------
+I've decided to use the [5 room
+dungeon](https://www.roleplayingtips.com/5-room-dungeons/) structure, aiming to
+take 2 or 3 sessions per step, which will make the campaign take around 6 months
+(fortnightly sessions skipping the occasional one).  A long or complex plot
+won't work, it'll simply take too much time and people will forget the details.
+
+1. **Entrance and Guardian.** The players learn that frost elves are real and
+   that there are connections between the mortal world and Frigia (Winter's
+   Daughter).
+
+2. **Puzzle or Roleplaying Challenge.** The players are sent to Azeria, to ask
+   about the state of the barrier (since she doesn't get on with the wizard).
+   Azeria tells them that the barrier is indeed weakening, and that there's an
+   undercover frost elf who has been studying it in great detail (the ice
+   tower): but the players arrive to find the research materials gone, only a
+   teleportation circle remaining.
+
+3. **Trick or Setback.** The players have to destroy the research materials
+   (between adventures Wulfred or one of the PC magic-users can analyse the
+   teleportation circle to work out where they were sent) and, in the process,
+   learn that the barrier is weakening because of an ancient artefact of the
+   Cold Prince, left behind in Hoarblight Keep and poisoning the magic.
+
+4. **Climax, Big Battle, or Conflict.** The players have to sneak into the ruins
+   of Hoarblight Keep, dealing with twisted demi-fey, and perform the ritual to
+   end the last vestiges of the Cold Prince's power in the mortal world, ending
+   the disruption to the barrier so that it will no longer continue to weaken
+   (some sort of dungeon).
+
+6. **Reward, Revelation, Plot Twist.** The players are told that they have to
+   return the ring to Frigia, to seal the remaining breach.  They return to Sir
+   Chyde's tomb to find it enased in ice, have to fight their way through to the
+   portal, and have a final battle against Lord Mantle-of-Runes on the other
+   side while the breach seals behind them.
+   
+   If they defeat Lord Mantle-of-Runes:
+   
+   - Before the gate closes: they get out, it's a total success, good ending.
+   - After the gate closes: they saved the world but are trapped in Fairy,
+     set-up for another campaign.
+   
+   If they don't defeat Lord Mantle-of-Runes:
+   
+   - They brought the ring back to they saved the world, a bittersweet ending as
+     he realises he's still trapped.
+ 
+To keep things even simpler, I'm dropping XP: characters will level up
+automatically when they complete a phase.
+
+
+2022-08-03 --- 1: Winter's Daughter 1
+-------------------------------------
 
 ### Prep
 
@@ -79,8 +130,8 @@ possible, to lower the barrier to entry.
 - Hook for next adventure
 
 
-2022-08-16 --- Winter's Daughter 2
-----------------------------------
+2022-08-16 --- 1: Winter's Daughter 2
+-------------------------------------
 
 ### Intro
 
@@ -151,8 +202,8 @@ possible, to lower the barrier to entry.
 - Next adventure
 
 
-2022-09-07 --- Rakno Rising
----------------------------
+2022-09-07 --- 1: Rakno Rising
+------------------------------
 
 ### Intro
 
@@ -262,29 +313,19 @@ Brackenwold looking for a suitably chivalrous knightly task to make his name).
 
 ### Next time
 
-- Rakno reports to Wulfred
-- The PCs meet!  The quest begins!
-- Some old school practices:
-  - XP for gold
-  - Hirelings
-  - Rumours
+- Party meets!
+- Start phase 2
 - Rakno
-  - 500xp
+  - 450gp
 - Gratrix, Marceline, Marlow, Carmen, and Selindra:
   - Roll moon signs
-  - XP & levelling up:
-    - 50 silver crucifix
-    - 500 gold leaf prayer book
-    - 2000 copper bracelets
-    - 8800 various bits of fairy jewellery
-    - **11460 total**
+  - 5000gp
   - Selling treasure:
     - Weapons for 1.5x value (except the halberd, 1x value)
-    - Portrait of Princess Snowfall-at-Dusk for 1500gp but:
-      - Must be stroed by a specialist, which will cost 500gp and 1d6+6 days to
-        be restored
-      - Must be sold to an art dealer or noblewill cost 500gp and requires
-        specialist art restorer / dealer
+    - Portrait of Princess Snowfall-at-Dusk (left in tomb) for 1500gp but:
+      - Must be restored by a specialist, which will cost 500gp and 1d6+6 days
+        to be restored
+      - Must be sold to an art dealer or noble
       - Restorers can be found at the Grand Market at Castle Brackenwold on
         Hayme or Eggfast
     - Fairy jewellery:
@@ -292,3 +333,144 @@ Brackenwold looking for a suitably chivalrous knightly task to make his name).
       - 12x fairy-silver necklace (150gp each)
       - 1x sapphire in platinum brooch wrought like spiky hoarfrost (1000gp)
       - Add this to someone's character sheet!
+
+
+2022-10-05 --- 2: The Royal Fox
+-------------------------------
+
+### Intro
+
+- Campaign structure note:
+  - I've decided to condense things: 2.5 hours twice a month isn't suitable for
+    a long or complex campaign
+  - We're using milestone levelling now
+  - Each arc will be 1 to 3 sessions
+  - I have a rough plan up to level 6, and that will be the end of the campaign
+- Level up!
+  - Hand out character sheets
+  - Roll HP:
+    - Carmen: `2 + 1d4`
+    - Gratrix: `3 + 1d4`
+    - Marceline: `5 + 1d4 + 1`
+    - Marlow: `8 + 1d8 + 1`
+    - Rakno: `7 + 1d8 + 1`
+    - Selindra: `6 + 1d6 - 1`
+- Show party treasure sheet
+
+> Our story so far is that Carmen, Gratrix, Marceline, Marlow, and Selindra were
+> sent by a sketchy wizard to fetch a ring from a burial mound.  You found that
+> the mound was actually the tomb of a famous knight, called Sir Chyde, who,
+> according to legend, fought against the frost elves and their evil leader the
+> Cold Prince, to free the forest from unnatural winter.  And what's more, you
+> met Sir Chyde himself, in ghostly form.  His soul was bound to his ring, the
+> very ring that the wizard wanted you to fetch, he was unable to rest and was
+> waiting and hoping to be reunited with his love, a fairy princess, a daughter
+> of the Cold Prince, the Princess Snowfall-at-Dusk.
+>
+> You agreed to his request, like the good people you are, and took his ring
+> through a portal to Frigia, realm of the frost elves.  You gave the ring to
+> the Princess, reuniting her and Sir Chyde, and it was almost perfect.  But not
+> quite, you aroused the curiosity of the frost elves, and let slip that you
+> were, indeed, from the mortal world.  Something they found very interesting,
+> as all paths between Frigia and the mortal world are supposed to be magically
+> sealed, and have been since the Cold Prince's defeat 800 years ago.  They
+> called for a fearsome fairy noble, Lord Mantle-of-Runes, commander of the
+> armies of the Cold Prince, to interrogate you and learn the way back.  But
+> before he could arrive, Princess Snowfall-at-Dusk granted you a wish, as
+> thanks for reuniting her and her love.  You wished to be back outside the
+> burial mound, with an exact copy of Sir Chyde's ring, so that you could hand
+> it into the wizard and collect your pay.
+>
+> Now, Rakno here, is a young squire.  He set off from his home town in search
+> of noble deeds to do and quests to complete, to prove his name, as squires are
+> wont to do.  But he ended up in a tavern in the largest town of the region,
+> running low on cash, and with no noble deeds to his name.  Then, a wizard
+> arrived.  A slightly sketchy-looking fellow, who hired Rakno to go check out
+> some local standing stones.  Rakno agreed, and set off into the forest, on a
+> warm summer's day.
+>
+> After an unfortunate zombie-related situation, Rakno came upon two pillars of
+> ice, unmelting beneath the summer heat, with a wall of mist between them.
+> This was clearly the standing stones.  Stepping through the mist, Rakno found
+> himself in a cold place, on a road of ice, high up in some mountains, with a
+> blizzard blowing about him.  Walking along the road, Rakno came upon a man,
+> frozen beneath the surface of the road, and decided that this was a bit much
+> for a lone squire, and turned back.  Later he learned that somehow, despite
+> being on the road for only a few hours, 6 days had passed.
+>
+> I'm sure you've put two and two together, but it was indeed the same sketchy
+> wizard in both cases.  And now, the whole party is united, you've been brought
+> together by the wizard for another job.
+>
+> A week or so has passed since you finished your first jobs, the wizard did
+> manage to get the full stories out of all of you and was pretty concerned that
+> you guys were able to simply walk into Frigia and talk to frost elves, and
+> that Rakno had no difficulty with the road.  He said that perhaps the barrier
+> which keeps Frigia away and the frost elves out is weakening, it's been in
+> place for centuries after all, and such vast magic is difficult to control.
+> Unfortunately, he has no idea who made the barrier, what powers it, how it
+> works, or how to repair it.  But he knows someone who might!  Unfortunately,
+> he can't go talk to this person himself due to, let's just say a personality
+> clash.
+>
+> So, it is a mild summer's afternoon, you are all on the road which leads
+> through the forest, but you are facing off the road: you're facing into the
+> forest to the north-east, where apparently a very old and wise and
+> knowledgeable person called Azeria makes her home.  The wizard said she lives
+> in a house-sized clearing and you can recognise it because the ground is a
+> large old mosaic, built by some previous inhabitant of the wood.
+>
+> What do you do?
+
+### State
+
+- In 1307, early afternoon
+
+### Prep
+
+#### Azeria (1406)
+
+- [The Golden Wood](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
+- Azeria tells them:
+  - That the barrier is weakening, by itself slowly
+  - But that there's also an undercover frost elf working to bring the barrier
+    down more rapidly
+  - Azeria will tell where that elf is if they "deal with" (intentionally vague)
+    "that annoying druid, Majorus, who lives in a cottage nearby"
+  - The undercover frost elf is Lady Misthraine at the Tower of Frost in hex
+    1007
+- If they're hostile to Majorus, play up the sinisterness: no nice old woman and
+  friendly teenage daughter.
+
+#### Lady Misthraine (1007)
+
+- As described
+- The Lady is home
+- On the 2nd floor, there's magical paraphernalia: a compass which follows ley
+  lines, a barometer to measure ambient magic, common components
+- And also on workbench a short-range teleportation circle (somewhere within
+  Dolmenwood) with trace magic showing recent use, and also a cut off bit of
+  note-paper next to it (some paper was teleported while being partially out of
+  the circle): a fragment of notes on the barrier, she has sent her work
+  elsewhere.
+
+### Notes
+
+- **Drune Cottage:**
+  - Meet Estembra and Majorus (realise too late they're in the wrong place)
+  - Mention frost elves but refuse to tell the details, Majorus says the gates should be closed
+  - Get history from Majorus
+  - Majorus charms Selindra to question her
+  - Marceline sleeps Majorus
+  - Get Estembra to take them to Azeria's clearing
+- **Azeria's Clearing:**
+  - Barrier is weakening
+  - There's a frost elf working to undermine it
+  - Azeria will say where that elf is if they "deal with" Majorus and Estembra
+  - Sign a contract witnessed by Woteus, god of truth
+  - Discuss what to do as they head back to the cottage
+
+### Next time
+
+- Drune cottage
+- Level up Carmen and Gratrix
