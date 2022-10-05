@@ -258,49 +258,45 @@ aliens, strange facilities, caches of technology... anything could be out there.
 
 ### Prep
 
-#### Setting overview
-
-Go through handout.
+1. Go through setting handout
+2. Discuss points
+3. Create characters
 
 #### Discussion
 
-- **In this campaign:**
-  - I don't have an overarching story or an end goal in mind.  Things will
-    definitely happen around you, you're in a tumultous period of history,
-    you're not the drivers of everything.  So we'll play until we want to do
-    something else.
-  - I'll make use of time skips to get straight to the action, we'll often start
-    a session with you already on a mission.  So we're not going to play out
-    every moment of the game in session, we did that in the previous Traveller
-    campaign, and I think it made that campaign less exciting than it could have
-    been.
-    - If time passes at the table, players want to optimise it, which led to you
-      spending time picking up cargo and passengers on every journey.  You still
-      can pick up passengers and cargo, but I want that to be because you want
-      to, not because you feel you have to.
-  - By default the campaign will be pretty episodic with me giving you
-    adventures and rumours and that sort of thing, but I'm definitely open to
-    you coming up with your own goals and steering the campaign in new
-    directions.
+##### Campaign
 
-#### Session 0 topics to discuss
+- No overarching story
+- The world doesn't resolve around the PCs
+- Time skips to get straight to the action:
+  - I think playing out every moment harmed the previous campaign
+- Episodic, but scope for player goals
+- How long should the campaign last?
+- Tone:
+  - What kind of conflicts and adventures make sense for this game?
+  - What kind of outcomes make sense for this game?
+  - What kind of PCs make sense for this game?
+  - How do NPCs generally think of the PCs?
+  - Ethics (sexism, racism, slavery, etc): use it to make the bad guys obviously
+    bad? Anything off limits?
+  - Can PCs die?  How frequently?
+    - What happens if there's a TPK?
+- Choose a group of 4 subsectors
 
-- **Same Page Tool:**
+##### Characters
 
-- **Time skips:** I think a weakness of the previous Traveller campaign was
-  doing everything in "real-time".
-
-- **Focus:** War?  Espionage?  Politics?  Exploration?  Contact?  All of those?
-  In what proportions?
-
-- **Tone:** Is everyone outside the Sylean Federation suspicious of you and it's
-  an uphill struggle to form friendships, or are people generally happy to see
-  the potential end of anarchy?
-
-#### Start!
-
-1. Choose a group of 4 subsectors we'll play in
-2. Create characters
+- Boon Dice in character creation
+- Alien PCs, yay or nay?
+- Psion PCs, yay or nay?
+  - What about psion NPCs?
+- Advancement:
+  - How did everyone feel about the standard rules?  I felt it penalised
+    characters with low EDU too much.
+  - Seth Skorkowsky house rule: mark skills which get used successfully, at the
+    end of the adventure roll `1d6-1` for each marked skill and gain 1
+    experience point if above the skill level.  Gaining a skill at level 0, or
+    taking it from level 0 to level 1, costs 1xp; costs double each level
+    thereafter.
 
 ### Notes
 
@@ -311,6 +307,7 @@ Go through handout.
   - Flesh out major factions, worlds, and NPCs
 - Murder on Arcturus Station:
   - Pick a border world and tie it into Sylean politics
+
 
 2023-MM-DD --- Session N
 ------------------------
