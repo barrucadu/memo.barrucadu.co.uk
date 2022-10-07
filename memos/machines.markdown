@@ -2,8 +2,14 @@
 title: Machines
 taxon: techdocs
 published: 2017-03-01
-modified: 2021-04-17
+modified: 2022-10-07
+superseded_by: machines
 ---
+
+<aside class="highlight">
+This is out of date.  See [my NixOS configuration](https://github.com/barrucadu/nixfiles) instead.
+</aside>
+
 
 I run a few machines with various bits and bobs on them.  They're
 hosted in three places: [Hetzner Cloud][], [Kimsufi][], and my flat.

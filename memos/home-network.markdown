@@ -2,6 +2,7 @@
 title: Home Network
 taxon: techdocs
 published: 2021-03-22
+modified: 2022-10-07
 ---
 
 ![The pile of network hardware.](home-network/hardware.jpg)
@@ -54,7 +55,7 @@ is where guests staying overnight sleep.  So to keep everything quiet
 at night (and at all times) I'm using [Noctua][] fans running at as
 low an RPM as I can get them.
 
-[azathoth]: machines.html#azathoth
+[azathoth]: https://github.com/barrucadu/nixfiles#azathoth
 [nyarlathotep]: home-network.html#nyarlathotep
 [pi-hole]: https://pi-hole.net/
 [yog-sothoth]: https://en.wikipedia.org/wiki/Cthulhu_Mythos_deities#Yog-Sothoth
@@ -118,34 +119,9 @@ access to the other domains it's serving, it 302-redirects to
 Nyarlathotep
 ------------
 
-This is running:
+Services and configuration are covered in [my NixOS config][].
 
-- [bookdb][]
-- [bookmarks][]
-- Caddy (reverse proxying to other HTTP services)
-- finder (manga browser)
-- Grafana
-- NFS
-- Prometheus
-- rTorrent (+ Flood)
-- Samba
-- SSH
-- Syncthing
-
-Service configuration is covered in more detail [in my NixOS config][].
-
-For backups, nyarlathotep snapshots a subset of the NAS data, as well
-as the databases for bookdb and bookmarks (see the [backups][] memo).
-
-For monitoring, nyarlathotep checks that its HDDs are healthy (see the
-[monitoring][] memo).  I also record metrics with Prometheus but those
-don't trigger any alerting.
-
-[bookdb]: https://github.com/barrucadu/bookdb
-[bookmarks]: https://github.com/barrucadu/bookmarks
-[in my NixOS config]: https://github.com/barrucadu/nixfiles/blob/master/hosts/nyarlathotep/configuration.nix
-[backups]: backups.html
-[monitoring]: monitoring.html
+[my NixOS config]: https://github.com/barrucadu/nixfiles#nyarlathotep
 
 ### Storage
 
@@ -161,12 +137,11 @@ The ZFS partition consists of one zpool with volumes:
 - **`local/persistent/home`**: mounted at `/home`
 - **`local/persistent/nix`**: mounted at `/nix`
 - **`local/persistent/persist`**: mounted at `/persist`
+- **`local/persistent/var-log`**: mounted at `/var/log`
 
-This `local` pool is configured in the ["erase your darlings"][]
-style: everything is deleted by rolling back to an empty snapshot of
-`local/volatile/root` at boot.
-
-Any state which needs to be persisted is in `/persist`, and managed
+This `local/volatile/root` dataset is configured in the ["erase your
+darlings"][] style: everything is deleted by rolling back to an empty snapshot
+at boot.  Any state which needs to be persisted is in `/persist`, and managed
 through configuration and symlinks.
 
 The `local/persistent` dataset has automatic snapshots configured.
