@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-09-17
+modified: 2022-10-08
 taxon: general-games
 ---
 
@@ -971,3 +971,69 @@ Character descriptions & introductions, then 1407.
   - Death & Dismemberment
   - Max HP
 - Character sheets for retainers
+
+
+2022-10-08 --- Session 6
+------------------------
+
+### Intro
+
+- Foundry update:
+  - Map Notes journal
+  - Rules journal
+  - No more Political Map mod
+- Rules:
+  - Death and Dismemberment
+  - Max HP (& update HP)
+- Session recap:
+  - What they learned about Mostlemyre Drouge
+  - What they learned about Sir Chyde
+  - Dungeon state
+
+### State
+
+- 18 Iggwyld (afternoon): clement, cheery
+- In Sir Chyde's tomb at dungeon turn 7
+- Upcoming:
+  - 19 Iggwyld: iron mace ready
+
+### Notes
+
+- 18 Iggwyld: clement, cheery
+  - **1108---Louper's Luncheon:**
+    - Explore
+    - Get Sir Chyde's sword (+2 to hit & damage vs fey, glows in the presence of
+      fey)
+    - Meet parents
+    - Visit Frigia:
+      - Let slip they're from Dolmenwood
+      - Learn that it's the Drune who banished the frost elves
+      - Princess tells guests they have to leave briefly to pick up Chyde
+    - Get Chyde
+    - Return to Frigia:
+      - Reunite Chyde and Princess
+      - Wish for fairy horses
+      - Escape
+
+### Next time
+
+- 19 Iggwyld
+- In Prigwort
+- Retainers hit level 1
+- Rules & descriptions for fairy horses (eg, upgrade all off-road horse stuff by 1 tier)
+- How will Drouge react?
+- How long are retainers paid for?
+
+
+2022-MM-DD --- Session N
+------------------------
+
+### Intro
+
+### State
+
+### Prep
+
+### Notes
+
+### Next time
