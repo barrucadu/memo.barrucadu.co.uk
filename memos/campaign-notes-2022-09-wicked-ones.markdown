@@ -1,7 +1,7 @@
 ---
 title: Wicked Ones (2022-09 to ?) notes
 published: 2022-09-11
-modified: 2022-10-02
+modified: 2022-10-09
 taxon: general-games
 ---
 
@@ -228,3 +228,80 @@ Dungeon Invasions
   - At the door to Jeff's bedroom
   - Jeff is awake, but unarmed
   - Jeff has called for dogs (clock?)
+
+
+2022-10-09 --- Session 5
+------------------------
+
+### Intro
+
+- Session recap
+- River Rats new clock
+- XP
+
+### State
+
+- Raiding
+  - Assault on Jeff
+  - Night
+  - Outside Jeff's bedroom
+  - Jeff is awake, but unarmed
+    - Defeat Jeff: 4 clock
+    - Dogs Arrive: 4 clock
+    - Jeff + Dogs is an overwhelming circumstance towards position
+    - Jeff alone is an overwhelming circumstance towards effect (for most
+      attacks)
+
+### Notes
+
+- **Raiding:**
+  - Defeat Jeff
+
+- **Blowback:**
+  - Take out Jeff's dogs
+
+- **Lurking:**
+  - Expand dungeon
+  - Craft supplies for tavern
+  - Get a bartender for the tavern
+
+- **Calamity:**
+  - Smash up tavern
+
+- **Raiding:**
+  - Pillaging raid:
+    - River Rats / Negotiate
+      - Get them on board
+    - Guardians of the Lich Queen / Assault
+      - Fly in, smash stuff up, make off with loot
+      - Moordred's minions die
+      - Steal Necroteliconmicon, a book for contacting dead gods
+
+- **Blowback:**
+  - Dusksiege demand fealty, swear it
+
+- **Lurking:**
+  - Moordred kills Slikidlorbin's minions in revelry
+  - Level up dungeon
+  - Moordred recruits minions
+  - Slikidlorbin recruits minions
+  - Repair the door at long last
+
+### Next time
+
+- Calamity
+- Flesh out new minions (Moordred & Slikidlorbin)
+- XP: new calling ability for Slikidlorbin
+- What do Dusksiege want?
+
+
+2022-MM-DD --- Session N
+------------------------
+
+### Intro
+
+### State
+
+### Notes
+
+### Next time
