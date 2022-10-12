@@ -98,7 +98,7 @@ def title_for(taxon=None):
         return "barrucadu's memos"
 
 
-def pandocise_memo(fname, link, text):
+def pandocise_memo(fname, link, text, toc):
     """Render a memo's content using pandoc."""
 
     text_hash = hashlib.sha256()
@@ -128,15 +128,27 @@ def pandocise_memo(fname, link, text):
         # this can't be done as a pandoc filter sadly, because the footnote
         # links don't exist when the filter runs
         html = html.replace("href=\"#fn", f"href=\"{link}#fn")
+        soup = BeautifulSoup(html, features="html.parser")
 
-        toc = []
-        for tag in BeautifulSoup(html, features="html.parser").find_all("h2"):
-            toc.append(
-                {
-                    "title": tag.text,
-                    "anchor": tag["id"],
-                }
-            )
+        if toc:
+            def link_titles(soup, links):
+                for link in links:
+                    if "anchor" in link and "title" not in link:
+                        link["title"] = soup.find(id=link["anchor"]).text
+                    if "children" in link:
+                        link["children"] = link_titles(soup, link["children"])
+                return links
+
+            toc = link_titles(soup, toc)
+        else:
+            toc = []
+            for tag in soup.find_all("h2"):
+                toc.append(
+                    {
+                        "title": tag.text,
+                        "anchor": tag["id"],
+                    }
+                )
 
         try:
             json.dump({"html": html, "toc": toc}, open(cache_file, "w"))
@@ -211,7 +223,7 @@ for fname in os.listdir("memos"):
 
         # render the body
         memo["text"] = "".join(lines[text_start_idx:])
-        memo["body"], toc = pandocise_memo(fname, memo["link"], memo["text"])
+        memo["body"], toc = pandocise_memo(fname, memo["link"], memo["text"], memo.get("toc"))
         if toc:
             memo["toc"] = toc
 
