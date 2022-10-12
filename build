@@ -98,7 +98,7 @@ def title_for(taxon=None):
         return "barrucadu's memos"
 
 
-def pandocise_memo(fname, text):
+def pandocise_memo(fname, link, text):
     """Render a memo's content using pandoc."""
 
     text_hash = hashlib.sha256()
@@ -118,13 +118,16 @@ def pandocise_memo(fname, text):
             "html",
             format=fmt,
             filters=[
-                "pandoc-filter-sidenote",
                 "pandoc-filter-transform-code",
             ],
             extra_args=[
                 "--no-highlight",
             ],
         )
+
+        # this can't be done as a pandoc filter sadly, because the footnote
+        # links don't exist when the filter runs
+        html = html.replace("href=\"#fn", f"href=\"{link}#fn")
 
         toc_stack = []
         level = None
@@ -226,7 +229,7 @@ for fname in os.listdir("memos"):
 
         # render the body
         memo["text"] = "".join(lines[text_start_idx:])
-        memo["body"], toc = pandocise_memo(fname, memo["text"])
+        memo["body"], toc = pandocise_memo(fname, memo["link"], memo["text"])
         if toc:
             memo["toc"] = toc
 

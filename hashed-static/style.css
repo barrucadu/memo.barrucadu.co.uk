@@ -59,7 +59,6 @@ html {
     position: relative;
     min-height: 100%;
     font-size: 18px;
-    counter-reset: sidenote-counter;
     overflow-y: scroll;
 }
 
@@ -77,7 +76,7 @@ a[aria-current="page"] {
 }
 
 #outer-wrapper {
-    margin: 32px 25vw 32px 3em;
+    margin: 32px 3em;
 }
 
 #inner-wrapper {
@@ -285,26 +284,6 @@ a[aria-current="page"] {
     margin: 24px;
 }
 
-.markdown .sidenote {
-    float: right;
-    clear: right;
-    width: 20vw;
-    margin-right: -25vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    vertical-align: baseline;
-    position: relative;
-}
-
-.markdown .sidenote-number {
-    position: relative;
-    font-size: 0.8em;
-    top: -0.4em;
-    margin: 0 0.4em;
-    font-weight: bold;
-    color: var(--text-link);
-}
-
 .markdown pre.asciiart {
     line-height: normal;
 }
@@ -344,6 +323,15 @@ a[aria-current="page"] {
 .markdown .spoiler:hover {
     color: inherit;
     background-color: transparent;
+}
+
+.markdown .footnotes {
+    margin-top: 32px;
+    border-top: 5px solid var(--heading-underline);
+}
+
+.markdown .footnotes hr {
+    display: none;
 }
 
 @media (max-width: 800px) {
