@@ -4,12 +4,31 @@ taxon: general-games
 tags: traveller
 published: 2023-03-05
 draft: true
+toc:
+- anchor: overview
+  children:
+  - anchor: pitch
+  - anchor: foot-view
+  - anchor: roadmap
+- anchor: house-rules
+- anchor: setting-bible
+  children:
+  - anchor: backstory
+  - anchor: sector-map
+- anchor: party
+- anchor: resources
+- title: Session Notes
+  anchor: session-0
+  children:
+  - anchor: session-0
 ---
 
 <aside class="highlight">This campaign has not yet begun and the start date may change.</aside>
 
-Pitch
------
+Overview
+--------
+
+### Pitch
 
 > The Ziru Sirka, the great interstellar empire of the Vilani, lasted for two
 > thousand years.  But inability to manage such a large expanse of territory
@@ -39,40 +58,26 @@ Pitch
 > into something even greater, so there's plenty of scope for this to turn into
 > a more political game if you want.
 
+### 10,000-Foot View
 
-Setting
--------
+High-level points about the campaign (eg, system, setting, session 0) go here.
 
-### Traveller Map data
+### Roadmap
 
-- [Poster](campaign-notes-2023-03-sylea-rising/poster.png) ([poster maker](https://travellermap.com/make/poster))
-- [Sector data](campaign-notes-2023-03-sylea-rising/sector-data.txt)
-  - Based on Core (M0)
-  - Remove all allegiance codes (the borders show that)
-  - Government types:
-    - Sylean Federation: Sylea is C, other core worlds (other than 0 pop ones) are 8.
-    - Sylean-occupied Territory: Uniimvlu is B, worlds spinward of Guba Ak are
-      6, worlds trailing are self-governing again
-    - Chanestin Kingdom: Keshi is B
-  - Add bases to border systems
-  - Add Kala Station at 2230
-- [Metadata](campaign-notes-2023-03-sylea-rising/metadata.xml)
-  - Based on Core (M0)
-  - Names:
-    - Rename sector to Ukan
-    - Rename Core subsector to Sylea subsector
-    - Fill in modern subsector names for missing ones
-  - Borders:
-    - Remove all unknown borders
-    - Add modern Sylean Worlds to Sylean Federation
-    - Extend Sylean Federation into Chant
-    - Add Chanestin Kingdom (from Mongoose Third Imperium)
-    - Add Interstellar Confederacy (from Mongoose Third Imperium)
-    - Progress Sylean Federation / Interstellar Confederacy war
-    - Add pocket empires
-    - Add trade corridor to Vland
+Planned adventures, story arcs, etc go here.
 
-### Handout
+
+House Rules
+-----------
+
+Custom rules, eg the possible advancement rule, go here.  If there are none,
+remove this section.
+
+
+Setting Bible
+-------------
+
+### Backstory
 
 300,000 years ago, a mysterious race now called "the Ancients" took primitive
 humans from their home planet, and seeded them throughout the galaxy.  This has
@@ -252,13 +257,54 @@ In addition to these larger polities, there are many independent worlds.  These
 are intentionally not fleshed out.  Dead worlds, archaeological finds, hostile
 aliens, strange facilities, caches of technology... anything could be out there.
 
+### Sector Map
+
+- [Poster](campaign-notes-2023-03-sylea-rising/poster.png) ([poster maker](https://travellermap.com/make/poster))
+- [Sector data](campaign-notes-2023-03-sylea-rising/sector-data.txt)
+  - Based on Core (M0)
+  - Remove all allegiance codes (the borders show that)
+  - Government types:
+    - Sylean Federation: Sylea is C, other core worlds (other than 0 pop ones) are 8.
+    - Sylean-occupied Territory: Uniimvlu is B, worlds spinward of Guba Ak are
+      6, worlds trailing are self-governing again
+    - Chanestin Kingdom: Keshi is B
+  - Add bases to border systems
+  - Add Kala Station at 2230
+- [Metadata](campaign-notes-2023-03-sylea-rising/metadata.xml)
+  - Based on Core (M0)
+  - Names:
+    - Rename sector to Ukan
+    - Rename Core subsector to Sylea subsector
+    - Fill in modern subsector names for missing ones
+  - Borders:
+    - Remove all unknown borders
+    - Add modern Sylean Worlds to Sylean Federation
+    - Extend Sylean Federation into Chant
+    - Add Chanestin Kingdom (from Mongoose Third Imperium)
+    - Add Interstellar Confederacy (from Mongoose Third Imperium)
+    - Progress Sylean Federation / Interstellar Confederacy war
+    - Add pocket empires
+    - Add trade corridor to Vland
+
+
+Party
+-----
+
+The player characters and shared party stuff (eg, a spaceship).
+
+
+Resources
+---------
+
+Links to things.
+
 
 2023-03-05 --- Session 0
 ------------------------
 
 ### Prep
 
-1. Go through setting handout
+1. Go through setting
 2. Discuss points
 3. Create characters
 
@@ -268,8 +314,7 @@ aliens, strange facilities, caches of technology... anything could be out there.
 
 - No overarching story
 - The world doesn't resolve around the PCs
-- Time skips to get straight to the action:
-  - I think playing out every moment harmed the previous campaign
+- Time skips between sessions if you have no plans
 - Episodic, but scope for player goals
 - How long should the campaign last?
 - Tone:
