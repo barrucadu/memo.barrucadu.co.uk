@@ -174,8 +174,6 @@ for fname in os.listdir("memos"):
         memo = yaml.load("".join(lines[1:metadata_end_idx]), Loader=yaml.SafeLoader)
 
         # default metadata
-        if "slug" not in memo:
-            memo["slug"], _ = os.path.splitext(os.path.basename(fpath))
         if "published" not in memo:
             datestr = subprocess.check_output(
                 [
@@ -213,6 +211,7 @@ for fname in os.listdir("memos"):
         memo["published_pp"] = memo["published"].strftime(DATE_PP_FORMAT)
         memo["modified_iso"] = memo["modified"].strftime(DATE_ISO_FORMAT)
         memo["modified_pp"] = memo["modified"].strftime(DATE_PP_FORMAT)
+        memo["slug"], _ = os.path.splitext(os.path.basename(fpath))
         memo["link"] = f"{memo['slug']}.html"
         memo["permalink"] = f"{BASE_HREF}{memo['slug']}.html"
 
