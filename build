@@ -129,32 +129,14 @@ def pandocise_memo(fname, link, text):
         # links don't exist when the filter runs
         html = html.replace("href=\"#fn", f"href=\"{link}#fn")
 
-        toc_stack = []
-        level = None
         toc = []
-        for tag in BeautifulSoup(html, features="html.parser").find_all(
-            ["h2", "h3", "h4"]
-        ):
-            tag_level = int(tag.name[1:])
-            if level is None:
-                pass
-            elif tag_level > level:
-                child_toc = []
-                toc[-1]["children"] = child_toc
-                toc_stack.append(toc)
-                toc = child_toc
-            elif tag_level < level:
-                for _ in range(0, level - tag_level):
-                    toc = toc_stack.pop()
-            level = tag_level
+        for tag in BeautifulSoup(html, features="html.parser").find_all("h2"):
             toc.append(
                 {
                     "title": tag.text,
                     "anchor": tag["id"],
                 }
             )
-        if toc_stack:
-            toc = toc_stack[0]
 
         try:
             json.dump({"html": html, "toc": toc}, open(cache_file, "w"))
