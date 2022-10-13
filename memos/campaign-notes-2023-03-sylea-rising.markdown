@@ -1,7 +1,6 @@
 ---
 title: Sylea Rising (2023-03 to ?) notes
-taxon: general-games
-tags: traveller
+taxon: games-campaigns
 published: 2023-03-05
 draft: true
 toc:

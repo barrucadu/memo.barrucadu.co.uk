@@ -1,7 +1,6 @@
 ---
 title: Call of Cthulhu (2020-05 to 2021-09) notes
-taxon: general-games
-tags: call of cthulhu
+taxon: games-campaigns
 published: 2020-05-20
 modified: 2021-09-19
 ---

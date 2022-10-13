@@ -1,7 +1,6 @@
 ---
 title: Phased Real-Time Combat for Call of Cthulhu
-taxon: general-games
-tags: call of cthulhu
+taxon: games
 published: 2020-06-21
 modified: 2020-07-04
 ---

@@ -1,6 +1,6 @@
 ---
 title: The Parable of the Gong
-taxon: self-koans
+taxon: general
 date: 2019-07-27
 ---
 

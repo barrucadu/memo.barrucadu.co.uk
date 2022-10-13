@@ -1,6 +1,6 @@
 ---
 title: To Walk on the Path
-taxon: self-koans
+taxon: general
 date: 2019-07-27
 ---
 

@@ -5,8 +5,10 @@ published: 2018-02-06
 modified: 2018-10-02
 ---
 
-**Since this has been posted to lobste.rs and a lot of people seem to
-be missing the point, here's the tl;dr:**
+<aside class="highlight">
+
+Since this has been posted to lobste.rs and a lot of people seem to
+be missing the point, here's the tl;dr:
 
 1. The C standard bakes in enough details about pointers such that the
    amount of memory a C program can access (even on a hypothetical
@@ -20,7 +22,7 @@ be missing the point, here's the tl;dr:**
 
 3. This is not a criticism of C.
 
----
+</aside>
 
 A friend told me that C isn't actually Turing-complete due to the
 semantics of pointers, so I decided to dig through the (C11) spec to

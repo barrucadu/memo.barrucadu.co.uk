@@ -2,7 +2,7 @@
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
 modified: 2022-10-08
-taxon: general-games
+taxon: games-campaigns
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>

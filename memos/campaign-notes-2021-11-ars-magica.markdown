@@ -1,7 +1,6 @@
 ---
 title: Ars Magica (2021-11 to 2022-02) notes
-taxon: general-games
-tags: ars-magica
+taxon: games-campaigns
 published: 2021-11-09
 modified: 2022-02-03
 ---

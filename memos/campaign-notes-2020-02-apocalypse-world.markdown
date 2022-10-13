@@ -1,7 +1,6 @@
 ---
 title: Apocalypse World (2020-02 to 2020-05) notes
-taxon: general-games
-tags: apocalypse world
+taxon: games-campaigns
 published: 2020-03-01
 modified: 2020-06-05
 ---

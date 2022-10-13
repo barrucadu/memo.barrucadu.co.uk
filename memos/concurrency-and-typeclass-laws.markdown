@@ -1,6 +1,6 @@
 ---
 title: Concurrency and Typeclass Laws
-tags: dejafu, haskell, programming, semantics
+taxon: research-dejafucoco
 date: 2015-11-29
 ---
 

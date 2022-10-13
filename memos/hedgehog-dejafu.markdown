@@ -1,6 +1,6 @@
 ---
 title: Using Hedgehog to Test Déjà Fu
-tags: concurrency, dejafu, haskell, hedgehog, programming, property-based testing
+taxon: research-dejafucoco
 date: 2018-02-11
 ---
 

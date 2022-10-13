@@ -3,6 +3,7 @@ title: Career Levels
 published: 2021-04-05
 modified: 2021-10-12
 taxon: self
+superseded_by: career-levels
 ---
 
 <aside class="highlight">The competency framework for my current job isn't public, so this memo is no longer being updated.</aside>

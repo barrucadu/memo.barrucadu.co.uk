@@ -1,6 +1,6 @@
 ---
 title: Shoan and the Garden Path
-taxon: self-koans
+taxon: general
 date: 2017-04-15
 ---
 

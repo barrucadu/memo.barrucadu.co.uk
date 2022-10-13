@@ -1,6 +1,6 @@
 ---
 title: Limits
-taxon: self-koans
+taxon: general
 date: 2019-07-27
 ---
 

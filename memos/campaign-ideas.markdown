@@ -1,6 +1,6 @@
 ---
 title: Campaign ideas
-taxon: general-games
+taxon: games
 published: 2022-06-03
 modified: 2022-09-26
 ---

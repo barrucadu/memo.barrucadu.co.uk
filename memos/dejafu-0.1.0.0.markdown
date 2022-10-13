@@ -1,6 +1,6 @@
 ---
 title: dejafu-0.1.0.0
-tags: dejafu, haskell, programming, release notes
+taxon: research-dejafucoco
 date: 2015-08-27
 ---
 

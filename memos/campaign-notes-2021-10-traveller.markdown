@@ -1,7 +1,6 @@
 ---
 title: Traveller (2021-10 to 2022-07) notes
-taxon: general-games
-tags: traveller
+taxon: games-campaigns
 published: 2021-10-12
 modified: 2022-09-29
 ---

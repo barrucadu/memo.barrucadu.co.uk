@@ -1,7 +1,6 @@
 ---
 title: It's not a no-op to unmask an interruptible operation (and dejafu detects this)
-taxon: general
-tags: concurrency, dejafu, haskell, programming
+taxon: research-dejafucoco
 published: 2021-05-30
 ---
 

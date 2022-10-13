@@ -1,6 +1,6 @@
 ---
 title: 100 Prisoners
-tags: concurrency, dejafu, haskell, programming
+taxon: research-dejafucoco
 date: 2017-11-01
 ---
 

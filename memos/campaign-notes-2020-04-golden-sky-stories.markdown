@@ -1,7 +1,6 @@
 ---
 title: Golden Sky Stories (2020-04) notes
-taxon: general-games
-tags: golden sky stories
+taxon: games-campaigns
 published: 2020-04-26
 ---
 

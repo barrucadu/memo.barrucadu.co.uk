@@ -48,7 +48,8 @@ DATE_PP_FORMAT = "%b %-d, %Y"
 # this is a list so they can be ordered
 TAXA = [
     {"name": "General", "slug": "general"},
-    {"name": "Games", "slug": "general-games", "parent": "general"},
+    {"name": "Games", "slug": "games"},
+    {"name": "Campaign Notes", "slug": "games-campaigns", "parent": "games"},
     {"name": "Weeknotes", "slug": "weeknotes"},
     {"name": "2022", "slug": "weeknotes-2022", "parent": "weeknotes"},
     {"name": "2021", "slug": "weeknotes-2021", "parent": "weeknotes"},
@@ -63,7 +64,6 @@ TAXA = [
     {"name": "Runbooks", "slug": "techdocs-runbooks", "parent": "techdocs"},
     {"name": "Incident Reports", "slug": "techdocs-incidents", "parent": "techdocs"},
     {"name": "Self", "slug": "self"},
-    {"name": "Koans", "slug": "self-koans", "parent": "self"},
     {"name": "Possessions", "slug": "self-possessions", "parent": "self"},
     {"name": "Systems", "slug": "self-systems", "parent": "self"},
 ]

@@ -1,8 +1,10 @@
 ---
 title: Game Mastering
-taxon: general-games
-published: 2020-05-26 13:00:00
+taxon: games
+published: 2020-05-26
 ---
+
+<aside class="highlight">This is out of date and in need of review.</aside>
 
 I am a fairly inexperienced GM.  I've been running games since
 September 2018, in three systems, and for two of those I relied

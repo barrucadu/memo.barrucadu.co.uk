@@ -1,6 +1,6 @@
 ---
 title: Property-testing Side Effects
-tags: coco, dejafu, haskell, programming
+taxon: research-dejafucoco
 date: 2017-06-09
 ---
 

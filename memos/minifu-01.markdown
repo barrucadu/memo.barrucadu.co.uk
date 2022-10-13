@@ -1,6 +1,6 @@
 ---
 title: Writing a Concurrency Testing Library (Part 1)
-tags: concurrency, dejafu, haskell, minifu, programming
+taxon: research-dejafucoco
 date: 2017-10-14
 ---
 

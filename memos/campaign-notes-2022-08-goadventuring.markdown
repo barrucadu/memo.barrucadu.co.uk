@@ -2,7 +2,7 @@
 title: GoAdventuring (2022-08 to ?) notes
 published: 2022-08-16
 modified: 2022-10-05
-taxon: general-games
+taxon: games-campaigns
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>

@@ -1,6 +1,6 @@
 ---
 title: Improving Performance by Discarding Traces
-tags: dejafu, haskell, programming, release notes
+taxon: research-dejafucoco
 date: 2017-08-16
 ---
 

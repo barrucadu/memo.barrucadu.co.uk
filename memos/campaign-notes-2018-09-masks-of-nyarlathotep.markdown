@@ -1,7 +1,6 @@
 ---
 title: Call of Cthulhu (Masks of Nyarlathotep) (2018-09 to 2020-02) notes
-taxon: general-games
-tags: call of cthulhu
+taxon: games-campaigns
 published: 2018-11-04
 modified: 2020-02-02
 ---

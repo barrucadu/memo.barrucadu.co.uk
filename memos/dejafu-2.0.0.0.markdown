@@ -1,6 +1,6 @@
 ---
 title: dejafu-2.0.0.0
-tags: dejafu, haskell, programming, release notes
+taxon: research-dejafucoco
 date: 2019-02-12
 ---
 

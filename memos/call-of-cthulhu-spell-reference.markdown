@@ -1,7 +1,6 @@
 ---
 title: Call of Cthulhu spell reference
-taxon: general-games
-tags: call of cthulhu
+taxon: games
 published: 2020-06-15
 ---
 

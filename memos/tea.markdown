@@ -3,7 +3,10 @@ title: Tea
 taxon: self-possessions
 published: 2019-01-04
 modified: 2021-03-09
+superseded_by: tea
 ---
+
+<aside class="highlight">This is out of date and in need of review.</aside>
 
 Teas I like
 -----------
