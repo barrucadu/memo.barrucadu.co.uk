@@ -204,7 +204,7 @@ in a card.
 [Google Calendar]: https://calendar.google.com/
 [Ars Magica]: campaign-notes-2021-11-ars-magica.html
 [Traveller]: campaign-notes-2021-10-traveller.html
-[weeknotes]: taxon/weeknotes.html
+[weeknotes]: https://weeknotes.barrucadu.co.uk/
 
 
 Going analogue for household organisation

@@ -179,27 +179,19 @@ a[aria-current="page"] {
     border: none !important;
 }
 
-.weeknotes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+span.highlight {
+    color: var(--highlight);
+    font-weight: bold;
 }
 
-.weeknote-card {
+aside.highlight {
     padding: 16px;
-    text-align: center;
+    margin: 16px 0;
+    border: 5px solid var(--highlight);
+    font-weight: bold;
 }
 
-.weeknote-card--special {
-    grid-column: 1/-1;
-}
-
-.weeknote-card__heading {
-    font-size: 2rem;
-    display: block;
-    font-weight: normal;
-}
-
-.markdown > :first-child, .heading--first {
+.markdown > :first-child {
     margin-top: 0;
 }
 
@@ -251,18 +243,6 @@ a[aria-current="page"] {
 
 .markdown p, .markdown li {
     margin-bottom: 16px;
-}
-
-.markdown span.highlight {
-    color: var(--highlight);
-    font-weight: bold;
-}
-
-.markdown aside.highlight {
-    padding: 16px;
-    margin: 16px 0;
-    border: 5px solid var(--highlight);
-    font-weight: bold;
 }
 
 .markdown figure {

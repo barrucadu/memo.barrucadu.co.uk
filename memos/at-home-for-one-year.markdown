@@ -15,7 +15,7 @@ flat once or twice a week, and that only to go shopping.
 There is a vaccine now but, [judging from the timeline][], I'll still
 be at home for a few more months.
 
-[The 19th of March, 2020 was the last time I visited the office]: weeknotes-079.html
+[The 19th of March, 2020 was the last time I visited the office]: https://weeknotes.barrucadu.co.uk/notes/079.html
 [judging from the timeline]: https://www.bbc.co.uk/news/health-55045639
 
 
@@ -73,7 +73,7 @@ physically meeting friends and family three or four times a year, so
 missing one year isn't a huge change.  It's not like I've gone from
 hanging out with people at the pub every week to never seeing anyone.
 
-[I came down with shingles]: weeknotes-107.html
+[I came down with shingles]: https://weeknotes.barrucadu.co.uk/notes/107.html
 
 
 ## ...and the Strange
