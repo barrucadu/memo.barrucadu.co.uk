@@ -24,7 +24,7 @@
     <p>Restrict to{% for t in taxa %}{% if t.parent == '' %} <a class="link" href="{{ t.link }}">{{ t.name }}</a>{% endif %}{% endfor %}.</p>
 {% endif %}
 
-<ol class="navigation-list division-above">
+<ol class="navigation-list--index">
 {% for memo in memos %}
   <li class="navigation-list__item"><a class="link link--no-underline" href="{{ memo.link }}">{{ memo.title }}</a></li>
 {% endfor %}

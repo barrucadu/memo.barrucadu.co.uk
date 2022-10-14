@@ -1,26 +1,44 @@
 @font-face {
-  font-family: 'Staatliches';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Staatliches'), url(fonts/staatliches_latin-ext.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-family: advocate_15_cond_med;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-display: auto;
+    src: url(fonts/advocate_15_cond_med.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: heliotrope_4;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-display: auto;
+    src: url(fonts/heliotrope_4_regular.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Staatliches';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Staatliches'), url(fonts/staatliches_latin.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: heliotrope_4;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: normal;
+    font-display: auto;
+    src: url(fonts/heliotrope_4_italic.woff2) format('woff2');
 }
 @font-face {
-  font-display: swap;
-  font-family: 'Gentium Book Basic';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Gentium Book Basic'), local('GentiumBookBasic'), url('fonts/gentiumbookbasic.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    font-family: heliotrope_4;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-display: auto;
+    src: url(fonts/heliotrope_4_bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: heliotrope_4;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: normal;
+    font-display: auto;
+    src: url(fonts/heliotrope_4_bold_italic.woff2) format('woff2');
 }
 
 :root {
@@ -56,51 +74,47 @@
 }
 
 html {
-    position: relative;
-    min-height: 100%;
-    font-size: 18px;
-    overflow-y: scroll;
+    font-family: heliotrope_4, serif;
+    font-size: 22px;
+    color: var(--text);
 }
 
 body {
-    font-family: "Gentium Book Basic", Cambria, Georgia, Times, serif;
-    color: var(--text);
+    max-width: 61rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+main {
+    /* needed to make large <pre>s not stretch the container, unfortunately */
+    max-width: 45rem;
+    /* needed to stretch the container if the contents are too narrow */
+    width: 45rem;
+}
+
+nav {
+    min-width: 15rem;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+footer {
+    color: var(--text-alt);
+    text-align: right;
+    padding: 16px;
+    font-size: 0.8rem;
 }
 
 p {
     line-height: 1.4;
 }
 
-a[aria-current="page"] {
-    font-weight: bold;
-}
-
-#outer-wrapper {
-    margin: 32px 3em;
-}
-
-#inner-wrapper {
-    max-width: 1364px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 300px 1000px;
-    grid-column-gap: 64px;
-    grid-template-areas:
-        "header header"
-        "sidebar main";
-}
-
-#header {
-    grid-area: header;
-}
-
-#sidebar {
-    grid-area: sidebar;
-}
-
-#main {
-    grid-area: main;
-}
 .link, .markdown a {
     color: var(--link);
     text-decoration: underline;
@@ -120,8 +134,8 @@ a[aria-current="page"] {
 }
 
 .main-heading {
-    font-family: Staatliches, serif;
-    font-size: 3.5rem;
+    font-family: advocate_15_cond_med, sans-serif;
+    font-size: 2.5rem;
     text-align: right;
     margin-bottom: 32px;
 }
@@ -135,13 +149,6 @@ a[aria-current="page"] {
 .memo-metadata__label {
     text-align: right;
     font-weight: bold;
-}
-
-.footer {
-    color: var(--text-alt);
-    text-align: right;
-    padding: 16px;
-    font-size: 0.8rem;
 }
 
 .navigation-list--index {
@@ -166,7 +173,7 @@ a[aria-current="page"] {
     top: 1em;
 }
 
-.sidebar-box + .sidebar-box, .division-above {
+.sidebar-box + .sidebar-box {
     margin-top: 24px;
     padding-top: 16px;
     border-top: 1px solid var(--border);
@@ -195,31 +202,44 @@ aside.highlight {
     margin-top: 0;
 }
 
-.markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6, .heading {
-    font-family: Staatliches, serif;
-    margin-bottom: 16px;
-}
-
-.markdown h2, h2.heading {
-    font-size: 2.5rem;
-    margin-top: 32px;
-    border-bottom: 5px solid var(--heading-underline);
-}
-
-.markdown h3, h3.heading {
-    font-size: 2rem;
-}
-
-.markdown h4, h4.heading {
-    font-size: 1.5rem;
-}
-
-.markdown h5, h5.heading {
+.markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
     font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 8px;
 }
 
-.markdown h6, h6.heading {
-    font-size: 1.1rem;
+.markdown h2 {
+    border-bottom: 5px solid var(--heading-underline);
+    font-size: 1.5rem;
+    counter-reset: h3counter;
+}
+.markdown h3:before {
+    content: counter(h3counter) ".\0000a0";
+}
+.markdown h3 {
+    counter-increment: h3counter;
+    counter-reset: h4counter;
+}
+.markdown h4:before {
+    content: counter(h3counter) "." counter(h4counter) ".\0000a0";
+}
+.markdown h4 {
+    counter-increment: h4counter;
+    counter-reset: h5counter;
+}
+.markdown h5:before {
+    content: counter(h3counter) "." counter(h4counter) "." counter(h5counter) ".\0000a0";
+}
+.markdown h5 {
+    counter-increment: h5counter;
+    counter-reset: h6counter;
+}
+.markdown h6:before {
+    content: counter(h3counter) "." counter(h4counter) "." counter(h5counter) "." counter(h6counter) ".\0000a0";
+}
+.markdown h6 {
+    counter-increment: h6counter;
 }
 
 .markdown ul, .markdown ol {
@@ -231,12 +251,15 @@ aside.highlight {
     margin: 16px 0;
 }
 
-.markdown blockquote, .markdown pre.code {
+.markdown blockquote {
     border-left: 5px solid var(--border);
-    padding-left: 8px;
+    padding-left: 1em;
 }
 
 .markdown pre.code {
+    border-left: 5px solid var(--border);
+    /* full padding because the background colour looks too "tight" otherwise */
+    padding: 1em;
     overflow: auto;
     font-size: 0.8rem;
 }
@@ -312,56 +335,4 @@ aside.highlight {
 
 .markdown .footnotes hr {
     display: none;
-}
-
-@media (max-width: 800px) {
-    html {
-        font-size: 16px;
-    }
-
-    #outer-wrapper {
-        margin: 16px;
-    }
-
-    #inner-wrapper.wrapper-for-list {
-        grid-template-columns: 200px minmax(min-content, 1300px);
-    }
-
-    #inner-wrapper.wrapper-for-memo {
-        grid-template-columns: 100%;
-        grid-template-areas:
-            "header"
-            "sidebar"
-            "main";
-    }
-
-    .wrapper-for-memo #sidebar {
-        border-bottom: 1px solid var(--border);
-        margin-bottom: 16px;
-        padding-bottom: 24px;
-    }
-
-    .main-heading {
-        font-size: 2rem;
-        margin-bottom: 16px;
-    }
-
-    .sidebar__sticky {
-        position: static;
-    }
-}
- @media (max-width: 600px) {
-    #inner-wrapper.wrapper-for-list {
-        grid-template-columns: 100%;
-        grid-template-areas:
-            "header"
-            "sidebar"
-            "main";
-    }
-
-    .wrapper-for-list #sidebar {
-        border-bottom: 1px solid var(--border);
-        margin-bottom: 16px;
-        padding-bottom: 24px;
-    }
 }
