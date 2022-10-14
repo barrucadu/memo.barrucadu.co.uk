@@ -26,9 +26,7 @@
 
   {% if memo.toc is defined %}
   <section class="sidebar-box">
-    <ol class="navigation-list">
-      {% with toc = memo.toc %}{% include "_toc_tree.html" %}{% endwith %}
-    </ol>
+    {% with toc = memo.toc %}{% include "_toc_tree.html" %}{% endwith %}
   </section>
   {% endif %}
 

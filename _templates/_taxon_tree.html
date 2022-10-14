@@ -1,12 +1,12 @@
-{% for t in taxa %}
-{% if t.parent == parent %}
-<li class="navigation-list__item">
-  <a class="link" href="{{ t.link }}"{% if taxon is defined and taxon == t %} aria-current="page"{% endif %}>{{ t.name }}</a>
-  {% if t.has_children %}
-  <ul class="navigation-list">
+<ul class="navigation-list">
+  {% for t in taxa %}
+  {% if t.parent == parent %}
+  <li class="navigation-list__item">
+    <a class="link" href="{{ t.link }}"{% if taxon is defined and taxon == t %} aria-current="page"{% endif %}>{{ t.name }}</a>
+    {% if t.has_children %}
     {% with parent = t.slug %}{% include "_taxon_tree.html" %}{% endwith %}
-  </ul>
+    {% endif %}
+  </li>
   {% endif %}
-</li>
-{% endif %}
-{% endfor %}
+  {% endfor %}
+</ul>
