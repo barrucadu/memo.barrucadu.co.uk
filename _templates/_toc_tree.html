@@ -1,10 +1,14 @@
 <ol class="navigation-list">
   {% for link in toc %}
+  {% if link.division is defined %}
+  <li class="navigation-list__division">{{ link.division }}</li>
+  {% else %}
   <li class="navigation-list__item">
     <a class="link" href="{{ memo.link }}#{{ link.anchor }}">{{ link.title }}</a>
     {% if link.children is defined %}
     {% with toc = link.children %}{% include "_toc_tree.html" %}{% endwith %}
     {% endif %}
   </li>
+  {% endif %}
   {% endfor %}
 </ol>

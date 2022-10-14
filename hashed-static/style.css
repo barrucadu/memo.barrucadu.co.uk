@@ -168,6 +168,12 @@ p {
     padding-left: 20px;
 }
 
+.navigation-list__division {
+    margin-top: 16px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
 .sidebar__sticky {
     position: sticky;
     top: 1em;

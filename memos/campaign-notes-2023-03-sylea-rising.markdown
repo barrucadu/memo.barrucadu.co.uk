@@ -16,10 +16,8 @@ toc:
   - anchor: sector-map
 - anchor: party
 - anchor: resources
-- title: Session Notes
-  anchor: session-0
-  children:
-  - anchor: session-0
+- division: Session notes
+- anchor: session-0
 ---
 
 <aside class="highlight">This campaign has not yet begun and the start date may change.</aside>
