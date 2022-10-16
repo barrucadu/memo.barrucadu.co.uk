@@ -92,65 +92,70 @@ def title_for(taxon=None):
         return "barrucadu's memos"
 
 
-def pandocise_memo(fname, link, text, toc):
+def make_html(memo):
     """Render a memo's content using pandoc."""
 
     text_hash = hashlib.sha256()
-    text_hash.update(text.encode())
+    text_hash.update(memo["text"].encode())
     cache_file = os.path.join(CACHE_DIR, f"sha256-{text_hash.hexdigest()}.json")
+
     try:
         cached = json.load(open(cache_file))
-        return cached["html"], cached["toc"]
+        return cached["html"]
     except (OSError, json.decoder.JSONDecodeError):
-        _, fmt = os.path.splitext(fname)
-        fmt = fmt[1:]
-        if fmt == "lhs":
-            fmt = "markdown+literate_haskell"
+        pass
 
-        html = pypandoc.convert_text(
-            text,
-            "html",
-            format=fmt,
-            filters=[
-                "pandoc-filter-transform-code",
-            ],
-            extra_args=[
-                "--no-highlight",
-            ],
-        )
+    _, fmt = os.path.splitext(memo["filename"])
+    fmt = fmt[1:]
+    if fmt == "lhs":
+        fmt = "markdown+literate_haskell"
 
-        # this can't be done as a pandoc filter sadly, because the footnote
-        # links don't exist when the filter runs
-        html = html.replace("href=\"#fn", f"href=\"{link}#fn")
-        soup = BeautifulSoup(html, features="html.parser")
+    html = pypandoc.convert_text(
+        memo["text"],
+        "html",
+        format=fmt,
+        filters=[
+            "pandoc-filter-transform-code",
+        ],
+        extra_args=[
+            "--no-highlight",
+        ],
+    )
 
-        if toc:
-            def link_titles(soup, links):
-                for link in links:
-                    if "anchor" in link and "title" not in link:
-                        link["title"] = soup.find(id=link["anchor"]).text
-                    if "children" in link:
-                        link["children"] = link_titles(soup, link["children"])
-                return links
+    # this can't be done as a pandoc filter sadly, because the footnote
+    # links don't exist when the filter runs
+    html = html.replace("href=\"#fn", f"href=\"{memo['link']}#fn")
 
-            toc = link_titles(soup, toc)
-        else:
-            toc = []
-            for tag in soup.find_all("h2"):
-                toc.append(
-                    {
-                        "title": tag.text,
-                        "anchor": tag["id"],
-                    }
-                )
+    try:
+        json.dump({ "html": html }, open(cache_file, "w"))
+    except OSError as err:
+        print(f"could not cache generated HTML for {memo['slug']}: {err.strerror}")
 
-        try:
-            json.dump({"html": html, "toc": toc}, open(cache_file, "w"))
-        except OSError as err:
-            print(f"could not cache generated HTML for {fname}: {err.strerror}")
+    return html
 
-        return html, toc
+def make_toc(memo):
+    """Generate the full table of contents for a memo."""
 
+    soup = BeautifulSoup(memo["body"], features="html.parser")
+    if "toc" in memo:
+        def link_titles(soup, links):
+            for link in links:
+                if "anchor" in link and "title" not in link:
+                    link["title"] = soup.find(id=link["anchor"]).text
+                if "children" in link:
+                    link["children"] = link_titles(soup, link["children"])
+            return links
+        return link_titles(soup, memo["toc"])
+    else:
+        toc = []
+        for tag in soup.find_all("h2"):
+            toc.append(
+                {
+                    "title": tag.text,
+                    "anchor": tag["id"],
+                }
+            )
+        return toc
 
 ALL_MEMOS = []
 for fname in os.listdir("memos"):
@@ -164,7 +169,20 @@ for fname in os.listdir("memos"):
         text_start_idx = metadata_end_idx + 1
         memo = yaml.load("".join(lines[1:metadata_end_idx]), Loader=yaml.SafeLoader)
 
-        # default metadata
+        # file & path metadata
+        memo["filename"] = os.path.basename(fname)
+        memo["slug"], _ = os.path.splitext(memo["filename"])
+        memo["link"] = f"{memo['slug']}.html"
+        memo["permalink"] = f"{BASE_HREF}{memo['slug']}.html"
+
+        # render the body
+        memo["text"] = "".join(lines[text_start_idx:])
+        memo["body"] = make_html(memo)
+        toc = make_toc(memo)
+        if toc:
+            memo["toc"] = toc
+
+        # timestamps
         if "published" not in memo:
             datestr = subprocess.check_output(
                 [
@@ -202,9 +220,6 @@ for fname in os.listdir("memos"):
         memo["published_pp"] = memo["published"].strftime(DATE_PP_FORMAT)
         memo["modified_iso"] = memo["modified"].strftime(DATE_ISO_FORMAT)
         memo["modified_pp"] = memo["modified"].strftime(DATE_PP_FORMAT)
-        memo["slug"], _ = os.path.splitext(os.path.basename(fpath))
-        memo["link"] = f"{memo['slug']}.html"
-        memo["permalink"] = f"{BASE_HREF}{memo['slug']}.html"
 
         # get the taxon
         taxon_slug = memo.get("taxon", DEFAULT_TAXON)
@@ -214,12 +229,6 @@ for fname in os.listdir("memos"):
         while taxon["parent"]:
             taxon = TAXA_BY_SLUG[taxon["parent"]]
             memo["taxa"].append(taxon)
-
-        # render the body
-        memo["text"] = "".join(lines[text_start_idx:])
-        memo["body"], toc = pandocise_memo(fname, memo["link"], memo["text"], memo.get("toc"))
-        if toc:
-            memo["toc"] = toc
 
     if memo.get("draft", False) and not DRAFT_MODE:
         continue
