@@ -2,161 +2,11 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-09-30
+modified: 2022-10-17
 ---
 
 This memo contains a big list of books I want.  It's probably not very
 thrilling reading.
-
-SF Masterworks
---------------
-
-| ISBN            | Title                                           | Author                      |
-|----------------:+-------------------------------------------------+-----------------------------|
-| `1857988191`    | The Rediscovery of Man                          | Cordwainer Smith            |
-| `1857988213`    | Earth Abides                                    | George R. Stewart           |
-| `185798837X`    | Martian Time-Slip                               | Philip K. Dick              |
-| `1857988221`    | The Demolished Man                              | Alfred Bester               |
-| `1857988361`    | Stand on Zanzibar                               | John Brunner                |
-| `1857988833`    | The Drowned World                               | J. G. Ballard               |
-| `1857989147`    | The Book of Skulls                              | Robert Silverberg           |
-| `1857988531`    | Ubik                                            | Philip K. Dick              |
-| `185798935X`    | Timescape                                       | Gregory Benford             |
-| `1857988523`    | More Than Human                                 | Theodore Sturgeon           |
-| `1857989244`    | A Case of Conscience                            | James Blish                 |
-| `185798952X`    | Dr. Bloodmoney                                  | Philip K. Dick              |
-| `1857989988`    | Non-Stop                                        | Brian Aldiss                |
-| `1857987217`    | The Fountains of Paradise                       | Arthur C. Clarke            |
-| `1857989376`    | Pavane                                          | Keith Roberts               |
-| `1857987012`    | Now Wait for Last Year                          | Philip K. Dick              |
-| `185798742X`    | Nova                                            | Samuel R. Delany            |
-| `1857987462`    | The First Men in the Moon                       | H. G. Wells                 |
-| `1857987624`    | Blood Music                                     | Greg Bear                   |
-| `1857987896`    | Jem                                             | Frederik Pohl               |
-| `1857987640`    | Bring the Jubilee                               | Ward Moore                  |
-| `1857983394`    | VALIS                                           | Philip K. Dick              |
-| `1857983408`    | The Complete Roderick                           | John Sladek                 |
-| `1857983416`    | Flow My Tears, the Policeman Said               | Philip K. Dick              |
-| `1857987985`    | Grass                                           | Sheri S. Tepper             |
-| `0575073160`    | Eon                                             | Greg Bear                   |
-| `0575074639`    | The Shrinking Man                               | Richard Matheson            |
-| `0575074809`    | The Three Stigmata of Palmer Eldritch           | Philip K. Dick              |
-| `0575074582`    | Time Out of Joint                               | Philip K. Dick              |
-| `0575074604`    | The Simulacra                                   | Philip K. Dick              |
-| `0575075252`    | Dying Inside                                    | Robert Silverberg           |
-| `0575076909`    | The Child Garden                                | Geoff Ryman                 |
-| `0575077085`    | Mission of Gravity                              | Hal Clement                 |
-| `0575074612`    | A Maze of Death                                 | Philip K. Dick              |
-| `0575077344`    | Life During Wartime                             | Lucius Shepard              |
-| `0575079142`    | Where Late the Sweet Birds Sang                 | Kate Wilhelm                |
-| `9780575079779` | Dark Benediction                                | Walter M. Miller Jr.        |
-| `9780575079151` | Mockingbird                                     | Walter Tevis                |
-| `9780575082410` | The Moon Is a Harsh Mistress                    | Robert A. Heinlein          |
-| `0575072202`    | A Canticle for Leibowitz                        | Walter M. Miller Jr.        |
-| `9780575090996` | Dhalgren                                        | Samuel R. Delany            |
-| `9780575095014` | Arslan                                          | M. J. Engh                  |
-| `9780575099418` | The Prestige                                    | Christopher Priest          |
-| `9780575071131` | Greybeard                                       | Brian Aldiss                |
-| `9780575105232` | City                                            | Clifford D. Simak           |
-| `9780575101081` | Hellstrom's Hive                                | Frank Herbert               |
-| `9780575099449` | Of Men and Monsters                             | William Tenn                |
-| `9780575099463` | The Affirmation                                 | Christopher Priest          |
-| `9780575099456` | R.U.R. and War with the Newts                   | Karel Čapek                 |
-| `9780575108233` | Floating Worlds                                 | Cecelia Holland             |
-| `9780575108004` | Rogue Moon                                      | Algis Budrys                |
-| `9780575108028` | Dangerous Visions                               | Harlan Ellison              |
-| `9780575119543` | Synners                                         | Pat Cadigan                 |
-| `9780575131361` | Sarah Canary                                    | Karen Joy Fowler            |
-| `9780575118232` | Ammonite                                        | Nicola Griffith             |
-| `9780575118317` | The Continuous Katherine Mortenhoe              | D. G. Compton               |
-| `9780575131095` | Doomsday Book                                   | Connie Willis               |
-| `9780575118546` | Unquenchable Fire                               | Rachel Pollack              |
-| `9780575118287` | The Caltraps of Time                            | David I. Masson             |
-| `9780575082816` | Engine Summer                                   | John Crowley                |
-| `9780575119529` | Take Back Plenty                                | Colin Greenland             |
-| `9780575118256` | Slow River                                      | Nicola Griffith             |
-| `9780575131040` | The Gate to Women's Country                     | Sheri S. Tepper             |
-| `9780575118690` | The Sea and Summer                              | George Turner               |
-| `9780575129047` | Wasp                                            | Eric Frank Russell          |
-| `9780575113121` | To Say Nothing of the Dog                       | Connie Willis               |
-| `9780575129054` | The Gods Themselves                             | Isaac Asimov                |
-| `9780575081185` | This Is the Way the World Ends                  | James Morrow                |
-| `9780575082649` | The Deep                                        | John Crowley                |
-| `9780575131149` | Time is the Fire: The Best of Connie Willis     | Connie Willis               |
-| `9780575093119` | No Enemy But Time                               | Michael Bishop              |
-| `9780575122031` | Double Star                                     | Robert A. Heinlein          |
-| `9780575129061` | Revelation Space                                | Alastair Reynolds           |
-| `9780575132306` | Random Acts of Senseless Violence               | Jack Womack                 |
-| `9780575093096` | Transfigurations                                | Michael Bishop              |
-| `9780575120723` | The Door Into Summer                            | Robert A. Heinlein          |
-| `9780575129627` | Half Past Human                                 | T. J. Bass                  |
-| `9781473203242` | Her Smoke Rose Up Forever                       | James Tiptree Jr            |
-| `9781473205765` | The Wind's Twelve Quarters and The Compass Rose | Ursula K. Le Guin           |
-| `9781473212534` | Norstrilia                                      | Cordwainer Smith            |
-| `9781473202214` | Monday Begins on Saturday                       | Arkady and Boris Strugatsky |
-| `9781473215160` | Fairyland                                       | Paul J. McAuley             |
-| `9781473205802` | Always Coming Home                              | Ursula K. Le Guin           |
-| `9781473211964` | A Deepness in the Sky                           | Vernor Vinge                |
-| `9781473214668` | Swastika Night                                  | Murray Constantine          |
-| `9781473214620` | China Mountain Zhang                            | Maureen F. McHugh           |
-| `9781473212473` | Limbo                                           | Bernard Wolfe               |
-| `9781473222281` | The Doomed City                                 | Arkady and Boris Strugatsky |
-| `9781473222656` | Raising the Stones                              | Sheri S. Tepper             |
-| `9781473222670` | The Embedding                                   | Ian Watson                  |
-| `9781473222731` | Cryptozoic                                      | Brian Aldiss                |
-| `9781473224063` | Land Under England                              | Joseph O'Neill              |
-| `9781473224742` | Dreaming in Smoke                               | Tricia Sullivan             |
-| `9781473226029` | Fools                                           | Pat Cadigan                 |
-| `9781473213449` | The Best of R. A. Lafferty                      | R. A. Lafferty              |
-| `9781473227675` | Light                                           | M. John Harrison            |
-| `9781473227569` | Native Tongue                                   | Suzette Haden Elgin         |
-| `9781473228283` | The Snail on the Slope                          | Arkady and Boris Strugatsky |
-| `9781473228306` | The Shockwave Rider                             | John Brunner                |
-| `9781473229501` | River of Gods                                   | Ian McDonald                |
-| `9781473229235` | A Time of Changes                               | Robert Silverberg           |
-| `9781473230118` | The Andromeda Anthology                         | Fred Hoyle and John Elliot  |
-| `9781473230989` | Worlds of Exile and Illusion                    | Ursula K. Le Guin           |
-| `9781473230194` | Bold as Love                                    | Gwyneth Jones               |
-| `9781473230200` | Desolation Road                                 | Ian McDonald                |
-| `9781473230200` | Castles Made of San                             | Gwyneth Jones               |
-| `9781473232297` | The Best of Greg Egan                           | Greg Egan                   |
-| `9781473232440` | The Inhabited Island                            | Arkady and Boris Strugatsky |
-| `9781473233058` | The Separation                                  | Christopher Priest          |
-| `9781473229204` | Needle in a Timestack                           | Robert Silverberg           |
-| `9781473234659` | White Queen                                     | Gwyneth Jones               |
-| `9781473234666` | Kairos                                          | Gwyneth Jones               |
-| `9781473234802` | Nineteen Eighty-Four                            | George Orwell               |
-| `9781473234673` | Life                                            | Gwyneth Jones               |
-| `9781473222168` | The Chronicles of Amber                         | Roger Zelazny               |
-| `9781857988222` | The Demolished Man                              | Alfred Bester               |
-| `9781473222151` | The Second Chronicles of Amber                  | Roger Zelazny               |
-| `9781473232822` | Growing Up Weightless                           | John M. Ford                |
-| `9781399603775` | The Secret of Life                              | Paul McAuley                |
-| `9781473235038` | Roadmarks                                       | Roger Zelazny               |
-
-
-Golden Age Masterworks
-----------------------
-
-| ISBN            | Title                     | Author               |
-|----------------:+---------------------------+----------------------|
-| `9781473223264` | Doomsday Morning          | C. L. Moore          |
-| `9781473224704` | Galactic Patrol           | E. E. 'Doc' Smith    |
-| `9781473222557` | Fury                      | Henry Kuttner        |
-| `9781473222366` | The Sands of Mars         | Arthur C. Clarke     |
-| `9781473222373` | Earthlight                | Arthur C. Clarke     |
-| `9781473224711` | Grey Lensman              | E. E. 'Doc' Smith    |
-| `9781473224728` | Second Stage Lensman      | E. E. 'Doc' Smith    |
-| `9781473222540` | Northwest of Earth        | C. L. Moore          |
-| `9781473222526` | Jirel of Joiry            | C. L. Moore          |
-| `9781473224735` | Children of the Lens      | E. E. 'Doc' Smith    |
-| `9781473222342` | Against the Fall of Night | Arthur C. Clarke     |
-| `9781473222533` | Judgment Night            | C. L. Moore          |
-| `9781473227682` | The Stainless Steel Rat   | Harry Harrison       |
-| `9781473228375` | The Deathworld Omnibus    | Harry Harrison       |
-| `9781473227392` | Sidewise in Time          | Murray Leinster      |
-| `9781473230729` | The Outward Urge          | John Wyndham         |
-| `9781473234826` | Stories of Mars           | Edgar Rice Burroughs |
 
 
 Book Series
@@ -166,7 +16,7 @@ Book Series
 |--------------------------------------------:+----------------:+-----------------------------------------------|
 | [Delicious in Dungeon][]                    |                 | Volume 12                                     |
 | [The Kharkanas Trilogy][]                   |                 | Walk in Shadow                                |
-| [Overlord][]                                |                 | Volume 15: The Half Wood Elf God-kin (Part 1) |
+| [Overlord][]                                | `9781975360566` | Volume 15: The Half Wood Elf God-kin (Part 1) |
 |                                             |                 | Volume 16: The Half Wood Elf God-kin (Part 2) |
 | [So I'm a Spider, So What?][]               | `9781975352165` | Volume 15                                     |
 |                                             |                 | Volume 16                                     |
@@ -197,6 +47,11 @@ Book Series
 [That Time I Got Reincarnated as a Slime]: https://en.wikipedia.org/wiki/List_of_That_Time_I_Got_Reincarnated_as_a_Slime_volumes
 [The Witness Trilogy]: https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#The_Witness_Trilogy
 
+### Collections
+
+- [SF Masterworks](https://en.wikipedia.org/wiki/SF_Masterworks)
+- [Fantasy Masterworks](https://en.wikipedia.org/wiki/Fantasy_Masterworks)
+
 ### Candidate series
 
 - [Lyonesse](https://en.wikipedia.org/wiki/Lyonesse_Trilogy)
@@ -205,7 +60,6 @@ Book Series
 - [Monthly Girls' Nozaki-kun](https://en.wikipedia.org/wiki/Monthly_Girls%27_Nozaki-kun#Volume_list)
 - [Novels of the Malazan Empire](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Novels_of_the_Malazan_Empire)
 - [Path to Ascendancy](https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#Path_to_Ascendancy)
-- [The Black Company](https://en.wikipedia.org/wiki/The_Black_Company)
 - [The Chanur novels](https://en.wikipedia.org/wiki/The_Chanur_novels)
 - [The Elric Saga](https://www.tor.com/2021/03/02/revealing-omnibus-editions-of-michael-moorcocks-elric-of-melnibone/)
 - [The History of Middle-earth](https://en.wikipedia.org/wiki/The_History_of_Middle-earth)
@@ -267,44 +121,18 @@ Roleplaying Games
 |                       | [The Forbidden Caverns of Archaia](https://www.drivethrurpg.com/product/399432/The-Forbidden-Caverns-of-Archaia) |
 |                       | [Castle Xyntillan](https://emdt.bigcartel.com/product/castle-xyntillan) |
 |                       | [The Stygian Library](https://www.allrolledup.co.uk/product/the-stygian-library/) |
-| OSR (Supplements)     | [Fungi of the Far Realms](https://www.melsonia.com/fungi-of-the-far-realms-69-p.asp) |
-|                       | [As the Gods Demand](https://www.drivethrurpg.com/product/389148/As-the-Gods-Demand) |
-|                       | [Wonder & Wickedness](https://www.drivethrurpg.com/product/145647/Wonder--Wickedness) |
-|                       | [Marvels & Malisons](https://www.drivethrurpg.com/product/211911/Marvels--Malisons) |
-|                       | [Hamsterish Hoard of Hexes](https://www.drivethrurpg.com/product/342067/Hamsterish-Hoard-of-Hexes) |
-|                       | [Chthonic Codex](https://www.drivethrurpg.com/product/166076/Chthonic-Codex) |
-|                       | [Theorems & Thaumaturgy](https://www.drivethrurpg.com/product/198548/Theorems--Thaumaturgy-Revised-Edition) |
-|                       | [The Complete Vivimancer](https://www.drivethrurpg.com/product/128029/The-Complete-Vivimancer) |
-|                       | [Kefitzat Haderech](https://www.lulu.com/shop/paolo-greco/kefitzat-haderech-incunabulum-of-the-uncanny-gates-and-portals/paperback/product-1re6km94.html) |
-|                       | [The Nameless Grimoire](https://www.lulu.com/shop/johnstone-metzger/the-nameless-grimoire/hardcover/product-8jz94p.html) |
 | Miscellaneous         | [Dread](https://www.tiltingatwindmills.net/buy-stuff/) |
-|                       | [Robin's Laws of Good Game Mastering](https://www.amazon.co.uk/Robins-Laws-Good-Game-Mastering/dp/1556346298/) |
-|                       | [Beating the Story](https://www.amazon.co.uk/Beating-Story-Understand-Elevate-Narrative/dp/0981884040/) |
+|                       | [Fungi of the Far Realms](https://www.melsonia.com/fungi-of-the-far-realms-69-p.asp) |
 
 ### Candidates
 
 - Call of Cthulhu
   - [Bayt al Azif](https://baytalazif.com/)
-- Cepheus
-  - [Hostile](https://www.drivethrurpg.com/product/388160/HOSTILE-Mega-BUNDLE)
-  - [Old School Role Playing](https://www.drivethrurpg.com/browse/pub/11948/Old-School-Role-Playing)
 - Mothership
   - [Gradient Descent](https://www.mothershiprpg.com/gradient-descent)
-- [Mountain Home](https://www.drivethrurpg.com/product/370421/Mountain-Home)
-- [No Country for Old Kobolds](https://nocountryforoldkobolds.com/)
 - RuneQuest: Roleplaying in Glorantha
   - [The Glorantha Sourcebook](https://www.chaosium.com/the-glorantha-sourcebook-hardcover/)
   - [The Guide to Glorantha](https://www.chaosium.com/the-guide-to-glorantha-slipcase-set/)
-
-
-Miscellaneous Nonfiction
-------------------------
-
-| ISBN            | Title                                                               | Author          |
-|----------------:+---------------------------------------------------------------------+-----------------|
-| `9780521893312` | Metropolis and Hinterland: The City of Rome and the Italian Economy | Neville Morley  |
-| `9780521634168` | Trade in Classical Antiquity                                        | Neville Morley  |
-| `9780201835953` | The Mythical Man-Month                                              | Fred Brooks     |
 
 
 Miscellaneous Fiction
