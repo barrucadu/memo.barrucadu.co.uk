@@ -13,7 +13,8 @@ toc:
 - anchor: setting-bible
   children:
   - anchor: backstory
-  - anchor: sector-map
+  - anchor: factions
+  - anchor: non-default-assumptions
 - anchor: party
 - anchor: resources
 - division: Session notes
@@ -59,6 +60,16 @@ Overview
 
 High-level points about the campaign (eg, system, setting, session 0) go here.
 
+#### An action-packed period of history
+
+Every in-game month:
+
+- `2d3-1` more worlds join the Sylean Federation
+- Make a [faction turn](campaign-notes-2023-03-sylea-rising.html#factions)
+
+Players hear of any developments close to the start of the session: newspapers,
+TV or radio broadcasts, overheard talk, etc.
+
 ### Roadmap
 
 Planned adventures, story arcs, etc go here.
@@ -73,6 +84,34 @@ remove this section.
 
 Setting Bible
 -------------
+
+![Ukan Sector, year -1](campaign-notes-2023-03-sylea-rising/poster.png)
+
+- [Sector data](campaign-notes-2023-03-sylea-rising/sector-data.txt)
+  - Based on Core (M0)
+  - Remove all allegiance codes (the borders show that)
+  - Government types:
+    - Sylean Federation: Sylea is C, other core worlds (other than 0 pop ones) are 8.
+    - Sylean-occupied Territory: Uniimvlu is B, worlds spinward of Guba Ak are
+      6, worlds trailing are self-governing again
+    - Chanestin Kingdom: Keshi is B
+  - Add bases to border systems
+  - Add Kala Station at 2230
+- [Metadata](campaign-notes-2023-03-sylea-rising/metadata.xml)
+  - Based on Core (M0)
+  - Names:
+    - Rename sector to Ukan
+    - Rename Core subsector to Sylea subsector
+    - Fill in modern subsector names for missing ones
+  - Borders:
+    - Remove all unknown borders
+    - Add modern Sylean Worlds to Sylean Federation
+    - Extend Sylean Federation into Chant
+    - Add Chanestin Kingdom (from Mongoose Third Imperium)
+    - Add Interstellar Confederacy (from Mongoose Third Imperium)
+    - Progress Sylean Federation / Interstellar Confederacy war
+    - Add pocket empires
+    - Add trade corridor to Vland
 
 ### Backstory
 
@@ -153,16 +192,20 @@ When Felix died, he left behind his heir the 27-year-old Cleon Zhunastu, who
 assumed the roles of Grand Duke of Sylea, president of the Grand Senate, and
 chairman of Zhunastu Industries.
 
-Cleon began a rapid expansion of territory, a mixture of recruitment and
-conquest.  He established the Sylean Federation Scout Service.  And he's
-introduced the first prototype jump-3 ships into the navy, that technology newly
-developed by Zhunastu Industries.  Some of these high tech ships have been
-deployed to the war with the Interstellar Confederacy, and have allowed rapid
-advances and surprise attacks against the less technologically advanced
-Confederates.
+Cleon founded the Sylean Federation Scout Service, which triggered a period of
+rapid expansion, a mixture of recruitment and conquest.  Many currently
+independent worlds are considering membership, having either applied themselves
+or having been invited due to their economic, technological, or strategic
+merits.  Cleon also introduced the first prototype jump-3 ships into the navy,
+that technology newly developed by Zhunastu Industries.  Some of these high tech
+ships have been deployed to the war with the Interstellar Confederacy, and have
+allowed rapid advances and surprise attacks against the less technologically
+advanced Confederates.
 
 Cleon has been president for 30 years now, and shows no sign of slowing down.
-People are generally optimistic for the future, and look forward to seeing what
+It's widely known that he plans to bring the entire sector under Sylean control,
+and possibly even more than that.  The people are generally optimistic for the
+future, despite the current ongoing conflicts,and look forward to seeing what
 change he brings next.
 
 #### Other polities
@@ -254,34 +297,41 @@ In addition to these larger polities, there are many independent worlds.  These
 are intentionally not fleshed out.  Dead worlds, archaeological finds, hostile
 aliens, strange facilities, caches of technology... anything could be out there.
 
-### Sector Map
+### Factions
 
-- [Poster](campaign-notes-2023-03-sylea-rising/poster.png) ([poster maker](https://travellermap.com/make/poster))
-- [Sector data](campaign-notes-2023-03-sylea-rising/sector-data.txt)
-  - Based on Core (M0)
-  - Remove all allegiance codes (the borders show that)
-  - Government types:
-    - Sylean Federation: Sylea is C, other core worlds (other than 0 pop ones) are 8.
-    - Sylean-occupied Territory: Uniimvlu is B, worlds spinward of Guba Ak are
-      6, worlds trailing are self-governing again
-    - Chanestin Kingdom: Keshi is B
-  - Add bases to border systems
-  - Add Kala Station at 2230
-- [Metadata](campaign-notes-2023-03-sylea-rising/metadata.xml)
-  - Based on Core (M0)
-  - Names:
-    - Rename sector to Ukan
-    - Rename Core subsector to Sylea subsector
-    - Fill in modern subsector names for missing ones
-  - Borders:
-    - Remove all unknown borders
-    - Add modern Sylean Worlds to Sylean Federation
-    - Extend Sylean Federation into Chant
-    - Add Chanestin Kingdom (from Mongoose Third Imperium)
-    - Add Interstellar Confederacy (from Mongoose Third Imperium)
-    - Progress Sylean Federation / Interstellar Confederacy war
-    - Add pocket empires
-    - Add trade corridor to Vland
+Faction turn procedure:
+
+- For each faction in the region of the PCs, make a fortune roll to see how
+  things are going generally.  This is reflected in military presence, NPC
+  attitudes, local news stories (etc).
+
+- For each faction, make a fortune roll and tick clocks.  The progression of
+  these clocks should be obvious and generate adventures (which may also tick /
+  untick clocks).
+
+Factions:
+
+- **Sylean Federation** (`3d`)
+  - 0 / 4: capture a world from the Interstellar Confederacy
+  - 0 / 6: win over Kuusuun
+  - 0 / 8: trade deal with Apge
+- **Apge Free Trade Zone** (`2d`)
+- **Chanestin Kingdom** (`2d`)
+  - 0 / 4: annex an independent world
+  - 0 / 8: win over Kuusuun
+- **Interstellar Confederacy** (`2d`)
+  - 0 / 4: annex an independent world
+  - 0 / 4: capture a world from the Sylean Federation
+- **Kuusuun Federation** (`2d`)
+- **Mishaar Cluster** (`2d`)
+  - 0 / 8: establish trade route with the Vargr Extents
+  - 0 / 4: trade deal with Apge
+
+### Non-Default Assumptions
+
+- Tech restrictions
+- Career changes
+- etc
 
 
 Party
