@@ -1,11 +1,12 @@
 ---
 title: GoAdventuring (2022-08 to ?) notes
 published: 2022-08-16
-modified: 2022-10-05
+modified: 2022-10-17
 taxon: games-campaigns
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+
 
 Overview
 --------
@@ -202,8 +203,8 @@ automatically when they complete a phase.
 - Next adventure
 
 
-2022-09-07 --- 1: Rakno Rising
-------------------------------
+2022-09-07 --- 1: A Geomantic Aside
+-----------------------------------
 
 ### Intro
 
@@ -335,8 +336,8 @@ Brackenwold looking for a suitably chivalrous knightly task to make his name).
       - Add this to someone's character sheet!
 
 
-2022-10-05 --- 2: The Royal Fox
--------------------------------
+2022-10-05 --- 2: The Fox and the Drune
+---------------------------------------
 
 ### Intro
 
@@ -474,3 +475,36 @@ Brackenwold looking for a suitably chivalrous knightly task to make his name).
 
 - Drune cottage
 - Level up Carmen and Gratrix
+
+
+2022-10-18 --- 2: The Drune and the Elf
+---------------------------------------
+
+### Intro
+
+- Session recap
+
+### State
+
+- Carmen and Gratrix need to level up
+- In 1406, evening
+
+### Prep
+
+- **Azeria:**
+  - Will uphold the bargain, she's not trying to trick the PCs
+- **Majorus:**
+  - Is unwilling to leave, but could be convinced, eg:
+    - If they take him with them
+    - If they agree to subject themselves to questioning after the mission
+    - If they beat him up sufficiently to prove they could just kill him if need
+      be
+  - Knows that Azeria is truthful, and that plus a description of the contract
+    signing will convince him there is a genuine elf situation
+  - Wants to capture the PCs and hand them over to the Aegis for questioning
+- **Lady Misthraine:**
+  - Is as described
+
+### Notes
+
+### Next time
