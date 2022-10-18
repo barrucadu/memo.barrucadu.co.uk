@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-10-17
+modified: 2022-10-18
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -94,7 +94,6 @@ Roleplaying Games
 |                       | [Cthulhu Dark Ages](https://www.chaosium.com/cthulhu-dark-ages-3rd-edition-hardcover/) |
 |                       | [Fear's Sharp Little Needles](https://www.drivethrurpg.com/product/245289/Fears-Sharp-Little-Needles) |
 |                       | [The Things We Leave Behind](https://www.drivethrurpg.com/product/191250/The-Things-We-Leave-Behind--An-Anthology-of-Modern-Day-Call-of-Cthulhu-Scenarios) |
-|                       | [Viral](https://www.drivethrurpg.com/product/391974) |
 | Traveller             | [Mercenary Box Set](https://www.mongoosepublishing.com/products/mercenary-box-set-1) |
 |                       | [Mercenaries of Charted Space](https://www.mongoosepublishing.com/products/mercenaries-of-charted-space) |
 |                       | [Field Catalogue](https://www.mongoosepublishing.com/products/field-catalogue) |
@@ -109,20 +108,13 @@ Roleplaying Games
 |                       | [Carcass Crawler #3](https://necroticgnome.com/collections/zines/products/carcass-crawler-issue-3) |
 |                       | [The Fungus That Came to Blackeswell](https://necroticgnome.com/collections/adventures/products/the-fungus-that-came-to-blackeswell) |
 |                       | [The Ruined Abbey of St Clewyd](https://necroticgnome.com/collections/adventures/products/the-ruined-abbey-of-st-clewyd) |
-| OSR (Adventures)      | [Where the Wheat Grows Tall](https://www.allrolledup.co.uk/product/where-the-wheat-grows-tall-rpg-adventure/) |
-|                       | [Witchburner](https://www.exaltedfuneral.com/products/witchburner) |
-|                       | [Longwinter (Referee's Book)](https://www.exaltedfuneral.com/products/longwinter) |
-|                       | [Longwinter (Visitor's Book)](https://www.exaltedfuneral.com/products/longwinter-visitors-book) |
-| OSR (Settings)        | [Rackham Vale](https://www.crwbr.com/shop) |
-|                       | [The Halls of Arden Vul](https://www.drivethrurpg.com/product/307787/Arden-Vul-Bundle-BUNDLE) |
+| OSR (Settings)        | [The Halls of Arden Vul](https://www.drivethrurpg.com/product/307787/Arden-Vul-Bundle-BUNDLE) |
 |                       | [HighFell](https://www.drivethrurpg.com/product/277804/HighFell-The-Drifting-Dungeon) |
 |                       | [Barrowmaze](https://www.drivethrurpg.com/product/139762/Barrowmaze-Complete) |
 |                       | [Dwarrowdeep](https://www.drivethrurpg.com/product/384269/Dwarrowdeep) |
 |                       | [The Forbidden Caverns of Archaia](https://www.drivethrurpg.com/product/399432/The-Forbidden-Caverns-of-Archaia) |
 |                       | [Castle Xyntillan](https://emdt.bigcartel.com/product/castle-xyntillan) |
-|                       | [The Stygian Library](https://www.allrolledup.co.uk/product/the-stygian-library/) |
 | Miscellaneous         | [Dread](https://www.tiltingatwindmills.net/buy-stuff/) |
-|                       | [Fungi of the Far Realms](https://www.melsonia.com/fungi-of-the-far-realms-69-p.asp) |
 
 ### Candidates
 
