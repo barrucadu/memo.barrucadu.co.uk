@@ -1,8 +1,23 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-10-08
+modified: 2022-10-22
 taxon: games-campaigns
+toc:
+- anchor: pitch
+- anchor: house-rules
+- anchor: factions
+- anchor: hexes-secrets
+- anchor: resources
+- division: Session notes
+- anchor: session-0
+- anchor: session-1
+- anchor: session-2
+- anchor: session-3
+- anchor: session-4
+- anchor: session-5
+- anchor: session-6
+- anchor: session-7
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -289,6 +304,243 @@ mishap.
     - 4 to 6: Only offal and viscera can be stomached for 1 week, other food is repulsive and provides no sustenance.
 
 
+Factions
+--------
+
+*Modified from [d66kobolds](https://d66kobolds.blogspot.com/2021/10/faction-procedures-dolmenwood-example.html) & Wicked Ones.*
+
+Between sessions:
+
+1. For each faction, pick one goal:
+   1. Make a fortune roll with:
+      - +1 die for every relevant resource the faction has
+      - -1 die for every relevant resource an opposing faction has
+   2. For a mixed, mark 1 progress; for a success, mark 2 progress; for a
+      critical, mark 3 progress
+   3. If the goal is completed:
+      1. Add a new resource
+      2. If the goal targets another faction: remove or change one of their
+         resources
+2. Roll `1d20` minus the number of factions which did not advance the goal:
+   1. If the result is 6 or less, roll 1d6:
+      - 1 or 2: roll an ecological random event
+      - 3 or 4: roll a political random event
+      - 5 or 6: roll a weird random event
+3. Come up with rumours for the next session
+
+Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
+
+### Factions
+
+#### The Church of the One True God
+
+##### Resources
+
+- Dozens of specialized clerical and monastic orders, all playing to different
+  strengths.
+- Singular authority over religious business, miracles, obligations, and
+  observances.
+- Close, time-honored ties with the Duchy of Brackenwold and its influence.
+
+##### Goals
+
+- `[0/4]` Locate a lost shrine
+- `[2/6]` Secure the Abbey of St Clewyd
+- `[0/8]` Capture a member of the Drune Aegis
+
+#### The Cold Prince
+
+##### Resources
+
+- Tremendous, nigh-eternal fairy power through magic, land, and personnel.
+- Deft subtlety and cunning among agents sent far afield to realms and planes.
+- Glamours, trinkets, artifacts, and spells able to tempt mortals.
+
+##### Goals
+
+- `[3/4]` Establish a trusted mortal agent in Dolmenwood
+- `[0/6]` Form an alliance with the Lady of Midnight
+- `[0/8]` Locate a new entrance to Dolmenwood
+
+#### The Drune
+
+##### Resources
+
+- Unparalleled access to potent arcane knowledge and ancient rites.
+- Their mere name and rumored presence frightens the rest of the Wood.
+- Enslaved godlings, spirits, and ghosts who enact their will.
+
+##### Goals
+
+- `[0/6]` Establish an embassy with the Witches
+- `[0/6]` Locate the unlawful nodal in Chateau Mauvesse
+- `[1/8]` Reawaken Gheillough
+
+#### Duke Thespian III
+
+##### Resources
+
+- Ease of resupply and support from the extended human kingdom across the
+  Tithelands.
+- Quickly-rallied knights, men-at-arms, and specialty personnel from vassals.
+- Largest concentration of wealth and natural goods in the Wood.
+
+##### Goals
+
+- `[0/4]` Send an envoy to treat with Ygraine and discuss "the oubliette"
+- `[2/4]` Establish a military / religious force to assault the Nagwood
+- `[0/6]` Root out isolated Drune cottagers
+
+#### Lord Gryphius Malbleat
+
+##### Resources
+
+- Alchemists, minor sorcerers, and an extensive occult library.
+- Influence over regional Church officers.
+- Trade authority over the main arteries of the High Wold.
+
+##### Goals
+
+- `[0/4]` Steal ancient books of lore from Harrowmoor Keep
+- `[0/6]` Tap into a local stone circle to spy on the Nag Lord using old arcana
+- `[0/8]` Assasinate Lord Simeone Murkin at Kolstoke Keep and frame Ramius
+
+#### Lord Shadgore Ramius
+
+##### Resources
+
+- A standing army rivaled only by the Duke.
+- Knowledgable hunters and loremasters in the High Wold.
+- Large political clout within and without the Wood.
+
+##### Goals
+
+- `[0/4]` Host a seasonal retreat for the Duke and other high nobles to curry
+  favor.
+- `[0/6]` Cultivate programs to improve Lankshorn under his name.
+- `[1/8]` Topple one of the Summerstones and frame Malbleat.
+
+#### Other Lesser Noble Houses
+
+##### Resources
+
+- Local autonomy with regional support from Brackenwold.
+- Tightly-knit communities formed around local keeps and hamlets.
+- The ear and respect of the common man in their purview.
+
+##### Goals
+
+- `[1/4]` (Lady Theatrice Harrowmoor) Construct palisades against the
+  encroaching Nagwood
+- `[0/6]` (Lord Edwin Guillefer) Establish public market trade with the Goblin
+  King in Fairy
+- `[0/8]` (Lord Simeone Murkin) Kill Lord Harald Nodlock and conquer House
+  Nodlock
+
+#### The Nag Lord, Atanuwë
+
+##### Resources
+
+- Depraved, but skillful, servitors in all population centers.
+- Subtle control (and corruption) of the magic of the Wood.
+- Large cadres of twisted goatfolk, the crookhorns.
+
+##### Goals
+
+- `[1/6]` Sire a new atacorn
+- `[0/6]` Steal relics of the saints
+- `[0/8]` Murder and reanimate a high-ranking priest of the Church
+
+#### The Witches
+
+##### Resources
+
+- The oldest magic in the Wood.
+- Contact with other planes of existence.
+- Eyes and ears everywhere.
+
+##### Goals
+
+- `[0/6]` Alliance with House Guillefer
+- `[0/6]` Kidnap a potential Hoaghryn
+- `[2/8]` Locate the second Mirror of Embala
+
+#### The Sorceress
+
+##### Resources
+
+- Arcana and knowledge from the witches (learned) and Drune (stolen).
+- Frequent contact with the nobility of Fairy.
+- Sole access to Phandwryl, the hidden fifth nodal stone of the ley line, Ywyr.
+
+##### Goals
+
+- `[0/4]` Repair friendship with the Duke Who Cherishes Dreams
+- `[2/6]` Learn the location of Lord Hobbled-and-Blackened
+- `[0/8]` Learn how to root Meagre's Reach in the present day
+
+### Random Events
+
+#### Ecological
+
+1. The Upper Hameth floods, distirbung Lake Longmere and all points northwest.
+2. A forest fire rips through the wood between Dreg and Lankshorn, displacing
+   Drune cottagers and revealing the Golokstone.
+3. After days of loud moaning, the bicorne in 0501 attracts a mate from west of
+   Kolstoke Keep.  The two start spawning offspring faster than should be
+   possible.
+4. The largest towering fungi around Orbswallow begin to ambulate, dragging mud
+   and spores out of Mulchgrove and towards Prigwort.
+5. Rain ceases to fall over the Tithelands for a month.  Castle Brackenwold and
+   High Hankle slip into a supply chain crisis, and hungry out-of-work farmers
+   harry trade.
+6. Unseasonal snowfall blankets the central wood.  Commoners panic as they
+   expect the immediate return of the Cold Prince.
+
+#### Political
+
+1. Toll officers and their hangers-on throw off the rule of Brackenwold and
+   setup Fort Vulgar as an independent garrison town.  Extortion of local
+   travellers quickly sets in and becomes a constant problem for trade.
+2. Bishop Sanguine is murdered while giving a sermon in the cathedral.  Witch
+   hunts run rampant in the duchy while the Church leaders squabble over power.
+3. Dozens of brigands, sellswords, and rogues arrive from the Tablelands, taking
+   up residence in Drigbolton and soon transforming the sleepy hamlet into a
+   hive of scum and villainy rivalling Dreg.
+4. Urged by his new wife, Baron Hogwarsh whips High Hankle into new heights of
+   order and vigil.  Lords Ramius and Malbleat are belittled by Hogwarsh's
+   authoritative push into the High Wold.  Rumors say Baroness Hogwarsh is a
+   witch!
+5. A freelance adventuring party, "Victorious Secret," sets up shop in Meagre's
+   Reach, transforming the bizarre bumpkin village into a hub of activity,
+   profit, and rumor-mongering.  Mercenary companies are frustrated by their
+   success.
+6. Duke Mai-Fleur's hunting party decides not to leave Dolmenwood following
+   their latest visit, and declare that region of the Wood now belongs to him as
+   private property.
+
+#### Weird
+
+1. Embala stirs in her sleep, causing dreams of giant writhing tentacles and too
+   many eyes for three nights.
+2. The ground shakes, wide-eyed fishermen report that Fog Lake has drained away,
+   revealing an underground river (entrance to Incandescent Grottoes area 54).
+   It takes a month to refill.
+3. Merchants of Goblinhold begin a series of monthly night markets (in a
+   pentagram arrangement) and pay with strange coins and jewels, many visitors
+   disappear.
+4. Time passes at a different rate in civilised lands until the New Moon, treat
+   as Fairy Road time dilation when exiting.
+5. Dozens of riding horses across the Wood transform into oversized black
+   unicorns with hulking musculature.  They impale their handlers and nearby
+   innocents, then race off to the northern forests with a keening, maniacal
+   cry.
+6. Following a convergence of two constellations, a wave of geomentic energy
+   sweeps the wood.  A random nodal stone explodes, violently, killing the
+   Audrune guardian and embedding shards of rock in the surrounding landscape
+   for miles.  Drune hurry to repair it.
+
+
 Hexes & Secrets
 ---------------
 
@@ -304,6 +556,8 @@ Hexes & Secrets
   - Chaosbrithe's Cave
 - **1108---Louper's Luncheon** (explored)
   - Cave mouth
+- **1204---The Breath of the Kelpie** (explored)
+  - Shrine to St Horace
 - **1205---Gorthstone** (explored)
 - **1206---The Baker's Dozen** (explored)
 - **1306---The Dung Heap and The Grey Monolith** (explored)
@@ -1023,6 +1277,71 @@ Character descriptions & introductions, then 1407.
 - Rules & descriptions for fairy horses (eg, upgrade all off-road horse stuff by 1 tier)
 - How will Drouge react?
 - How long are retainers paid for?
+
+
+2022-10-22 --- Session 7
+------------------------
+
+### Intro
+
+- 30 minute break at 5
+- Fairy Horse rules
+- Retainer classes
+- Session recap
+
+### State
+
+- 19 Iggwyld (morning): roll weather
+- At the Clashed Antler in Prigwort
+- Upcoming:
+  - TODAY: iron mace ready
+  - 24 Iggwyld: pay retainers
+
+### Prep
+
+#### Rumours
+
+- The Church are building a force to reclaim the Abbey of St Clewyd.
+- The Duke is building a force to assault the Nagwood.
+
+#### Drouge
+
+- Will want to know what happened (if they tell him they don't have the ring) or
+  will start to ask when they plan to go fetch it for him (if they say nothing).
+- If they just try to lie and say the ring wasn't there, they'll need to
+  convince him someone else stole it, since he *knows* there was a ring.
+- If they tell him the truth he'll be both impressed and afraid that the barrier
+  between Dolmenwood and Frigia may be coming undone.  He doesn't know how it
+  works, or even that it was the Drune who set it up (though he'll be
+  unsurprised to learn that, they are a likely candidate).
+  - The Drune assume everyone still knows about the Triple Compact.
+
+#### Fairy treasure
+
+- Will need selling at a market.
+
+### Notes
+
+- 19 Iggwyld: clement, cheery
+  - **1106---Prigwort:**
+    - Rent room at the Clashed Antler (until 3 Chysting) to store stuff
+    - Conversation with Drouge:
+      - Tell him the truth
+      - Give him an ice jewel
+    - Open the metal box from Sir Chyde's Tomb
+  - **1205---Gorthstone:**
+    - Copy runes
+    - Kill a drune, leave one alive
+  - **1204---The Breath of the Kelpie:**
+    - Explore (100xp)
+    - Find shrine (50xp)
+    - Stay at the inn for the night
+
+### Next time
+
+- 20 Iggwyld
+- In 1204
+- 150 exploration XP
 
 
 2022-MM-DD --- Session N
