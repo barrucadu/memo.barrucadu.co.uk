@@ -1,7 +1,7 @@
 ---
 title: GoAdventuring (2022-08 to ?) notes
 published: 2022-08-16
-modified: 2022-10-17
+modified: 2022-10-23
 taxon: games-campaigns
 ---
 
@@ -477,7 +477,7 @@ Brackenwold looking for a suitably chivalrous knightly task to make his name).
 - Level up Carmen and Gratrix
 
 
-2022-10-18 --- 2: The Drune and the Elf
+2022-11-02 --- 2: The Drune and the Elf
 ---------------------------------------
 
 ### Intro
