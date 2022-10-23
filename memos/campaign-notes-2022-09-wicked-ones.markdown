@@ -1,7 +1,7 @@
 ---
 title: Wicked Ones (2022-09 to ?) notes
 published: 2022-09-11
-modified: 2022-10-09
+modified: 2022-10-23
 taxon: games-campaigns
 ---
 
@@ -275,7 +275,7 @@ Dungeon Invasions
     - Guardians of the Lich Queen / Assault
       - Fly in, smash stuff up, make off with loot
       - Moordred's minions die
-      - Steal Necroteliconmicon, a book for contacting dead gods
+      - Steal Necrotelicomnicon, a book for contacting dead gods
 
 - **Blowback:**
   - Dusksiege demand fealty, swear it
@@ -293,6 +293,53 @@ Dungeon Invasions
 - Flesh out new minions (Moordred & Slikidlorbin)
 - XP: new calling ability for Slikidlorbin
 - What do Dusksiege want?
+
+
+2022-10-23 --- Session 6
+------------------------
+
+### Intro
+
+- Session recap
+- Flesh out Moordred's & Slikidlorbin's new minions
+- New calling ability for Slikidlorbin
+
+### State
+
+- Calamity
+- Sworn fealty to Dusksiege
+
+### Notes
+
+- **Calamity:**
+  - No calamity
+
+- **Raiding:**
+  - Negotiate combined raid with Littleplace to kidnap Truffle Hollow elders
+  - Hold off the Truffle Hollow guard long enough for Littleplace
+  - Trava's minions die
+  - Moordred bloodied
+  - Escape
+  - Start the Hobbit War: complete step 2 of the Master Plan
+
+- **Blowback:**
+  - Captured by cannibals
+  - Moordred goes feral
+  - Escape
+
+- **Lurking:**
+  - Finish tavern
+  - Trava recruits mroe minions
+
+- **Calamity:**
+  - Roll a minor calamity
+
+### Next time
+
+- Calamity
+- Flesh out Trava's new minions
+- XP: new calling abilities for Trava and Moordred
+- Decide on step 3 of the Master Plan
 
 
 2022-MM-DD --- Session N
