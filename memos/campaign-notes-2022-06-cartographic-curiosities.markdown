@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-10-22
+modified: 2022-10-25
 taxon: games-campaigns
 toc:
 - anchor: pitch
@@ -69,9 +69,10 @@ Humans only.
 | Magic-User  | OSE Advanced Fantasy Player's Tome | 66   | None               | INT             |
 | Thief       | OSE Advanced Fantasy Player's Tome | 74   | None               | DEX             |
 | Friar       | Dolmenwood Player's Book           | 36   | None               | WIS             |
-| Hunter      | Dolmenwood Player's Book           | 40   | CON >= 9, WIS >= 9 | DEX             |
-| Knight      | Dolmenwood Player's Book           | 42   | CON >= 9, DEX >= 9 | STR             |
-| Minstrel    | Dolmenwood Player's Book           | 44   | INT >= 9           | CHA, DEX        |
+| Goatfolk    | Dolmenwood Player's Book           | 38   | DEX >= 9           | INT, STR        |
+| Hunter      | Dolmenwood Player's Book           | 42   | CON >= 9, WIS >= 9 | DEX             |
+| Knight      | Dolmenwood Player's Book           | 44   | CON >= 9, DEX >= 9 | STR             |
+| Minstrel    | Dolmenwood Player's Book           | 46   | INT >= 9           | CHA, DEX        |
 
 Note that **Clerics**, **Illusionists**, and **Magic-Users** belong to
 one of the organisations listed on page 51 of the **Dolmenwood
