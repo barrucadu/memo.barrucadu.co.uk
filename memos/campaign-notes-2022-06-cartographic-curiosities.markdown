@@ -1,13 +1,16 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-10-25
+modified: 2022-11-02
 taxon: games-campaigns
 toc:
 - anchor: pitch
 - anchor: house-rules
-- anchor: factions
-- anchor: hexes-secrets
+- anchor: setting-bible
+  children:
+  - anchor: factions
+  - anchor: secrets
+  - anchor: explored-hexes
 - anchor: resources
 - division: Session notes
 - anchor: session-0
@@ -45,7 +48,7 @@ and that it’s now threatened by some sort of chaos being from the
 unclaimed northlands.  These rural folk, I tell you…
 
 
-House rules
+House Rules
 -----------
 
 ### Character creation
@@ -56,7 +59,7 @@ Roll 4d6 drop lowest, in order.
 
 #### Races
 
-Humans only.
+Humans, and race-as-class Goatfolk, only.
 
 #### Classes
 
@@ -305,8 +308,10 @@ mishap.
     - 4 to 6: Only offal and viscera can be stomached for 1 week, other food is repulsive and provides no sustenance.
 
 
-Factions
---------
+Setting Bible
+-------------
+
+### Factions
 
 *Modified from [d66kobolds](https://d66kobolds.blogspot.com/2021/10/faction-procedures-dolmenwood-example.html) & Wicked Ones.*
 
@@ -330,8 +335,6 @@ Between sessions:
 3. Come up with rumours for the next session
 
 Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
-
-### Factions
 
 #### The Church of the One True God
 
@@ -542,8 +545,43 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
    for miles.  Drune hurry to repair it.
 
 
-Hexes & Secrets
----------------
+### Secrets
+
+[Secrets // Adventure Sites]: campaign-notes-2022-06-cartographic-curiosities.html#adventure-sites
+[Secrets // The Staff of the Apostle]: campaign-notes-2022-06-cartographic-curiosities.html#the-staff-of-the-apostle
+
+#### Adventure Sites
+
+- [1406---The Golden Wood](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
+
+#### The Staff of the Apostle
+
+A day spent doing research in a large library or church archive (eg, Harrowmoor
+Keep, Castle Brackenwold) reveals the following:
+
+- The Staff of the Apostle is a relic in the possession of the church, said to
+  have the power to vanquish demons.
+- It was traditionally used as part of the ritual for burning heretics at the
+  stake, with the evil drawn from them (only if they repented, of course) into
+  the staff, so that their souls would merely go to purgatory and not to hell.
+- But witch burning has fallen out of favour these past 500 years.
+
+Additional research with a suitable scholar or in church archives reveals:
+
+- The staff has been missing for 500 years, and that's why witch burning has
+  died off in Dolmenwood (can't do the proper ritual).
+- The last burning was of all the members, including the high priestess, a woman
+  with shining blue eyes, of a heretical sect which combined church doctrine
+  with pagan beliefs.
+- Most repented, out of fear of eternal damnation, but this high priestess was
+  unrepentent to the very end, saying that her only crime was to worship the
+  Gwyrigons, the three mighty archangels which God had appointed to watch over
+  His creation, and that worshipping the power of God is no sin.
+- (religious player characters don't know of any "three mighty archangels" or
+  "Gwyrigons")
+
+
+### Explored Hexes
 
 - **0906---The Ruined Abbey of St Clewyd** (explored)
 - **0907---Bafflestone** (explored)
@@ -837,7 +875,7 @@ Character descriptions & introductions, then 1407.
     - Divine Scroll of Dispel Evil
 
 - Golden Wood for knobbled mandrake:
-  - [Adventure](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
+  - See [Secrets // Adventure Sites][]
 
 #### Stories in Prigwort
 
@@ -1157,26 +1195,7 @@ Character descriptions & introductions, then 1407.
 
 #### Researching the Staff of the Apostle
 
-- A day spent doing research in a large library or church archive (eg,
-  Harrowmoor Keep, Castle Brackenwold) reveals the following:
-  - The Staff of the Apostle is a relic in the possession of the church, said to
-    have the power to vanquish demons.
-  - It was traditionally used as part of the ritual for burning heretics at the
-    stake, with the evil drawn from them (only if they repented, of course) into
-    the staff, so that their souls would merely go to purgatory and not to hell.
-  - But witch burning has fallen out of favour these past 500 years.
-- Additional research with a suitable scholar or in church archives reveals:
-  - The staff has been missing for 500 years, and that's why witch burning has
-    died off in Dolmenwood (can't do the proper ritual).
-  - The last burning was of all the members, including the high priestess, a
-    woman with shining blue eyes, of a heretical sect which combined church
-    doctrine with pagan beliefs.
-  - Most repented, out of fear of eternal damnation, but this high priestess was
-    unrepentent to the very end, saying that her only crime was to worship the
-    Gwyrigons, the three mighty archangels which God had appointed to watch over
-    His creation, and that worshipping the power of God is no sin.
-  - (religious player characters don't know of any "three mighty archangels" or
-    "Gwyrigons")
+- See [Secrets // The Staff of the Apostle][]
 
 ### Notes
 
