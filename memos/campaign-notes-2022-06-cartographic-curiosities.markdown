@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-11-02
+modified: 2022-11-05
 taxon: games-campaigns
 toc:
 - anchor: pitch
@@ -21,6 +21,7 @@ toc:
 - anchor: session-5
 - anchor: session-6
 - anchor: session-7
+- anchor: session-8
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -340,148 +341,153 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
 
 ##### Resources
 
-- Dozens of specialized clerical and monastic orders, all playing to different
-  strengths.
-- Singular authority over religious business, miracles, obligations, and
-  observances.
-- Close, time-honored ties with the Duchy of Brackenwold and its influence.
+1. Dozens of specialized clerical and monastic orders, all playing to different
+   strengths.
+2. Singular authority over religious business, miracles, obligations, and
+   observances.
+3. Close, time-honored ties with the Duchy of Brackenwold and its influence.
 
 ##### Goals
 
-- `[0/4]` Locate a lost shrine
-- `[2/6]` Secure the Abbey of St Clewyd
-- `[0/8]` Capture a member of the Drune Aegis
+- `[0/4] (2; +C1,2)` Locate a lost shrine
+- `[4/6] (3; +C1,2,3)` Secure the Abbey of St Clewyd
+- `[0/8] (2; +C1,3)` Capture a member of the Drune Aegis
 
 #### The Cold Prince
 
 ##### Resources
 
-- Tremendous, nigh-eternal fairy power through magic, land, and personnel.
-- Deft subtlety and cunning among agents sent far afield to realms and planes.
-- Glamours, trinkets, artifacts, and spells able to tempt mortals.
+1. Tremendous, nigh-eternal fairy power through magic, land, and personnel.
+2. Deft subtlety and cunning among agents sent far afield to realms and planes.
+3. Glamours, trinkets, artifacts, and spells able to tempt mortals.
+4. Trusted mortal agents in Dolmenwood.
 
 ##### Goals
 
-- `[3/4]` Establish a trusted mortal agent in Dolmenwood
-- `[0/6]` Form an alliance with the Lady of Midnight
-- `[0/8]` Locate a new entrance to Dolmenwood
+- `[0/6] (1; +P1,2 -Y2)` Form an alliance with the Lady of Midnight
+- `[0/8] (2; +P1,2,4 -D1)` Locate a new entrance to Dolmenwood
 
 #### The Drune
 
 ##### Resources
 
-- Unparalleled access to potent arcane knowledge and ancient rites.
-- Their mere name and rumored presence frightens the rest of the Wood.
-- Enslaved godlings, spirits, and ghosts who enact their will.
+1. Unparalleled access to potent arcane knowledge and ancient rites.
+2. Their mere name and rumored presence frightens the rest of the Wood.
+3. Enslaved godlings, spirits, and ghosts who enact their will.
 
 ##### Goals
 
-- `[0/6]` Establish an embassy with the Witches
-- `[0/6]` Locate the unlawful nodal in Chateau Mauvesse
-- `[1/8]` Reawaken Gheillough
+- `[0/6] (1; +D1)` Establish an embassy with the Witches
+- `[0/6] (1; +D1,3 -Y1)` Locate the unlawful nodal in Chateau Mauvesse
+- `[1/8] (1; +D1,3 -A2)` Reawaken Gheillough
 
 #### Duke Thespian III
 
 ##### Resources
 
-- Ease of resupply and support from the extended human kingdom across the
-  Tithelands.
-- Quickly-rallied knights, men-at-arms, and specialty personnel from vassals.
-- Largest concentration of wealth and natural goods in the Wood.
+1. Ease of resupply and support from the extended human kingdom across the
+   Tithelands.
+2. Quickly-rallied knights, men-at-arms, and specialty personnel from vassals.
+3. Largest concentration of wealth and natural goods in the Wood.
+4. Order of the Wood, a military order tasked with vanquishing the forces of
+   chaos.
 
 ##### Goals
 
-- `[0/4]` Send an envoy to treat with Ygraine and discuss "the oubliette"
-- `[2/4]` Establish a military / religious force to assault the Nagwood
-- `[0/6]` Root out isolated Drune cottagers
+- `[0/4 (1; +T3)]` Send an envoy to treat with Ygraine and discuss "the
+  oubliette"
+- `[0/6 (2; +T2,3,4 -D2)]` Root out isolated Drune cottagers
+- `[0/6 (1; +T3,4 -A3)]` Control a hex of the Nagwood
 
 #### Lord Gryphius Malbleat
 
 ##### Resources
 
-- Alchemists, minor sorcerers, and an extensive occult library.
-- Influence over regional Church officers.
-- Trade authority over the main arteries of the High Wold.
+1. Alchemists, minor sorcerers, and an extensive occult library.
+2. Influence over regional Church officers.
+3. Trade authority over the main arteries of the High Wold.
 
 ##### Goals
 
-- `[0/4]` Steal ancient books of lore from Harrowmoor Keep
-- `[0/6]` Tap into a local stone circle to spy on the Nag Lord using old arcana
-- `[0/8]` Assasinate Lord Simeone Murkin at Kolstoke Keep and frame Ramius
+- `[2/4] (1; +M1)` Steal ancient books of lore from Harrowmoor Keep
+- `[0/6] (1; +M1,2 -A2)` Tap into a local stone circle to spy on the Nag Lord
+  using old arcana
+- `[0/8] (1; +M1)` Assasinate Lord Simeone Murkin at Kolstoke Keep and frame
+  Ramius
 
 #### Lord Shadgore Ramius
 
 ##### Resources
 
-- A standing army rivaled only by the Duke.
-- Knowledgable hunters and loremasters in the High Wold.
-- Large political clout within and without the Wood.
+1. A standing army rivaled only by the Duke.
+2. Knowledgable hunters and loremasters in the High Wold.
+3. Large political clout within and without the Wood.
 
 ##### Goals
 
-- `[0/4]` Host a seasonal retreat for the Duke and other high nobles to curry
-  favor.
-- `[0/6]` Cultivate programs to improve Lankshorn under his name.
-- `[1/8]` Topple one of the Summerstones and frame Malbleat.
+- `[0/4] (2; +R2,3)` Host a seasonal retreat for the Duke and other high nobles
+  to curry favor
+- `[0/6] (1; +R3)` Cultivate programs to improve Lankshorn under his name.
+- `[4/8] (2; +R1,2)` Topple one of the Summerstones and frame Malbleat.
 
 #### Other Lesser Noble Houses
 
 ##### Resources
 
-- Local autonomy with regional support from Brackenwold.
-- Tightly-knit communities formed around local keeps and hamlets.
-- The ear and respect of the common man in their purview.
+1. Local autonomy with regional support from Brackenwold.
+2. Tightly-knit communities formed around local keeps and hamlets.
+3. The ear and respect of the common man in their purview.
 
 ##### Goals
 
-- `[1/4]` (Lady Theatrice Harrowmoor) Construct palisades against the
-  encroaching Nagwood
-- `[0/6]` (Lord Edwin Guillefer) Establish public market trade with the Goblin
-  King in Fairy
-- `[0/8]` (Lord Simeone Murkin) Kill Lord Harald Nodlock and conquer House
+- `[1/4] (2; +N1 +T4)` (Lady Theatrice Harrowmoor) Construct palisades against
+  the encroaching Nagwood
+- `[1/6] (1; +N3)` (Lord Edwin Guillefer) Establish public market trade with the
+  Goblin King in Fairy
+- `[0/8] (0)` (Lord Simeone Murkin) Kill Lord Harald Nodlock and conquer House
   Nodlock
 
 #### The Nag Lord, Atanuwë
 
 ##### Resources
 
-- Depraved, but skillful, servitors in all population centers.
-- Subtle control (and corruption) of the magic of the Wood.
-- Large cadres of twisted goatfolk, the crookhorns.
+1. Depraved, but skillful, servitors in all population centers.
+2. Subtle control (and corruption) of the magic of the Wood.
+3. Large cadres of twisted goatfolk, the crookhorns.
 
 ##### Goals
 
-- `[1/6]` Sire a new atacorn
-- `[0/6]` Steal relics of the saints
-- `[0/8]` Murder and reanimate a high-ranking priest of the Church
+- `[2/6] (1 +A1)` Sire a new atacorn
+- `[0/6] (0; +A1,3 -C1 -T4)` Steal relics of the saints
+- `[0/8] (1; +A1,2,3 -C1 -T4)` Murder and reanimate a high-ranking priest of the Church
 
 #### The Witches
 
 ##### Resources
 
-- The oldest magic in the Wood.
-- Contact with other planes of existence.
-- Eyes and ears everywhere.
+1. The oldest magic in the Wood.
+2. Contact with other planes of existence.
+3. Eyes and ears everywhere.
 
 ##### Goals
 
-- `[0/6]` Alliance with House Guillefer
-- `[0/6]` Kidnap a potential Hoaghryn
-- `[2/8]` Locate the second Mirror of Embala
+- `[0/6] (1; +W2)` Alliance with House Guillefer
+- `[0/6] (2; +W2,3)` Kidnap a potential Hoaghryn
+- `[3/8] (2; +W1,3)` Locate the second Mirror of Embala
 
-#### The Sorceress
+#### The Sorceress, Ygraine
 
 ##### Resources
 
-- Arcana and knowledge from the witches (learned) and Drune (stolen).
-- Frequent contact with the nobility of Fairy.
-- Sole access to Phandwryl, the hidden fifth nodal stone of the ley line, Ywyr.
+1. Arcana and knowledge from the witches (learned) and Drune (stolen).
+2. Frequent contact with the nobility of Fairy.
+3. Sole access to Phandwryl, the hidden fifth nodal stone of the ley line, Ywyr.
 
 ##### Goals
 
-- `[0/4]` Repair friendship with the Duke Who Cherishes Dreams
-- `[2/6]` Learn the location of Lord Hobbled-and-Blackened
-- `[0/8]` Learn how to root Meagre's Reach in the present day
+- `[0/4] (1; +Y2)` Repair friendship with the Duke Who Cherishes Dreams
+- `[4/6] (3; +Y1,2,3)` Learn the location of Lord Hobbled-and-Blackened
+- `[0/8] (2; +Y1,3)` Learn how to root Meagre's Reach in the present day
 
 ### Random Events
 
@@ -552,7 +558,23 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
 
 #### Adventure Sites
 
-- [1406---The Golden Wood](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
+- **1108---Louper's Luncheon:**
+  - Burial mound of Sir Chyde (Winter's Daughter)
+- **1207---Crystal Caves around Fog Lake:**
+  - The Incandescent Grottoes:
+    - Monkeys are Sprites
+    - Kobolds are Scrabeys
+    - Troglodytes are Goblins
+    - Dragon is a Phlegm Wyrm called Slibinas
+    - Necromancer is a member of the Drune Aegis (stats as Audrune) called
+      Celleddach
+      - He's looking for the Gelatinous Grimoire
+      - He has four brigands (OSE), armed with spears, with him
+      - He is hiring the goblins to guard the stairs down
+      - The men and the goblins only call Celleddach "Master"
+    - Rotting Corpse in area 27 is a human ducal knight
+- **1406---The Golden Wood:**
+  - [Pointcrawl](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
 
 #### The Staff of the Apostle
 
@@ -599,8 +621,11 @@ Additional research with a suitable scholar or in church archives reveals:
   - Shrine to St Horace
 - **1205---Gorthstone** (explored)
 - **1206---The Baker's Dozen** (explored)
+- **1304---The Hall of Sleep** (explored)
 - **1306---The Dung Heap and The Grey Monolith** (explored)
 - **1307---The Refuge of St Keye** (explored)
+- **1403---Odd and the War of the Sprites** (explored)
+- **1404---The Merrovore and the Glaring Pylon** (explored)
 - **1406---The Golden Wood**
   - Knobbled mandrake
 - **1407---The Wenchgate**
@@ -1362,6 +1387,109 @@ Character descriptions & introductions, then 1407.
 - 20 Iggwyld
 - In 1204
 - 150 exploration XP
+
+
+2022-11-05 --- Session 8
+------------------------
+
+### Intro
+
+### State
+
+- 20 Iggwyld (morning): roll weather
+- At The Breath of the Kelpie
+- Upcoming:
+  - 24 Iggwyld: pay retainers
+  - 3 Chysting: renew room at the Clashed Antler
+- 150 exploration XP
+
+### Prep
+
+#### Rumours
+
+- The Order of St Signis has set up a camp at the ruined Abbey of St Clewyd.
+- The Duke and the Church have founded a new military order, the Order of the
+  Wood, to oppose the forces of chaos.  The Order is preparing to attack the
+  crookhorns who have settled in the centre-north of the Wood, the region
+  supposedly under the control of the mythical Nag Lord.
+
+#### The Cold Prince's Mortal Agent
+
+- Wymond Browne
+- A well-dressed fat little man, wearing pince-nez glasses which he keeps
+  fiddling with, middle-aged, red in the face and very sweaty.  He speaks with a
+  fake-sounding posh accent, occasionally a bit of common accent slips out.
+  Every few minutes he dabs his face with a purple handkerchief.
+- Has tracked down the fairy gems to the Clashed Antler, and is waiting there
+  for the party (i.e., whoever comes to visit that room)
+  - He arrived on 20 Iggwyld, which Blino or Sespetra can tell the party
+- Approaches the party, asking for news from out of town:
+  - Says he's "a historian, a folklorist, an antiquarian, a lover of all things
+    old, musty, fusty, and dusty"
+  - Turns the conversation to the Drune, insinuates they're bad; then turns the
+    conversation to the Frost Elves, insinuates they're misunderstood.
+  - Carefully, but not very subtly, watching everyone's reactions.
+  - If directly confronted, says "Well, we don't really know what the Frost
+    Elves were like, do we?  All we have are old stories which make out the
+    Drune, of all people, to be the heroes of the day.  I am interested in the
+    truth."
+  - If he thinks the party may be swayable to the Cold Prince (or at least,
+    against the Drune), says he's interested in the comings and goings of the
+    Drune, slides across a fancy-looking silver coin (10gp), and says he can be
+    found at Raptappen's Quadrant, and leaves.
+
+#### Fog Lake
+
+- See [Secrets // Adventure Sites][]
+
+### Notes
+
+- 20 Iggwyld: brisk, clear
+  - **1204---The Breath of the Kelpie**
+  - **1304---The Hall of Sleep:**
+    - Explore (don't approach the Hall of Sleep)
+  - **1403---Odd and the War of the Sprites:**
+    - Meet the black sprites
+    - Get two different town names from two different people
+    - Talk to Philontimus the Wizened:
+      - The Triple Compact
+      - The Ring of Chell
+      - Can be hired for 2000gp/month to do research
+    - Examine the statue of St Hamfast
+    - Peruse furs in the lodge
+    - At night:
+      - Woken by the church door creaking open
+      - See green light inside
+      - Creep up to the church:
+        - See three Drune + Broobe Dogoode
+        - See it's is just a shell constructed around a standing stone (less
+          impressive than the nodal stones)
+        - On Drune extracting a green goo from the stone
+      - Drune and Broobe walk the perimeter of the village, dripping slime:
+        - Drune say they'll return next full moon, and leave
+      - Confront Broobe:
+        - The Drune say they do this to protect the village
+        - He was told about this, and sworn into secrecy, by the previous
+          Headman
+        - As far as he knows, this has been going on for centuries
+        - He doesn't know if the Drune are telling the truth, and suspects their
+          motives, but doesn't want to risk endangering the village.
+      - Go examine the church with Broobe (handle as flashback)
+
+- 21 Iggwyld: clement, cheery
+  - **1403---Odd and the War of the Sprites**
+  - **1404---The Merrovore and the Glaring Pylon:**
+    - Escape the Merrovore
+    - Explore
+    - Find the Merrovore's lair (but don't examine the pool)
+    - Find the pylon (but only see it from ground-level)
+
+### Next time
+
+- Flashback to examining the church with Broobe
+- 21 Iggwyld: clement, cheery
+- In 1404
+- Noon
 
 
 2022-MM-DD --- Session N
