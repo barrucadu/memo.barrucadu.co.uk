@@ -1,20 +1,25 @@
 ---
 title: Wicked Ones (2022-09 to ?) notes
 published: 2022-09-11
-modified: 2022-10-23
+modified: 2022-11-06
 taxon: games-campaigns
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
 
 
-Dungeon Invasions
------------------
+Major Invasions
+---------------
 
-1. **Session 2, Major:**
+1. **Session 2:**
    - Tier 1 Barbarian
    - Tier 1 Bard
    - Locksmith
+
+2. **Session 7:**
+   - Tier 2 Assassin
+   - Tier 2 Cleric
+   - Tier 2 Centurion
 
 
 2022-09-11 --- Session 0 / 1
@@ -329,7 +334,7 @@ Dungeon Invasions
 
 - **Lurking:**
   - Finish tavern
-  - Trava recruits mroe minions
+  - Trava recruits more minions
 
 - **Calamity:**
   - Roll a minor calamity
@@ -340,6 +345,46 @@ Dungeon Invasions
 - Flesh out Trava's new minions
 - XP: new calling abilities for Trava and Moordred
 - Decide on step 3 of the Master Plan
+
+
+2022-11-06 --- Session 7
+------------------------
+
+### Intro
+
+- Session recap
+- Flesh out Trava's new minions
+- New calling abilities for Trava and Moordred
+- Master Plan step 3
+
+### State
+
+- Calamity
+  - Just skip it and have a major invasion
+- Sworn fealty to Dusksiege
+
+### Notes
+
+- **Calamity:**
+  - Kill the Assassin and Cleric, capture the Centurion
+
+- **Raiding:**
+  - Negotiate a joint raid on The Faithful Few (pillaging raid for The Gathering)
+
+- **Blowback:**
+  - Get blown off course, -1d on next downtime actions
+
+- **Lurking:**
+  - Expand the dungeon a bit
+
+- **Calamity:**
+  - Imps dig a tunnel connecting the new guard post to the sanctum stairs,
+    bypassing all the current defenses
+
+### Next time
+
+- Raiding
+- XP (forgot to do it this time)
 
 
 2022-MM-DD --- Session N
