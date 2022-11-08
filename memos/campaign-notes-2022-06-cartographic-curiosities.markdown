@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-11-05
+modified: 2022-11-08
 taxon: games-campaigns
 toc:
 - anchor: pitch
@@ -162,64 +162,14 @@ only the rules which directly affect players.
   - Smoking
   - Camping
 
+### Hit Die is Damage Die
+
+PCs roll their hit die to determine damage, instead of 1d6.  Damage of melee
+attacks is still modified by STR.
+
 ### Hit Points
 
 When you level up, take the maximum.
-
-### Death and Dismemberment
-
-If a hit takes you to 0 HP or below, fall unconscious and roll 1d6 and 1d12 + |HP after hit|:
-
-|     | 1 Arm | 2 Leg | 3, 4 Torso | 5, 6 Head |
-|-|-|-|-|-|
-| 1+  | Arm disabled | Leg disabled | Blood Loss | Concussed |
-| 11+ | Save vs Death: arm mangled on pass | Save vs Death: leg mangled on pass | Save vs Death: crushed on pass | Save vs Death: skullcracked on pass |
-| 16+ | Dead | Dead | Dead | Dead |
-
-#### Arm / Leg Disabled
-
-For the rest of the day: limb unusable.
-
-#### Blood Loss
-
-For the rest of the day: max HP reduced by your level.
-
-#### Concussed
-
-For the rest of the day: act last in a combat round.
-
-#### Arm / Leg Mangled
-
-Save vs Death:
-
-- Pass: lose a finger / toe.
-- Fail: limb is hacked off.
-
-#### Crushed
-
-Save vs Death:
-
-- Pass: get a cool scar.
-- Fail: roll 1d6:
-  1. Lose 1 STR
-  2. Lose 1 DEX
-  3. Lose 1 CON
-  4. Crushed throat: cannot speak louder than a whisper
-  5. Crushed ribs: must save to hold breath
-  6. Broken spine: make a CON check after 1d6 days and again after 1d6 weeks on failure, if both fail, this is permanent
-  
-#### Skullcracked
-
-Save vs Death:
-
-- Pass: get a cool scar.
-- Fail: roll 1d6:
-  1. Lose 1 INT
-  2. Lose 1 WIS
-  3. Lose 1 CHA
-  4. Lose an eye: -1 to ranged attacks
-  5. Lose an eye: -1 to ranged attacks
-  6. Coma: make a CON check after 1d6 days and again after 1d6 weeks on failure, if both fail, this is permanent
 
 ### Shields
 
