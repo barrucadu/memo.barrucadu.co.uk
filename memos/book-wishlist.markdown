@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-11-07
+modified: 2022-11-08
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -18,8 +18,7 @@ Book Series
 | [The Kharkanas Trilogy][]                   |                 | Walk in Shadow                                |
 | [Overlord][]                                | `9781975360566` | Volume 15: The Half Wood Elf God-kin (Part 1) |
 |                                             |                 | Volume 16: The Half Wood Elf God-kin (Part 2) |
-| [So I'm a Spider, So What?][]               | `9781975352165` | Volume 15                                     |
-|                                             |                 | Volume 16                                     |
+| [So I'm a Spider, So What?][]               |                 | Volume 16                                     |
 | [The Solar Cycle][]                         | `9780312872915` | Litany of the Long Sun                        |
 |                                             | `9780312860721` | Epiphany of the Long Sun                      |
 |                                             | `9780312872571` | On Blue's Waters                              |
