@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-11-08
+modified: 2022-11-10
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -132,6 +132,7 @@ Miscellaneous Fiction
 
 | ISBN            | Title                                       | Author             |
 |----------------:+---------------------------------------------+--------------------|
+| `9780765387424` | The Witness for the Dead                    | Katherine Addison  |
 | `9781447263401` | Last Days                                   | Adam Nevill        |
 | `9780765318145` | Anvil of Stars                              | Greg Bear          |
 | `9780586217467` | The Mote in God's Eye                       | Larry Niven        |
