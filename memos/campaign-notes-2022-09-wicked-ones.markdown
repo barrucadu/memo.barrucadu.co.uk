@@ -1,7 +1,7 @@
 ---
 title: Wicked Ones (2022-09 to ?) notes
 published: 2022-09-11
-modified: 2022-11-06
+modified: 2022-11-13
 taxon: games-campaigns
 ---
 
@@ -20,6 +20,12 @@ Major Invasions
    - Tier 2 Assassin
    - Tier 2 Cleric
    - Tier 2 Centurion
+
+3. **Session 8: The Faithful Few Special Attack**
+   - Tier 4 Templar
+   - Tier 4 Mage Hunter
+   - Tier 2 Monk
+   - Tier 2 Monk
 
 
 2022-09-11 --- Session 0 / 1
@@ -385,6 +391,54 @@ Major Invasions
 
 - Raiding
 - XP (forgot to do it this time)
+
+
+2022-11-13 --- Session 8
+------------------------
+
+### Intro
+
+- Session recap
+- XP!
+
+### State
+
+- Raiding
+- Sworn fealty to Dusksiege
+  - They will demand slaves
+- The Faithful Few completed their "Invade Dungeon" goal: immediate major
+  invasion!
+- Wizard's Lighthouse have 1 Secret: spend for them to be uncannily prepared for
+  something the PCs do against them.
+
+### Notes
+
+- **Faithful Few attack:**
+  - Kill Templar, Mage Hunter, 1 Monk.  1 Monk escapes.
+  - Trava taken out (but not killed)
+  - Moorded's minion killed
+
+- **Raiding:**
+  - Dusksiege demand slaves
+  - Strike on the Madcap Marauders, capture a bunch of them
+
+- **Blowback:**
+  - Pin the blame on Dusksiege
+  - Complete Madcap Marauders: Summon Wood Spirit clock
+
+- **Lurking:**
+  - Moordred recruits minions
+  - Tier 1 creature lair filled
+  - Finish projects
+
+- **Calamity:**
+  - Major!
+
+### Next time
+
+- Calamity, major
+- Raid on the Faithful Few with the Gathering
+- Refresh faction goals
 
 
 2022-MM-DD --- Session N
