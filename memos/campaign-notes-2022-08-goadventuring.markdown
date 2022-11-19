@@ -1,11 +1,11 @@
 ---
-title: GoAdventuring (2022-08 to ?) notes
+title: GoAdventuring (2022-08 to 2022-10) notes
 published: 2022-08-16
-modified: 2022-11-03
+modified: 2022-11-19
 taxon: games-campaigns
 ---
 
-<aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+<aside class="highlight">This campaign is paused and may be dropped.</aside>
 
 
 Overview
@@ -475,36 +475,3 @@ Brackenwold looking for a suitably chivalrous knightly task to make his name).
 
 - Drune cottage
 - Level up Carmen and Gratrix
-
-
-2022-11-15 --- 2: The Drune and the Elf
----------------------------------------
-
-### Intro
-
-- Session recap
-
-### State
-
-- Carmen and Gratrix need to level up
-- In 1406, evening
-
-### Prep
-
-- **Azeria:**
-  - Will uphold the bargain, she's not trying to trick the PCs
-- **Majorus:**
-  - Is unwilling to leave, but could be convinced, eg:
-    - If they take him with them
-    - If they agree to subject themselves to questioning after the mission
-    - If they beat him up sufficiently to prove they could just kill him if need
-      be
-  - Knows that Azeria is truthful, and that plus a description of the contract
-    signing will convince him there is a genuine elf situation
-  - Wants to capture the PCs and hand them over to the Aegis for questioning
-- **Lady Misthraine:**
-  - Is as described
-
-### Notes
-
-### Next time
