@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-11-08
+modified: 2022-11-19
 taxon: games-campaigns
 toc:
 - anchor: pitch
@@ -11,6 +11,7 @@ toc:
   - anchor: factions
   - anchor: secrets
   - anchor: explored-hexes
+  - anchor: retainers
 - anchor: resources
 - division: Session notes
 - anchor: session-0
@@ -22,6 +23,7 @@ toc:
 - anchor: session-6
 - anchor: session-7
 - anchor: session-8
+- anchor: session-9
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -266,7 +268,7 @@ Setting Bible
 
 *Modified from [d66kobolds](https://d66kobolds.blogspot.com/2021/10/faction-procedures-dolmenwood-example.html) & Wicked Ones.*
 
-Between sessions:
+Between sessions, no more than once every game-week:
 
 1. For each faction, pick one goal:
    1. Make a fortune roll with:
@@ -503,8 +505,15 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
 
 ### Secrets
 
+[Secrets // Magic Items]: campaign-notes-2022-06-cartographic-curiosities.html#magic-items
 [Secrets // Adventure Sites]: campaign-notes-2022-06-cartographic-curiosities.html#adventure-sites
 [Secrets // The Staff of the Apostle]: campaign-notes-2022-06-cartographic-curiosities.html#the-staff-of-the-apostle
+
+#### Magic Items
+
+- **Sword of Sir Chyde:** (power unknown)
+  - +2 to hit and damage vs fairies
+  - Glows in the presence of fairies
 
 #### Adventure Sites
 
@@ -525,6 +534,39 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
     - Rotting Corpse in area 27 is a human ducal knight
 - **1406---The Golden Wood:**
   - [Pointcrawl](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
+- **????:**
+  - Tomb of the Serpent Kings:
+    - Map uses 10' squares
+    - Multiply all gold and value by 10
+    - Reskin as goatfolk
+    - Rooms:
+      - **7: False Temple:** statue is a great coiled serpent / dragon
+        (Gheillough)
+      - **15: Priest Room:** idol is a humanoid bear-like creature made of black
+        stone with small amber gemstones for eyes and teeth (Orsath)
+      - **18: Stairs:** carvings show goatfolk in a variety of everyday
+        activities: speaking, teaching, farming, fighting, etc
+      - **29: Treasure Room:** contains a Type B treasure hoard and the Onyx
+        Mirror of Embala (DCB p294---restock hex 1103 with something else)
+      - **32: Summoning Room:** special snake door key is a longhorn goatman
+      - **33: Shrine Alcove:** statue is of a tall humanoid with the head and
+        antlers of a stag (Howawi), in his right hand a bow (turning to the
+        right trips the poison gas), in his left hand a deer corpse with arrow
+        protruding (turning to the left trips the gold)
+      - **42: Cylinder Door:** remove trap, it's just a big noisy door you can't
+        listen at
+      - **46: Throne Room:** special snake door keys are longhorn goatmen
+    - Monster Stats:
+      - **Black Pudding:** as Black Pudding (OSE:AF p26)
+      - **Mummy Fragments:** as Cave Locust (OSE:AF p31) without Shriek or Spit
+      - **Stone Cobra Guardian:** as Rock Living Statue (OSE:AF p77) with 30hp
+        and attacks as described
+      - **Succubus (Baltoplat):** as Rakshasa (OSE:AF p97)
+      - **Skeletons:** as Skeleton (OSE:AF p105)
+      - **Skeleton Jellies:** as described
+      - **Fungus Goblins:** as Goblin (DMB p48)
+      - **Xiximanter:** as Lich (OSE:AF p79)
+      - **Basilisk:** as Basilisk (OSE:AF p23)
 
 #### The Staff of the Apostle
 
@@ -555,30 +597,43 @@ Additional research with a suitable scholar or in church archives reveals:
 
 ### Explored Hexes
 
+- **0505---Hoarblight Keep and the Isle of Yeth**
+- **0710---Lankshorn and the Animal Orchestra**
+- **0711---King Pusskin's Road** (explored)
 - **0906---The Ruined Abbey of St Clewyd** (explored)
 - **0907---Bafflestone** (explored)
 - **1005---Shub's Finger and Stirge Isle** (explored)
-  - Shrine of St Hollyhock
 - **1006---The Witch Glade** (explored)
 - **1007---The Tower of Frost** (explored)
 - **1105---Harrowmoor Keep** (explored)
 - **1106---Prigwort** (explored)
 - **1107---The Wyrm Cave** (explored)
-  - Chaosbrithe's Cave
 - **1108---Louper's Luncheon** (explored)
-  - Cave mouth
 - **1204---The Breath of the Kelpie** (explored)
-  - Shrine to St Horace
 - **1205---Gorthstone** (explored)
 - **1206---The Baker's Dozen** (explored)
 - **1304---The Hall of Sleep** (explored)
+- **1305---The Ravine of the Stag Lord** (explored)
 - **1306---The Dung Heap and The Grey Monolith** (explored)
 - **1307---The Refuge of St Keye** (explored)
 - **1403---Odd and the War of the Sprites** (explored)
 - **1404---The Merrovore and the Glaring Pylon** (explored)
 - **1406---The Golden Wood**
-  - Knobbled mandrake
 - **1407---The Wenchgate**
+
+
+### Retainers
+
+**Treasure:** 3600gp
+
+All retainers have a single pool of coins, day-to-day income and expenses are
+ignored and don't affect its balance.  But additional purchases, like new
+equipment, do come out of the pool.
+
+- **When treasure is received:** convert to coins, discard anything below 1gp.
+- **When treasure is spent:** round up to the next gp.
+- **Every month:** subtract 10%.
+- **If a retainer leaves:** subtract an equal portion.
 
 
 Resources
@@ -1344,6 +1399,8 @@ Character descriptions & introductions, then 1407.
 
 ### Intro
 
+- Session recap
+
 ### State
 
 - 20 Iggwyld (morning): roll weather
@@ -1394,6 +1451,8 @@ Character descriptions & introductions, then 1407.
 
 ### Notes
 
+- Discussed damage dice, decided to adopt "Hit Die is Damage Die" rule
+
 - 20 Iggwyld: brisk, clear
   - **1204---The Breath of the Kelpie**
   - **1304---The Hall of Sleep:**
@@ -1440,6 +1499,77 @@ Character descriptions & introductions, then 1407.
 - 21 Iggwyld: clement, cheery
 - In 1404
 - Noon
+
+
+2022-11-19 --- Session 9
+------------------------
+
+### Intro
+
+- Session recap
+
+### State
+
+- 21 Iggwyld (noon): clement, cheery
+- In 1404
+  - Lillibeth (absent last session) hears the distant moaning of the dead
+- Upcoming:
+  - 24 Iggwyld: pay retainers
+  - 3 Chysting: renew room at the Clashed Antler
+- Flashback to examining the church of Odd with Broobe in the middle of the
+  night of 20 Iggwyld
+
+### Prep
+
+- Put Tomb of the Serpent Kings (see [Secrets // Adventure Sites][]) somewhere
+
+### Notes
+
+- **Flashback:**
+  - Lillibeth copies down Speak With Dead from the Orbstone
+
+- 21 Iggwyld (noon): clement, cheery
+  - **1305---The Ravine of the Stag Lord:**
+    - Explore (100xp)
+    - Ravine:
+      - Molly and Paulo perceive its holiness
+      - Paulo touches the water and paralyses his hand until 24 Iggwyld
+      - Molly fills a waterskin with the water
+        - The water is mundane (just pure and refreshing), it's the pool itself
+          that is magical
+    - Willow Gate:
+      - Carefully test with Arfred
+      - Go through
+
+- **Skipping-a-Derry:**
+  - Defeat Cmbrogh
+  - See the crossroads to Whyforth (do not go)
+  - Emerge after 1 day (50xp)
+
+- 22 Iggwyld: clement, cheery
+  - **0711---King Pusskin's Road:**
+    - Explore (200xp)
+    - Leave an offering
+  - **0710---Lankshorn and the Animal Orchestra:**
+    - See the orchestra
+    - Go to town (+350xp each)
+    - Arfred leaves Sir Chyde's sword with the blacksmith until 29 Iggwyld to be
+      identified (paid 100gp, owes 100gp)
+    - Molly visits the church, and then sees an old woman being fleeced by Lord
+      Malbleat's guards: learn that Lord Malbleat is a cruel ruler
+    - Lillibeth visits the standing stones, and gets sent to the Isle of Yeth (0505)
+  - **0505---Hoarblight Keep and the Isle of Yeth:**
+    - Lillibeth explores the isle, sees no easy way off, and is then captured by
+      5 Drune who somehow arrived
+
+### Next time
+
+- 22 Iggwyld: clement, cheery
+- Party in 0710
+- Lillibeth in 0505
+  - The Drune
+  - Hoarblight Keep
+- Late evening
 
 
 2022-MM-DD --- Session N
