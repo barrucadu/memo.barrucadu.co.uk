@@ -1,11 +1,11 @@
 ---
-title: Wicked Ones (2022-09 to ?) notes
+title: Wicked Ones (2022-09 to 2022-11) notes
 published: 2022-09-11
-modified: 2022-11-13
+modified: 2022-11-20
 taxon: games-campaigns
 ---
 
-<aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+<aside class="highlight">This campaign has ended.</aside>
 
 
 Major Invasions
@@ -26,6 +26,14 @@ Major Invasions
    - Tier 4 Mage Hunter
    - Tier 2 Monk
    - Tier 2 Monk
+
+4. **Session 9: The Faithful Few Special Attack**
+   - Tier 2 Templar (2 moves)
+   - Tier 2 Knight (1 move)
+   - Tier 2 Knight (1 move)
+   - Tier 2 Knight (1 move)
+   - Tier 2 Mage Hunter (1 move)
+   - Tier 2 Assassin (1 move)
 
 
 2022-09-11 --- Session 0 / 1
@@ -441,13 +449,76 @@ Major Invasions
 - Refresh faction goals
 
 
-2022-MM-DD --- Session N
+2022-11-20 --- Session 9
 ------------------------
 
 ### Intro
 
+- Session recap
+
 ### State
+
+- Raiding: The Gathering calls in a favour and says it's time to attack The
+  Faithful Few
+
+### Prep
+
+- Raid on The Faithful Few
+  - Far less well defended than expected, as if most of the people are
+    elsewhere...
+  - Major Calamity: dungeon gets attacked
+    - Return home in time to fight the adventurers making off with -tier worth
+      of loot
+  - Clock: Gathering gets attacked (-tier)
+
+- **Faithful Few Complex:**
+  - Room 1---Entrance and Guardian:
+    - A basilisk's cave with a secret door at the end.
+    - Basilisk: 2 hearts, stronger attack, 2 moves, petrifying glance
+    - The basilisk is chained to the wall, there are parts of the cave it can't
+      easily reach
+    - The secret door only opens to members of the Faithful Few, but The
+      Gathering can provide a severed hand to use as a key.
+  - Room 2---Puzzle or Roleplaying Challenge:
+    - Floor is removable tiles on top of spikes
+    - One tile is missing with the spikes visible
+    - Narrow safe rim around the walls
+    - Compel Trava: there's probably stuff on the corpses down there...
+  - Room 3---Trick or Setback:
+    - Hallways and corridors of the temple proper, tier 1--3 adventurers rushing
+      to and fro
+    - Attracting attention will bring 2 tier 3 adventurers per wicked one
+    - Compel Moordred: just start busting heads, stealth is for losers
+  - Room 4---Climax, Big Battle, or Conflict:
+    - Control mechanism for the forcefield
+    - Big stained-glass windows
+    - Mechanism: 4 hearts, controls environment, 3 moves
+    - Compel Slikidlorbin: this thing's pretty neat, I'm sure taking some time
+      to study it would be fine...
+  - Room 5---Escape!
+    - Either back the way the players came, or through the courtyard and over
+      the wall in the chaos
+
+- **Attack on Flankswept:**
+  - See major invasions
+  - Arrive to see adventurers loading 1 tier worth of loot onto horses
 
 ### Notes
 
-### Next time
+- **Raiding:**
+  - Get pretty beaten up: Trava knocked out
+  - Objective achieved
+
+- **Blowback:**
+  - Major blowback!  Give all adventurers in the special force a full 3 moves.
+
+- **Faithful Few Special Raid!**
+  - Everyone goes feral!
+  - Trava dead
+  - Moordred dead
+  - Slikidlorbin escaped
+
+- **Epilogue:**
+  - Slikidlorbin's the matriarch of a respectable kobold kingdom, the doors to
+    her dungeon flanked by two great statues: one of a minotaur, one of a
+    bugbear.
