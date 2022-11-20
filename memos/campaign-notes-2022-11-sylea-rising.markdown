@@ -1,7 +1,7 @@
 ---
-title: Sylea Rising (2023-03 to ?) notes
+title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
-published: 2023-03-05
+published: 2022-11-27
 draft: true
 toc:
 - anchor: overview
@@ -65,7 +65,7 @@ High-level points about the campaign (eg, system, setting, session 0) go here.
 Every in-game month:
 
 - `2d3-1` more worlds join the Sylean Federation
-- Make a [faction turn](campaign-notes-2023-03-sylea-rising.html#factions)
+- Make a [faction turn](campaign-notes-2022-11-sylea-rising.html#factions)
 
 Players hear of any developments close to the start of the session: newspapers,
 TV or radio broadcasts, overheard talk, etc.
@@ -85,9 +85,9 @@ remove this section.
 Setting Bible
 -------------
 
-![Ukan Sector, year -1](campaign-notes-2023-03-sylea-rising/poster.png)
+![Ukan Sector, year -1](campaign-notes-2022-11-sylea-rising/poster.png)
 
-- [Sector data](campaign-notes-2023-03-sylea-rising/sector-data.txt)
+- [Sector data](campaign-notes-2022-11-sylea-rising/sector-data.txt)
   - Based on Core (M0)
   - Remove all allegiance codes (the borders show that)
   - Government types:
@@ -97,7 +97,7 @@ Setting Bible
     - Chanestin Kingdom: Keshi is B
   - Add bases to border systems
   - Add Kala Station at 2230
-- [Metadata](campaign-notes-2023-03-sylea-rising/metadata.xml)
+- [Metadata](campaign-notes-2022-11-sylea-rising/metadata.xml)
   - Based on Core (M0)
   - Names:
     - Rename sector to Ukan
@@ -346,7 +346,7 @@ Resources
 Links to things.
 
 
-2023-03-05 --- Session 0
+2022-11-27 --- Session 0
 ------------------------
 
 ### Prep
