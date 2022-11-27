@@ -1,0 +1,602 @@
+Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] N B Z PBG W A  Stellar
+---- -------------------- --------- ---------------------------- ---- ---- ---- - - - --- - -- --------------
+0101 Gakhir               ?734???-? Unsurveyed                                  - - - 803   -- M2 V K4 V
+0110 Duush                ?798???-? Unsurveyed                                  - - - 803   -- F7 V
+0201 Shakha A             ?000???-? Unsurveyed                                  - - - 603   -- G3 V M0 V
+0203 Shuuma               ?300???-? Unsurveyed                                  - - - 022   -- K1 III D
+0205 Aankanes             ?ACA???-? Unsurveyed                                  - - - 603   -- K8 V M1 V
+0206 Ginnii               ?9A8???-? Unsurveyed                                  - - - 801   -- M2 V
+0210 Bemar                ?795???-? Unsurveyed                                  - - - 304   -- K6 V M0 V
+0301 Ambon                ?550???-? Unsurveyed                                  - - - 502   -- G4 V M1 V
+0303 Irgukh               ?431???-? Unsurveyed                                  - - - 614   -- M1 V M0 V
+0309 Baagku               ?411???-? Unsurveyed                                  - - - 520   -- M2 V
+0401 Ashlirka             ?52A???-? Unsurveyed                                  - - - 103   -- M1 V M3 V
+0406 Sproan               ?412???-? Unsurveyed                                  - - - 701   -- K8 V M1 V
+0407 Guumuuluu            ?585???-? Unsurveyed                                  - - - 600   -- K8 V M1 V
+0408 Argiikandguurk       ?310???-? Unsurveyed                                  - - - 014   -- M0 V M3 V
+0501 Bair                 ?310???-? Unsurveyed                                  - - - 904   -- M2 V M6 V
+0504 Satin                ?766???-? Unsurveyed                                  - - - 604   -- K8 V
+0505 Arkuu                ?560???-? Unsurveyed                                  - - - 620   -- M2 V
+0604 Suund                ?584???-? Unsurveyed                                  - - - 813   -- M1 V
+0607 Vakkuum              ?543???-? Unsurveyed                                  - - - 803   -- G1 V
+0610 Gashaan              ?542???-? Unsurveyed                                  - - - 000   -- G4 V M8 V
+0702 Kiiimrii             ?000???-? Unsurveyed                                  - - - 115   -- M1 V
+0705 Gashdi               ?542???-? Unsurveyed                                  - - - 500   -- K6 V M5 V
+0707 Ashki                ?542???-? Unsurveyed                                  - - - 300   -- G1 V M0 V
+0802 Imnuud               ?584???-? Unsurveyed                                  - - - 000   -- M0 V M9 V
+0805 Gan                  ?541???-? Unsurveyed                                  - - - 403   -- M0 V
+0806 Gid                  ?560???-? Unsurveyed                                  - - - 413   -- K9 V
+0808 Kenlirk Ir           ?200???-? Unsurveyed                                  - - - 324   -- M0 V M1 V
+0810 Kaangisguu           ?420???-? Unsurveyed                                  - - - 812   -- K2 V M2 V
+0904 Mamvliiguu           ?698???-? Unsurveyed                                  - - - 924   -- M1 V
+0906 Kiidi Pi             ?554???-? Unsurveyed                                  - - - 903   -- F3 V
+0907 Gikash               ?78A???-? Unsurveyed                                  - - - 000   -- K1 V
+1002 Kuuka Di             ?424???-? Unsurveyed                                  - - - 903   -- G0 V
+1005 Peda                 ?555???-? Unsurveyed                                  - - - 022   -- K8 V M1 V
+1006 Shas                 ?524???-? Unsurveyed                                  - - - 100   -- K0 V
+1009 Garurzakhan          ?768???-? Unsurveyed                                  - - - 012   -- K7 V M2 V
+1010 Nuush                ?541???-? Unsurveyed                                  - - - 511   -- G0 V
+1101 Kam                  ?564???-? Unsurveyed                                  - - - 723   -- F9 V
+1106 Mauunmar             ?540???-? Unsurveyed                                  - - - 805   -- G6 V
+1108 Naan                 ?423???-? Unsurveyed                                  - - - 703   -- M1 V
+1110 Miishmi              ?582???-? Unsurveyed                                  - - - 114   -- G0 V
+1202 Zuuper               ?8B4???-? Unsurveyed                                  - - - 114   -- F0 V
+1205 Arpuu                ?84A???-? Unsurveyed                                  - - - 003   -- G2 V
+1207 Lamip Ra             ?427???-? Unsurveyed                                  - - - 101   -- K3 V M9 V
+1209 Anpimshis            ?866???-? Unsurveyed                                  - - - 700   -- K4 V M1 V
+1301 Kuuuur               ?423???-? Unsurveyed                                  - - - 704   -- G4 V
+1304 Enka Sa              ?8C9???-? Unsurveyed                                  - - - 910   -- K4 V
+1305 Khuuum               ?555???-? Unsurveyed                                  - - - 420   -- G4 V M9 V
+1307 Shaaremash           ?556???-? Unsurveyed                                  - - - 320   -- G3 V
+1308 Liirk                ?743???-? Unsurveyed                                  - - - 810   -- G2 V M5 V
+1406 Kuurim               ?552???-? Unsurveyed                                  - - - 115   -- K9 V M5 V
+1407 Asmi Ar              ?798???-? Unsurveyed                                  - - - 314   -- M2 V M5 V
+1408 Adawi                ?794???-? Unsurveyed                                  - - - 813   -- G2 V M2 V
+1410 Khamep Ninish        ?312???-? Unsurveyed                                  - - - 403   -- K1 V M2 V
+1501 Eshgi Ga             ?561???-? Unsurveyed                                  - - - 410   -- K8 V M6 V
+1502 Barish               ?200???-? Unsurveyed                                  - - - 100   -- M2 V
+1503 Nian Is              ?100???-? Unsurveyed                                  - - - 813   -- K5 IV M1 V
+1504 Guer                 ?666???-? Unsurveyed                                  - - - 203   -- K4 V
+1509 Arlaapiiruur         ?544???-? Unsurveyed                                  - - - 704   -- G2 V M6 V
+1510 Inda Daash           ?755???-? Unsurveyed                                  - - - 900   -- M3 V M4 V
+1601 Diir                 ?437???-? Unsurveyed                                  - - - 001   -- G7 V M9 V
+1602 Datheern             ?668???-? Unsurveyed                                  - - - 704   -- M0 V M0 V
+1603 Kagruu               ?557???-? Unsurveyed                                  - - - 910   -- M2 V
+1605 Nashe                ?788???-? Unsurveyed                                  - - - 320   -- K4 V M1 V
+1608 Urgiish Ra           ?574???-? Unsurveyed                                  - - - 404   -- M2 V
+1609 Nar                  ?560???-? Unsurveyed                                  - - - 012   -- F4 V M4 V
+1610 Daniirsha            ?300???-? Unsurveyed                                  - - - 900   -- M0 V
+1705 Liiraaruur           ?A9A???-? Unsurveyed                                  - - - 205   -- F4 V M8 V
+1801 Kiiinish             ?543???-? Unsurveyed                                  - - - 210   -- K1 V M7 V
+1802 Kauushgir            ?556???-? Unsurveyed                                  - - - 000   -- K2 V M0 V
+1803 Nanuaand             ?847???-? Unsurveyed                                  - - - 913   -- M1 V M8 V
+1804 Ushanghi             ?798???-? Unsurveyed                                  - - - 725   -- G7 V M5 V
+1805 Giash                ?433???-? Unsurveyed                                  - - - 902   -- K1 V M5 V
+1810 Gaiirbuuig           ?500???-? Unsurveyed                                  - - - 623   -- G3 V
+1902 Bariraana            ?534???-? Unsurveyed                                  - - - 404   -- M0 V M7 V
+1907 Kaen                 ?9B5???-? Unsurveyed                                  - - - 803   -- M3 V
+1908 Mamuun               ?573???-? Unsurveyed                                  - - - 023   -- G3 V M2 V
+1909 Ishir                ?558???-? Unsurveyed                                  - - - 700   -- M0 V
+1910 Keg                  ?400???-? Unsurveyed                                  - - - 905   -- K4 V M9 V
+2002 Lamuim               ?588???-? Unsurveyed                                  - - - 300   -- M1 V
+2003 Khaaash              ?310???-? Unsurveyed                                  - - - 934   -- M1 V M8 V
+2004 Esuum Iir            ?769???-? Unsurveyed                                  - - - 004   -- F8 V M4 V
+2007 Suurga Ma            ?AC5???-? Unsurveyed                                  - - - 313   -- M0 V
+2008 Kiig                 ?789???-? Unsurveyed                                  - - - 000   -- G1 V
+2009 Miinuum Ar           ?764???-? Unsurveyed                                  - - - 702   -- M2 V M3 V
+2010 Darkam               ?649???-? Unsurveyed                                  - - - 204   -- K5 V M7 V
+2104 Nandi                ?837???-? Unsurveyed                                  - - - 900   -- M3 V
+2105 Vlaashugka           ?978???-? Unsurveyed                                  - - - 012   -- G0 V M2 V
+2106 Thopoc               ?310???-? Unsurveyed                                  - - - 711   -- G0 V
+2107 Sig                  ?665???-? Unsurveyed                                  - - - 901   -- G8 V M7 V
+2108 Maan                 ?868???-? Unsurveyed                                  - - - 713   -- G3 V M0 V
+2109 Ushziir Siuus        ?300???-? Unsurveyed                                  - - - 802   -- K4 V M4 V
+2203 Mep                  ?535???-? Unsurveyed                                  - - - 002   -- M1 V M6 V
+2207 Luun                 ?758???-? Unsurveyed                                  - - - 403   -- M2 V
+2208 Marash Gini          ?431???-? Unsurveyed                                  - - - 203   -- G4 V
+2209 Kai                  ?310???-? Unsurveyed                                  - - - 924   -- M1 V M2 V
+2301 Khim                 ?74A???-? Unsurveyed                                  - - - 003   -- G0 V
+2302 Maiish Am            ?201???-? Unsurveyed                                  - - - 804   -- M3 V
+2306 Gudi Dii             ?542???-? Unsurveyed                                  - - - 724   -- F8 V
+2307 Pim                  ?310???-? Unsurveyed                                  - - - 704   -- M5 III
+2309 Sotri                ?673???-? Unsurveyed                                  - - - 812   -- K3 V
+2401 Kagengi              ?565???-? Unsurveyed                                  - - - 302   -- M1 V M2 V
+2404 Dialiigkam           ?581???-? Unsurveyed                                  - - - 122   -- G0 V
+2406 Khaerinirk           ?674???-? Unsurveyed                                  - - - 500   -- F5 V M4 V
+2407 Givlie               ?303???-? Unsurveyed                                  - - - 410   -- K1 IV M8 V
+2408 Kaguushkaaak         ?96A???-? Unsurveyed                                  - - - 100   -- K9 V
+2409 Liiag                ?9A5???-? Unsurveyed                                  - - - 202   -- M0 V
+2410 Uugli                ?799???-? Unsurveyed                                  - - - 013   -- M3 V M8 V
+2501 Khan                 ?544???-? Unsurveyed                                  - - - 003   -- K3 V
+2508 Iishuurk Li          ?555???-? Unsurveyed                                  - - - 604   -- K8 V M8 V
+2509 Uumuumunuun          ?310???-? Unsurveyed                                  - - - 520   -- M1 V M2 V
+2602 Khiaziar             ?557???-? Unsurveyed                                  - - - 600   -- F4 V
+2603 Gurba Kan            ?666???-? Unsurveyed                                  - - - 502   -- K9 V M6 V
+2604 Ashiirim             ?432???-? Unsurveyed                                  - - - 604   -- M1 V M0 V
+2605 Iimkharka            ?687???-? Unsurveyed                                  - - - 000   -- K4 V
+2608 Kham                 ?555???-? Unsurveyed                                  - - - 515   -- M1 V
+2609 Gir                  ?546???-? Unsurveyed                                  - - - 822   -- G2 V M7 V
+2701 Nimsha               ?79A???-? Unsurveyed                                  - - - 000   -- K4 V
+2702 Uurzaem              ?543???-? Unsurveyed                                  - - - 121   -- F4 V M3 V
+2703 Rarnuur              ?400???-? Unsurveyed                                  - - - 104   -- K4 IV M6 V
+2704 Narar                ?686???-? Unsurveyed                                  - - - 500   -- K4 V
+2705 Sish                 ?578???-? Unsurveyed                                  - - - 313   -- F8 V M5 V
+2706 Miirvligiuus         ?671???-? Unsurveyed                                  - - - 825   -- G2 V
+2709 Garer                ?584???-? Unsurveyed                                  - - - 410   -- G2 V
+2801 Iira Khaa            ?546???-? Unsurveyed                                  - - - 300   -- G9 V
+2803 Khaki Am             ?886???-? Unsurveyed                                  - - - 720   -- M1 V M9 V
+2806 Apnedima             ?79A???-? Unsurveyed                                  - - - 004   -- M2 V
+2808 Irkesh Suk           ?310???-? Unsurveyed                                  - - - 533   -- M2 V M4 V M5 V
+2810 Kiguuke              ?877???-? Unsurveyed                                  - - - 521   -- G9 V M0 V
+2905 Criideu              ?635???-? Unsurveyed                                  - - - 303   -- M3 V
+2906 Gish                 ?524???-? Unsurveyed                                  - - - 604   -- M3 V
+2907 Lagi                 ?645???-? Unsurveyed                                  - - - 323   -- G8 V
+2908 Duudu Shiim          ?420???-? Unsurveyed                                  - - - 900   -- K1 V
+2909 Belfhi               ?584???-? Unsurveyed                                  - - - 723   -- M1 V
+3001 Niii Le              ?424???-? Unsurveyed                                  - - - 302   -- M2 V M0 V
+3002 Iikandkimsesh        ?549???-? Unsurveyed                                  - - - 400   -- M0 V
+3003 Shaarni              ?414???-? Unsurveyed                                  - - - 000   -- K6 V
+3004 Likaap               ?100???-? Unsurveyed                                  - - - 705   -- K3 V
+3006 Khadluusa            ?200???-? Unsurveyed                                  - - - 403   -- M2 V M4 V
+3008 Kishkiin Zaap        ?896???-? Unsurveyed                                  - - - 704   -- F5 V M5 V
+3101 Liim                 ?666???-? Unsurveyed                                  - - - 005   -- G6 V M2 V
+3104 Uurir                ?768???-? Unsurveyed                                  - - - 200   -- K4 V
+3108 Amup                 ?525???-? Unsurveyed                                  - - - 001   -- M1 V M8 V
+3201 Gaduu Kii            ?685???-? Unsurveyed                                  - - - 803   -- G0 V M0 V
+3202 Guushvliig           ?87A???-? Unsurveyed                                  - - - 000   -- G7 V
+3203 Shiir Kiii           ?438???-? Unsurveyed                                  - - - 203   -- M1 V M1 V
+3204 Arpa                 ?543???-? Unsurveyed                                  - - - 021   -- M2 V
+3206 Mamuur Uund          ?998???-? Unsurveyed                                  - - - 100   -- M2 V
+0111 Iirgii               ?569???-? Unsurveyed                                  - - - 713   -- M2 V
+0112 Uushamkhaiirk        ?100???-? Unsurveyed                                  - - - 010   -- M3 V
+0116 Gar                  ?410???-? Unsurveyed                                  - - - 001   -- G8 V
+0117 Luud                 ?675???-? Unsurveyed                                  - - - 102   -- M1 V M4 V
+0118 Muuenum              ?310???-? Unsurveyed                                  - - - 401   -- M1 V M8 V
+0119 Mamir                ?420???-? Unsurveyed                                  - - - 804   -- M1 V M4 V
+0212 Lairuum              ?686???-? Unsurveyed                                  - - - 901   -- K3 V
+0214 Kaso                 ?200???-? Unsurveyed                                  - - - 904   -- G3 V
+0217 Dakha                ?421???-? Unsurveyed                                  - - - 203   -- K3 V M6 V
+0218 Savli Kii            ?8B7???-? Unsurveyed                                  - - - 021   -- M2 III
+0311 Kiinuu Da            ?87A???-? Unsurveyed                                  - - - 314   -- G4 V
+0312 Hrun                 ?516???-? Unsurveyed                                  - - - 113   -- K3 V
+0315 Luumir Bir           ?758???-? Unsurveyed                                  - - - 700   -- G3 V
+0316 Pryden               ?75A???-? Unsurveyed                                  - - - 802   -- F3 V
+0317 Sharsii              ?558???-? Unsurveyed                                  - - - 504   -- K0 V M6 V M1 V
+0318 Irshuuuu             ?550???-? Unsurveyed                                  - - - 212   -- G9 V M3 V
+0411 Shaaka               ?675???-? Unsurveyed                                  - - - 800   -- M2 V M5 V M7 V
+0412 Olny                 ?569???-? Unsurveyed                                  - - - 114   -- G4 V M6 V
+0414 Guuurduu             ?000???-? Unsurveyed                                  - - - 210   -- F1 V
+0417 Niidish              ?543???-? Unsurveyed                                  - - - 403   -- K0 V
+0420 Inne                 ?645???-? Unsurveyed                                  - - - 104   -- M0 V M9 V
+0513 Imkhaaishki          ?536???-? Unsurveyed                                  - - - 000   -- M1 V
+0516 Ruurk                ?88A???-? Unsurveyed                                  - - - 404   -- K5 V M6 V
+0517 Haraffii             ?000???-? Unsurveyed                                  - - - 113   -- G7 V
+0519 Kar                  ?666???-? Unsurveyed                                  - - - 001   -- K0 V M7 V
+0612 Uurmed               ?595???-? Unsurveyed                                  - - - 000   -- K3 V M6 V M1 V
+0614 Amshi Khir           ?420???-? Unsurveyed                                  - - - 802   -- F7 V M3 V M2 V
+0616 Luuknu Naa           ?655???-? Unsurveyed                                  - - - 905   -- M1 V M4 V
+0711 Gikre                ?896???-? Unsurveyed                                  - - - 010   -- M2 V
+0712 Arluu Ir             ?676???-? Unsurveyed                                  - - - 222   -- K4 V M2 V
+0713 Uurguarka            ?551???-? Unsurveyed                                  - - - 004   -- K5 V M1 V
+0714 Uureg                ?427???-? Unsurveyed                                  - - - 904   -- M2 V
+0719 Khaaguu Arkli        ?558???-? Unsurveyed                                  - - - 302   -- K1 V M0 V M0 V
+0815 Miar Di              ?554???-? Unsurveyed                                  - - - 700   -- G4 V
+0816 Shakam               ?100???-? Unsurveyed                                  - - - 704   -- M2 V M4 V
+0819 Isimle               ?978???-? Unsurveyed                                  - - - 003   -- G8 V M9 V
+0911 Aashe                ?423???-? Unsurveyed                                  - - - 603   -- G7 V
+0914 Kuumegan             ?515???-? Unsurveyed                                  - - - 023   -- M0 V
+0915 Andkaa               ?560???-? Unsurveyed                                  - - - 104   -- F4 V
+1014 Ishduu Di            ?8B8???-? Unsurveyed                                  - - - 503   -- M0 V
+1016 Meuum                ?643???-? Unsurveyed                                  - - - 002   -- K5 V
+1018 Liikuu Airk          ?685???-? Unsurveyed                                  - - - 200   -- M2 V
+1019 Mage Nak             ?884???-? Unsurveyed                                  - - - 912   -- M1 V
+1114 Masionia             ?430???-? Unsurveyed                                  - - - 603   -- K7 V
+1117 Rodhen               ?543???-? Unsurveyed                                  - - - 304   -- K8 V M6 V
+1120 Gipkha               ?410???-? Unsurveyed                                  - - - 000   -- M5 III
+1211 Irkii Ruu            ?896???-? Unsurveyed                                  - - - 002   -- F3 V
+1212 Kedi Shi             ?555???-? Unsurveyed                                  - - - 600   -- M2 V M7 V
+1213 Naagagiid            ?788???-? Unsurveyed                                  - - - 810   -- G1 V
+1215 Kisi                 ?A89???-? Unsurveyed                                  - - - 300   -- M1 V M2 V
+1216 Genuu                ?876???-? Unsurveyed                                  - - - 005   -- K9 V M0 V
+1218 Mama                 ?430???-? Unsurveyed                                  - - - 503   -- K2 V
+1219 Gamkuuruu            ?788???-? Unsurveyed                                  - - - 410   -- F7 V M0 V
+1220 Uo                   ?000???-? Unsurveyed                                  - - - 114   -- K9 V
+1311 Kuunguu              ?420???-? Unsurveyed                                  - - - 601   -- K4 V
+1312 Kishre Uum           ?693???-? Unsurveyed                                  - - - 013   -- M1 V
+1313 Kid                  ?621???-? Unsurveyed                                  - - - 104   -- M1 V
+1315 Inirzuu              ?545???-? Unsurveyed                                  - - - 013   -- G9 V M3 V
+1316 Kivlush              ?7C5???-? Unsurveyed                                  - - - 603   -- M4 III
+1317 Kimgadi              ?554???-? Unsurveyed                                  - - - 000   -- G9 V M7 V
+1415 Zulii                ?310???-? Unsurveyed                                  - - - 902   -- F1 V M3 V
+1419 Imguunkhand          ?300???-? Unsurveyed                                  - - - 010   -- K2 V
+1511 Khuureg Kar          ?585???-? Unsurveyed                                  - - - 102   -- K0 V
+1513 Sheimiigin           ?797???-? Unsurveyed                                  - - - 602   -- M1 V
+1514 Irzemuu              ?550???-? Unsurveyed                                  - - - 820   -- K9 V
+1515 Lokita               ?528???-? Unsurveyed                                  - - - 501   -- M1 V
+1516 Kuud                 ?689???-? Unsurveyed                                  - - - 612   -- M1 V
+1518 Ravinanor            ?9C6???-? Unsurveyed                                  - - - 203   -- M0 V
+1520 Khis                 ?9A4???-? Unsurveyed                                  - - - 000   -- M3 V M2 V
+1611 Mar                  ?548???-? Unsurveyed                                  - - - 900   -- G1 V M5 V
+1614 Khuuluuga            ?AEA???-? Unsurveyed                                  - - - 802   -- M0 V
+1615 Dermaresh            ?836???-? Unsurveyed                                  - - - 322   -- K2 V
+1616 Leiidi               ?6B2???-? Unsurveyed                                  - - - 425   -- M1 V M7 V
+1617 Deag                 ?542???-? Unsurveyed                                  - - - 511   -- M2 V
+1711 Selsho               ?586???-? Unsurveyed                                  - - - 310   -- F5 V
+1712 Kiskhad              ?777???-? Unsurveyed                                  - - - 215   -- G1 V
+1811 Uupir                ?430???-? Unsurveyed                                  - - - 503   -- G2 V
+1813 Kuuaash              ?9B4???-? Unsurveyed                                  - - - 400   -- M3 V M8 V
+1814 Didishuurk           ?543???-? Unsurveyed                                  - - - 501   -- K4 V
+1815 Duuluuki             ?586???-? Unsurveyed                                  - - - 512   -- K5 V M0 V
+1818 Deumvlaar            ?426???-? Unsurveyed                                  - - - 803   -- M1 V
+1911 Sherkhamuuki         ?574???-? Unsurveyed                                  - - - 210   -- K3 V
+1912 Isdi                 ?794???-? Unsurveyed                                  - - - 504   -- M0 V
+1913 Uurand Vlak          ?658???-? Unsurveyed                                  - - - 904   -- K9 V M0 V M8 V
+1914 Miiish Kir           ?8D7???-? Unsurveyed                                  - - - 403   -- M1 V
+1915 Giin                 ?77A???-? Unsurveyed                                  - - - 010   -- M2 V
+1916 Man                  ?634???-? Unsurveyed                                  - - - 003   -- G1 V
+1917 Degagvli             ?560???-? Unsurveyed                                  - - - 002   -- G3 V M5 V
+1919 Daeir                ?311???-? Unsurveyed                                  - - - 000   -- M2 V
+2012 Lam                  ?878???-? Unsurveyed                                  - - - 620   -- G2 V
+2013 Arki                 ?789???-? Unsurveyed                                  - - - 800   -- M1 V
+2016 Luungaa Iish         ?676???-? Unsurveyed                                  - - - 013   -- K5 V
+2017 Ridmaa               ?572???-? Unsurveyed                                  - - - 000   -- M2 V
+2018 Sharlii              ?676???-? Unsurveyed                                  - - - 410   -- K3 V M3 V
+2111 Uurgish Mia          ?543???-? Unsurveyed                                  - - - 913   -- G5 V
+2112 Luuus                ?9C4???-? Unsurveyed                                  - - - 602   -- M5 III M2 V
+2113 Eskhiiruu            ?748???-? Unsurveyed                                  - - - 905   -- G0 V
+2119 Irri Iidiish         ?550???-? Unsurveyed                                  - - - 004   -- G9 V
+2120 Kiluu                ?9DA???-? Unsurveyed                                  - - - 000   -- K4 V
+2211 Morin                ?85A???-? Unsurveyed                                  - - - 504   -- G3 V
+2213 Gupigan              ?97A???-? Unsurveyed                                  - - - 020   -- G3 V
+2216 Duusuur Gama         ?576???-? Unsurveyed                                  - - - 004   -- K3 V M3 V
+2220 Buaar                ?568???-? Unsurveyed                                  - - - 814   -- M1 V M3 V
+2312 Guumdaash            ?400???-? Unsurveyed                                  - - - 404   -- K8 V
+2313 Miindkhi             ?431???-? Unsurveyed                                  - - - 500   -- M0 V M4 V
+2314 Niirk                ?536???-? Unsurveyed                                  - - - 804   -- M0 V
+2316 Irbaa                ?86A???-? Unsurveyed                                  - - - 610   -- M1 V
+2320 Kiniliuug            ?644???-? Unsurveyed                                  - - - 800   -- F5 V
+2411 Kimshuu              ?785???-? Unsurveyed                                  - - - 515   -- K6 V
+2413 Uusir                ?430???-? Unsurveyed                                  - - - 510   -- G3 V M1 V
+2415 Khuund               ?753???-? Unsurveyed                                  - - - 603   -- K8 V M3 V
+2417 Vledes               ?200???-? Unsurveyed                                  - - - 710   -- K3 V M0 V
+2418 Irar An              ?562???-? Unsurveyed                                  - - - 324   -- F8 V
+2419 Kiraa Khi            ?693???-? Unsurveyed                                  - - - 500   -- K3 V M4 V
+2420 Mimka Gim            ?200???-? Unsurveyed                                  - - - 003   -- M1 V M2 V
+2512 Uundin               ?666???-? Unsurveyed                                  - - - 804   -- M0 V
+2516 Nabiar               ?400???-? Unsurveyed                                  - - - 024   -- M2 V
+2611 Kaishge              ?8C4???-? Unsurveyed                                  - - - 410   -- F2 V
+2612 Miir                 ?310???-? Unsurveyed                                  - - - 004   -- K2 V M5 V
+2614 Uurna Nuu            ?574???-? Unsurveyed                                  - - - 603   -- M0 V
+2616 Khauur               ?764???-? Unsurveyed                                  - - - 503   -- K5 V M2 V
+2711 Segagi               ?583???-? Unsurveyed                                  - - - 003   -- K8 V
+2713 Uumkhuum             ?625???-? Unsurveyed                                  - - - 000   -- M1 V
+2715 Kiiaarir             ?766???-? Unsurveyed                                  - - - 520   -- M0 V
+2717 Dila                 ?546???-? Unsurveyed                                  - - - 800   -- F8 V
+2718 Likdu                ?566???-? Unsurveyed                                  - - - 324   -- K5 V M1 V
+2719 Tephany              ?6B1???-? Unsurveyed                                  - - - 902   -- K0 V
+2720 Karas                ?585???-? Unsurveyed                                  - - - 201   -- K3 V
+2814 Shiila               ?434???-? Unsurveyed                                  - - - 025   -- K4 V
+2815 Dan                  ?514???-? Unsurveyed                                  - - - 613   -- M3 V M0 V
+2818 Inandaa              ?592???-? Unsurveyed                                  - - - 803   -- M1 V
+2820 Kinduurkha           ?8B3???-? Unsurveyed                                  - - - 123   -- K2 V
+2911 Khuukhuua            ?545???-? Unsurveyed                                  - - - 014   -- F5 V M4 V
+2913 Kaash                ?000???-? Unsurveyed                                  - - - 700   -- G6 V M8 V
+2915 Shegu Apis           ?677???-? Unsurveyed                                  - - - 000   -- K4 V M7 V
+2916 Kingir               ?652???-? Unsurveyed                                  - - - 310   -- K0 V M2 V
+2918 Kig                  ?55A???-? Unsurveyed                                  - - - 524   -- K4 V
+2919 Kharbarbi            ?85A???-? Unsurveyed                                  - - - 410   -- M3 V M2 V
+3012 Dismur Kad           ?565???-? Unsurveyed                                  - - - 004   -- K7 V
+3013 Mibaimad             ?729???-? Unsurveyed                                  - - - 920   -- G0 V M6 V
+3014 Kiir                 ?310???-? Unsurveyed                                  - - - 220   -- G1 V
+3016 Gaimzash             ?723???-? Unsurveyed                                  - - - 605   -- M1 V M7 V
+3017 Kasiind Ig           ?658???-? Unsurveyed                                  - - - 000   -- K6 V M6 V
+3019 Uurkhii Iga          ?200???-? Unsurveyed                                  - - - 213   -- K2 V
+3111 Orpheus              ?8A3???-? Unsurveyed                                  - - - 402   -- G2 V
+3113 Kimuum               ?423???-? Unsurveyed                                  - - - 710   -- K4 V
+3114 Enin An              ?400???-? Unsurveyed                                  - - - 004   -- G4 V M7 V
+3116 Adimar               ?432???-? Unsurveyed                                  - - - 004   -- K1 V
+3118 Maar Gidkuur         ?423???-? Unsurveyed                                  - - - 001   -- K8 V M2 V
+3211 Khir                 ?785???-? Unsurveyed                                  - - - 204   -- G4 V
+3213 Gaipki               ?433???-? Unsurveyed                                  - - - 900   -- F4 V M5 V M1 V
+3214 Dirkuu Kuu           ?776???-? Unsurveyed                                  - - - 022   -- M0 V M2 V
+3217 Giiuurk              ?510???-? Unsurveyed                                  - - - 300   -- M1 V M7 V
+3219 Guuli Khuu           ?577???-? Unsurveyed                                  - - - 721   -- F5 V M4 V
+3220 Arkkhuur Iir         ?873???-? Unsurveyed                                  - - - 003   -- M2 V
+0121 Arkeg                ?000???-? Unsurveyed                                  - - - 903   -- M1 V M6 V
+0122 Lakhii               ?584???-? Unsurveyed                                  - - - 303   -- G9 V M1 V
+0124 Kikheukuu            ?425???-? Unsurveyed                                  - - - 003   -- K0 V M7 V
+0125 Lirla                ?9C5???-? Unsurveyed                                  - - - 614   -- K1 V
+0128 Lemishlar            X543000-0 Ba Lo Lt Ni Po                              - - - 021   -- G0 V M4 V
+0130 Voyd                 C4246AA-7 Ni                                          - - - 402   -- K9 V M7 V
+0221 Magi                 ?000???-? Unsurveyed                                  - - - 103   -- K3 V
+0222 Dimuun               ?677???-? Unsurveyed                                  - - - 511   -- M0 V
+0223 Arkig Khuuir         ?599???-? Unsurveyed                                  - - - 710   -- M2 V
+0227 Shuna                B585644-6 Ag Ni Ri                                    - - - 912   -- G5 V M4 V
+0228 Erna                 X865000-0 Ba Ga Lo Lt Ni                              - - - 013   -- M3 V
+0321 Ina Iime             ?424???-? Unsurveyed                                  - - - 702   -- G2 V M3 V
+0427 Mapkha               C623633-7 Na Ni Po                                    - - - 900   H1 G7 V
+0429 Kiimin               X420000-0 Ba De Lo Lt Ni Po                           - - - 010   -- M2 V
+0526 Amne Suur            DAE5522-4 Fl Lt Ni                                    - - - 300   H1 M2 V M8 V
+0527 Giiga                C000255-9 As Lo Ni Va                                 - - - 703   H1 M1 V
+0529 Ishgu                E000266-7 As Lo Ni Va                                 - - - 413   -- G4 V M7 V
+0530 Biaz Ven             D5457BB-1 Ag Lt                                       - - - 222   -- K2 V M9 V
+0621 Luukhikii            ?786???-? Unsurveyed                                  - - - 024   -- K7 V
+0622 Giin Uur             ?613???-? Unsurveyed                                  - - - 603   -- M3 V G5 V
+0623 Nuuiim I             ?575???-? Unsurveyed                                  - - - 300   -- K0 V
+0625 Iindir Za            E885322-3 Ga Lo Lt Ni                                 - - - 710   H1 G9 V
+0626 Gishgi               D3005BB-A Ni Va                                       - - - 100   H1 K4 V
+0628 Kash                 X560000-0 Ba De Lo Lt Ni                              - - - 003   H1 G3 V M8 V
+0722 Tonnes               ?897???-? Unsurveyed                                  - - - 200   -- G6 V M9 V
+0723 Ixteline             ?524???-? Unsurveyed                                  - - - 210   -- G9 V M5 V
+0725 Ashde                B657500-6 Ag Ga Ni                                    - - - 602   H1 K6 V
+0726 Zaamimaar            D402600-6 Ic Na Ni Va                                 - - - 800   H1 K2 III
+0728 Kaer                 B570555-9 De Ni                                       - - - 603   H1 F3 V
+0729 Zuuir                B561866-5 Lt Ri                                       - - - 621   -- K8 V M5 V
+0730 Khaaruu              E551000-0 Ba Lo Lt Ni Po                              - - - 022   -- M1 V M4 V
+0826 Ipvlimmaarir         EA9A000-0 Ba Lo Lt Ni Wa                              - - - 020   H1 K7 V
+0827 Kadim                X768000-0 Ba Lo Lt Ni                                 - - - 023   H1 M2 V
+0829 Shuuin Aep           D5241AA-3 Lo Lt Ni                                    - - - 100   -- K5 V M6 V
+0830 Armishidiir          C547566-5 Ag Lt Ni                                    - - - 214   -- G0 V M0 V
+0921 Gisharzuush          ?965???-? Unsurveyed                                  - - - 600   -- G7 V M4 V
+0922 Arkkir Ir            ?595???-? Unsurveyed                                  - - - 303   -- K0 V
+0923 Amar                 ?584???-? Unsurveyed                                  - - - 313   -- K7 V
+0927 Laadliag             E97A000-0 Ba Lo Lt Ni Wa                              - - - 004   H1 G3 V
+0928 Ushiin Uur           C687422-7 Ga Ni                                       - - - 510   -- M0 V M9 V
+0929 Irmash               E897588-1 Ag Lt Ni                                    - - - 802   -- M1 V
+0930 Nigi                 X845400-1 Lt Ni                                       - - - 604   -- K6 V M8 V
+1026 Zammii A             X643000-0 Ba Lo Lt Ni Po                              - - - 010   -- G7 V
+1027 Kinmuum              X628166-1 Lo Lt Ni                                    - - - 304   -- M2 V
+1028 Indmen               E8C8311-5 Fl Lo Lt Ni                                 - - - 902   -- M3 V
+1121 Irpi                 ?744???-? Unsurveyed                                  - - - 613   -- M0 V
+1125 Darkhamaar           ?524???-? Unsurveyed                                  - - - 420   -- M2 V
+1221 Ama Shuun            ?000???-? Unsurveyed                                  - - - 813   -- G4 V
+1222 Zekhi                ?643???-? Unsurveyed                                  - - - 323   -- K1 V M1 V
+1228 Din                  ?542???-? Unsurveyed                                  - - - 023   -- G4 V
+1322 Beuur Nin            ?989???-? Unsurveyed                                  - - - 025   -- G7 V
+1323 Khugar               ?658???-? Unsurveyed                                  - - - 023   -- K1 V M5 V
+1326 Mikha Am             ?421???-? Unsurveyed                                  - - - 410   -- M1 V G0 V
+1328 Aanem                ?678???-? Unsurveyed                                  - - - 010   -- K2 V
+1329 Raakhi Sha           ?200???-? Unsurveyed                                  - - - 623   -- M2 V M0 V
+1330 Uurgauum             ?547???-? Unsurveyed                                  - - - 004   -- K4 V
+1424 Khuunan              ?310???-? Unsurveyed                                  - - - 000   -- M3 V M4 V
+1430 Uudge She            ?576???-? Unsurveyed                                  - - - 802   -- M1 V M0 V
+1521 Gag                  ?546???-? Unsurveyed                                  - - - 003   -- M2 V M7 V M5 V
+1522 Kim                  ?6B4???-? Unsurveyed                                  - - - 003   -- M1 V
+1524 Kas                  ?310???-? Unsurveyed                                  - - - 410   -- F4 V
+1525 Emuush Iip           ?776???-? Unsurveyed                                  - - - 804   -- K0 V M1 V
+1526 Naas                 ?592???-? Unsurveyed                                  - - - 500   -- G3 V M5 V
+1528 Agugaa               ?655???-? Unsurveyed                                  - - - 712   -- K6 V
+1529 Kurimash             ?9B6???-? Unsurveyed                                  - - - 401   -- K2 V M5 V
+1530 Agid                 ?545???-? Unsurveyed                                  - - - 033   -- M1 V
+1621 Kiivluu              ?87A???-? Unsurveyed                                  - - - 104   -- M1 V
+1622 Bash                 ?665???-? Unsurveyed                                  - - - 513   -- M0 V M0 V
+1623 Iram                 ?420???-? Unsurveyed                                  - - - 804   -- K3 V
+1625 Taccis               ?560???-? Unsurveyed                                  - - - 110   -- M2 V
+1629 Lishi                ?667???-? Unsurveyed                                  - - - 300   -- M0 V M1 V
+1722 Kensus               ?895???-? Unsurveyed                                  - - - 503   -- K3 V
+1723 Gar                  ?75A???-? Unsurveyed                                  - - - 102   -- F4 V
+1724 Khaain Shi           ?000???-? Unsurveyed                                  - - - 614   -- M2 V M5 V
+1725 Baki                 ?888???-? Unsurveyed                                  - - - 400   -- K1 V
+1730 Iinin Uush           ?867???-? Unsurveyed                                  - - - 913   -- K7 V M3 V
+1823 Shigiir Na           ?540???-? Unsurveyed                                  - - - 801   -- K5 V
+1826 Laak                 ?555???-? Unsurveyed                                  - - - 000   -- K4 V M1 V
+1827 Iskhi                ?435???-? Unsurveyed                                  - - - 521   -- K9 V M4 V
+1829 Mira                 ?420???-? Unsurveyed                                  - - - 000   -- G5 V M4 V
+1922 Khiiniin Uus         ?430???-? Unsurveyed                                  - - - 014   -- M3 V M1 V
+1923 Irkaamguus           ?100???-? Unsurveyed                                  - - - 001   -- M0 V
+1926 Sharna               ?736???-? Unsurveyed                                  - - - 010   -- G3 V M0 V
+1927 Aamim Daadun         ?898???-? Unsurveyed                                  - - - 623   -- F8 V M9 V
+1929 Kiim                 ?98A???-? Unsurveyed                                  - - - 501   -- K7 V
+1930 Khigres              ?000???-? Unsurveyed                                  - - - 720   -- M0 V K1 V
+2021 Iirma                ?545???-? Unsurveyed                                  - - - 304   -- F4 V M5 V
+2022 Enshap               ?434???-? Unsurveyed                                  - - - 100   -- M2 V
+2023 Mirsha Nu            ?427???-? Unsurveyed                                  - - - 001   -- K3 V
+2024 Eruuranir            ?200???-? Unsurveyed                                  - - - 903   -- M1 V
+2025 Mine                 ?430???-? Unsurveyed                                  - - - 200   -- M2 V
+2122 Gani Kauus           ?583???-? Unsurveyed                                  - - - 000   -- M2 V
+2124 Giiadger             ?562???-? Unsurveyed                                  - - - 125   -- K5 V M6 V
+2126 Gaga Khu             ?587???-? Unsurveyed                                  - - - 700   -- K5 V
+2127 Iiram Aas            ?596???-? Unsurveyed                                  - - - 903   -- G9 V M6 V
+2129 Naan                 ?73A???-? Unsurveyed                                  - - - 220   -- M1 V
+2222 Iriid                ?410???-? Unsurveyed                                  - - - 023   -- M5 III
+2224 Khimlaa Am           ?432???-? Unsurveyed                                  - - - 023   -- M3 V
+2226 Kagi                 ?501???-? Unsurveyed                                  - - - 033   -- M8 III
+2228 Ipan                 ?63A???-? Unsurveyed                                  - - - 102   -- G2 V
+2321 Kariinpesh           ?423???-? Unsurveyed                                  - - - 004   -- M2 V M7 V
+2326 Uukaash Ne           ?89A???-? Unsurveyed                                  - - - 010   -- K3 V M0 V
+2329 Iiris Is             ?537???-? Unsurveyed                                  - - - 110   -- K2 V
+2423 Liguum               ?100???-? Unsurveyed                                  - - - 803   -- G2 V
+2424 Aarnamsha            ?300???-? Unsurveyed                                  - - - 902   -- M1 V
+2426 Aguun Ar             ?646???-? Unsurveyed                                  - - - 000   -- K0 V M8 V
+2427 Renmiruur            ?542???-? Unsurveyed                                  - - - 700   -- M3 V M7 V
+2428 Ludmii               ?551???-? Unsurveyed                                  - - - 005   -- K4 V
+2521 Bair                 ?556???-? Unsurveyed                                  - - - 022   -- K0 V
+2523 Lanka Dir            ?947???-? Unsurveyed                                  - - - 224   -- F4 V
+2529 Miuuruup             ?200???-? Unsurveyed                                  - - - 100   -- M0 V
+2621 Mir                  ?544???-? Unsurveyed                                  - - - 004   -- K9 V
+2622 Khasha Ga            ?895???-? Unsurveyed                                  - - - 214   -- K6 V
+2624 Idim                 ?201???-? Unsurveyed                                  - - - 102   -- M2 V M0 V
+2628 Gap                  ?435???-? Unsurveyed                                  - - - 922   -- M1 V
+2630 Meshge               ?686???-? Unsurveyed                                  - - - 610   -- K1 V
+2722 Lei                  ?897???-? Unsurveyed                                  - - - 700   -- G6 V M7 V
+2723 Rash                 ?310???-? Unsurveyed                                  - - - 310   -- M3 V
+2724 Uurras Uur           ?566???-? Unsurveyed                                  - - - 410   -- F3 V M3 V
+2725 Inerenuur            ?611???-? Unsurveyed                                  - - - 002   -- G0 V
+2726 Iishvla Im           ?546???-? Unsurveyed                                  - - - 410   -- K3 V M0 V M0 V
+2729 Niirge Khar          ?594???-? Unsurveyed                                  - - - 900   -- G8 V
+2730 Kheda                ?888???-? Unsurveyed                                  - - - 603   -- M3 V
+2821 Iimavlir             ?84A???-? Unsurveyed                                  - - - 402   -- M0 V
+2823 Indum                ?548???-? Unsurveyed                                  - - - 513   -- K6 V
+2824 Uumar Gi             ?99A???-? Unsurveyed                                  - - - 315   -- M2 V M3 V
+2825 Lan                  ?749???-? Unsurveyed                                  - - - 320   -- K9 V
+2829 Sirris               ?854???-? Unsurveyed                                  - - - 700   -- M0 V M0 V
+2830 Gik                  ?576???-? Unsurveyed                                  - - - 203   -- M0 V M7 V
+2921 Aama                 ?200???-? Unsurveyed                                  - - - 600   -- M2 V
+2922 Kerip Ka             ?584???-? Unsurveyed                                  - - - 000   -- K4 V M7 V
+2923 Kir                  ?876???-? Unsurveyed                                  - - - 000   -- G0 V
+2924 Ot Zell              ?9B7???-? Unsurveyed                                  - - - 210   -- K4 V M7 V
+2925 Garga                ?563???-? Unsurveyed                                  - - - 005   -- K2 V
+2928 Lideip               ?432???-? Unsurveyed                                  - - - 000   -- M2 V
+2929 Suuruunniim          ?540???-? Unsurveyed                                  - - - 000   -- G7 V M2 V
+3021 Biimirkan            ?000???-? Unsurveyed                                  - - - 501   -- M2 V K4 V
+3022 Khalish              ?300???-? Unsurveyed                                  - - - 401   -- M3 V
+3024 Kabesh               ?567???-? Unsurveyed                                  - - - 004   -- K2 V M7 V
+3026 Giii Guu             ?541???-? Unsurveyed                                  - - - 400   -- M0 V M5 V
+3030 Mirii                ?589???-? Unsurveyed                                  - - - 705   -- M1 V
+3122 Khaam                ?656???-? Unsurveyed                                  - - - 700   -- K4 V M1 V M9 V
+3123 Mechport             ?573???-? Unsurveyed                                  - - - 400   -- F4 V
+3125 Guush                ?654???-? Unsurveyed                                  - - - 510   -- K5 V M7 V
+3126 Imir                 ?587???-? Unsurveyed                                  - - - 600   -- M3 V
+3129 Irish Dak            ?300???-? Unsurveyed                                  - - - 704   -- K5 V M7 V
+3221 Merka                ?786???-? Unsurveyed                                  - - - 004   -- G9 V
+3222 Irgur                ?779???-? Unsurveyed                                  - - - 820   -- M3 V
+3223 Peake                ?568???-? Unsurveyed                                  - - - 804   -- K4 V
+3225 Uuriim Ir            ?766???-? Unsurveyed                                  - - - 700   -- G2 V
+3226 Arkhik               ?76A???-? Unsurveyed                                  - - - 610   -- G8 V M6 V
+3227 Liirandle            ?550???-? Unsurveyed                                  - - - 713   -- K9 V M7 V
+3229 Vluragedkuu          ?689???-? Unsurveyed                                  - - - 334   -- F9 V M3 V M0 V
+3230 Gir                  ?AC8???-? Unsurveyed                                  - - - 512   -- K2 V
+0132 Khauur Kiim          E797000-0 Ba Lo Lt Ni                                 - - - 010   H3 G7 V
+0133 Khashar Erliir       C655255-5 Ga Lo Lt Ni                                 - - - 100   H3 M0 V
+0134 Uundas               D437670-A Ni                                          - - - 012   H3 M2 V
+0136 Kar                  C675611-9 Ag Ni                                       - - - 804   Sy G0 V
+0138 Khisha               X427000-0 Ba Lo Lt Ni                                 - - - 012   Sy M2 V
+0139 Ishuunkhiiig         E744000-0 Ba Lo Lt Ni                                 - - - 013   Sy M2 V
+0140 Vodyr                E7823BB-2 Lo Lt Ni                                    - - - 114   Sy G8 V
+0232 Khuun                C646433-7 Ni                                          - - - 013   H3 G1 V
+0234 Luugam               E583733-2 Lt                                          - - - 814   H3 K4 V
+0235 Sikiinili            C310833-8 Na                                          - - - 210   H3 M2 V
+0236 Raluug               A524824-A                                             - - - 813   Sy M3 V M8 V
+0237 Sulai                E422488-6 Ni Po                                       - - - 920   Sy M0 V
+0239 Khaimvluu            E6B5133-4 Fl Lo Lt Ni                                 - - - 204   Sy F2 V
+0331 Shuun                E9B5733-2 Fl Lt                                       - - - 932   -- F1 V
+0332 Luukhuu              E000000-0 As Ba Lo Lt Ni Va                           - - - 000   -- M0 V M2 V M8 V
+0334 Urgiir Shi           E795333-4 Lo Lt Ni                                    - - - 414   H3 G1 V
+0335 Sirkhiuur            E403400-7 Ic Ni Va                                    - - - 103   H3 M0 V
+0336 Gadi                 E310000-0 Ba Lo Lt Ni                                 - - - 013   -- M3 V
+0337 Angi                 B556333-9 Lo Ni                                       - - - 520   Sy G3 V M6 V
+0338 Gidzuurk La          D947199-4 Lo Lt Ni                                    - - - 502   Sy G0 V M7 V
+0431 Khuupa Imim          E311000-0 Ba Ic Lo Lt Ni                              - - - 005   -- A6 III
+0434 Mir                  C512177-6 Ic Lo Ni                                    - - - 503   -- K4 V M3 V
+0437 Vliishuug            C565222-9 Lo Ni                                       - - - 702   Sy K7 V
+0532 Kikha U              D788255-5 Lo Lt Ni                                    - - - 800   -- K6 V
+0533 Kuurashbir           E673000-0 Ba Lo Lt Ni                                 - - - 002   -- M1 V
+0632 Vliigkunnu           C647788-2 Ag Lt                                       - - - 703   -- M0 V
+0634 Andar                X554000-0 Ba Lo Lt Ni                                 - - - 004   -- K8 V
+0637 Kheirar              E200222-6 Lo Ni Va                                    - - - 223   -- G2 IV M8 V
+0638 Leaded               C436400-8 Ni                                          - - - 522   Sy M1 V
+0639 Kip                  C541211-7 Lo Ni Po                                    - - - 900   Sy K4 V M9 V
+0731 Kir                  E100000-0 Ba Lo Lt Ni Va                              - - - 025   -- G1 III
+0732 Shamkaa Un           E594000-0 Ba Lo Lt Ni                                 - - - 010   -- G2 V M9 V
+0740 Pagkaiinki           C683213-A Lt Ni                                       - - - 003   Sy G7 V
+0832 Gasadla              D100699-5 Lt Na Ni Va                                 - - - 904   -- M1 III
+0834 Linir                D563500-3 Lt Ni                                       - - - 703   H2 G2 V
+0836 Andginas             D87A522-5 Lt Ni Wa                                    - - - 113   -- G1 V
+0837 Ikni                 X8D5000-0 Ba Fl Lo Lt Ni                              - - - 024   -- K9 V
+0840 Meshiis Aar          C5446CC-9 Ag Ni                                       - - - 700   Sy K0 V
+0931 Giiuur Shii          E89A788-3 Lt Wa                                       - - - 900   -- K3 V
+0934 Paran                D898499-A Ni                                          - - - 202   H2 K4 V M2 V
+0935 Giaa                 D863977-4 Hi Lt                                       - - - 325   H2 M3 V
+0936 Phytaln              C868599-7 Ag Ni                                       - - - 502   H2 G1 V M8 V
+0937 Riga                 E692000-0 Ba Lo Lt Ni                                 - - - 024   -- F3 V M2 V
+0940 Dun                  B5504AA-A De Ni Po                                    - - - 104   Sy F8 V M5 V
+1031 Miirga Ke            E959000-0 Ba Lo Lt Ni                                 - - - 604   -- M1 V
+1032 Pibaka               B79A400-B Ni Wa                                       - - - 405   H2 M2 V M8 V
+1033 Ishduu Di            C5737BB-4 Lt                                          - - - 112   H2 K3 V
+1034 Shir                 X432000-0 Ba Lo Lt Ni Po                              - - - 002   H2 M3 V M4 V
+1037 Ardarga              E748000-0 Ba Lo Lt Ni                                 - - - 004   -- G7 V M5 V
+1038 Paba                 D667499-5 Ga Lt Ni                                    - - - 603   -- K1 V M9 V
+1039 Kipandpuu            E591000-0 Ba Lo Lt Ni                                 - - - 003   -- G0 V M7 V
+1131 Uume                 X310000-0 Ba Lo Lt Ni                                 - - - 913   -- M2 V
+1134 Shira Li             D422611-5 Lt Na Ni Po                                 - - - 420   H2 M1 V
+1136 Khaak                X95A000-0 Ba Lo Lt Ni Wa                              - - - 004   -- M1 V
+1138 Vlam                 X585000-0 Ba Lo Lt Ni                                 - - - 023   -- G0 V
+1231 Giergu               D420566-5 De Lt Ni Po                                 - - - 103   -- K3 V M2 V
+1232 Ekkur                D654155-5 Lo Lt Ni                                    - - - 500   -- M3 V
+1233 Uurgeku              X100000-0 Ba Lo Lt Ni Va                              - - - 100   -- K4 IV M0 V
+1236 Margegi              E788000-0 Ba Lo Lt Ni                                 - - - 003   -- M2 V M5 V
+1238 Valahii              E4313CC-4 Lo Lt Ni Po                                 - - - 100   -- K6 V M5 V
+1332 Welling              X420188-4 De Lo Lt Ni Po                              - - - 300   -- M1 V M3 V
+1333 Ashgu                E574622-1 Ag Lt Ni                                    - - - 621   -- F6 V
+1338 Idgi                 C430466-7 De Ni Po                                    - - - 713   -- G0 V
+1340 Kuuag                D200488-7 Ni Va                                       - - - 304   -- G7 V M3 V
+1433 Liiash               D637166-4 Lo Lt Ni                                    - - - 105   -- M3 V
+1435 Idkhuu               ?585???-? Unsurveyed                                  - - - 310   -- M3 V
+1439 Emir Ki              E200000-0 Ba Lo Lt Ni Va                              - - - 010   -- M2 V
+1440 Shishiim             X201000-0 Ba Ic Lo Lt Ni Va                           - - - 003   -- M1 V
+1531 Miar                 ?AA6???-? Unsurveyed                                  - - - 404   -- F3 V M2 V
+1536 Girper Ash           ?8C4???-? Unsurveyed                                  - - - 103   -- K3 V
+1537 Lagi                 ?431???-? Unsurveyed                                  - - - 201   -- G5 V M1 V
+1538 Tahaggur             ?554???-? Unsurveyed                                  - - - 404   -- K6 V
+1540 Kikiim               X678000-0 Ba Lo Lt Ni                                 - - - 003   -- G7 V M7 V
+1631 Liam                 ?423???-? Unsurveyed                                  - - - 103   -- M0 V
+1632 Gaapa                ?99A???-? Unsurveyed                                  - - - 723   -- K0 V
+1635 Gish                 ?756???-? Unsurveyed                                  - - - 703   -- K3 V
+1640 Ishki                X783000-0 Ba Lo Lt Ni                                 - - - 005   -- M2 V
+1733 Kasan Ar             ?764???-? Unsurveyed                                  - - - 113   -- M0 V M0 V
+1735 Arga Iirir           ?542???-? Unsurveyed                                  - - - 000   -- F8 V M6 V
+1831 Feldon               ?988???-? Unsurveyed                                  - - - 220   -- M2 V M3 V
+1832 Zaan                 ?552???-? Unsurveyed                                  - - - 915   -- K7 V
+1834 Mali                 ?432???-? Unsurveyed                                  - - - 210   -- M2 V M3 V
+1835 Khiika Ik            ?555???-? Unsurveyed                                  - - - 903   -- M0 V M1 V
+1836 Kaadaarguu           ?685???-? Unsurveyed                                  - - - 004   -- K0 V
+1837 Guurus               ?400???-? Unsurveyed                                  - - - 004   -- K0 IV M1 V
+1932 Xagra                ?400???-? Unsurveyed                                  - - - 404   -- M2 V
+1934 Giidshii             ?788???-? Unsurveyed                                  - - - 322   -- M3 V
+1935 Inir                 ?526???-? Unsurveyed                                  - - - 120   -- K2 V
+1936 Arar Mish            ?53A???-? Unsurveyed                                  - - - 603   -- F5 V
+1939 Iisaam               ?776???-? Unsurveyed                                  - - - 022   -- G8 V M3 V
+2032 Kashe                ?88A???-? Unsurveyed                                  - - - 804   -- K4 V
+2033 Guuka Shada          ?431???-? Unsurveyed                                  - - - 900   -- G4 V
+2036 Periish              ?747???-? Unsurveyed                                  - - - 803   -- M2 V
+2037 Kuza Kuundka         ?562???-? Unsurveyed                                  - - - 012   -- M0 V M0 V
+2038 Duka Kuu             ?556???-? Unsurveyed                                  - - - 924   -- M1 V
+2039 Aardaa               ?546???-? Unsurveyed                                  - - - 004   -- M2 V M7 V
+2040 Gakan                ?524???-? Unsurveyed                                  - - - 624   -- K1 V
+2133 Kir                  ?310???-? Unsurveyed                                  - - - 904   -- K4 V M2 V
+2140 Kadar                ?AA7???-? Unsurveyed                                  - - - 004   -- M2 V M8 V
+2232 Zibikiian            ?310???-? Unsurveyed                                  - - - 004   -- G8 V
+2235 Liiir                ?95A???-? Unsurveyed                                  - - - 102   -- K5 V
+2236 Strashna             ?578???-? Unsurveyed                                  - - - 700   -- F6 V M8 V M3 V
+2240 Ashan                ?86A???-? Unsurveyed                                  - - - 902   -- M2 V
+2333 Leim Ku              ?560???-? Unsurveyed                                  - - - 412   -- M3 V
+2336 Darvli Ga            ?548???-? Unsurveyed                                  - - - 311   -- G2 V M3 V
+2338 Kinshir Un           ?430???-? Unsurveyed                                  - - - 810   -- K4 V M9 V
+2340 Urgishi              ?85A???-? Unsurveyed                                  - - - 622   -- K7 V
+2432 Amir                 ?879???-? Unsurveyed                                  - - - 504   -- K7 V M9 V
+2434 Shegla Gis           ?423???-? Unsurveyed                                  - - - 210   -- K1 V
+2435 Pier Shiir           ?746???-? Unsurveyed                                  - - - 604   -- G0 V
+2439 Amambenlii           ?514???-? Unsurveyed                                  - - - 800   -- G0 V
+2532 Gaur                 ?593???-? Unsurveyed                                  - - - 712   -- G7 V
+2533 Sharkaar             ?576???-? Unsurveyed                                  - - - 004   -- K0 V M9 V
+2534 Vlain                ?410???-? Unsurveyed                                  - - - 900   -- K4 V M3 V
+2536 Lakuu                ?563???-? Unsurveyed                                  - - - 212   -- M1 V
+2538 Diindgar Vlaa        ?9B5???-? Unsurveyed                                  - - - 710   -- M1 V M5 V
+2540 Shiid                ?794???-? Unsurveyed                                  - - - 603   -- G4 V
+2632 Kuid Inmuu           ?87A???-? Unsurveyed                                  - - - 704   -- M1 V M0 V
+2635 Gavla                ?575???-? Unsurveyed                                  - - - 804   -- F5 V
+2638 Nirk                 ?996???-? Unsurveyed                                  - - - 012   -- K2 V
+2640 Tagukhassan          ?859???-? Unsurveyed                                  - - - 403   -- K1 V
+2733 Irkar Vlak           ?310???-? Unsurveyed                                  - - - 800   -- G2 V M1 V
+2734 Irshi In             ?312???-? Unsurveyed                                  - - - 004   -- M2 V M5 V
+2736 Ankii An             ?563???-? Unsurveyed                                  - - - 223   -- G1 V M2 V
+2738 Khiidnaska           ?525???-? Unsurveyed                                  - - - 804   -- K2 V M0 V
+2740 Karvla               ?797???-? Unsurveyed                                  - - - 603   -- K2 V M5 V
+2831 Gan                  ?582???-? Unsurveyed                                  - - - 014   -- K7 V M7 V
+2836 Masarma              ?99A???-? Unsurveyed                                  - - - 304   -- M0 V M9 V
+2931 Gamegaa              ?546???-? Unsurveyed                                  - - - 222   -- F7 V
+2932 Aanen                ?639???-? Unsurveyed                                  - - - 204   -- G1 V M3 V
+2933 Iru                  ?655???-? Unsurveyed                                  - - - 900   -- K7 V
+2940 Maam Aam             ?669???-? Unsurveyed                                  - - - 022   -- G1 V
+3032 Iinduugadar          ?AAA???-? Unsurveyed                                  - - - 803   -- M1 V M2 V
+3033 Marhaban             ?310???-? Unsurveyed                                  - - - 721   -- G4 V M1 V
+3035 Rashvlemannuu        ?302???-? Unsurveyed                                  - - - 303   -- K0 V
+3040 Bimmin               ?536???-? Unsurveyed                                  - - - 315   -- K2 V M0 V
+3135 Guushaag Ip          ?558???-? Unsurveyed                                  - - - 400   -- F8 V
+3137 Girzuu               ?585???-? Unsurveyed                                  - - - 003   -- G5 V
+3233 Nazuu                ?675???-? Unsurveyed                                  - - - 815   -- G3 V
+3234 Kim                  ?422???-? Unsurveyed                                  - - - 902   -- M3 V M7 V
+3235 Arpuukhamar          ?437???-? Unsurveyed                                  - - - 500   -- M2 V
+3237 Agka                 ?542???-? Unsurveyed                                  - - - 500   -- K4 V
+3238 Inlamruu             ?835???-? Unsurveyed                                  - - - 614   -- G0 V
+3240 Nir                  ?568???-? Unsurveyed                                  - - - 302   -- G9 V
