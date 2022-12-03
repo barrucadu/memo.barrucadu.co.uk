@@ -1,18 +1,21 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-11-19
+modified: 2022-12-03
 taxon: games-campaigns
 toc:
-- anchor: pitch
+- anchor: overview
+  children:
+  - anchor: pitch
+  - anchor: party
+  - anchor: game-log
 - anchor: house-rules
 - anchor: setting-bible
   children:
   - anchor: factions
   - anchor: secrets
-  - anchor: explored-hexes
-  - anchor: retainers
-- anchor: resources
+  - anchor: visited-hexes
+- anchor: resources-10
 - division: Session notes
 - anchor: session-0
 - anchor: session-1
@@ -24,31 +27,144 @@ toc:
 - anchor: session-7
 - anchor: session-8
 - anchor: session-9
+- anchor: session-10
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
 
-Pitch
------
+Overview
+--------
 
-You are a group of cartographers from the imperial capital Endon, far
-off to the south east, appointed by Royal Decree to come to the
-backwater, out-of-the-way, and downright weird Duchy of Brackenwold,
-to comprehensively map out the Dolmenwood, something the local rulers
-have somehow never managed.  And speaking of those local rulers,
-they’re not quite sure how to act with you noble folk hanging around.
-The Duchy was once a kingdom in its own right, and has been largely
-left to its own devices since being annexed by the Empire some 600
-years ago.  In principle everyone here is honour-bound to help you out
-as best they can but, well, Endon is far away and you might not find
-them as cooperative as they could be.
+### Pitch
 
-There are strange stories about the Dolmenwood, some folk say there’s
-all manner of weird fairy creatures living beneath its tangled
-branches; that it was once ruled by a fearsome frost elf known as the
-Cold Prince, who hungers to reclaim his mortal territory once more;
-and that it’s now threatened by some sort of chaos being from the
-unclaimed northlands.  These rural folk, I tell you…
+> You are a group of cartographers from the imperial capital Endon, far off to
+> the south east, appointed by Royal Decree to come to the backwater,
+> out-of-the-way, and downright weird Duchy of Brackenwold, to comprehensively
+> map out the Dolmenwood, something the local rulers have somehow never managed.
+> And speaking of those local rulers, they’re not quite sure how to act with you
+> noble folk hanging around.  The Duchy was once a kingdom in its own right, and
+> has been largely left to its own devices since being annexed by the Empire
+> some 600 years ago.  In principle everyone here is honour-bound to help you
+> out as best they can but, well, Endon is far away and you might not find them
+> as cooperative as they could be.
+>
+> There are strange stories about the Dolmenwood, some folk say there’s all
+> manner of weird fairy creatures living beneath its tangled branches; that it
+> was once ruled by a fearsome frost elf known as the Cold Prince, who hungers
+> to reclaim his mortal territory once more; and that it’s now threatened by
+> some sort of chaos being from the unclaimed northlands.  These rural folk, I
+> tell you...
+
+### Party
+
+#### Players
+
+- Jake
+- Luke
+- Taneb
+- Tara
+- William
+
+#### Characters
+
+- Molly Crumwaller (Jake)
+  - Lawful level 3 Friar
+  - **Languages:** Woldish, Liturgic
+- Ser Arfred Tolmen (Luke)
+  - Lawful level 3 Knight of House Harrowmoor
+  - **Languages:** Woldish
+- Lillibeth Lank the Scarred (Taneb):
+  - Neutral level 3 Magic-User
+  - **Languages:** Woldish, Caprice
+- Maybelle Harper (Tara):
+  - Neutral level 4 Minstrel
+  - **Languages:** Woldish, Sylvan, Gaffe
+- Brother Paulo Stoker (William):
+  - Lawful level 3 Cleric
+  - **Languages:** Woldish
+
+#### Retainers
+
+- Agnel Dregger (Maybelle)
+  - Lawful level 1 Fighter
+  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+- Joremy Wolder (Molly)
+  - Neutral level 1 Fighter
+  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+- Mollequip Tolmen (Paulo)
+  - Neutral level 1 Hunter
+  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+- Rodger Norman (Maybelle)
+  - Neutral level 1 Fighter
+  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+- Shank Malksmilk (Maybelle)
+  - Neutral level 1 Thief
+  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+
+**Treasure:** 3600gp
+
+All retainers have a single pool of coins, day-to-day income and expenses are
+ignored and don't affect its balance.  But additional purchases, like new
+equipment, do come out of the pool.
+
+- **When treasure is received:** convert to coins, discard anything below 1gp.
+- **When treasure is spent:** round up to the next gp.
+- **Every month:** subtract 10%.
+- **If a retainer leaves:** subtract an equal portion.
+
+### Game Log
+
+- **Session 0.** Discussed what sort of campaign we wanted, created characters.
+  Characters entered Dolmenwood through the Wenchgate, get robbed by the bakers.
+
+- **Session 1: Mr Rag-and-bone.** Heard about Drune in the woods to the
+  north-east, and about Violet Harrowmoor taken by bandits to the Abbey of St
+  Clewyd.  Visit the abbey, see the kids, get driven away by Mr
+  Rag-and-bone---but not before Maybelle is inflicted with death-rot!
+
+- **Session 2: Knobbled Mandrake.** Learn that death-rot can be cured with
+  knobbled mandrake.  Send word to Harrowmoor Keep about young Violet and head
+  into the woods.  A wounded elf: more tales of Drune.  Meet Azeria and find the
+  knobbled mandrake.  Return to Prigwort, get Maybelle cured, and hear that Lady
+  Harrowmoor has a reward waiting.  Finally, get Mostlemyre Drouge's "help
+  wanted" notice.
+
+- **Session 3: Stupid Sexist Trees.** Meet Mostlemyre Drouge and get the quest.
+  Explore the hexes around Prigwort.  Go loot Mr Rag-and-bone's tower, cleared
+  by the Harrowmoor knights.
+
+- **Session 4: Gorthstone.** Investigate the rumour of Drune to the north east:
+  find the Gorthstone, meet the phantom, and get driven away by two Drune.
+  Collect reward from Harrormoow Keep, and see Lord Malbleat leaving in a huff.
+  Meet Arfred's tutor-knight, Sir Abygail Twinsor.  Delve into Sir Chyde's tomb,
+  encounter the guardians, decide to leave and do some research.
+
+- **Session 5: Redcaps Eat Horses.** Research Drouge and Sir Chyde.  Arfred
+  visits Harrowmoor Keep to get knighted.  Return to Sir Chyde's tomb: save a
+  Moss Dwarf from a band of Redcaps, but barely escape with their lives.  Hire
+  more retainers: strength in numbers!  Make it to the tomb, and deal with the
+  guardians.
+
+- **Session 6: Winter's Daughter.** Do the dungeon: wish for fairy horses from
+  Princess Snowfall-at-Dusk.
+
+- **Session 7: Gorthstone, Again.** Tell Drouge what went down at Sir Chyde's
+  tomb.  Return to the Gorthstone.  Lillibeth copies down its runes.  Party
+  kills a Drune who comes to drive them away.
+
+- **Session 8: The Triple Compact.** Follow the road north-east of Prigwort to
+  Odd.  Decline to participate in sprite genocide.  Talk to the sage and learn
+  about the Triple Compact.  See the Drune doing something odd in the church at
+  night.  Bully Broobe into telling them what's up.
+
+- **Session 9: Fairy Roads.** Find the Willow Gate, and make it to King
+  Pusskin's Road with only mild time dilation.  Check out Lankshorn.  Lillibeth
+  jumps into the standing stones and is sent to the Isle of Yeth.  See the
+  frozen spires of Hoarblight Keep!  Drune capture Lillibeth!
+
+- **Session 10: Lillibeth and the Drune.** *Single-player special!* Lillibeth
+  given a quest by the Drune to help convince them that the murder was a big
+  misunderstanding.
 
 
 House Rules
@@ -595,45 +711,43 @@ Additional research with a suitable scholar or in church archives reveals:
   "Gwyrigons")
 
 
-### Explored Hexes
+### Visited Hexes
 
 - **0505---Hoarblight Keep and the Isle of Yeth**
+- **0604---Fort Vulgar and the Galoshers' Pool**
+- **0705---The Scrabey Who Forgot His Name**
 - **0710---Lankshorn and the Animal Orchestra**
 - **0711---King Pusskin's Road** (explored)
+- **0805---Prigmarinn Hill**
+- **0809---Nightworms**
 - **0906---The Ruined Abbey of St Clewyd** (explored)
 - **0907---Bafflestone** (explored)
+- **0910---Golokstone**
 - **1005---Shub's Finger and Stirge Isle** (explored)
 - **1006---The Witch Glade** (explored)
 - **1007---The Tower of Frost** (explored)
+- **1010---The House of the Harridwn**
 - **1105---Harrowmoor Keep** (explored)
-- **1106---Prigwort** (explored)
+- **1106---Prigwort and the Swinney Tower** (explored)
 - **1107---The Wyrm Cave** (explored)
 - **1108---Louper's Luncheon** (explored)
+- **1109---Woodcutter's Encampment and Frog Isle**
+- **1110---Dreg and Myrrsian's Mill**
 - **1204---The Breath of the Kelpie** (explored)
 - **1205---Gorthstone** (explored)
 - **1206---The Baker's Dozen** (explored)
+- **1209---Ferneddbole House**
 - **1304---The Hall of Sleep** (explored)
 - **1305---The Ravine of the Stag Lord** (explored)
 - **1306---The Dung Heap and The Grey Monolith** (explored)
 - **1307---The Refuge of St Keye** (explored)
+- **1309---Thirligrewe's Orchard**
 - **1403---Odd and the War of the Sprites** (explored)
 - **1404---The Merrovore and the Glaring Pylon** (explored)
 - **1406---The Golden Wood**
 - **1407---The Wenchgate**
-
-
-### Retainers
-
-**Treasure:** 3600gp
-
-All retainers have a single pool of coins, day-to-day income and expenses are
-ignored and don't affect its balance.  But additional purchases, like new
-equipment, do come out of the pool.
-
-- **When treasure is received:** convert to coins, discard anything below 1gp.
-- **When treasure is spent:** round up to the next gp.
-- **Every month:** subtract 10%.
-- **If a retainer leaves:** subtract an equal portion.
+- **1408---Moriggan's Crag**
+- **1508---Castle Brackenwold**
 
 
 Resources
@@ -1570,6 +1684,163 @@ Character descriptions & introductions, then 1407.
   - The Drune
   - Hoarblight Keep
 - Late evening
+
+
+2022-12-03 --- Session 10
+------------------------
+
+<aside class="highlight">This was a 1-on-1 Lillibeth focussed session.</aside>
+
+### Intro
+
+- Session recap
+- Talk about the Drune, the Triple Compact, the Cold Prince, etc
+
+### State
+
+- 22 Iggwyld (afternoon): clement, cheery
+- Lillibeth in 0505, facing 4 Drune cottagers, her back to a cliff
+
+### Prep
+
+- Outline:
+  - Lillibeth is disarmed and magicked (Detect Magic & Detect Illusion)
+  - Lillibeth is taken to the Drune cottage
+  - Lillibeth is interrogated
+    - Only Limnis and his family live on the island, the rest converged from
+      elsewhere in the hex when they saw Lillibeth flying in
+  3. Made to stay until Drunemoot on the night of the 24th
+     - Told that if she flees the island, her and the party will be considered
+       agents of the Cold Prince and hunted down.
+     - Deregbra will be intensely interested in her and monopolise her time if
+       possible
+     - Deregbra very proudly introduces her to Darren, her secret boyfriend from
+       Fort Vulgar, he's a *fisherman*('s son)---isn't that *wonderful?*
+  4. Be taken to Drunemoot
+- Drune characteristics:
+  - Very pale
+  - Hair is straight and black
+  - Tall
+
+#### Drune cottage
+
+- A quaint little cottage with a little vegetable garden, in a clearing
+  Lillibeth is sure wasn't there before
+- Kilnling turns its clay head and stares at Lillibeth as she approaches
+- Limnis (cottager), Polldra (drunewife), Deregbra (braithmaid), 4 other
+  children (run from Lillibeth and watch her from a safe distance)
+
+#### Interrogation
+
+- **What they want to know:**
+  - Who Lillibeth is
+  - How she got there
+  - What she knows
+  - Whether she is an agent of the Cold Prince
+- **What they know:**
+  - That the barrier at Sir Chyde's tomb was weak
+  - That Lillibeth came soaring through the air towards Hoarblight Keep
+  - The descriptions of the party at the Gorthstone (from Haygral's
+    description)---and they will connect that with Lillibeth if she mentions
+    being from Prigwort, the Gorthstone, Sir Chyde's sword, the fight, etc
+- **What they don't know:**
+  - That Sir Chyde's ghost gave the party his sword (though the sword is still
+    the property of the Drune in their eyes)
+  - That the barrier at Sir Chyde's tomb had weakened enough to allow mortals to
+    pass through
+  - That the barrier at Sir Chyde's tomb has now repaired itself
+- **What they assume:**
+  - That Lillibeth is at best a meddler planning to rob Hoarblight Keep of its
+    fairy treasures and at worst an agent of the Cold Prince working to restore
+    him---especially so if they realise Lillibeth is one of those tresspassing
+    murderers
+
+#### Drunemoot
+
+- About a dozen Drune present
+- Cadfan of the Aegis presiding
+- A misunderstanding is no excuse for murder and tresspass, but the party have
+  the opportunity to prove their honesty and make amends by assisting the
+  Drune---without asking unnecessary questions:
+  - Bring them a man from Prigwort who has been paying people in fairy coinage
+    and ice jewels for information about the Drune.
+  - This is only the first task.
+  - They will be watching.
+
+### Notes
+
+- 22 to 24 Iggwyld:
+  - **0505---Hoarblight Keep and the Isle of Yeth:**
+    - Lillibeth is honest and open with the Drune and tells them everything:
+      - Including that they all went to Frigia
+    - Deregbra befriends Lillibeth:
+      - Says that witches live for centuries and worship the Gwyrigons, "but
+        don't tell anyone I told you that, it's a secret!"
+      - Says that the ley lines make the world work, "or something, you'd have
+        to ask dad, but he wouldn't tell you"
+      - Says that the Audrunes watch over the ley lines
+    - Drunemoot:
+      - Cadfan says the party are likely not agents of the Cold Prince working
+        towards his restoration, and so have an opportunity to prove that and
+        that the whole thing was a big misunderstanding: if they assist the
+        Drune with an unspecified number of tasks.
+        - Task 1: Bring them the man from Prigwort
+
+- 25 to 27 Iggwyld:
+  - **0604---Fort Vulgar and the Galoshers' Pool:**
+    - Get directions to Lankshorn: via Castle Brackenwold, no boats across the
+      lake
+    - Discover fairy horse can't be summoned
+  - **0705---The Scrabey Who Forgot His Name:**
+    - Hear buzzing, do not investigate
+  - **0805---Prigmarinn Hill:**
+    - See the inn, hill (do not go up), and tainted river
+  - **0906---The Ruined Abbey of St Clewyd:**
+    - See church forces camped around the base of the hill
+  - **1005---Shub's Finger and Stirge Isle**
+  - **1106---Prigwort and the Swinney Tower:**
+    - Extend chest room to 20 Chysting
+    - Learn the face (but not the name) of Wymond Browne: the man the Drune are
+      interested in
+    - Discover fairy horse can be summoned
+  - **1206---The Baker's Dozen** 
+  - **1307---The Refuge of St Keye**
+  - **1407---The Wenchgate:**
+    - Bidden farewell by the faces
+  - **1508---Castle Brackenwold:**
+    - Ask for directions to Lankshorn, learn she can get to Dreg today
+  - **1408---Moriggan's Crag:**
+    - See the crag, do not investigate
+  - **1309---Thirligrewe's Orchard:**
+    - See the orchard and the Roost
+  - **1209---Ferneddbole House:**
+    - See the manor, do not investigate
+    - Start to free some trapped Barrowbogeys but then put them back
+  - **1109---Woodcutter's Encampment and Frog Isle:**
+    - Don't investigate the town, just get straight on the ferry
+  - **1110---Dreg and Myrrsian's Mill:**
+    - Stay overnight
+    - Woken up by a bar fight
+    - Weirdly dreams about being violent and enjoying it, wake up feeling
+      adrenaline, reflect on how satisfying it felt tearing apart the meaty
+      sausages last night with her teeth
+    - Decide to leave ASAP.
+  - **1010---The House of the Harridwn:**
+    - See crossroads, do not investigate
+  - **0910---Golokstone:**
+    - Sense ley line and presence of stone, do not investigate
+    - See inn
+  - **0809---Nightworms:**
+    - See the worms, do not investigate
+  - **0710---Lankshorn and the Animal Orchestra:**
+    - Arrive around noon!
+
+### Next time
+
+- 22 Iggwyld: clement, cheery
+- Evening
+- Party in 0710
+- Party stick to the vicinity until 27 Iggwyld to reunite with Lillibeth
 
 
 2022-MM-DD --- Session N
