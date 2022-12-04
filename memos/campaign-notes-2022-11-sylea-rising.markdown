@@ -1,13 +1,13 @@
 ---
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
-published: 2022-11-27
+published: 2022-12-04
 toc:
 - anchor: overview
   children:
   - anchor: pitch
-  - anchor: foot-view
-  - anchor: roadmap
+  - anchor: party
+  - anchor: game-log
 - anchor: house-rules
 - anchor: setting-bible
   children:
@@ -15,16 +15,31 @@ toc:
   - anchor: timeline
   - anchor: polities-of-lishun-sector
   - anchor: factions
-- anchor: party
 - anchor: resources
 - division: Session notes
 - anchor: session-0
+- anchor: session-1
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
 
 Overview
 --------
+
+We're using **Traveller** to play a **post-post-apocalypse exploration-focussed
+campain**.  We're using a custom setting derived from the official Traveller
+lore, but aren't worrying about slavishly sticking to that: **published lore is
+an inspiration, not a constraint**.
+
+There's **no overarching plot or set game length**, this is an **episodic**
+campaign which we'll play for as long as it's fun.  We want **lots of
+exploration**, **character stories** as well as **space stories**, and
+**small-scale politics**.  **Interstellar politics is in the background**, we're
+not directly interacting with that sort of thing.
+
+We play a pretty grounded game: **actions have consequences** and **you can
+die**, but it's **not a meatgrinder**.  Also **space-magic is silly**, if it
+does come up at all, **psionics is only for a very rare big-boss NPC**.
 
 ### Pitch
 
@@ -56,22 +71,67 @@ Overview
 > into something even greater, so there's plenty of scope for this to turn into
 > a more political game if you want.
 
-### 10,000-Foot View
+### Party
 
-We're using **Traveller** to play a **post-post-apocalypse exploration-focussed
-campain**.  We're using a custom setting derived from the official Traveller
-lore, but aren't worrying about slavishly sticking to that: **published lore is
-an inspiration, not a constraint**.
+#### Players
 
-There's **no overarching plot or set game length**, this is an **episodic**
-campaign which we'll play for as long as it's fun.  We want **lots of
-exploration**, **character stories** as well as **space stories**, and
-**small-scale politics**.  **Interstellar politics is in the background**, we're
-not directly interacting with that sort of thing.
+- Doremy
+- Rakka
+- Yuyuko
+  - Lines: isopods
+  - Veils: isms
 
-We play a pretty grounded game: **actions have consequences** and **you can
-die**, but it's **not a meatgrinder**.  Also **space-magic is silly**, if it
-does come up at all, **psionics is only for a very rare big-boss NPC**.
+#### Characters
+
+- Sly Dirk (Doremy): pilot, astrogator, fighter
+  - Spent years as a drifter, tried to break out into other careers but never
+    quite made it.
+  - **Ally:** Marja Aguilar, a bounty hunter whose life Sly saved on the wastes
+    of 1038 Paba.  Has a wicked facial scar.  Once muscular but has gone a bit
+    soft.  Now manager of a Lamarck Minerals mining station in 0731 Kir.
+  - **Ally:** ??? (barbarian)
+  - **Enemy:** ??? (barbarian)
+  - **Enemy:** ??? (merchant)
+
+- Tama Nourvukaiken (Rakka): face, fighter
+  - Got his start in life in the military, but after getting betrayed by his
+    commander became a gang enforcer.
+  - **Ally:** ??? (fellow criminal)
+  - **Rival:** ??? (military school)
+  - **Enemy:** ??? (military unit commander)
+
+- Vega Polaris (Yuyuko): pilot, engineer, boffin
+  - Long career as a scientist, before deciding to work more closely with her
+    audience by becoming a journalist: it didn't work out.
+
+#### Ships
+
+- Gemini: lab ship
+  - **Leaky Reactor Core:** roll `2D` when the ship jumps, on a 12, all crew
+    suffer `2D x 20` rads.
+  - **Damaged sensors:** `DM-1` to all `Electronics (sensors)` checks.
+  - **Double maintenance costs.**
+
+- Li'l Gemini: pinnace
+
+### Game Log
+
+- **Session 0.** Decided what sort of campaign we wanted, created characters:
+  all ready for session 1!
+
+- **Session 1: Murder on Arcturus Station (1).** Threw themselves into the deep end
+  by shooting Urshukaan themselves.  Interviewed Martin, Sharik, Chaijin, Moshe,
+  Eayukheal.  Suspect Eayukheal did it.
+
+- **Session 2: Murder on Arcturus Station (2).** Upcoming!
+
+**Future:**
+
+- Witchburner (maybe?)
+
+**Adventure templates:**
+
+- Transport a survey team to a new world and shenanigans happen
 
 #### An action-packed period of history
 
@@ -82,18 +142,6 @@ Every in-game month:
 
 Players hear of any developments close to the start of the session: newspapers,
 TV or radio broadcasts, overheard talk, etc.
-
-### Roadmap
-
-1. Murder on Arcturus Station
-
-**Future:**
-
-- Witchburner (maybe?)
-
-**Adventure templates:**
-
-- Transport a survey team to a new world and shenanigans happen
 
 
 House Rules
@@ -354,12 +402,6 @@ Faction turn procedure:
 Factions clocks: **TODO**
 
 
-Party
------
-
-The player characters and shared party stuff (eg, a spaceship).
-
-
 Resources
 ---------
 
@@ -504,9 +546,12 @@ Links to things.
 
 ### Next time
 
-- Ship sheets:
-  - Lab Ship
-  - Pinnace
+- Ships:
+  - Names!
+  - Lab Ship sheet
+  - Pinnace sheet
+  - Map
+  - Locker
 - Prepare local region:
   - Flesh out major factions, worlds, and NPCs
   - Random encounter table(s)
@@ -514,6 +559,275 @@ Links to things.
   - Make Marja Aguilar one of the PC's allies
   - Pick a border world and tie it into Sylean politics
 - Rumours, etc, to drive future adventures
+
+
+2022-12-04 --- Session 1
+------------------------
+
+### Intro
+
+- Tweaked worlds (starport quality & tech level)
+- Change scene
+- Meeting with Marja about finishing the previous job:
+  - Marja is Sly's ally
+  - Character intros
+  - They found a stolen ore carrier, saving Lamarck Minerals hundreds of
+    millions of credits
+  - The president, Ringiil Urshukaan, will pay them Cr50,000 each!
+- *Death on Station Three*
+- Mission start!
+
+### Prep
+
+#### Murder on Arcturus Station
+
+- Relocation:
+  - s/Arcturus/Kir
+  - s/Heraklion/Khuun
+  - s/Scaramouche/Sketola (Interstellar Confederacy)
+
+##### Suspects
+
+- **Katarin Xuan---Murderer!**
+  - *Alibi:* was in her room all night, alone
+  - *Motive:* **Urshukaan** beats her, and was planning to drop her, penniless
+  - *Discovery:*
+    - **Martin's** testimony
+    - **Moshe's** testimony
+    - In **Urshukaan's** party
+  - *Clues:*
+    - **Urshukaan** was stabbed in the back in his bedroom with no signs of a
+      struggle, only someone close to him could do that
+    - Message sent to **Moshe's** room just after the murder
+    - Lies about **Eayukheal's** location
+    - Traces of **Urshukaan's** blood on her dagger
+    - Door to **Urshukaan's** suite is not fully shut (only visible from her side)
+  - Claims to have seen **Eayukheal** going towards **Urshukaan's** rooms just
+    before 22:00.
+  - Decided to kill **Urshukaan** days ago, and so left her door slightly open
+    so she could come and go without his permission.
+  - Has no idea that the station logs door usage.
+
+- **Moshe Srinivasan**
+  - *Alibi:* in the infirmary
+  - *Motive:* **Katarin's** ex-fiance, blames **Urshukaan** for stealing her
+    away
+  - *Discovery:* automatic (incident)
+  - *Clues:* station records give watertight alibi
+  - Very uncooperative, reaction checks gain DM-2.
+  - Knows, but will not reveal, **Katarin's** motive.
+  - Denies receiving a message from **Katarin**.
+
+- **Sharik Urshukaan (Kashin Thanh)**
+  - *Alibi:* was in her room all night, alone
+  - *Motive:* **Urshukaan** has cut her off from money, but never divorced her
+    so she is still his heir
+  - *Discovery:*
+    - **Martin's** testimony
+    - **Urshukaan's** files
+    - **Urshukaan's** bio
+  - *Clues:* none
+  - Initially denies that she went to see **Urshukaan** at all.
+  - Genuinely sad that **Urshukaan** is dead: she wanted him sued, not killed.
+
+- **Martin Lukargik**
+  - *Alibi:* in the office
+  - *Motive:* **Urshukaan** was denying him a promotion
+  - *Discovery:* automatic (cutscene)
+  - *Clues:*
+    - Small window of opportunity: logged into a computer just after the
+      earliest possible time of death, logged out after the last possible
+    - If he is the murderer, what's up with the door logs?
+  - Wrongly believes that **Eayukheal** committed the murder and freely admits
+    this, commenting how quickly **Eayukheal** came to demand **Urshukaan's**
+    files after the death was made public.
+  - Doesn't know that **Kashin Thanh** is **Sharik**.
+  - Knows that **Urshukaan** and **Katarin** were fighting, suspects her motive.
+  - Weirdly happy that **Urshukaan** is dead, says his loyalty is to the company
+    not to the man, and that **Urshukaan** was running the company into the
+    ground.
+
+- **Oojan M'Banke**
+  - *Alibi:* at a union rally
+  - *Motive:* **Ushukaan** is blackmailing him to sabotage a vote
+  - *Discovery:*
+    - **Urshukaan's** files
+    - Comm logs
+    - Bartender overhears him talking to **Bortai** about how to deal with "our
+      common problem"
+  - *Clues:*
+    - **Bortai** and miners can support alibi
+
+- **Bortai Narayanam**
+  - *Alibi:* at a union rally
+  - *Motive:* **Urshukaan** is threatening her family if she continues her union
+    activities
+  - *Discovery:* automatic (incident)
+  - *Clues:*
+    - **Oojan** and miners can support alibi
+    - Her knife is clean
+  - Is very cooperative.
+
+- **Eayukheal**
+  - *Alibi:* none volunteered
+  - *Motive:* **Urshukaan** demands he dishonour his family
+  - *Discovery:* automatic (incident)
+  - *Clues:*
+    - Aslan honour rules out stabbing someone in the back
+    - Seen in the office at 22:00 (after the last possible time of death)
+    - Narrow window of opportunity: office logs suggest he was there from 21:15
+    - **Katarin** lies about his location on the night of the murder
+  - Taciturn, just says "I did not kill him, I will say no more." but could be
+    goaded by accusing him of backstabbing.
+
+- **Chaijin Davis**
+  - *Alibi:* in the casino
+  - *Motive:* part of an extremist faction who want the Interstellar Confederacy free again
+  - *Discovery:* automatic (Marja)
+  - *Clues:* none (pure red herring)
+  - Is very cooperative.
+  - Initially assumes he's been locked up due to not paying his room fees.
+
+##### Incidents
+
+- **Before the meeting:** Moshe being ejected by Urshukaan's bodyguard, yelling
+  "Let me see him!  I'll fucking kill him if he touches her again, that rat
+  bastard!"
+
+- **Leaving the meeting:** Martin tells Urshukaan "Miss Narayanam is here to see
+  you", Urshukaan replies "Finally, lets get this bloody farce over with.  Show
+  her in!"  A grim-faced woman is brought in.
+
+- **That evening:** Urshukaan browbeating Eayukheal in a corridor: "Look, you
+  made your mistake and it's time you got used to living with it.  You're mine,
+  for as long as I care to use you, you understand me?  Or would you prefer I
+  get your family involved in this?"  "No sir."
+
+##### Clues
+
+- The famed Aslan sense of honour
+- Katarin's dagger has trace amounts of Urshukaan's and Moshe's blood
+- **The body:**
+  - Bruises on face and body from blunt impact (Moshe's fists)
+  - Fatal stab wound in the back (Katarin's dagger)
+  - Blood wiped on the back of the shirt (Katarin's dagger)
+  - Time of death can be worked out as 21:00 to 21:30
+- **Urshukaan's suite:**
+  - Signs of the main door being forced open (Moshe's entrance)
+  - No signs that the side door has been forced or tampered with in any way (except possibly by hacking)
+  - **Office:**
+    - In disarray, some rudimentary cleanup done
+    - Droplets of blood (Moshe's, from being slashed)
+    - Computer terminal, password-protected
+    - A loaded but unfired pistol in a drawer under the terminal
+    - Notebook
+  - **Bedroom:**
+    - Marker on the floor where the body was discovered, lying face down
+    - No signs of a struggle
+    - Bed unmade
+    - Glass of good-quality brandy, half-empty
+- **Urshukaan's files:**
+  - **Eayukheal:** details of Eayukheal's backstory (pages 52 and 41) and blackmail
+  - **Financials:** extensive financial reports, showing the business started doing much worse shortly after Urshukaan began talking to Ling-Standard
+  - **Ind. Belt:** details of Oojan's backstory (pages 58 and 38) and blackmail
+  - **L4-M7:** report on the crash (page 61) showing it was due to faulty components that should have been replaced, and on how much money was saved by suppressing this
+  - **Ling-Standard:** record of correspondance, job offer, and veiled hints of reward for worthwhile information
+  - **Lukargik:** record of Urshukaan denying Martin promotions for the past two years, despite his excellent record and recommendations for advancement
+  - **Narayanam:** information on the whereabouts, habits, and movements of Bortai Narayanam's family on Khuun
+  - **Sharik:** material being collected as a defence against Sharik Urshukaan's lawsuit
+- **Station files:**
+  - Listing of Urshukaan's party: Urshukaan, Katarin, Martin, Enli, Eayukheal
+  - Recordings of video messages:
+    - Urshukaan's call at 19:45: Urshukaan has a black eye forming
+  - Door access logs:
+    - For the Katarin / Urshukaan door, shows that it was used once a few days
+      ago when they all arrived, and hasn't been used since (despite Martin able
+      to confirm that she's visited multiple times).
+  - Comm logs (but not their contents):
+    - Urshukaan to Oojan at 16:00
+    - Oojan to off-station at 17:00
+    - Urshukaan to Katarin at 20:50
+    - Katarin to Moshe at 21:30
+  - Authentication logs:
+    - Martin logged in from the office at 21:05 and logged out at 22:15
+    - Many attempts to login as Urshukaan from the office from 21:15 to 22:00
+  
+##### Timeline
+
+- **Previous Day:** Urshukaan and Katarin have a fight.  Urshukaan confiscates her dagger.
+- **Previous Night:** Chaijin Davis seen by station personnel calling for Urshukaan's death.
+- **13:55** Incident 1: Moshe seen yelling to see Urshukaan.
+- **14:00** Urshukaan says he won't be paying the Travellers.
+- **14:10** Incident 2: Urshukaan seen calling in Bortai.
+- **16:00** Urshukaan sends a message to Oojan demanding he agree to his terms.
+- **17:00** Oojan sends a message to the IBA asking to postpone the vote.
+- **17:30** Oojan and Bortai meet in the casinoto discuss how to "deal with our common problem", overheard by the bartender.
+- **18:30** Incident 3: Urshukaan seen browbeating Eayukheal.  Enli stands back watching.
+- **18:45** Enli falls down a flight of stairs, breaking his leg and being taken to the infirmary.
+- **19:00** Eayukheal returns to his room.
+- **19:00** Urshukaan and Martin return to suite.
+- **19:05** Martin sent out to do errands: seen at various places around the station.
+- **19:30** Moshe forces his way into the room and fights with Urshukaan.  Urshukaan badly cuts him with Katarin's dagger.
+- **19:40** Moshe checks into the infirmary with his wound.
+- **19:45** Urshukaan video calls for a cleanup crew in the morning.
+- **20:00** Martin returns to suite.
+- **20:15** Sharik (under her assumed name) tries to see Urshukaan on a matter "of great importance".  Martin conveys her request to Urshukaan but, without opening the door, Urshukaan just yells that he's not seeing anyone else tonight.
+- **20:30** Oojan and Bortai go to a union rally.
+- **20:50** Urshukaan summons Katarin.  Katarin comes in the side door, and so is not seen by Martin.
+- **20:55** Eayukheal goes to office.
+- **21:00** Urshukaan dismisses Martin for the evening.
+- **21:05** Martin goes to office and logs into computer.
+- **21:10** Katarin stabs Urshukaan in the back with her dagger, killing him.  Katarin cleans her dagger and leaves, taking it with her.
+- **21:20** Katarin leaves suite through the side door.
+- **21:30** Katarin sends a message to Moshe's room, confessing to the crime and saying they need to escape.
+- **22:00** Eayukheal discovered by a security guard in the office trying to hack into Urshukaan's files.  Knocks out the guard.
+- **22:15** Martin logs out of office computer.
+- **22:30** Martin discovers Urshukaan's body and calls station security.
+- **23:00** Moshe checks out of the infirmary.
+- **23:05** Eayukheal returns to his room.
+- **23:10** Station security detain Chaijin.
+- **23:45** Marja calls the Travellers, briefs them, suggests they start with Chaijin and Martin.
+- **08:00** Urshukaan's death is made public.
+- **08:05** Eayukheal demands Urshukaan's files from Martin, is turned away.
+
+### Notes
+
+- **Beforehand:**
+  - Shoot Urshukaan because he won't pay them, get dragged away by security
+
+- **Day 1:**
+  - **00:00--01:00 (all)** Check out the murder location, determine the Space Booze isn't poisoned and the disposal chutes don't have any knives in them
+  - **08:00--09:00 (all)** Check out security cameras: learn that there are none
+  - **09:00--11:00 (Sly & Vega)** Examine body: work out that it was the stab wound which killed Urshukaan, and the approximate time of death
+  - **09:00--10:00 (Tama)** Check out door access logs: 1 to 14
+  - **10:00--11:00 (Tama)** Talk to Martin: get timeline and hear that he thinks Eayukheal did it
+  - **11:00--12:00 (Tama)** Check out door access logs: 1 to 13; 1 to 5; 9 to suite
+  - **12:00--13:00 (all)** Space Lunch
+  - **13:00--15:00 (all)** Find and talk to Kashin Thanh
+  - **15:00--39:00 (Vega)** Unsuccessful hacking attempt (24 hours)
+  - **15:00--19:00 (Tama)** Search suite (don't find notebook)
+  - **15:00--16:00 (Sly)** Talk to Chaijin, get him released
+  - **19:00--22:00 (Tama)** Carouse: learn Urshukaan is a dick and Eayukheal's been with him forever
+
+- **Day 2:**
+  - **08:00--10:00 (Sly)** Find and talk to Moshe: says he was in the infirmary
+  - **08:00--10:00 (Tama)** Talk to Eayukheal
+  - **10:00--11:00 (Sly)** Confirm Moshe was in the infirmary
+
+### Next time
+
+- Murder on Arcturus Station!
+  - Day 2, 10:00
+  - Marja calls to say the knocked out guard is up, and saw Eayukheal in the
+    computer room at 22:00
+  - Upcoming:
+    - Day 3 12:00: detective arrives
+    - Day 5 17:00: deadline
+
+- By the first space mission:
+  - What's in the ship's locker?
+  - Faction goals
+  - Random space encounter tables
 
 
 2023-MM-DD --- Session N

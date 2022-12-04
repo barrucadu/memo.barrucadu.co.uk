@@ -306,47 +306,47 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 0122 Lakhii               ?584???-? Unsurveyed                                  - - - 303   -- G9 V M1 V
 0124 Kikheukuu            ?425???-? Unsurveyed                                  - - - 003   -- K0 V M7 V
 0125 Lirla                ?9C5???-? Unsurveyed                                  - - - 614   -- K1 V
-0128 Lemishlar            X543000-0 Ba Lo Lt Ni Po                              - - - 021   -- G0 V M4 V
-0130 Voyd                 C4246AA-7 Ni                                          - - - 402   -- K9 V M7 V
+0128 Lemishlar            E543000-0 Ba Lo Lt Ni Po                              - - - 021   -- G0 V M4 V
+0130 Voyd                 D424870-A                                             - - - 402   -- K9 V M7 V
 0221 Magi                 ?000???-? Unsurveyed                                  - - - 103   -- K3 V
 0222 Dimuun               ?677???-? Unsurveyed                                  - - - 511   -- M0 V
 0223 Arkig Khuuir         ?599???-? Unsurveyed                                  - - - 710   -- M2 V
-0227 Shuna                B585644-6 Ag Ni Ri                                    - - - 912   -- G5 V M4 V
-0228 Erna                 X865000-0 Ba Ga Lo Lt Ni                              - - - 013   -- M3 V
+0227 Shuna                C585580-7 Ag Ni                                       - - - 912   -- G5 V M4 V
+0228 Erna                 E865530-4 Ag Ga Lt Ni                                 - - - 013   -- M3 V
 0321 Ina Iime             ?424???-? Unsurveyed                                  - - - 702   -- G2 V M3 V
-0427 Mapkha               C623633-7 Na Ni Po                                    - - - 900   H1 G7 V
-0429 Kiimin               X420000-0 Ba De Lo Lt Ni Po                           - - - 010   -- M2 V
-0526 Amne Suur            DAE5522-4 Fl Lt Ni                                    - - - 300   H1 M2 V M8 V
-0527 Giiga                C000255-9 As Lo Ni Va                                 - - - 703   H1 M1 V
-0529 Ishgu                E000266-7 As Lo Ni Va                                 - - - 413   -- G4 V M7 V
-0530 Biaz Ven             D5457BB-1 Ag Lt                                       - - - 222   -- K2 V M9 V
+0427 Mapkha               C623450-7 Ni Po                                       - - - 900   H1 G7 V
+0429 Kiimin               D420470-7 De Ni Po                                    - - - 010   -- M2 V
+0526 Amne Suur            XAE5420-1 Fl Lt Ni                                    - - - 300   H1 M2 V M8 V
+0527 Giiga                D000201-B As Lo Ni Va                                 - - - 703   H1 M1 V
+0529 Ishgu                E000000-0 As Ba Lo Lt Ni Va                           - - - 413   -- G4 V M7 V
+0530 Biaz Ven             E545220-4 Lo Lt Ni                                    - - - 222   -- K2 V M9 V
 0621 Luukhikii            ?786???-? Unsurveyed                                  - - - 024   -- K7 V
 0622 Giin Uur             ?613???-? Unsurveyed                                  - - - 603   -- M3 V G5 V
 0623 Nuuiim I             ?575???-? Unsurveyed                                  - - - 300   -- K0 V
-0625 Iindir Za            E885322-3 Ga Lo Lt Ni                                 - - - 710   H1 G9 V
-0626 Gishgi               D3005BB-A Ni Va                                       - - - 100   H1 K4 V
+0625 Iindir Za            D885851-8 Ga Ri                                       - - - 710   H1 G9 V
+0626 Gishgi               C300230-A Lo Ni Va                                    - - - 100   H1 K4 V
 0628 Kash                 X560000-0 Ba De Lo Lt Ni                              - - - 003   H1 G3 V M8 V
 0722 Tonnes               ?897???-? Unsurveyed                                  - - - 200   -- G6 V M9 V
 0723 Ixteline             ?524???-? Unsurveyed                                  - - - 210   -- G9 V M5 V
-0725 Ashde                B657500-6 Ag Ga Ni                                    - - - 602   H1 K6 V
-0726 Zaamimaar            D402600-6 Ic Na Ni Va                                 - - - 800   H1 K2 III
-0728 Kaer                 B570555-9 De Ni                                       - - - 603   H1 F3 V
-0729 Zuuir                B561866-5 Lt Ri                                       - - - 621   -- K8 V M5 V
-0730 Khaaruu              E551000-0 Ba Lo Lt Ni Po                              - - - 022   -- M1 V M4 V
-0826 Ipvlimmaarir         EA9A000-0 Ba Lo Lt Ni Wa                              - - - 020   H1 K7 V
-0827 Kadim                X768000-0 Ba Lo Lt Ni                                 - - - 023   H1 M2 V
-0829 Shuuin Aep           D5241AA-3 Lo Lt Ni                                    - - - 100   -- K5 V M6 V
-0830 Armishidiir          C547566-5 Ag Lt Ni                                    - - - 214   -- G0 V M0 V
+0725 Ashde                C657400-8 Ga Ni                                       - - - 602   H1 K6 V
+0726 Zaamimaar            C402100-C Ht Ic Lo Ni Va                              - - - 800   H1 K2 III
+0728 Kaer                 C570420-A De Ni                                       - - - 603   H1 F3 V
+0729 Zuuir                X561000-0 Ba Lo Lt Ni                                 - - - 621   -- K8 V M5 V
+0730 Khaaruu              D551770-7 Po                                          - - - 022   -- M1 V M4 V
+0826 Ipvlimmaarir         BA9A980-C Hi Ht In Wa                                 - - - 020   H1 K7 V
+0827 Kadim                E768400-5 Lt Ni                                       - - - 023   H1 M2 V
+0829 Shuuin Aep           D524330-4 Lo Lt Ni                                    - - - 100   -- K5 V M6 V
+0830 Armishidiir          E547000-0 Ba Lo Lt Ni                                 - - - 214   -- G0 V M0 V
 0921 Gisharzuush          ?965???-? Unsurveyed                                  - - - 600   -- G7 V M4 V
 0922 Arkkir Ir            ?595???-? Unsurveyed                                  - - - 303   -- K0 V
 0923 Amar                 ?584???-? Unsurveyed                                  - - - 313   -- K7 V
-0927 Laadliag             E97A000-0 Ba Lo Lt Ni Wa                              - - - 004   H1 G3 V
-0928 Ushiin Uur           C687422-7 Ga Ni                                       - - - 510   -- M0 V M9 V
-0929 Irmash               E897588-1 Ag Lt Ni                                    - - - 802   -- M1 V
-0930 Nigi                 X845400-1 Lt Ni                                       - - - 604   -- K6 V M8 V
-1026 Zammii A             X643000-0 Ba Lo Lt Ni Po                              - - - 010   -- G7 V
-1027 Kinmuum              X628166-1 Lo Lt Ni                                    - - - 304   -- M2 V
-1028 Indmen               E8C8311-5 Fl Lo Lt Ni                                 - - - 902   -- M3 V
+0927 Laadliag             C97A870-C Ht Wa                                       - - - 004   H1 G3 V
+0928 Ushiin Uur           E687650-5 Ag Ga Lt Ni Ri                              - - - 510   -- M0 V M9 V
+0929 Irmash               E897000-0 Ba Lo Lt Ni                                 - - - 802   -- M1 V
+0930 Nigi                 E845000-0 Ba Lo Lt Ni                                 - - - 604   -- K6 V M8 V
+1026 Zammii A             B643651-A Ni Po                                       - - - 010   -- G7 V
+1027 Kinmuum              E628200-5 Lo Lt Ni                                    - - - 304   -- M2 V
+1028 Indmen               X8C8000-0 Ba Fl Lo Lt Ni                              - - - 902   -- M3 V
 1121 Irpi                 ?744???-? Unsurveyed                                  - - - 613   -- M0 V
 1125 Darkhamaar           ?524???-? Unsurveyed                                  - - - 420   -- M2 V
 1221 Ama Shuun            ?000???-? Unsurveyed                                  - - - 813   -- G4 V
@@ -456,83 +456,83 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 3227 Liirandle            ?550???-? Unsurveyed                                  - - - 713   -- K9 V M7 V
 3229 Vluragedkuu          ?689???-? Unsurveyed                                  - - - 334   -- F9 V M3 V M0 V
 3230 Gir                  ?AC8???-? Unsurveyed                                  - - - 512   -- K2 V
-0132 Khauur Kiim          E797000-0 Ba Lo Lt Ni                                 - - - 010   H3 G7 V
-0133 Khashar Erliir       C655255-5 Ga Lo Lt Ni                                 - - - 100   H3 M0 V
-0134 Uundas               D437670-A Ni                                          - - - 012   H3 M2 V
-0136 Kar                  C675611-9 Ag Ni                                       - - - 804   Sy G0 V
-0138 Khisha               X427000-0 Ba Lo Lt Ni                                 - - - 012   Sy M2 V
-0139 Ishuunkhiiig         E744000-0 Ba Lo Lt Ni                                 - - - 013   Sy M2 V
-0140 Vodyr                E7823BB-2 Lo Lt Ni                                    - - - 114   Sy G8 V
-0232 Khuun                C646433-7 Ni                                          - - - 013   H3 G1 V
-0234 Luugam               E583733-2 Lt                                          - - - 814   H3 K4 V
-0235 Sikiinili            C310833-8 Na                                          - - - 210   H3 M2 V
-0236 Raluug               A524824-A                                             - - - 813   Sy M3 V M8 V
-0237 Sulai                E422488-6 Ni Po                                       - - - 920   Sy M0 V
-0239 Khaimvluu            E6B5133-4 Fl Lo Lt Ni                                 - - - 204   Sy F2 V
-0331 Shuun                E9B5733-2 Fl Lt                                       - - - 932   -- F1 V
+0132 Khauur Kiim          C797672-9 Ag Ni                                       - - - 010   H3 G7 V
+0133 Khashar Erliir       C655850-9 Ga                                          - - - 100   H3 M0 V
+0134 Uundas               C437640-A Ni                                          - - - 012   H3 M2 V
+0136 Kar                  B675960-9 Hi In                                       - - - 804   Sy G0 V
+0138 Khisha               X427200-3 Lo Lt Ni                                    - - - 012   Sy M2 V
+0139 Ishuunkhiiig         D744740-5 Ag Lt                                       - - - 013   Sy M2 V
+0140 Vodyr                E782760-2 Lt Ri                                       - - - 114   Sy G8 V
+0232 Khuun                C646432-9 Ni                                          - - - 013   H3 G1 V
+0234 Luugam               D583430-6 Ni                                          - - - 814   H3 K4 V
+0235 Sikiinili            C310640-B Na Ni                                       - - - 210   H3 M2 V
+0236 Raluug               A524740-A                                             - - - 813   Sy M3 V M8 V
+0237 Sulai                X422000-0 Ba Lo Lt Ni Po                              - - - 920   Sy M0 V
+0239 Khaimvluu            D6B59B0-8 Fl Hi                                       - - - 204   Sy F2 V
+0331 Shuun                B9B5880-7 Fl                                          - - - 932   -- F1 V
 0332 Luukhuu              E000000-0 As Ba Lo Lt Ni Va                           - - - 000   -- M0 V M2 V M8 V
-0334 Urgiir Shi           E795333-4 Lo Lt Ni                                    - - - 414   H3 G1 V
-0335 Sirkhiuur            E403400-7 Ic Ni Va                                    - - - 103   H3 M0 V
-0336 Gadi                 E310000-0 Ba Lo Lt Ni                                 - - - 013   -- M3 V
-0337 Angi                 B556333-9 Lo Ni                                       - - - 520   Sy G3 V M6 V
-0338 Gidzuurk La          D947199-4 Lo Lt Ni                                    - - - 502   Sy G0 V M7 V
-0431 Khuupa Imim          E311000-0 Ba Ic Lo Lt Ni                              - - - 005   -- A6 III
-0434 Mir                  C512177-6 Ic Lo Ni                                    - - - 503   -- K4 V M3 V
-0437 Vliishuug            C565222-9 Lo Ni                                       - - - 702   Sy K7 V
-0532 Kikha U              D788255-5 Lo Lt Ni                                    - - - 800   -- K6 V
-0533 Kuurashbir           E673000-0 Ba Lo Lt Ni                                 - - - 002   -- M1 V
-0632 Vliigkunnu           C647788-2 Ag Lt                                       - - - 703   -- M0 V
+0334 Urgiir Shi           D795210-4 Lo Lt Ni                                    - - - 414   H3 G1 V
+0335 Sirkhiuur            E403660-5 Ic Lt Na Ni Va                              - - - 103   H3 M0 V
+0336 Gadi                 D310530-7 Ni                                          - - - 013   -- M3 V
+0337 Angi                 C556521-6 Ag Ni                                       - - - 520   Sy G3 V M6 V
+0338 Gidzuurk La          D947450-4 Lt Ni                                       - - - 502   Sy G0 V M7 V
+0431 Khuupa Imim          E311580-8 Ic Ni                                       - - - 005   -- A6 III
+0434 Mir                  X512000-0 Ba Ic Lo Lt Ni                              - - - 503   -- K4 V M3 V
+0437 Vliishuug            B565310-8 Lo Ni                                       - - - 702   Sy K7 V
+0532 Kikha U              D788452-7 Ni                                          - - - 800   -- K6 V
+0533 Kuurashbir           D673322-3 Lo Lt Ni                                    - - - 002   -- M1 V
+0632 Vliigkunnu           E647351-3 Lo Lt Ni                                    - - - 703   -- M0 V
 0634 Andar                X554000-0 Ba Lo Lt Ni                                 - - - 004   -- K8 V
-0637 Kheirar              E200222-6 Lo Ni Va                                    - - - 223   -- G2 IV M8 V
-0638 Leaded               C436400-8 Ni                                          - - - 522   Sy M1 V
-0639 Kip                  C541211-7 Lo Ni Po                                    - - - 900   Sy K4 V M9 V
-0731 Kir                  E100000-0 Ba Lo Lt Ni Va                              - - - 025   -- G1 III
-0732 Shamkaa Un           E594000-0 Ba Lo Lt Ni                                 - - - 010   -- G2 V M9 V
-0740 Pagkaiinki           C683213-A Lt Ni                                       - - - 003   Sy G7 V
-0832 Gasadla              D100699-5 Lt Na Ni Va                                 - - - 904   -- M1 III
-0834 Linir                D563500-3 Lt Ni                                       - - - 703   H2 G2 V
-0836 Andginas             D87A522-5 Lt Ni Wa                                    - - - 113   -- G1 V
-0837 Ikni                 X8D5000-0 Ba Fl Lo Lt Ni                              - - - 024   -- K9 V
-0840 Meshiis Aar          C5446CC-9 Ag Ni                                       - - - 700   Sy K0 V
-0931 Giiuur Shii          E89A788-3 Lt Wa                                       - - - 900   -- K3 V
-0934 Paran                D898499-A Ni                                          - - - 202   H2 K4 V M2 V
-0935 Giaa                 D863977-4 Hi Lt                                       - - - 325   H2 M3 V
-0936 Phytaln              C868599-7 Ag Ni                                       - - - 502   H2 G1 V M8 V
-0937 Riga                 E692000-0 Ba Lo Lt Ni                                 - - - 024   -- F3 V M2 V
-0940 Dun                  B5504AA-A De Ni Po                                    - - - 104   Sy F8 V M5 V
-1031 Miirga Ke            E959000-0 Ba Lo Lt Ni                                 - - - 604   -- M1 V
-1032 Pibaka               B79A400-B Ni Wa                                       - - - 405   H2 M2 V M8 V
-1033 Ishduu Di            C5737BB-4 Lt                                          - - - 112   H2 K3 V
-1034 Shir                 X432000-0 Ba Lo Lt Ni Po                              - - - 002   H2 M3 V M4 V
-1037 Ardarga              E748000-0 Ba Lo Lt Ni                                 - - - 004   -- G7 V M5 V
-1038 Paba                 D667499-5 Ga Lt Ni                                    - - - 603   -- K1 V M9 V
-1039 Kipandpuu            E591000-0 Ba Lo Lt Ni                                 - - - 003   -- G0 V M7 V
-1131 Uume                 X310000-0 Ba Lo Lt Ni                                 - - - 913   -- M2 V
-1134 Shira Li             D422611-5 Lt Na Ni Po                                 - - - 420   H2 M1 V
-1136 Khaak                X95A000-0 Ba Lo Lt Ni Wa                              - - - 004   -- M1 V
-1138 Vlam                 X585000-0 Ba Lo Lt Ni                                 - - - 023   -- G0 V
-1231 Giergu               D420566-5 De Lt Ni Po                                 - - - 103   -- K3 V M2 V
-1232 Ekkur                D654155-5 Lo Lt Ni                                    - - - 500   -- M3 V
-1233 Uurgeku              X100000-0 Ba Lo Lt Ni Va                              - - - 100   -- K4 IV M0 V
-1236 Margegi              E788000-0 Ba Lo Lt Ni                                 - - - 003   -- M2 V M5 V
-1238 Valahii              E4313CC-4 Lo Lt Ni Po                                 - - - 100   -- K6 V M5 V
-1332 Welling              X420188-4 De Lo Lt Ni Po                              - - - 300   -- M1 V M3 V
-1333 Ashgu                E574622-1 Ag Lt Ni                                    - - - 621   -- F6 V
-1338 Idgi                 C430466-7 De Ni Po                                    - - - 713   -- G0 V
-1340 Kuuag                D200488-7 Ni Va                                       - - - 304   -- G7 V M3 V
-1433 Liiash               D637166-4 Lo Lt Ni                                    - - - 105   -- M3 V
-1435 Idkhuu               ?585???-? Unsurveyed                                  - - - 310   -- M3 V
-1439 Emir Ki              E200000-0 Ba Lo Lt Ni Va                              - - - 010   -- M2 V
+0637 Kheirar              C200200-9 Lo Ni Va                                    - - - 223   -- G2 IV M8 V
+0638 Leaded               B436720-8                                             - - - 522   Sy M1 V
+0639 Kip                  C541530-6 Ni Po                                       - - - 900   Sy K4 V M9 V
+0731 Kir                  D100413-9 Ni Va                                       - - - 025   -- G1 III
+0732 Shamkaa Un           E594132-3 Lo Lt Ni                                    - - - 010   -- G2 V M9 V
+0740 Pagkaiinki           B683730-8                                             - - - 003   Sy G7 V
+0832 Gasadla              X100780-4 Lt Na Va                                    - - - 904   -- M1 III
+0834 Linir                C5639A0-8 Hi                                          - - - 703   H2 G2 V
+0836 Andginas             E87A540-5 Lt Ni Wa                                    - - - 113   -- G1 V
+0837 Ikni                 B8D5550-8 Fl Ni                                       - - - 024   -- K9 V
+0840 Meshiis Aar          C544410-7 Ni                                          - - - 700   Sy K0 V
+0931 Giiuur Shii          C89A433-A Ni Wa                                       - - - 900   -- K3 V
+0934 Paran                C898761-A Ag                                          - - - 202   H2 K4 V M2 V
+0935 Giaa                 X863000-0 Ba Lo Lt Ni                                 - - - 325   H2 M3 V
+0936 Phytaln              C868542-9 Ag Ni                                       - - - 502   H2 G1 V M8 V
+0937 Riga                 E692630-3 Lt Ni                                       - - - 024   -- F3 V M2 V
+0940 Dun                  B550440-8 De Ni Po                                    - - - 104   Sy F8 V M5 V
+1031 Miirga Ke            E959450-5 Lt Ni                                       - - - 604   -- M1 V
+1032 Pibaka               C79A540-A Ni Wa                                       - - - 405   H2 M2 V M8 V
+1033 Ishduu Di            X573000-0 Ba Lo Lt Ni                                 - - - 112   H2 K3 V
+1034 Shir                 B432562-B Ni Po                                       - - - 002   H2 M3 V M4 V
+1037 Ardarga              D748420-4 Lt Ni                                       - - - 004   -- G7 V M5 V
+1038 Paba                 C667300-9 Ga Lo Ni                                    - - - 603   -- K1 V M9 V
+1039 Kipandpuu            B591560-6 Ni                                          - - - 003   -- G0 V M7 V
+1131 Uume                 D310532-9 Ni                                          - - - 913   -- M2 V
+1134 Shira Li             C422690-6 Na Ni Po                                    - - - 420   H2 M1 V
+1136 Khaak                D95A230-4 Lo Lt Ni Wa                                 - - - 004   -- M1 V
+1138 Vlam                 C585302-8 Lo Ni                                       - - - 023   -- G0 V
+1231 Giergu               E420550-8 De Ni Po                                    - - - 103   -- K3 V M2 V
+1232 Ekkur                C654640-3 Ag Lt Ni                                    - - - 500   -- M3 V
+1233 Uurgeku              C100440-8 Ni Va                                       - - - 100   -- K4 IV M0 V
+1236 Margegi              E788500-5 Ag Lt Ni                                    - - - 003   -- M2 V M5 V
+1238 Valahii              D431510-6 Ni Po                                       - - - 100   -- K6 V M5 V
+1332 Welling              C420311-8 De Lo Ni Po                                 - - - 300   -- M1 V M3 V
+1333 Ashgu                X574000-0 Ba Lo Lt Ni                                 - - - 621   -- F6 V
+1338 Idgi                 D430430-9 De Ni Po                                    - - - 713   -- G0 V
+1340 Kuuag                E200730-5 Lt Na Va                                    - - - 304   -- G7 V M3 V
+1433 Liiash               X637200-2 Lo Lt Ni                                    - - - 105   -- M3 V
+1435 Idkhuu               X585000-0 Ba Lo Lt Ni                                 - - - 310   -- M3 V
+1439 Emir Ki              D200430-7 Ni Va                                       - - - 010   -- M2 V
 1440 Shishiim             X201000-0 Ba Ic Lo Lt Ni Va                           - - - 003   -- M1 V
 1531 Miar                 ?AA6???-? Unsurveyed                                  - - - 404   -- F3 V M2 V
 1536 Girper Ash           ?8C4???-? Unsurveyed                                  - - - 103   -- K3 V
 1537 Lagi                 ?431???-? Unsurveyed                                  - - - 201   -- G5 V M1 V
 1538 Tahaggur             ?554???-? Unsurveyed                                  - - - 404   -- K6 V
-1540 Kikiim               X678000-0 Ba Lo Lt Ni                                 - - - 003   -- G7 V M7 V
+1540 Kikiim               D678460-4 Lt Ni                                       - - - 003   -- G7 V M7 V
 1631 Liam                 ?423???-? Unsurveyed                                  - - - 103   -- M0 V
 1632 Gaapa                ?99A???-? Unsurveyed                                  - - - 723   -- K0 V
 1635 Gish                 ?756???-? Unsurveyed                                  - - - 703   -- K3 V
-1640 Ishki                X783000-0 Ba Lo Lt Ni                                 - - - 005   -- M2 V
+1640 Ishki                X783220-1 Lo Lt Ni                                    - - - 005   -- M2 V
 1733 Kasan Ar             ?764???-? Unsurveyed                                  - - - 113   -- M0 V M0 V
 1735 Arga Iirir           ?542???-? Unsurveyed                                  - - - 000   -- F8 V M6 V
 1831 Feldon               ?988???-? Unsurveyed                                  - - - 220   -- M2 V M3 V
