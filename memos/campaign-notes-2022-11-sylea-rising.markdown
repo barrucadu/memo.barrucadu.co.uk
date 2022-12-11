@@ -1,7 +1,7 @@
 ---
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
-published: 2022-12-04
+published: 2022-12-11
 toc:
 - anchor: overview
   children:
@@ -19,9 +19,11 @@ toc:
 - division: Session notes
 - anchor: session-0
 - anchor: session-1
+- anchor: session-2
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+
 
 Overview
 --------
@@ -123,11 +125,16 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   by shooting Urshukaan themselves.  Interviewed Martin, Sharik, Chaijin, Moshe,
   Eayukheal.  Suspect Eayukheal did it.
 
-- **Session 2: Murder on Arcturus Station (2).** Upcoming!
+- **Session 2: Murder on Arcturus Station (2).** Broke into Urshukaan's files
+  and got all the motives.  Fleshed out the timeline more.  Caught Katarin in a
+  lie.
+
+- **Session 3: Murder on Arcturus Station (3).** Upcoming!
 
 **Future:**
 
 - Witchburner (maybe?)
+- *Aliens*-style derelict base with the radio-bugs
 
 **Adventure templates:**
 
@@ -820,6 +827,105 @@ Links to things.
   - Day 2, 10:00
   - Marja calls to say the knocked out guard is up, and saw Eayukheal in the
     computer room at 22:00
+  - Upcoming:
+    - Day 3 12:00: detective arrives
+    - Day 5 17:00: deadline
+
+- By the first space mission:
+  - What's in the ship's locker?
+  - Faction goals
+  - Random space encounter tables
+
+
+2022-12-11 --- Session 2
+------------------------
+
+### Intro
+
+- Christmas / New Year break: 18th y?, 25th n, 1st n?, 8th+ y?
+
+> You're a group of private citizens working government contracts for the Sylean
+> Federation Scout Service, out in Lishun Sector.
+>
+> Right now you're in the Kir system, on Mining Station 3, where you were called
+> by Sly's old friend, the station manager and ex-bounty hunter Marja Aguilar.
+> Marja put you in touch with Ringiil Urshukaan, president of Lamarck Minerals,
+> and you were given a job to find a stolen ore carrier and identify the
+> ringleader of the disgruntled Lamarck employees.  You found the ship, but the
+> ringleader made their escape, and Urshukaan used that to weasel out of paying
+> you.
+>
+> Later that night, Urshukaan was found dead.  The main starport dispatched a
+> lazy and ambitious inspector known for hating Travellers who, Marja is sure,
+> will just pin the blame on you guys.  After all, everyone knows you were mad
+> with Urshukaan: he cheated you out of a bunch of money, and you shot him.
+>
+> Marja doesn't have the resources to investigate a murder herself.  But she
+> trusts Sly.  So she's asked you three to look into the matter, to secure
+> enough legally-obtained evidence, that she can give the inspector proof of the
+> identity of the real killer.
+>
+> It's now 10am of day 2 of the investigation.  The inspector will arrive at
+> noon of day 3.  And at 5pm of day 5, the weekly intra-system liner arrives and
+> the real killer will slip away if not prevented.
+
+### State
+
+- Day 2, 10:00
+  - Sly busy until 11:00
+  - Vega busy until 15:00
+
+### Prep
+
+#### Upcoming
+
+- **Day 2:**
+  - **11:00** Marja informs party that the security guard has woken up
+  - **15:00** Eayukheal succeeds at hacking into Urshukaan's files, and deletes his file
+  - **17:00** Eayukheal locks himself in his room and begins to prepare for ritual suicide
+  - **22:00** Eayukheal commits ritual suicide
+
+- **Day 3:**
+  - **12:00** Inspector Dragovitch arrives and immediately begins building a case against the Travellers
+
+- **Day 5:**
+  - **17:00** Intra-system liner arrives.  Katarin leaves with Moshe if not prevented.
+
+#### New Clues
+
+- More login attempts for Urshukaan from the office, ending at 15:00 Day 2
+
+### Notes
+
+- **Day 2:**
+  - **10:00--12:00 (Tama):** Search office, find line of blood drops (as if from a slash) and notebook, and get password
+  - **12:00--12:30 (Vega):** Read Eayukheal file
+  - **12:30--13:00 (Vega):** Read Sharik file: Kashin Thanh is Sharik Urshukaan
+  - **13:00--14:00 (Tama):** Talk to Sharik
+  - **13:00--14:00 (Sly):**  Confirm Moshe's knife wound was a slash, talk to guard who got knocked out on the night of the murder
+  - **13:00--13:30 (Vega):** Read Narayanam file
+  - **13:30--14:00 (Vega):** Read Lukargik file
+  - **14:00--15:00 (all):**  Space Lunch
+  - **15:00--16:00 (Sly):**  Talk to Moshe again (uncooperative)
+  - **15:00--16:00 (Tama):** Check auth logs for office computers
+  - **15:00--15:30 (Vega):** Read L4-M7 file
+  - **15:30--16:00 (Vega):** Read Financials file
+  - **16:00--17:00 (Tama):** Talk to Martin
+  - **16:00--16:30 (Vega):** Read Ling-Standard file
+  - **16:00--16:30 (Sly):**  Read Ind. Belt. file
+  - **16:30--17:30 (Sly):**  Talk to Oojan
+  - **16:30--17:30 (Vega):** Talk to Eayukheal
+  - **17:30--18:30 (Vega):** Talk to Katarin (see her dagger)
+  - **17:30--18:30 (Sly):**  Talk to Enli
+  - **17:30--18:30 (Tama):** Talk to Bortai (see her dagger)
+  - **19:00--20:00 (Tama):** Confirm Katarin opened her door at 21:55 for pizza
+  - **19:00--20:00 (Vega):** Confirm Bortai's alibi
+  - **19:00--20:00 (Sly):**  Talk to Moshe again
+
+### Next time
+
+- Murder on Arcturus Station!
+  - Day 2, 20:00
   - Upcoming:
     - Day 3 12:00: detective arrives
     - Day 5 17:00: deadline
