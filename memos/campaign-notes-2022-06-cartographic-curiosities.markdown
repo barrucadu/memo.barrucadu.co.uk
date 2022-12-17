@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-12-03
+modified: 2022-12-17
 taxon: games-campaigns
 toc:
 - anchor: overview
@@ -28,6 +28,7 @@ toc:
 - anchor: session-8
 - anchor: session-9
 - anchor: session-10
+- anchor: session-11
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -87,19 +88,19 @@ Overview
 
 - Agnel Dregger (Maybelle)
   - Lawful level 1 Fighter
-  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+  - **Pay:** 1gp/day + 1/2 share (1 Chysting)
 - Joremy Wolder (Molly)
   - Neutral level 1 Fighter
-  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+  - **Pay:** 1gp/day + 1/2 share (1 Chysting)
 - Mollequip Tolmen (Paulo)
   - Neutral level 1 Hunter
-  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+  - **Pay:** 1gp/day + 1/2 share (1 Chysting)
 - Rodger Norman (Maybelle)
   - Neutral level 1 Fighter
-  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+  - **Pay:** 1gp/day + 1/2 share (1 Chysting)
 - Shank Malksmilk (Maybelle)
   - Neutral level 1 Thief
-  - **Pay:** 1gp/day + 1/2 share (24 Iggwyld)
+  - **Pay:** 1gp/day + 1/2 share (1 Chysting)
 
 **Treasure:** 3600gp
 
@@ -165,6 +166,10 @@ equipment, do come out of the pool.
 - **Session 10: Lillibeth and the Drune.** *Single-player special!* Lillibeth
   given a quest by the Drune to help convince them that the murder was a big
   misunderstanding.
+
+- **Session 11: Tomb of the Goat Lords.** Reunite with Lillibeth!  Decide to
+  kill time until Sir Chyde's sword is identified by exploring.  Find and delve
+  into TotSK.
 
 
 House Rules
@@ -650,7 +655,7 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
     - Rotting Corpse in area 27 is a human ducal knight
 - **1406---The Golden Wood:**
   - [Pointcrawl](campaign-notes-2022-06-cartographic-curiosities/1406-the-golden-wood.pdf)
-- **????:**
+- **0810---King's Mounds and the Drune Cottage:**
   - Tomb of the Serpent Kings:
     - Map uses 10' squares
     - Multiply all gold and value by 10
@@ -677,7 +682,8 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
       - **Mummy Fragments:** as Cave Locust (OSE:AF p31) without Shriek or Spit
       - **Stone Cobra Guardian:** as Rock Living Statue (OSE:AF p77) with 30hp
         and attacks as described
-      - **Succubus (Baltoplat):** as Rakshasa (OSE:AF p97)
+      - **Succubus (Baltoplat):** as Rakshasa (OSE:AF p97) with Energy Drain (as
+        Wight) and spells Charm Person, Phantasmal Force
       - **Skeletons:** as Skeleton (OSE:AF p105)
       - **Skeleton Jellies:** as described
       - **Fungus Goblins:** as Goblin (DMB p48)
@@ -716,10 +722,11 @@ Additional research with a suitable scholar or in church archives reveals:
 - **0505---Hoarblight Keep and the Isle of Yeth**
 - **0604---Fort Vulgar and the Galoshers' Pool**
 - **0705---The Scrabey Who Forgot His Name**
-- **0710---Lankshorn and the Animal Orchestra**
+- **0710---Lankshorn and the Animal Orchestra** (explored)
 - **0711---King Pusskin's Road** (explored)
 - **0805---Prigmarinn Hill**
 - **0809---Nightworms**
+- **0810---King's Mounds and the Drune Cottage** (explored)
 - **0906---The Ruined Abbey of St Clewyd** (explored)
 - **0907---Bafflestone** (explored)
 - **0910---Golokstone**
@@ -1687,7 +1694,7 @@ Character descriptions & introductions, then 1407.
 
 
 2022-12-03 --- Session 10
-------------------------
+-------------------------
 
 <aside class="highlight">This was a 1-on-1 Lillibeth focussed session.</aside>
 
@@ -1843,8 +1850,63 @@ Character descriptions & introductions, then 1407.
 - Party stick to the vicinity until 27 Iggwyld to reunite with Lillibeth
 
 
-2022-MM-DD --- Session N
-------------------------
+2022-12-17 --- Session 11
+-------------------------
+
+### Intro
+
+- Corrections & clarifications:
+  - The party have to pay all the costs the retainers incur as part of their
+    work (including room and board, and any specific equipment)
+    - They'll sometimes buy their own equipment too out of their own money
+  - How many fairy horses do they have?  Just the PCs, or for all the retainers
+    too?
+- Lillibeth is returning to Lankshorn on 27 Iggwyld, so the party have to be in
+  town then!
+
+### State
+
+- 22 Iggwyld (evening): clement, cheery
+- In 0710
+- Drune Quest: bring them the man paying fairy-coinage for information on the
+  movements of the Drune, currently located in Prigwort
+- Upcoming:
+  - 24 Iggwyld: pay retainers
+  - 27 Iggwyld: Lillibeth rejoins party in 0710
+  - 29 Iggwyld: Sir Chyde's sword identified (owe 100gp)
+  - 20 Chysting: room at the Clashed Antler
+
+### Prep
+
+- Put TotSK *somewhere*!
+
+### Notes
+
+- 22 to 27 Iggwyld:
+  - See oppression by Malbleat's forces
+  - Pay retainers until 1 Chysting
+
+- 27 Iggwyld (noon): clement, cheery
+  - **0710---Lankshorn and the Animal Orchestra:**
+    - Lillibeth returns
+    - Explore (100xp)
+  - **0810---King's Mounds and the Drune Cottage:**
+    - Explore (200xp)
+    - Find TotSK
+      - Don't check out rooms 2, 3, 4, or the coffins in 6
+      - Get idol (20gp) from room 10
+      - Get disc (50gp) from room 12
+      - Get idol (100gp) and scrolls mentioning demon summoning from room 15
+
+### Next time
+
+- 27 Iggwyld: clement, cheery
+- Late afternoon
+- Party in 0810, TotSK, dungeon turn 12, room 11
+
+
+2023-MM-DD --- Session NN
+-------------------------
 
 ### Intro
 
