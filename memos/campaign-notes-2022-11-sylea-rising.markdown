@@ -1,7 +1,8 @@
 ---
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
-published: 2022-12-11
+published: 2022-11-27
+modified: 2022-12-18
 toc:
 - anchor: overview
   children:
@@ -20,6 +21,7 @@ toc:
 - anchor: session-0
 - anchor: session-1
 - anchor: session-2
+- anchor: session-3
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -129,7 +131,9 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   and got all the motives.  Fleshed out the timeline more.  Caught Katarin in a
   lie.
 
-- **Session 3: Murder on Arcturus Station (3).** Upcoming!
+- **Session 3: Murder on Arcturus Station (3).** Searched Katarin's room and
+  found the door ajar.  Good Cop / Bad Copped her into a confession.  Got paid,
+  set off to survey Uudge She, J-Drive went boom!
 
 **Future:**
 
@@ -156,13 +160,8 @@ House Rules
 
 ### Advancement
 
-When a skill is used successfully, mark it.  At the end of an adventure, roll
-`1d6-1` for each marked skill and gain 1 experience point in it if the roll is
-higher than the skill level.  Unmark all the skills.
-
-Gaining a skill at level 0, or taking it from level 0 to level 1, costs 1xp;
-costs double each level thereafter.
-
+At the end of an adventure, gain one skill level in something relevant (to a
+maximum of +3).
 
 Setting Bible
 -------------
@@ -412,7 +411,7 @@ Factions clocks: **TODO**
 Resources
 ---------
 
-Links to things.
+- [Random Word and Sentence Generator](http://www.taunoyen.com/traveller/corsairwordgen2.html)
 
 
 2022-11-27 --- Session 0
@@ -934,6 +933,87 @@ Links to things.
   - What's in the ship's locker?
   - Faction goals
   - Random space encounter tables
+
+
+2022-12-18 --- Session 3
+------------------------
+
+### Intro
+
+
+> You're a group of private citizens working government contracts for the Sylean
+> Federation Scout Service, out in Lishun Sector.
+>
+> Right now you're in the Kir system, on Mining Station 3, looking into the
+> death of Lamarck Minerals president, Ringiil Urshukaan.  Marja, the station
+> manager, has warned you that the police inspector the main starport has
+> dispatched is lazy, ambitious, and known for hating Travellers.  So she thinks
+> he'll try to pin the blame on you three.  After all, everyone knows you were
+> mad with Urshukaan: he cheated you out of a bunch of money, and you shot him.
+>
+> Marja doesn't have the resources to conduct an investigation herself, but she
+> knows and trusts Sly, so she's asked you three to do it for her.  She wants
+> evidence to prove to the inspector who the real killer is.
+>
+> It's now 10pm of day 2 of the investigation.  The inspector will arrive at
+> noon of day 3.  And at 5pm of day 5, the weekly intra-system liner arrives and
+> the real killer will slip away if not prevented.
+
+### State
+
+- Day 3, 20:00 (everybody free)
+
+### Prep
+
+#### Upcoming
+
+- **Day 3:**
+  - **12:00** Inspector Dragovitch arrives and immediately begins building a case against the Travellers
+
+- **Day 5:**
+  - **17:00** Intra-system liner arrives.  Katarin leaves with Moshe if not prevented.
+
+- **After Vega deletes Eayukheal's file:**
+  - **+0:00** Eayukheal locks himself in his room and begins to prepare for ritual suicide
+  - **+5:00** Eayukheal commits ritual suicide
+
+### Notes
+
+- **Day 2:**
+  - **20:00--21:00 (Tama):** Search Urshukaan's conference room
+  - **20:00--21:00 (Vega):** Take Katarin out (for Pizza)
+  - **20:00--21:00 (Sly):** Search Katarin's room, find the ajar door
+
+- **Day 3:**
+  - **08:00--09:00 (Tama & Vega):** Good Cop / Bad Cop Katarin into confessing
+
+- Get paid
+
+- **Raluug:**
+  - Get bulletin
+  - Ignore distress signal
+  - Shopping trip
+  - See ambassadorial ship arriving
+  - Take up the Uudge She survey mission
+
+- **Journey to Uudge She:**
+  - Prospectors: Arkar Ullah (chief), Kaarga Riaz, Petr Idema
+  - Petr secretly leaves a love letter for Vega
+    - Vega figures out who it is
+    - Petr: mid 20s, newer than the other prospectors, Vega calmed him down when
+      he was worried
+  - Something hits the ship knocking it off course as it enters jump:
+    - J-Drive damaged, can be repaired with 1 ton of spare parts
+      - The mining base at Uudge She will have parts that can be salvaged
+    - Arrive at Uudge She
+
+### Next time
+
+- Uudge She!
+  - Low-tech inhabitants
+  - Alien-filled base
+  - Work out how much money it'll be worth
+- Make random space encounter tables
 
 
 2023-MM-DD --- Session N

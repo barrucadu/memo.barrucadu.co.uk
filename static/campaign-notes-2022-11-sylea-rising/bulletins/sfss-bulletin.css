@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman:wght@400;700&display=swap');
+
+html {
+    font-size: 22px;
+    font-family: 'Goldman';
+}
+
+body {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #111;
+    color: rgb(41, 170, 225);
+}
+
+div {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    border-bottom: 4px dotted rgb(86, 148, 175);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+header h1 {
+    font-family: 'Audiowide';
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+header span {
+    display: block;
+}
+
+header span.slogan {
+    font-family: 'Audiowide';
+    font-size: 1.5rem;
+}
+
+header span.technobabble {
+    text-align: right;
+    font-size: 0.8rem;
+    color: rgb(86, 148, 175);
+}
+
+main {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: "– ";
+}
+
+li + li {
+    margin-top: 1rem;
+}
