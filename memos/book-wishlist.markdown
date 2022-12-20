@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-11-10
+modified: 2022-12-20
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -160,7 +160,6 @@ Miscellaneous Fiction
 | `9780241303061` | Goblin Market and Other Poems               | Rossetti Christina |
 | `9781590177785` | Krabat and the Sorcerer's Mill              | Otfried Preussler  |
 | `9780747592402` | The Ladies of Grace Adieu and Other Stories | Susanna Clarke     |
-| `9781473225565` | Lud-in-the-Mist                             | Hope Mirrlees      |
 | `9780007557288` | Smith of Wootton Major                      | J. R. R. Tolkien   |
 |                 | Le Morte d'Arthur                           | Sir Thomas Malory  |
 |                 | The Charwoman's Shadow                      | Lord Dunsany       |
