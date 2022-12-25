@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-12-20
+modified: 2022-12-25
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -24,10 +24,7 @@ Book Series
 |                                             | `9780312872571` | On Blue's Waters                              |
 |                                             | `9780312873639` | In Green's Jungles                            |
 |                                             | `9780312873646` | Return to the Whorl                           |
-| [That Time I Got Reincarnated As A Slime][] | `9781975314385` | Volume 9                                      |
-|                                             | `9781975314392` | Volume 10                                     |
-|                                             | `9781975314415` | Volume 11                                     |
-|                                             | `9781975314439` | Volume 12                                     |
+| [That Time I Got Reincarnated As A Slime][] | `9781975314415` | Volume 11                                     |
 |                                             | `9781975314453` | Volume 13                                     |
 |                                             | `9781975314477` | Volume 14                                     |
 |                                             | `9781975314491` | Volume 15                                     |
@@ -89,7 +86,6 @@ Roleplaying Games
 |----------------------:|-------|
 | Call of Cthulhu       | [Cults of Cthulhu](https://www.chaosium.com/cults-of-cthulhu-hardcover/) |
 |                       | [Keeper Tips](https://www.chaosium.com/keeper-tips/) |
-|                       | [A Time to Harvest](https://www.chaosium.com/a-time-to-harvest-hardcover/) |
 |                       | [Regency Cthulhu](https://www.chaosium.com/regency-cthulhu-hardcover/) |
 |                       | [Cthulhu Dark Ages](https://www.chaosium.com/cthulhu-dark-ages-3rd-edition-hardcover/) |
 |                       | [Fear's Sharp Little Needles](https://www.drivethrurpg.com/product/245289/Fears-Sharp-Little-Needles) |
@@ -152,7 +148,6 @@ Miscellaneous Fiction
 | `9780156306300` | Fiasco                                      | Stanislaw Lem      |
 | `9780575082090` | Diaspora                                    | Greg Egan          |
 | `9780575082076` | Permutation City                            | Greg Egan          |
-| `9780330534239` | Perdido Street Station                      | China Mieville     |
 | `9780099529040` | Planet of the Apes                          | Pierre Boulle      |
 | `9781447263210` | Wicker Man                                  | Hardy              |
 | `9780345497529` | The City & The City                         | China Mieville     |
