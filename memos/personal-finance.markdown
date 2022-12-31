@@ -3,7 +3,7 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2022-08-09
+modified: 2022-12-31
 ---
 
 I care a lot about my finances, and I put a lot of effort into
@@ -535,9 +535,8 @@ types:
 - **Goal envelopes** are for specific future expenses, like renewing
   my passport or visiting Japan.
 
-- **Pending envelopes** are to briefly hold cash between it arriving
-  in my bank account on payday, and it being sent elsewhere by a
-  standing order a few days later.
+- **Pending envelopes** are to hold cash which is due to be sent elsewhere in
+  the near future.
 
 - **Saved envelopes** are my regular budget categories: things like
   food, rent, travel, and so on.
@@ -565,12 +564,11 @@ static, usually only changing when I intentionally change something in
 my process.
 
 However, my income doesn't necessarily exactly match my budget.
-There's usually some excess income, which I allocate to three special
+There's usually some excess income, which I allocate to two special
 accounts:
 
-- I add up to £125 to a "saved goals" envelope, if I don't have any
-  specific goal envelopes right now, to be made available to any
-  future goals.
+- I add up to £125 to a "saved goals" envelope, if I don't have any specific
+  goal envelopes right now, to be used towards future goals.
 
 - I add any remainder to a "saved invest" envelope, which I'll
   manually invest in my ISA when it reaches a reasonable amount (say,
@@ -590,11 +588,11 @@ I have an **American Express** credit card, because it gives me some
 cashback.  There is a £25 annual fee, but the cashback more than
 covers it.
 
-When I buy something with the card, I note that down as two
-transactions: one spending money from the card, and one transferring
-money from the relevant saved or goal envelope into a "pending amex"
-envelope.  The card is paid off in full, from that envelope, by a
-direct debit around the start of each month.
+When I buy something with the card, I note that down as two transactions: one
+spending money from the card, and one transferring money from the relevant
+discretionary / saved / goal envelope into a "pending amex" envelope.  The card
+is paid off in full, from that envelope, by a direct debit around the start of
+each month.
 
 ### And that's it!
 
@@ -716,7 +714,6 @@ the regular accounts, which are mostly self-explanatory:
             - `saved`
               - `patreon`---monthly [Patreon](https://www.patreon.com/) subscriptions (charged in USD)
               - `protonmail`---annual [ProtonMail](https://protonmail.com/) fee (charged in EUR)
-              - `roll20`---monthly [Roll20](https://roll20.net/) subscription (charged in USD)
               - `web`---AWS, domain names, and hosting (all charged in foreign currencies)
     - `investments`
         - `ajbell`
@@ -724,6 +721,7 @@ the regular accounts, which are mostly self-explanatory:
         - `nsi`
     - `receivable`
         - `deposit`---the deposit on my flat
+        - *subaccounts for people who owe me money*
 - `equity`---used for special transactions (see below)
 - `expenses`
     - *subaccounts for various things*
@@ -732,8 +730,6 @@ the regular accounts, which are mostly self-explanatory:
 - `liabilities`
     - `creditcard`
         - `amex`
-    - `loan`
-        - `slc`---student loan
     - `owed`
         - *subaccounts for people I owe money to*
 
@@ -766,9 +762,8 @@ For example, putting aside money to pay off credit card expenses:
 
 ### Income
 
-Income is recorded as the pre-tax amount coming from `income:$source`,
-and is split across `assets:*`, `expenses:*`, and `liabilities:*`.
-All amounts are included.
+Income is recorded as the pre-tax amount coming from `income:$source`, and is
+split across `assets:*` and `expenses:gross:*`.  All amounts are included.
 
 ```
 2021-11-30 * Cabinet Office
@@ -829,9 +824,9 @@ I use the `@@` form to exactly specify the overall price:
 
 ```
 2021-08-10 * AJ Bell
-    assets:investments:ajbell                                             1.6458 VANEA @@ £473.51
+    assets:investments:ajbell:lisa                                        1.6458 VANEA @@ £473.51
     expenses:fees                                                          £1.50
-    assets:investments:ajbell
+    assets:investments:ajbell:lisa
 ```
 
 Transferring the cash to the investment account and then investing it
@@ -839,12 +834,12 @@ may be two separate steps:
 
 ```
 2021-08-02 * Fidelity
-    assets:investments:fidelity                                          £500.00
+    assets:investments:fidelity:isa                                      £500.00
     assets:cash:nationwide:flexdirect:pending:fidelity
 
 2021-08-09 * Fidelity
-    assets:investments:fidelity                                             1.75 VANEA @@ £500.00
-    assets:investments:fidelity
+    assets:investments:fidelity:isa                                         1.75 VANEA @@ £500.00
+    assets:investments:fidelity:isa
 ```
 
 If there isn't enough cash in the account to pay for any fees, some
@@ -853,9 +848,7 @@ some cash.
 
 ### Expenses
 
-There are three types of expenses: expenses from a bank account,
-expenses on a credit card, and cash expenses.  The former are
-straightforward:
+Expenses from a bank account or debit card are straightforward:
 
 ```
 2021-09-06 * Three Rivers District Council
@@ -938,7 +931,7 @@ debit:
 
 Every year, I get cashback.  As the cashback goes to the balance on
 the card, rather than being paid into my bank account, I treat it as
-a pair of an income transaction and a bookkeeping transaction:
+a pair of an income transaction and an allocation transaction:
 
 ```
 2021-08-14 * American Express | cashback
@@ -950,6 +943,42 @@ a pair of an income transaction and a bookkeeping transaction:
     assets:cash:nationwide:flexdirect:saved:health                        £80.64
     assets:cash:nationwide:flexdirect:pending:amex                      -£105.64
 ```
+
+#### Pre-orders, kickstarters, etc
+
+These are kind of like credit card transactions: I incur an expense, but the
+money isn't actually taken for a while.  In this case, "a while" could be
+months.
+
+I put aside the money immediately:
+
+```
+2022-02-04 ! Kickstarter | Knock! Issue Three
+    assets:cash:nationwide:flexdirect:pending:preorder                    £38.00
+    assets:cash:nationwide:flexdirect:discretionary:other
+```
+
+And then note down the expense when it happens.  Sometimes the amount I put
+aside won't be quite right (e.g. if it's a transaction in another currency, and
+I estimated the initial amount based on then-current exchange rates), so I'll
+need to add or remove some money:
+
+```
+2022-03-06 * Kickstarter | Knock! Issue Three
+    expenses:ttrpg                                                        £32.43
+    liabilities:creditcard:amex
+2022-03-06 ! Bookkeeping | Kickstarter | Knock! Issue Three
+    assets:cash:nationwide:flexdirect:pending:amex                        £32.43
+    assets:cash:nationwide:flexdirect:discretionary:other                  £5.57
+    assets:cash:nationwide:flexdirect:pending:preorder                   -£38.00
+```
+
+I used to track this sort of thing by putting the money in `pending:amex`
+immediately, without going via `pending:preorder`.  But that only works if I
+pre-order everything with my credit card, and also means that `pending:amex`
+almost never matches `liabilities:creditcard:amex`, which makes it easier to
+lose track of things.  So I introduced this new account to make everything more
+explicit.
 
 ### Maintenance
 
