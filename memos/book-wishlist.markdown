@@ -96,6 +96,9 @@ Roleplaying Games
 |                       | [Deepnight Revelation Core Set](https://www.mongoosepublishing.com/products/deepnight-revelation-core-set) |
 |                       | [Secrets of the Ancients](https://www.mongoosepublishing.com/products/secrets-of-the-ancients) |
 |                       | [Aliens of Charted Space vol. 3](https://www.mongoosepublishing.com/products/aliens-of-charted-space-vol-3) |
+| Delta Green           | [Agent's Handbook](https://shop.arcdream.com/collections/role-playing-games/products/delta-green-agents-handbook) |
+|                       | [Handler's Guide](https://shop.arcdream.com/collections/role-playing-games/products/delta-green-handlers-guide-hardback) |
+|                       | [Impossible Landscapes](https://shop.arcdream.com/collections/role-playing-games/products/delta-green-impossible-landscapes) |
 | Old School Essentials | [Dolmenwood Player's Book](https://necroticgnome.com/collections/settings/products/dolmenwood-players-book) |
 |                       | [Dolmenwood Campaign Book](https://necroticgnome.com/collections/settings/products/dolmenwood-campaign-book) |
 |                       | [Dolmenwood Monster Book](https://necroticgnome.com/collections/settings/products/dolmenwood-monster-book-1) |
