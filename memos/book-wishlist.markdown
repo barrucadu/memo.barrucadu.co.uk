@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2022-12-25
+modified: 2023-01-04
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -24,9 +24,7 @@ Book Series
 |                                             | `9780312872571` | On Blue's Waters                              |
 |                                             | `9780312873639` | In Green's Jungles                            |
 |                                             | `9780312873646` | Return to the Whorl                           |
-| [That Time I Got Reincarnated As A Slime][] | `9781975314415` | Volume 11                                     |
-|                                             | `9781975314453` | Volume 13                                     |
-|                                             | `9781975314477` | Volume 14                                     |
+| [That Time I Got Reincarnated As A Slime][] | `9781975314477` | Volume 14                                     |
 |                                             | `9781975314491` | Volume 15                                     |
 |                                             |                 | Volume 16                                     |
 |                                             |                 | Volume 17                                     |
