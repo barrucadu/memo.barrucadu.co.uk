@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2022-12-18
+modified: 2023-01-08
 toc:
 - anchor: overview
   children:
@@ -15,13 +15,13 @@ toc:
   - anchor: non-default-assumptions
   - anchor: timeline
   - anchor: polities-of-lishun-sector
-  - anchor: factions
 - anchor: resources
 - division: Session notes
 - anchor: session-0
 - anchor: session-1
 - anchor: session-2
 - anchor: session-3
+- anchor: session-4
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -135,24 +135,48 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   found the door ajar.  Good Cop / Bad Copped her into a confession.  Got paid,
   set off to survey Uudge She, J-Drive went boom!
 
-**Future:**
+- **Session 4: Uudge She.** Surveyed the world, and met with the locals and
+  learned their mythology.  Tried to convince them that they're not gods.  Found
+  spare parts, did a cvery cursory survey while being attacked by demons, and
+  escaped.  Vega / Petr go on a date, Sly hires Ed.
 
-- Witchburner (maybe?)
-- *Aliens*-style derelict base with the radio-bugs
+**Adventures:**
 
-**Adventure templates:**
+- [Benchmark](https://www.freelancetraveller.com/features/advents/benchmark.html)
+- [Stargates](https://www.freelancetraveller.com/features/rules/stargates.html)
+- Lock and Loot (Anomalies)
+- The Sleepers (Anomalies)
+- Psilent Escort / The Gift (Anomalies)
+- The Ship in the Lake (JTAS 1)
+- Rule of Man Commemorative (JTAS 2)
+- Flatlined (introduce an enemy)
+- High and Dry
+- Stranded
+- Gods of Marduk
+
+**Travelling adventures:**
+
+- Dead Space (Anomalies)
+- Pride of the Lion (JTAS 3)
+- A Dagger at Efate (JTAS 4)
+- Chariots of Fire (JTAS 5)
+- Critical Vector (JTAS 6)
+- Misadventures at Blinderby Manor (JTAS 7)
+- The Wrong Patron (JTAS 9)
+- Mission to Mithril
+
+**Encounters:**
+
+- "Lightning" (JTAS 7)
+- Prince Amaad Dagashkugim (JTAS 9)
+
+**Templates:**
 
 - Transport a survey team to a new world and shenanigans happen
 
-#### An action-packed period of history
+**S.F.S.S. Bulletins:**
 
-Every in-game month:
-
-- `2d3-1` more worlds join the Sylean Federation
-- Make a [faction turn](campaign-notes-2022-11-sylea-rising.html#factions)
-
-Players hear of any developments close to the start of the session: newspapers,
-TV or radio broadcasts, overheard talk, etc.
+- [01. 6y6zmk/Raluug](campaign-notes-2022-11-sylea-rising/bulletins/01.html)
 
 
 House Rules
@@ -162,6 +186,17 @@ House Rules
 
 At the end of an adventure, gain one skill level in something relevant (to a
 maximum of +3).
+
+### Survey
+
+- Produce a basic map (terrain, large settlements, major features) of a world: 1 day for each point of size
+- Produce a detailed map (down to the level of minor roads and individual buildings) of a world: 5 days for each point of size
+- Produce a detailed map of a small region: `1d` hours, `Difficult EDU / Electronics (Sensors)`
+- Detect sentient life: `1d` hours, `Difficult EDU / Electronics (Sensors)`
+  - DM-5 for TL 0-1, DM-3 for TL 2-4, DM+3 for TL7+, DM+2 if there are orbital installations
+  - Gives rough tech level & population
+
+See also the *Adventuring in Milieu 0* section of *Long Way Home*.
 
 Setting Bible
 -------------
@@ -392,20 +427,6 @@ TODO
 <aside class="highlight">The PCs haven't encountered this polity yet.</aside>
 
 TODO
-
-### Factions
-
-Faction turn procedure:
-
-- For each faction in the region of the PCs, make a fortune roll to see how
-  things are going generally.  This is reflected in military presence, NPC
-  attitudes, local news stories (etc).
-
-- For each faction, make a fortune roll and tick clocks.  The progression of
-  these clocks should be obvious and generate adventures (which may also tick /
-  untick clocks).
-
-Factions clocks: **TODO**
 
 
 Resources
@@ -940,7 +961,6 @@ Resources
 
 ### Intro
 
-
 > You're a group of private citizens working government contracts for the Sylean
 > Federation Scout Service, out in Lishun Sector.
 >
@@ -990,7 +1010,7 @@ Resources
 - Get paid
 
 - **Raluug:**
-  - Get bulletin
+  - Get [bulletin](campaign-notes-2022-11-sylea-rising/bulletins/01.html)
   - Ignore distress signal
   - Shopping trip
   - See ambassadorial ship arriving
@@ -1014,6 +1034,157 @@ Resources
   - Alien-filled base
   - Work out how much money it'll be worth
 - Make random space encounter tables
+
+
+2023-01-08 --- Session 4
+------------------------
+
+### Intro
+
+> You're a group of private citizens working government contracts for the Sylean
+> Federation Scout Service, out in Lishun Sector.
+>
+> Right now you're in the Uudge She system, looking into an abandoned Ziru Sirka
+> mining outpost, to see if it can be reactivated and used as a source of
+> valuable resources.  With you is a team of three prospectors: the chief Arkar
+> Ullah, and his two assistants Kaarga Riaz and Petr Idema.
+>
+> The three-month journey from Raluug was mostly uneventful, other than Petr
+> developing a crush on Vega, until the last jump: something struck your ship
+> just as you were entering jump, knocking you off course.  Your jump drive
+> managed to compensate, but burned itself out in the process, and will take one
+> ton of spare parts to be repaired.
+>
+> You're now in orbit around the world of Uudge She.  You can immediately see
+> that it's smaller than Earth, around the size of Mars, it has about 65%
+> surface water, and is heavily forested.  Your navigational database says it
+> has a tainted atmosphere requiring a filter mask, but no information on what
+> that taint is.  And you know that somewhere down there is an old mining
+> outpost, hopefully with enough spare parts to get your jump drive up and
+> running.
+
+### State
+
+- In 1430 Uudge She
+  - World unsurveyed, only physical UWP available
+- J-Drive offline until repair
+- 9 months until maintenance due
+- Pending life support costs: 6 people x 12 weeks
+
+### Prep
+
+#### Prospectors
+
+- **Arkar Ullah:**
+  - Male, 56
+  - The chief
+  - Wears a flat cap and has a thick moustache
+  - Doesn't talk much
+  - Can identify unrefined metals at a glance
+
+- **Kaarga Riaz:**
+  - Male, 43
+  - Short and stocky, stronger than he looks
+  - Holds his drink well
+
+- **Petr Idema:**
+  - Male, 25
+  - Narrow face, short copper hair
+  - Fairly new to the job, not very experienced
+  - Crush on Vega
+
+- Personal equipment: TL10 Vacc Suit, Autopistol, assorted gear (cutting toches, shovels, mineral analysis kit, etc)
+
+#### Uudge She
+
+- Atmospheric taint is metal fragments stirred up by the frequent storms
+- Native life is scaly and can seal off orifices (ear / nose plugs, translucent
+  eyelids, etc) to protect
+- Cool, dry
+- Secret Vargr corsair station in orbit around the system's gas giant:
+  - 3 Aetin Scouts (with double pulse lasers)
+  - 1 Ruguelka Corsair
+
+- **Human inhabitants:**
+  - The descendants of the original miners
+  - TL0 / stone-age primitives, living in tents with their animals
+  - Wear thick hooded cloaks to deal with the metal storms, but prefer being in
+    their tents if possible
+  - Speak a heavily accented Vilani dialect (`INT / Language (Vilani)`)
+  - Have developed a mythology of lost golden age, which the Thunder Gods ended
+    by pulling the stars apart and preventing travel between worlds
+  - Assume the players are emissaries of the Thunder Gods, sent to judge them
+  - More women and children than adult men
+  - Adult men have lanthanum-tipped spears (can be identified on sight by Arkar) and are often scarred
+  - Consider the mining outpost full of demons
+  - Consider passing through the mining outpost, descending into the caves, and obtaining your own spear-tip a rite of passage
+
+- **Mining outpost:**
+  - As Hadley's Hope (ALIEN rulebook), but:
+    - C block is recreation & family services
+    - D block is the mining area (a big pit in the ground with a lift and heavy machinery)
+      - Top of pit covered by resin
+      - Stairway heading down to caves at the base
+    - Ramp from D block to maintenance bay
+  - Walls covered by layers upon layers of secreted resin, giving corridors a
+    gullet-like appearance
+  - Warm, humid, smells of ozone
+  - Spare parts in maintenance bay
+  - Starting sliens:
+    - Creepers (Flatlined): Command Crew Quarters, C1 vents, Medlab, Billy's Bar
+    - Chamax (Drinax): North Lock, South Lock, Mass Housing
+  - Random Encounters (2-in-6, every 2 turns, then every turn after making noise):
+    - 1 radio interference
+    - 2, 3 Creeper
+    - 4 Chamax
+
+#### Income
+
+- 3 months to establish the colony
+- Then it'll produce 500 tons of Uncommon Raw Materials per month (Cr10,000,000/month)
+- Of that, assuming 75% is profit (Cr7,500,000/month)
+- The PCs get 5%, as the other 5% goes to the prospectors (Cr375,000/month)
+- Half the first three paying months to cover the cost of establishing the colony (Cr187,500/month)
+- So the PCs will receive:
+  - Month 1, 2, 3: Cr187,500
+  - Month 4, 5, 6, 7, 8, 9, 10, 11, 12: Cr375,000
+  - Total: Cr3,937,500
+
+- **Back-of-the-napkin profit estimate:**
+  - Mortgage is deferred while the PCs are working, so assume they're not paying that
+  - Maintenance is Cr22,702/month
+  - 82 tons of refined fuel twice a month is Cr41,000/month
+  - 30 days of life support for 3 people is Cr6000/month
+  - Berthing fees is probably around Cr6000/month
+  - Total: Cr75,702/month
+  - So they'll have Cr100,000--Cr300,000/month extra, which is a lot, but not a
+    fortune - not even enough to pay the mortgage
+
+### Notes
+
+- **Uudge She:**
+  - Detect inhabitants
+  - Detect mining base
+  - Learn mythology
+  - Get spare parts
+  - Do a cursory survey
+  - Escape
+
+- Return to Raluug
+
+- **Raluug:**
+  - Tama / Vega: report to the scouts: income schedule
+  - Sly: meet & hire Ed
+  - Vega: get the Indmen mission from Prof. Joe Arif
+
+### Next time
+
+- Between sessions:
+  - Change ship
+  - Character sheet for new ship
+  - Character sheet for Ed
+  - Add Uudge She UWP to player map
+- Founding of the Third Imperium
 
 
 2023-MM-DD --- Session N
