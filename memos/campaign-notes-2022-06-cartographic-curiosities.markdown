@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2022-12-17
+modified: 2023-01-14
 taxon: games-campaigns
 toc:
 - anchor: overview
@@ -29,6 +29,7 @@ toc:
 - anchor: session-9
 - anchor: session-10
 - anchor: session-11
+- anchor: session-12
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -102,7 +103,7 @@ Overview
   - Neutral level 1 Thief
   - **Pay:** 1gp/day + 1/2 share (1 Chysting)
 
-**Treasure:** 3600gp
+**Treasure:** 3650gp
 
 All retainers have a single pool of coins, day-to-day income and expenses are
 ignored and don't affect its balance.  But additional purchases, like new
@@ -170,6 +171,10 @@ equipment, do come out of the pool.
 - **Session 11: Tomb of the Goat Lords.** Reunite with Lillibeth!  Decide to
   kill time until Sir Chyde's sword is identified by exploring.  Find and delve
   into TotSK.
+
+- **Session 12: Tomb of the Goat Lords / Sir Chyde's Sword.** Get chased off by
+  a Black Pudding, meet some Barrowbogeys, learn the magic of Sir Chyde's Sword,
+  and head out to Castle Brackenwold.
 
 
 House Rules
@@ -636,6 +641,19 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
   - +2 to hit and damage vs fairies
   - Glows in the presence of fairies
 
+- **Horned Crown of the Hydrogyle** (not found)
+  - The owner can expend spell slots to power it up.  Powers are gained and it
+    grows to completeness as it absorbs more power:
+    - **0 (knucklebone):** attracted, as if magnetically, towards the nearest nodal stone
+    - **5 (bone finger):** if in a hex with a ley line, aligns itself along its course
+    - **15 (tiara made of bone):** when worn, gives knowledge of nodal stones within 3 hexes; feels *right* to empower: when preparing spells in the morning, resisting giving it at least 1 slot requires a Save vs Spells if worn the previous day
+    - **25 (circlet made of bone):** when worn, gives the ability to travel astrally along a ley line at 24 miles per hour; feels *right* to wear: taking it off requires a Save vs Spells
+    - **50 (crown made of bone):** when worn, acts as a *ring of controlling humans*; mild paranoia when others suggest the crown may not be a good thing: who are others to question it? the crown is yours, it came to you!
+    - **75 (little balls of greenflame hovering above the points):** when worn, adds *burning greenflame* effect to all weapons, and allows using a Cottager Sigil once per day; strong paranoia: everyone sees how great and mighty the crown has made you, they want to take it for themselves!  but returning to being the *nobody* you were before finding the crown is too awful to contemplate!
+    - **100 (a very imposing glowing crown made of bone; complete):** confers the *awful presence* effect; fuses itself to the skull
+  - Drune will recognise it from level 15 onwards
+  - Audrunes and the Elder Phanatarch will be aware of anyone using the astral travel power
+
 #### Adventure Sites
 
 - **1108---Louper's Luncheon:**
@@ -667,16 +685,17 @@ Goals take 4 (small), 6 (medium), or 8 (large) ticks to complete.
         stone with small amber gemstones for eyes and teeth (Orsath)
       - **18: Stairs:** carvings show goatfolk in a variety of everyday
         activities: speaking, teaching, farming, fighting, etc
-      - **29: Treasure Room:** contains a Type B treasure hoard and the Onyx
-        Mirror of Embala (DCB p294---restock hex 1103 with something else)
-      - **32: Summoning Room:** special snake door key is a longhorn goatman
+      - **29: Treasure Room:** contains a Type B treasure hoard and the sole
+        remaining fragment of the Horned Crown of the Hydrogyle (a silver
+        knucklebone)
+      - **32: Summoning Room:** special snake door key is a silver goatman horn
       - **33: Shrine Alcove:** statue is of a tall humanoid with the head and
         antlers of a stag (Howawi), in his right hand a bow (turning to the
         right trips the poison gas), in his left hand a deer corpse with arrow
         protruding (turning to the left trips the gold)
       - **42: Cylinder Door:** remove trap, it's just a big noisy door you can't
         listen at
-      - **46: Throne Room:** special snake door keys are longhorn goatmen
+      - **46: Throne Room:** special snake door keys are silver goatman horns
     - Monster Stats:
       - **Black Pudding:** as Black Pudding (OSE:AF p26)
       - **Mummy Fragments:** as Cave Locust (OSE:AF p31) without Shriek or Spit
@@ -1903,6 +1922,94 @@ Character descriptions & introductions, then 1407.
 - 27 Iggwyld: clement, cheery
 - Late afternoon
 - Party in 0810, TotSK, dungeon turn 12, room 11
+
+
+2023-01-14 --- Session 12
+-------------------------
+
+### Intro
+
+Do a full Angry GM-style intro / recap since it's been a while:
+
+- Call to order
+- Table business:
+  - Travel time rules (ensure the party has enough tents)
+- Campaign recap:
+  - Overall quest: mapping the Dolmenwood
+  - Progress: the area around Prigwort
+  - Highlights: visiting Frigia, fighting undead, finding standing stones and
+    ley lines, fighting / running from the Drune, finding a fairy road
+  - Right now:
+    - At Lankshorn, ruled by the oppresive Lord Malbleat
+    - Waiting until 29 Iggwyld to have Sir Chyde's sword identified
+      - What day is it? (28th if the ice-jewel is sold, 27th otherwise)
+    - Other upcoming dates:
+      - 1 Chysting: pay retainers
+      - 20 Chysting: room at the Clashed Antler
+    - Lillibeth spirited away by magic and captured by the Drune, released in
+      exchange for performing a service
+    - Found a nearby dungeon, a crumbling tomb entrance amid some barrow-mounds
+- Reintroduce the party:
+  - Every player briefly describe their PC and their hirelings
+- Current situation:
+  - Overcome hammer trap
+  - See a secret passage beneath a statue, revealed by dripping water erosion
+  - Find a much larger tomb beneath the top, not very impressive, one
+  - Rotate an out-of-position statue to reveal a hidden door to a guard room
+  - Find some treasure
+  - Get zapped by a lightning trap
+  - Find a pool with something magic at the bottom
+  - End with opening the big ornate doors to reveal a stairway down into the darkness
+  - Someone take over mapping: squares are 10ft
+
+### State
+
+- 28 Iggwyld (late afternoon): clement, cheery
+- In 0810
+- TotSK, dungeon turn 12, room 11
+- Drune Quest: bring them the man paying fairy-coinage for information on the
+  movements of the Drune, currently located in Prigwort
+- Upcoming:
+  - 29 Iggwyld: Sir Chyde's sword identified (owe 100gp)
+  - 1 Chysting: pay retainers
+  - 20 Chysting: room at the clashed antler
+
+### Prep
+
+- TotSK:
+  - Four Barrowbogeys sneaking in now that the door has been opened
+  - Want to know if there's any unwanted grave goods (rags, broken pottery,
+    skillfully made but now broken small statues, books and scrolls destroyed by
+    damp, etc) and if there's any dangers to keep an eye out for
+
+### Notes
+
+- 27 Iggwyld (late afternoon): clement, cheery
+  - **0810---King's Mounds and the Drune Cottage:**
+    - Find hidden trapdoor in room 17
+    - Open rooms 14 & 16
+    - Run away from black pudding
+    - Meet barowbogeys
+  - **0710---Lankshorn and the Animal Orchestra:**
+    - XP
+    - Rest
+
+- 28 Iggwyld: pouring rain
+  - **0710---Lankshorn and the Animal Orchestra:**
+    - Sell stuff at market
+    - Heal
+    - Rest
+
+- 29 Iggwyld: brisk, clear
+  - **0710---Lankshorn and the Animal Orchestra:**
+    - Reclaim sword
+  - Journey to Castle Brackenwold
+
+### Next time
+
+- 29 Iggwyld: brisk, clear
+- Mid afternoon
+- Party in 1508
 
 
 2023-MM-DD --- Session NN
