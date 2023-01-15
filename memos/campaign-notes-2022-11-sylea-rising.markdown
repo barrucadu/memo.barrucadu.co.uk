@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-01-08
+modified: 2023-01-15
 toc:
 - anchor: overview
   children:
@@ -22,6 +22,7 @@ toc:
 - anchor: session-2
 - anchor: session-3
 - anchor: session-4
+- anchor: session-5
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -88,6 +89,7 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 #### Characters
 
 - Sly Dirk (Doremy): pilot, astrogator, fighter
+  - **Psionic Potential:** 6 (+0)
   - Spent years as a drifter, tried to break out into other careers but never
     quite made it.
   - **Ally:** Marja Aguilar, a bounty hunter whose life Sly saved on the wastes
@@ -98,6 +100,7 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   - **Enemy:** ??? (merchant)
 
 - Tama Nourvukaiken (Rakka): face, fighter
+  - **Psionic Potential:** 6 (+0)
   - Got his start in life in the military, but after getting betrayed by his
     commander became a gang enforcer.
   - **Ally:** ??? (fellow criminal)
@@ -105,10 +108,22 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   - **Enemy:** ??? (military unit commander)
 
 - Vega Polaris (Yuyuko): pilot, engineer, boffin
+  - **Psionic Potential:** 3 (-1)
   - Long career as a scientist, before deciding to work more closely with her
     audience by becoming a journalist: it didn't work out.
 
+##### NPCs
+
+- Guerraedzahkhue "Ed" Zhaerdeng
+  - Vargr
+  - "the best pilot in the galaxy"
+  - Races a custom g/bike called "Baby"
+
 #### Ships
+
+- The Ship: custom
+
+##### Previous Ships
 
 - Gemini: lab ship
   - **Leaky Reactor Core:** roll `2D` when the ship jumps, on a 12, all crew
@@ -137,8 +152,13 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 
 - **Session 4: Uudge She.** Surveyed the world, and met with the locals and
   learned their mythology.  Tried to convince them that they're not gods.  Found
-  spare parts, did a cvery cursory survey while being attacked by demons, and
+  spare parts, did a very cursory survey while being attacked by demons, and
   escaped.  Vega / Petr go on a date, Sly hires Ed.
+
+- **Session 5: Mission to Mithril (1).** Set off to Indmen with Prof. Arif, but
+  got a job to take some cargo to a science expedition on Kuurashbir along the
+  way.  Unfortunately, Mission to Mithril happened.  Half-way to the survivors,
+  facing down a giant snow-worm.
 
 **Adventures:**
 
@@ -163,7 +183,6 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 - Critical Vector (JTAS 6)
 - Misadventures at Blinderby Manor (JTAS 7)
 - The Wrong Patron (JTAS 9)
-- Mission to Mithril
 
 **Encounters:**
 
@@ -177,6 +196,7 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 **S.F.S.S. Bulletins:**
 
 - [01. 6y6zmk/Raluug](campaign-notes-2022-11-sylea-rising/bulletins/01.html)
+- [02. 8lqc4j/Raluug](campaign-notes-2022-11-sylea-rising/bulletins/02.html)
 
 
 House Rules
@@ -1185,6 +1205,164 @@ Resources
   - Character sheet for Ed
   - Add Uudge She UWP to player map
 - Founding of the Third Imperium
+
+
+2023-01-15 --- Session 5
+------------------------
+
+### Intro
+
+- New sheets:
+  - Ed
+  - Baby
+  - Ship
+    - Has a cargo crane
+    - Running costs
+    - Locker
+    - Power!
+
+- First mining money in 6 months time
+
+> You're a group of private citizens working government contracts for the Sylean
+> Federation Scout Service, out in Lishun Sector.
+>
+> Right now you're in the Raluug system, where you've been for a few weeks now
+> sorting out the voluminous paperwork that comes with getting a new ship, which
+> is only increased by the fact that you're trading in an existing mortgage to
+> fund it.
+>
+> The talk of the station while you've been here has been the secession of
+> several old and established worlds from the Sylean Federation.  There's been
+> people on the TV predicting the imminent collapse of the Federation and the
+> start of a new Long Night, but other than being slightly disturbed by the
+> news, nothing really has changed around these parts.
+>
+> And now all the paperwork is done, you've got your ship, you've got the keys,
+> you've moved your stuff over, and Ed---your new Vargr crewmate---has adjusted
+> the pilot's chair to just how he likes it.  It's time to head out to Indmen to
+> investigate a potential ancient alien signal with Prof. Joe Arif of the
+> University of Sylea's Xenoarchaeology Department.  However this is *not* an
+> official S.F.S.S. mission, unless you find a way to make it one, so your
+> mortgage repayments won't be paused while you do this, you'll have to repay
+> any payments you owe when you return to Federation space.
+
+### State
+
+- In 0236 Raluug
+- Upcoming:
+  - **Uudge She:** (all times at end of month)
+    - +1 month: colony ship in transit
+    - +2 month: mining colony established; planet joins Federation
+    - +3 months: ore shipment #1 produced
+    - +4 months: ore shipment #1 in transit; ore shipment #2 produced
+    - +5 months: ore shipments #1 and #2 in transit; ore shipment #3 produced
+    - +6 months: ore shipment #1 sold (Cr187,500 income); ore shipments #2 and #3 in transit; ore shipment #4 produced
+    - +7 months: ore shipment #2 sold (Cr187,500 income); ore shipments #3 and #4 in transit; ore shipment #5 produced
+    - +8 months: ore shipment #3 sold (Cr187,500 income); ore shipments #4 and #5 in transit; ore shipment #6 produced
+    - +9 months: ore shipment #4 sold (Cr375,000 income); ore shipments #5 and #6 in transit; ore shipment #7 produced
+    - +10 months: ore shipment #5 sold (Cr375,000 income); ore shipments #6 and #7 in transit; ore shipment #8 produced
+    - +11 months: ore shipment #6 sold (Cr375,000 income); ore shipments #7 and #8 in transit; ore shipment #9 produced
+    - +12 months: ore shipment #7 sold (Cr375,000 income); ore shipments #8 and #9 in transit; ore shipment #10 produced
+    - +13 months: ore shipment #8 sold (Cr375,000 income); ore shipments #9 and #10 in transit; ore shipment #11 produced
+    - +14 months: ore shipment #9 sold (Cr375,000 income); ore shipments #10 and #11 in transit; ore shipment #12 produced
+    - +15 months: ore shipment #10 sold (Cr375,000 income); ore shipments #11 and #12 in transit
+    - +16 months: ore shipment #11 sold (Cr375,000 income); ore shipment #12 in transit
+    - +17 months: ore shipment #12 sold (Cr375,000 income); end of income
+
+### Prep
+
+- **Prof. Joe Arif:**
+  - Will *not shut up* about the Ancients
+  - Considers the Archon Hypothesis absolute poppycock
+  - Lalita Ward (grad student) is much more grounded and polite
+
+- **Indmen:**
+  - Acid oceans & acid storms
+  - Locating the signal origin from orbit: `Difficult INT / Electronics (sensors)`
+  - Flying through the storm: `Difficult DEX / Pilot (spacecraft)`
+  - Pyramid fires a laser at approaching ships, as in *Shadows*
+  - Pyramid interior is Droyne base from *Twilight's Peak*, but:
+    - Use Random Encounters from *Secrets of the Ancients*
+    - N has two hostile Servitors (*Secrets of the Ancients*)
+    - Walls and ceiling are covered in a very detailed and intricate non-repeating geometric design which hurts the eyes and distracts the mind (DM-2 to INT and EDU tasks)
+    - No signs of prior human entry
+    - Low berths in O cannot be opened
+    - S / Z is the stargate room
+      - Holographic controls
+      - Walls show a starchart as seen from this world 300,000 years ago (`Very Difficult INT / Astrogation`)
+      - Pick out six symbols: `Difficult PSI` (characters with psionic potential 5+ only)
+      - Recognising the pattern gives the seventh symbol
+  - Trying to activate the stargate exhausts the power
+    - Prof. suggests plugging the ship into the base!
+    - Grad student more sensibly suggests returning with a portable fusion generator
+  - Actually activating the stargate gives a burst of gamma radiation (150 rads) and opens a bidirectional portal to another stargate in a lab in the Zhodani Consulate
+
+### Notes
+
+- Week 30:
+  - **Raluug:**
+    - **Monday:**
+      - New ship
+      - Transport scientific equipment to Kuurashbir (Cr15,000)
+      - Get freight to Sikiinili
+      - Jump to Sikiinili
+        - Realise in jump that Tama left his ID on the previous ship
+
+- Week 31:
+  - **Sikiinili:**
+    - **Wednesday:**
+      - Get freight to Urgiir Shi
+      - Jump to Urgiir Shi
+        - Attempt to forge an ID for Tama, it doesn't work
+
+- Week 33:
+  - **Urgiir Shi:**
+    - **Monday:**
+      - Get freight to Vliigkunnu
+      - Jump to Kuurashbir
+        - Prof Arif talks Vega's ear off about the Ancients
+
+- Week 34:
+  - **Kuurashbir:**
+    - **Wednesday:**
+      - Start *Mission to Mithril*
+        - ATV has a rotary autocannon
+      - Explore base
+      - Get computer logs & security camera footage
+      - Set out in ATV after air/raft distress signal
+    - **Thursday:**
+      - Move 250km
+      - Cold
+      - Find crater
+      - Encounter a calamander
+    - **Friday:**
+      - Move 250km
+      - Very cold
+      - Blizzard
+      - Crash into a boulder field
+    - **Saturday:**
+      - Spend all day navigating around the boulder field, no progress
+      - Cold
+      - Hear ice cracking
+    - **Sunday:**
+      - Move 250km
+      - Cold
+      - Everyone gets Crystallice all over them
+      - Hear ice cracking
+
+- Week 35:
+  - **Kuurashbir:**
+    - **Monday:**
+      - Move 150km
+      - Cold
+      - Interrupted by giant snow-worm
+
+### Next time
+
+- What does losing Tama's ID mean, concretely?
+- Mission to Mithril
+  - Roll 3 weeks weather & encounters
+  - Day 6, 4 hours of sunlight left, cold, facing a snow-worm
 
 
 2023-MM-DD --- Session N

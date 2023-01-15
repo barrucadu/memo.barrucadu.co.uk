@@ -473,7 +473,7 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 0332 Luukhuu              E000000-0 As Ba Lo Lt Ni Va                           - - - 000   -- M0 V M2 V M8 V
 0334 Urgiir Shi           D795210-4 Lo Lt Ni                                    - - - 414   H3 G1 V
 0335 Sirkhiuur            E403660-5 Ic Lt Na Ni Va                              - - - 103   H3 M0 V
-0336 Gadi                 D310530-7 Ni                                          - - - 013   -- M3 V
+0336 Gadi                 D310530-7 Ni                                          - - - 013   Sy M3 V
 0337 Angi                 C556521-6 Ag Ni                                       - - - 520   Sy G3 V M6 V
 0338 Gidzuurk La          D947450-4 Lt Ni                                       - - - 502   Sy G0 V M7 V
 0431 Khuupa Imim          E311580-8 Ic Ni                                       - - - 005   -- A6 III
@@ -483,10 +483,10 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 0533 Kuurashbir           D673322-3 Lo Lt Ni                                    - - - 002   -- M1 V
 0632 Vliigkunnu           E647351-3 Lo Lt Ni                                    - - - 703   -- M0 V
 0634 Andar                X554000-0 Ba Lo Lt Ni                                 - - - 004   -- K8 V
-0637 Kheirar              C200200-9 Lo Ni Va                                    - - - 223   -- G2 IV M8 V
+0637 Kheirar              C200200-9 Lo Ni Va                                    - - - 223   Sy G2 IV M8 V
 0638 Leaded               B436720-8                                             - - - 522   Sy M1 V
 0639 Kip                  C541530-6 Ni Po                                       - - - 900   Sy K4 V M9 V
-0731 Kir                  D100413-9 Ni Va                                       - - - 025   -- G1 III
+0731 Kir                  D100413-9 Ni Va                                       - - - 025   Sy G1 III
 0732 Shamkaa Un           E594132-3 Lo Lt Ni                                    - - - 010   -- G2 V M9 V
 0740 Pagkaiinki           B683730-8                                             - - - 003   Sy G7 V
 0832 Gasadla              X100780-4 Lt Na Va                                    - - - 904   -- M1 III

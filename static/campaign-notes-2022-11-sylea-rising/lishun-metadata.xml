@@ -42,7 +42,8 @@
   </Allegiances>
   <Borders>
     <!-- Sylean Federation -->
-    <Border Allegiance="Sy" LabelPosition="0439" WrapLabel="true" Color="Red">0035 0136 0236 0337 0437 0538 0638 0639 0740 0840 0940 1040 1141 1241 1141 1040 0940 0840 0740 0639 0638  0538  0437 0338 0237 0138 0139 0239 0140 0139 0138 0237 0236 0136 0035</Border>
+    <Border Allegiance="Sy" LabelPosition="0439" WrapLabel="true" Color="Red">0035 0136 0236 0336 0337 0437 0538 0637 0638 0639 0740 0840 0940 1040 1141 1241 1141 1040 0940 0840 0740 0639 0638 0538 0437 0338 0237 0138 0139 0239 0140 0139 0138 0237 0236 0136 0035</Border>
+    <Border Allegiance="Sy" ShowLabel="false" Color="Red">0731</Border>
     <!-- Human Pocket Empires -->
     <Border Allegiance="H1" LabelPosition="0326" WrapLabel="true" Color="DarkGreen">0427 0527 0526 0625 0725 0726 0826 0927 0827 0728 0628 0728 0827 0826 0726 0626 0527 0427</Border>
     <Border Allegiance="H2" LabelPosition="1135" WrapLabel="true" Color="HotPink">0834 0934 1033 1032 1033 1134 1034 0935 0936 0935 0834</Border>
