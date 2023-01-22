@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-01-15
+modified: 2023-01-22
 toc:
 - anchor: overview
   children:
@@ -23,6 +23,7 @@ toc:
 - anchor: session-3
 - anchor: session-4
 - anchor: session-5
+- anchor: session-6
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -159,6 +160,9 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   got a job to take some cargo to a science expedition on Kuurashbir along the
   way.  Unfortunately, Mission to Mithril happened.  Half-way to the survivors,
   facing down a giant snow-worm.
+
+- **Session 6: Mission to Mithril (2).** Rescue the scientists, shoot up the
+  mercenaries, make it to Kir.
 
 **Adventures:**
 
@@ -1363,6 +1367,137 @@ Resources
 - Mission to Mithril
   - Roll 3 weeks weather & encounters
   - Day 6, 4 hours of sunlight left, cold, facing a snow-worm
+
+
+2023-01-22 --- Session 6
+------------------------
+
+### Intro
+
+> Welcome back to Sylea Rising.
+>
+> Right now you're in the Kuurashbir system, where you stopped over on your way
+> to a thrilling xenoarchaeological dig on the world of Indmen, and you got
+> caught up in *something*.  An EMP device blew out your ship's gravity control
+> circuits, the one piece you happened not to have a replacement for.  The
+> downport itself is abandoned, with signs of violence: bullet holes in the
+> walls, poorly cleaned up bloodstains, and charred bodies.  Security camera
+> footage showed armed mercenaries entering, killing the staff, searching for
+> something, and abducting a passenger.
+>
+> You picked up a signal.  A distress signal coming from the port's air/raft,
+> which should have the part you need to fix up your ship and get the hell out
+> of here.  Only problem is it's some 1,500km away in the icy wastes.  And who
+> knows what's happened and who's out there.
+>
+> Six days into your journey, in the midst of a light snow, after encountering
+> cute lizards, weird bugs, navigating around boulders and rivers, the ground
+> trembles, cracks, lurches, and opens up in front of your badass ATV---that has
+> a gun---as a giant snow-worm bursts forth and towers above you, its gaping maw
+> revealing rings of dozens of teeth surrounding its deep red gullet.
+>
+> Let's roll initiative.  Who's driving?
+
+### State
+
+- In 0533 Kuurashbir
+- Week 35, Monday, cold, 4 hours of sunlight left
+- Upcoming:
+  - Life support since week 30
+  - Mortgage since week 30
+  - **Uudge She:** (all times at end of week)
+    - week 38: mining colony established; planet joins Federation
+    - week 42: ore shipment #1 produced
+    - week 46: ore shipment #1 in transit; ore shipment #2 produced
+    - week 50: ore shipments #1 and #2 in transit; ore shipment #3 produced
+    - week 54: ore shipment #1 sold (Cr187,500 income); ore shipments #2 and #3 in transit; ore shipment #4 produced
+    - week 58: ore shipment #2 sold (Cr187,500 income); ore shipments #3 and #4 in transit; ore shipment #5 produced
+    - week 62: ore shipment #3 sold (Cr187,500 income); ore shipments #4 and #5 in transit; ore shipment #6 produced
+    - week 66: ore shipment #4 sold (Cr375,000 income); ore shipments #5 and #6 in transit; ore shipment #7 produced
+    - week 70: ore shipment #5 sold (Cr375,000 income); ore shipments #6 and #7 in transit; ore shipment #8 produced
+    - week 74: ore shipment #6 sold (Cr375,000 income); ore shipments #7 and #8 in transit; ore shipment #9 produced
+    - week 78: ore shipment #7 sold (Cr375,000 income); ore shipments #8 and #9 in transit; ore shipment #10 produced
+    - week 82: ore shipment #8 sold (Cr375,000 income); ore shipments #9 and #10 in transit; ore shipment #11 produced
+    - week 86: ore shipment #9 sold (Cr375,000 income); ore shipments #10 and #11 in transit; ore shipment #12 produced
+    - week 90: ore shipment #10 sold (Cr375,000 income); ore shipments #11 and #12 in transit
+    - week 94: ore shipment #11 sold (Cr375,000 income); ore shipment #12 in transit
+    - week 98: ore shipment #12 sold (Cr375,000 income); end of income
+
+### Prep
+
+- Weather & Encounters:
+  - **Day 6:** very cold (arctic zone: extremely cold); snow
+    - Snow worm attack
+    - Calamanders stealing tools while repairing the ATV
+  - **Day 7:** extremely cold; serious storm
+  - **Day 8:** very cold (ice zone: extremely cold)
+    - Magnetic anomaly
+  - **Day 9:** very cold (ice zone: extremely cold); hail / snow
+  - **Day 10:** very cold (ice zone: extremely cold); hail / snow
+    - Ruin
+  - **Day 11:** cold (ice zone: very cold / arctic zone: extremely cold); sleet / hail
+  - **Day 12:** cold (arctic zone: very cold); serious storm + lightning
+  - **Day 13:** very cold (arctic zone: extremely cold)
+    - ATV malfunction
+  - **Day 14:** cold (ice zone: very cold); hail / snow
+  - **Day 15:** cold (arctic zone: very cold); hail
+    - Warm water geyser
+  - **Day 16:** cold (ice zone: very cold); serious storm
+  - **Day 17:** warm (ice zone: cool; arctic zone: cold); rain / sleet
+    - Ground subsidence
+    - Ephemeral glade
+  - **Day 18:** very cold (ice zone: extremely cold); snow
+  - **Day 19:** cold (ice zone: very cold)
+  - **Day 20:** cold (arctic zone: very cold); hail / snow
+  - **Day 21:** very cold (ice zone: extremely cold); serious storm
+
+- The NPCs:
+  - Air/Raft is in sight, across a chasm (50m deep, 15m across, 200km to drive around)
+    - Egil & Katrin with the air/raft, Bothildrs have been able to throw
+      supplies to them over the chasm
+  - Have been adopted by a flock a few dozen raucusses
+  - Don't know what's going on at the starport, but have figured out that
+    something bad must have happened
+
+- Journey back:
+  - Seating: 4
+  - Bunks: 2
+  - Airlock: 1 (sitting) / 2 (standing)
+  - Clinging to the roof: 2
+
+- Tama's ID:
+  - Needs to get replacement ID when next in Sylean space
+  - Crayg will be wherever that is, causing trouble
+    - Foreshadowing!
+
+### Notes
+
+- Week 35:
+  - **Kuurashbiir:**
+    - **Friday:**
+      - Meet up with scientists
+    - **Saturday:**
+      - Depart back to starport
+
+- Week 37:
+  - **Kuurashbiir:**
+    - **Tuesday:**
+      - Arrive at starport
+      - Jump to Vliigkunnu
+
+- Week 38:
+  - **Vliigkunnu:**
+    - **Tuesday:**
+      - Ship scientific equipment back to Raluug
+    - **Thursday:**
+      - Refuel at gas giant
+      - Jump to Kir
+
+### Next time
+
+- Kir, Week 39, Thursday
+- Battleships: The *Archon's Fist* and the *Merciless*
+- Crayg!
 
 
 2023-MM-DD --- Session N
