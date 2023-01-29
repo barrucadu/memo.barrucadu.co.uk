@@ -359,7 +359,7 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 1329 Raakhi Sha           B200410-C Ht Ni Va                                    - - - 623   -- M2 V M0 V
 1330 Uurgauum             E547103-5 Lo Lt Ni                                    - - - 004   -- K4 V
 1424 Khuunan              X310000-0 Ba Lo Lt Ni                                 - - - 000   -- M3 V M4 V
-1430 Uudge She            X576330-0 Lo Lt Ni                                    - - - 802   -- M1 V M0 V
+1430 Uudge She            X576330-0 Lo Lt Ni                                    - - - 802   Sy M1 V M0 V
 1521 Gag                  X546000-0 Ba Lo Lt Ni                                 - - - 003   -- M2 V M7 V M5 V
 1522 Kim                  X6B4000-0 Ba Fl Lo Lt Ni                              - - - 003   -- M1 V
 1524 Kas                  X310000-0 Ba Lo Lt Ni                                 - - - 410   -- F4 V

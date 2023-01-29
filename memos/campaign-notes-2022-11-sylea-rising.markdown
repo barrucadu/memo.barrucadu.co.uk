@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-01-22
+modified: 2023-01-29
 toc:
 - anchor: overview
   children:
@@ -24,6 +24,7 @@ toc:
 - anchor: session-4
 - anchor: session-5
 - anchor: session-6
+- anchor: session-7
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -163,6 +164,10 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 
 - **Session 6: Mission to Mithril (2).** Rescue the scientists, shoot up the
   mercenaries, make it to Kir.
+
+- **Session 7: Secrets of the Ancients / Third Imperium** Meet Crayg.  Explore
+  the Ancients site on Indmen, and decide a larger team needs to be involved.
+  Then get caught up in the founding of the Third Imperium.
 
 **Adventures:**
 
@@ -1498,6 +1503,151 @@ Resources
 - Kir, Week 39, Thursday
 - Battleships: The *Archon's Fist* and the *Merciless*
 - Crayg!
+
+
+2023-01-29 --- Session 7
+------------------------
+
+### Intro
+
+> Welcome back to Sylea Rising.
+>
+> Right now you're in the Kir system---which joined the Federation relatively
+> recently---on your way to the world of Indmen for an archaeological dig with
+> Prof. Arif of the University of Sylea.  Last time you were here, Tama picked a
+> fight with a mining company president, and you got caught up in a murder
+> investigation.  This time, I'm sure everything will go much more smoothly.
+>
+> On your ship, in addition to the usual crew, you have two port workers and a
+> family of four scientists, who you picked up Kuurashbir after mercenaries
+> attacked their world.  They asked you to drop them off in Sylean space, and
+> then they could make their own way.  And also, Tama needs to replace his
+> missing ID, a tedious process involving taking little photographs and filling
+> out forms.
+>
+> So, under the watchful sensors of Sylean battleships the *Archon's Fist* and
+> the *Merciless*, you dock at Kir highport.
+
+### State
+
+- In 0731 Kir
+- Week 39, Thursday
+- Upcoming:
+  - **Expenses due:**
+    - 2x mortgage (since week 30: weeks 34 & 38): Cr340,666
+    - 2x salary (since week 30: weeks 34 & 38): Cr12,000
+    - 9x week life support (since week 30): Cr47,250 (5x double stateroom, 4x crew, 2x passengers)
+    - 3x week life support (weeks 37 to 39): Cr4,500 (6x passengers from Kuurashbir)
+  - **Uudge She:** (all times at end of week)
+    - week 42: ore shipment #1 produced
+    - week 46: ore shipment #1 in transit; ore shipment #2 produced
+    - week 50: ore shipments #1 and #2 in transit; ore shipment #3 produced
+    - week 54: ore shipment #1 sold (Cr187,500 income); ore shipments #2 and #3 in transit; ore shipment #4 produced
+    - week 58: ore shipment #2 sold (Cr187,500 income); ore shipments #3 and #4 in transit; ore shipment #5 produced
+    - week 62: ore shipment #3 sold (Cr187,500 income); ore shipments #4 and #5 in transit; ore shipment #6 produced
+    - week 66: ore shipment #4 sold (Cr375,000 income); ore shipments #5 and #6 in transit; ore shipment #7 produced
+    - week 70: ore shipment #5 sold (Cr375,000 income); ore shipments #6 and #7 in transit; ore shipment #8 produced
+    - week 74: ore shipment #6 sold (Cr375,000 income); ore shipments #7 and #8 in transit; ore shipment #9 produced
+    - week 78: ore shipment #7 sold (Cr375,000 income); ore shipments #8 and #9 in transit; ore shipment #10 produced
+    - week 82: ore shipment #8 sold (Cr375,000 income); ore shipments #9 and #10 in transit; ore shipment #11 produced
+    - week 86: ore shipment #9 sold (Cr375,000 income); ore shipments #10 and #11 in transit; ore shipment #12 produced
+    - week 90: ore shipment #10 sold (Cr375,000 income); ore shipments #11 and #12 in transit
+    - week 94: ore shipment #11 sold (Cr375,000 income); ore shipment #12 in transit
+    - week 98: ore shipment #12 sold (Cr375,000 income); end of income
+
+### Prep
+
+- **Crayg:**
+  - Captain of the *Merciless*
+  - In the highport preparing to leave, but spots Tama
+  - Harass the PCs a bit:
+    - Loudly refer to "Private Tama Nourvakaiken, dishonourably discharged for
+      gross incompetence, and cowardice in the face of the enemy"
+    - Have the ship searched to make sure they're not smuggling anything
+    - Insinuate that the scientists were mis-sold passage, since the ship is far
+      too small for so many people
+    - Say he'll be in Raluug in a few months, "maybe we could catch up over a
+      beer, for old time's sake"
+    - etc
+
+- **Indmen:**
+  - See session 5 prep
+  - They can't power the stargate with the ship's reactor, they have to come
+    back for a portable power source: make the climax of act 2 be the Zhodani
+    invasion.
+
+- **Return to Raluug:**
+  - All traffic detained
+  - Ambassador and the *Merciless* present
+  - Founding of the Third Imperium
+    - [Warrant of Restoration](https://wiki.travellerrpg.com/Warrant_of_Restoration)
+  - End of arc 1!  Arc 2 starts with *Flatlined* after Crayg drugs and ships off
+    the PCs + Ed!
+
+### Notes
+
+- Week 39:
+  - **Kir:**
+    - **Thursday:**
+      - Crayg harasses the PCs
+      - Tama gets his ID
+
+- Week 41
+  - **Indmen:**
+    - **Saturday:**
+      - Arrive, next to the gas giant
+      - Spend a few days skimming fuel and flying to Indmen
+
+- Week 42:
+  - **Indmen:**
+    - **Tuesday:**
+      - Start scanning world for site
+    - **Friday:**
+      - Find site
+      - Come in to land
+      - Escape laser blast
+      - Talk to the robots:
+        - Learn that this place is 300,000 years old
+        - Take them out to cancel a self-destruct sequence
+      - Explore:
+        - Inspect all rooms
+        - Don't push any buttons, except in the stargate room
+        - Recognise the star chart and constellations
+      - Find loot:
+        - 2x translator device (one attuned to Vega)
+        - 1x disintegrator pistol (5 charges)
+        - 1x repair tool (7 charges)
+        - 1x incomprehensible relic
+      - Decide to catalogue everything and go get a more prepared research team
+
+- Week 43:
+  - **Indmen:**
+    - **Monday:**
+      - Finish cataloguing everything
+      - Set off back to Raluug
+
+- Week 52:
+  - **Raluug:**
+    - **Monday:**
+      - Arrive
+      - Get scientists involved
+      - Pay everything
+      - Annual maintenance
+
+- Week 54:
+  - **Raluug:**
+    - **Monday:**
+      - Crayg's ship arrives
+      - Founding of the Third Imperium
+
+### Next time
+
+- Delta Green one-shot!  But after that...
+- Week 54, Raluug, Monday
+  - Ore shipment #1 due
+- Update sector data & map for Third Imperium
+- Work out science expedition to Indmen
+- Flatlined (captured by Crayg!)
 
 
 2023-MM-DD --- Session N
