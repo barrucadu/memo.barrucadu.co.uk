@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2023-01-15
+modified: 2023-02-02
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -16,19 +16,16 @@ Book Series
 |--------------------------------------------:+----------------:+-----------------------------------------------|
 | [Delicious in Dungeon][]                    |                 | Volume 12                                     |
 | [The Kharkanas Trilogy][]                   |                 | Walk in Shadow                                |
-| [Overlord][]                                | `9781975360566` | Volume 15: The Half Wood Elf God-kin (Part 1) |
-|                                             |                 | Volume 16: The Half Wood Elf God-kin (Part 2) |
+| [Overlord][]                                | `9781975367800` | Volume 16: The Half Wood Elf God-kin (Part 2) |
 | [So I'm a Spider, So What?][]               |                 | Volume 16                                     |
 | [The Solar Cycle][]                         | `9780312872915` | Litany of the Long Sun                        |
 |                                             | `9780312860721` | Epiphany of the Long Sun                      |
 |                                             | `9780312872571` | On Blue's Waters                              |
 |                                             | `9780312873639` | In Green's Jungles                            |
 |                                             | `9780312873646` | Return to the Whorl                           |
-| [That Time I Got Reincarnated As A Slime][] | `9781975314477` | Volume 14                                     |
-|                                             | `9781975314491` | Volume 15                                     |
-|                                             |                 | Volume 16                                     |
+| [That Time I Got Reincarnated As A Slime][] |                 | Volume 16                                     |
 |                                             |                 | Volume 17                                     |
-|                                             |                 | Volume 17                                     |
+|                                             |                 | Volume 18                                     |
 |                                             |                 | Volume 19                                     |
 |                                             |                 | Volume 20                                     |
 | [The Witness Trilogy][]                     |                 | No Life Forsaken                              |
@@ -125,7 +122,6 @@ Miscellaneous Fiction
 
 | ISBN            | Title                                       | Author             |
 |----------------:+---------------------------------------------+--------------------|
-| `9780765387424` | The Witness for the Dead                    | Katherine Addison  |
 | `9781447263401` | Last Days                                   | Adam Nevill        |
 | `9780765318145` | Anvil of Stars                              | Greg Bear          |
 | `9780586217467` | The Mote in God's Eye                       | Larry Niven        |
