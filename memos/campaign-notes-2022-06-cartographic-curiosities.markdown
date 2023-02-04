@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2023-01-28
+modified: 2023-02-04
 taxon: games-campaigns
 toc:
 - anchor: overview
@@ -35,6 +35,7 @@ toc:
 - anchor: session-11
 - anchor: session-12
 - anchor: session-13
+- anchor: break-1.1
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -3168,6 +3169,123 @@ Do a full Angry GM-style intro / recap since it's been a while:
 - 3 Chysting
 - In 0505
 - "fairies stole my wife!" hook
+
+
+2023-02-04 --- Break 1.1
+------------------------
+
+We played the ALIEN scenario *Chariot of the Gods*.
+
+### Intro
+
+> Welcome to Alien, I will be your Game Mother as we play the cinematic scenario
+> *Chariot of the Gods*, which I expect to take probably three sessions.
+>
+> Alien's a bit different from other games we've played before, so before we get
+> started I just want to summarise some key aspects of the setting and the
+> system, which I think if we lean strongly into we'll have a much more fun
+> time.
+>
+> If I had to summarise the genre it's retro-futuristic hyper-capitalist space
+> horror.  There's intelligent androids, space colonies, and FTL travel, but
+> also computers are room-sized mainframes, everything uses green monochrome CRT
+> monitors, and space ships look kind of like flying oil refineries, with
+> exposed piping and wiring everywhere.  Everything's kind of dirty, run down,
+> and unreliable.  Big chunky buttons, analogue devices, all that good stuff.
+> Out here in space, you belong to the megacorps, who run everything.  They view
+> individual human lives as just interchangeable cogs of no inherent value, and
+> company representatives are basically kings, or high priests of their
+> corporate gods.
+>
+> You're all the crew of a ship, the USCSS Montero a commercial starfreighter
+> owned by Weyland-Yutani, you're colleagues, you all get on to a greater or
+> lesser extent, but you're not like a traditional RPG party.  If you all look
+> at your character sheets, you may have a buddy or a rival, or both, and you
+> all have a personal agenda.  Don't tell the other players what those agendas
+> are, and use them to help roleplay your character.  These agendas will change
+> over time: this is a three-act scenario, so you'll get a new agenda at the
+> start of acts 2 and 3.
+>
+> If I think you actively advance your agenda, going out of your way to do so,
+> at personal risk or sacrifice, at the end of each act you can earn a story
+> point, which you can spend for an automatic success on a roll.  Story points
+> belong to you, the player, not your character, so if your character dies and
+> you take over an NPC you'll keep those story points, and if we play another
+> Alien scenario in the future, you'll start with any left over story points.
+>
+> As your agendas are both personal and secret, you might find they'll drive you
+> into conflict with other characters.  Possibly even towards PvP.  That's fine,
+> that's more than fine, that's fun: lean into it, don't think "oh, but we're a
+> party, we have to work together".  In Alien, everyone is out for themselves.
+> And if you want to do something secret without the other players knowing, just
+> message me on Discord.  I'll leave that up to your judgement.
+>
+> I'll pause now for a few minutes for you to look at your character sheets,
+> read through everything, make sure it all makes sense, and then we'll begin.
+> So everyone let me know when you're ready to go.
+
+Read *What's the story Mother?*
+
+> Coming out of hypersleep is never a pleasant experience.  In fact, you all
+> feel like shit.  You're dehydrated, hungry, a few of you might have a headache
+> starting.  You can just thank your lucky stars that on this run at least you
+> only need to sleep a few months at a time, it gets worse the longer you're
+> under.  If there's one thing you can say about Weyland-Yutani, it's that they
+> don't prioritise unprofitable nonsense, like improving the comfort of their
+> workers.
+>
+> So let's just go 'round the group and by way of introduction each of you just
+> describe what the process of you waking up is like.  Like, do you laze around
+> a bit, or immediately get a shower and get dressed, maybe talk to someone, or
+> maybe just stumble bleary-eyed straight to the galley for some coffee or bug
+> juice.
+
+### Prep
+
+- **When to roll for air:** (p35)
+  - Every turn and after every strenuous activity (like combat or a Mobility roll)
+- **Stunts:** (p64 to 71, leave up to players)
+- **Recovering from damage:** (p98)
+  - One point of Health per turn of rest
+- **What increases stress:** (p103)
+  - You push a skill roll
+  - You fire a burst of full auto fire
+  - You suffer one or more points of damage
+  - You go without sleep, food, or water
+  - You perform a coup de grace
+  - A Scientisty in your team fails to use the Analysis talent
+  - A member of your own crew attacks you
+  - A person nearby is revealed to be an android
+  - The GM says so
+- **What causes a panic roll:** (p104)
+  - You roll a one on a stress die in a skill roll (also prevents pushing)
+  - You witness a friendly character suffering from certain panic effects
+  - You are pinned down by a ranged attack
+  - You suffer a critical injury
+  - You're attacked by an alien creature you've never seen before
+  - The GM says so
+- **Recovering from stress:** (p104)
+  - One point of Stress per turn of rest
+  - Some panic roll effects
+  - Some drugs
+  - Interacting with a signature item
+- **This session is Act 1; end with the Bloodburster escaping.**
+
+### Notes
+
+- Rye is dead.
+- Cham is semi-exposed as the secret android: suffered a critical injury and
+  left android blood on the floor, which the rest of the crew have found, but
+  only Rye actually *saw*.  Currently hiding in the air scrubber shaft repairing
+  himself (need to roll).
+- Cooper exploded.
+- Miller is evactuating the Cronus survivors and the samples Wilson wanted to
+  the Montero.
+- There's a Neomorph on the loose.
+
+### Next time
+
+- Act 2
 
 
 2023-MM-DD --- Session NN
