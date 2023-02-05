@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-01-29
+modified: 2023-02-05
 toc:
 - anchor: overview
   children:
@@ -25,6 +25,7 @@ toc:
 - anchor: session-5
 - anchor: session-6
 - anchor: session-7
+- anchor: break-1
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -1648,6 +1649,105 @@ Resources
 - Update sector data & map for Third Imperium
 - Work out science expedition to Indmen
 - Flatlined (captured by Crayg!)
+
+
+2023-02-05 --- Break 1
+----------------------
+
+We played the Delta Green scenario *Last Things Last*.
+
+### Intro
+
+> Welcome to Delta Green, I will be your Handler as we play the quick-start
+> scenario *Last Things Last*, which is very short and will only take this one
+> session.
+>
+> Previously, we've played Call of Cthulhu, where you play normal people caught
+> up in some horrible event, some sanity-blasting mystery or conspiracy, which
+> you have to do your best to deal with.  We've also played Pulp Cthulhu, where
+> you're more like pulp action heroes, confronting the Unnatural by diving
+> through the air firing a gun in each hand.  Delta Green is also about the
+> Unnatural, but it's not like those games.
+>
+> Delta Green is a secret federal agency.  So secret that nobody outside of
+> Delta Green itself and the very top of the federal government is even aware of
+> its existence.  Delta Green agents and informants are embedded in other
+> organisations: FBI, CIA, DEA, other federal and non-federal organisations,
+> local law enforcement, many even outside of government entirely.  The job of
+> Delta Green is constant vigilance for the Unnatural.  And when the Unnatural
+> rears its head, agents, like you, are dispatched to end it.
+>
+> Not to understand it, because understanding leads to madness and further
+> contamination.
+>
+> Not to solve it, because the Unnatural can't be solved, we can only delay it
+> for a while.
+>
+> You're sent to end it.
+>
+> To root out the involvement of the Unnatural and make it uninvolved, with
+> extreme prejudice.
+>
+> For its own protection, Delta Green is composed of small semi-independent
+> cells.  You are all agents in one such cell.  You have a handler, who relays
+> orders from Delta Green leadership, but you have no idea who those leaders
+> are, and asking about it is frowned upon.  You don't personally know any
+> agents from other cells, you just know that they exist out there, somewhere,
+> probably.
+>
+> Furthermore, you are all new to this cell.  You've not worked together before.
+> And now, you're being activated.
+>
+> So, by way of introduction, let's just go through you all one by one, and have
+> a brief scene of you receiving your orders.
+
+### Prep
+
+- **Locations:**
+  - Meeting: tiny deli in Grants Pass, Oregon
+    - Probably have to fly to Portland or San Francisco or Sacramento and then
+      drive several hours to get there
+  - Apartment: small run-down building on the outskirts of town
+  - Cabin: into the woods near Crescent Lake (4hr drive)
+
+- **Meeting the handler:**
+  - Message sent out Thursday afternoon, Handler meeting Friday afternoon
+    - Handler is called Agent Collins
+  - Cornwell is assigned to a joint terrorism task force
+  - McMurty & Schell just get a coded message and have to make their excuses
+    - How do they get off work?
+  - How do they get to the meeting?  Who's flying in?  Does Cornwell get an FBI car?
+  - Meeting is at a deli, have to make a pre-agreed sandwich order as a password
+  - In addition to handout, given a burner phone and a number to call
+
+- **In the apartment:**
+  - In addition to the papers, a few unmarked VHS tapes (recordings of war
+    documentaries), 6 hours worth
+
+- **At the cabin:**
+  - Urn for human ashes (empty) engraved "Marlene"
+  - Gun safe:
+    - 1x bolt action hunting rifle (-20% if used on the round after being
+      fired): 100m; 1d12; 10%; AP 3
+    - 2x shotgun: 75m; 2d8 (half if firing beyond base range)
+  - Two nearby hillbilly hunters: Buck, Hutch
+    - HP 12, SAN 60
+    - Alertness 30, Firearms 50, Navigate 30, Survival 30, Unarmed Combat 40
+    - Bolt action hunting rifle
+  - In the footlocker:
+    - Records of his Delta Green operations
+    - A large iron knife with (human) bone handle, minutely engraved with an
+      Arabic prayer to the "Prolonger of Life"
+    - An old book bound in (human) leather, in Arabic, detailing the afterlife
+      and resurrection: has a ritual to banish The Other (stab it with the knife
+      and chant)
+  - That Which Was Marlene:
+    - If killed, black smoke leaves the corpse and inhabits another one nearby
+
+### Notes
+
+- Got chewed out by the handler for not reporting their movements
+- Marlene's spirit escaped, unknown to the characters, but known to the players
 
 
 2023-MM-DD --- Session N
