@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-02-05
+modified: 2023-02-07
 toc:
 - anchor: overview
   children:
@@ -108,12 +108,14 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
     commander became a gang enforcer.
   - **Ally:** ??? (fellow criminal)
   - **Rival:** ??? (military school)
-  - **Enemy:** ??? (military unit commander)
+  - **Enemy:** Crayg, captain of the Imperial battleship the *Merciless*.
+    Framed Tama to cover up his botched command.
 
 - Vega Polaris (Yuyuko): pilot, engineer, boffin
   - **Psionic Potential:** 3 (-1)
   - Long career as a scientist, before deciding to work more closely with her
     audience by becoming a journalist: it didn't work out.
+  - **Ally:** Petr Idema, potential lover, young prospector based in Raluug.
 
 ##### NPCs
 
@@ -244,9 +246,9 @@ Scripts:
 
 ### Non-Default Assumptions
 
-- TL 12 is the best technology available, the Sylean Federation and its
-  neighbours haven't reached TL 13 yet (some TL 13 tech may exist as early
-  prototypes, but is not generally available)
+- TL 12 is the best technology available, the Third Imperium and its neighbours
+  haven't reached TL 13 yet (some TL 13 tech may exist as early prototypes, but
+  is not generally available)
 
 - Jump-3 has been invented but isn't available outside military / government use
   yet.
@@ -290,6 +292,10 @@ Scripts:
   - Cleon Zhunastu becomes Grand Duke of Sylea and President of the Grand Senate, and begins a period of greatly increased diplomacy, trade, and expansion.
 - **4520 AD**
   - *This is when our game begins!*
+- **4521 AD**
+  - Sylean Federation becomes the Third Imperium, with President Cleon as the first emperor.
+  - Sylea renamed to "Capital".
+  - Ukan Sector renamed to "Core Sector".
 
 ### Polities of Lishun Sector
 
@@ -297,40 +303,42 @@ In addition to these larger polities, there are many independent worlds.  These
 are intentionally not fleshed out.  Dead worlds, archaeological finds, hostile
 aliens, strange facilities, caches of technology... anything could be out there.
 
-#### Sylean Federation
+#### Third Imperium
 
-The Sylean Federation controls several hundred worlds mostly within about 30
-parsecs of Sylea, in Ukan sector (rimward).  Lishun sector is more or less
-beyond the frontier: officially, the Sylea / Vland trade corridor in the Shuun
-and Welling subsectors is part of the Federation, but is wild and dangerous with
-rampant piracy beyond the range of starport and planetary defenses.
+The Sylean Federation was replaced by the Third Imperium at the start of Year 0.
 
-**Governance:** Worlds are largely self-governing, with each appointing a
-senator to the Grand Senate on Sylea, which has the hereditary Grand Duke of
-Sylea as its president.
+The Third Imperium controls several hundred worlds mostly within about 30
+parsecs of Capital (previously called Sylea), in the Core (previously called
+Ukan) sector (rimward).  Lishun sector is more or less beyond the frontier:
+officially, the Capital / Vland trade corridor in the Shuun and Welling
+subsectors is part of the Imperium, but is wild and dangerous with rampant
+piracy beyond the range of starport and planetary defenses.
 
-The Grand Senate determines laws for both Sylea and the whole Federation, there
-isn't a separate Sylean government.  While Sylea is the only world directly
-ruled by the Grand Senate, the oldest worlds of the Federation are civil service
-bureaucracies ruled by their senators.  Other worlds, especially out here far
-from Sylea, are far more varied.
+**Governance:** Worlds are largely self-governing, with each part of the domain
+of a hereditary noble who is also part of the Moot, an advisory body to the
+emperor.
 
-The current Grand Duke is the 56-year-old Cleon Zhunatsu, a very popular leader
-who has overseen rapid expansion of the Federation.
+Imperial Law governs interstellar trade and prohibits certain crimes such as
+chattel slavery and the manufacture or possession of weapons of mass
+destruction, but otherwise leaves local law up to the individual planets.
+
+The current emperor is the 57-year-old Cleon Zhunatsu, a very popular leader who
+oversaw rapid expansion of the Sylean Federation and then its transformation
+into the Third Imperium.
 
 **Society:** The society is equitable, with Syleans, Solomani, and Vilani all
 mixing together in all tiers of society, though ethnic Syleans are
 over-represented in the Senate.  Humans make up the vast majority of the
-population, though there are also trace numbers of Aslan and Droyne, and a small
-subpopulation of Vargr.
+population, though there is a small population of Vargr, and trace numbers of
+Aslan.
 
-**Recent history:** The recent history of the Sylean Federation is the recent
-history of the current ruling dynasty, the Zhunastu family.  Felix Zhunastu, the
-previous Grand Duke, persuaded the Grand Senate to grant the president broad and
-expansive powers.  He also used the Zhunastu family fortune to acquire several
-key corporations and merge them into the Zhunastu Industries megacorporation,
-which mostly deals with research and development, holds several military
-contracts, and has developed the first prototype jump-3 ships.
+**Recent history:** The recent history of the Third Imperium is the recent
+history of the current ruling dynasty, the Zhunastu family.  Felix Zhunastu, a
+previous Grand Duke of Sylea, persuaded the Grand Senate to grant the president
+broad and expansive powers.  He also used the Zhunastu family fortune to acquire
+several key corporations and merge them into the Zhunastu Industries
+megacorporation, which mostly deals with research and development, holds several
+military contracts, and has developed the first prototype jump-3 ships.
 
 When Felix died, he left behind his heir the 27-year-old Cleon Zhunastu, who
 assumed the roles of Grand Duke of Sylea, president of the Grand Senate, and
@@ -342,24 +350,27 @@ independent worlds are considering membership, having either applied themselves
 or having been invited due to their economic, technological, or strategic
 merits.
 
-Cleon has been president for 30 years now, and shows no sign of slowing down.
-It's widely known that he plans to bring even more worlds under Sylean control,
-expanding further into Lishun sector once Ukan sector is more firmly under
-control.  The people are generally optimistic for the future, and look forward
-to seeing what change he brings next.
+After holding the presidency for 30 years, Cleon succeeded in his greatest aim:
+the transformation of the Sylean Federation into the Third Imperium, a
+self-styled successor state to the Ziru Sirka and the Rule of Man, claiming
+authority over the thousands of worlds once members of those previous states.
+
+This change also replaced the elected Grand Senate with a hereditary nobility
+who are delegated significant powers to manage their domains, which is Cleon's
+solution to the difficulty of administration at interstellar distances.
 
 ##### Uundas Union
 
 The Uundas Union is a fragmented polity, disparate worlds which survived the
 Long Night somewhat intact using a fleet of left-over Ziru Sirka cargo ships
 maintained by the decaying high tech facilities on Uundas.  But now those
-facilities have degraded to the point that the Union has to buy old Sylean ships
-and use the repair facilities of Raluug starport to keep its internal trade
-afloat.
+facilities have degraded to the point that the Union has to buy old Imperial
+ships and use the repair facilities of Raluug starport to keep its internal
+trade afloat.
 
-**Relationship with the Sylean Federation:** Somewhere between a small trading
+**Relationship with the Third Imperium:** Somewhere between a small trading
 partner and a captive government.  The significantly more powerful economy and
-technological base of the Sylean Federation is slowly forcing the Union towards
+technological base of the Third Imperium is slowly forcing the Union towards
 assimilation, something the more independence-minded worlds of the Union are not
 happy with.
 
@@ -374,11 +385,11 @@ governments are subordinate to the bureaucrats of Paran, but are mostly left to
 rule without interference, on the assumption that those who live on a world
 understand what it and its people need better than those who live elsewhere.
 
-**Relationship with the Sylean Federation:** The bureaucrats of Paran are
-unfriendly to those they view as official envoys of the Sylean Federation: to
-them, the Federation has more than it could possibly need, and so has a duty to
+**Relationship with the Third Imperium:** The bureaucrats of Paran are
+unfriendly to those they view as official envoys of the Third Imperium: to them,
+the Imperium has more than it could possibly need, and so has a duty to
 distribute that excess to others at no cost.  However, they don't go so far as
-turning away Sylean traders.
+turning away Imperial traders.
 
 ##### Gishgi People's Assembly
 
@@ -392,9 +403,9 @@ worlds have been added to the Assembly, and the Secretary-General of the Supreme
 Assembly of the People rules with the aid of the State Secret Police as an
 unpopular totalitarian ruler.
 
-**Relationship with the Sylean Federation:** The Sylean Federation has been
-officially branded a Threat to the Mental Wellbeing and Contentment of the
-People, and Sylean ships barred from the People's Assembly's territory.
+**Relationship with the Third Imperium:** The Third Imperium has been officially
+branded a Threat to the Mental Wellbeing and Contentment of the People, and
+Imperial ships barred from the People's Assembly's territory.
 
 ##### Our Kingdom
 
@@ -402,7 +413,7 @@ People, and Sylean ships barred from the People's Assembly's territory.
 
 TODO
 
-**Relationship with the Sylean Federation:** TODO
+**Relationship with the Third Imperium:** TODO
 
 ##### Grand Duchy of Ankii An
 
@@ -410,7 +421,7 @@ TODO
 
 TODO
 
-**Relationship with the Sylean Federation:** TODO
+**Relationship with the Third Imperium:** TODO
 
 ##### Irzemuu Federation
 
@@ -418,7 +429,7 @@ TODO
 
 TODO
 
-**Relationship with the Sylean Federation:** TODO
+**Relationship with the Third Imperium:** TODO
 
 ##### Kuunguu Confederation
 
@@ -426,7 +437,7 @@ TODO
 
 TODO
 
-**Relationship with the Sylean Federation:** TODO
+**Relationship with the Third Imperium:** TODO
 
 ##### Kimuum Free Worlds
 
@@ -434,7 +445,7 @@ TODO
 
 TODO
 
-**Relationship with the Sylean Federation:** TODO
+**Relationship with the Third Imperium:** TODO
 
 ##### 7th Disjuncture
 
@@ -442,7 +453,7 @@ TODO
 
 TODO
 
-**Relationship with the Sylean Federation:** TODO
+**Relationship with the Third Imperium:** TODO
 
 ##### Gzoerrghzae Fleet
 
@@ -450,7 +461,7 @@ TODO
 
 TODO
 
-**Relationship with the Sylean Federation:** TODO
+**Relationship with the Third Imperium:** TODO
 
 ##### Ksouruz Pact
 

@@ -5,7 +5,7 @@ import sys
 from t5secdatlib import *
 
 ALLEGIANCE_NAMES = {
-    "Sy": "Sylean Federation",
+    "Im": "Third Imperium",
     "H1": "Gishgi People's Assembly",
     "H2": "Paran League",
     "H3": "Uundas Union",

@@ -24,8 +24,8 @@
     <Subsector Index="P">Mirmida</Subsector>
   </Subsectors>
   <Allegiances>
-    <!-- Sylean Federation -->
-    <Allegiance Code="Sy">Sylean Federation</Allegiance>
+    <!-- Third Imperium -->
+    <Allegiance Code="Im">Third Imperium</Allegiance>
     <!-- Human Pocket Empires (central / trailing) -->
     <Allegiance Code="H1">Gishgi People's Assembly</Allegiance>
     <Allegiance Code="H2">Paran League</Allegiance>
@@ -41,10 +41,10 @@
     <Allegiance Code="V3">Gzoerrghzae Fleet</Allegiance>
   </Allegiances>
   <Borders>
-    <!-- Sylean Federation -->
-    <Border Allegiance="Sy" LabelPosition="0439" WrapLabel="true" Color="Red">0035 0136 0236 0336 0337 0437 0538 0637 0638 0639 0740 0840 0940 1040 1141 1241 1141 1040 0940 0840 0740 0639 0638 0538 0437 0338 0237 0138 0139 0239 0140 0139 0138 0237 0236 0136 0035</Border>
-    <Border Allegiance="Sy" ShowLabel="false" Color="Red">0731</Border>
-    <Border Allegiance="Sy" ShowLabel="false" Color="Red">1430</Border>
+    <!-- Third Imperium -->
+    <Border Allegiance="Im" LabelPosition="0439" WrapLabel="true" Color="Red">0035 0136 0236 0336 0337 0437 0538 0637 0638 0639 0740 0840 0940 1040 1141 1241 1141 1040 0940 0840 0740 0639 0638 0538 0437 0338 0237 0138 0139 0239 0140 0139 0138 0237 0236 0136 0035</Border>
+    <Border Allegiance="Im" ShowLabel="false" Color="Red">0731</Border>
+    <Border Allegiance="Im" ShowLabel="false" Color="Red">1430</Border>
     <!-- Human Pocket Empires -->
     <Border Allegiance="H1" LabelPosition="0326" WrapLabel="true" Color="DarkGreen">0427 0527 0526 0625 0725 0726 0826 0927 0827 0728 0628 0728 0827 0826 0726 0626 0527 0427</Border>
     <Border Allegiance="H2" LabelPosition="1135" WrapLabel="true" Color="HotPink">0834 0934 1033 1032 1033 1134 1034 0935 0936 0935 0834</Border>
@@ -60,14 +60,14 @@
     <Border Allegiance="V3" LabelPosition="1302" WrapLabel="true" Color="LightBlue">1300 1400 1500 1600 1601 1602 1603 1504 1503 1502 1401 1301 1300</Border>
   </Borders>
   <Routes>
-    <!-- Sylea / Paran route -->
+    <!-- Imperium / Paran route -->
     <Route Type="Trade" Start="0940" End="1039" Color="LightSteelBlue" Width="1.5" />
     <Route Type="Trade" Start="1039" End="1038" Color="LightSteelBlue" Width="1.5" />
     <Route Type="Trade" Start="1038" End="1037" Color="LightSteelBlue" Width="1.5" />
     <Route Type="Trade" Start="1037" End="0937" Color="LightSteelBlue" Width="1.5" />
     <Route Type="Trade" Start="0937" End="0936" Color="LightSteelBlue" Width="1.5" />
 
-    <!-- Sylea / Uundas route -->
+    <!-- Imperium / Uundas route -->
     <Route Type="Trade" Start="0236" End="0235" Color="LightSteelBlue" Width="1.5" />
 
     <!-- Paran / Gishgi / Uundas route -->
@@ -85,7 +85,7 @@
     <Route Type="Trade" Start="0732" End="0731" Color="LightSteelBlue" Width="1.5" />
     <Route Type="Trade" Start="0731" End="0730" Color="LightSteelBlue" Width="1.5" />
 
-    <!-- Sylea / Vland route -->
+    <!-- Imperium / Vland route -->
     <Route Type="Trade" Start="1241" End="0940" Color="LightSteelBlue" Width="1.5" />
     <Route Type="Trade" Start="0940" End="0740" Color="LightSteelBlue" Width="1.5" />
     <Route Type="Trade" Start="0740" End="0638" Color="LightSteelBlue" Width="1.5" />
