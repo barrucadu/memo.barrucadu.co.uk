@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-02-07
+modified: 2023-02-08
 toc:
 - anchor: overview
   children:
