@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2023-02-04
+modified: 2023-02-11
 taxon: games-campaigns
 toc:
 - anchor: overview
@@ -36,6 +36,7 @@ toc:
 - anchor: session-12
 - anchor: session-13
 - anchor: break-1.1
+- anchor: break-1.2
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -3286,6 +3287,94 @@ Read *What's the story Mother?*
 ### Next time
 
 - Act 2
+
+
+2023-02-11 --- Break 1.2
+------------------------
+
+We played the ALIEN scenario *Chariot of the Gods*.
+
+### Intro
+
+> Welcome back to Alien.
+>
+> It all started so simple, so normal.  A small cargo run from Anchorpoint
+> Station to Sutter's World for a Weyland-Yutani corporate account.  But you
+> were woken up from cryosleep early, nowhere near where you should be, as
+> Mother---your ship's computer---picked up a distress signal and changed course
+> to investigate.
+>
+> That signal turned out to be the USCSS Cronus, a research vessel lost almost
+> 80 years ago.  Boarding the ship you found it cold, the air stale; pressing
+> on, you found fungal growths, black spores; then a body, head blown off with a
+> shotgun, a suicide, perhaps, but something not quite right about the
+> proportions... then, five members of crew, locked away in the
+> still-functioning cryopods.
+>
+> Wilson insisted you push on, retrieve research data and samples which could be
+> sent back to Weyland-Yutani.  Rye and Cham got to work repairing the air
+> scrubbers.  In the medlab, some sort of creature, like a vivisected man with
+> strange deformities, attacked Miller: Davis blew its exposed brain apart with
+> a shotgun.  You headed to the bridge, then... the ship suddenly came to
+> life---power, heat, light---the crew started waking out, you dashed back to
+> the cryopods.
+>
+> Meanwhile, another creature attacked Rye and Cham.  Cham's head was ripped
+> off, splattering everything with synthetic blood: Rye, momentarily stunned
+> that her buddy was an android all along, was taken by the beast, dragged off
+> deeper into the ship.  Cham ducked back into the air scrubber shaft, to hide
+> his secret identity.
+>
+> The crew of the Cronus were in bad shape.  80 years in cryo will do that to
+> you.  The scientist, Cooper, in particular complained of an awful headache.
+> With air running low and the scrubbers still offline, you decided to retreat
+> to your ship.  Then, in Junction A-1, it happened.
+>
+> Cooper, suddenly started thrashing around, frothing at the mouth, having a
+> seizure.  You all tried to hold him down, as the crew of the Cronus slowly
+> backed away...  Then a creature, like a smaller version of the things you saw
+> in the specimen jars in the medlab, ripped its way out of Cooper's head,
+> showering you with gore, and made its escape.
+>
+> You're now back on your ship, collapsed just next to the sealed airlock.
+> Miller, the captain; Davis, the pilot; and Wilson, the company agent.  And
+> then from the Cronus you have: Johns, the second officer and acting captain;
+> Reid, the colonial marine; Flynn, the medic; and Clayton, the company agent.
+> Cham's still on the Cronus, working on the air scrubbers.  You don't know
+> where Rye is, but you've seen a pool of blood: both human and synthetic.
+
+- Errata: Xenomorphs can spend extra successes for stunts.
+
+### Prep
+
+- **Get people back on the Cronus:**
+  - Flynn suggests everyone be innoculated; the ships have been connected by an
+    umbilical, so spores could be on the Montero now.
+  - Wilson says they can't just leave the ship, they've retrieved some valuable
+    samples yes, but the ship itself has to be sent back to a Weyland-Yutani
+    facility rather than left out to drift for someone else to find.
+  - Remind Miller than Cham is still on the Cronus and that Rye is unaccounted
+    for.
+
+- **This session is Act 2; end with Going Home or Prepare To Be Boarded.**
+
+### Notes
+
+- All take the innoculation
+- Montero explodes, all cargo lost
+- Send Johns out to fix engines
+  - Killed by Abomination on the hull (nobody knows, he'll just not return)
+- Find Ava-6
+- Miller used her talent to get Clayton to open up about the infection & the
+  black goo
+- Reid transforms and tries to kill Clayton
+  - Killed by Davis when the transformation sets in
+- Engines power on, Mother announces course set for Earth
+
+### Next time
+
+- Act 3
+  - Don't bring in the Sotillo, it's chaotic enough already
 
 
 2023-MM-DD --- Session NN
