@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-02-08
+modified: 2023-02-12
 toc:
 - anchor: overview
   children:
@@ -26,6 +26,7 @@ toc:
 - anchor: session-6
 - anchor: session-7
 - anchor: break-1
+- anchor: session-8
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -143,34 +144,53 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 - **Session 0.** Decided what sort of campaign we wanted, created characters:
   all ready for session 1!
 
-- **Session 1: Murder on Arcturus Station (1).** Threw themselves into the deep end
-  by shooting Urshukaan themselves.  Interviewed Martin, Sharik, Chaijin, Moshe,
-  Eayukheal.  Suspect Eayukheal did it.
+- **Act 1: Introductions.**
+  - **Session 1: Murder on Arcturus Station (1).** Threw themselves into the
+    deep end by shooting Urshukaan themselves.  Interviewed Martin, Sharik,
+    Chaijin, Moshe, Eayukheal.  Suspect Eayukheal did it.
 
-- **Session 2: Murder on Arcturus Station (2).** Broke into Urshukaan's files
-  and got all the motives.  Fleshed out the timeline more.  Caught Katarin in a
-  lie.
+  - **Session 2: Murder on Arcturus Station (2).** Broke into Urshukaan's files
+    and got all the motives.  Fleshed out the timeline more.  Caught Katarin in
+    a lie.
 
-- **Session 3: Murder on Arcturus Station (3).** Searched Katarin's room and
-  found the door ajar.  Good Cop / Bad Copped her into a confession.  Got paid,
-  set off to survey Uudge She, J-Drive went boom!
+  - **Session 3: Murder on Arcturus Station (3).** Searched Katarin's room and
+    found the door ajar.  Good Cop / Bad Copped her into a confession.  Got
+    paid, set off to survey Uudge She, J-Drive went boom!
 
-- **Session 4: Uudge She.** Surveyed the world, and met with the locals and
-  learned their mythology.  Tried to convince them that they're not gods.  Found
-  spare parts, did a very cursory survey while being attacked by demons, and
-  escaped.  Vega / Petr go on a date, Sly hires Ed.
+  - **Session 4: Uudge She.** Surveyed the world, and met with the locals and
+    learned their mythology.  Tried to convince them that they're not gods.
+    Found spare parts, did a very cursory survey while being attacked by demons,
+    and escaped.  Vega / Petr go on a date, Sly hires Ed.
 
-- **Session 5: Mission to Mithril (1).** Set off to Indmen with Prof. Arif, but
-  got a job to take some cargo to a science expedition on Kuurashbir along the
-  way.  Unfortunately, Mission to Mithril happened.  Half-way to the survivors,
-  facing down a giant snow-worm.
+  - **Session 5: Mission to Mithril (1).** Set off to Indmen with Prof. Arif,
+    but got a job to take some cargo to a science expedition on Kuurashbir along
+    the way.  Unfortunately, Mission to Mithril happened.  Half-way to the
+    survivors, facing down a giant snow-worm.
 
-- **Session 6: Mission to Mithril (2).** Rescue the scientists, shoot up the
-  mercenaries, make it to Kir.
+  - **Session 6: Mission to Mithril (2).** Rescue the scientists, shoot up the
+    mercenaries, make it to Kir.
 
-- **Session 7: Secrets of the Ancients / Third Imperium** Meet Crayg.  Explore
-  the Ancients site on Indmen, and decide a larger team needs to be involved.
-  Then get caught up in the founding of the Third Imperium.
+  - **Session 7: Secrets of the Ancients / Third Imperium** Meet Crayg.  Explore
+    the Ancients site on Indmen, and decide a larger team needs to be involved.
+    Then get caught up in the founding of the Third Imperium.
+
+- **Act 2: Lost In Space.** Due to a misjump caused by a maintenance technician
+  bought off by Crayg, the crew end up in 1601 Iksar, and have to make their way
+  home through uncharted space!
+  
+  - **Session 8: Misjump / Human Club!** The ship badly misjumps, looking like
+    it just blew up to observers on Raluug---but actually arrived in Iksar!
+    With money that's no good here, the Travellers get taken in by Admiral
+    Fonduk in exchange for "favours".  The first promise: amuse his
+    human-obsessed daughter.
+
+  - **Session 9: Upcoming!** Vargr adventures on Iksar
+  - **Session 10: Upcoming!** Journey to the Kuunguu Confederation
+  - **Session 11: Upcoming!** Rule of Man Commemorative
+  - **Session 12: Upcoming!** Something in the Irzemuu Federation
+  - **Session 13: Upcoming!** Journey to Indmen
+  - **Session 14: Upcoming!** Journey to Indmen
+  - **Session 15: Upcoming!** Stargate
 
 **Adventures:**
 
@@ -195,6 +215,7 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 - Critical Vector (JTAS 6)
 - Misadventures at Blinderby Manor (JTAS 7)
 - The Wrong Patron (JTAS 9)
+- [Rogue Planet](https://amber.zone/2015/11/08/amber-zone-rogue-planet/)
 
 **Encounters:**
 
@@ -233,7 +254,7 @@ See also the *Adventuring in Milieu 0* section of *Long Way Home*.
 Setting Bible
 -------------
 
-![Lishun Sector, year -1](campaign-notes-2022-11-sylea-rising/lishun-poster.png)
+![Lishun Sector, year 0](campaign-notes-2022-11-sylea-rising/lishun-poster.png)
 
 - [Poster](campaign-notes-2022-11-sylea-rising/lishun-poster.png) ([players](campaign-notes-2022-11-sylea-rising/lishun-poster--players.png))
 - [Sector data](campaign-notes-2022-11-sylea-rising/lishun-sector-data.txt) ([players](campaign-notes-2022-11-sylea-rising/lishun-sector-data--players.txt))
@@ -457,11 +478,14 @@ TODO
 
 ##### Gzoerrghzae Fleet
 
-<aside class="highlight">The PCs haven't encountered this polity yet.</aside>
+The Gzoerrghzae Fleet is a loose coalition of worlds that each maintain a small
+self-defense force and agrees to mutual defense and anti-corsair activity.
+Beyond that, each world is totally independent.  And, Vargr society being what
+it is, it's not exactly the case that the *world government* maintains a small
+navy, it's more that there's just an established small navy which happens to be
+based on the world and has agreed to join the Fleet.
 
-TODO
-
-**Relationship with the Third Imperium:** TODO
+**Relationship with the Third Imperium:** Unaware.
 
 ##### Ksouruz Pact
 
@@ -1759,6 +1783,157 @@ We played the Delta Green scenario *Last Things Last*.
 
 - Got chewed out by the handler for not reporting their movements
 - Marlene's spirit escaped, unknown to the characters, but known to the players
+
+
+2023-02-12 --- Session 8
+------------------------
+
+### Intro
+
+> Welcome back to Sylea Rising.
+>
+> Everyone make a `DEX` check, as you are flung about the bridge by a violent
+> explosion that rocks your ship as soon as you enter jump. [`1d3` damage
+> ignoring armour to all who fail]
+>
+> Alarms are blaring, sensors report a huge power surge, you smell burning
+> plastic...
+>
+> But let's rewind a bit.
+>
+> It's been two months since President Cleon, now Emperor Cleon, declared that
+> the Sylean Federation would transform into the Third Imperium, a successor
+> state to the Ziru Sirka and the Rule of Man, claiming dominion over all their
+> thousands of worlds.
+>
+> But not much has changed for you on the day-to-day. Your employer is now
+> called the "Imperial Interstellar Scout Service", and your ship's transponder
+> now says that it's registered in the Third Imperium, and that's about it.
+> You're not politicians or high-ranking military officials, just regular old
+> joes who boldly go where none have gone before, more or less.
+>
+> In that time you've been doing small local odd jobs: ferrying cargo and
+> passengers between nearby worlds, carrying maintenance teams out to
+> satellites, taking samples from gas giants, that sort of thing, but today you
+> set out on your next thrilling mission!
+>
+> Firstly, the scientific expedition to Indmen ordered in a small portable
+> fusion reactor, which they hope to use to power the base in case the Ancients
+> reactor goes down.  Secondly, the Intelligence Office got back to you, with a
+> very detailed background check on you all, and they would like you to sell
+> high-tech goods at cut-throat prices in the Uundas Union, as part of a scheme
+> to undermine their economy and make them more dependent on the Imperium
+>
+> So with a portable fusion reactor and 60 tons of advanced manufactured goods
+> sitting in your cargo bay, you undocked from the starport, plotted a jump to
+> Sikiinili, reached a safe distance, hit the big green button, and
+> then... boom.
+>
+> Come to think of it, you saw Crayg's goons just before you set off.  One of
+> them was smirking.
+
+- Record income: 3x Cr187,500 (Cr562,500)
+- Do they want to do any shopping?
+- What have they done with their Ancients artefacts?
+
+### State
+
+- In 0236 Raluug
+- Week 62, Monday
+- Ore shipments #1, #2, #3: 3x Cr187,500 income
+- Upcoming:
+  - **Uudge She:** (all times at end of week)
+    - week 66: ore shipment #4 sold (Cr375,000 income); ore shipments #5 and #6 in transit; ore shipment #7 produced
+    - week 70: ore shipment #5 sold (Cr375,000 income); ore shipments #6 and #7 in transit; ore shipment #8 produced
+    - week 74: ore shipment #6 sold (Cr375,000 income); ore shipments #7 and #8 in transit; ore shipment #9 produced
+    - week 78: ore shipment #7 sold (Cr375,000 income); ore shipments #8 and #9 in transit; ore shipment #10 produced
+    - week 82: ore shipment #8 sold (Cr375,000 income); ore shipments #9 and #10 in transit; ore shipment #11 produced
+    - week 86: ore shipment #9 sold (Cr375,000 income); ore shipments #10 and #11 in transit; ore shipment #12 produced
+    - week 90: ore shipment #10 sold (Cr375,000 income); ore shipments #11 and #12 in transit
+    - week 94: ore shipment #11 sold (Cr375,000 income); ore shipment #12 in transit
+    - week 98: ore shipment #12 sold (Cr375,000 income); end of income
+
+### Prep
+
+- **Misjump:**
+  - A portable EMP is hooked up to the J-Drive, rigged to go off when engaged.
+  - Severity 3 J-Drive critical hit
+  - Severity 3 Hull critical hit
+
+- **Vargr:**
+  - All act like teenagers, anime space pirates, or yakuza
+  - All call their pack leader "boss"
+
+- **Arrival:**
+  - `EDU / Astrogation` to figure out their location
+    - 1601 Diir
+    - 41 parsecs spatial displacement
+  - `INT / Electronics (Comms)` to pick up Vargr comms chatter
+  - `INT / Electronics (Sensors)` to spot Vargr ships
+  - Upon realising it's a Vargr system, Ed advises Vega to be as flamboyant as possible
+
+- **First contact:**
+  - Captain Vaez with a Aerounkhu Packet (AOCS1 p238)
+  - Captain Llorrgdaen with a Ruguelka Corsair (AOCS1 p236) and an Avouz Courier (AOCS1 p230)
+  - Heated argument over who gets to bring the aliens in to "the admiral"
+  - Ed tells Vega to just pick one (whoever gets picked is extremely smug)
+
+- **Iksar:**
+  - **In orbit:**
+    - Three Leklun Corvettes (J3) (AOCS1 p240) under construction
+    - Lots of smaller ships arriving and departing
+  - **On ground:**
+    - Mega-city surrounded by farmlands
+    - Downport in the midst of buildings
+    - Skyscrapers
+    - Neon signs and artificial lighting everywhere
+    - Wide open streets and squares
+    - Everything brightly decorated, but no consistency between adjacent buildings
+    - Chaotic layout, as if several grid systems collided
+    - Most people travelling in groups
+    - Lots of identical businesses right next to each other (eg, food stalls or junk dealers), fiercely competing
+    - Public speakers attracting crowds in every square
+  - Nobody's heard of the Third Imperium, a few corsairs might have heard of the Sylean Federation
+  - Their money is worthless here
+
+- **Patrons:**
+  - **Admiral Fonduk:** (yakuza boss, doting father)
+    - Entertain his daughter (Alno) for a few days
+    - Accompany his technician (Uzlue) on an inspection tour of the Leklun Corvettes
+    - Be seen with him in public
+  - **Alno:** (daughter of Fonduk, naive, interested in humans)
+    - Attend a gathering of the "human club" (in which she gets everything wrong)
+    - Prepare traditional human food
+    - Share examples of human culture
+  - **Captain Vaez / Llorrgdaen:** (ambitious, cunning, wants to be the next Admiral)
+    - Make Alno think well of him
+    - Discredit Admiral Fonduk
+
+### Notes
+
+- Keep disintegrator, hand over everything else to the scientists
+- Week 62:
+  - **Jump:**
+    - Find sabotage
+    - Fix J-Drive
+    - Partially fix hull
+- Week 63:
+  - **Iskar:**
+    - **Tuesday:**
+      - Arrive
+      - Accompany both captains back (Llorgdaen wins rock-paper-scissors to introduce them to the admiral)
+      - Tama gets a tattoo
+      - Get accommocation
+    - **Wednesday:**
+      - Make human foods
+      - Attend the Human Club's picnic
+      - Tama becomes best friends with everyone in a bar
+
+### Next time
+
+- Week 63, Wednesday, evening
+- Vargr adventures (cyberpunk?)
+- Add Gzoerrghzae Fleet to player info
 
 
 2023-MM-DD --- Session N

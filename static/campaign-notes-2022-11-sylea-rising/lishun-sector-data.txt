@@ -59,7 +59,7 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 1504 Uskuez               C666440-6 Ga Ni                                       - - - 203   V3 K4 V
 1509 Arlaapiiruur         B544450-7 Ni                                          - - - 704   -- G2 V M6 V
 1510 Inda Daash           E755741-2 Ag Ga Lt                                    - - - 900   H6 M3 V M4 V
-1601 Iksar                C437861-A                                             - - - 001   V3 G7 V M9 V
+1601 Iksar                C437861-C Ht                                          - - - 001   V3 G7 V M9 V
 1602 Rouirruz             X668330-1 Lo Lt Ni                                    - - - 704   V3 M0 V M0 V
 1603 Uerzksuksong         X557300-2 Lo Lt Ni                                    - - - 910   V3 M2 V
 1605 Nashe                E788300-4 Lo Lt Ni                                    - - - 320   -- K4 V M1 V
