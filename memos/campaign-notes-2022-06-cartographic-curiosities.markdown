@@ -1,7 +1,7 @@
 ---
 title: Cartographic Curiosities (2022-06 to ?) notes
 published: 2022-06-13
-modified: 2023-02-11
+modified: 2023-02-18
 taxon: games-campaigns
 toc:
 - anchor: overview
@@ -466,14 +466,17 @@ Setting Bible
 
 ### Adventuring Parties
 
-#### Lawful 1
+#### The Holy Seekers
+
+A group of insufferable do-gooders who travel the Dolmenwood helping those in
+need, rescuing Grimalkins from trees, and seeking out lost shrines.
 
 1. **Clewyd** level 2 Fighter
    - Wand of Radiance
 2. **Yslen** level 6 Fighter
    - Wand of Radiance
-   - Treasure Map I
-   - Sword +1, +3 vs Undead
+   - Map to the Shrine of St Jorrael (but not the buried reliquary)
+   - Sword +2, Undead bane
 3. **Melwesh** level 2 Fighter
    - Ring of Delusion (believes it is a Ring of Protection +1)
 4. **Chydewick** level 1 Fighter
@@ -486,13 +489,16 @@ Setting Bible
 8. **Unctio** level 4 Cleric
    - Shield +1
 
-**Treasure:** 7cp, 64sp, 17gp, 1 gem, 3 pieces of jewellery
+**Treasure:** 7cp, 64sp, 17gp, 1 gem, 3 pieces of religious jewellery
 
-**Quest:** locate a lost shrine and report to the Bishop of Brackenwold
+#### The Gold Diggers
 
-#### Neutral 1
+A group of self-interested and practical adventurers.  They'll do whatever makes
+the most money, even staining their hands a little, so long as it's not too evil
+or risky.
 
 1. **Basptine** level 1 Cleric
+   - Mace +2
 2. **Melysse** level 1 Magic-User
    - Spells: *Read Magic*, *Charm Person*
 3. **Dimothy** level 5 Fighter
@@ -506,19 +512,24 @@ Setting Bible
 5. **Hogrid** level 8 Thief
    - Oil of Insubstantiality
    - Control Giant
-   - Treasure Map VIII
+   - Map to an old tower in hex 1008 (Hag's Addle encounter #2)
 6. **Amonie** level 1 Knight
 7. **Fannigrew** level 5 Goatfolk
    - Horseshoes of a Zephyr
    - Potion of Fire Resistance
-   - Sword +1, +3 vs Regenerating Creatures
-   - Mace +1
+   - Sword +2, Disintegrating
 
-**Treasure:** 91cp, 21sp, 6gp, 4 pieces of jewellery
+**Treasure:** 91cp, 21sp, 6gp, 4 pieces of jewellery; buried 3000gp, 2000sp, 3
+gems in one of the caves of hex 1207
 
-**Quest:** loot a fabulous treasure hoard
+#### The Six
 
-#### Chaotic 1
+They act like upstanding citizens when in public, but would sell their own
+grandmothers for the right price, and that price is probably low.  They keep
+their eyes peeled for valuables, exits, and hiding spots.
+
+They're welcome at the Court of the Nag-Lord, and have an ongoing arrangement to
+bring in saintly relics.
 
 1. **Melnoth** level 8 Illusionist
    - Spells: *Read Magic*, *Glamour*, *Colour Spray*, *Auditory Illusion*;
@@ -532,46 +543,43 @@ Setting Bible
    - Scroll of Protection from Magic
 5. **Othesh** level 4 Minstrel
    - Ring of Invisibility
-   - Dagger +1
+   - Dagger +2
 6. **Shadwell** level 5 Goatfolk
    - Armour +2
    - Mace +2
 
-**Treasure:** 41cp, 48sp, 10gp, 3 pieces of jewellery
-
-**Quest:** secretly carry the remains of a saint to Atanuwe
+**Treasure:** 41cp, 48sp, 10gp, 3 pieces of jewellery, knucklebones of St
+Esther.
 
 ### Encounters
 
 #### Animal
 
-0. **3 Mastodon (OSE)** eating fruit from the trees.
+1. **6 Beetle, Giant--Fire (OSE)** near the entrance of a cave, nibbling moss
+   off the walls.  The cave smells faintly of brimstone, and in the darkness
+   within something red can be seen glinting.
 
-1. **6 Snake--Pit Viper (OSE)** swallowing a group of **Swamp Sloth (DCB)**
-   whole.
+   Inside the cave is a 2 foot pile of balanced jasper stones, glinting in the
+   light.  They have clearly been placed purposefully, and attempts to separate
+   them fail.  The pile is overgrown with brambles but an engraved spell can be
+   partially seen beneath.  Clearing the brambles allows *Chromatic Orb* to be
+   read.
 
-2. **6 Beetle, Giant--Fire (OSE)** in their lair, a dank cave smelling faintly
-   of brimstone.
+   The beetles are aggressive and will attack anyone who gets too close.
 
-3. **2 Bear, Black (OSE)** digging up some roots.  Prefers to warily watch the
+2. **2 Bear, Black (OSE)** digging up some roots.  Prefers to warily watch the
    PCs and wander off if approached, than to attack.
 
-4. **8 False Unicorn (DCB)** nibbling on the grass, two males keeping watch.
+3. **8 False Unicorn (DCB)** nibbling on the grass, two males keeping watch.
 
-5. **16 Red Deer (DCB)** drinking from a stream, three males keeping watch.
+4. **16 Red Deer (DCB)** drinking from a stream, three males keeping watch.
 
-6. **2 Insect Swarm (OSE)** buzzing around their hive.
-
-7. **3 Swamp Sloth (DCB)** creeping through the tree-tops.  One loses its grasp
+5. **3 Swamp Sloth (DCB)** creeping through the tree-tops.  One loses its grasp
    and lands on the party.
 
-8. **10 Yegril (DCB)** licking moss from a tree.
-
-9. **11 Wolf--Normal (OSE)** tearing apart a boar.
+6. **10 Yegril (DCB)** licking moss from a tree.
 
 #### Human
-
-0. **Adventuring Party** see [Adventuring Parties][].
 
 1. **2 Friar (DMB)** staggering drunkenly along, supporting each other's weight,
    singing a rousing hymn (off-tune).
@@ -581,8 +589,11 @@ Setting Bible
    - Blake (irreverently tossing his prayer book up in the air and catching it)
    - Josprey
 
-2. **14 Acolyte (OSE)** of the Order of St. Faxis, leading a chained woman they
-   claim to be a witch who is to be put to the question.
+2. **14 Acolyte (OSE)** of the Order of St. Faxis, leading a chained young woman
+   they claim to be a witch who is to be put to the question.  The woman is
+   accused of using magical herbs to dull men's wits and lead them into
+   temptation.  In reality, she is a victim of jealous wives and lying husbands,
+   she knows nothing about witches or witchcraft.
 
    *Lead Acolyte:*
 
@@ -592,21 +603,7 @@ Setting Bible
 
    - Beatrice Addercapper
 
-3. **3 Normal Human--Pedlar (DMB)** bringing their goods to town for the next
-   market (if substantially before a market day, they're trying to get some
-   early customers).
-
-   *Pedlars:*
-
-   - Crump Smith
-   - Hilda Smith
-   - Jymes Swinney
-
-4. **5 Noble (OSE)** a minor member of the nearest noble house and their
-   immediate family, being escorted by **6 Noble--Knight (OSE)** to a country
-   manor.
-
-5. **2 Drune--Cottager (DMB)** in battle with a **Noble--Knight (OSE)** and **5
+3. **2 Drune--Cottager (DMB)** in battle with a **Noble--Knight (OSE)** and **5
    Veteran--OSE** in the service of the Duke.  The Drune were charged with
    kidnapping locals for use in dark rituals, and are trying to escape.
 
@@ -624,35 +621,36 @@ Setting Bible
    - Breyir
    - Clewyd
 
-6. **7 Noble (OSE)** a minor noble from outside the duchy and his family, here
+4. **7 Noble (OSE)** a minor noble from outside the duchy and his family, here
    as tourists with 7 servants (**Normal Human (DMB)**).  An **Adventuring
-   Party** serve as their guards.
+   Party** serve as their guards.  The nobles are from a much more settled and
+   safe part of the empire, and dismiss all mention of danger in the woods is
+   just local superstition: surely the Duke wouldn't tolerate such
+   disorganisation, would he?
 
    *Lord and Lady:*
 
    - Baron Nicobulus Maro
-   - LAdy Livia Maro
+   - Lady Livia Maro
 
    *Head Servants:*
 
    - Abelus Sebastius
    - Octavia Celsus
 
-7. **1 Normal Human--Pedlar (DMB)** fleeing from **7 Ghoul (OSE)** who he
+5. **1 Normal Human--Pedlar (DMB)** fleeing from **7 Ghoul (OSE)** who he
    disturbed while foraging for herbal trade goods.
 
    *Fleeing Pedlar:*
 
    - Mannog Lank
 
-8. **11 Veteran (OSE)** patrolling the roads, enquiring about recent monster
-   activity.
+   *Trade goods:*
 
-   *Commander:*
+   - 10x Lankswith
+   - 5x Wayfarrow
 
-   - Chydewick Loomer
-
-9. **7 Noble--Knight (OSE)** delivering a letter of vital importance between the
+6. **7 Noble--Knight (OSE)** delivering a letter of vital importance between the
    Duke and local noble (the next move in their correspondence chess game).
 
    *Commander:*
@@ -661,32 +659,35 @@ Setting Bible
 
 #### Monster
 
-0. **1 Headless Rider (DMB)**---on a pale emaciated horse with decomposing
+1. **1 Headless Rider (DMB)**---on a pale emaciated horse with decomposing
    flesh---motionless, at the centre of the track, challenging any who approach
-   to single combat.
+   to single combat.  If bested, he will allow all the companions of the victor
+   to pass.  If slain, he has no choice.
 
-1. **6 Treant (OSE)** listening patiently to a **Drune--Cottager (DMB)** who is
-   enquiring about the true name of Gheillough.
+2. **6 Treant (OSE)** listening patiently to a **Drune--Cottager (DMB)** who is
+   enquiring about the true name of Gheillough.  There is a well-used campsite
+   nearby, indicating the Drune has been at this for some time.
+
+   The campsite is encased in a shell of brambles.  Inside is 21 days iron
+   rations, camping gear (tent, bedroll, tinderbox, etc), and three papes of
+   densely-written gibberish (a portion of Gheillough's true name).
 
    *Drune:*
 
    - Mirroddor Doome
 
-2. **8 Treant (OSE)** engaged in a long debate over what to do about the
+3. **8 Treant (OSE)** engaged in a long debate over what to do about the
    Nag-Lord.  The discussion has been going on for some years now, and they have
    just about agreed that the Nag-Lord exists and is bad.
 
-3. **2 Owl Bear (OSE)** nesting in a hollow between a pair of ancient, giant,
-   trees.  If during the day, one is awake and tearing apart a **Red Deer
-   (DCB)**.
-
 4. **15 Zombie (OSE)** in battle with a party of frost elves.  **3 Elf--Courtier
    (DMB)** (of The Cold Prince), accompanied by **4 Elf--Knight (DMB)** and **6
-   Elf--Wanderer (DMB)** (as servitors).
+   Elf--Wanderer (DMB)** (as servitors).  The Courtiers watch lazily from their
+   mounts as the Knights deal with the zombies.
 
-   The elves have gifts of magic items for Lord Ramius, to entice him to topple
-   a Summerstone, but they'll promise rewards to any who will assist or who can
-   provide information on the stones, ley lines, or Drune.
+   The elves have gifts of magic items for Lord Malbleat, to entice him to
+   topple a Summerstone, but they'll promise rewards to any who will assist or
+   who can provide information on the stones, ley lines, or Drune.
 
    *Courtiers:*
 
@@ -710,40 +711,46 @@ Setting Bible
    - Blackened-and-Bitter
    - Frosted-and-Flawless
 
+   *Treasure (that they're willing to trade):*
+
+   - 100ep
+   - Wand of Cold (12 charges)
+   - Ring of Protection
+   - Periapt of Health
+
+   *Treasure (that they have to be killed for):*
+
+   - 50pp
+   - 250gp
+   - 400ep
+   - Crystal Ball
+   - 5 Ioun Stones (pale blue romboid, incandescent blue sphere, pale lavender
+     ellipsoid, 2x dull grey ellipsoid)
+
 5. **1 Wyrm--Black Bile (DMB)**---reeking of sulphur---crashing through the
    forest in a blood rage, levelling small trees.  The wyrm has ravaged a
    cluster of woodland huts occupied by a small group who live off the land away
-   from civilisation but not truly in the wood.
+   from civilisation but not truly in the wood, and now pursues three survivors.
 
    *Wyrm:*
 
    - Quindorioth
 
-   *Village Chief:*
+   *Survivors:*
 
    - Lyndon Thorn
+   - Hodrid Addercapper
+   - Gwendolyne Candleswick
 
-6. **8 Mobblewomp (DMB)** crawling forlorn through the undergrowth in monstrous
-   form, moaning.  They have been cast out from their dwellings by **40 Normal
-   Human (DMB)**, several of whom follow intending to put an end to the beasts.
-
-   *Lead Hunter:*
-
-   - Ethex Logueweaver
-
-7. **4 Wolf--Dire (OSE)** making a bee-line to the Nagwood.
-
-8. **2 Snail, Giant--Rapacious (OSE)** trapped within a 40' cube of magical
+6. **2 Snail, Giant--Rapacious (OSE)** trapped within a 40' cube of magical
    energy, slithering up and down the sides (touching the force-cube from the
    outside dispels it).  One snail is translucent, hard to see through the
    shimmering force-cube; but its trail can be seen.  The other has multiple
    rows of snapping teeth with a paralysing bite.
 
-9. **18 Driver Ant (OSE)** guarding the entrance to their lair.
-
 #### Sentient
 
-0. **11 Redcap (DMB)**---wearing deerstalkers---stringing **5 Normal Human
+1. **11 Redcap (DMB)**---wearing deerstalkers---stringing **5 Normal Human
    (DMB)** (unconscious) up in a tree, naked, after having stripped them of
    their clothing and valuables.
 
@@ -755,11 +762,25 @@ Setting Bible
    - Rogbert Fraggleton
    - Shank Smith
 
-1. **3 Barrowbogey (DMB)** inside their lair, tiled passages delved into the
-   side of a muddy root-riddled bank, arguing loudly about who has the right to
-   the "largest third" of a freshly baked blackberry pie.
+   *Treasure:*
 
-2. **5 Elf--Wanderer (DMB)** from Hypnagogia, realm of the Duke Who Cherishes
+   - Peasant clothes
+   - 7sp
+   - 34cp
+
+2. **5 Talking Animal (DMB)**---moles---seated on toadstools, quietly nibbling
+   on a midday snack.  They have all taken on human names.  They will offer to
+   divulge knowledge about Dolmenwood in exchange for food or shiny trinkets.
+
+   *Moles:*
+
+   - Bentley
+   - Emmett
+   - Ida
+   - Alan
+   - Eugenia
+
+3. **5 Elf--Wanderer (DMB)** from Hypnagogia, realm of the Duke Who Cherishes
    Dreams, hiding in a briar patch pursued by a **Drune--Cottager (DMB)** who
    believes they are spies of the Cold Prince.  The elfs have come to see if
    they can improve the dreams of the people of Meagre's Reach.
@@ -776,7 +797,7 @@ Setting Bible
 
    - Molloch
 
-3. **6 Deorling--Stag (DMB)** in an isolated glade before a moss-coated humanoid
+4. **6 Deorling--Stag (DMB)** in an isolated glade before a moss-coated humanoid
    statue with great antlers of charred wood (an idol of Howawi), attempting to
    rescue **3 Deorling--Doe (DMB)** from the clutches of a **Wyrm--Black Bile
    (DMB)**.  Once the wyrm is dispatched, the surviving stags battle for the
@@ -786,49 +807,27 @@ Setting Bible
 
    - Shessadolth (scales covered with moss)
 
-4. **11 Woodwose (DMB)** in battle with a **Corrupt Unicorn (DMB)**, trying to
-   beat it into submission and drag it into a nearby pool to be drowned.
-
 5. **1 Werebear (OSE)** freshly transformed back into human form after killing
    and eating a **Red Deer (DCB)**.  Naked, covered in blood, and tired.
+   Refuses to explain his situation, vehemently denies that anything is wrong,
+   and spurns any offers of help.  Suspicious.
 
    *Werebear:*
 
    - Josprey Abernathy
 
 6. **14 Redcap (DMB)**---wearing berets and fezzes---furtively digging beside a
-   large boulder, burying their ill-gotten treasure: 100pp, 100gp, and 12 bronze
-   bracelets carved with prancing longhorns (50gp each).
+   large boulder, burying their ill-gotten treasure.
 
    *Treasure:*
 
    - 100pp
    - 100gp
-   - 12x 50gp bracelet
-
-7. **4 Nutcap (DMB)**---one mounted on a **Robber Fly (OSE)**---tenderly
-   carrying 2 young in clay pots down to a stream to bathe and drink.
-
-8. **3 Moss Dwarf (DMB)** chasing swine which, hexed by a passing magic-user,
-   have grown wings and escaped from their pens.
-
-   *Dwarfs:*
-
-   - Dombo
-   - Greblin
-   - Kabob
-
-9. **41 Goatfolk--Shorthorn (DMB)** in and around a very large turf-roofed log
-   cabin, where the shorthorns live barracks-like, making their living as
-   hunters, trappers, and tanners.
-
-   *Leader:*
-
-   - Broob (has the longest horns, but you couldn't tell without measuring)
+   - 2x 50gp bracelet carved with prancing longhorns.
 
 #### Regional: Aldweald
 
-0. **7 Centaur--Sylvan (DMB)**---bedecked in hunting tropies and
+1. **7 Centaur--Sylvan (DMB)**---bedecked in hunting tropies and
    ornately-decorated but battle-worn armour---feasting on the roasted flesh of
    four butchered adventurers while engaged in lively philosophical debate.  The
    unfortunate adventurer's gear is strewn across the ground.
@@ -854,16 +853,6 @@ Setting Bible
    - 89gp
    - 28pp
 
-1. **2 Grimalkin (DMB)**---who smirk, snicker, and stifle laughter at everything
-   mortals say---roasting wererat meat over a fire in their subterranean den
-   that's carpeted with rat fur and decked with hunting tropies (chimney
-   protruding from the ground).
-
-   *Grimalkins:*
-
-   - Jasqueline Flippancy
-   - Tomkin Ratbane
-
 2. **10 Sprite--Purple (DMB)**---riding rainbow-hued dragonflies---being pursued
    by **2 Goatfolk--Crookhorn (DMB)** wielding butterfly nets.
 
@@ -872,8 +861,11 @@ Setting Bible
 
 3. **6 Elf--Knight (DMB)** of The Prince Who Is Seven.  Each is dancing with an
    **entranced Normal Human--Lost Soul (DMB)** they intend to bring to their
-   master in Fairy.  Next to them are their mounts: **4 Fairy Horse (DMB)** and
+   lord in Fairy.  Next to them are their mounts: **5 Fairy Horse (DMB)** and
    **1 Boar, Giant (OSE)**.
+
+   The Knights don't know what use their lord has for mortals, but they have
+   been commanded to bring some.
 
    *Elf Knights:*
 
@@ -884,15 +876,9 @@ Setting Bible
    - Harkening-and-Awakening (violet eyes without pupils)
    - Lillies-beyond-Heart's-Sight (amber eyes without pupils)
 
-4. **18 Bandit (OSE)** in a small camp, preparing to raid a nearby settlement.
+4. **5 Unicorn (OSE)** nibbling the grass.  One of their number keeps watch.
 
-   *Bandit Leader:*
-
-   - Canhoreal Lank
-
-5. **5 Unicorn (OSE)** nibbling the grass.  One of their number keeps watch.
-
-6. **1 Witch (DMB)** leading a **blindfolded young woman** to a secret pool that
+5. **1 Witch (DMB)** leading a **blindfolded young woman** to a secret pool that
    cures "lover's pox".
 
    *Witch:*
@@ -903,23 +889,9 @@ Setting Bible
 
    - Ygwal Logueweaver
 
-7. **2 Normal Human--Pedlar (DMB)** transporting their wares to the nearest
-   settlement.
-
-   *Pedlars:*
-
-   - Theglid Crumwaller
-   - Ethegan Crumwaller
-
-8. **10 Sprite--Blue (DMB)**---with compound eyes and antennae---sitting in
-   branches drunkenly eating a pile of fermented fruits, throwing the seeds at
-   passers-by, with a *potion of polymorph self* to wash it down.
-
-   *Treasure:*
-
-   - Potion of Polymorph Self
-
-9. **8 Woodgrues (DMB)** smoking and completely stoned out of their minds.
+6. **8 Woodgrues (DMB)** smoking and completely stoned out of their minds.  They
+   will share their food, drink, and pipeleaf (Black Clover), and rumours of the
+   nearby hexes.
 
    *Woodgrues:*
 
@@ -934,18 +906,30 @@ Setting Bible
 
 #### Regional: Aquatic
 
-0. **9 Boggin (DMB)** emerging from a pool to chase an escaping slave (**Normal
+1. **9 Boggin (DMB)** emerging from a pool to chase an escaping slave (**Normal
    Human--Lost Soul (DMB)**) (naked and clad only in disgusting pondweed).  The
    lead Boggin has a necklace of human bones, crawling with worms and tadpoles.
    All smell terrible.
 
-   *Slave:*
+   The pool connects to a [large underwater
+   cavern](https://dysonlogos.blog/2021/06/10/heart-of-darkling-gibberling-lake/)
+   with **3 Boggin (DMB)** and **4 Normal Human--Lost Soul(DMB)**.
+
+   *Escaped Slave:*
 
    - Egthil Harper
 
-1. **23 Stirge (OSE)** caught in a passing swirl of arcane energy, flying up and
-   down the ley line.  Entering melee range or interacting with them snaps them
-   out of it.
+   *Trapped Slaves:*
+
+   - Dimothy Lank
+   - Clement Wolder
+   - Jappser Dunwallow
+   - Jymes Dogoode
+
+   *Treasure (in cavern):*
+
+   - 3 jars of amphibious vomit
+   - 500gp worth of ores and clay
 
 2. **5 Robber Fly (OSE)** buzzing around their hive, which contains more of
    them.
@@ -967,14 +951,9 @@ Setting Bible
    - Theglid Dunwallow (hunter)
    - Breglor Dunwallow
 
-5. **1 Leech, Giant (OSE)** waiting beneath the water for a bite.
+5. **Adventuring Party** see [Adventuring Parties][].
 
-6. **Adventuring Party** see [Adventuring Parties][].
-
-7. **1 Water Termite--Freshwater (OSE)** lurking in the shade, waiting for a
-   passing boat.
-
-8. **12 Madtom (DMB)** goggle-eyed, hypnotised by a **Wyrm--Pheglm** which is
+6. **12 Madtom (DMB)** goggle-eyed, hypnotised by a **Wyrm--Pheglm** which is
    directing them to dig up a nearby standing stone that has a "vexatious aura".
    The stone is actually an old waystone erected by the Church which casts *Cure
    Light Wounds* once per journey on all who sleep beside it.
@@ -990,12 +969,12 @@ Setting Bible
 
    - Gertwinne Harper
 
-9. **6 Robber Fly (OSE)** feeding on a dead animal.
-
 #### Regional: Dwelmfurgh
 
-0. **2 Drune--Braithmaid (DMB)**---both albinos---with their non-Drune
-   boyfriends, fleeing a wrathful **Drune--Cottager (DMB)**.
+1. **2 Drune--Braithmaid (DMB)**---both albinos---with their non-Drune
+   boyfriends, fleeing a wrathful **Drune--Cottager (DMB)**.  The Braithmaids
+   will yell to the PCs for help, hoping to use them to keep the Cottager
+   occupied until they make their escape.
 
    *Fleeing Couples:*
 
@@ -1006,11 +985,11 @@ Setting Bible
 
    - Hestith Canker
 
-1. **5 Basilisk (OSE)** courting, 1 female with 4 males vying for supremacy.
-
-2. **1 Wyrm--Yellow Bile (DMB)** laying beside a pond, discussing ancient times
-   with an **Elf--Courtier (DMB)** of Prince Mallowheart, mounted on a **Fairy
-   Horse (DMB)**.
+2. **1 Wyrm--Yellow Bile (DMB)** laying beside a pond, discussing the ancient
+   rule of the Cold Prince with an **Elf--Courtier (DMB)** of Prince
+   Mallowheart, mounted on a **Fairy Horse (DMB)**.  Both are of the opinion
+   that the Cold Prince was foolish to lose his grip on the Wood.  They consider
+   eavesdropping to be *very* rude.
 
    *Wyrm:*
 
@@ -1021,16 +1000,22 @@ Setting Bible
    - Harkening-and-Awakening (wearing a robe of melting snow, leaves a trail of
      snowflakes as she moves)
 
-3. **4 Wight (OSE)**, lurking inside a ruined cottage.
-
-4. **16 Bandit (OSE)**, looting an overturned wagon (the merchants have fled on
+3. **16 Bandit (OSE)**, looting an overturned wagon (the merchants have fled on
    foot down the road).
 
    *Bandit Captain:*
 
    - Mantaggorn the Taxman
 
-5. **3 Normal Human--Lost Soul (DMB)**---servants of House
+   *Treasure:*
+
+   - 137gp
+   - 500cp
+   - 10x bottle Old Swythener
+   - 10x bottle Prigwort Tipple
+   - 20x Pedlar Puff
+
+4. **3 Normal Human--Lost Soul (DMB)**---servants of House
    Harrowmoor---teleported by a ley-line discharge and now lost.
 
    *Lost Servants:*
@@ -1039,10 +1024,13 @@ Setting Bible
    - Dewm Addercapper (kitchen boy)
    - Gwendolyne Harper (maid)
 
-6. **4 Drune--Braithmaid (DMB)** digging up mandrakes in the garden of their
+5. **4 Drune--Braithmaid (DMB)** digging up mandrakes in the garden of their
    turf-roofed stone house (supported by 10' tall rune-etched obelisks in its
    four corners), surrounded by two dozen cats who are also found wandering in
    the nearby woods.
+
+   The runes give the locations of all the nodal stones, but the Braithmaids
+   won't allow a non-Drune to study them.
 
    *Braithmaids:*
 
@@ -1051,7 +1039,15 @@ Setting Bible
    - Athe Duskwith (clad in diaphanous gauze) (hag stone)
    - Idralynne Owlhame (evil eye)
 
-7. **1 Drune--Drunewife (DMB)** watching over her 3 young children playing
+   *Treasure:*
+
+   - 48sp
+   - 4x Blood Canker
+   - 2x Goatman's Goblet
+   - 5x Knobbled Mandrake
+   - 2x Philtre of Wondrous Vitality
+
+6. **1 Drune--Drunewife (DMB)** watching over her 3 young children playing
    around the feet of a 5' tall wicker man, outside a small cottage built into
    the grassy bank of a stream with several small boats moored.  Away from home
    is her husband (**Drune--Cottager (DMB)**) with their 2 other children.
@@ -1064,40 +1060,27 @@ Setting Bible
 
    - Lolldhrimm Loome (necklace of owl skulls)
 
-8. **1 Drune--Audrune (DMB)**---whoever is nearest---holding council (in drunic)
-   with **3 Drune--Cottager (DMB)** about their imminent plans to attack the
-   Court of the Nag-Lord.
-
-   *Drune:*
-
-   - Molloch Unlight (clay mask)
-   - Hestobraithe Broomewith (clay mask)
-   - Aestgrym Vaunte (crown of antlers)
-
-9. **1 Drune--Cottager (DMB)** sitting on a boulder, deep in contemplation,
-   surrounded by ravens cawing vaguely coherently, as if the cacophony conceals
-   words.
-
-   *Drune:*
-
-   - Limnis Wraithmord
-
 #### Regional: Fever Marsh
 
-0. **12 Shadow (OSE)** keeping watch on a **Gelatinous Hulk (DMB)** (day time)
+1. **12 Shadow (OSE)** keeping watch on a **Gelatinous Hulk (DMB)** (day time)
    or trying to goad it into attacking a nearby **2 Witch Owl (DMB)** lair in
-   the ruins of an old church steeple.
+   the ruins of an old church steeple.  Will try to herd the characters towards
+   the Witch Owls.
 
-1. **10 Madtom (DMB)** in their aquatic lair beneath an elabourate curving dam
+2. **10 Madtom (DMB)** in their aquatic lair beneath an elabourate curving dam
    of twigs and wickerwork.  The nearby land conceals 3 foot-sized pits with
    downward-slanted barbs: the Madtoms will emerge and attack anyone caught,
    trying to take them to their air-filled dungeons.
 
-2. **6 Robber Fly (OSE)** nesting in the trees, waiting for passers-by.
+   *Treasure:*
 
-3. **5 Shadow (OSE)** lurking beneath a rock, waiting for passers-by.
+   - 2x 10gp gem (quartz)
+   - 2x 50gp gem (ruby)
+   - 2x 100gp gem (agate)
+   - 6x 500gp gem (onyx)
+   - 4000gp assorted jewellery (rings, pendants, bracelets, necklaces, etc)
 
-4. **4 Musk Boar (DMB)** leashed, guarding the vegetable gardens of an 8' tall
+3. **4 Musk Boar (DMB)** leashed, guarding the vegetable gardens of an 8' tall
    **Scarecrow (DMB)** who lives in a thatched cottage and spends its days
    carving root vegetables into the likenesses of every mortal in Dolmenwood.
    The scarecrow will gift the PCs with their vegetables.
@@ -1110,7 +1093,7 @@ Setting Bible
    - Palanquin (chuckles a lot; head is an apple, totally disproportionate with
      the body)
 
-5. **1 Wyrm--Phlegm (DMB)**---which loves riddles and will reward those who
+4. **1 Wyrm--Phlegm (DMB)**---which loves riddles and will reward those who
    entertain it with minor magical items---lairing in a murky pond beside a
    ruined mill (which stores its hoard).  It is tearing a band of 12 mercenaries
    (**Veteran (OSE)**) apart for failing to solve a simple puzzle.
@@ -1121,33 +1104,61 @@ Setting Bible
 
    - Ximmerian
 
-6. **7 Marsh Lantern (DMB)**---emitting a lurid ultraviolet radiance---in a wide
+   *Treasure:*
+
+   - Bottled Light (fairy trade good)
+   - Frozen Birdsong (fairy trade good)
+   - Hag Stone (Braithmaid talisman)
+   - Evil Eye (Braithmaid talisman)
+   - Moss Dwarf Yeast (10 portions, as Yeast Master Ferment)
+
+5. **7 Marsh Lantern (DMB)**---emitting a lurid ultraviolet radiance---in a wide
    waterlogged ditch into which the graves of a long-abandoned cemetery have
    slumped.
 
-7. **7 Jack-o-Lantern (DMB)** scurrying off in the undergrowth, clucthing a
-   fistful of miniature humans who were found unworthy.  They will offer their
-   knowledge to the PCs, but warn that "the unworthy are punished."
+   Rotted bloated corpses of drowning victims, rusted equipment, and glinting
+   coins fill the bottom of the ditch.
 
-8. **5 Robber Fly (OSE)** circling a loudly-buzzing hive.
+   *Treasure:*
 
-9. **5 Musk Boar (DCB)**---covered in warty pustules of many colours---reclining
-   peacefully in a warm pool, letting out satisfied, bubbling sighs.
-   Disinclined to pursue anyone who doesn't come too close.
+   - 1000gp
+
+6. **10 Bog Salamander (DMB)**---with rows of blisters along its back filled
+   with scarlet jelly---dragging a drooling near-dead **Mould Oracle (DMB)** to
+   its lair: a nearby muddy depression in an area of boggy ground, lined with
+   ferns, marsh grasses, and fresh green-and-yellow striped moss.
+
+   The Mould Oracle is on a vision quest and thinks the PCs are beneficent
+   spirits.
+
+   *Mould Oracle:*
+
+   - Dombo
+
+   *Treasure (in lair):*
+
+   - Golden brooch set with an agate (900gp)
+   - 4000sp
+   - 6 portions of Frondle
 
 #### Regional: Hag's Addle
 
-0. **1 Leech, Giant (OSE)** lying beneath the surface of a muddy pool.
-
-1. **2 Troll (DMB)** dragging three corpses (a merchant and his guards) through
+1. **2 Troll (DMB)** dragging three bodies (a merchant and his guards) through
    the undergrowth back to their lair (a rickety old bridge spanning a stream,
-   underneath which hangs a collection of mossy corpses).  Panicked horses lie
-   close to the road, maimed and bleeding.  The trolls leave a trail of mossy
-   footprints behind them.
+   underneath which hangs a collection of mossy corpses).  One of the bodies
+   groans and twitches weakly.  Panicked horses lie close to the road, maimed
+   and bleeding.  The trolls leave a trail of mossy footprints behind them.
 
-2. **4 Shadow (OSE)** pursuing a **Swamp Sloth (DCB)**
+   *Survivor, guard:*
 
-3. **1 Banshee (DMB)**---with spectral skin wrathed with frost and patched with
+   - Samwise Swinney
+
+   *Treasure:*
+
+   - 2000ep
+   - 6x Mind-Moss
+
+2. **1 Banshee (DMB)**---with spectral skin wrathed with frost and patched with
    moss---hovering above a peat bog outside a lonely crumbling tower, conversing
    in whispers with a **Gloam (DMB)** in flock form (bringing word of mortal
    souls for the banshee to slay and the gloam to collect the bones of).  In the
@@ -1157,8 +1168,14 @@ Setting Bible
 
    - Frost-Dust-Shadow
 
-4. **6 Wraith (OSE)** imprisoned in a magic circle by **3 Drune--Cottager
-   (DMB)** (all wearing crowns of antlers), who are binding the Shadows to their
+   *Treasure:*
+
+   - 1000gp
+   - 2000sp
+   - Necklace of fairy-silver (600gp)
+
+3. **6 Wraith (OSE)** imprisoned in a magic circle by **3 Drune--Cottager
+   (DMB)** (all wearing crowns of antlers), who are binding the Wraiths to their
    will as spies to seek out the disturbance on Ywyr.
 
    *Drune:*
@@ -1167,15 +1184,15 @@ Setting Bible
    - Brackborne Wicker
    - Oglimoth Bonewart
 
-5. **7 Boggin (DMB)** fighting a **Lycanthrope--Werebear (OSE)**, all are
-   wounded by the Werebear is badly losing.
+4. **7 Boggin (DMB)** fighting a **Lycanthrope--Werebear (OSE)**.  All are
+   wounded, but the Werebear is badly losing.  The Werebear cannot speak in that
+   form, but will beckon over the PCs.
 
-6. **3 Troll (DMB)** living in a crooked old cottage overwhemled with moss,
-   being served fresh corpse-moss by 3 **Moss Dwarf (DMB)** whose minds are
-   addled by fungal infestation.  One troll is drowsing outside in a pool of
-   cool mud, snoring loudly, next to a pile of moss-coated skeletons.
+   *Werebear:*
 
-7. **2 Boggin (DMB)** sneaking through a bed of reeds, approaching a group of 7
+   - Maydrid Swinney
+
+5. **2 Boggin (DMB)** sneaking through a bed of reeds, approaching a group of 7
    fishermen (**Normal Human--Angler (DMB)**) unaware of their danger.
 
    *Fishermen:*
@@ -1188,17 +1205,15 @@ Setting Bible
    - Dewglid Gruewater
    - Clewd Vulgamoore
 
-8. **3 Black Tentacle (DMB)**, one of them dragging a whinnying **Unicorn
+6. **3 Black Tentacle (DMB)**, one of them dragging a whinnying **Unicorn
    (OSE)** into a sludgy pool, tentacles wrapped tightly around the poor
    creature's flanks.  The other two remain hidden beneath the surface, waiting
    to spring.
 
-9. **3 Toad, Giant (OSE)** sleeping in a stinking muddy pool.
-
 #### Regional: High Wold
 
-0. **3 Normal Human--Crier (DMB)** (shorthorns) announcing a 25% tax on the
-   mercantile and adventuring classes.
+1. **3 Normal Human--Crier (DMB)** announcing a 25% tax on the mercantile and
+   adventuring classes.
 
    *Criers:*
 
@@ -1206,7 +1221,7 @@ Setting Bible
    - Broob Longshanks
    - Shadwell Blathergripe
 
-1. **3 Barrowbogey (DMB)** attacking a washerwoman (**Normal Human (DMB)**)
+2. **3 Barrowbogey (DMB)** attacking a washerwoman (**Normal Human (DMB)**)
    beside a small stream, trying to steal her cauldron.  The woman fights back
    with a broom.  One of the bogeys wears small pots on its feet and hands, in
    addition to the head-pot.
@@ -1215,34 +1230,11 @@ Setting Bible
 
    - Lindor Tolmen
 
-2. **1 Normal Human--Priest (DMB)** delivering a letter to the local church from
-   the Bishop (or at least, from someone in the Bishop's staff).
-
-   *Priest:*
-
-   - Episcopius
-
-3. **10 Goatfolk--Longhorn (DMB)** of Lord Ramius, bringing a letter to / a
-   response from Lord Malbleat (depending on location), accompanied by **9
-   Goatfolk--Shorthorn (DMB)** servants.  Lord Ramius demands the return of a
-   book of family history.  Lord Malbleat says it is his.  The book gives the
-   story of Hraigl.
-
-   *Leader:*
-
-   - Shank Snoode
-
-4. **1 Normal Human--Priest (DMB)** taking confessions.
-
-   *Priest:*
-
-   - Bargale
-
-5. **25 Goatfolk--Shorthorn (DMB)** of Lord Malbleat, spying on a
+3. **25 Goatfolk--Shorthorn (DMB)** of Lord Malbleat, spying on a
    **Goatfolk--Longhorn (DMB)** of Lord Ramius who is negotiating with **2
-   Elf--Knight (DMB)** of The Cold Prince.  The Cold Prince wishes to convince
+   Elf--Knight (DMB)** of the Cold Prince.  The Cold Prince wishes to convince
    Lord Ramius to topple a Summerstone and frame Lord Malbleat for it.  Lord
-   Ramius wants to know what The Cold Prince gets out of this.
+   Ramius wants to know what the Cold Prince gets out of this.
 
    *Shorthorn Leader:*
 
@@ -1257,46 +1249,49 @@ Setting Bible
    - Cold-Stroke-of-Midnight
    - Churned-and-Curdled
 
-6. **1 Devil Goat (DMB)**---with an ear tag bearing the coat-of-arms of a
-   longhorn noble---sloemnly circling a lonely gravestone in a long-abandoned
+4. **1 Devil Goat (DMB)**---with an ear tag bearing the coat-of-arms of a
+   longhorn noble---solemnly circling a lonely gravestone in a long-abandoned
    graveyard.
 
-7. **9 Goatfolk--Longhorn (DMB)** in battle with **4 Ghoul (OSE)** which have
+5. **9 Goatfolk--Longhorn (DMB)** in battle with **4 Ghoul (OSE)** which have
    emerged from the nearby woods.  Following the gouls' tracks back leads to
    some disturbed barrows with the 0810 treasure inside.
+
+   The barrows are the lair of **30 Barrowbogey (DMB)**.
 
    *Leader:*
 
    - Maybel Snicklebock
 
-8. **1 Goatfolk--Longhorn (DMB)** travelling in a horse-drawn carriage, on the
-   way to a ball (whichever goatfolk noble house is closest).  Very finely
-   dressed: monocle, top hat, ruff, etc.
+   *Treasure (in barrows):*
 
-   *Noble:*
+   - See hex 0810
 
-   - Hrannick Underbleat
-
-9. **22 Bandit (OSE)** in what is clearly a long-term camp, their leader
+6. **22 Bandit (OSE)** in what is clearly a long-term camp, their leader
    planning a mission against Lord Ramius / Malbleat on behalf of Malbleat /
    Ramius (dependong on where they are).
 
    *Bandit Leader:*
 
-   - Blocke Fraggleton
+   - Blocke Fraggleton (level 2)
+
+   *Treasure:*
+
+   - 4000cp
+   - 5000sp
+   - 1000pp
 
 #### Regional: Mulchgrove
 
-0. **2 Gelatinous Hulk (DMB)** lounging dreamily upon a couch of indigo moss
+1. **2 Gelatinous Hulk (DMB)** lounging dreamily upon a couch of indigo moss
    (daytime) / seeping under the door of the cottage of **2 Moss Dwarf (DMB)**,
-   who cower fearfully and may attempt to flee up the chimney.
+   who cower fearfully, attempt to flee up the chimney, and call for help if
+   they realise someone is out there.
 
    *Moss Dwarfs:*
 
    - Gwomotom
    - Gwedim
-
-1. **7 Grey Ooze (OSE)** lurking in the branches of a tree, dripping slightly.
 
 2. **7 Bog Zombie (DMB)** fleeing from a solitary **Friar (DMB)**, who is stuck
    up to her waist in quicksand.  Her holy symbol has repelled the zombies, for
@@ -1306,11 +1301,7 @@ Setting Bible
 
    - Gertwinne
 
-3. **1 Ochre Slime-Hulk (DMB)**---with an acidic, citrus reek---rising, dripping
-   wet and newly spawned, from a pool of yellow slime collected in the hollowed
-   out stump of a once-mighty tree.
-
-4. **9 Moss Dwarf (DMB)** feverishly digging up a standing stone which they
+3. **9 Moss Dwarf (DMB)** feverishly digging up a standing stone which they
    believe is blighting the fungi in the region.  The stone is a shard of black
    ice jutting out of a stream and is muttering what sounds like an incantation:
    actually the true name of Gheillough, the stone being conjured by the
@@ -1321,35 +1312,28 @@ Setting Bible
 
    - Loblow
 
-5. **5 Brainconk (DMB)** hidden in the treetops, nearby the corpse of a rider
+4. **5 Brainconk (DMB)** hidden in the treetops, nearby the corpse of a rider
    and horse lie in a ditch, their brains sucked out through small holes in
    their skulls.  The well-fed brainconks giggle when spotted.
 
-6. **2 Bog Salamander (DMB)** one thrashing around in an algae-choked pool, its
-   slimy yellow tongue lolling, laying masses of fist-sized eggs.  The other
-   warily keeps watch on the forest.
-
-7. **3 Brainconk (DMB)** slowly creeping down a trunk of a tree, pink drool
-   oozing from their mouths as they watch a **Troll (DMB)** asleep on a moss
-   mound below.  When they launch their attack, they keen and purr.
-
-8. **3 Redslob (DMB)** submerged in a pool of clear sparkling water purging
+5. **3 Redslob (DMB)** submerged in a pool of clear sparkling water purging
    themselves of accumulated debris: the water looks red and full of bones and
    gems until disturbed, which triggers the redslob attack.
 
    *Treasure:*
 
-   - 2 gems
+   - 10gp gem (quartz)
+   - 50gp gem (ruby)
 
-9. **7 Moss Dwarf (DMB)** gathering the plentiful mushrooms of a quiet grove.
+6. **7 Moss Dwarf (DMB)** gathering the plentiful mushrooms of a quiet grove.
+   They will engage the characters in friendly conversation, and share their
+   mushrooms and beer.
 
    *Dwarf Leader:*
 
    - Wobobold
 
 #### Regional: Nagwood
-
-0. **4 Spider, Giant--Crab (OSE)** waiting in the trees to ambush a victim.
 
 1. **1 Snail, Giant--Rapacious (DMB)**---with 1'-wide eyes with dozens of
    independently mobile pupils---laying hundreds of large eggs over the slimy
@@ -1372,38 +1356,54 @@ Setting Bible
    - Lisabeth Sunderman
    - Guillem Crumwaller
 
+   *Treasure:*
+
+   - 4000ep
+   - Dagger, +2 Succoring
+
 3. **7 Harpy (OSE)** washing bloodstained friar robes in a stream.
 
 4. **16 Zombie (OSE)** tending to a Drune cottage, long abandoned.  They will
    immediately attack anyone who enters without knocking on the door and waiting
    for it to be opened.
 
-5. **4 Wolf--Dire (OSE)** harrying the PCs and trying to drive them towards the
-   Court.
+   *Treasure:*
 
-6. **1 Centaur--Bestial (DMB)**---with fronds of writing snake-like hair upon
+   - Cursed Scroll: if read in the cottage, makes the zombies turn hostile;
+     otherwise summons 6 hostile **Brambling (DMB)**
+   - Scroll of *Water Breathing*
+   - Treasure Map: XII (23,000gp)
+   - Scroll of 3 Spells: *Wraithform*
+
+5. **1 Centaur--Bestial (DMB)**---with fronds of writing snake-like hair upon
    its head---lounging beside a bloodied stream chewing on the uncooked limbs of
    a party of travellers (several humans and a grimalkin), outside its
    cave-lair, which it decks with sculptures of mud, bone, and viscera.
 
-7. **4 Spider, Giant--Crab (OSE)** waiting in the trees to ambush a victim.
+   The party hear the screams of the latest victim, a scout of House Harrowmoor,
+   dead when they arrive.
 
-8. **Ataunwe (DCB)**, at the centre of a mighty conflagration of chaotic magic.
+   *Treasure:*
+
+   - Goat-horn dagger (chaotic item)
+   - 26sp
+   - Holy +2 Disrupting flanged mace
+
+6. **Ataunwe (DCB)**, at the centre of a mighty conflagration of chaotic magic.
    It sees the PCs and smiles before disappearing.  The surrounding area is
    blackened and charred, but also chaotically corrupted: trees made of meat,
    purple grass, sun is blue and sky is yellow only within that area, etc.
 
-9. **12 Goatfolk--Crookhorn (DMB)**---bellowing, gurgling, rolling their eyes
-   madly---as they caper around a roaring bonfire to godawful pipe music,
-   preparing to roast **4 Cobbin (DMB)** (weasel, badger, rabbit, mole).
-
 #### Regional: Northern Scratch
-
-0. **3 Bat--Giant Vampire (OSE)** roosting in a cave mouth.
 
 1. **1 Gloam (DMB)**---in human form, bleeding incessantly from its
    eyes---leading two barefoot children by the hand, snatched from Fort Vulgar a
    few days previously.
+
+   *Charmed Children:*
+
+   - Payton
+   - Lyndal
 
 2. **4 Musk Boar (DCB)** rooting around a series of fecund, multi-hued moss
    mounds lined up beside a ditch.  A **Troll (DMB)** (with two heads)
@@ -1412,7 +1412,15 @@ Setting Bible
 3. **10 Marsh Lantern (DMB)**---with the smiling innocent faces of
    children---flitting in and out of the underwater doors and windows of a
    submerged cottage, only its algae-soaked thatch and leaning chimney
-   protruding from the water,
+   protruding from the water.
+
+   Rotted bloated corpses of drowning victims, rusted equipment, and glinting
+   coins fill the bottom of the ditch.
+
+   *Treasure:*
+
+   - 3000ep
+   - 5000cp
 
 4. **1 Gloam (DMB)**--hovering ominously a few inches above the
    ground---inspecting the wares of a terrified **Normal Human--Pedlar (DMB)**,
@@ -1423,7 +1431,7 @@ Setting Bible
    - Breagle Cormick
 
 5. **1 Spectre (OSE)** guarding a crumbling tower, full of rotten furniture and
-   a chest with 4000sp in the submerged basement.
+   a chest in the submerged basement.
 
    *Treasure:*
 
@@ -1431,21 +1439,10 @@ Setting Bible
 
 6. **5 Witch Owl (DMB)** perched atop a decaying signpost, heads turned away.
 
-7. **2 Wight (OSE)** desecrating a shrine
-
-8. **1 Marsh Lantern (DMB)**---with the face of a rotting corpse---lurking on a
-   low soggy island in the bog.
-
-9. **4 Leech, Giant (OSE)** lurking beneath the surface.
-
 #### Regional: Table Downs
 
-0. **4 Purple Worm (OSE)** hidden inside a giant burrow, their arrival heralded
+1. **4 Purple Worm (OSE)** hidden inside a giant burrow, their arrival heralded
    by tremors.
-
-1. **8 Woodgrue (DMB)** capering around, laughing while recklessly blowing
-   flammable oil into burning torches, producing great gouts of flame.  They're
-   on their way south, to the wood proper.
 
 2. **1 Normal Human--Lost Soul (DMB)**---a frail old man who looks half
    dead---claims to have died, gone to Purgatory, and then escaped back to the
@@ -1480,36 +1477,49 @@ Setting Bible
 
    - Hugh Mann
 
-6. **1 Gloam (DMB)**---smouldering faintly when in sunlight---offering candy to
-   2 wide-eyed children who are gathering kindling.
+    *Treasure:*
 
-   *Children:*
+    - 16gp
 
-   - Chyde
-   - Sam
+   *Trade Goods:*
 
-7. **11 Goatfolk--Crookhorn (DMB)** attacking a merchant caravan and their 5
-   guards (**level 1 Fighter (OSE)**).
+   - 7x Burglar's Blend
+   - 13x Scrabey's Hair
+
+6. **11 Goatfolk--Crookhorn (DMB)** attacking a merchant caravan and their 5
+   guards (**level 1 Fighter (OSE)**).  The caravan is heading back north after
+   a successful journey to Dolmenwood.
 
    *Merchants:*
 
    - Arthwit Glass
    - Lillith Glass
 
-8. **7 Harpy (OSE)** high up in the sky, flying north from the Court of the
-   Nag-Lord, seeking out the Flayed Queen or her servants for Atanuwe.  If they
-   spot the PCs, they'll try to kill them first as a fun diversion.
+   *Treasure:*
 
-9. **9 Ghoul (OSE)** sleeping in shallow graves of freshly-turned soil, will
-   rise and attack any living creatures which inspect the graves.
+   - 3000gp
+   - 500pp
+
+   *Trade Goods:*
+
+   - 15x cask Titheland Cider
+   - 25x cask Keye's Balm
+   - 10x Crushed Sprite--Yellow
+   - 3x Deorling--Stag sword
 
 #### Regional: Tithelands
 
-0. **1 Scrabey (DMB)** lying listless by the roadside, drunk on mushroom ale,
+1. **1 Scrabey (DMB)** lying listless by the roadside, drunk on mushroom ale,
    their wares strewn behind them.  Drunkenly barters with passers-by, and calls
    them "spontywiff".
 
-1. **2 Grimalkin (DMB)**---snacking on a seemingly limitless supply of pickled
+   *Trade Goods:*
+
+   - 10x Fairy Fruits
+   - 3x Bedroll (he's sprawled out on one)
+   - 1x Alchemical Tonic
+
+2. **2 Grimalkin (DMB)**---snacking on a seemingly limitless supply of pickled
    rats---skinning a **Mogglewomp (DMB)** next to a cosy wee cottage which is
    completely hollow (no interior walls).
 
@@ -1518,20 +1528,17 @@ Setting Bible
    - Tomkin Milktongue
    - Moggle Grinser
 
-2. **10 Griffon (OSE)** carrying off an unfortunate farmer's livestock.
+3. **10 Griffon (OSE)** carrying off an unfortunate farmer's livestock.  The
+   farmer runs around yelling ineffectually, and says that the Duke should "do
+   something".
 
    *Farmer:*
 
    - Rogbert Dunwallow
 
-3. **9 Pook Morel (DMB)**---one of them wearing a lady's purse as a
-   backpack---tussling in a bramble patch, fighting over a lady's pearl-trimmed
-   glove.
-
 4. **10 Goblin (DMB)**---of all shapes and traits---arguing with **4 Scrabey
-   (DMB)** over the value of a sack of *sclubber's twist (DCB)* the Scrabeys
-   have for sale, the Goblins want to trade it for a trio of dewy peaches
-   (*fairy fruits (DCB)*).
+   (DMB)** over the value of a sack of Sclubber's Twist the Scrabeys have for
+   sale, the Goblins want to trade it for a trio of dewy peaches (Fairy Fruits).
 
 5. **19 Normal Human--Pilgrim (DMB)**--flagellants--on their way to the Church
    of St Waylaine in Prigwort.
@@ -1540,17 +1547,7 @@ Setting Bible
 
    - Dimothy Dregger
 
-6. **7 Normal Human--Villager (DMB)** foraging.
-
-7. **8 Noble--Knight (OSE)** patrolling the roads, will ask about monsters the
-   PCs have seen recently, and in particular if they have encountered any
-   Crookhorns.
-
-   *Knight Captain:*
-
-   - Sir Orthax Loomer
-
-8. **3 Friar (DMB)** in a small glade with **11 Pook Morel (DMB)**, one Friar
+6. **3 Friar (DMB)** in a small glade with **11 Pook Morel (DMB)**, one Friar
    sat on a mossy boulder reading sermons.
 
    *Friars:*
@@ -1559,41 +1556,29 @@ Setting Bible
    - Gondilian (heavily overweight, bottles of ale around his neck)
    - Joremy (laden with elaborate cast-iron cooking gear)
 
-9. **12 Normal Human--Villager (DMB)** chasing escaped pigs, will rope the PCs
-   into helping them.
-
 #### Regional: Valley of Wise Beasts
 
-0. **7 Cobbin (DMB)**---2x badger, 3x rabbit, 2x squirrel--sitting exhausted by
+1. **7 Cobbin (DMB)**---2x badger, 3x rabbit, 2x squirrel--sitting exhausted by
    a stream, their cheery little clothes torn and tattered, cleaning
    nasty-looking wounds sustained when escaping crookhorn custody.  The wounds
    will soon prove fatal without proper care.  One of the rabbits is nervously
    smoking a long pipe.
 
-1. **20 Goatfolk--Crookhorn (DMB)** charging after a **Unicorn (OSE)**, carrying
+2. **20 Goatfolk--Crookhorn (DMB)** charging after a **Unicorn (OSE)**, carrying
    flaming brands and a wickedly spiked iron bridle and bit.
 
-2. **1 Ochre Slime-Hulk (DMB)**---with hand-like and eye-like spore-stalks---
-   lying dormant under streams of iridescent oil dripping from the trees above,
-   shuddering with apparent pleasure.
-
-3. **12 Goatfolk--Crookhorn (DMB)** capering around a roaring bonfire, preparing
-   to roast 4 **Cobbin (DMB)** (rabbits).
-
-4. **8 Cobbin (DMB)**---mice---picknicking in a pleasant sunny glade, checkered
-   blanked laden with cheeses, pastries, pickled eggs, and lashings of ginger
+3. **8 Cobbin (DMB)**---mice---picknicking in a pleasant sunny glade, checkered
+   blanket laden with cheeses, pastries, pickled eggs, and lashings of ginger
    beer.
 
-5. **6 Ogre (OSE)** marking their territory with crucified animals.
-
-6. **40 Sprite--Pink (DMB)** hiden in the trees, toying with a
+4. **40 Sprite--Pink (DMB)** hiden in the trees, toying with a
    **Goatfolk--Crookhorn (DMB)** armed with a butterfly net.
 
-7. **4 Normal Human--Lost Soul (DMB)** speaking in a fairly old-fashioned
+5. **4 Normal Human--Lost Soul (DMB)** speaking in a fairly old-fashioned
    dialect (grandparent-like), who were on a pilgrimage from Castle Brackenwold
    to the Abbey of St Clewyd, and got lost.  They have no idea where they are,
    and the talking animals are kind of scary.  They wandered into Fairy 100
-   years ago and just returned.
+   years ago and only recently returned.
 
    *Time-Displaced Pilgrims:*
 
@@ -1602,7 +1587,7 @@ Setting Bible
    - Thorkel Makepiece
    - Harald Lank
 
-8. **17 Goatfolk--Crookhorn (DMB)** in the cellars of a mossy ruin stuffed with
+6. **17 Goatfolk--Crookhorn (DMB)** in the cellars of a mossy ruin stuffed with
    rotting furnishings.  a **Drune--Cottager (DMB)** is held prisoner.  The
    leader, a tall crookhorn, with one eye milky white and oozing, being ordered
    by a **Harpy (OSE)** to bring "the prisoner" to "the Court".
@@ -1611,34 +1596,30 @@ Setting Bible
 
    - Mirroddor Canker
 
-9. **4 Normal Human--Lost Soul (DMB)** hunters from Odd, who got lost and have
-   been wandering in the wrong direction for days.
-
-   *Lost Hunters:*
-
-   - Arfred Fraggleton
-   - Samwise Harper
-   - Chydewick Dregger
-   - Rogbert Addercapper
-
 ### Magic Items
 
 - **Sword of Sir Chyde:**
   - +2 to hit and damage vs fairies
   - Glows in the presence of fairies
 
-- **Horned Crown of the Hydrogyle** (not found)
+- **Horned Crown of the Hydrogyle:** (not found: in *Tomb of the Serpent Kings*)
   - The owner can expend spell slots to power it up.  Powers are gained and it
-    grows to completeness as it absorbs more power:
+    grows to completeness as it absorbs more slots:
     - **0 (knucklebone):** attracted, as if magnetically, towards the nearest nodal stone
     - **5 (bone finger):** if in a hex with a ley line, aligns itself along its course
     - **15 (tiara made of bone):** when worn, gives knowledge of nodal stones within 3 hexes; feels *right* to empower: when preparing spells in the morning, resisting giving it at least 1 slot requires a Save vs Spells if worn the previous day
     - **25 (circlet made of bone):** when worn, gives the ability to travel astrally along a ley line at 24 miles per hour; feels *right* to wear: taking it off requires a Save vs Spells
     - **50 (crown made of bone):** when worn, acts as a *ring of controlling humans*; mild paranoia when others suggest the crown may not be a good thing: who are others to question it? the crown is yours, it came to you!
-    - **75 (little balls of greenflame hovering above the points):** when worn, adds *burning greenflame* effect to all weapons, and allows using a Cottager Sigil once per day; strong paranoia: everyone sees how great and mighty the crown has made you, they want to take it for themselves!  but returning to being the *nobody* you were before finding the crown is too awful to contemplate!
-    - **100 (a very imposing glowing crown made of bone; complete):** confers the *awful presence* effect; fuses itself to the skull
+    - **75 (little balls of greenflame hovering above the points):** when worn, adds *burning greenflame* effect to all weapons and makes them count as magical for the purposes of damage resistances, and allows using a Cottager Sigil once per day; strong paranoia: everyone sees how great and mighty the crown has made you, they want to take it for themselves!  but returning to being the *nobody* you were before finding the crown is too awful to contemplate!
+    - **100 (a very imposing glowing crown made of bone; complete):** confers the *awful presence* effect (wearer can prevent that for chosen individuals); fuses itself to the skull
   - Drune will recognise it from level 15 onwards
-  - Audrunes and the Elder Phanatarch will be aware of anyone using the astral travel power
+  - Audrunes will be aware of anyone using the astral travel power on a ley line passing through their nodal stone
+  - The Elder Phanatarch will be aware of anyone using the astral travel power on any ley line
+
+- **Black Book of Llaregub:** (not found: in *The Incandescent Grottoes*)
+  - *Undead Servitor* (Necromancer)
+  - *Choke* (Necromancer)
+  - *Summon Shadow* (DCB)
 
 ### Riddles
 
