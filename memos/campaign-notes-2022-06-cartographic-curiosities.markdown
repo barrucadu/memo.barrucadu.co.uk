@@ -37,6 +37,7 @@ toc:
 - anchor: session-13
 - anchor: break-1.1
 - anchor: break-1.2
+- anchor: break-1.3
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -3356,6 +3357,77 @@ We played the ALIEN scenario *Chariot of the Gods*.
 
 - Act 3
   - Don't bring in the Sotillo, it's chaotic enough already
+
+
+2023-02-18 --- Break 1.3
+-------------------------
+
+We played the ALIEN scenario *Chariot of the Gods*.
+
+### Intro
+
+> Welcome back to Alien.
+>
+> The Montero is gone.  An apparent malfunction in the Displacement Drive led to
+> a cascade failure which overloaded the reactor, completely destroying the
+> ship.
+>
+> With nowhere else to go, you decided to get the Cronus back online.  Cham's
+> fixed the air filters, Johns said that the engines and comms array also need
+> repairs: tasks that'll require a spacewalk.  With only one intact compression
+> suit between you all, Miller ordered Johns out to do the repairs.  He seemed
+> pretty relieved to just be following orders, command doesn't suit him.
+>
+> Looking around the vehicle bay, you spotted a silhouetted figure on the
+> catwalk above.  That turned out to be Ava-6, the ship's synthetic, badly
+> damaged but repairable.  Ava told you that the spores were to blame for all
+> this: the ship set down on LV-1113 in the 26 Draconis system to investigate
+> some ruins and, well, they brought back more than just archaeological data.
+> Miller flipped and forced the truth out of Clayton, who said that the black
+> goo was a valuable research material which had to make it back to
+> Weyland-Yutani at any cost.  Wilson, of course, backed her up.
+>
+> Then Reid flipped and lunged at Clayton.  But it wasn't simple anger.  Some
+> change, some transformation, was taking place, making Reid into something less
+> than human.  Davis put her down.
+>
+> In the aftermath, with you all staring at Reid's deformed body, the voice of
+> Mother cuts through the silence: "Engine function restored.  Course set for
+> Earth."
+>
+> This is act 3!  The final act!  Don't forget your story points and personal
+> agendas.  There isn't an intended end-of-session cliffhanger here: it's all
+> down to you.  So play into those agendas and drive the game to an exciting
+> climax.
+
+### Prep
+
+- **Characters:**
+  - Cham is now fully repaired
+  - Cooper and Reid are known to be dead.
+  - Rye and Johns are missing.
+
+- **Locations:**
+  - Stage IV Abomination on the outer hull
+  - Stage IV Abomination in the reactor control room
+  - Stage V Neomorph in vents around bridge
+  - Rye's body in Junction C-1, partially eaten
+  - Johns' body drifts past a window at some dramatically appropriate moment
+
+- **This session is Act 3: it ends when a satisfying conclusion is reached.**
+
+### Notes
+
+- Miller escapes to the EEV with Clayton
+- Cham blows up the Cronus, killing everyone
+- The End.
+
+### Next time
+
+- 3 Chysting
+  - Retainers should have been paid on 1 Chysting: fix & retcon that
+- In 0505
+- "fairies stole my wife!" hook
 
 
 2023-MM-DD --- Session NN
