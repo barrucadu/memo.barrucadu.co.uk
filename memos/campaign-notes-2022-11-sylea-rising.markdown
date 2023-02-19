@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-02-12
+modified: 2023-02-19
 toc:
 - anchor: overview
   children:
@@ -27,6 +27,7 @@ toc:
 - anchor: session-7
 - anchor: break-1
 - anchor: session-8
+- anchor: session-9
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -177,20 +178,25 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
 - **Act 2: Lost In Space.** Due to a misjump caused by a maintenance technician
   bought off by Crayg, the crew end up in 1601 Iksar, and have to make their way
   home through uncharted space!
-  
+
   - **Session 8: Misjump / Human Club!** The ship badly misjumps, looking like
     it just blew up to observers on Raluug---but actually arrived in Iksar!
     With money that's no good here, the Travellers get taken in by Admiral
     Fonduk in exchange for "favours".  The first promise: amuse his
     human-obsessed daughter.
 
-  - **Session 9: Upcoming!** Vargr adventures on Iksar
-  - **Session 10: Upcoming!** Journey to the Kuunguu Confederation
-  - **Session 11: Upcoming!** Rule of Man Commemorative
-  - **Session 12: Upcoming!** Something in the Irzemuu Federation
-  - **Session 13: Upcoming!** Journey to Indmen
-  - **Session 14: Upcoming!** Journey to Indmen
-  - **Session 15: Upcoming!** Stargate
+  - **Session 9: Okhsaks Ambush / Haunted City!** The Okhsaks Corsairs try to
+    abduct Admiral Fonduk's daughter, but get counter-ambushed by the
+    Travellers.  After an extended stay in hospital, they go investigate an
+    ancient human city rumours to be haunted.  It's spooky, and has signs of
+    life.
+
+  - **Session 10: Upcoming!** Vargr character creation
+  - **Session 11: Upcoming!** Vargr adventures / Vega goes home
+  - **Session 12: Upcoming!** Vargr adventures
+  - **Session 13: Upcoming!** Vargr adventures
+  - **Session 14: Upcoming!** Vargr adventures
+  - **Session 15: Upcoming!** Stargate with Vega & disposable scientists
 
 **Adventures:**
 
@@ -485,7 +491,7 @@ it is, it's not exactly the case that the *world government* maintains a small
 navy, it's more that there's just an established small navy which happens to be
 based on the world and has agreed to join the Fleet.
 
-**Relationship with the Third Imperium:** Unaware.
+**Relationship with the Third Imperium:** None.
 
 ##### Ksouruz Pact
 
@@ -843,7 +849,7 @@ Resources
   - Authentication logs:
     - Martin logged in from the office at 21:05 and logged out at 22:15
     - Many attempts to login as Urshukaan from the office from 21:15 to 22:00
-  
+
 ##### Timeline
 
 - **Previous Day:** Urshukaan and Katarin have a fight.  Urshukaan confiscates her dagger.
@@ -1934,6 +1940,183 @@ We played the Delta Green scenario *Last Things Last*.
 - Week 63, Wednesday, evening
 - Vargr adventures (cyberpunk?)
 - Add Gzoerrghzae Fleet to player info
+
+
+2023-02-19 --- Session 9
+------------------------
+
+### Intro
+
+> Welcome back to Sylea Rising.
+>
+> You are on the Vargr world of Iksar, after your ship misjumped 41 parsecs due
+> to Crayg-related sabotage.  Right now you're staying in the home of Admiral
+> Fonduk, after you were brought to him by Captain Llorgdaen.  Fonduk seems
+> willing to help you out, for now, so long as you keep Alno, his human-obsessed
+> daughter, occupied.
+>
+> Now let's pick up right where we left off...
+
+### State
+
+- In 1601 Iksar
+- Week 63, Wednesday, evening
+
+- **Characters:**
+  - **Vega:** at the Iksar Historical Society
+  - **Tama & Sly:** at a bar near the downport
+  - **Ed:** busy on the g-bike course and unavailable for anything else
+
+- **Upcoming:**
+  - **Uudge She:** (all times at end of week)
+    - week 66: ore shipment #4 sold (Cr375,000 income); ore shipments #5 and #6 in transit; ore shipment #7 produced
+    - week 70: ore shipment #5 sold (Cr375,000 income); ore shipments #6 and #7 in transit; ore shipment #8 produced
+    - week 74: ore shipment #6 sold (Cr375,000 income); ore shipments #7 and #8 in transit; ore shipment #9 produced
+    - week 78: ore shipment #7 sold (Cr375,000 income); ore shipments #8 and #9 in transit; ore shipment #10 produced
+    - week 82: ore shipment #8 sold (Cr375,000 income); ore shipments #9 and #10 in transit; ore shipment #11 produced
+    - week 86: ore shipment #9 sold (Cr375,000 income); ore shipments #10 and #11 in transit; ore shipment #12 produced
+    - week 90: ore shipment #10 sold (Cr375,000 income); ore shipments #11 and #12 in transit
+    - week 94: ore shipment #11 sold (Cr375,000 income); ore shipment #12 in transit
+    - week 98: ore shipment #12 sold (Cr375,000 income); end of income
+
+### Prep
+
+- **Threads:**
+  - Llorgdaen / Vaez rivalry
+  - Llordgaen's ambitions
+
+#### Corsair Threat
+
+##### Hook
+
+- Mysterious cloaked figure in the bar asks Tama to bring Alno to the haunted
+  city Cr2000 (paid on delivery)
+
+##### Kidnapping Attempt!
+
+- The haunted city is being consumed by a marsh, there are only a handful of
+  suitable landing sites within walking distance.
+
+- Three armed and armoured vargr appear and demand Alno be handed over; one
+  remains hidden in a bush with a heavy laser rifle (bush explodes when rifle is
+  first used).
+
+- Have an Air/Raft (sealed, so it can reach orbit without needing vacc suits)
+  concealed behind the rifle guy.
+
+- 20 hits, +1 to hit
+
+- **Equipment:**
+  - Warrior Set (Zurrku-Ekdho) [+9]; Gauss Pistol x2 [3D; AP 3; Auto 2]
+  - Warrior Set (Zurrku-Oengga) [+7; +6 arm shield]; Chaindrive Sword [4D; AP 2]
+  - Warrior-Leader Set (Vhezk-Zurrku) [+8]; Sonic Rifle [2D; Burst 3; Sonic -3; Stun]; Claw Fist [4D; AP 5]
+  - Fighter Set (Kforzgong) [+3]; Heavy Laser Rifle [6D; Scope; on a fixed stand, not held]
+
+#### Hidden Psions
+
+##### Hook
+
+- Iksar Historical Society tells Vega it's reportedly haunted
+
+##### Haunted City
+
+- A large sprawl of decaying overgrown factories and warehouses, being consumed
+  by a swamp.
+- Home to a secret outpost of blind psionic Vargr (Roth Thokken)
+
+- **Psionic defenses:**
+  1. Fog rolls in, obscuring the sky and diffusing the sunlight (too dangerous
+     to fly in).
+  2. The sound of running feet and children's laughter; barely-seen movement;
+     and a sense of dread.  NPCs start to suggest leaving.
+  3. Confusion: without something to keep them moving in a straight line, the
+     group re-emerge out of the city back where they started.
+  4. The ground tears itself open before the party, revealing a bottomless chasm
+     20m across with a small narrow ledge 10m down: the chasm is illusory, the
+     ledge is the actual floor level, as the party have wandered into a ruined
+     building where the floor has fallen into the basement.  If someone falls
+     in, they land on the ledge and take 3D damage.  If someone falls into the
+     chasm proper, all see them (and they feel) fall off out of sight.
+  5. A ghostly vargr of shadow and flame, with long knife-like claws, steps out
+     to confront the PCs (2 melee, 4D damage, AP).  Defeated by the belief that
+     it isn't real, not by weapons.
+
+- **Damage in the city:**
+  - All damage is illusory (other than anything self-inflicted like by running
+    into a wall or falling into a basement) and heals upon leaving.
+  - Dead characters wake up outside the city.
+
+#### Vargr Merchants
+
+##### Hook
+
+- Guild representatives are at the ship to learn if the humans intend to stick
+  around and, if so, to try to get an exclusive trade deal:
+  - **Vaeourza** of the **Iksar Merchants Guild**
+  - **Rue** of the **Merchants Guild of Iksar**
+  - **Ozknerr** of the **Guild of Iksar Merchants**
+
+- Getting a trade deal means:
+  - +10% to sale price, -10% to purchase price.
+  - Occasional delays to selling cargo, since the right buyers need to be
+    brought in.
+  - Occasional special requests.
+
+#### Fonduk
+
+##### Meeting Uraz
+
+- Admiral Fonduk will repair their ship for free if they do a favour for his
+  buddy Uraz, an emissary of the Defenders of Peace.
+
+- Uraz wants the PCs to bread into the HQ of Ongozzaen Arms and get a copy of
+  their shipping data, as they're suspected of having ties to corsair bands.
+
+  *This is "Patron Uraz: Gnoezdanu, Emissary" from JTAS 7.*
+
+### Notes
+
+- Week 63:
+  - **Iksar:**
+    - **Wednesday:**
+      - Vega gets *Hidden Psions: Hook*
+      - Sly gets *Corsair Threat: Hook*
+      - Tell the Admiral about the kidnapping (dognapping)
+      - Decide to stage an ambush of their own by sending along a vargr marine
+        who looks like Alno
+    - **Thursday:**
+      - *Corsair Threat: Kidnapping Attempt!*
+        - Fight off the corsairs
+        - Sly and Tama significant injured
+        - Heavy Laser Rifle corsair killed, others escaped
+        - Llorgdaen identifies them as the **Okhsaks Corsairs**, a band which
+          has caused them trouble before
+
+- Interval:
+  - Sly & Tama in hospital recovering
+  - *Vargr Merchants: Hook*
+    - Vega makes a deal with the Guild of Iksar Merchants and sells the cargo
+
+- Week 65:
+  - **Iksar:**
+    - **Sunday:**
+      - Sly & Tama leave hospital
+      - *Fonduk: Meeting Uraz*
+        - It's a possibility, no firm commitment
+
+- Week 66:
+  - **Iksar:**
+    - **Monday:**
+      - *Hidden Psions: Haunted City*
+        - Encounter defenses 1, 2, 3
+        - Use disintegrator twice
+        - Map city & scan for life signs from orbit: discover that there are
+          vargr in the city
+
+### Next time
+
+- Creating alternative vargr characters (no gaming)
+- Disintegrator has 3 charges left
 
 
 2023-MM-DD --- Session N

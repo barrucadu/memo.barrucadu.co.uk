@@ -44,7 +44,7 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 1205 Arpuu                ?84A???-? Unsurveyed                                  - - - 003   -- G2 V
 1207 Lamip Ra             ?427???-? Unsurveyed                                  - - - 101   -- K3 V M9 V
 1209 Anpimshis            ?866???-? Unsurveyed                                  - - - 700   -- K4 V M1 V
-1301 Kuuuur               ?423???-? Unsurveyed                                  - - - 704   -- G4 V
+1301 Ghagnaelgun          D423681-8 Na Ni Po                                    - - - 704   V3 G4 V
 1304 Enka Sa              ?8C9???-? Unsurveyed                                  - - - 910   -- K4 V
 1305 Khuuum               ?555???-? Unsurveyed                                  - - - 420   -- G4 V M9 V
 1307 Shaaremash           ?556???-? Unsurveyed                                  - - - 320   -- G3 V
@@ -53,15 +53,15 @@ Hex  Name                 UWP       Remarks                      {Ix} (Ex) [Cx] 
 1407 Asmi Ar              ?798???-? Unsurveyed                                  - - - 314   -- M2 V M5 V
 1408 Adawi                ?794???-? Unsurveyed                                  - - - 813   -- G2 V M2 V
 1410 Khamep Ninish        ?312???-? Unsurveyed                                  - - - 403   -- K1 V M2 V
-1501 Eshgi Ga             ?561???-? Unsurveyed                                  - - - 410   -- K8 V M6 V
-1502 Barish               ?200???-? Unsurveyed                                  - - - 100   -- M2 V
-1503 Nian Is              ?100???-? Unsurveyed                                  - - - 813   -- K5 IV M1 V
-1504 Guer                 ?666???-? Unsurveyed                                  - - - 203   -- K4 V
+1501 Kaengner             D561690-4 Lt Ni Ri                                    - - - 410   V3 K8 V M6 V
+1502 Vungvoezueks         X200000-0 Ba Lo Lt Ni Va                              - - - 100   V3 M2 V
+1503 Saekhthaelldag       D100300-9 Lo Ni Va                                    - - - 813   V3 K5 IV M1 V
+1504 Uskuez               C666440-6 Ga Ni                                       - - - 203   V3 K4 V
 1509 Arlaapiiruur         ?544???-? Unsurveyed                                  - - - 704   -- G2 V M6 V
 1510 Inda Daash           ?755???-? Unsurveyed                                  - - - 900   -- M3 V M4 V
-1601 Diir                 ?437???-? Unsurveyed                                  - - - 001   -- G7 V M9 V
-1602 Datheern             ?668???-? Unsurveyed                                  - - - 704   -- M0 V M0 V
-1603 Kagruu               ?557???-? Unsurveyed                                  - - - 910   -- M2 V
+1601 Iksar                C437861-C Ht                                          - - - 001   V3 G7 V M9 V
+1602 Rouirruz             X668330-1 Lo Lt Ni                                    - - - 704   V3 M0 V M0 V
+1603 Uerzksuksong         X557300-2 Lo Lt Ni                                    - - - 910   V3 M2 V
 1605 Nashe                ?788???-? Unsurveyed                                  - - - 320   -- K4 V M1 V
 1608 Urgiish Ra           ?574???-? Unsurveyed                                  - - - 404   -- M2 V
 1609 Nar                  ?560???-? Unsurveyed                                  - - - 012   -- F4 V M4 V

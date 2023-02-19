@@ -30,6 +30,8 @@
     <Allegiance Code="H1">Gishgi People's Assembly</Allegiance>
     <Allegiance Code="H2">Paran League</Allegiance>
     <Allegiance Code="H3">Uundas Union</Allegiance>
+    <!-- Vargr Pocket Empires (coreward) -->
+    <Allegiance Code="V3">Gzoerrghzae Fleet</Allegiance>
   </Allegiances>
   <Borders>
     <!-- Third Imperium -->
@@ -40,6 +42,8 @@
     <Border Allegiance="H1" LabelPosition="0326" WrapLabel="true" Color="DarkGreen">0427 0527 0526 0625 0725 0726 0826 0927 0827 0728 0628 0728 0827 0826 0726 0626 0527 0427</Border>
     <Border Allegiance="H2" LabelPosition="1135" WrapLabel="true" Color="HotPink">0834 0934 1033 1032 1033 1134 1034 0935 0936 0935 0834</Border>
     <Border Allegiance="H3" LabelPosition="0435" LabelOffsetX="1.5" Color="DarkRed">0132 0232 0233 0334 0335 0235 0234 0134 0133 0132</Border>
+    <!-- Vargr Pocket Empires -->
+    <Border Allegiance="V3" LabelPosition="1302" WrapLabel="true" Color="LightBlue">1300 1400 1500 1600 1601 1602 1603 1504 1503 1502 1401 1301 1300</Border>
   </Borders>
   <Routes>
     <!-- Imperium / Paran route -->
