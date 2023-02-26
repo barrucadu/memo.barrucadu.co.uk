@@ -2,7 +2,7 @@
 title: Book Wishlist
 taxon: self-possessions
 published: 2020-05-19
-modified: 2023-02-02
+modified: 2023-02-26
 ---
 
 This memo contains a big list of books I want.  It's probably not very
@@ -29,6 +29,7 @@ Book Series
 |                                             |                 | Volume 19                                     |
 |                                             |                 | Volume 20                                     |
 | [The Witness Trilogy][]                     |                 | No Life Forsaken                              |
+| [The Black Company][]                       | `9781250174581` | Port of Shadows                               |
 
 [Delicious in Dungeon]: https://en.wikipedia.org/wiki/Delicious_in_Dungeon
 [The Kharkanas Trilogy]: https://en.wikipedia.org/wiki/The_Kharkanas_Trilogy
@@ -37,6 +38,7 @@ Book Series
 [The Solar Cycle]: https://www.wolfewiki.com/pmwiki/pmwiki.php?n=WolfeWiki.TheSolarCycle
 [That Time I Got Reincarnated as a Slime]: https://en.wikipedia.org/wiki/List_of_That_Time_I_Got_Reincarnated_as_a_Slime_volumes
 [The Witness Trilogy]: https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen#The_Witness_Trilogy
+[The Black Company]: https://en.wikipedia.org/wiki/The_Black_Company
 
 ### Collections
 
