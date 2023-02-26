@@ -2,7 +2,7 @@
 title: Sylea Rising (2022-11 to ?) notes
 taxon: games-campaigns
 published: 2022-11-27
-modified: 2023-02-19
+modified: 2023-02-26
 toc:
 - anchor: overview
   children:
@@ -28,6 +28,7 @@ toc:
 - anchor: break-1
 - anchor: session-8
 - anchor: session-9
+- anchor: session-10
 ---
 
 <aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
@@ -91,9 +92,9 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   - Lines: isopods
   - Veils: isms
 
-#### Characters
+#### Imperium Gang
 
-- Sly Dirk (Doremy): pilot, astrogator, fighter
+- Sly Dirk [Human] (Doremy):
   - **Psionic Potential:** 6 (+0)
   - Spent years as a drifter, tried to break out into other careers but never
     quite made it.
@@ -104,7 +105,33 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   - **Enemy:** ??? (barbarian)
   - **Enemy:** ??? (merchant)
 
-- Tama Nourvukaiken (Rakka): face, fighter
+- Ehefkae [Vargr] (Rakka):
+  - Had a short and unsuccessful career bouncing between, and failing out of,
+    jobs.  Has a very uncool scar.
+
+- Vega Polaris (Yuyuko):
+  - **Psionic Potential:** 3 (-1)
+  - Long career as a scientist, before deciding to work more closely with her
+    audience by becoming a journalist: it didn't work out.
+  - **Ally:** Petr Idema, potential lover, young prospector based in Raluug.
+
+- Guerraedzahkhue "Ed" Zhaerdeng [Vargr] (NPC)
+  - "the best pilot in the galaxy"
+  - Races a custom g/bike called "Baby"
+
+##### Vargr Gang
+
+- Aghsoe Goei Gurrko [Vargr] (Doremy):
+  - Started life as a corporate citizen, making some shady contacts, but then
+    settled into a lonmg and successful career in the Navy.
+  - **Ally:** ??? (corp citizen)
+  - **Ally:** ??? (corp citizen)
+  - **Ally:** ??? (navy)
+  - **Contact:** ??? (criminal, corp citizen)
+  - **Contact:** ??? (navy)
+  - **Contact:** ??? (navy)
+
+- Tama Nourvukaiken [Human] (Rakka):
   - **Psionic Potential:** 6 (+0)
   - Got his start in life in the military, but after getting betrayed by his
     commander became a gang enforcer.
@@ -113,32 +140,13 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   - **Enemy:** Crayg, captain of the Imperial battleship the *Merciless*.
     Framed Tama to cover up his botched command.
 
-- Vega Polaris (Yuyuko): pilot, engineer, boffin
-  - **Psionic Potential:** 3 (-1)
-  - Long career as a scientist, before deciding to work more closely with her
-    audience by becoming a journalist: it didn't work out.
-  - **Ally:** Petr Idema, potential lover, young prospector based in Raluug.
-
-##### NPCs
-
-- Guerraedzahkhue "Ed" Zhaerdeng
-  - Vargr
-  - "the best pilot in the galaxy"
-  - Races a custom g/bike called "Baby"
-
-#### Ships
-
-- The Ship: custom
-
-##### Previous Ships
-
-- Gemini: lab ship
-  - **Leaky Reactor Core:** roll `2D` when the ship jumps, on a 12, all crew
-    suffer `2D x 20` rads.
-  - **Damaged sensors:** `DM-1` to all `Electronics (sensors)` checks.
-  - **Double maintenance costs.**
-
-- Li'l Gemini: pinnace
+- Green Peas Tababwet [Bwap] (Yuyuko):
+  - Unstable career, repeatedly trying to become an emissary but never being
+    charismatic enough for it, instead getting drafted and spending some time as
+    a loner.
+  - **Ally:** ??? (free trader)
+  - **Ally:** ??? (drifter)
+  - **Contact:** ??? (free trader)
 
 ### Game Log
 
@@ -188,15 +196,18 @@ does come up at all, **psionics is only for a very rare big-boss NPC**.
   - **Session 9: Okhsaks Ambush / Haunted City!** The Okhsaks Corsairs try to
     abduct Admiral Fonduk's daughter, but get counter-ambushed by the
     Travellers.  After an extended stay in hospital, they go investigate an
-    ancient human city rumours to be haunted.  It's spooky, and has signs of
+    ancient human city rumoured to be haunted.  It's spooky, and has signs of
     life.
 
-  - **Session 10: Upcoming!** Vargr character creation
-  - **Session 11: Upcoming!** Vargr adventures / Vega goes home
-  - **Session 12: Upcoming!** Vargr adventures
-  - **Session 13: Upcoming!** Vargr adventures
-  - **Session 14: Upcoming!** Vargr adventures
-  - **Session 15: Upcoming!** Stargate with Vega & disposable scientists
+  - **Session 10: Session 0.2** Decided how we wanted the campaign to go from
+    here, created new characters.
+
+  - **Session 11: Upcoming!** Imperium Gang
+  - **Session 12: Upcoming!** Vargr Gang
+  - **Session 13: Upcoming!** Vargr Gang
+  - **Session 14: Upcoming!** Imperium Gang
+  - **Session 15: Upcoming!** Imperium Gang
+  - Break
 
 **Adventures:**
 
@@ -2117,6 +2128,63 @@ We played the Delta Green scenario *Last Things Last*.
 
 - Creating alternative vargr characters (no gaming)
 - Disintegrator has 3 charges left
+
+
+2023-02-26 --- Session 10
+-------------------------
+
+### Intro
+
+- Today we're rolling up some Vargr characters
+- Also I think we should chat about where we want the campaign to go from here,
+  since we're now pretty far off the premise we talked about back in session 0
+
+### Prep
+
+- **Ongozzaen Arms:**
+  - Base hacking difficulty: Very Difficult INT / Electronics (Computers), 1D rounds
+  - Lobby:
+    - Open to the public at all hours
+    - Access to stairs requires a keycard
+      - Stairs lead to all floors
+    - Access to equipment room requires a keycard
+      - Hatch leads to lift maintenance shaft with ladder to all floors
+      - Climbing the ladder requires a Difficult END, 1Dx10 minutes check
+    - Access to lifts requires a biometric scan (hacking +2 for non-Vargr)
+  - Office:
+    - Lifts give automatic access
+    - Access from equipment room or stairs requires a keycard
+    - There are motion-detecting security cameras
+      - Difficult INT or DEX / Stealth, 1D minutes to avoid
+    - There's someone working late in one of the cubicals
+      - Motion-detecting cameras are switched off in the main room
+      - Difficult INT or DEX / Stealth, 1D minutes to avoid
+    - Files can be accessed from computer room or any private office (hacking Difficult)
+      - A successful hack on the elevators can be repeated for free here
+  - The Dragon:
+    - 4 guards with TL12 stunners and +8 armour
+    - Guards call for police backup if they experience significant resistance
+
+### Notes
+
+- Roll up new characters (2 vargr, 1 bwap)
+
+- Decide to split into two parties:
+  - Imperium Gang:
+    - Vega, Sly, Ehefkae, Ed
+    - Heading back home
+    - Going to have weird space adventures on the way
+  - Vargr Gang:
+    - Tama, Aghsoe, Green Peas
+    - Staying here
+    - Going to have mostly small-scale cyberpunk heist / crime adventures
+
+- Don't sell Cassie
+
+### Next time
+
+- Doremy absent
+- Imperium Gang
 
 
 2023-MM-DD --- Session N
