@@ -40,7 +40,7 @@ toc:
 - anchor: break-1.3
 ---
 
-<aside class="highlight">This campaign is ongoing and this memo contains spoilers.</aside>
+<aside class="highlight">I am now using <a href="https://obsidian.md/">Obsidian</a> for campaign notes, this memo won't be updated.</aside>
 
 Overview
 --------
