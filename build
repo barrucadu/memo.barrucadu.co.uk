@@ -49,7 +49,6 @@ DATE_PP_FORMAT = "%b %-d, %Y"
 TAXA = [
     {"name": "General", "slug": "general"},
     {"name": "Games", "slug": "games"},
-    {"name": "Campaign Notes", "slug": "games-campaigns", "parent": "games"},
     {"name": "Research", "slug": "research"},
     {"name": "Deja Fu / CoCo", "slug": "research-dejafucoco", "parent": "research"},
     {"name": "Summaries", "slug": "research-summary", "parent": "research"},
