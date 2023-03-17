@@ -92,11 +92,11 @@ def title_for(taxon=None):
         return "barrucadu's memos"
 
 
-def make_html(memo):
+def make_html(filename, link, text):
     """Render a memo's content using pandoc."""
 
     text_hash = hashlib.sha256()
-    text_hash.update(memo["text"].encode())
+    text_hash.update(text.encode())
     cache_file = os.path.join(CACHE_DIR, f"sha256-{text_hash.hexdigest()}.json")
 
     try:
@@ -105,13 +105,13 @@ def make_html(memo):
     except (OSError, json.decoder.JSONDecodeError):
         pass
 
-    _, fmt = os.path.splitext(memo["filename"])
+    _, fmt = os.path.splitext(filename)
     fmt = fmt[1:]
     if fmt == "lhs":
         fmt = "markdown+literate_haskell"
 
     html = pypandoc.convert_text(
-        memo["text"],
+        text,
         "html",
         format=fmt,
         filters=[
@@ -124,20 +124,22 @@ def make_html(memo):
 
     # this can't be done as a pandoc filter sadly, because the footnote
     # links don't exist when the filter runs
-    html = html.replace("href=\"#fn", f"href=\"{memo['link']}#fn")
+    html = html.replace('href="#fn', f'href="{link}#fn')
 
     try:
-        json.dump({ "html": html }, open(cache_file, "w"))
+        json.dump({"html": html}, open(cache_file, "w"))
     except OSError as err:
-        print(f"could not cache generated HTML for {memo['slug']}: {err.strerror}")
+        print(f"could not cache generated HTML for {filename}: {err.strerror}")
 
     return html
+
 
 def make_toc(memo):
     """Generate the full table of contents for a memo."""
 
     soup = BeautifulSoup(memo["body"], features="html.parser")
     if "toc" in memo:
+
         def link_titles(soup, links):
             for link in links:
                 if "anchor" in link and "title" not in link:
@@ -145,6 +147,7 @@ def make_toc(memo):
                 if "children" in link:
                     link["children"] = link_titles(soup, link["children"])
             return links
+
         return link_titles(soup, memo["toc"])
     else:
         toc = []
@@ -156,6 +159,30 @@ def make_toc(memo):
                 }
             )
         return toc
+
+
+ALL_ERRORS = []
+for fname in os.listdir("errors"):
+    fpath = os.path.join("errors", fname)
+    if not os.path.isfile(fpath):
+        continue
+
+    with open(fpath, "r") as f:
+        lines = f.readlines()
+        metadata_end_idx = lines[1:].index("---\n") + 1
+        text_start_idx = metadata_end_idx + 1
+
+        page = yaml.load("".join(lines[1:metadata_end_idx]), Loader=yaml.SafeLoader)
+        page["filename"] = os.path.basename(fname)
+        page["slug"], _ = os.path.splitext(page["filename"])
+        page["link"] = f"{page['slug']}.html"
+        page["permalink"] = f"{BASE_HREF}{page['slug']}.html"
+
+        # render the body
+        page["text"] = "".join(lines[text_start_idx:])
+        page["body"] = make_html(page["filename"], page["link"], page["text"])
+
+    ALL_ERRORS.append(page)
 
 ALL_MEMOS = []
 for fname in os.listdir("memos"):
@@ -177,7 +204,7 @@ for fname in os.listdir("memos"):
 
         # render the body
         memo["text"] = "".join(lines[text_start_idx:])
-        memo["body"] = make_html(memo)
+        memo["body"] = make_html(memo["filename"], memo["link"], memo["text"])
         toc = make_toc(memo)
         if toc:
             memo["toc"] = toc
@@ -198,9 +225,7 @@ for fname in os.listdir("memos"):
                 ]
             )
             try:
-                memo["published"] = datetime.strptime(
-                    datestr.decode("utf-8").strip(), "%Y-%m-%d"
-                )
+                memo["published"] = datetime.strptime(datestr.decode("utf-8").strip(), "%Y-%m-%d")
             except Exception:
                 # this will be reached if the file hasn't been committed
                 memo["published"] = datetime.now()
@@ -340,9 +365,7 @@ dir_util.copy_tree("MathJax/es5", os.path.join(OUT_DIR, "mathjax"))
 dir_util.mkpath(os.path.join(OUT_DIR, TAXON_DIR))
 
 for source, target in HASHED_LINKS.items():
-    file_util.copy_file(
-        os.path.join("hashed-static", source), os.path.join(OUT_DIR, target)
-    )
+    file_util.copy_file(os.path.join("hashed-static", source), os.path.join(OUT_DIR, target))
 
 render("robots.txt", "robots.txt")
 render("sitemap.xml", "sitemap.xml", memos=ALL_MEMOS, taxa=TAXA)
@@ -363,3 +386,6 @@ for taxon in TAXA:
 
 for memo in ALL_MEMOS:
     render(f"{memo['slug']}.html", "memo.html", title=memo["title"], memo=memo)
+
+for error in ALL_ERRORS:
+    render(f"{error['slug']}.html", "error.html", title=error["title"], page=error)
