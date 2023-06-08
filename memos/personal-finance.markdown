@@ -3,7 +3,7 @@ title: Personal Finance
 taxon: self-systems
 tags: finance, hledger
 published: 2018-01-07
-modified: 2022-12-31
+modified: 2023-06-08
 ---
 
 I care a lot about my finances, and I put a lot of effort into
@@ -292,6 +292,38 @@ Now we can compute some more interesting metrics.
   net income is the amount `income` has gone down by (i.e., gross
   income) minus the amount `expenses:gross` (pay deductions) has gone
   up by.
+
+  An alternative formulation which excludes pension contributions would be:
+
+  ```
+  # saved income
+  (
+    sum(hledger_monthly_decrease{account="income"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    - on(target_currency)
+    sum(hledger_monthly_increase{account="expenses"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    # ignore pension contributions (assumes pensions only go up - include 'decrease' as well to handle January roll-over)
+    - on(target_currency)
+    (
+      sum(hledger_monthly_increase{account="assets:pension"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency) -
+      sum(hledger_monthly_decrease{account="assets:pension"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    )
+  )
+
+  / on(target_currency)
+
+  # net income
+  (
+    sum(hledger_monthly_decrease{account="income"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    - on(target_currency)
+    sum(hledger_monthly_increase{account="expenses:gross"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    # as above
+    - on(target_currency)
+    (
+      sum(hledger_monthly_increase{account="assets:pension"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency) -
+      sum(hledger_monthly_decrease{account="assets:pension"} * on(currency) hledger_fx_rate{target_currency="$currency"}) by(target_currency)
+    )
+  )
+  ```
 
 - **Runway:**
 
@@ -694,7 +726,6 @@ the regular accounts, which are mostly self-explanatory:
                     - `tea`
                 - `goal`
                     - *subaccounts for specific future expenses, like renewing my passport*
-                - `float`---cash which can be withdrawn
                 - `pending`
                     - *subaccounts for money to be transferred to other accounts*
                 - `saved`
@@ -710,7 +741,6 @@ the regular accounts, which are mostly self-explanatory:
                     - `travel`
                     - `utilities`
         - `starling`
-            - `float`---cash which can be withdrawn
             - `saved`
               - `patreon`---monthly [Patreon](https://www.patreon.com/) subscriptions (charged in USD)
               - `protonmail`---annual [ProtonMail](https://protonmail.com/) fee (charged in EUR)
@@ -866,43 +896,21 @@ Foreign currency expenses are recorded like so:
 
 #### Spending physical cash
 
-Physical cash generally involves three transactions: a withdrawal from
-the bank account (which may be long before the actual expense), the
-expense, and a bookkeeping transaction to move the money back into the
-float:
+When I withdraw physical cash, I take it from the relevant budget category
+directly:
 
 ```
 2019-01-25 * Withdraw
     assets:cash:petty:hand:budgeted                                       £10.00
-    assets:cash:nationwide:flexdirect:float
+    assets:cash:nationwide:discretionary:other
 
 2019-01-25 * Post Office
     expenses:other                                                         £1.01
     assets:cash:petty:hand:budgeted
-
-2019-01-25 ! Bookkeeping
-    assets:cash:nationwide:flexdirect:discretionary:other                 -£1.01
-    assets:cash:nationwide:flexdirect:float
 ```
 
-Foreign currency cash transactions require picking an appropriate
-exchange rate when taking the money from the budget category:
-
-```
-2018-05-08 * FamilyMart
-    expenses:food                                                            548 JPY
-    assets:cash:petty:hand:budgeted
-
-2018-05-08 ! Bookkeeping
-    assets:cash:nationwide:flexdirect:saved:food                          -£4.60 ; -548 JPY
-    assets:cash:nationwide:flexdirect:float
-```
-
-The exchange rate is kind of arbitrary, as it's only being used for
-budgeting purposes here.  An `@@` posting isn't used, because the bank
-operates entirely in GBP: in the example above I'm not moving 548 JPY
-to the `float`, I'm moving £4.60, and I arrived at that number by
-approximating the value of the 548 JPY.
+Foreign currency cash withdrawals are treated exactly the same as investment
+transactions, using `@@` to note down the exact exchange rate I got.
 
 #### Using a credit card
 
