@@ -12,7 +12,7 @@ from pygments.formatters import HtmlFormatter
 def transform_code(elem, doc):
     """Transform code blocks based on language."""
 
-    if type(elem) != pf.CodeBlock:
+    if elem is not pf.CodeBlock:
         return
 
     # Literate Haskell source gets reported as "sourcecode" format, so
