@@ -3,7 +3,7 @@ click==8.1.7
 docopt==0.6.2
 graphviz==0.20.3
 Jinja2==3.1.4
-MarkupSafe==2.1.5
+MarkupSafe==3.0.0
 panflute==2.3.1
 Pygments==2.18.0
 pypandoc==1.13
