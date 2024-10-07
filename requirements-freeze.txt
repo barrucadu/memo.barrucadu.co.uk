@@ -6,6 +6,6 @@ Jinja2==3.1.4
 MarkupSafe==2.1.5
 panflute==2.3.1
 Pygments==2.18.0
-pypandoc==1.13
+pypandoc==1.14
 PyYAML==6.0.2
 soupsieve==2.6
