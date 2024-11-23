@@ -1,4 +1,4 @@
-FROM nixos/nix:2.24.7
+FROM nixos/nix:2.25.2
 
 RUN nix-channel --add https://nixos.org/channels/nixos-24.05 nixpkgs && \
     nix-channel --update
