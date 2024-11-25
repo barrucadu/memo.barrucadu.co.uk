@@ -15,11 +15,3 @@ jobs:
           black build pandoc-filter-*
           flake8 build pandoc-filter-*
           git diff --exit-code
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4.1.7
-      - uses: actions/setup-python@v5
-      - name: Check Dependencies
-        run: |
-          pip install -r requirements-freeze.txt

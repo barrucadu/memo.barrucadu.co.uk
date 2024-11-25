@@ -7,18 +7,6 @@ resource_types:
       password: ((docker-registry-password))
 
 resources:
-  - name: builder-git
-    type: git
-    source:
-      uri: https://github.com/barrucadu/memo.barrucadu.co.uk.git
-      paths:
-        - concourse/Dockerfile
-  - name: builder-image
-    type: docker-image
-    source:
-      repository: registry.barrucadu.dev/memo-builder
-      username: registry
-      password: ((docker-registry-password))
   - name: memo-git
     type: git
     source:
@@ -38,29 +26,20 @@ jobs:
       - set_pipeline: memo-barrucadu-co-uk
         file: memo-git/concourse/pipeline.yml
 
-  - name: memo-builder
-    serial: true
-    plan:
-      - get: builder-git
-        trigger: true
-      - put: builder-image
-        params:
-          build: builder-git
-          dockerfile: builder-git/concourse/Dockerfile
-          tag_as_latest: true
-
   - name: build-and-deploy
     serial: true
     plan:
-      - get: builder-image
       - get: memo-git
         trigger: true
       - task: build-site
-        image: builder-image
         params:
           OUT_DIR: memo
         config:
           platform: linux
+          image_resource:
+            type: registry-image
+            source:
+              repository: nixos/nix
           inputs:
             - name: memo-git
           outputs:
@@ -71,10 +50,7 @@ jobs:
             args:
               - -cex
               - |
-                virtualenv venv
-                source venv/bin/activate
-                pip install -r requirements-freeze.txt
-                PATH=.:$PATH ./build --out="../site/${OUT_DIR}"
+                nix --extra-experimental-features "nix-command flakes" develop --command bash -c "./build --out=../site/${OUT_DIR}"
       - put: memo-rsync
         params:
           path: site/memo

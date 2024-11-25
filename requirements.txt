@@ -1,8 +1,0 @@
-beautifulsoup4
-docopt
-graphviz
-jinja2
-panflute
-pygments
-pypandoc
-pyyaml
