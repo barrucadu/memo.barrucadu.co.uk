@@ -1,4 +1,10 @@
 {% extends "_layout.html" %}
+{% block opengraph %}
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="{{ memo.published_iso }}" />
+<meta property="article:modified_time" content="{{ memo.modified_iso }}" />
+<meta property="article:author" content="https://www.barrucadu.co.uk/" />
+{% endblock %}
 {% block head %}
 <link rel="stylesheet preload" href="{{ hashed_links['code.css'] }}" as="style" type="text/css">
 <script src="mathjax/tex-chtml.js" async></script>

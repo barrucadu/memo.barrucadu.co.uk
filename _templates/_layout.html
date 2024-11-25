@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:og="http://opengraphprotocol.org/schema/">
+<html lang="en-GB" prefix="og: https://ogp.me/ns#">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Michael Walker">
@@ -10,6 +10,10 @@
     <meta property="og:site_name" content="{{ site_name }}">
     <meta property="og:url"       content="{{ permalink }}">
     <meta property="og:title"     content="{{ title }}">
+    <meta property="og:locale"    content="en_GB">
+    {% block opengraph %}
+    <meta property="og:type"      content="website" />
+    {% endblock %}
 
     <meta name="twitter:card"    content="summary">
     <meta name="twitter:site"    content="@barrucadu">
