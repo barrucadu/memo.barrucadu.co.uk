@@ -18,15 +18,15 @@ Options:
 import hashlib
 import jinja2
 import json
-import os
 import pypandoc
+import shutil
 import subprocess
 import yaml
 
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
-from distutils import dir_util, file_util
 from docopt import docopt
+from pathlib import Path
 
 args = docopt(__doc__)
 OUT_DIR = args["--out"]
@@ -93,16 +93,15 @@ def make_html(filename, link, text):
 
     text_hash = hashlib.sha256()
     text_hash.update(text.encode())
-    cache_file = os.path.join(CACHE_DIR, f"sha256-{text_hash.hexdigest()}.json")
+    cache_file = Path(CACHE_DIR, f"sha256-{text_hash.hexdigest()}.json")
 
     try:
-        cached = json.load(open(cache_file))
+        cached = json.loads(cache_file.read_text())
         return cached["html"]
     except (OSError, json.decoder.JSONDecodeError):
         pass
 
-    _, fmt = os.path.splitext(filename)
-    fmt = fmt[1:]
+    fmt = filename.suffix[1:]
     if fmt == "lhs":
         fmt = "markdown+literate_haskell"
 
@@ -115,6 +114,7 @@ def make_html(filename, link, text):
         ],
         extra_args=[
             "--no-highlight",
+            "--wrap=none",
         ],
     )
 
@@ -123,9 +123,9 @@ def make_html(filename, link, text):
     html = html.replace('href="#fn', f'href="{link}#fn')
 
     try:
-        json.dump({"html": html}, open(cache_file, "w"))
+        cache_file.write_text(json.dumps({"html": html}))
     except OSError as err:
-        print(f"could not cache generated HTML for {filename}: {err.strerror}")
+        print(f"could not cache generated HTML for {link}: {err.strerror}")
 
     return html
 
@@ -157,99 +157,89 @@ def make_toc(memo):
         return toc
 
 
+def load_page(fpath):
+    lines = fpath.read_text().splitlines()
+    metadata_end_idx = lines[1:].index("---") + 1
+    text_start_idx = metadata_end_idx + 1
+
+    page = yaml.load("\n".join(lines[1:metadata_end_idx]), Loader=yaml.SafeLoader)
+    page["filename"] = fpath.name
+    page["slug"] = fpath.stem
+    page["link"] = f"{page['slug']}.html"
+    page["permalink"] = f"{BASE_HREF}{page['slug']}.html"
+
+    # render the body
+    page["text"] = "\n".join(lines[text_start_idx:])
+    page["body"] = make_html(fpath, page["link"], page["text"])
+
+    return page
+
+
 ALL_ERRORS = []
-for fname in os.listdir("errors"):
-    fpath = os.path.join("errors", fname)
-    if not os.path.isfile(fpath):
+for fpath in Path("errors").iterdir():
+    if not fpath.is_file():
         continue
 
-    with open(fpath, "r") as f:
-        lines = f.readlines()
-        metadata_end_idx = lines[1:].index("---\n") + 1
-        text_start_idx = metadata_end_idx + 1
-
-        page = yaml.load("".join(lines[1:metadata_end_idx]), Loader=yaml.SafeLoader)
-        page["filename"] = os.path.basename(fname)
-        page["slug"], _ = os.path.splitext(page["filename"])
-        page["link"] = f"{page['slug']}.html"
-        page["permalink"] = f"{BASE_HREF}{page['slug']}.html"
-
-        # render the body
-        page["text"] = "".join(lines[text_start_idx:])
-        page["body"] = make_html(page["filename"], page["link"], page["text"])
-
+    page = load_page(fpath)
     ALL_ERRORS.append(page)
 
 ALL_MEMOS = []
-for fname in os.listdir("memos"):
-    fpath = os.path.join("memos", fname)
-    if not os.path.isfile(fpath):
+for fpath in Path("memos").iterdir():
+    if not fpath.is_file():
         continue
 
-    with open(fpath, "r") as f:
-        lines = f.readlines()
-        metadata_end_idx = lines[1:].index("---\n") + 1
-        text_start_idx = metadata_end_idx + 1
-        memo = yaml.load("".join(lines[1:metadata_end_idx]), Loader=yaml.SafeLoader)
+    memo = load_page(fpath)
+    toc = make_toc(memo)
+    if toc:
+        memo["toc"] = toc
 
-        # file & path metadata
-        memo["filename"] = os.path.basename(fname)
-        memo["slug"], _ = os.path.splitext(memo["filename"])
-        memo["link"] = f"{memo['slug']}.html"
-        memo["permalink"] = f"{BASE_HREF}{memo['slug']}.html"
-
-        # render the body
-        memo["text"] = "".join(lines[text_start_idx:])
-        memo["body"] = make_html(memo["filename"], memo["link"], memo["text"])
-        toc = make_toc(memo)
-        if toc:
-            memo["toc"] = toc
-
-        # timestamps
-        if "published" not in memo:
-            datestr = subprocess.check_output(
-                [
-                    "git",
-                    "log",
-                    "--diff-filter=A",
-                    "--follow",
-                    "--date=short",
-                    "--format=%ad",
-                    "-1",
-                    "--",
-                    fpath,
-                ]
+    # timestamps
+    if "published" not in memo:
+        datestr = subprocess.check_output(
+            [
+                "git",
+                "log",
+                "--diff-filter=A",
+                "--follow",
+                "--date=short",
+                "--format=%ad",
+                "-1",
+                "--",
+                fpath,
+            ]
+        )
+        try:
+            memo["published"] = datetime.strptime(
+                datestr.decode("utf-8").strip(), "%Y-%m-%d"
             )
-            try:
-                memo["published"] = datetime.strptime(datestr.decode("utf-8").strip(), "%Y-%m-%d")
-            except Exception:
-                # this will be reached if the file hasn't been committed
-                memo["published"] = datetime.now()
-        memo["modified"] = memo.get("modified", memo.get("date", memo["published"]))
-        if not isinstance(memo["published"], datetime):
-            memo["published"] = datetime(
-                memo["published"].year, memo["published"].month, memo["published"].day
-            )
-        if not isinstance(memo["modified"], datetime):
-            memo["modified"] = datetime(
-                memo["modified"].year, memo["modified"].month, memo["modified"].day
-            )
-        if memo["published"] > memo["modified"]:
-            memo["published"] = memo["modified"]
+        except Exception:
+            # this will be reached if the file hasn't been committed
+            memo["published"] = datetime.now()
+    memo["modified"] = memo.get("modified", memo.get("date", memo["published"]))
+    if not isinstance(memo["published"], datetime):
+        memo["published"] = datetime(
+            memo["published"].year, memo["published"].month, memo["published"].day
+        )
+    if not isinstance(memo["modified"], datetime):
+        memo["modified"] = datetime(
+            memo["modified"].year, memo["modified"].month, memo["modified"].day
+        )
+    if memo["published"] > memo["modified"]:
+        memo["published"] = memo["modified"]
 
-        memo["published_iso"] = memo["published"].strftime(DATE_ISO_FORMAT)
-        memo["published_pp"] = memo["published"].strftime(DATE_PP_FORMAT)
-        memo["modified_iso"] = memo["modified"].strftime(DATE_ISO_FORMAT)
-        memo["modified_pp"] = memo["modified"].strftime(DATE_PP_FORMAT)
+    memo["published_iso"] = memo["published"].strftime(DATE_ISO_FORMAT)
+    memo["published_pp"] = memo["published"].strftime(DATE_PP_FORMAT)
+    memo["modified_iso"] = memo["modified"].strftime(DATE_ISO_FORMAT)
+    memo["modified_pp"] = memo["modified"].strftime(DATE_PP_FORMAT)
 
-        # get the taxon
-        taxon_slug = memo.get("taxon", DEFAULT_TAXON)
-        taxon = TAXA_BY_SLUG[taxon_slug]
-        memo["taxon"] = taxon
-        memo["taxa"] = [taxon]
-        while taxon["parent"]:
-            taxon = TAXA_BY_SLUG[taxon["parent"]]
-            memo["taxa"].append(taxon)
+    # get the taxon
+    taxon_slug = memo.get("taxon", DEFAULT_TAXON)
+    taxon = TAXA_BY_SLUG[taxon_slug]
+    memo["taxon"] = taxon
+    memo["taxa"] = [taxon]
+    while taxon["parent"]:
+        taxon = TAXA_BY_SLUG[taxon["parent"]]
+        memo["taxa"].append(taxon)
 
     if memo.get("draft", False) and not DRAFT_MODE:
         continue
@@ -261,25 +251,25 @@ for memo in ALL_MEMOS:
         memo["superseded_by"] = MEMOS_BY_SLUG[memo["superseded_by"]]
 
 HASHED_LINKS = {}
-for fname in os.listdir("hashed-static"):
-    fpath = os.path.join("hashed-static", fname)
-    if not os.path.isfile(fpath):
+for fpath in Path("hashed-static").iterdir():
+    if not fpath.is_file():
         continue
 
     file_hash = hashlib.sha256()
-    with open(fpath, "rb") as f:
+    with fpath.open("rb") as f:
         while True:
             data = f.read(65536)
             if not data:
                 break
             file_hash.update(data)
-    base, ext = os.path.splitext(fname)
-    HASHED_LINKS[fname] = f"{base}-sha256-{file_hash.hexdigest()}{ext}"
+    HASHED_LINKS[fpath.name] = (
+        f"{fpath.stem}-sha256-{file_hash.hexdigest()}{fpath.suffix}"
+    )
 
 
 def render(link, template, **metadata):
-    with open(os.path.join(OUT_DIR, link), "w") as f:
-        rendered = JINJA2_ENV.get_template(template).render(
+    Path(OUT_DIR, link).write_text(
+        JINJA2_ENV.get_template(template).render(
             base_href=BASE_HREF,
             hashed_links=HASHED_LINKS,
             site_name=title_for(),
@@ -289,7 +279,7 @@ def render(link, template, **metadata):
             permalink=f"{BASE_HREF}{link}",
             **metadata,
         )
-        print(rendered, file=f)
+    )
 
 
 def render_memo_list(memos, taxon=None, taxa=[]):
@@ -302,7 +292,7 @@ def render_memo_list(memos, taxon=None, taxa=[]):
 
     link = "index.html"
     if taxon is not None:
-        link = os.path.join(TAXON_DIR, taxon["slug"] + ".html")
+        link = f"{TAXON_DIR}/{taxon['slug']}.html"
         metadata["taxon"] = taxon
         memos = [memo for memo in memos if taxon in memo["taxa"]]
 
@@ -319,7 +309,7 @@ def render_memo_feed(memos, taxon=None, num=10):
 
     link = "atom.xml"
     if taxon is not None:
-        link = os.path.join(TAXON_DIR, taxon["slug"] + ".xml")
+        link = f"{TAXON_DIR}/{taxon['slug']}.xml"
         memos = [memo for memo in memos if taxon in memo["taxa"]]
 
     metadata = {
@@ -355,13 +345,16 @@ memos_for_feeds = sorted(
     reverse=True,
 )
 
-dir_util.copy_tree("static", OUT_DIR)
-dir_util.copy_tree("MathJax/es5", os.path.join(OUT_DIR, "mathjax"))
+###############################################################################
+# Here be effects
 
-dir_util.mkpath(os.path.join(OUT_DIR, TAXON_DIR))
+shutil.rmtree(OUT_DIR, ignore_errors=True)
+shutil.copytree("static", OUT_DIR)
+shutil.copytree("MathJax/es5", Path(OUT_DIR, "mathjax"))
+Path(OUT_DIR, TAXON_DIR).mkdir()
 
 for source, target in HASHED_LINKS.items():
-    file_util.copy_file(os.path.join("hashed-static", source), os.path.join(OUT_DIR, target))
+    shutil.copy(Path("hashed-static", source), Path(OUT_DIR, target))
 
 render("robots.txt", "robots.txt")
 render("sitemap.xml", "sitemap.xml", memos=ALL_MEMOS, taxa=TAXA)

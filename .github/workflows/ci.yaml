@@ -12,8 +12,8 @@ jobs:
         run: |
           set -ex
           pip install flake8 black
-          black -l 100 build pandoc-filter-*
-          flake8 --max-line-length 100 build pandoc-filter-*
+          black build pandoc-filter-*
+          flake8 build pandoc-filter-*
           git diff --exit-code
   test:
     runs-on: ubuntu-latest
