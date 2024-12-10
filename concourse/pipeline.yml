@@ -11,10 +11,16 @@ resources:
     type: git
     source:
       uri: https://github.com/barrucadu/memo.barrucadu.co.uk.git
-  - name: memo-rsync
+  - name: memo-rsync--carcosa
     type: rsync-resource
     source:
       server: carcosa.barrucadu.co.uk
+      remote_dir: /persist/srv/http/barrucadu.co.uk/memo
+      private_key: ((carcosa-ssh-private-key))
+  - name: memo-rsync--yuggoth
+    type: rsync-resource
+    source:
+      server: yuggoth.barrucadu.co.uk
       remote_dir: /persist/srv/http/barrucadu.co.uk/memo
       private_key: ((carcosa-ssh-private-key))
 
@@ -51,7 +57,14 @@ jobs:
               - -cex
               - |
                 nix --extra-experimental-features "nix-command flakes" develop --command bash -c "./build --out=../site/${OUT_DIR}"
-      - put: memo-rsync
+      - put: memo-rsync--carcosa
+        no_get: true
+        params:
+          path: site/memo
+          rsync_args:
+            - --delete
+      - put: memo-rsync--yuggoth
+        no_get: true
         params:
           path: site/memo
           rsync_args:
