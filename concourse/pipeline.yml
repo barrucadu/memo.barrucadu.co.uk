@@ -7,6 +7,10 @@ resource_types:
       password: ((docker-registry-password))
 
 resources:
+  - name: nix-image
+    type: registry-image
+    source:
+      repository: mirror.gcr.io/nixos/nix
   - name: memo-git
     type: git
     source:
@@ -35,17 +39,15 @@ jobs:
   - name: build-and-deploy
     serial: true
     plan:
+      - get: nix-image
       - get: memo-git
         trigger: true
       - task: build-site
+        image: nix-image
         params:
           OUT_DIR: memo
         config:
           platform: linux
-          image_resource:
-            type: registry-image
-            source:
-              repository: nixos/nix
           inputs:
             - name: memo-git
           outputs:
